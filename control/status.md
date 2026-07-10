@@ -45,6 +45,12 @@ publish, no spend).
 
 - **orders acked:** 001
 - **orders done:** 001 (`docs/research/venture-eval-001.md` on main)
+- **ORDER 001 recommendation (carried):** build candidate #1 (membership-site
+  boilerplate kit) as the flagship + candidate #2 (template packs) as the
+  companion listing. Full reasoning: `docs/research/venture-eval-001.md`.
+- **worktree-race attribution (carried):** candidate #1 v0.2 landed under PR #7
+  (titled candidate-02) because of the shared-tree merge race;
+  `.sessions/2026-07-10-candidate-01-v02.md` documents the v0.2 build.
 - **inbox re-read at HEAD (this close):** only ORDER 001 present (still
   `status: new` per protocol — the manager never flips it); **no new order**
   appeared. Nothing new to ack.
