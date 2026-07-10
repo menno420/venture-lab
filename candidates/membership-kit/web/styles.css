@@ -1,0 +1,239 @@
+/* styles.css — values mirror design-tokens.json (single source of truth).
+   Self-contained: no external fonts, no CDN, no build step. */
+:root {
+  --bg: #0f1117;
+  --bg-elev: #171a23;
+  --surface: #1e222e;
+  --border: #2b3040;
+  --text: #e8eaf0;
+  --text-muted: #9aa1b2;
+  --primary: #6d5efc;
+  --primary-hover: #5a4be0;
+  --accent: #22d3a6;
+  --on-primary: #ffffff;
+
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace;
+
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-24: 6rem;
+
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-pill: 999px;
+
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.35);
+  --max-w: 1080px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--sp-6);
+}
+
+a { color: var(--accent); }
+
+/* ---- top bar ---- */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--sp-6) 0;
+}
+.brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+.brand .dot { color: var(--primary); }
+
+/* ---- hero ---- */
+.hero {
+  text-align: center;
+  padding: var(--sp-16) 0 var(--sp-12);
+}
+.eyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(34, 211, 166, 0.08);
+  border: 1px solid rgba(34, 211, 166, 0.25);
+  padding: var(--sp-2) var(--sp-3);
+  border-radius: var(--r-pill);
+  margin-bottom: var(--sp-6);
+}
+.hero h1 {
+  font-size: 3.5rem;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0 0 var(--sp-4);
+}
+.hero h1 .grad {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.hero p.lead {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: 0 auto var(--sp-8);
+}
+.cta-row {
+  display: flex;
+  gap: var(--sp-4);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ---- buttons ---- */
+.btn {
+  display: inline-block;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  padding: var(--sp-3) var(--sp-6);
+  border-radius: var(--r-md);
+  border: 1px solid transparent;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+.btn:active { transform: translateY(1px); }
+.btn-primary {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.btn-primary:hover { background: var(--primary-hover); }
+.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+.btn-ghost:hover { background: var(--surface); }
+
+/* ---- features ---- */
+.section { padding: var(--sp-16) 0; }
+.section h2 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 0 0 var(--sp-2);
+  letter-spacing: -0.01em;
+}
+.section .sub {
+  text-align: center;
+  color: var(--text-muted);
+  margin: 0 0 var(--sp-12);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--sp-6);
+}
+.card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: var(--sp-6);
+}
+.card .ico {
+  font-size: 1.4rem;
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--r-md);
+  background: rgba(109, 94, 252, 0.12);
+  margin-bottom: var(--sp-4);
+}
+.card h3 {
+  margin: 0 0 var(--sp-2);
+  font-size: 1.05rem;
+}
+.card p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* ---- pricing ---- */
+.pricing { display: flex; justify-content: center; }
+.price-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: var(--sp-12) var(--sp-8);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+.price-card .amount {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.price-card .amount .cur { color: var(--text-muted); font-size: 1.75rem; vertical-align: super; }
+.price-card .terms { color: var(--text-muted); margin: 0 0 var(--sp-6); }
+.price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--sp-8);
+  text-align: left;
+}
+.price-card li {
+  padding: var(--sp-2) 0;
+  padding-left: var(--sp-6);
+  position: relative;
+  color: var(--text);
+}
+.price-card li::before {
+  content: "✓";
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+.price-card .btn { width: 100%; }
+.price-card .note {
+  margin: var(--sp-4) 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* ---- footer ---- */
+footer {
+  border-top: 1px solid var(--border);
+  padding: var(--sp-8) 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 2.5rem; }
+  .hero p.lead { font-size: 1.05rem; }
+}

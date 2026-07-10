@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Membership-Site Boilerplate Kit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">membership<span class="dot">·</span>kit</div>
+      <a class="btn btn-ghost" href="#pricing">Get it</a>
+    </header>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="eyebrow">v0.1 · runs with zero accounts</span>
+        <h1>Launch a paid membership site<br /><span class="grad">this weekend.</span></h1>
+        <p class="lead">
+          Auth, Stripe payments, invite-on-purchase, and gated content —
+          already wired, already tested. See a purchase unlock the members
+          area in one command, before you sign up for anything.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#pricing">Get it — $49</a>
+          <a class="btn btn-ghost" href="members.html">See the members area</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Everything wired, nothing to glue</h2>
+        <p class="sub">The membership loop is built and tested — you extend it, you don't assemble it.</p>
+        <div class="grid">
+          <div class="card">
+            <span class="ico">🎬</span>
+            <h3>Runs with zero accounts</h3>
+            <p>Mock mode demonstrates the full purchase→access flow before you sign up for Stripe, Supabase, or Discord.</p>
+          </div>
+          <div class="card">
+            <span class="ico">💳</span>
+            <h3>Stripe, pre-wired</h3>
+            <p>A checkout-session route and a signature-ready webhook handler that grants membership the moment a payment lands.</p>
+          </div>
+          <div class="card">
+            <span class="ico">🔒</span>
+            <h3>Content that actually gates</h3>
+            <p>A membership store with a tested access check. Unpaid visitors get a clean 402 — paying members get in.</p>
+          </div>
+          <div class="card">
+            <span class="ico">🎟️</span>
+            <h3>Invite on purchase</h3>
+            <p>The Discord invite hook fires from the same webhook that unlocks access — new members land in your community instantly.</p>
+          </div>
+          <div class="card">
+            <span class="ico">✅</span>
+            <h3>Tested logic</h3>
+            <p>Grant, deny, and idempotent-duplicate cases pinned by a unittest suite that needs no network and no Stripe.</p>
+          </div>
+          <div class="card">
+            <span class="ico">🤖</span>
+            <h3>Agent-buildable</h3>
+            <p>Clean structure, explicit env markers, and readable READMEs so a coding agent — or you — can extend it in minutes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="wrap pricing">
+        <div class="price-card">
+          <div class="amount"><span class="cur">$</span>49</div>
+          <p class="terms">one-time · lifetime v0.x updates</p>
+          <ul>
+            <li>Stdlib backend (mock + real Stripe modes)</li>
+            <li>Landing page + gated members stub</li>
+            <li>Passing membership test suite</li>
+            <li>Brand tokens as editable data</li>
+            <li>Setup docs for Stripe / Supabase / Discord</li>
+          </ul>
+          <a class="btn btn-primary" href="#" aria-label="Get the kit for 49 dollars">Get it — $49</a>
+          <p class="note">Secure checkout. Instant download. 14-day refund.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Membership-Site Boilerplate Kit · v0.1 · built by the venture-lab fleet ·
+      documented, tested, agent-buildable
+    </div>
+  </footer>
+</body>
+</html>

@@ -19,6 +19,10 @@ should not be re-audited without a reported regression.)
 
 (Merged work only, newest first.)
 
+- Candidate #1 (membership-site boilerplate kit) v0.1 artifact:
+  [`candidates/membership-kit/`](../candidates/membership-kit/) — mock-mode
+  demonstrable; running status in
+  [`docs/research/venture-ledger.md`](research/venture-ledger.md).
 - ORDER 001 — venture-shortlist evaluation:
   [`docs/research/venture-eval-001.md`](research/venture-eval-001.md).
 - Walking skeleton (PR #2): branch → PR → CI → merge path proven.
