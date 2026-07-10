@@ -1,0 +1,133 @@
+{
+  "graduation": {
+    "criteria": {
+      "blocking_questions": 0,
+      "critical_slots_filled_pct": 0.8
+    },
+    "soft_target_sessions": 50
+  },
+  "graduation_proposed": false,
+  "kit_version": "1.6.0",
+  "last_compaction_session": 0,
+  "mode": "guided",
+  "mode_history": [
+    {
+      "date": "2026-07-10",
+      "mode": "guided",
+      "session": 0
+    }
+  ],
+  "open_questions": [],
+  "planted_doc_hashes": {
+    ".session-journal.md": "52f63681897adff1e0d81e9e525afa96d89548a6b7b761893e47badad4dd5e11",
+    "CONSTITUTION.md": "274f91f2523b1d1c299cf653767df9c60736e17cc9dc504b53cdbf6d5890b4f6",
+    "docs/AGENT_ORIENTATION.md": "90fcf46d8d08a23ad5f0db483641a37b267aeeef6fda55cc0f43dc7f9bd3c65c",
+    "docs/CAPABILITIES.md": "aae23723826a644e721304dfc395107c5d66e65d6edcf5814b915397bb9716ca",
+    "docs/ai-project-workflow.md": "b8b8d352ee46796c5557a36f2a187577bdd3b65e57a85c5a508cf2790b660e7b",
+    "docs/architecture.md": "13f31e0f593d9d7a2558598599839a012a20a4290b2c891828288946ab9eb8a9",
+    "docs/collaboration-model.md": "4a43540162d63c2e66c25eac4c699ea1e29908da289a48239ad6872e93da811f",
+    "docs/current-state.md": "f4ca3ef6afd461abbf78f5bbab5a96afce578f62357c4423c3ce25a3d0835d51",
+    "docs/decisions.md": "377727b60577819a6def480b799ba8a755819083d2380acc702cd189950a4f4b",
+    "docs/helper-policy.md": "69f377eed96ade7abfedaec18918f181423d2dc78a57b4632f3a3b26d322045b",
+    "docs/ideas/README.md": "70ebd2b242af698976fd1bc6b83d944b990005bd78d7b6e3d2d91231439e8274",
+    "docs/owner-profile.md": "e1fdc9c85fc2476036fdd34cdd119380ebb0632a1506ee62ccc94019eddad1e7",
+    "docs/ownership.md": "86cb49bc0d84e206d14f049ddd27a195e887fbcf4fb81b1a258ab62fd179c106",
+    "docs/question-router.md": "53693a7773cbb8f9e8f061c089d70c756f3be3ff9bdc776f7e23c99ffbf3669a",
+    "docs/repo-navigation-map.md": "7dad1b245aeeb06278673437d56c950423c5ae8331d13e18be2b82910314bafc",
+    "docs/runtime_contracts.md": "2bed6ae08cf18dd1571022127de3f8f419794c5046bfdb8934f1ccd00cab65c4"
+  },
+  "project_id": "c97374c29e5e",
+  "promotion_rights": "propose",
+  "quiet_sessions": 0,
+  "reflection_buffer": {
+    "active_count": 2,
+    "last_mined": "2026-07-10"
+  },
+  "review_log": [],
+  "session_count": 0,
+  "slot_values": {
+    "architecture_layers": {
+      "question_id": "Q-004",
+      "source": "user",
+      "value": "control-plane (manager<->lane bus), docs (research/ledgers/corpus), sessions"
+    },
+    "doc_roots": {
+      "question_id": "Q-007",
+      "source": "user",
+      "value": "docs"
+    },
+    "drift_resolution": {
+      "question_id": "Q-011",
+      "source": "user",
+      "value": "flag under needs-owner in control/status.md"
+    },
+    "integration_mode": {
+      "question_id": "Q-001",
+      "source": "user",
+      "value": "guided"
+    },
+    "mutation_seam": {
+      "question_id": "Q-009",
+      "source": "user",
+      "value": "control/ (manager<->lane coordination); PRs land via self-merge (auto-merge on green / REST fallback)"
+    },
+    "new_area_ownership": {
+      "question_id": "Q-013",
+      "source": "user",
+      "value": "the lane, until reassigned by the manager"
+    },
+    "owner_profile": {
+      "question_id": "Q-008",
+      "source": "user",
+      "value": "async owner (menno420), overnight autonomous operation, agents build / owner clicks"
+    },
+    "ownership_model": {
+      "question_id": "Q-006",
+      "source": "user",
+      "value": "single-lane, manager-directed (fleet manager writes control/inbox.md; the lane writes control/status.md)"
+    },
+    "primary_language": {
+      "question_id": "Q-003",
+      "source": "user",
+      "value": "markdown"
+    },
+    "project_name": {
+      "question_id": "Q-002",
+      "source": "user",
+      "value": "venture-lab"
+    },
+    "review_ritual": {
+      "question_id": "Q-010",
+      "source": "user",
+      "value": "post-merge review \u2014 merge-then-flag in docs/review-queue.md, veto=revert"
+    },
+    "staleness_review": {
+      "question_id": "Q-012",
+      "source": "user",
+      "value": "hourly wake ritual re-reads control/inbox.md at HEAD"
+    },
+    "verify_command": {
+      "question_id": "Q-005",
+      "source": "user",
+      "value": "python3 bootstrap.py check --strict"
+    }
+  },
+  "slots": {
+    "architecture_layers": "filled",
+    "doc_roots": "filled",
+    "drift_resolution": "filled",
+    "integration_mode": "filled",
+    "mutation_seam": "filled",
+    "new_area_ownership": "filled",
+    "owner_profile": "filled",
+    "ownership_model": "filled",
+    "primary_language": "filled",
+    "project_name": "filled",
+    "review_ritual": "filled",
+    "staleness_review": "filled",
+    "verify_command": "filled"
+  },
+  "stage": "integration",
+  "stance": "analysis",
+  "version": 1
+}
