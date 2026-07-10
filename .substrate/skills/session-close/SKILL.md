@@ -18,7 +18,7 @@ Close venture-lab's current session correctly.
    `control/README.md`). Withdraw stale asks; fewer, clearer asks beat
    complete lists.
 4. Idea backlog — groom one idea forward (the ideas-README lifecycle).
-5. Verify — run the project's checks: `${verify_command}` and `bootstrap check`.
+5. Verify — run the project's checks: `python3 bootstrap.py check --strict` and `bootstrap check`.
 6. Commit + push on the session branch; open the PR ready (not draft).
 7. Drive the PR to a terminal state — merge on green CI, or close with a reason.
 
