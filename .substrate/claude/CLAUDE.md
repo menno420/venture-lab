@@ -1,9 +1,3 @@
-> ⚠️ **UNRENDERED SLOTS BELOW — run `python3 bootstrap.py ask`.**
-> Every `${...}` token in this file is an unfilled interview slot, not
-> project truth. Fill: `bootstrap answer <slot> <value...>`, then
-> `bootstrap render --live` (fills in place and removes this banner).
-> Prose without `${...}` tokens is live guidance already.
-
 # venture-lab — agent working agreement
 
 > **Status:** `binding`
@@ -14,7 +8,7 @@
 
 ## What this project is
 
-venture-lab is built in ${primary_language}.
+venture-lab is built in markdown.
 
 ## Orientation — read first, in order
 
@@ -28,19 +22,19 @@ venture-lab is built in ${primary_language}.
 
 ## Architecture — layers & import rules
 
-${architecture_layers}
+control-plane (manager<->lane bus), docs (research/ledgers/corpus), sessions
 
 ## Verifying a change
 
 Run before every push:
 
 ```
-${verify_command}
+python3 bootstrap.py check --strict
 ```
 
 ## How the maintainer works
 
-${owner_profile}
+async owner (menno420), overnight autonomous operation, agents build / owner clicks
 
 ## Workflow adoption
 

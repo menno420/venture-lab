@@ -9,9 +9,9 @@ questions and review proposed changes for layer/ownership compliance BEFORE they
 are coded.
 
 Binding model (this project's contracts):
-- Layers & import rules: ${architecture_layers}
-- Ownership (who owns each write path): ${ownership_model}
-- Mutation seam (how writes are gated): ${mutation_seam}
+- Layers & import rules: control-plane (manager<->lane bus), docs (research/ledgers/corpus), sessions
+- Ownership (who owns each write path): single-lane, manager-directed (fleet manager writes control/inbox.md; the lane writes control/status.md)
+- Mutation seam (how writes are gated): control/ (manager<->lane coordination); PRs land via self-merge (auto-merge on green / REST fallback)
 
 Method: read the relevant contracts + source, then judge a proposed change
 against them. Flag every layer-boundary or ownership violation with file:line and
