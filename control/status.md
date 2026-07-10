@@ -5,22 +5,21 @@
 
 ---
 
-updated: 2026-07-10T03:13:29Z
+updated: 2026-07-10T03:26:55Z
 status: green
 
-- **timestamp:** 2026-07-10T03:13:29Z
-- **phase:** session 1 COMPLETE — ORDER 001 shipped + both repo gaps closed +
-  candidate #1 v0.1 artifact shipped
-- **health:** green (quality floor now enforceable; CI live)
-- **last-shipped PR:** #5 (candidate #1 membership-kit v0.1). This session also
-  landed #2 (walking skeleton), #3 (ORDER 001 eval), #4 (substrate-kit + CI
-  gate).
+- **timestamp:** 2026-07-10T03:26:55Z
+- **phase:** session 1 round 2 COMPLETE — candidate #1 advanced to v0.2
+  (persistence) + candidate #2 built to publish-ready v0.1
+- **health:** green
+- **last-shipped PR:** #7 — carried **BOTH** candidate #1 v0.2 AND candidate #2
+  due to a shared-tree merge race (see the worktree-race recipe in
+  [`docs/capabilities.md`](../docs/capabilities.md)). This session also landed
+  #2 (walking skeleton), #3 (ORDER 001 eval), #4 (substrate-kit + CI gate),
+  #5 (candidate #1 v0.1), #6 (status heartbeat).
 - **orders acked:** 001
 - **orders done:** 001 (`docs/research/venture-eval-001.md` on main)
 - **blockers:** none
-- **repo gaps (both CLOSED this session by PR #4):** substrate-kit v1.6.0
-  adopted, `python3 bootstrap.py check --strict` green; substrate-gate CI
-  workflow live (PRs now get a pending check).
 - **⚑ needs-owner:**
   - **ORDER 001 recommendation:** build candidate #1 (membership-site
     boilerplate kit) as flagship + candidate #2 (template packs) as companion
@@ -60,22 +59,35 @@ status: green
     Server Settings → Invites / Developer Portal → bot token →
     `DISCORD_INVITE_URL` in `server/.env`. · HOW: Create the free Supabase
     project and paste its URL + key; create the Discord server, generate an
-    invite (or bot token), paste `DISCORD_INVITE_URL`. · WHY: v0.1 uses an
-    in-memory store and a static invite URL; production needs a real DB and real
-    invite delivery — both require owner-owned accounts. · UNBLOCKS: Persistent
-    membership across restarts + real invite-on-purchase. · VERIFIED-WHEN:
-    Members survive a server restart (Supabase) and a purchase delivers a
-    working Discord invite.
-  - **minor observation (not blocking):** substrate-gate CI completes in ~5s,
-    faster than an auto-merge arm attempt can bind, so the pending-window is too
-    short to arm auto-merge; REST merge-on-green is the reliable lander. If the
-    owner wants the arm-in-pending path to work, add a small deliberate
-    delay/second job to the gate, or enable a required-check ruleset + repo
-    "Allow auto-merge".
-- **token-cost line (candidate #1):** eval ≈9k tokens amortized + ≈1 build
-  session for the v0.1 artifact; live-revenue steps owner-gated (⚑A/⚑B).
-  Return-on-agent-labor pending first sale.
-- **next (standing default, between orders):** advance candidate #1 to v0.2
-  (Supabase-backed persistence + real test-mode Stripe E2E once ⚑A lands)
-  and/or prep candidate #2 (template packs) as the companion listing; keep the
-  ledger honest.
+    invite (or bot token), paste `DISCORD_INVITE_URL`. · WHY: v0.2 ships a real
+    file-backed store that survives restart, but the production stack still
+    wants a hosted DB + real invite delivery — both require owner-owned
+    accounts. · UNBLOCKS: Hosted persistent membership + real
+    invite-on-purchase. · VERIFIED-WHEN: Members survive a server restart via
+    Supabase and a purchase delivers a working Discord invite.
+  - **⚑D — publish the template-packs listing (candidate #2)**
+    · WHAT: Publish `candidates/template-packs/LISTING.md` as a live product.
+    · WHERE: Gumroad or Lemon Squeezy → new product; source copy in
+    `candidates/template-packs/LISTING.md`, pack payload in
+    `candidates/template-packs/pack/`. · HOW: Create/sign in to the seller
+    account, paste the listing copy, set pay-what-you-want with a **$19
+    suggested** price, upload the `pack/` as a zip, press Publish. · WHY: An
+    unlisted pack earns nothing — publishing is the first-revenue path for
+    candidate #2. · UNBLOCKS: Candidate #2's first revenue + the membership-kit
+    bundle cross-sell. · VERIFIED-WHEN: The live listing URL resolves and a test
+    download works.
+  - **NOTE (not an owner action):** the kit's owner-action-fields checker
+    expects the literal tokens `WHY-IT-MATTERS`/`VERIFIED-NEEDED`, whereas this
+    ledger uses `WHY`/`VERIFIED-WHEN`. This is advisory-only and non-blocking
+    (check --strict exits 0), and it belongs to **substrate-kit** — the
+    coordinator is relaying it upstream; it is **not** fixed kit-side from this
+    repo.
+- **attribution note:** candidate #1 v0.2 landed under PR #7 (titled
+  candidate-02) because of the shared-tree race;
+  `.sessions/2026-07-10-candidate-01-v02.md` documents the v0.2 build.
+- **token-cost lines:** candidate #1 ≈1.x build sessions (v0.1 + v0.2),
+  candidate #2 ≈1 build session; return-on-agent-labor pending first sale
+  (owner-gated).
+- **next (standing default, between orders):** candidate #1 v0.3 — real
+  test-mode Stripe E2E once ⚑A lands, or wire the `SupabaseStore` query bodies;
+  keep the ledger honest; await owner clicks on ⚑A–⚑D for revenue.
