@@ -1,0 +1,22 @@
+[
+  {
+    "id": "R-0001",
+    "lesson": "The kit's CI gate is not just a quality floor \u2014 its control-plane fast lane",
+    "evidence": "2026-07-10-kit-adoption.md:L31",
+    "tags": [
+      "idea"
+    ],
+    "status": "provisional",
+    "date": "2026-07-10"
+  },
+  {
+    "id": "R-0002",
+    "lesson": "Recurring attention on docs/research/venture-eval-001.md",
+    "evidence": "2026-07-10-kit-adoption.md:L22, session-001.md:L9",
+    "tags": [
+      "recurring-path"
+    ],
+    "status": "provisional",
+    "date": "2026-07-10"
+  }
+]

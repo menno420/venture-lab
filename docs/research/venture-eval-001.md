@@ -1,6 +1,6 @@
 # venture-eval-001 — ranked evaluation of the opening shortlist
 
-> **Status:** `research` — ORDER 001 deliverable. Produced Fri Jul 10 02:03:10 UTC 2026 by the
+> **Status:** `reference` — ORDER 001 deliverable. Produced Fri Jul 10 02:03:10 UTC 2026 by the
 > venture-lab lane (session 1). Source corpus:
 > [`docs/corpus/venture-shortlist-2026-07-09.md`](../corpus/venture-shortlist-2026-07-09.md).
 
