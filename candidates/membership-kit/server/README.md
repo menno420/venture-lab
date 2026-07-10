@@ -39,10 +39,49 @@ curl http://localhost:8000/health                                # {mode, member
 | `/mock-purchase?email=`     | POST   | mock  | Grants membership like a real webhook (demo) |
 | `/create-checkout-session`  | POST   | both  | Real Stripe Checkout URL (if keyed), else mock hint |
 | `/webhook`                  | POST   | both  | Stripe event → grant + Discord invite |
-| `/health`                   | GET    | both  | Mode + member count |
+| `/health`                   | GET    | both  | Mode + store backend + member count |
 
 The **same** `handle_purchase_event()` runs for `/mock-purchase` and the real
 `/webhook`, so the mock flow exercises the exact grant logic that ships.
+
+## Persistence (v0.2) — members survive a restart
+
+Membership now lives behind a pluggable `MembershipStore` interface, selected by
+the `STORE_BACKEND` env var. The HTTP layer never knows which backend is active.
+
+| `STORE_BACKEND` | Backend        | Needs        | Notes |
+|-----------------|----------------|--------------|-------|
+| `json` (default)| `JsonFileStore`| nothing      | Persists to a JSON file with **atomic writes** (`os.replace`). Survives process restart. |
+| `supabase`      | `SupabaseStore`| Supabase keys| Drop-in-ready skeleton — see below. |
+
+Default (file-backed) — proves persistence with zero accounts:
+
+```bash
+python3 app.py                                                   # store=json
+curl -X POST "http://localhost:8000/mock-purchase?email=buyer@example.com"
+# Ctrl-C to kill, then re-run `python3 app.py`
+curl "http://localhost:8000/members?email=buyer@example.com"     # 200 — STILL a member
+```
+
+- File path defaults to `server/members.json`; override with `MEMBERS_DB_PATH`.
+- `members.json` is **git-ignored** — local member data is never committed.
+- Reading an absent DB writes nothing; the file appears only on the first grant.
+
+### Supabase drops in later — a config flip, no app rework
+
+`SupabaseStore` implements the **same** `MembershipStore` contract as the file
+store, so going hosted is:
+
+1. Fill `SUPABASE_URL` / `SUPABASE_KEY` in `.env` (owner-gated — no keys today).
+2. Set `STORE_BACKEND=supabase`.
+3. Fill the documented PostgREST call bodies in `SupabaseStore` (the request
+   shapes are written inline as comments next to each method).
+
+No change to `app.py` is required — the store is swapped at startup by
+`make_store()`. Guardrails: there is no top-level `supabase` import (importing
+the module never crashes on a missing package), and selecting the backend
+without keys raises a clear, actionable error **at startup** — *"set
+SUPABASE_URL/KEY or use STORE_BACKEND=json"* — rather than failing mid-request.
 
 ## Owner steps — wire real Stripe TEST keys
 

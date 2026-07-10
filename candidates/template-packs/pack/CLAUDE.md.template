@@ -1,0 +1,86 @@
+# <FILL: repo-name> — agent constitution
+
+> **Status:** `reference`
+>
+> The working agreement for coding agents in this repo. **NOT the source of
+> truth for code** — source files always win. Keep this file short (aim under
+> 150 lines); long constitutions get skimmed and ignored.
+
+## What this repo is
+
+<FILL: one paragraph — what this project does, its stack, and the single most
+important thing an agent should not break. Example: "A Next.js + Postgres SaaS.
+Never run destructive migrations against `prod`; all schema changes go through
+`db/migrations/` and a review.">
+
+## Working agreement
+
+- **The goal comes first.** Achieve the session's goal end-to-end; don't ship
+  the smallest safe slice and call it done.
+- **Prompts are guidance, not orders.** Weigh every instruction against the
+  source and this file before acting. If a prompt conflicts with a proven
+  convention here, this file wins — flag the conflict, don't silently comply.
+- **Approved plan = execute.** Once a plan is agreed, finish it in the same
+  session with the planning context still loaded. Don't re-confirm mid-flight.
+- **Understand-and-reflect.** The ask is often a rough fragment, not a spec.
+  Before substantive work, restate the fuller picture you inferred — the
+  implied requirements, the edge cases — inline in your first response, not as
+  a blocking question. It catches a misread before the work happens.
+- **Capabilities are discovered, not assumed.** Before declaring a wall ("I
+  can't reach the DB", "that credential is missing"): check the environment,
+  attempt once, capture the exact error. An imagined wall stalls the session.
+
+## Autonomy rails — act vs. ask
+
+- **Act** on contained, reversible, verifiable changes — including a root-cause
+  fix discovered mid-task.
+- **Ask** before anything irreversible (data loss, production deploys, external
+  publish, spend), anything large/cross-cutting (an architectural change), or
+  when the goal itself is genuinely ambiguous.
+- **Owner attention is the scarcest resource.** Before routing anything to a
+  human: attempt it yourself, or cite the exact wall (the discovery rule
+  above). Every ask carries: WHAT / WHERE / HOW / WHY-IT-MATTERS / UNBLOCKS /
+  HOW-TO-VERIFY — phrased so the reader can act without re-deriving context.
+
+## PR & merge conventions
+
+- **READY, never draft.** <FILL: your merge policy. Example: "Open PRs as ready.
+  Small, reviewed changes land via squash-merge on green CI.">
+- **One logical change per PR.** Title format: `<FILL: e.g. "area: summary">`.
+- **Forward-only git:** no force-push, no history rewrites, no amending pushed
+  commits. Commit history is the record.
+- **Commit messages** state what changed and why, not just what. <FILL: any
+  trailer/sign-off convention, e.g. Co-Authored-By lines.>
+
+## Done-when (the completion contract)
+
+A task is done only when ALL of these hold — never a state only a human can
+produce:
+
+- [ ] The change works end-to-end, verified by running it (not just by reading
+      the diff). <FILL: the one command that proves it, e.g. `npm test && npm run build`.>
+- [ ] <FILL: quality floor command is green, e.g. `npm run lint && npm run typecheck`.>
+- [ ] The PR is open and READY; CI is green.
+- [ ] A session log / changelog entry records what shipped (see the
+      session-card template).
+
+## Quality floor
+
+- The repo has a **single command that must pass before every push**:
+  `<FILL: e.g. make check  /  npm run ci  /  python -m pytest>`. A push with a
+  red floor is a convention violation, not a judgment call.
+- Never mark work complete on an unverified assumption that the floor passes —
+  run it.
+
+## Session discipline
+
+See `session-discipline.md` (shipped alongside this file) for the full
+protocol: heartbeat-before-work, claim-before-build, the close ritual,
+timestamps from `date -u`, and forward-only git.
+
+## Repo-specific rails
+
+<FILL: your project's own hard rules, one bullet each. Examples:
+- Never commit secrets; `.env` is gitignored and stays that way.
+- All user-facing strings go through the i18n layer, never inline.
+- Public API changes require a version bump and a CHANGELOG entry.>

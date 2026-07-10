@@ -1,15 +1,38 @@
-"""Proves the membership-grant logic. Stdlib only — no network, no Stripe.
+"""Proves the membership-grant logic AND persistence. Stdlib only — no
+network, no Stripe, no Supabase.
 
 Run:  python3 -m unittest test_membership -v
 """
+import os
+import tempfile
 import unittest
 
-from app import MembershipStore, handle_purchase_event, _checkout_event
+from app import (
+    JsonFileStore,
+    MembershipStore,
+    SupabaseStore,
+    handle_purchase_event,
+    make_store,
+    _checkout_event,
+)
 
 
 class MembershipGrantTests(unittest.TestCase):
+    """The v0.1 grant contract — now exercised through the real file store."""
+
     def setUp(self) -> None:
-        self.store = MembershipStore()
+        # Each test gets its own throwaway DB file; the store persists to it.
+        fd, self._db_path = tempfile.mkstemp(suffix="-members.json")
+        os.close(fd)
+        os.unlink(self._db_path)  # start from a clean (non-existent) path
+        self.store = JsonFileStore(self._db_path)
+
+    def tearDown(self) -> None:
+        for p in (self._db_path, self._db_path + ".tmp"):
+            try:
+                os.unlink(p)
+            except FileNotFoundError:
+                pass
 
     def test_purchase_event_grants_access(self) -> None:
         """A completed-checkout event grants membership + returns a Discord invite."""
@@ -51,6 +74,87 @@ class MembershipGrantTests(unittest.TestCase):
         """Granting with an empty email is rejected, not silently accepted."""
         with self.assertRaises(ValueError):
             self.store.grant("")
+
+
+class JsonFilePersistenceTests(unittest.TestCase):
+    """v0.2: membership survives a process restart (re-instantiation)."""
+
+    def setUp(self) -> None:
+        fd, self._db_path = tempfile.mkstemp(suffix="-members.json")
+        os.close(fd)
+        os.unlink(self._db_path)
+
+    def tearDown(self) -> None:
+        for p in (self._db_path, self._db_path + ".tmp"):
+            try:
+                os.unlink(p)
+            except FileNotFoundError:
+                pass
+
+    def test_fresh_path_starts_empty(self) -> None:
+        """A brand-new DB path has no members and writes nothing until a grant."""
+        store = JsonFileStore(self._db_path)
+        self.assertEqual(store.count(), 0)
+        self.assertEqual(store.all_members(), [])
+        self.assertFalse(os.path.exists(self._db_path))  # read alone creates no file
+
+    def test_access_survives_restart(self) -> None:
+        """Grant, drop the store, re-open the SAME file — access is still there."""
+        first = JsonFileStore(self._db_path)
+        first.grant("buyer@example.com", source="mock")
+        self.assertTrue(first.has_access("buyer@example.com"))
+
+        # Simulate a process restart: a fresh store reading the same file.
+        reopened = JsonFileStore(self._db_path)
+        self.assertTrue(reopened.has_access("buyer@example.com"))
+        self.assertEqual(reopened.count(), 1)
+        self.assertEqual(reopened.all_members()[0]["email"], "buyer@example.com")
+
+    def test_grant_idempotent_across_restart(self) -> None:
+        """Re-granting after a restart creates no duplicate (created=False)."""
+        JsonFileStore(self._db_path).grant("buyer@example.com")
+
+        reopened = JsonFileStore(self._db_path)
+        again = reopened.grant("buyer@example.com")
+        self.assertFalse(again["created"])   # already persisted before restart
+        self.assertEqual(reopened.count(), 1)
+
+    def test_writes_are_atomic_no_temp_left(self) -> None:
+        """Atomic write leaves no stray .tmp file behind."""
+        store = JsonFileStore(self._db_path)
+        store.grant("buyer@example.com")
+        self.assertTrue(os.path.exists(self._db_path))
+        self.assertFalse(os.path.exists(self._db_path + ".tmp"))
+
+    def test_make_store_defaults_to_json(self) -> None:
+        """The factory yields a JsonFileStore for the default backend."""
+        os.environ.pop("STORE_BACKEND", None)
+        os.environ["MEMBERS_DB_PATH"] = self._db_path
+        try:
+            store = make_store()
+            self.assertIsInstance(store, JsonFileStore)
+            self.assertIsInstance(store, MembershipStore)
+        finally:
+            os.environ.pop("MEMBERS_DB_PATH", None)
+
+
+class SupabaseSkeletonTests(unittest.TestCase):
+    """The Supabase backend is a drop-in skeleton — safe to import, guarded."""
+
+    def test_missing_keys_raise_actionable_error_at_construction(self) -> None:
+        """Selecting Supabase without keys fails fast with a clear message."""
+        with self.assertRaises(RuntimeError) as ctx:
+            SupabaseStore(url="", key="")
+        self.assertIn("STORE_BACKEND=json", str(ctx.exception))
+
+    def test_conforms_to_interface(self) -> None:
+        """It implements the same MembershipStore contract as the file store."""
+        self.assertTrue(issubclass(SupabaseStore, MembershipStore))
+        store = SupabaseStore(url="https://demo.supabase.co", key="fake-key")
+        # Method bodies are documented skeletons: they raise NotImplementedError
+        # (never a crash-on-import), signalling "fill me in" — not "broken app".
+        with self.assertRaises(NotImplementedError):
+            store.grant("buyer@example.com")
 
 
 if __name__ == "__main__":
