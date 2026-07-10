@@ -78,6 +78,17 @@ yt-dlp --skip-download --write-auto-sub <video-url>
 works via its android-vr endpoint; then parse the resulting `.vtt` file.
 (Discovered 2026-07-09, transcript+miner task.)
 
+### Run parallel file-mutating workers in isolated worktrees
+Parallel file-mutating subagents MUST run in isolated git worktrees (Agent
+`isolation:'worktree'` or `EnterWorktree`), or be serialized. Observed
+2026-07-10: two builders sharing one clone raced on git state —
+candidate-02's `git add -A` swept candidate-01 v0.2's uncommitted files into
+candidate-02's commit, landing both under one PR (#7, 6b4ad52) and muddling
+attribution. Content was byte-identical/correct, but a dedicated PR per
+workstream became impossible. Recipe: for concurrent builders touching the
+working tree, pass `isolation:'worktree'` so each gets its own checkout; only
+read-only parallel workers are safe in a shared clone.
+
 ## DISCOVERY RULE
 
 Before declaring anything impossible:
