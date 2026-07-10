@@ -9,7 +9,7 @@
 
 ## Candidate #1 — Membership-Site Boilerplate Kit
 
-- **Status:** `v0.2 artifact shipped (pluggable persistence survives restart; live payments owner-gated)`
+- **Status:** `v0.2 artifact shipped + buyer zip packaged + distribution assets shipped (live payments/publish owner-gated)`
 - **Artifact:** [`candidates/membership-kit/`](../../candidates/membership-kit/)
 - **Shipped (date -u):** v0.1 Fri Jul 10 03:04:32 UTC 2026 (build session 1) ·
   v0.2 Fri Jul 10 2026 (landed under PR #7 — see attribution note below)
@@ -41,6 +41,20 @@
   $49 pricing CTA + footer.
 - **Members stub** — `web/members.html`, the gated post-purchase view.
 - **Marketplace copy** — `LISTING.md`, publish-ready for Gumroad/Lemon Squeezy.
+- **Buyer bundle SHIPPED (packaging)** — `candidates/membership-kit/package.sh`
+  assembles a clean, buyer-facing zip (top-level `QUICKSTART.md` + README +
+  `server/` + `web/` + `design-tokens.json`; excludes seller `LISTING.md`,
+  runtime `members.json`, and build cruft) into
+  `candidates/membership-kit/dist/membership-kit-v0.2.zip`. Deterministic,
+  idempotent, and **committed**, so the owner just downloads and uploads — the
+  publish step (⚑B) no longer has an unbuilt dependency.
+- **Distribution assets** — real captured
+  [`docs/distribution/demo-transcript.md`](../distribution/demo-transcript.md)
+  (the mock purchase→access loop, verbatim curl output), ready-to-paste
+  [`docs/distribution/launch-posts.md`](../distribution/launch-posts.md) (Show
+  HN / Reddit / Claude-Code-community, no fabricated metrics), and a
+  [`candidates/BUNDLE-LISTING.md`](../../candidates/BUNDLE-LISTING.md) pairing
+  this kit with candidate #2 at $59 (vs $68 apart).
 - **Docs** — product `README.md` + `server/README.md` (run + wire-up).
 
 ### What is OWNER-GATED (documented, code-ready, NOT performed)
@@ -68,6 +82,12 @@ projection; the real number is "≈1.x focused build sessions," to be reconciled
 once measured. Return-on-agent-labor stays a projection until the owner
 publishes and the first sale lands.
 
+**This session (packaging + distribution):** est. **≈ 40–70k tokens**
+(candidate #1's share: `package.sh` + buyer `QUICKSTART.md` + the real demo
+capture + launch posts + this ledger update). Rough, not metered — the durable
+output is the committed `dist/*.zip` and the distribution assets, which turn the
+remaining owner work into pure download-and-upload.
+
 ### Next increment
 
 1. Owner wires Stripe test keys → run the live test-mode E2E (item ⚑A below).
@@ -80,7 +100,7 @@ publishes and the first sale lands.
 
 ## Candidate #2 — Agent-Workflow Template Packs
 
-- **Status:** `v0.1 publish-ready (real drop-in pack + $19 PWYW listing; publish owner-gated)`
+- **Status:** `v0.1 publish-ready + buyer zip packaged (real drop-in pack + $19 PWYW listing; publish owner-gated)`
 - **Artifact:** [`candidates/template-packs/`](../../candidates/template-packs/)
 - **Shipped (date -u):** Fri Jul 10 2026 (build session, landed under PR #7)
 
@@ -95,6 +115,15 @@ publishes and the first sale lands.
 - **Marketplace copy** — `LISTING.md`, a **$19 pay-what-you-want** listing that
   **cross-sells the membership-kit** (candidate #1), turning the two candidates
   into a bundle funnel.
+- **Buyer bundle SHIPPED (packaging)** — `candidates/template-packs/package.sh`
+  assembles a clean buyer zip (top-level `QUICKSTART.md` + `README.md` +
+  `INCLUDED.md` + the whole `pack/`; excludes seller `LISTING.md` and build
+  tooling) into `candidates/template-packs/dist/template-packs-v0.1.zip`.
+  Deterministic, idempotent, and **committed** — the publish step (⚑D) no longer
+  has an unbuilt dependency.
+- **Bundle listing** — [`candidates/BUNDLE-LISTING.md`](../../candidates/BUNDLE-LISTING.md)
+  pairs this pack with the membership-kit at $59 (vs $68 apart), riding
+  candidate #1's funnel.
 - **Docs** — `README.md` (what/why/how to install), `INCLUDED.md` (manifest of
   every file in the pack).
 
@@ -107,6 +136,11 @@ publishes and the first sale lands.
 
 Candidate #2 real spend: **≈ 1 build session** (pack authoring + listing copy +
 docs). Return-on-agent-labor pending publish + first sale (owner-gated).
+
+**This session (packaging + distribution):** est. **≈ 15–25k tokens**
+(candidate #2's share: `package.sh` + buyer `QUICKSTART.md` + the shared
+`BUNDLE-LISTING.md` + this ledger update). Rough, not metered; the durable
+output is the committed `dist/template-packs-v0.1.zip` and the bundle listing.
 
 ### Next increment
 
@@ -145,15 +179,20 @@ None of these have been performed. Each is queued for one owner action.
 - **WHAT:** Create a Gumroad **or** Lemon Squeezy account and publish the
   `LISTING.md` copy as a $49 product.
 - **WHERE:** gumroad.com or lemonsqueezy.com → new product; source copy in
-  `candidates/membership-kit/LISTING.md`.
+  `candidates/membership-kit/LISTING.md`; the **buyer file to upload is the
+  committed** `candidates/membership-kit/dist/membership-kit-v0.2.zip`.
 - **HOW:** Paste the title, tagline, description, bullets, FAQ, and $49 price
-  from `LISTING.md`; attach the kit zip; press Publish.
+  from `LISTING.md`; upload `candidates/membership-kit/dist/membership-kit-v0.2.zip`
+  as the product file; press Publish. (Re-build the zip anytime with
+  `sh candidates/membership-kit/package.sh`.) Optionally paste the copy from
+  `docs/distribution/launch-posts.md` into the channels afterward.
 - **WHY:** Distribution is the whole thesis for candidate #1 — the listing is
   the first-ten-customers channel, and it cannot exist without an owned
-  marketplace account (agents cannot create one).
+  marketplace account (agents cannot create one). The buyer zip now exists and
+  is committed, so this is pure download-and-upload.
 - **UNBLOCKS:** A live, purchasable listing — the first-revenue path.
-- **VERIFIED-WHEN:** The product has a public URL and a test purchase completes
-  checkout.
+- **VERIFIED-WHEN:** The product has a public URL, the uploaded
+  `membership-kit-v0.2.zip` downloads, and a test purchase completes checkout.
 
 ### ⚑C — (Optional) Supabase + Discord accounts for the full production stack
 
@@ -174,13 +213,16 @@ None of these have been performed. Each is queued for one owner action.
 
 - **WHAT:** Publish `candidates/template-packs/LISTING.md` as a live product.
 - **WHERE:** Gumroad **or** Lemon Squeezy → new product; source copy in
-  `candidates/template-packs/LISTING.md`, pack payload in
-  `candidates/template-packs/pack/`.
+  `candidates/template-packs/LISTING.md`; the **buyer file to upload is the
+  committed** `candidates/template-packs/dist/template-packs-v0.1.zip`.
 - **HOW:** Create/sign in to the seller account, paste the listing copy, set
-  pay-what-you-want with a **$19 suggested** price, upload the `pack/` as a zip,
-  press Publish.
+  pay-what-you-want with a **$19 suggested** price, upload
+  `candidates/template-packs/dist/template-packs-v0.1.zip` as the product file,
+  press Publish. (Re-build anytime with `sh candidates/template-packs/package.sh`.)
 - **WHY:** An unlisted pack earns nothing — publishing is the whole
   first-revenue path for candidate #2, and it cross-sells the membership-kit.
+  The buyer zip now exists and is committed, so this is pure download-and-upload.
 - **UNBLOCKS:** Candidate #2's first revenue + the membership-kit bundle
   cross-sell.
-- **VERIFIED-WHEN:** The live listing URL resolves and a test download works.
+- **VERIFIED-WHEN:** The live listing URL resolves and the uploaded
+  `template-packs-v0.1.zip` downloads.
