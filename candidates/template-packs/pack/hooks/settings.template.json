@@ -1,0 +1,36 @@
+{
+  "_comment": "Claude Code hooks template. STAGE this — do not auto-write your .claude/ tree. Copy the 'hooks' block into your repo's .claude/settings.json after reading hooks/README.md and adjusting every <FILL> path. All hooks below are advisory: they print a reminder and exit 0, never blocking a tool, an edit, or a session stop.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "<FILL: interpreter> <FILL: repo-root>/scripts/agent-orient.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "<FILL: interpreter> <FILL: repo-root>/scripts/session-close-check.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "<FILL: interpreter> <FILL: repo-root>/scripts/post-edit-reminder.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
