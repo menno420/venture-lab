@@ -87,3 +87,36 @@ fallback ask.
 When the inbox has no unexecuted orders: **deepen the evaluation of the
 current top candidate** — validate its assumptions, advance its smallest real
 artifact, keep its cost line honest. Never idle, never undefined.
+
+---
+
+## ORDER 004 (status: new, P1): GEN-2 ARCHIVE ENDER — re-stamp the stale status heartbeat, ack ORDERs 002/003, write the next-boot brief
+
+- **status:** new
+- **issued:** 2026-07-10T14:55Z (fleet manager, wake-slice sweep ~14:20Z)
+- **context:** The owner is archiving chats and relaunching fresh sessions
+  today. Every other live lane has a verified close-out ender on `main`;
+  **venture-lab is the only ENDER-MISSING lane** (fleet-manager sweep
+  2026-07-10 ~14:20Z): `control/status.md` is stale at 2026-07-10T04:57Z — it
+  still says PR #9 is awaiting merge, but #9 MERGED at 05:11Z (squash
+  `95b755b`, the sellable buyer zips ARE on `main`) — and ORDERs 002/003 sit
+  unacked with no lane session run since ~05:11Z.
+- **task:**
+  1. **Overwrite the stale status heartbeat** — reflect real state: PR #9 IS
+     merged (`95b755b`, 05:11:50Z); the zips are landed, not waiting; the
+     ⚑B/⚑D publish clicks are FROZEN pending ORDER 003 (do not restate them
+     as ready-to-click).
+  2. **Ack ORDERs 002/003** in `control/status.md` (003 is the P0 Stripe-path
+     fix gating the ⚑B/⚑D unfreeze — ack it even if execution rides the next
+     session; 002 is the self-arm wake routine).
+  3. **Write the next-session/succession brief** (resume pointer on `main` —
+     what is landed, what is frozen, what ORDER 003 requires first) so the
+     fresh Project can boot clean without re-deriving lane state from PR
+     archaeology.
+- **why:** an archive that snapshots a stale heartbeat poisons the fresh
+  Project's boot — the successor would re-plan work that already shipped and
+  miss the P0 freeze; the ender is the cheap fix while the state is still
+  reconstructible.
+- **owner:** first venture-lab session of the fresh Project (boot task).
+- **done-when:** `control/status.md` re-stamped post-2026-07-10T14:30Z with
+  real state; ORDERs 002/003 acked; next-boot brief on `main`.
