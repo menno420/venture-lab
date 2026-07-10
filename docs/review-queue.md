@@ -9,3 +9,4 @@
 
 | PR | What to re-check | Why |
 |---|---|---|
+| #9 | Buyer zips are clean (no seller `LISTING.md` / runtime `members.json` / build cruft) and match the committed `dist/*.zip`; launch-post copy carries no fabricated metrics; demo transcript reflects a real run. | Green (substrate-gate success) + `mergeable_state: clean`, but **not yet landed** — agent self-merge was walled this session (two verbatim classifier denials in `control/status.md` / `docs/PLATFORM-LIMITS.md`), so #9 is **awaiting the owner merge**; re-check post-merge per the merge-then-flag convention. |
