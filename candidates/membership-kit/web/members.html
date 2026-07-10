@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Members Area — Membership-Site Boilerplate Kit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">membership<span class="dot">·</span>kit</div>
+      <a class="btn btn-ghost" href="index.html">← Home</a>
+    </header>
+  </div>
+
+  <main>
+    <section class="hero" style="padding-bottom: 2rem;">
+      <div class="wrap">
+        <span class="eyebrow">🔓 access granted</span>
+        <h1 style="font-size:2.5rem;">Welcome, member.</h1>
+        <p class="lead">
+          This is the gated area a paying member sees after purchase. In the
+          live kit, the backend verifies membership before serving this page —
+          unpaid visitors are redirected to checkout.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="wrap">
+        <div class="grid">
+          <div class="card">
+            <span class="ico">📥</span>
+            <h3>Download the kit</h3>
+            <p>Member-only files, source, and updates would live here behind the access check.</p>
+          </div>
+          <div class="card">
+            <span class="ico">🎟️</span>
+            <h3>Join the Discord</h3>
+            <p>Your invite was generated on purchase. In production this button carries your <code>DISCORD_INVITE_URL</code>.</p>
+          </div>
+          <div class="card">
+            <span class="ico">📚</span>
+            <h3>Members-only guides</h3>
+            <p>Gated content — tutorials, changelog, and setup walkthroughs served only to authenticated members.</p>
+          </div>
+        </div>
+        <p class="sub" style="margin-top:3rem;">
+          Stub page for v0.1 — the access decision is enforced server-side in
+          <code>server/app.py</code> (<code>/members</code> route) and covered
+          by <code>server/test_membership.py</code>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Members area · Membership-Site Boilerplate Kit v0.1</div>
+  </footer>
+</body>
+</html>

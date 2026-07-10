@@ -1,0 +1,55 @@
+{
+  "$comment": "Brand/design tokens as hard data. The landing page (web/styles.css) mirrors these values. Rebrand by editing here and updating the matching CSS custom properties.",
+  "name": "Membership-Site Boilerplate Kit",
+  "version": "0.1.0",
+  "color": {
+    "bg":         "#0f1117",
+    "bg-elev":    "#171a23",
+    "surface":    "#1e222e",
+    "border":     "#2b3040",
+    "text":       "#e8eaf0",
+    "text-muted": "#9aa1b2",
+    "primary":    "#6d5efc",
+    "primary-hover": "#5a4be0",
+    "accent":     "#22d3a6",
+    "on-primary": "#ffffff"
+  },
+  "font": {
+    "stack-sans": "system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+    "stack-mono": "'SFMono-Regular', ui-monospace, Menlo, Consolas, monospace",
+    "weight-regular": 400,
+    "weight-medium": 500,
+    "weight-bold": 700,
+    "scale": {
+      "sm":   "0.875rem",
+      "base": "1rem",
+      "lg":   "1.25rem",
+      "xl":   "1.75rem",
+      "2xl":  "2.5rem",
+      "3xl":  "3.5rem"
+    }
+  },
+  "space": {
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "12": "3rem",
+    "16": "4rem",
+    "24": "6rem"
+  },
+  "radius": {
+    "sm": "6px",
+    "md": "10px",
+    "lg": "16px",
+    "pill": "999px"
+  },
+  "shadow": {
+    "card": "0 8px 30px rgba(0,0,0,0.35)"
+  },
+  "layout": {
+    "max-width": "1080px"
+  }
+}
