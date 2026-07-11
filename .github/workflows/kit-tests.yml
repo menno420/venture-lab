@@ -1,0 +1,28 @@
+# HOST-OWNED companion to substrate-gate. The gate workflow is
+# KIT-OWNED (adopt/upgrade regenerates it; hand edits are overwritten
+# and its header says host customizations belong in a SEPARATE file) —
+# so the candidate test suites run here instead.
+# Purpose: make "real-path HTTP-layer tests GREEN in CI" a named,
+# enforced check — runs the membership-kit server suites, including
+# the ORDER 003 real-path HTTP tests (test_http_realpath), which start
+# the actual app.py server and drive signed Stripe fixture payloads
+# over real HTTP. Stdlib-only, no external deps. unittest exits
+# nonzero on any failure, so a failing test reds this check.
+# (template-packs ships no test suite at HEAD; add it here when one
+# exists.)
+name: kit-tests
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  membership-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: membership-kit server tests (unit + ORDER 003 real-path HTTP)
+        working-directory: candidates/membership-kit/server
+        run: python3 -m unittest test_membership test_http_realpath -v
