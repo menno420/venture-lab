@@ -1,41 +1,66 @@
-# venture-lab — next-session / succession brief
+# NEXT SESSION — venture-lab resume brief
 
 > **Status:** `reference`
->
-> Resume pointer on `main` for the first venture-lab session of a fresh Project.
-> Boot clean from this — do NOT re-derive lane state from PR archaeology.
-> Written 2026-07-11 (ORDER 004, gen-2 archive ender). Authoritative live state: `control/status.md`; unexecuted orders: `control/inbox.md` (diff against status).
+
+> Rewritten at archive close-out 2026-07-11. Cold-start brief for the session
+> that resumes venture-lab after the coordinator chat is archived. Read this
+> first, then docs/retro/2026-07-11-coordinator-retro.md.
 
 ## Boot ritual
-1. Land on origin/main HEAD; `python3 bootstrap.py check --strict` must be exit 0 before any push.
-2. Read `control/inbox.md` at HEAD — orders stay `status: new`; diff against `control/status.md` `done=` lines to find what is unexecuted. A `new` ORDER outranks plans.
-3. You NEVER edit `control/inbox.md` (manager-written). You overwrite `control/status.md` wholesale as the deliberate LAST step, after a final inbox re-read at HEAD.
 
-## What is LANDED (on main)
-- **PR #9** (`95b755b`, merged 2026-07-10T05:11:50Z): sellable buyer zips + distribution assets. Buyer zips: `candidates/membership-kit/dist/membership-kit-v0.2.zip`, `candidates/template-packs/dist/template-packs-v0.1.zip`. Plus `candidates/BUNDLE-LISTING.md` ($59), `docs/distribution/launch-posts.md`, `docs/distribution/demo-transcript.md`. Repeatable `package.sh` per candidate.
-- **Kit v1.7.1** on main (#13 `ce22315`, #14 `7558cb2`) — kit-maintenance, not venture-lane work.
-- **ORDER 001 eval:** `docs/research/venture-eval-001.md` — candidate #1 (membership-kit) flagship, #2 (template-packs) companion.
+1. Land on `origin/main` HEAD (`git fetch origin main && git reset --hard origin/main`).
+2. Read `control/inbox.md` at HEAD — MANAGER-written, append-only, orders stay
+   `status: new`. **Never edit it.** Diff inbox orders against status.md `done=`
+   lines to see what is unexecuted.
+3. `python3 bootstrap.py check --strict` must be **exit 0** before any push.
+4. Overwrite `control/status.md` **wholesale as the last step** of a turn.
+5. Re-arm the wake chain per **ORDER 002** (see Wake mechanics).
 
-## What is FROZEN ❄️ (do NOT publish)
-- **⚑B ($49 membership-kit)** and **⚑D ($19 template-packs)** publish clicks are FROZEN until ORDER 003 (real-Stripe-path fix) is MERGED with the real-path HTTP-layer test GREEN in CI. Do not request either click before that.
-- **THE D1 LESSON (binding forever):** never claim a payment path works without EXECUTING it. The $49 kit's "Stripe pre-wired" headline had 13 green tests that injected synthetic events authored from memory. But real `checkout.session.completed` events carry **`customer_email: null`** — the buyer address is in **`customer_details.email`**. And the success-URL used an invalid **`{CHECKOUT_EMAIL}`** placeholder; Stripe supports **`{CHECKOUT_SESSION_ID}`** only. Test payment code against VENDORED real Stripe sample payloads at the HTTP layer — never payloads synthesized from memory.
+## Repo map — what exists
 
-## What ORDER 003 (P0) requires before unfreeze
-1. **D1a:** the grant path reads the buyer email from `customer_details.email` (not `customer_email`, which is null on live events); also pass the buyer email into the checkout session at creation so the webhook has it deterministically.
-2. **D1b:** replace the `{CHECKOUT_EMAIL}` success-URL placeholder with `{CHECKOUT_SESSION_ID}` (the only one Stripe supports).
-3. **Real-path HTTP-layer test:** hit the webhook route over HTTP with a VENDORED Stripe sample payload (copied from Stripe's documented samples, never memory) + signature handling; add buyer-route HTTP tests (currently zero).
-4. **D2:** refresh the buyer-zip README to v0.2 reality (file-backed store, not v0.1 in-memory).
-5. **D3:** a keyless buyer must get a loud "MOCK mode — no real payments" signal, not silent success.
-6. **Rebuild both zips** via `package.sh`; commit the refreshed dists.
-- **Done-when:** fixes merged to main + real-path HTTP test green in CI + both zips rebuilt + status notes "⚑B/⚑D unfreeze requested" with links to the merged fix PR + green real-path run. The manager relays the unfreeze to the owner queue (playbook R23: a sell-click ships only with non-author, real-path verification evidence).
-- **Prereq for live E2E (not for the merge):** ⚑A — owner pastes Stripe test keys (env names `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`).
+### 4 sellable digital products (all UNPUBLISHED — sell-clicks are owner ⚑)
+- **membership-kit** — $49 (⚑B). Real-Stripe-path fixed; fail-closed on partial config (#49).
+- **template-packs** — $19 (⚑D).
+- **Stripe webhook test-kit** — $29 (⚑E).
+- **Agent Fleet field manual** — $39 (⚑F).
 
-## Landing / merge wall (re-verified 2026-07-11 — STILL UP)
-- Self-merge is classifier-walled without genuine-user auth (PR #9 got two verbatim denials; re-verified again 2026-07-11 on the ORDER-004 PR — BOTH the REST self-merge AND the auto-merge arm were denied; the arm denial cites "substrate-gate not required," so the owner-noted "make required + enable auto-merge" change is not yet effective). See `docs/PLATFORM-LIMITS.md` and `control/status.md` BLOCKER. REFUSAL BRANCH: the first denial per path is terminal — never retry/reword; leave the PR READY+green, record the refusal verbatim in status + PLATFORM-LIMITS, ⚑ the owner. Done-when degrades to "PR open, READY, green."
-- **Owner action still needed:** either merge ORDER-004-style PRs by hand (⚑ HOT click) OR complete the systemic fix (make substrate-gate a required check, or add a `GITHUB_TOKEN` merge-on-green workflow) so agent PRs land unattended.
+### Creative library (locations)
+- Children's-book concepts — corpus + PRs #45 (6 originals) / #47 (adaptation track + Star Pirates).
+- **DREAMLINE** series bible + Book 1 outline & ch 1–3 — PR #44.
+- **Bababoefoe** plushy brand (stories + QR story-site + phased plan) — PR #46; needs ⚑G GitHub Pages.
+- **photo-packs** — compliant watermarked previews merged (#52); originals exposure via #51 (see retro).
 
-## Routines (ORDER 002, armed from the coordinator seat)
-15-min `send_later` pacemaker chain + 2-hourly cron failsafe ("venture-lab failsafe wake", cron `0 */2 * * *`, trig_01X1dw1L1Udgt8atzzNWEJic). Verbatim create-args in `control/status.md` ORDER-002 section.
+## Merge topology (critical)
 
-## Standing default (between orders)
-Deepen the current top candidate — validate its assumptions, advance its smallest real artifact, keep its token-cost line honest. Never idle undefined.
+Child seats **cannot self-land** — relayed or file-encoded authorization is never
+genuine (4+ terminal classifier denials on 2026-07-11). Merges run from the
+**coordinator seat** under the owner's **genuine in-session standing
+instruction**, cited per action. **Never encode the grant into repo files** — an
+[Instruction Poisoning] denial ruled that laundered authorization. A denial is
+**terminal**: record verbatim, leave the PR READY + green, ⚑ the owner. Full
+detail: docs/retro/2026-07-11-coordinator-retro.md.
+
+## Wake mechanics
+
+Coordinator seat lacks `send_later`; arm wake links via **Agent workers** calling
+`mcp__claude-code-remote__send_later`. Idle cadence **45 min**; dedupe by
+checking pending one-shots first. Failsafe cron was
+`trig_01X1dw1L1Udgt8atzzNWEJic` (`0 */2 * * *`) — **not re-armed at archive**; a
+fresh session re-arms per ORDER 002.
+
+## Owner actions (⚑) — HOT first
+
+1. **⚑ Close PR #51 + delete branch `menno420-patch-1`** (photo exposure). HOT.
+2. **⚑ Disposition PR #38** (stale codex pre-publish review, superseded by #49).
+3. **⚑B** membership-kit $49 · **⚑D** template-packs $19 · **⚑E** test-kit $29 · **⚑F** field manual $39.
+4. **⚑** gotcha article · **⚑G** Bababoefoe GitHub Pages · **⚑A** Stripe test keys · **⚑** photo sales channel · **⚑** optional Supabase.
+
+## Owner creative picks
+
+- Manuscripts: Star Pirates / Comet Biscuit / Tummel / Dormouse (shortlist).
+- Language per title · Star Pirates band · DREAMLINE 4 names + continue past ch3.
+
+## Where the retro lives
+
+- Chat-only knowledge: `docs/retro/2026-07-11-coordinator-retro.md`
+- One-paragraph true state + full ⚑ list: `docs/retro/archive-ready-2026-07-11.md`
