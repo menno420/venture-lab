@@ -1,0 +1,6 @@
+# slug<TAB>url — Bababoefoe QR targets (source of truth for printed tags)
+pirate-bababoefoe	https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/pirate-bababoefoe.html
+chef-bababoefoe	https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/chef-bababoefoe.html
+police-bababoefoe	https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/police-bababoefoe.html
+santa-bababoefoe	https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/santa-bababoefoe.html
+witch-bababoefoe	https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/witch-bababoefoe.html

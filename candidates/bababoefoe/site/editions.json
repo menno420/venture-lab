@@ -1,0 +1,58 @@
+{
+  "brand": "Bababoefoe",
+  "tagline": "Round, fluffy, and never adventuring alone.",
+  "//": "SOURCE OF TRUTH for physical tags. base_url is where GitHub Pages serves the built site (see build.py + MAKE-IT-REAL-PLAN Phase 0). Each edition's `url` is base_url + slug + '.html' and MUST stay stable once a QR tag is printed. `story` is the markdown source relative to this site/ dir.",
+  "base_url": "https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/",
+  "editions": [
+    {
+      "id": "ed-001",
+      "name": "Pirate Bababoefoe",
+      "colorway": "teal",
+      "slug": "pirate-bababoefoe",
+      "story": "../stories/pirate-bababoefoe.md",
+      "keepsake": "a crumb treasure-map",
+      "seasonal": false,
+      "url": "https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/pirate-bababoefoe.html"
+    },
+    {
+      "id": "ed-002",
+      "name": "Chef Bababoefoe",
+      "colorway": "orange",
+      "slug": "chef-bababoefoe",
+      "story": "../stories/chef-bababoefoe.md",
+      "keepsake": "a tiny warm baguette",
+      "seasonal": false,
+      "url": "https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/chef-bababoefoe.html"
+    },
+    {
+      "id": "ed-003",
+      "name": "Police Bababoefoe",
+      "colorway": "blue",
+      "slug": "police-bababoefoe",
+      "story": "../stories/police-bababoefoe.md",
+      "keepsake": "a tiny silver whistle",
+      "seasonal": false,
+      "url": "https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/police-bababoefoe.html"
+    },
+    {
+      "id": "ed-004",
+      "name": "Santa Bababoefoe",
+      "colorway": "brown",
+      "slug": "santa-bababoefoe",
+      "story": "../stories/santa-bababoefoe.md",
+      "keepsake": "a small golden bell",
+      "seasonal": true,
+      "url": "https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/santa-bababoefoe.html"
+    },
+    {
+      "id": "ed-005",
+      "name": "Witch Bababoefoe",
+      "colorway": "purple",
+      "slug": "witch-bababoefoe",
+      "story": "../stories/witch-bababoefoe.md",
+      "keepsake": "a single dried aster",
+      "seasonal": true,
+      "url": "https://menno420.github.io/venture-lab/candidates/bababoefoe/site/dist/witch-bababoefoe.html"
+    }
+  ]
+}
