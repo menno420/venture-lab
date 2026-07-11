@@ -23,6 +23,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: membership-kit server tests (unit + ORDER 003 real-path HTTP)
+      - name: membership-kit server tests (unit + ORDER 003 real-path HTTP + SupabaseStore)
         working-directory: candidates/membership-kit/server
-        run: python3 -m unittest test_membership test_http_realpath -v
+        run: python3 -m unittest test_membership test_http_realpath test_supabase_store -v
