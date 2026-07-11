@@ -15,6 +15,8 @@ should not be re-audited without a reported regression.)
 
 (Verify against live source control — this section is a dated snapshot.)
 
+- [Launch & distribution assets](launch/README.md)
+
 ## Recently shipped (newest first)
 
 (Merged work only, newest first.)
