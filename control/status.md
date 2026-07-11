@@ -5,14 +5,28 @@
 
 ---
 
-updated: 2026-07-11T10:08:57Z
+updated: 2026-07-11T17:45:00Z
 status: green
 
-- **timestamp:** 2026-07-11T10:08:57Z (ORDER 006 self-review slice; prior heartbeat 2026-07-11T02:58:38Z)
-- **phase:** work loop — **launch-ready ×3 products (membership-kit, template-packs, stripe-webhook-test-kit)**. The frontier is now **owner-gated** (publish clicks + Stripe keys); no unqueued agent-doable build work remains — **idling on backpressure** until owner return or new orders.
-- **health:** green — `python3 bootstrap.py check --strict` → **exit 0 / green** (verified this slice on the heartbeat branch; bare invocation can red by design mid-slice on a fresh born-red card, so pushes are gated on the named-card form `--session-log .sessions/2026-07-11-coordinator-heartbeat-c.md`, green before push).
+- **timestamp:** 2026-07-11T17:45:00Z (⚑F queue + ledger slice; prior write 2026-07-11T10:08:57Z ORDER 006)
+- **phase:** work loop — **launch-ready ×4 products (membership-kit, template-packs, stripe-webhook-test-kit, agent-fleet-field-manual)**. The frontier is **owner-gated** (publish clicks + Stripe keys); the book project (dream-series) is in flight; otherwise **idling on backpressure** until owner return or new orders.
+- **health:** green — `python3 bootstrap.py check --strict` → **exit 0 / green** (verified this slice; bare invocation can red by design mid-slice on a fresh born-red card, so pushes are gated on the named-card form `--session-log .sessions/2026-07-11-queue-f-field-manual-publish.md`, green before push).
 - **kit heartbeat:** kit: v1.10.1 · check: green (`--strict` exit 0 at flip) · engaged: yes — written by the kit v1.10.1 distribution session (PR #34), this line only.
-- **HEAD at write:** `a658863` (origin/main, ORDER 006 relay merged as PR #35).
+- **HEAD at write:** `9226e22` (origin/main, PR #41 field manual merged).
+
+## NEW NEGATIVE — field-manual build over budget (ledgered, second consecutive miss)
+
+The Agent Fleet Field Manual build ran **~200k agent-effort tokens against its
+intake's 90k cap (≈2.2×)** (coordinator-metered figure, this slice; the build
+session itself honestly labelled its own number "estimate, press against or
+modestly strain" — the metered figure is worse). This is the **second
+consecutive intake-budget miss** (test-kit: ~284k vs 120k, ~2.3×, PR #29
+`74894e5`). **Pattern named:** writing/build slices systematically exceed
+their caps by ~2×. Forward guard: future intakes should either **double their
+caps honestly or cut scope** — a cap that is silently exceeded every time is
+not a cap. The artifact itself shipped, was independently spot-reviewed
+(non-author, verdicts below/⚑F), and the overrun changes nothing the buyer
+receives — but the budget line is a miss, headlined per the kill rule.
 
 ## Self-review 2026-07-11 (ORDER 006)
 
@@ -56,6 +70,10 @@ Shipped #15–#29 + #31 today (state repair, real-Stripe-path fix, capabilities 
   - **PR #25** `9253d86` — 3 new candidate intakes + eval addendum (re-ranking; next slice recommendation).
   - **PR #27** `28ff800` — **Stripe Webhook Test Kit v0.1** — harness, 3 vendored real-shape fixtures with provenance, 14-test HTTP suite, deterministic zip.
   - **PR #28** `fc7f39c` — swtk suite wired into kit-tests CI as a named check; **14/14 green on PR head and on main**.
+  - **PR #39** `c22922d` — intake: 4 guide/book/info-product candidates + re-rank addendum.
+  - **PR #40** `ea69c49` — ledger: guard-fires telemetry line from the ORDER 006 slice.
+  - **PR #41** `9226e22` — **Agent Fleet Field Manual v0.1** ($39 book, candidate #4, teammate-authored; 11 cited chapters, 2 free; byte-reproducible zip sha256 `7eff9235…a29176`); merged with all three checks green on head `c77ce0d`.
+  - **This PR** — ⚑F queued (field-manual publish OWNER-ACTION flipped NOT-QUEUED → QUEUED with merge/CI/spot-review/zip evidence) + this ledger extension + the NEW NEGATIVE headline above; card `.sessions/2026-07-11-queue-f-field-manual-publish.md`.
 
 ## NEGATIVE — test-kit build over budget (ledgered, per kill rule)
 
@@ -122,7 +140,7 @@ Appended 2026-07-11 (verbatim classifier findings):
 1. **Stripe Webhook Test Kit** $29 — **4.05** (**BUILT** — PR #27/#28; ⚑E queued)
 2. membership-kit $49 — 3.80 (built)
 3. template-packs $19 — 3.63 (built)
-4. Agent Fleet Field Manual $39 — 3.55
+4. Agent Fleet Field Manual $39 — 3.55 (**BUILT** — PR #41 `9226e22`, un-deferred by owner steer event 4df864d6; ⚑F queued)
 5. CC Cost Lens $15 — 3.10
 6. productized sites — 2.90 · 7. sponsorship — 2.85 · 8. affiliate dirs — 2.65
 
@@ -136,6 +154,9 @@ Appended 2026-07-11 (verbatim classifier findings):
 
 - **⚑E — publish stripe-webhook-test-kit at $29 — QUEUED (2026-07-11) ✅**
   · STATUS: **QUEUED** this slice — both gates met (in-CI green on head `b5b99cd` + main `fc7f39c`; R23 non-author verification, record above). · WHAT: publish per the six-field click script `docs/launch/stripe-webhook-test-kit/publish-owner-action.md`, uploading `candidates/stripe-webhook-test-kit/dist/stripe-webhook-test-kit-v0.1.zip`. · UNBLOCKS: candidate-ranking #1 first-revenue path + the first-ten-customers funnel. · VERIFIED-WHEN: live listing URL returns HTTP 200 (CI leg already satisfied).
+
+- **⚑F — publish the Agent Fleet Field Manual at $39 — QUEUED (2026-07-11) ✅**
+  · STATUS: **QUEUED** this slice — evidence reviewed by the coordinator seat: PR #41 merged `9226e22`, all three checks green on head `c77ce0d`, NON-AUTHOR spot-review of both free chapters all-CONFIRMED/none-refuted, zip sha256 `7eff9235024619a632020c06f7c47da24667f8134c828715694eaa8755a29176` recomputed on main. · WHAT: publish per the six-field click script `docs/launch/agent-fleet-field-manual/publish-owner-action.md`, uploading `candidates/agent-fleet-field-manual/dist/agent-fleet-field-manual-v0.1.zip` at $39. Gumroad-hosted — no custom payment path, so the D1/Stripe gate does not apply. Conservative: 0–4 sales/90d ($0–$156); $0 without distribution. · UNBLOCKS: candidate #4 first-revenue path + the free-chapter validation funnel. · VERIFIED-WHEN: live listing URL returns HTTP 200 on a purchasable $39 page AND ≥2 free chapters are live.
 
 - **⚑ — publish the free gotcha article**
   · WHAT: publish `docs/launch/stripe-webhook-test-kit/gotcha-article.md` (free funnel top). · WHY: the test-kit's **validation-signal clock starts at article publish** per its INTAKE kill rule — downstream candidates #4/#5 wait on this signal. · VERIFIED-WHEN: article live at a public URL.
@@ -159,7 +180,8 @@ Questions the sim-lab should price before/alongside test-kit distribution:
 
 ## Token-cost line (carried; "estimate" where not measured)
 
-- **NEW (measured this slice): Stripe Webhook Test Kit build ≈ 284k agent-effort tokens vs the 120k intake cap (~2.3×; ~90k of it CI-status polling)** — see the NEGATIVE block above.
+- **NEW (coordinator-metered, this slice): Agent Fleet Field Manual build ≈ 200k agent-effort tokens vs the 90k intake cap (≈2.2×)** — see the NEW NEGATIVE block at the top; second consecutive intake-budget miss, pattern + forward guard named there.
+- **Measured (prior slice): Stripe Webhook Test Kit build ≈ 284k agent-effort tokens vs the 120k intake cap (~2.3×; ~90k of it CI-status polling)** — see the NEGATIVE block above.
 - **2026-07-11 sessions (ORDER 003/004 slices, kit v1.8.0, capabilities merge, CI/kit-tests, SupabaseStore, intakes, heartbeats): not measured.**
 - **ORDER-004 boot-repair slice ≈ 0.2 build-session** (recon + status re-stamp + succession brief; no build). **Estimate.**
 - **Cumulative (carried, from `docs/research/venture-ledger.md`):** eval real spend ~47k tokens across 5 candidates (~9k amortized/candidate, measured). Candidate #1 ≈1.x build sessions (v0.1 + v0.2 persistence) + distribution share ≈40–70k tokens (est.). Candidate #2 ≈1 build session + distribution share ≈15–25k tokens (est.). Return-on-agent-labor **pending first sale** (owner-gated on ⚑B/⚑D/⚑E publish clicks).
@@ -167,6 +189,7 @@ Questions the sim-lab should price before/alongside test-kit distribution:
 
 ## Next
 
-- **Idle on backpressure (Q-0089 — no filler).** All three products are launch-ready; the frontier is owner-gated (⚑ queue above). The lane wakes on pacemaker/failsafe, syncs HEAD, re-reads the inbox, and acts only on owner return or new orders.
-- **Remaining candidates (#4 Agent Fleet Field Manual, #5 CC Cost Lens) deferred** pending the test-kit validation signal, per the eval addendum — the signal clock starts at gotcha-article publish (⚑ above).
+- **Idle on backpressure (Q-0089 — no filler).** All four products are launch-ready; the frontier is owner-gated (⚑ queue above). The lane wakes on pacemaker/failsafe, syncs HEAD, re-reads the inbox, and acts only on owner return or new orders.
+- **Candidate #4 (Agent Fleet Field Manual) is now BUILT + ⚑F-queued** (un-deferred by owner steer, event 4df864d6, ahead of the test-kit validation signal). **#5 CC Cost Lens remains deferred** pending that signal — the clock starts at gotcha-article publish (⚑ above).
+- **In flight: the book project (dream-series)** — noted here so the next writer carries it; not yet a ledgered candidate row.
 - Pacemaker + failsafe (ORDER 002) keep the lane on a continuous work loop; owner return processes the ⚑ queue above.

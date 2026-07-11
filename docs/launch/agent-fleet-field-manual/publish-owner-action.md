@@ -1,17 +1,31 @@
-**STATUS: NOT-QUEUED**
+**STATUS: QUEUED (2026-07-11)**
 
 > **Status:** `owner-guidance`
 
-This publish click is **not yet queued.** It is written so the shape is ready,
-but the coordinator queues it to the owner only after reviewing the build
-evidence below. No agent publishes, spends, or creates accounts.
+This publish click is **queued to the owner.** The coordinator seat reviewed
+the build + merge + verification evidence below (2026-07-11) and flipped this
+from NOT-QUEUED. No agent publishes, spends, or creates accounts — the owner
+performs the click.
+
+Note on the payment-path gate: this is a **Gumroad-hosted book** — the
+marketplace hosts checkout and delivery, there is **no custom payment path in
+this product**, so the lane's D1/Stripe real-path verification gate does not
+apply to this publish (it gates products that ship their own payment code).
+
+## Queue evidence (reviewed 2026-07-11, coordinator seat)
+
+- **Merged to main:** PR #41 squash-merged as **`9226e22`** (head `c77ce0d`) under the owner's standing instruction (2026-07-11, event b92aab44).
+- **CI green on the merged head `c77ce0d` (all three checks success):** substrate-gate ([run 29161813966 / job 86568058722](https://github.com/menno420/venture-lab/actions/runs/29161813966/job/86568058722)) · membership-kit-tests ([run 29161813941 / job 86568058704](https://github.com/menno420/venture-lab/actions/runs/29161813941/job/86568058704)) · stripe-webhook-test-kit-tests ([job 86568058678](https://github.com/menno420/venture-lab/actions/runs/29161813941/job/86568058678)).
+- **NON-AUTHOR spot-review (2026-07-11, this queue slice; card `.sessions/2026-07-11-queue-f-field-manual-publish.md`)** of the two free chapters on merged main — all verdicts **CONFIRMED**, none refuted: ch01 D1 claims match `docs/NEXT-SESSION.md` + PR #16; ch02 claims match PR #22 `6fea90b` / PR #28 `fc7f39c` / `kit-tests.yml` (swtk suite is exactly 14 tests); no invented numbers, no proven-revenue claims; honest-negatives figures match PR #29 `74894e5` (~284k vs 120k, ~2.3×).
+- **Zip verified on main:** `candidates/agent-fleet-field-manual/dist/agent-fleet-field-manual-v0.1.zip`, sha256 recomputed = `7eff9235024619a632020c06f7c47da24667f8134c828715694eaa8755a29176` (exact match to the PR claim); extracted HTML's 22 anchor links all resolve, 0 external asset refs.
+- **Budget honesty (ledgered):** the build overran its 90k intake cap (~200k, ≈2.2×) — headlined as a NEGATIVE in `control/status.md`; the overrun does not change what the buyer receives, and is disclosed per the lane's own honest-negative rule.
 
 ## Evidence (what is built + what CI proved)
 
 1. **The book is built.** Eleven chapters (`candidates/agent-fleet-field-manual/chapters/00-preface.md` … `10-appendix-templates.md`), each lesson cited to a real repository artifact (SHA / PR / file); the two free chapters (01, 02) are also exported as standalone articles in this directory.
 2. **The HTML build is verified.** `python3 build.py` produces the single self-contained `dist/agent-fleet-field-manual-v0.1.html` (stdlib only, no external assets); all 11 table-of-contents links resolve to their chapter sections and the "back to contents" links resolve to `#top` — verified from inside the extracted zip.
 3. **The zip is byte-reproducible.** `sh package.sh` builds `dist/agent-fleet-field-manual-v0.1.zip` deterministically (pinned mtimes, sorted entries); two consecutive builds produce an identical sha256. It contains README, LISTING, chapters, templates, and the built HTML, and excludes the internal INTAKE and the build tooling.
-4. **CI leg (to be confirmed on the PR):** the substrate-gate `check --strict` must be green on the built head SHA with the session card flipped to `complete`. This is a docs/prose product — there is no runtime test suite to run; verification is the build determinism + the TOC-resolution check above, and the citation map in the PR body (each lesson → its repo artifact).
+4. **CI leg — CONFIRMED (2026-07-11):** all three checks (substrate-gate, membership-kit-tests, stripe-webhook-test-kit-tests) ran green on the built head SHA `c77ce0d` with the session card flipped to `complete`; run links in the Queue evidence block above. This is a docs/prose product — there is no runtime test suite to run; verification is the build determinism + the TOC-resolution check above, and the citation map in the PR body (each lesson → its repo artifact).
 
 Honest caveat: this is guide/eBook content in the softest willingness-to-pay
 category on the board; the value proposition is *cited honesty about real
