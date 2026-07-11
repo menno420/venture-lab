@@ -1,6 +1,6 @@
 # Session — Stripe Webhook Test Kit v0.1
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-opus-4.8 · high · revenue-lane candidate build
 - **session:** Build Stripe Webhook Test Kit v0.1 ($29) — fresh vendored real Stripe fixtures + stdlib HTTP-layer harness + tests + zip; reuse zero membership-kit code.
@@ -24,4 +24,9 @@ Sell the gotchas this lane already paid to learn: a stdlib test harness that fir
 
 ## Work log
 
-(in progress — filled at close-out)
+- **Built:** `candidates/stripe-webhook-test-kit/` — stdlib harness `swtk.py` (Python) + `swtk.js` (Node port, same four subcommands `fire`/`check-email`/`lint-url`/`list`, hand-rolled arg parsing, zero deps); example correct handler `stub_handler.py` (real `t=,v1=` HMAC-SHA256 verification, 300s tolerance, `customer_details.email` → `customer_email` fallback); `package.sh` → deterministic `dist/stripe-webhook-test-kit-v0.1.zip`.
+- **Vendored:** three FRESH real-shape fixtures with their own `fixtures/PROVENANCE.md` (field names verified vs stripe-go SDK; signature scheme vs `webhook/client.go`): `checkout_session_completed.json` (null top-level `customer_email`, buyer email in `customer_details.email`), `checkout_session_completed_legacy_email.json` (legacy/guest path, top-level `customer_email` populated, `customer_details` null), `payment_intent_succeeded.json`. Reused zero membership-kit bytes. No real customer data or secrets — signing secret read from env NAME only.
+- **Tests:** `test_http_realpath.py` — HTTP-layer real-path suite; every event signed with the real Stripe-Signature scheme and POSTed over actual HTTP to a handler on an ephemeral port. In-repo run: **Ran 14 tests ... OK** (all green).
+- **Packaging:** `sh package.sh` built the 12-file zip (harness Py+JS, handler, tests, fixtures + PROVENANCE, README, GOTCHAS). Verified from INSIDE the extracted zip: **Ran 14 tests ... OK**, and `node swtk.js list` lists the 3 fixtures.
+- **Adversarial verification:** suite includes forged-signature rejection (correct handler → 400), an insecure-handler-accepts-forgery case the kit's `forged_fire_pass` verdict correctly marks FAIL, stale-timestamp rejection (outside 300s tolerance → 400), and an independent HMAC recomputation cross-check of the signature bytes. JS `lint-url {CHECKOUT_EMAIL}` exits non-zero as required.
+- **Verified vs unverified:** VERIFIED — the harness fires correctly-signed and forged real-shape events over real HTTP and the 14-test suite is green both in-repo and from the built zip; fixture field NAMES/types are SDK-verified. UNVERIFIED — fixture VALUES (ids, example.com emails, amounts, timestamps) are illustrative, not captured from a live account; no contact with the live Stripe API, and no marketplace publish (that click is NOT-QUEUED, earned only after CI-green + coordinator review).

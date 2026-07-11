@@ -1,0 +1,33 @@
+{
+  "id": "evt_1PbX9m2eZvKYlo2CqLegacyExample",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1719850005,
+  "type": "checkout.session.completed",
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": null
+  },
+  "data": {
+    "object": {
+      "id": "cs_test_a1SwtkLegacySession00000000000000000000000000000000",
+      "object": "checkout.session",
+      "amount_subtotal": 1900,
+      "amount_total": 1900,
+      "created": 1719850000,
+      "currency": "usd",
+      "customer": null,
+      "customer_details": null,
+      "customer_email": "guest.buyer@example.net",
+      "livemode": false,
+      "metadata": {},
+      "mode": "payment",
+      "payment_intent": "pi_3PbX9m2eZvKYlo2C0LegacyExample",
+      "payment_status": "paid",
+      "status": "complete",
+      "success_url": "https://example.com/success?session_id={CHECKOUT_SESSION_ID}"
+    }
+  }
+}
