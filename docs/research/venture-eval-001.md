@@ -99,3 +99,28 @@ those clicks under ⚑ needs-owner.
    already in clean status … Auto-merge only applies when checks are
    pending"), so the lane falls through to REST merge-on-green every time.
    Both walking-skeleton PR #2 and this PR landed via REST squash.
+
+## Addendum 2026-07-11 — three new candidates intaked (build-queue item d)
+
+Session `.sessions/2026-07-11-candidate-intake-slice-d.md` intaked three new candidates against the same 5-axis rubric (Distribution 35 / Agent-buildability 20 / Owner-click 15 / Speed 15 / WTP-moat 15). Per-candidate intakes with full kill-rule fields live in `candidates/<slug>/INTAKE.md`. History above is unchanged.
+
+### Updated ranking (all candidates)
+
+| # | Candidate | Score | Status | Note |
+|---|---|---|---|---|
+| 1 | **Stripe Webhook Test Kit** ($29) | **4.05** | NEW, unbuilt | Highest WTP + most defensible organic surface (high-intent dev search on a specific money-losing bug the lane already solved). |
+| 2 | Membership-site boilerplate kit ($49) | 3.80 | BUILT | Launch-ready pending ⚑B. |
+| 3 | Agent-workflow template packs ($19) | 3.63 | BUILT | Launch-ready pending ⚑D. |
+| 4 | Agent Fleet Field Manual ($39) | 3.55 | NEW, unbuilt | Cheap to build, but softest WTP and rides the same saturated community funnel. |
+| 5 | Claude Code Cost Lens (free + $15) | 3.10 | NEW, unbuilt | Honest experiment on the worst-scoring directory-discovery surface; realistic revenue ~$0. |
+| 6 | Productized site builds ($300–800) | 2.90 | not built | Human-led sales, recurring owner cost. |
+| 7 | Sponsorship/campaign micro-SaaS | 2.85 | not built | Cold outbound, human-gated. |
+| 8 | Programmatic affiliate directories | 2.65 | not built | SEO hostile to AI content, worst ROI. |
+
+Scores for unbuilt candidates are rubric projections, not market results — the same basis as the original five. The three new candidates carry conservative, downside-honest revenue lines (zero distribution = $0 in every case).
+
+### ⚑ Recommendation — next build slice
+
+Build **Stripe Webhook Test Kit v0.1** next. It is the only new candidate scoring above both BUILT candidates, it has the most defensible organic discovery (specific, high-intent developer search — "stripe customer_email null" — on a real money-losing bug this lane has ALREADY solved), the highest WTP/moat, and it reuses the lane's proven real-Stripe-path work (fresh vendored fixtures, not the membership-kit server code). Pair it with a free "gotchas" article as the organic top-of-funnel. Defer the field manual (rides the saturated community funnel, softest WTP) and Cost Lens (worst-pattern experiment) until the test kit validates the search-discovery thesis.
+
+**Default if you do nothing:** the two built candidates (membership-kit, template-packs) remain the only publish-ready assets; no new revenue surface is added.
