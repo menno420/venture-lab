@@ -1,6 +1,6 @@
 # Session — ORDER 005: model-attribution (confirm + record the family line)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · order-005 model-attribution
 - **session:** ORDER 005 — confirm the card template carries a `📊 Model:` line and record this session's family-level model attribution
@@ -28,4 +28,4 @@ ORDER 005: confirm the session-card template already emits a `📊 Model:` line 
 
 ## Status / outcome
 
-In progress — born-red at first commit; flips to `complete` as the deliberate last step once status bookkeeping is committed.
+Complete. Item (1) confirmed the template already carries the `📊 Model:` line at `bootstrap.py:240-245` (needle `bootstrap.py:4423`) — no template change. Item (2) satisfied by this card's family-level line `opus-4.8 · high · order-005 model-attribution`. Status bookkeeping recorded in `control/status.md` (orders acked/done + idle-mode routine note). Standing rule kept in force.
