@@ -1,0 +1,60 @@
+{
+  "id": "evt_1Pg5Y4LkdIwHu7ixB2mR9tKv",
+  "object": "event",
+  "api_version": "2024-06-20",
+  "created": 1720656120,
+  "type": "checkout.session.completed",
+  "livemode": false,
+  "pending_webhooks": 1,
+  "request": {
+    "id": null,
+    "idempotency_key": null
+  },
+  "data": {
+    "object": {
+      "id": "cs_test_a2LeGaCyEm8kQ2pZr7nB3vC5dW8fG0hJ4kL6mN2pQ9rS1tU3vX5yZ7aB0d",
+      "object": "checkout.session",
+      "amount_subtotal": 3000,
+      "amount_total": 3000,
+      "cancel_url": "https://example.com/cancel",
+      "client_reference_id": "order_00043",
+      "created": 1720656060,
+      "currency": "usd",
+      "customer": null,
+      "customer_creation": "if_required",
+      "customer_details": {
+        "address": {
+          "city": "San Francisco",
+          "country": "US",
+          "line1": "510 Townsend St",
+          "line2": null,
+          "postal_code": "94103",
+          "state": "CA"
+        },
+        "email": "guest.buyer@example.com",
+        "name": "Guest Buyer",
+        "phone": null,
+        "tax_exempt": "none",
+        "tax_ids": []
+      },
+      "customer_email": "guest.buyer@example.com",
+      "expires_at": 1720742460,
+      "invoice": null,
+      "livemode": false,
+      "locale": "auto",
+      "metadata": {
+        "order_id": "order_00043",
+        "app_user_id": "user_8813"
+      },
+      "mode": "payment",
+      "payment_intent": "pi_3Pg5Y2LkdIwHu7ix1cDeFgH2",
+      "payment_method_types": [
+        "card"
+      ],
+      "payment_status": "paid",
+      "status": "complete",
+      "success_url": "https://example.com/success?session_id={CHECKOUT_SESSION_ID}",
+      "url": null
+    }
+  }
+}

@@ -28,18 +28,25 @@ SOURCE_DATE="200001010000.00"   # fixed timestamp for reproducible archives
 STAGE=$(mktemp -d)
 trap 'rm -rf "$STAGE"' EXIT
 ROOT="$STAGE/$BUNDLE_NAME"
-mkdir -p "$ROOT/server" "$ROOT/web"
+mkdir -p "$ROOT/server" "$ROOT/server/fixtures" "$ROOT/web"
 
 # --- copy the buyer-facing tree (explicit allow-list, not a blanket copy) ---
 cp "$SRC/QUICKSTART.md"        "$ROOT/QUICKSTART.md"
 cp "$SRC/README.md"            "$ROOT/README.md"
 cp "$SRC/design-tokens.json"  "$ROOT/design-tokens.json"
 
-cp "$SRC/server/app.py"             "$ROOT/server/app.py"
-cp "$SRC/server/test_membership.py" "$ROOT/server/test_membership.py"
-cp "$SRC/server/README.md"          "$ROOT/server/README.md"
-cp "$SRC/server/.env.example"       "$ROOT/server/.env.example"
-cp "$SRC/server/.gitignore"         "$ROOT/server/.gitignore"
+cp "$SRC/server/app.py"                "$ROOT/server/app.py"
+cp "$SRC/server/test_membership.py"    "$ROOT/server/test_membership.py"
+cp "$SRC/server/test_http_realpath.py" "$ROOT/server/test_http_realpath.py"
+cp "$SRC/server/README.md"             "$ROOT/server/README.md"
+cp "$SRC/server/.env.example"          "$ROOT/server/.env.example"
+cp "$SRC/server/.gitignore"            "$ROOT/server/.gitignore"
+
+# Real, source-verified Stripe event fixtures + their provenance (the evidence
+# the real webhook path is tested against real payloads).
+cp "$SRC/server/fixtures/checkout_session_completed.json"              "$ROOT/server/fixtures/checkout_session_completed.json"
+cp "$SRC/server/fixtures/checkout_session_completed_legacy_email.json" "$ROOT/server/fixtures/checkout_session_completed_legacy_email.json"
+cp "$SRC/server/fixtures/PROVENANCE.md"                                "$ROOT/server/fixtures/PROVENANCE.md"
 
 cp "$SRC/web/index.html"   "$ROOT/web/index.html"
 cp "$SRC/web/members.html" "$ROOT/web/members.html"
