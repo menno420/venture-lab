@@ -1,6 +1,6 @@
 # 2026-07-11 — coordinator heartbeat (launch-ready, orders 001–004 done)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-fable-5 · coordinator seat · heartbeat/state overwrite
 
