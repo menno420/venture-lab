@@ -1,6 +1,6 @@
 # 2026-07-11 — coordinator heartbeat b (full-day ledger, new candidate ranking, sim-lab flags)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-fable-5 · coordinator seat · heartbeat/state overwrite
 
