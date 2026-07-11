@@ -1,1 +1,0 @@
-- `claude/kit-upgrade-v1.8.0` · **kit-upgrade v1.8.0** — vendored substrate-kit 1.7.1→1.8.0, kit-owned files only · bootstrap.py, .substrate/, .github/workflows/substrate-gate.yml, control/claims/, scripts/env-setup.sh, control/README.md (manual merge) · 2026-07-11
