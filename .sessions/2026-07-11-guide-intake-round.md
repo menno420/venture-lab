@@ -1,6 +1,6 @@
 # Session — Guide/book/info-product intake round
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · venture/intake
 - **session:** Intake 4 new guide/book/info-product candidates (owner steer: guides/books to sell) with full kill-rule fields + append-only re-rank addendum.

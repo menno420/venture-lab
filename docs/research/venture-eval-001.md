@@ -124,3 +124,41 @@ Scores for unbuilt candidates are rubric projections, not market results — the
 Build **Stripe Webhook Test Kit v0.1** next. It is the only new candidate scoring above both BUILT candidates, it has the most defensible organic discovery (specific, high-intent developer search — "stripe customer_email null" — on a real money-losing bug this lane has ALREADY solved), the highest WTP/moat, and it reuses the lane's proven real-Stripe-path work (fresh vendored fixtures, not the membership-kit server code). Pair it with a free "gotchas" article as the organic top-of-funnel. Defer the field manual (rides the saturated community funnel, softest WTP) and Cost Lens (worst-pattern experiment) until the test kit validates the search-discovery thesis.
 
 **Default if you do nothing:** the two built candidates (membership-kit, template-packs) remain the only publish-ready assets; no new revenue surface is added.
+
+## Addendum 2026-07-11 (b) — guide/book/info-product intake round
+
+Owner steer (2026-07-11): "maybe think about creating guides or books to sell." This round intakes 4 NEW guide/book/info-product candidates and re-ranks ALL candidates (built + intaked + new). Axis shorthand unchanged: Distribution 35 / Agent-buildability 20 / Owner-click 15 / Speed 15 / WTP-moat 15. History above is preserved; this section is append-only.
+
+### New candidates (this round)
+| Candidate | Price | Product/Funnel | D | AB | OC | Sp | WTP | Score |
+|---|---|---|---|---|---|---|---|---|
+| Stripe Webhook Gotchas guide | PWYW $0 | **Funnel → SWTK** | 3.5 | 5 | 4 | 5 | 1 | 3.73* |
+| The False-Green Test Trap | $15 | Product (soft funnel) | 3.5 | 5 | 4 | 4 | 2 | 3.73 |
+| Agent Merge-Wall Cookbook | $19 | Product | 3 | 5 | 4 | 3 | 3 | 3.55 |
+| Kill-Rule Intake Kit | $15 | Product | 2.5 | 5 | 4 | 4 | 2 | 3.38 |
+
+*The funnel score is NOT comparable to standalone-product scores: the Stripe guide's direct revenue is ~$0 by design; its value is SWTK conversion. Ranked by build-leverage, not standalone revenue.
+
+### Full re-ranking (all candidates)
+| # | Candidate | Score | Status |
+|---|---|---|---|
+| 1 | Stripe Webhook Test Kit ($29) | 4.05 | NEW, unbuilt |
+| 2 | Membership-site kit ($49) | 3.80 | BUILT, ⚑B frozen |
+| 3 | The False-Green Test Trap ($15) | 3.73 | NEW (this round) |
+| — | Stripe Webhook Gotchas (PWYW) | 3.73* | NEW funnel (this round) |
+| 4 | Agent-workflow template packs ($19) | 3.63 | BUILT, ⚑D frozen |
+| 5 | Agent Fleet Field Manual ($39) | 3.55 | NEW, being built |
+| — | Agent Merge-Wall Cookbook ($19) | 3.55 | NEW (this round) |
+| 6 | Kill-Rule Intake Kit ($15) | 3.38 | NEW (this round) |
+| 7 | Claude Code Cost Lens (free + $15) | 3.10 | NEW, unbuilt |
+| 8 | Productized site builds ($300–800) | 2.90 | not built |
+| 9 | Sponsorship micro-SaaS | 2.85 | not built |
+| 10 | Programmatic affiliate directories | 2.65 | not built |
+
+### Build-order recommendation (one line)
+Ship SWTK first (already #1); then build the Stripe Webhook Gotchas PWYW guide as its top-of-funnel (cheapest, feeds the #1 product), then the False-Green Test Trap as the next standalone; hold the Merge-Wall Cookbook and the Kill-Rule Intake Kit as ledgered backlog (narrow TAM / advice-adjacent, soft WTP).
+
+### Sim-worthy questions (flagged, NOT built here)
+- PWYW-funnel conversion: what read→paid conversion does a free Stripe-gotchas guide need to beat building a second standalone product? (funnel model)
+- Guide pricing: $9 vs $15 vs $19 elasticity for single-gotcha dev guides at realistic (near-zero) traffic. (pricing experiment)
+- Channel concentration: expected value lost when 4 of the lane's products share one owner-gated community funnel vs diversifying. (channel-risk model)
