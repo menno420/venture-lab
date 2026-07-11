@@ -16,6 +16,9 @@ should not be re-audited without a reported regression.)
 (Verify against live source control — this section is a dated snapshot.)
 
 - [Launch & distribution assets](launch/README.md)
+- [Auto-merge enabler — owner action](operations/owner-action-auto-merge.md) —
+  enabler workflow wired into `.github/workflows/`; INERT until the owner sets
+  "Allow auto-merge" ON + requires the `substrate-gate` check on `main`.
 
 ## Recently shipped (newest first)
 

@@ -1,6 +1,6 @@
 # Session — Install the substrate-kit auto-merge enabler (canonical landing path)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · install-auto-merge-enabler
 - **session:** wire the staged, kit-owned auto-merge enabler workflow
@@ -41,4 +41,22 @@ repo settings — documented in the accompanying six-field OWNER-ACTION doc.
 ## Work log
 
 - Branch `claude/install-auto-merge-enabler` cut from `origin/main` at `296a1a9`.
-- (to be filled: install method, sha256 pair, guard confirmation, check output.)
+- Tried `python3 bootstrap.py adopt --wire-enforcement` first; it did MORE than
+  wire the enabler (planted `.claude/CLAUDE.md` + `.claude/settings.json`,
+  re-staged the `.substrate/` skill/agent/hook packs, wrote
+  `.substrate/backup/bootstrap-1.12.1.py`, bumped `.substrate/state.json`).
+  Reverted every extra change and wired the enabler MANUALLY instead:
+  `cp .substrate/ci/auto-merge-enabler.yml .github/workflows/auto-merge-enabler.yml`
+  — keeps this a single enabler-wire PR with zero kit-owned collateral.
+- Verified byte-identical: `diff` empty; both files sha256
+  `64f9db4122c69631ab01d097a4f46ff49eac5d5d42728429e27543c45fc64c84`.
+- Confirmed both safety guards live in the workflow: (a) the "Refuse to arm
+  unless the base branch requires status CONTEXTS" step refuses on a `0`
+  context count (downstream steps gated on `steps.rules.outputs.required != '0'`);
+  (b) `do-not-automerge` carve-out at the job `if:` plus a fresh-API label
+  re-read. Referenced secret NAME: `ROUTINE_PAT` (optional; `GITHUB_TOKEN`
+  fallback) — name only, no value anywhere.
+- Wrote `docs/operations/owner-action-auto-merge.md` (six-field grammar); linked
+  it from the read-path root `docs/current-state.md` so it is not an orphan.
+- `python3 bootstrap.py check --strict --session-log <this card>` green at flip.
+
