@@ -12,8 +12,9 @@ Run the whole purchase → access flow in one command, with **zero accounts**.
 
 ```bash
 cd server
-python3 -m unittest test_membership -v       # 13 tests: grant/deny/idempotency/persistence
+python3 -m unittest test_membership -v       # 15 tests: grant/deny/idempotency/persistence + store config
 python3 -m unittest test_http_realpath -v    # 8 tests: REAL Stripe payload + signature over HTTP
+python3 -m unittest test_supabase_store -v   # 12 tests: Supabase store over HTTP vs a stub PostgREST
 ```
 
 The HTTP tests start the real server and POST **real, source-verified** Stripe

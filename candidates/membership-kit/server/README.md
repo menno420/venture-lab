@@ -6,12 +6,22 @@ Stdlib-only Python. No pip install, no build step.
 
 ```bash
 cd candidates/membership-kit/server
-python3 -m unittest test_membership -v
+python3 -m unittest test_membership -v      # 15 tests: grant/deny/idempotency/persistence + store config
+python3 -m unittest test_http_realpath -v   # 8 tests: real Stripe payload + signature over HTTP
+python3 -m unittest test_supabase_store -v  # 12 tests: Supabase store over HTTP vs a stub PostgREST
 ```
 
-Covers: purchase grants access, unpaid users are denied, duplicate purchases
-are idempotent, emails normalize, non-purchase events grant nothing, and empty
-emails are rejected. No network, no Stripe, deterministic.
+`test_membership` covers: purchase grants access, unpaid users are denied,
+duplicate purchases are idempotent, emails normalize, non-purchase events grant
+nothing, empty emails are rejected, and the store factory (including the loud
+Supabase→JSON fallback). No network, no Stripe, deterministic.
+
+`test_supabase_store` drives `SupabaseStore` over **real HTTP** against an
+in-process **stub PostgREST server** whose request/response shapes mirror real
+PostgREST (insert, select-with-filter, upsert, exact count, and non-2xx error
+handling; auth headers asserted). It proves the wire contract with **no live
+Supabase project** and no third-party packages. A live round-trip against a real
+project stays owner-gated — see the Supabase OWNER-ACTION below.
 
 ## Run the server (mock mode — works now, zero accounts)
 
@@ -52,7 +62,7 @@ the `STORE_BACKEND` env var. The HTTP layer never knows which backend is active.
 | `STORE_BACKEND` | Backend        | Needs        | Notes |
 |-----------------|----------------|--------------|-------|
 | `json` (default)| `JsonFileStore`| nothing      | Persists to a JSON file with **atomic writes** (`os.replace`). Survives process restart. |
-| `supabase`      | `SupabaseStore`| Supabase keys| Drop-in-ready skeleton — see below. |
+| `supabase`      | `SupabaseStore`| Supabase keys| Hosted persistence via Supabase's PostgREST REST API — **implemented** (stdlib `urllib` only). See below. |
 
 Default (file-backed) — proves persistence with zero accounts:
 
@@ -67,21 +77,81 @@ curl "http://localhost:8000/members?email=buyer@example.com"     # 200 — STILL
 - `members.json` is **git-ignored** — local member data is never committed.
 - Reading an absent DB writes nothing; the file appears only on the first grant.
 
-### Supabase drops in later — a config flip, no app rework
+### Supabase hosted persistence — implemented, a config flip away
 
 `SupabaseStore` implements the **same** `MembershipStore` contract as the file
-store, so going hosted is:
+store, backed by Supabase's PostgREST REST API (`{SUPABASE_URL}/rest/v1/members`)
+using **stdlib `urllib` only** — no `supabase` package, no third-party HTTP
+client. Each operation maps to a documented PostgREST call:
 
-1. Fill `SUPABASE_URL` / `SUPABASE_KEY` in `.env` (owner-gated — no keys today).
-2. Set `STORE_BACKEND=supabase`.
-3. Fill the documented PostgREST call bodies in `SupabaseStore` (the request
-   shapes are written inline as comments next to each method).
+| Method         | PostgREST call |
+|----------------|----------------|
+| `grant`        | `GET ?email=eq.<email>&select=email,source&limit=1` (idempotency check), then `POST ?on_conflict=email` with `Prefer: resolution=merge-duplicates,return=representation` |
+| `has_access`   | `GET ?email=eq.<email>&select=email&limit=1` → `bool(rows)` |
+| `all_members`  | `GET ?select=email,source` |
+| `count`        | `GET ?select=email` with `Prefer: count=exact` + `Range: 0-0` → total from the `Content-Range` header |
+
+Auth on every call is the pair Supabase requires: an `apikey` header and an
+`Authorization: Bearer <SUPABASE_KEY>` header. The key is read from the
+environment, sent only as request headers, and **never logged or echoed** —
+error messages carry the HTTP status + response body, never the key value.
+
+Going hosted:
+
+1. Create a Supabase project + a `members` table (**OWNER-ACTION** below).
+2. Set `SUPABASE_URL` / `SUPABASE_KEY` in `.env` (use the **service_role** key —
+   server-side writes need to bypass row-level security). NAMES only in the repo;
+   never paste a key value.
+3. Set `STORE_BACKEND=supabase`.
 
 No change to `app.py` is required — the store is swapped at startup by
-`make_store()`. Guardrails: there is no top-level `supabase` import (importing
-the module never crashes on a missing package), and selecting the backend
-without keys raises a clear, actionable error **at startup** — *"set
-SUPABASE_URL/KEY or use STORE_BACKEND=json"* — rather than failing mid-request.
+`make_store()`. Guardrails / defaults:
+
+- **Local (`json`) is the DEFAULT.** No accounts needed to run the kit.
+- No top-level `supabase` import — importing the module never crashes on a
+  missing package.
+- If `STORE_BACKEND=supabase` is selected but `SUPABASE_URL`/`SUPABASE_KEY` are
+  unset, the server does **not** crash: `make_store()` prints a **loud
+  `!!!`-barred `SUPABASE FALLBACK` banner** to stderr (same style as the MOCK
+  banner) and falls back to the local JSON store — never a silent success,
+  never a hard stop. (Direct `SupabaseStore(url="", key="")` construction still
+  raises a clear, actionable error for callers who want fail-fast.)
+
+The store's wire contract is proven by `test_supabase_store.py` (real HTTP vs a
+stub PostgREST server). A **live** round-trip against a real Supabase project is
+**UNVERIFIED** until the owner completes the OWNER-ACTION.
+
+### OWNER-ACTION — create the Supabase project + `members` table
+
+*(owner-gated; the kit ships local-by-default, so this is optional — do it only
+to turn on hosted persistence.)*
+
+- **WHAT:** Create a free Supabase project and a `members` table with columns
+  `email text` (PRIMARY KEY or UNIQUE — the `on_conflict=email` upsert depends
+  on a unique constraint) and `source text`.
+- **WHERE:** [supabase.com](https://supabase.com) → new project → SQL Editor
+  (or Table Editor). Project URL + API keys live under **Project Settings → API**.
+- **HOW:** In the SQL Editor run:
+  ```sql
+  create table if not exists public.members (
+    email  text primary key,
+    source text
+  );
+  ```
+  Then copy the **Project URL** and the **service_role** key into
+  `server/.env` as `SUPABASE_URL` / `SUPABASE_KEY` (values never committed), and
+  set `STORE_BACKEND=supabase`.
+- **WHY:** The kit can persist members in hosted Supabase instead of a local
+  file, so membership survives across machines/restarts and is queryable in the
+  Supabase dashboard. The store code is implemented and HTTP-tested; only the
+  live project + keys are missing.
+- **UNBLOCKS:** Hosted persistent membership (the "Auth + user DB → Supabase"
+  row of the stack table) — members shared across instances, not tied to one
+  local `members.json`.
+- **VERIFIED-WHEN:** With the three env vars set, `python3 app.py` starts
+  **without** the `SUPABASE FALLBACK` banner and prints `store=supabase`; a
+  `POST /mock-purchase?email=you@example.com` then `GET /members?email=you@example.com`
+  returns 200, and the row is visible in the Supabase Table Editor.
 
 ## Owner steps — wire real Stripe TEST keys
 

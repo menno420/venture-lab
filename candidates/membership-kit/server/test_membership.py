@@ -138,11 +138,17 @@ class JsonFilePersistenceTests(unittest.TestCase):
             os.environ.pop("MEMBERS_DB_PATH", None)
 
 
-class SupabaseSkeletonTests(unittest.TestCase):
-    """The Supabase backend is a drop-in skeleton — safe to import, guarded."""
+class SupabaseStoreConfigTests(unittest.TestCase):
+    """The Supabase backend's construction + auth wiring (no network here).
+
+    The HTTP behaviour of the store (insert/select/upsert/count/errors against a
+    real PostgREST request/response shape) is proven in test_supabase_store.py,
+    which drives it over real HTTP against an in-process stub PostgREST server.
+    This suite stays network-free — it only checks construction and the factory.
+    """
 
     def test_missing_keys_raise_actionable_error_at_construction(self) -> None:
-        """Selecting Supabase without keys fails fast with a clear message."""
+        """Direct construction without keys fails fast with a clear message."""
         with self.assertRaises(RuntimeError) as ctx:
             SupabaseStore(url="", key="")
         self.assertIn("STORE_BACKEND=json", str(ctx.exception))
@@ -151,10 +157,51 @@ class SupabaseSkeletonTests(unittest.TestCase):
         """It implements the same MembershipStore contract as the file store."""
         self.assertTrue(issubclass(SupabaseStore, MembershipStore))
         store = SupabaseStore(url="https://demo.supabase.co", key="fake-key")
-        # Method bodies are documented skeletons: they raise NotImplementedError
-        # (never a crash-on-import), signalling "fill me in" — not "broken app".
-        with self.assertRaises(NotImplementedError):
-            store.grant("buyer@example.com")
+        self.assertEqual(store.TABLE, "members")
+
+    def test_auth_headers_use_apikey_and_bearer(self) -> None:
+        """Every call carries `apikey` + `Authorization: Bearer <key>` (Supabase
+        requires both) — and the key never leaks into anything but headers."""
+        store = SupabaseStore(url="https://demo.supabase.co", key="fake-key")
+        headers = store._headers()
+        self.assertEqual(headers["apikey"], "fake-key")
+        self.assertEqual(headers["Authorization"], "Bearer fake-key")
+
+    def test_make_store_supabase_without_keys_falls_back_to_json(self) -> None:
+        """STORE_BACKEND=supabase but no keys -> loud fallback to JsonFileStore,
+        never a crash and never a silent success (banner goes to stderr)."""
+        import app as app_module
+        saved_backend = app_module.STORE_BACKEND
+        saved_url = os.environ.pop("SUPABASE_URL", None)
+        saved_key = os.environ.pop("SUPABASE_KEY", None)
+        saved_db = os.environ.get("MEMBERS_DB_PATH")
+        app_module.STORE_BACKEND = "supabase"
+        os.environ["MEMBERS_DB_PATH"] = self._db_path
+        try:
+            store = make_store()
+            self.assertIsInstance(store, JsonFileStore)
+        finally:
+            app_module.STORE_BACKEND = saved_backend
+            if saved_url is not None:
+                os.environ["SUPABASE_URL"] = saved_url
+            if saved_key is not None:
+                os.environ["SUPABASE_KEY"] = saved_key
+            if saved_db is None:
+                os.environ.pop("MEMBERS_DB_PATH", None)
+            else:
+                os.environ["MEMBERS_DB_PATH"] = saved_db
+
+    def setUp(self) -> None:
+        fd, self._db_path = tempfile.mkstemp(suffix="-members.json")
+        os.close(fd)
+        os.unlink(self._db_path)
+
+    def tearDown(self) -> None:
+        for p in (self._db_path, self._db_path + ".tmp"):
+            try:
+                os.unlink(p)
+            except FileNotFoundError:
+                pass
 
 
 if __name__ == "__main__":

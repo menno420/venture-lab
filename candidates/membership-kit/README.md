@@ -47,11 +47,11 @@ candidates/membership-kit/
 
 | Concern        | Production integration        | v0.2 status |
 |----------------|-------------------------------|-------------|
-| Auth + user DB | Supabase                      | documented, env-gated |
+| Auth + user DB | Supabase                      | **store implemented** (PostgREST via stdlib `urllib`), HTTP-tested vs a stub PostgREST; live project owner-gated |
 | Payments       | Stripe Checkout + webhooks    | real code path, **native signature verification**, **HTTP-tested against real live-shape payloads**; env-gated; **MOCK mode by default** |
 | Community      | Discord invite-on-purchase    | hook in webhook handler, env-gated |
 | Gated content  | membership-store access check | **real + persisted + tested** |
-| Persistence    | JSON file (default) / Supabase | **real + tested**; survives process restart |
+| Persistence    | JSON file (default) / Supabase | **real + tested**; survives process restart. Hosted **Supabase** backend implemented (stdlib REST) + HTTP-tested vs a stub PostgREST; local `json` stays the default and Supabase falls back loudly to it when keys are absent |
 
 The backend is stdlib-only: it imports and runs with **no pip installs**. The
 Stripe webhook signature is verified with a native stdlib HMAC-SHA256 check (no
@@ -63,8 +63,9 @@ guarded by `if STRIPE_SECRET_KEY:`.
 
 ```bash
 cd candidates/membership-kit/server
-python3 -m unittest test_membership -v       # 13 tests — the grant/persistence logic
-python3 -m unittest test_http_realpath -v    # 8 tests — real Stripe payload over HTTP
+python3 -m unittest test_membership -v       # 15 tests — grant/persistence logic + store config
+python3 -m unittest test_http_realpath -v    # 8 tests  — real Stripe payload over HTTP
+python3 -m unittest test_supabase_store -v   # 12 tests — Supabase store over HTTP vs a stub PostgREST
 python3 app.py                               # starts on http://localhost:8000
 ```
 
@@ -126,12 +127,18 @@ secret ships in this repo** — `.env.example` holds placeholders only.
   deny-when-unpaid gate, idempotent duplicate-purchase handling, **native
   Stripe webhook signature verification** (valid/bad/stale all covered), the
   `session_id`→buyer resolution behind the `{CHECKOUT_SESSION_ID}` success URL,
-  the landing page, the members stub, and the mock end-to-end flow. All tested —
-  13 unit tests + 8 HTTP-layer real-path tests.
+  the landing page, the members stub, the mock end-to-end flow, and the
+  **Supabase store's PostgREST wire contract** (insert/select/upsert/count/error
+  handling). All tested — 15 store/config unit tests + 8 HTTP-layer Stripe
+  real-path tests + 12 HTTP-layer Supabase-store tests (vs a stub PostgREST).
 - **Owner-gated (documented, not performed):** live Stripe test-mode E2E with
-  your own keys, Discord invite delivery, Supabase-backed persistent users. Each
-  is a wired code path waiting on a key — see the ⚑ owner-action items in
-  `docs/research/venture-ledger.md`.
+  your own keys, Discord invite delivery, and a **live** Supabase round-trip.
+  The Supabase store is implemented and HTTP-tested against a stub PostgREST;
+  only a real project + `members` table + keys are missing (six-field
+  OWNER-ACTION in `server/README.md`). Each is a wired code path waiting on a
+  key — see the ⚑ owner-action items in `docs/research/venture-ledger.md`.
 - **Not in v0.2:** email receipts, refund/cancellation webhooks, multi-tier
-  plans, hosted (Supabase) persistence turned on by default. These are the next
-  increment, not a hidden gap.
+  plans, and Supabase persistence turned on **by default** (the store is
+  implemented and HTTP-tested, but local `json` remains the default until the
+  owner supplies a project + keys). These are the next increment, not a hidden
+  gap.
