@@ -61,5 +61,5 @@
 ## Discovery rule
 
 Before declaring anything impossible: check this file +
-[`capabilities.md`](capabilities.md) → check `printenv` → attempt once and
+[`CAPABILITIES.md`](CAPABILITIES.md) → check `printenv` → attempt once and
 capture the exact error verbatim → append the finding the same session.
