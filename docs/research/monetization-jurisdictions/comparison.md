@@ -40,3 +40,9 @@ You generally pay tax **where you (the person) live**, not where the platform, t
 **Confirmed (cited):** NL VAT 21%; KOR €20,000; OSS €10,000; KvK €85.15 (2026); zelfstandigenaftrek €1,200 (2026, phasing to €900/2027); startersaftrek €2,123; MKB 12.70%; urencriterium 1,225 hrs; DAC7 >€2,000/>30 tx. PH: ₱500 ARF removed (RA 11976); 8% flat above ₱250,000 (≤₱3M, non-VAT); percentage tax 3%; VAT 12% at ₱3M; RR 16-2023 = 0.5% effective above ₱500,000; DTI BN ₱200–₱2,000 +₱30 DST; **Stripe not available to PH**; Gumroad direct-bank excludes PH (pays via PayPal USD).
 
 **Not verified (2026-07-11):** NL KOR/OSS interaction detail and exact KOR invoice wording; NL 2026 deduction figures rest on pages that could not be opened directly (corroborated across sources); PH — exact Gumroad PH payout minimum ($100 vs $10) and whether PH was added to Gumroad's post-2025 direct-bank list; whether RR 16-2023 withholding reaches foreign non-registered platforms like Gumroad; operational status of the DTI E-Commerce Bureau merchant-registration mechanics.
+
+---
+
+## Addendum — the real PH-move scenario (2026-07-11)
+
+The owner later confirmed a genuine PH-residency option (a Filipina partner, unmarried). See **[scenario-ph-move.md](./scenario-ph-move.md)** for the concrete move case: visa reality (9(a) extensions, 13(a) requires marriage, SRRV), NL-exit / PH resident-alien tax transition, payout fee leakage (~3–6% per $100), the coherent two-entity A/B experiment (owner's NL entity + partner's own PH citizen sole proprietorship), and the updated verdict (launch from NL now; treat a PH move as a planned, professionally-vetted transition).
