@@ -16,6 +16,12 @@ Zero-owner-click launch material for the two sellable candidates. Everything her
 - [Owner publish click-script (FROZEN ❄️)](template-packs/owner-actions.md)
 - [README buy-section snippet](template-packs/readme-buy-snippet.md)
 
+## Stripe Webhook Test Kit — $29
+- [One-pager](stripe-webhook-test-kit/one-pager.md)
+- [Listing copy](stripe-webhook-test-kit/LISTING.md)
+- [Publish owner-action (NOT-QUEUED)](stripe-webhook-test-kit/publish-owner-action.md)
+- [Free gotcha article draft](stripe-webhook-test-kit/gotcha-article.md)
+
 ## Cross-product
 - [Distribution drafts](distribution-drafts.md)
 - [Distribution channels shortlist](distribution-channels.md)
