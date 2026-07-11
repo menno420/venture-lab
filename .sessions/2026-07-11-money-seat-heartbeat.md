@@ -1,6 +1,6 @@
 # Money-seat coordinator heartbeat refresh
 
-> **Status:** in-progress
+> **Status:** complete
 
 - **📊 Model:** opus-4.8
 - **date:** 2026-07-11
