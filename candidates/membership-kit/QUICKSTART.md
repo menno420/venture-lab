@@ -1,22 +1,35 @@
-# Quickstart — Membership-Site Boilerplate Kit
+# Quickstart — Membership-Site Boilerplate Kit (v0.2)
 
 Run the whole purchase → access flow in one command, with **zero accounts**.
 
-## 1. Prove the logic (optional, 2 seconds)
+> ⚠️ **This kit ships in MOCK MODE by default — NO REAL PAYMENTS happen.**
+> Without keys the server processes "purchases" locally so you can see the flow,
+> prints a loud MOCK-mode banner to stderr on startup, and stamps a `"warning"`
+> field on every checkout/webhook reply. To take real money you must set the two
+> Stripe env vars in step 4 — until then, nothing you do here charges anyone.
+
+## 1. Prove the logic (optional, a few seconds)
 
 ```bash
 cd server
-python3 -m unittest test_membership -v    # 13 tests, no network, no keys
+python3 -m unittest test_membership -v       # 13 tests: grant/deny/idempotency/persistence
+python3 -m unittest test_http_realpath -v    # 8 tests: REAL Stripe payload + signature over HTTP
 ```
+
+The HTTP tests start the real server and POST **real, source-verified** Stripe
+`checkout.session.completed` payloads (in `server/fixtures/`) with a valid
+signature — proving the webhook grants on a valid signature and rejects bad or
+stale ones (HTTP 400). No keys, no network, no `stripe` package needed.
 
 ## 2. Start the server (one command)
 
 ```bash
 cd server
-python3 app.py            # -> http://localhost:8000  (mock mode, no keys)
+python3 app.py            # -> http://localhost:8000  (MOCK mode, no keys)
 ```
 
-You'll see `mode=mock | store=json`. Leave it running.
+You'll see a loud `!!! MOCK MODE: no real payments ... !!!` banner on stderr and
+`mode=mock | store=json`. Leave it running.
 
 ## 3. Watch a purchase unlock the members area
 
@@ -35,25 +48,36 @@ curl -i "http://localhost:8000/members?email=buyer@example.com"
 
 That's the entire product loop — checkout → webhook → membership grant → gated
 content — running before you sign up for anything. Members persist to
-`server/members.json`, so they survive a restart.
+`server/members.json`, so they survive a restart. (This is MOCK mode: no card is
+ever charged.)
 
-## 4. Go live (when you're ready)
+## 4. Go live (when you're ready) — set these env var NAMES
 
 ```bash
 cp server/.env.example server/.env
-# paste your Stripe TEST keys (sk_test_…, whsec_…) into server/.env
+# then set the two Stripe env vars (NAMES below) to your own values in server/.env:
+#   STRIPE_SECRET_KEY       your Stripe secret key (start with the sk_test_ one)
+#   STRIPE_WEBHOOK_SECRET   your Stripe webhook signing secret (whsec_...)
 ```
 
-With `STRIPE_SECRET_KEY` set, `/create-checkout-session` and `/webhook` take the
-real Stripe path — the same code you just watched in mock mode. See `README.md`
-and `server/README.md` for the full wire-up (Stripe, Discord, Supabase).
+- **`STRIPE_SECRET_KEY`** turns on the real `/create-checkout-session` call
+  (and stamps the buyer's `customer_email` so the webhook is deterministic).
+- **`STRIPE_WEBHOOK_SECRET`** turns on native `/webhook` signature verification —
+  every event's `Stripe-Signature` is checked over the raw body and bad/stale
+  ones are rejected with HTTP 400 before any membership is granted.
+
+With either set, the MOCK banner and warnings disappear and the server reports
+`mode=stripe`. Never commit real secret **values** — `.env.example` and this
+guide name the env vars only. See `README.md` and `server/README.md` for the
+full wire-up (Stripe, Discord, Supabase).
 
 ## What's in this bundle
 
-- `README.md` — what the kit is, the stack, honest v0.x scope.
+- `README.md` — what the kit is, the stack, honest v0.2 scope.
 - `QUICKSTART.md` — this file.
 - `design-tokens.json` — brand colors/fonts/spacing the landing page consumes.
 - `web/` — landing page (`index.html` + `styles.css`) + gated `members.html`.
-- `server/` — stdlib-only backend (`app.py`), test suite, `.env.example`, docs.
+- `server/` — stdlib-only backend (`app.py`), test suites, `fixtures/`,
+  `.env.example`, docs.
 
 No third-party dependencies. `python3` is all you need to run it.

@@ -1,6 +1,6 @@
 # Session — ORDER 003: fix the real Stripe path (D1/D2/D3)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-opus-4.8 · high · payment-path remediation
 - **session:** ORDER 003 (P0) — unfreeze ⚑B/⚑D by making the $49 membership-kit Stripe path survive a REAL purchase
@@ -25,4 +25,18 @@ Payment code cannot be verified by payloads authored from memory. Vendor a real 
 
 ## Work log
 
-(in progress)
+**Fixed (server/app.py):**
+- **D1a** — grant path now extracts the buyer address from `customer_details.email` (real `checkout.session.completed` events carry `customer_email: null`); the buyer email is also passed into `Session.create` as `customer_email` at Checkout creation.
+- **D1b** — success-URL now uses the valid `{CHECKOUT_SESSION_ID}` placeholder (Stripe only expands session id, not `{CHECKOUT_EMAIL}`); added session→member resolution so a returning buyer is mapped from the session id.
+- Native **HMAC-SHA256 `Stripe-Signature`** verification (timestamp + payload signed with the webhook secret) so the signature path is exercised without live keys.
+- Loud **MOCK-mode warning** emitted when no real Stripe keys are configured.
+
+**Vendored fixtures (server/fixtures/):** a real `checkout.session.completed` payload with `customer_email: null` and the buyer address under `customer_details.email`. Sourced from the stripe-go SDK + the Stripe OpenAPI spec on `raw.githubusercontent.com` (docs.stripe.com returns 403 through the agent proxy).
+
+**Tests:** 13 existing tests + **8 new HTTP-layer real-path tests**, all green — driving the actual `/webhook` route against the vendored payloads: valid-signature → membership grant, bad/stale signature → 400, session-id member resolution, and the mock-mode warning.
+
+**Packaging:** both buyer zips rebuilt via `package.sh`; `dist/membership-kit-v0.2.zip` committed. README/QUICKSTART refreshed to v0.2 reality.
+
+**Adversarial verification:** 9/9 PASS — REAL-PATH-VERIFIED.
+
+**Verified vs unverified:** VERIFIED = the webhook grant + `Stripe-Signature` verification + success-URL behaviour against the REAL Stripe event shape at the HTTP layer using vendored payloads. UNVERIFIED = an actual end-to-end live Stripe purchase (requires owner ⚑A test keys; no live keys available from this seat).
