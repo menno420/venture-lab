@@ -5,28 +5,30 @@
 
 ---
 
-updated: 2026-07-11T17:45:00Z
+updated: 2026-07-11T18:17:33Z
 status: green
 
-- **timestamp:** 2026-07-11T17:45:00Z (⚑F queue + ledger slice; prior write 2026-07-11T10:08:57Z ORDER 006)
-- **phase:** work loop — **launch-ready ×4 products (membership-kit, template-packs, stripe-webhook-test-kit, agent-fleet-field-manual)**. The frontier is **owner-gated** (publish clicks + Stripe keys); the book project (dream-series) is in flight; otherwise **idling on backpressure** until owner return or new orders.
-- **health:** green — `python3 bootstrap.py check --strict` → **exit 0 / green** (verified this slice; bare invocation can red by design mid-slice on a fresh born-red card, so pushes are gated on the named-card form `--session-log .sessions/2026-07-11-queue-f-field-manual-publish.md`, green before push).
+- **timestamp:** 2026-07-11T18:17:33Z (creative-wave ledger + budget-miss pattern + ⚑G; prior write 2026-07-11T17:45:00Z ⚑F slice)
+- **phase:** work loop — **owner-engaged creative wave landed (#44–#48) + 3 digital products launch-ready**. The frontier is **owner-gated** on two axes: **publish clicks** (⚑ queue below) and **creative picks** (owner-picks block below). Otherwise **idling on backpressure** until owner return or new orders.
+- **health:** green — `python3 bootstrap.py check --strict` gated on the named-card form (`--session-log .sessions/2026-07-11-coordinator-heartbeat-d.md`), green before push (bare invocation can red by design mid-slice on a fresh born-red card).
 - **kit heartbeat:** kit: v1.10.1 · check: green (`--strict` exit 0 at flip) · engaged: yes — written by the kit v1.10.1 distribution session (PR #34), this line only.
-- **HEAD at write:** `9226e22` (origin/main, PR #41 field manual merged).
+- **HEAD at write:** `e71348d` (origin/main, PR #48 photo-packs merged).
 
-## NEW NEGATIVE — field-manual build over budget (ledgered, second consecutive miss)
+## NEGATIVES — token-budget misses now 3 of 4 measured builds (pattern, headlined per kill rule)
 
-The Agent Fleet Field Manual build ran **~200k agent-effort tokens against its
-intake's 90k cap (≈2.2×)** (coordinator-metered figure, this slice; the build
-session itself honestly labelled its own number "estimate, press against or
-modestly strain" — the metered figure is worse). This is the **second
-consecutive intake-budget miss** (test-kit: ~284k vs 120k, ~2.3×, PR #29
-`74894e5`). **Pattern named:** writing/build slices systematically exceed
-their caps by ~2×. Forward guard: future intakes should either **double their
-caps honestly or cut scope** — a cap that is silently exceeded every time is
-not a cap. The artifact itself shipped, was independently spot-reviewed
-(non-author, verdicts below/⚑F), and the overrun changes nothing the buyer
-receives — but the budget line is a miss, headlined per the kill rule.
+Metered agent-effort tokens vs intake caps, all coordinator-metered:
+
+- **Stripe Webhook Test Kit: ~284k vs 120k cap (~2.3×)** — ~90k of it CI-status polling (PR #29 `74894e5`).
+- **Agent Fleet Field Manual: ~200k vs 90k cap (~2.2×)** — the build session self-labelled a kinder "estimate"; the metered figure is worse.
+- **photo-packs: ~93.8k vs 80k cap (~1.2×)** — a miss even at modest scope.
+- **Only Bababoefoe came in under cap: ~100k vs 150k.**
+
+**Pattern named:** the caps were unrealistic for research/CI overhead, not just the
+builds greedy. **Rule going forward:** intake caps must include research + CI
+overhead **explicitly**, and builds report **metered** (not self-estimated)
+usage. A cap that is silently exceeded three times out of four is not a cap.
+The artifacts themselves shipped and were verified where claimed (records
+below); the budget lines are misses, headlined here rather than buried.
 
 ## Self-review 2026-07-11 (ORDER 006)
 
@@ -73,16 +75,13 @@ Shipped #15–#29 + #31 today (state repair, real-Stripe-path fix, capabilities 
   - **PR #39** `c22922d` — intake: 4 guide/book/info-product candidates + re-rank addendum.
   - **PR #40** `ea69c49` — ledger: guard-fires telemetry line from the ORDER 006 slice.
   - **PR #41** `9226e22` — **Agent Fleet Field Manual v0.1** ($39 book, candidate #4, teammate-authored; 11 cited chapters, 2 free; byte-reproducible zip sha256 `7eff9235…a29176`); merged with all three checks green on head `c77ce0d`.
-  - **This PR** — ⚑F queued (field-manual publish OWNER-ACTION flipped NOT-QUEUED → QUEUED with merge/CI/spot-review/zip evidence) + this ledger extension + the NEW NEGATIVE headline above; card `.sessions/2026-07-11-queue-f-field-manual-publish.md`.
-
-## NEGATIVE — test-kit build over budget (ledgered, per kill rule)
-
-The Stripe Webhook Test Kit build ran **~284k agent-effort tokens against the
-intake's 120k cap (~2.3×)** — of which **~90k was wasted on CI-status
-polling**. The artifact shipped and was independently verified (below), but the
-budget line is a **miss**, headlined here honestly rather than buried: future
-intakes should budget CI-wait overhead explicitly instead of absorbing it
-silently into the build cap.
+  - **PR #43** `69cf889` — ⚑F queued (field-manual publish OWNER-ACTION flipped to QUEUED with evidence) + ledger #39/#40/#41 + field-manual budget-overrun negative.
+  - **PR #44** `59d1520` — **DREAMLINE dream-series**: series bible, names, 3-book arc, Book 1 chapters 1–3.
+  - **PR #45** `3fb13d0` — **6 children's-book concepts** (old-fashioned + modern) + prompt sheets.
+  - **PR #46** `47c2692` — **Bababoefoe** (owner plushy brand): bible, 5 stories, QR story-site, phased make-it-real plan.
+  - **PR #47** `4063090` — **4 adaptations** (public-domain + own-IP) + concept #7 **Star Pirates**.
+  - **PR #48** `e71348d` — **photo-packs candidate**: market plan (cited channel economics), pack spec (public-repo safety rule), stdlib sample validator + gallery.
+  - **This PR** — coordinator heartbeat 2026-07-11d: creative-wave ledger (#44–#48), budget-miss pattern headline (3 of 4 measured builds over cap), NEW ⚑G + photo-samples queue items, owner creative-picks block; card `.sessions/2026-07-11-coordinator-heartbeat-d.md`.
 
 ## Non-author verification record (R23 — satisfied for ⚑E)
 
@@ -107,7 +106,7 @@ VERIFIED-WHEN → **⚑E flipped to QUEUED** this slice.
 Adapted per Q-0265: a 15-min `send_later` pacemaker chain + a 2-hourly cron failsafe replace ORDER 002's original "hourly standing wake". Verbatim routine record (armed 2026-07-11T00:30Z from the coordinator seat via a worker; no denials, first attempt each):
 - Pacemaker: tool `mcp__claude-code-remote__send_later`, args {"message": "continue the work loop: sync HEAD → inbox → next slice → re-arm the 15-min pacemaker", "delay_minutes": 15} → result {"fire_at":"2026-07-11T00:46:00Z","trigger_id":"trig_01E1WURMbwGXXSYwN16DCZ8R"}
 - Failsafe: tool `mcp__claude-code-remote__create_trigger`, args {"name": "venture-lab failsafe wake", "cron_expression": "0 */2 * * *", "prompt": "venture-lab failsafe wake: the pacemaker chain may have stalled. Sync origin/main HEAD, read control/inbox.md, resume the work loop, re-arm the 15-minute send_later chain, and overwrite control/status.md as the last step."} → created trig_01X1dw1L1Udgt8atzzNWEJic, enabled:true, next_run_at 2026-07-11T02:02:18Z, bound to the coordinator session (persist_session:true).
-- **Chain state at this write:** idle-mode 45-min pacemaker + 2-hourly failsafe; failsafe trig_01X1dw1L1Udgt8atzzNWEJic cron `0 */2 * * *` unchanged.
+- **Chain state at this write:** idle-mode 45-min pacemaker chain live + 2-hourly failsafe; failsafe trig_01X1dw1L1Udgt8atzzNWEJic cron `0 */2 * * *` unchanged.
 
 ### ORDER 003 (P0) — fix the real Stripe path: DONE
 Merged as PR #16 (`912da3e`). Evidence:
@@ -144,6 +143,16 @@ Appended 2026-07-11 (verbatim classifier findings):
 5. CC Cost Lens $15 — 3.10
 6. productized sites — 2.90 · 7. sponsorship — 2.85 · 8. affiliate dirs — 2.65
 
+**Creative wave (owner-engaged, 2026-07-11, outside the venture-eval ranking):** DREAMLINE dream-series (#44) · children's-book portfolio: 6 originals + 4 adaptations + Star Pirates (#45/#47) · Bababoefoe plushy brand (#46) · photo-packs 2.35 (#48, awaits owner samples).
+
+## OWNER CREATIVE PICKS — open (list for the sweep)
+
+- **Manuscripts to develop** — shortlist: **Star Pirates / Comet Biscuit / Tummel / Dormouse**.
+- **Language per title** (per manuscript picked).
+- **Star Pirates age band.**
+- **DREAMLINE name picks** — recommended: **Palimpsest / Vivid / Anchoring / Lull / Vigil**.
+- **Continue DREAMLINE past ch3?**
+
 ## ⚑ needs-owner
 
 - **⚑B — publish membership-kit at $49 — UNFROZEN ✅**
@@ -153,16 +162,22 @@ Appended 2026-07-11 (verbatim classifier findings):
   · STATUS: **UNFROZEN** (same gate as ⚑B). · WHAT: publish `candidates/template-packs/LISTING.md` PWYW $19 suggested, uploading `candidates/template-packs/dist/template-packs-v0.1.zip` (click script: `docs/launch/template-packs/owner-actions.md`). · UNBLOCKS: candidate #2 first revenue + bundle cross-sell. · VERIFIED-WHEN: live listing URL resolves + a test download works.
 
 - **⚑E — publish stripe-webhook-test-kit at $29 — QUEUED (2026-07-11) ✅**
-  · STATUS: **QUEUED** this slice — both gates met (in-CI green on head `b5b99cd` + main `fc7f39c`; R23 non-author verification, record above). · WHAT: publish per the six-field click script `docs/launch/stripe-webhook-test-kit/publish-owner-action.md`, uploading `candidates/stripe-webhook-test-kit/dist/stripe-webhook-test-kit-v0.1.zip`. · UNBLOCKS: candidate-ranking #1 first-revenue path + the first-ten-customers funnel. · VERIFIED-WHEN: live listing URL returns HTTP 200 (CI leg already satisfied).
+  · STATUS: **QUEUED** — both gates met (in-CI green on head `b5b99cd` + main `fc7f39c`; R23 non-author verification, record above). · WHAT: publish per the six-field click script `docs/launch/stripe-webhook-test-kit/publish-owner-action.md`, uploading `candidates/stripe-webhook-test-kit/dist/stripe-webhook-test-kit-v0.1.zip`. · UNBLOCKS: candidate-ranking #1 first-revenue path + the first-ten-customers funnel. · VERIFIED-WHEN: live listing URL returns HTTP 200 (CI leg already satisfied).
 
 - **⚑F — publish the Agent Fleet Field Manual at $39 — QUEUED (2026-07-11) ✅**
-  · STATUS: **QUEUED** this slice — evidence reviewed by the coordinator seat: PR #41 merged `9226e22`, all three checks green on head `c77ce0d`, NON-AUTHOR spot-review of both free chapters all-CONFIRMED/none-refuted, zip sha256 `7eff9235024619a632020c06f7c47da24667f8134c828715694eaa8755a29176` recomputed on main. · WHAT: publish per the six-field click script `docs/launch/agent-fleet-field-manual/publish-owner-action.md`, uploading `candidates/agent-fleet-field-manual/dist/agent-fleet-field-manual-v0.1.zip` at $39. Gumroad-hosted — no custom payment path, so the D1/Stripe gate does not apply. Conservative: 0–4 sales/90d ($0–$156); $0 without distribution. · UNBLOCKS: candidate #4 first-revenue path + the free-chapter validation funnel. · VERIFIED-WHEN: live listing URL returns HTTP 200 on a purchasable $39 page AND ≥2 free chapters are live.
+  · STATUS: **QUEUED** — evidence reviewed by the coordinator seat: PR #41 merged `9226e22`, all three checks green on head `c77ce0d`, NON-AUTHOR spot-review of both free chapters all-CONFIRMED/none-refuted, zip sha256 `7eff9235024619a632020c06f7c47da24667f8134c828715694eaa8755a29176` recomputed on main. · WHAT: publish per the six-field click script `docs/launch/agent-fleet-field-manual/publish-owner-action.md`, uploading `candidates/agent-fleet-field-manual/dist/agent-fleet-field-manual-v0.1.zip` at $39. Gumroad-hosted — no custom payment path, so the D1/Stripe gate does not apply. Conservative: 0–4 sales/90d ($0–$156); $0 without distribution. · UNBLOCKS: candidate #4 first-revenue path + the free-chapter validation funnel. · VERIFIED-WHEN: live listing URL returns HTTP 200 on a purchasable $39 page AND ≥2 free chapters are live.
 
 - **⚑ — publish the free gotcha article**
-  · WHAT: publish `docs/launch/stripe-webhook-test-kit/gotcha-article.md` (free funnel top). · WHY: the test-kit's **validation-signal clock starts at article publish** per its INTAKE kill rule — downstream candidates #4/#5 wait on this signal. · VERIFIED-WHEN: article live at a public URL.
+  · WHAT: publish `docs/launch/stripe-webhook-test-kit/gotcha-article.md` (free funnel top). · WHY: the test-kit's **validation-signal clock starts at article publish** per its INTAKE kill rule — downstream candidates wait on this signal. · VERIFIED-WHEN: article live at a public URL.
 
 - **⚑A — provide test-mode Stripe API keys — OPEN (live E2E still unverified)**
   · WHAT: create a free Stripe account, paste the test-mode secret + webhook signing secret into `candidates/membership-kit/server/.env` (env NAMES `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET` — values never in repo). · WHY: the HTTP-layer real-path tests are green locally and in CI, but a live end-to-end test-mode purchase remains UNVERIFIED without keys. · VERIFIED-WHEN: `python3 app.py` prints `mode=stripe`; `stripe trigger checkout.session.completed` grants a membership visible at `/members?email=…` returning 200.
+
+- **NEW ⚑G — enable GitHub Pages (Bababoefoe QR story-site) — $0**
+  · WHAT: enable GitHub Pages per `candidates/bababoefoe/MAKE-IT-REAL-PLAN.md` Phase 0 (repo Settings → Pages; $0, no accounts, no spend). · UNBLOCKS: the Bababoefoe QR story-site goes live so QR codes on/with the plushy resolve to real story pages. · VERIFIED-WHEN: the Pages URL returns HTTP 200 on the story index.
+
+- **⚑ — owner photo samples upload (photo-packs)**
+  · WHAT: upload downsized (**≤2048px**) **watermarked** previews to `candidates/photo-packs/samples/` per the LOUD safety rule in `candidates/photo-packs/PACK-SPEC.md` — full-resolution originals NEVER enter this public repo. `candidates/photo-packs/validate_samples.py` mechanically enforces the caps. · UNBLOCKS: pack curation, the gallery site, and channel listings (per `candidates/photo-packs/MARKET-PLAN.md`). · VERIFIED-WHEN: validator exits 0 with ≥1 real sample and the gallery renders it.
 
 - **⚑ (optional) — Supabase project for hosted persistence**
   · WHAT: create a Supabase project + `members` table per the six-field OWNER-ACTION in `candidates/membership-kit/server/README.md` (env NAMES only in repo). · UNBLOCKS: hosted persistent membership (SupabaseStore landed in PR #23, verified against a stub PostgREST; live round-trip owner-gated). · VERIFIED-WHEN: members survive a restart via Supabase.
@@ -180,16 +195,16 @@ Questions the sim-lab should price before/alongside test-kit distribution:
 
 ## Token-cost line (carried; "estimate" where not measured)
 
-- **NEW (coordinator-metered, this slice): Agent Fleet Field Manual build ≈ 200k agent-effort tokens vs the 90k intake cap (≈2.2×)** — see the NEW NEGATIVE block at the top; second consecutive intake-budget miss, pattern + forward guard named there.
-- **Measured (prior slice): Stripe Webhook Test Kit build ≈ 284k agent-effort tokens vs the 120k intake cap (~2.3×; ~90k of it CI-status polling)** — see the NEGATIVE block above.
-- **2026-07-11 sessions (ORDER 003/004 slices, kit v1.8.0, capabilities merge, CI/kit-tests, SupabaseStore, intakes, heartbeats): not measured.**
+- **Metered budget record (3 of 4 measured builds over cap — pattern headlined at top):** test-kit **~284k vs 120k (~2.3×**, ~90k CI polling) · field manual **~200k vs 90k (~2.2×)** · photo-packs **~93.8k vs 80k (~1.2×)** · Bababoefoe **~100k vs 150k (under cap)** — all coordinator-metered figures, not self-estimates.
+- **2026-07-11 sessions (ORDER 003/004 slices, kit v1.8.0, capabilities merge, CI/kit-tests, SupabaseStore, intakes, heartbeats, DREAMLINE #44, concepts #45/#47): not measured.**
 - **ORDER-004 boot-repair slice ≈ 0.2 build-session** (recon + status re-stamp + succession brief; no build). **Estimate.**
-- **Cumulative (carried, from `docs/research/venture-ledger.md`):** eval real spend ~47k tokens across 5 candidates (~9k amortized/candidate, measured). Candidate #1 ≈1.x build sessions (v0.1 + v0.2 persistence) + distribution share ≈40–70k tokens (est.). Candidate #2 ≈1 build session + distribution share ≈15–25k tokens (est.). Return-on-agent-labor **pending first sale** (owner-gated on ⚑B/⚑D/⚑E publish clicks).
-- **Honesty flag (carried, `docs/retro/QUESTIONS.md` G2):** the per-candidate cost lines mix measured figures (eval ~47k; test-kit ~284k) with build-session estimates — labelled as such, not dressed up as measurements.
+- **Cumulative (carried, from `docs/research/venture-ledger.md`):** eval real spend ~47k tokens across 5 candidates (~9k amortized/candidate, measured). Candidate #1 ≈1.x build sessions (v0.1 + v0.2 persistence) + distribution share ≈40–70k tokens (est.). Candidate #2 ≈1 build session + distribution share ≈15–25k tokens (est.). Return-on-agent-labor **pending first sale** (owner-gated on ⚑B/⚑D/⚑E/⚑F publish clicks).
+- **Honesty flag (carried, `docs/retro/QUESTIONS.md` G2):** the per-candidate cost lines mix measured figures with build-session estimates — labelled as such, not dressed up as measurements.
 
 ## Next
 
-- **Idle on backpressure (Q-0089 — no filler).** All four products are launch-ready; the frontier is owner-gated (⚑ queue above). The lane wakes on pacemaker/failsafe, syncs HEAD, re-reads the inbox, and acts only on owner return or new orders.
-- **Candidate #4 (Agent Fleet Field Manual) is now BUILT + ⚑F-queued** (un-deferred by owner steer, event 4df864d6, ahead of the test-kit validation signal). **#5 CC Cost Lens remains deferred** pending that signal — the clock starts at gotcha-article publish (⚑ above).
-- **In flight: the book project (dream-series)** — noted here so the next writer carries it; not yet a ledgered candidate row.
+- **Idle on backpressure (Q-0089 — no filler).** The frontier is owner-gated on the ⚑ queue (publish clicks + ⚑G Pages click + photo samples) and the owner creative-picks block above. The lane wakes on pacemaker/failsafe, syncs HEAD, re-reads the inbox, and acts only on owner return or new orders.
+- **photo-packs awaits owner samples** (`candidates/photo-packs/samples/`, ≤2048px watermarked) before curation/gallery/listing work proceeds.
+- **Manuscripts await owner picks** (shortlist + language + age band + DREAMLINE names + continue-past-ch3 decision — owner-picks block above).
+- **#5 CC Cost Lens remains deferred** pending the test-kit validation signal — the clock starts at gotcha-article publish (⚑ above).
 - Pacemaker + failsafe (ORDER 002) keep the lane on a continuous work loop; owner return processes the ⚑ queue above.
