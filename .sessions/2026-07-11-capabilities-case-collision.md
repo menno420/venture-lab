@@ -1,11 +1,11 @@
 # 2026-07-11 — capabilities case-collision fix (one ledger)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** venture-lab worker · fix/capabilities-case-collision
 - **session:** case-collision repair on the capability ledger
 
-## Session idea
+## 💡 Session idea
 The repo carried BOTH `docs/CAPABILITIES.md` and `docs/capabilities.md` — a
 case collision that breaks case-insensitive filesystems and splits the truth
 ledger into two divergent copies. Merge them into ONE ledger at the
