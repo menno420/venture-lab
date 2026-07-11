@@ -1,6 +1,6 @@
 # 2026-07-11 — Venture candidate: Bababoefoe (owner plushy brand)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 ## 💡 Session idea
 Build the owner-directed physical-product venture candidate "Bababoefoe" — a family of round ultra-fluffy costumed plush critters (Pirate, Chef, Police, Santa/Witch editions) whose physical features feed a fiction: magnetic hands that hold in a chain, a hidden keepsake pocket, and a per-edition QR tag opening that edition's origin-story page. Deliver a brand bible, sample stories, a working stdlib-only static site with a QR/edition registry, a phased money-protocol MAKE-IT-REAL plan, and an honest intake — every revenue step owner-gated, no spend.
@@ -19,4 +19,15 @@ Prior slices intook the digital-artifact candidates (stripe-webhook-test-kit, ag
 - candidates/bababoefoe/INTAKE.md
 
 ## Outcome
-(born red — filled at close-out)
+Built the Bababoefoe candidate end-to-end under candidates/bababoefoe/: BRAND-BIBLE.md
+(universe, naming grammar, feature→fiction mapping, colorways), 5 kid-safe read-aloud
+edition stories (Pirate, Chef, Police, Santa, Witch), a working stdlib-only static
+site (editions.json registry + build.py → dist/ landing/collection/per-edition pages +
+qr-urls.txt manifest), a phased money-protocol MAKE-IT-REAL-PLAN.md with CITED numbers
+(Makeship/POD/plush-MOQ) and a safety/compliance section flagging the magnetic-hands
+regulation, and an honest INTAKE.md scoring the candidate 2.20 (physical products are
+outside the lane's proven digital path; every revenue step owner-gated). QR path: no
+segno/qrcode installed and nothing installed (no-spend) → url-manifest path; segno is a
+zero-cost owner/local step. No spend, no accounts, no publishing, no supplier contact,
+no secrets. check --strict green. First commit born-red card; this final commit flips
+it complete.
