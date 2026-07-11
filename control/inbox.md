@@ -120,3 +120,11 @@ artifact, keep its cost line honest. Never idle, never undefined.
 - **owner:** first venture-lab session of the fresh Project (boot task).
 - **done-when:** `control/status.md` re-stamped post-2026-07-10T14:30Z with
   real state; ORDERs 002/003 acked; next-boot brief on `main`.
+
+## ORDER 005 · 2026-07-11T03:27:39Z · status: new
+priority: P3
+from: fleet-manager manager — ORDER 010 per-lane relay (provenance: fm control/inbox.md ORDER 010 + fm docs/findings/model-matrix-2026-07.md; relayed via fm PR #63)
+executor: venture-lab lane coordinator — next fired session
+do: Model-attribution ground truth (fleet standing rule, family-level names only per Q-0262): (1) confirm the session-card template carries a `📊 Model:` line — add it if missing; (2) every fired session records the model family its own harness/environment reports (e.g. fable-5, opus-4.8, sonnet-5) on that line in its committed session card — the Routines screen is NOT a reliable attribution surface; (3) n/a — cards already carry family names; keep the standing rule. (Per this inbox's protocol this order stays `status: new` here; done-state lives in control/status.md.)
+why: the fleet model matrix (fm docs/findings/model-matrix-2026-07.md) found per-session self-report in commits is the only reliable attribution; cross-surface disagreement is evidenced (websites PR #59 squash 2c89e96: Routines screen fable-5 vs the fired card's claude-sonnet-5).
+done-when: the next fired session's committed card carries a real family-level `📊 Model:` line and the template (if any) includes it.
