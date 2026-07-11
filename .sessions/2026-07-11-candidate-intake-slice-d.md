@@ -1,6 +1,6 @@
 # 2026-07-11 — Venture candidate intake (build-queue item d)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 ## 💡 Session idea
 Intake three new venture candidates that fit the lane's hard constraints — one-click-sellable digital artifacts agents fully build in-repo, no spend to build, distribution-realistic with an organic discovery surface — each with the binding kill-rule fields, then re-rank all candidates against venture-eval-001's rubric and recommend the next build slice.
@@ -18,4 +18,4 @@ Prior slices landed the ⚑B/⚑D unfreeze (PR #22, HEAD 6fea90b) and the real-S
 - docs/research/venture-eval-001.md — dated addendum (new ## section; history preserved)
 
 ## Outcome
-Pending — flipped to complete as the last commit once check --strict is green.
+Three intakes written; re-ranking appended to venture-eval-001; next-slice recommendation = build stripe-webhook-test-kit v0.1. check --strict green.
