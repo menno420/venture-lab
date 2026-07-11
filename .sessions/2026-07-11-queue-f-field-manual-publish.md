@@ -1,6 +1,6 @@
 # Session — queue ⚑F (field-manual publish) + ledger extension
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · medium · coordinator docs/ledger slice
 - **session:** coordinator-seat slice — flip the field-manual publish OWNER-ACTION from NOT-QUEUED to QUEUED with evidence (PR #41 merge + CI + non-author spot-review + zip sha256), extend the `control/status.md` landed ledger (#39/#40/#41 + this PR), headline the field-manual budget overrun as a NEW NEGATIVE, add ⚑F to the needs-owner block.
