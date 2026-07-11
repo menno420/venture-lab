@@ -1,5 +1,7 @@
 # NEXT SESSION — venture-lab resume brief
 
+> **Status:** `reference`
+
 > Rewritten at archive close-out 2026-07-11. Cold-start brief for the session
 > that resumes venture-lab after the coordinator chat is archived. Read this
 > first, then docs/retro/2026-07-11-coordinator-retro.md.

@@ -5,14 +5,14 @@
 
 ---
 
-updated: 2026-07-11T18:17:33Z
+updated: 2026-07-11T19:37:09Z
 status: green
 
-- **timestamp:** 2026-07-11T18:17:33Z (creative-wave ledger + budget-miss pattern + ⚑G; prior write 2026-07-11T17:45:00Z ⚑F slice)
-- **phase:** work loop — **owner-engaged creative wave landed (#44–#48) + 3 digital products launch-ready**. The frontier is **owner-gated** on two axes: **publish clicks** (⚑ queue below) and **creative picks** (owner-picks block below). Otherwise **idling on backpressure** until owner return or new orders.
-- **health:** green — `python3 bootstrap.py check --strict` gated on the named-card form (`--session-log .sessions/2026-07-11-coordinator-heartbeat-d.md`), green before push (bare invocation can red by design mid-slice on a fresh born-red card).
+- **timestamp:** 2026-07-11T19:37:09Z (archive close-out: chat-only knowledge captured, resume brief rewritten, in-flight sweep; prior write 2026-07-11T18:17:33Z creative-wave ledger + budget-miss pattern + ⚑G)
+- **phase:** **ARCHIVE-READY, idle** — all chat-only knowledge captured in the repo, resume brief rewritten, in-flight sweep recorded; the coordinator chat can be archived. The frontier stays **owner-gated** on **publish clicks** (⚑ queue below) and **creative picks** (owner-picks block below).
+- **health:** green — `python3 bootstrap.py check --strict` gated on the named-card form (`--session-log .sessions/2026-07-11-archive-prep-wrapup.md`), exit 0 at flip (bare invocation can red by design mid-slice on a fresh born-red card).
 - **kit heartbeat:** kit: v1.10.1 · check: green (`--strict` exit 0 at flip) · engaged: yes — written by the kit v1.10.1 distribution session (PR #34), this line only.
-- **HEAD at write:** `e71348d` (origin/main, PR #48 photo-packs merged).
+- **HEAD at write:** `e7e5c9f` (origin/main, PR #54 PH-move addendum merged).
 
 ## NEGATIVES — token-budget misses now 3 of 4 measured builds (pattern, headlined per kill rule)
 
@@ -32,56 +32,26 @@ below); the budget lines are misses, headlined here rather than buried.
 
 ## Self-review 2026-07-11 (ORDER 006)
 
-Coordinator-dictated self-review of the last ~24h (2026-07-10 ~20:00Z → 2026-07-11 ~10:00Z). Every citation below was re-verified against `git log` / the repo before this write; no SHA corrections were needed.
+Self-review (ORDER 006): moved to docs/retro/2026-07-11-coordinator-retro.md
 
-### (1) What went wrong
+## Ledger — verified against git log through PR #54
 
-- **Stale heartbeat:** status claimed PR #9 unmerged when it had merged as `95b755b` — repaired by ORDER 004 via PR #15 (`ab5f533`).
-- **Three terminal auto-mode-classifier denials** on child-seat landing attempts for PR #15 (REST self-merge [Self-Approval]; auto-merge arm [Merge Without Review]; retry with the owner's instruction quoted — "no reason provided"). Root cause: relayed authorization is never genuine in a child seat. Verbatim texts in the WALLS section below and `docs/PLATFORM-LIMITS.md`.
-- **Coordinator-seat merge of PR #16 denied** ([Merge Without Review] — the owner's genuine instruction covered only PR #15). Resolved when the owner issued the standing grant (in-session, 2026-07-11, event b92aab44).
-- **[Instruction Poisoning] denial** when a slice tried to record the standing merge grant into repo files/team memory as pre-authorization — honored, adopted project-wide: grants live in genuine owner turns, cited per action, never encoded into files. Verbatim in WALLS.
-- **Slice (e) worker's self-merge of PR #20 denied** ([Self-Approval]); parked correctly, merged from the coordinator seat (`2021bab`).
-- **Test-kit build overran its intake budget:** ~284k agent-effort tokens vs the 120k cap (~2.3×; ~90k wasted on CI polling) — ledgered negative (heartbeat PR #29, `74894e5`).
-- **"Green in CI" wording was initially overstated:** substrate-gate never executed kit test suites. Corrected by honest re-wording, then fixed for real: kit-tests workflow (PR #22, `6fea90b`) + swtk job (PR #28, `fc7f39c`).
-- **Minor hygiene:** brief duplicate pacemaker one-shots early in the day (deduped, single-chain discipline since); an untracked `__pycache__/` from a verification run (deleted; `__pycache__` not gitignored — candidate for a future one-liner).
+Ledger verified against `git log` through PR #54: **#52 `dfe3332`** photo
+previews (watermarked; validator hardened repo-wide) · **#53 `389bb37`** NL/PH
+monetization-jurisdictions research · **#54 `e7e5c9f`** PH-move addendum (NL
+national + Filipina partner) — atop the earlier **#44–#50** entries (DREAMLINE
+#44, concepts #45/#47, Bababoefoe #46, photo-packs #48, #49 fail-closed Stripe
+hotfix). Orders 001–006 all done (see Orders below). The full per-PR SHA ledger
+moved to docs/retro/2026-07-11-coordinator-retro.md at close-out.
 
-### (2) Requires owner attention (click-level; mirrored in the ⚑ needs-owner block below)
+## Archive note
 
-- **Publish the $49 membership-kit** — script: `docs/launch/membership-kit/owner-actions.md` — unfrozen, evidence linked.
-- **Publish the $19 template-packs** — `docs/launch/template-packs/owner-actions.md` — unfrozen.
-- **Publish the $29 Stripe Webhook Test Kit** — `docs/launch/stripe-webhook-test-kit/publish-owner-action.md` — queued with CI + non-author adversarial verification evidence.
-- **Publish the free gotcha article** — `docs/launch/stripe-webhook-test-kit/gotcha-article.md` — starts the test-kit's 14-day validation clock.
-- **⚑A: provide test-mode Stripe keys** — a live end-to-end purchase has NEVER been executed; all payment-path verification is HTTP-layer against vendored real payloads.
-- **Optional:** create the Supabase project per `candidates/membership-kit/server/README.md` OWNER-ACTION.
-- **Decide-and-flag decisions taken without per-action owner signoff (flagged for retroactive veto):** all merges 2026-07-11 executed under the standing grant (event b92aab44); idle pacemaker widened 15→45 min with the 2-hourly failsafe as backstop.
-
-### (3) Health
-
-Shipped #15–#29 + #31 today (state repair, real-Stripe-path fix, capabilities ledger, launch assets, CI test wiring, SupabaseStore, 3 candidate intakes, test-kit v0.1 built+adversarially verified, model-attribution); three products launch-ready; revenue $0 (expected — distribution is owner-gated); next = owner clicks, then the validation clock.
-- **Landed 2026-07-11 (full ledger, SHAs):**
-  - **PR #15** `ab5f533` — ORDER 004 state repair (gen-2 archive ender + succession brief).
-  - **PR #16** `912da3e` — ORDER 003 real-Stripe-path fix (D1a/D1b/D2/D3 + vendored-payload HTTP tests + zips rebuilt).
-  - **PR #17** `fb5ef4b` — kit v1.8.0 upgrade, landed by a non-venture session — queue item (b) satisfied externally.
-  - **PR #18** `d9760e2` — capabilities ledger case-collision merge (single `docs/CAPABILITIES.md`).
-  - **PR #19** `6069339` — PLATFORM-LIMITS capabilities-link repoint, temp allowlist dropped.
-  - **PR #20** `2021bab` — launch & distribution assets for membership-kit + template-packs (docs only).
-  - **PR #21** `64969d1` — coordinator heartbeat (01:42Z status write).
-  - **PR #22** `6fea90b` — kit-tests CI workflow + ⚑B/⚑D owner scripts flipped **UNFROZEN**.
-  - **PR #23** `815dea9` — SupabaseStore over PostgREST (stdlib urllib), 12 new tests.
-  - **PR #24** `ebfd9a5` — full 35-test kit suite in CI (kit-tests workflow).
-  - **PR #25** `9253d86` — 3 new candidate intakes + eval addendum (re-ranking; next slice recommendation).
-  - **PR #27** `28ff800` — **Stripe Webhook Test Kit v0.1** — harness, 3 vendored real-shape fixtures with provenance, 14-test HTTP suite, deterministic zip.
-  - **PR #28** `fc7f39c` — swtk suite wired into kit-tests CI as a named check; **14/14 green on PR head and on main**.
-  - **PR #39** `c22922d` — intake: 4 guide/book/info-product candidates + re-rank addendum.
-  - **PR #40** `ea69c49` — ledger: guard-fires telemetry line from the ORDER 006 slice.
-  - **PR #41** `9226e22` — **Agent Fleet Field Manual v0.1** ($39 book, candidate #4, teammate-authored; 11 cited chapters, 2 free; byte-reproducible zip sha256 `7eff9235…a29176`); merged with all three checks green on head `c77ce0d`.
-  - **PR #43** `69cf889` — ⚑F queued (field-manual publish OWNER-ACTION flipped to QUEUED with evidence) + ledger #39/#40/#41 + field-manual budget-overrun negative.
-  - **PR #44** `59d1520` — **DREAMLINE dream-series**: series bible, names, 3-book arc, Book 1 chapters 1–3.
-  - **PR #45** `3fb13d0` — **6 children's-book concepts** (old-fashioned + modern) + prompt sheets.
-  - **PR #46** `47c2692` — **Bababoefoe** (owner plushy brand): bible, 5 stories, QR story-site, phased make-it-real plan.
-  - **PR #47** `4063090` — **4 adaptations** (public-domain + own-IP) + concept #7 **Star Pirates**.
-  - **PR #48** `e71348d` — **photo-packs candidate**: market plan (cited channel economics), pack spec (public-repo safety rule), stdlib sample validator + gallery.
-  - **This PR** — coordinator heartbeat 2026-07-11d: creative-wave ledger (#44–#48), budget-miss pattern headline (3 of 4 measured builds over cap), NEW ⚑G + photo-samples queue items, owner creative-picks block; card `.sessions/2026-07-11-coordinator-heartbeat-d.md`.
+Pacemaker wake chain is **NOT re-armed** at archive; the failsafe cron
+`trig_01X1dw1L1Udgt8atzzNWEJic` (`0 */2 * * *`) is **pending deletion** — a
+fresh session re-arms the wake chain per ORDER 002. Chat-only knowledge is
+captured in the repo: coordinator retro at
+**docs/retro/2026-07-11-coordinator-retro.md** and the one-paragraph true state
++ full ⚑ list at **docs/retro/archive-ready-2026-07-11.md**.
 
 ## Non-author verification record (R23 — satisfied for ⚑E)
 
@@ -155,6 +125,12 @@ Appended 2026-07-11 (verbatim classifier findings):
 
 ## ⚑ needs-owner
 
+- **⚑ HOT — close PR #51 + delete branch `menno420-patch-1` (photo exposure)**
+  · WHAT: close PR #51 and delete branch `menno420-patch-1`. · WHY: the owner uploaded **10 full-res, unwatermarked original photos** to PR #51; it is **STILL OPEN and publicly downloadable**. Treat the 10 files as permanently exposed (forks + git history retain them). Compliant watermarked previews already landed (PR #52 `dfe3332`) + validator hardened repo-wide; this is the owner cleanup click (agents do not close owner PRs). · VERIFIED-WHEN: PR #51 closed and branch `menno420-patch-1` deleted.
+
+- **⚑ — disposition PR #38 (stale codex pre-publish review)**
+  · WHAT: close or merge PR #38 (`codex/review-code-for-publish-blockers`) at owner discretion. · WHY: stale pre-publish gate review, **superseded by the #49 fail-closed hotfix**. · VERIFIED-WHEN: PR #38 closed or merged.
+
 - **⚑B — publish membership-kit at $49 — UNFROZEN ✅**
   · STATUS: **UNFROZEN** — freeze condition met by PR #16 (`912da3e`) + green substrate-gate run 29134433874. · WHAT: publish `candidates/membership-kit/LISTING.md` as a $49 product on Gumroad/Lemon Squeezy, uploading `candidates/membership-kit/dist/membership-kit-v0.2.zip` (click script: `docs/launch/membership-kit/owner-actions.md`). · UNBLOCKS: candidate #1 first-revenue path. · VERIFIED-WHEN: public listing URL + a test purchase completes.
 
@@ -203,8 +179,8 @@ Questions the sim-lab should price before/alongside test-kit distribution:
 
 ## Next
 
-- **Idle on backpressure (Q-0089 — no filler).** The frontier is owner-gated on the ⚑ queue (publish clicks + ⚑G Pages click + photo samples) and the owner creative-picks block above. The lane wakes on pacemaker/failsafe, syncs HEAD, re-reads the inbox, and acts only on owner return or new orders.
+- **ARCHIVE-READY, idle (Q-0089 — no filler).** The frontier is owner-gated on the ⚑ queue (close #51 + #38, publish clicks + ⚑G Pages click + photo samples) and the owner creative-picks block above. The coordinator chat can be archived; a fresh session boots per docs/NEXT-SESSION.md, re-arms the wake chain per ORDER 002, syncs HEAD, re-reads the inbox, and acts only on owner return or new orders.
 - **photo-packs awaits owner samples** (`candidates/photo-packs/samples/`, ≤2048px watermarked) before curation/gallery/listing work proceeds.
 - **Manuscripts await owner picks** (shortlist + language + age band + DREAMLINE names + continue-past-ch3 decision — owner-picks block above).
 - **#5 CC Cost Lens remains deferred** pending the test-kit validation signal — the clock starts at gotcha-article publish (⚑ above).
-- Pacemaker + failsafe (ORDER 002) keep the lane on a continuous work loop; owner return processes the ⚑ queue above.
+- **At archive:** the pacemaker chain is **NOT re-armed** and the failsafe cron `trig_01X1dw1L1Udgt8atzzNWEJic` (`0 */2 * * *`) is **pending deletion** — a fresh session re-arms per ORDER 002. Owner return processes the ⚑ queue above.

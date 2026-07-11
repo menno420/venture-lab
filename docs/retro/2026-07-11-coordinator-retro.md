@@ -1,5 +1,7 @@
 # Coordinator Retro — 2026-07-11 (chat-only knowledge capture)
 
+> **Status:** `reference`
+
 > Written at archive close-out. Captures facts the coordinator chat held that
 > lived nowhere in the repo. The coordinator chat is being archived; this file
 > is the durable record. Family-level model names only.

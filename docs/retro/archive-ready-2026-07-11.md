@@ -1,5 +1,7 @@
 # Archive-Ready — 2026-07-11
 
+> **Status:** `reference`
+
 ## True state (one paragraph)
 
 venture-lab is clean and synced at `main` = `e7e5c9f` (`check --strict` exit 0,
