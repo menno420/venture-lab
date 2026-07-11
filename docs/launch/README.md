@@ -22,6 +22,15 @@ Zero-owner-click launch material for the two sellable candidates. Everything her
 - [Publish owner-action (NOT-QUEUED)](stripe-webhook-test-kit/publish-owner-action.md)
 - [Free gotcha article draft](stripe-webhook-test-kit/gotcha-article.md)
 
+## Agent Fleet Field Manual ($39)
+- [One-pager](agent-fleet-field-manual/one-pager.md)
+- [Listing copy](agent-fleet-field-manual/LISTING.md)
+- [Publish owner-action (NOT-QUEUED)](agent-fleet-field-manual/publish-owner-action.md)
+- [Free chapter 1 — The D1 Lesson](agent-fleet-field-manual/chapter-01-the-d1-lesson.md)
+- [Free chapter 2 — The 13 Green Tests Trap](agent-fleet-field-manual/chapter-02-the-13-green-tests-trap.md)
+
+$39 one-time. Conservative first-90-day: 0–4 sales ($0–$156). Zero distribution = $0. Same saturated community funnel as membership-kit/template-packs — does not diversify channel risk.
+
 ## Cross-product
 - [Distribution drafts](distribution-drafts.md)
 - [Distribution channels shortlist](distribution-channels.md)
