@@ -1,0 +1,65 @@
+{
+  "brand": "photo-packs",
+  "tagline": "Real photos, shot on a real camera, by a human.",
+  "//": "SOURCE OF TRUTH for the photo-packs registry (modeled on candidates/bababoefoe/site/editions.json). PUBLIC REPO: `samples` may ONLY list downsized (<=2048px longest edge) WATERMARKED preview files under `sample_dir`. Full-res originals and sold tiers NEVER live in this repo — they live on the owner's storefront/stock platform. `tiers` lists what the SOLD pack contains (for the listing), not files committed here. `base_url` is where a built gallery would be served on GitHub Pages. Real sample filenames slot into the empty `samples` arrays; validate_samples.py enforces the size/dimension/naming rules.",
+  "base_url": "https://menno420.github.io/venture-lab/candidates/photo-packs/site/dist/",
+  "sample_dir": "../samples",
+  "watermark_note": "Every committed sample is a <=2048px, visibly watermarked PREVIEW — not a usable wallpaper and not for redistribution.",
+  "packs": [
+    {
+      "id": "small-worlds",
+      "title": "Small Worlds",
+      "theme": "macro",
+      "description": "Extreme macro of bugs and insects — the differentiated wedge.",
+      "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
+      "samples": [],
+      "price_usd": 5,
+      "count": 0,
+      "watermark": "watermarked preview only"
+    },
+    {
+      "id": "six-legged-neighbours",
+      "title": "Six-Legged Neighbours",
+      "theme": "macro",
+      "description": "Common garden insects up close — bees, beetles, spiders, dragonflies.",
+      "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
+      "samples": [],
+      "price_usd": 5,
+      "count": 0,
+      "watermark": "watermarked preview only"
+    },
+    {
+      "id": "wild-ground",
+      "title": "Wild Ground",
+      "theme": "nature",
+      "description": "Nature environments — forests, wetlands, dunes.",
+      "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
+      "samples": [],
+      "price_usd": 5,
+      "count": 0,
+      "watermark": "watermarked preview only"
+    },
+    {
+      "id": "dutch-skies",
+      "title": "Dutch Skies",
+      "theme": "nature",
+      "description": "Big-sky, cloud and weather scenes over open landscape.",
+      "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
+      "samples": [],
+      "price_usd": 5,
+      "count": 0,
+      "watermark": "watermarked preview only"
+    },
+    {
+      "id": "golden-hours",
+      "title": "Golden Hours",
+      "theme": "sunset",
+      "description": "Sunsets and golden-hour light — included, but the most saturated pack.",
+      "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
+      "samples": [],
+      "price_usd": 5,
+      "count": 0,
+      "watermark": "watermarked preview only"
+    }
+  ]
+}
