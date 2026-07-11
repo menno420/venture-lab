@@ -1,6 +1,6 @@
 # 2026-07-11 — Wire kit tests into CI; flip ⚑B/⚑D owner-action scripts to UNFROZEN
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 ## 💡 Session idea
 The ⚑B/⚑D freeze gate reads "PR #16 merged with real-path HTTP-layer tests green in CI" — PR #16 merged (912da3e), but no CI workflow actually executed the kit test suites (substrate-gate only runs bootstrap.py check variants). Close the gap honestly: add a host-owned `kit-tests` workflow that runs the membership-kit suites (incl. `test_http_realpath`) in CI, prove it green on this PR, THEN flip the two owner-action scripts from FROZEN ❄️ to UNFROZEN.
@@ -13,4 +13,4 @@ PR #16 (ORDER 003 real-Stripe-path fix) merged as 912da3e; PR #20 (launch/distri
 
 ## Deliverables
 - `.github/workflows/kit-tests.yml` — CI execution of membership-kit server tests, including ORDER 003 real-path HTTP tests; fails red on any test failure.
-- `docs/launch/membership-kit/owner-actions.md` + `docs/launch/template-packs/owner-actions.md` — FROZEN ❄️ → UNFROZEN (2026-07-11), gate-satisfaction citation added; live-purchase-unverified ⚑A caveat kept.
+- `docs/launch/membership-kit/owner-actions.md` + `docs/launch/template-packs/owner-actions.md` — FROZEN ❄️ → UNFROZEN (2026-07-11), citing PR #16 (912da3e) + kit-tests CI run 29135371209 green (21/21, incl. 5 real-path HTTP tests); live-purchase-unverified ⚑A caveat kept.
