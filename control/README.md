@@ -45,3 +45,32 @@ re-executed finished orders or waited for a status flip that never came.)
   the fleet ping sweep caught two lanes stamping local-time-as-Z.
 - A no-op wake (no new orders) costs at most a heartbeat line in status —
   never a full PR round.
+
+## Claiming work (not an ORDER) — one file per claim under `control/claims/`
+
+Order claims cover the inbox; **work claims** cover everything else two
+parallel sessions could both pick up — a coordinator-assigned slice, a
+self-initiated build, a shared-surface change. Before starting such work,
+create **one file per claim** — `control/claims/<branch-or-scope>.md`, a
+single bullet `` - `branch-or-scope` · **scope** — detail · YYYY-MM-DD `` —
+land it on main FAST (claims are `control/**` traffic and ride the CI fast
+lane), re-read the directory at HEAD, build, then **delete the file at
+session close**. Per-file is the measured winner over any shared list (~98%
+merge-conflict rate for shared-append vs 0% per-file — superbot
+`tools/sim/claim_layout_sim.py`); first claim merged to main wins a
+collision; ~72h with no activity = abandoned, prune on sight. Full
+convention + checker contract: `control/claims/README.md`. (`check` nags —
+advisory-only — on unparseable, stale, duplicate, or legacy-located claims;
+legacy homes `docs/owner/claims/` and root `claims/` are auto-detected
+during the migration window, and a deliberate different home is pinned via
+`substrate.config.json` → `claims_dir`.)
+
+<!-- kit v1.8.0 manual merge, 2026-07-11 (upgrade-report: this doc classed
+`diverged`): the section above is the v1.8.0 template's "Claiming work"
+delta, merged verbatim. The template's three other deltas — "Grammar source
+of truth" notes annotating the status.md / needs-owner / inbox ORDER format
+sections (tokens+regexes are kit-owned constants in the kit's
+src/engine/grammar.py, EAP §6.8, pinned by tests/test_grammar.py) — have no
+anchor here because this host README replaced those format sections with its
+own protocol text; recorded as this provenance note instead
+(gba-homebrew precedent). -->
