@@ -1,6 +1,6 @@
 # Session — owner launch hour
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · execution slice (OWNER LAUNCH HOUR packet)
 - **session:** author one atomic ~1-hour OWNER LAUNCH HOUR runbook that consolidates ⚑A (Stripe keys) + ⚑E (publish the $29 Stripe Webhook Test Kit) + first-sale verification; re-verify the kit's real-path HTTP tests at HEAD as fresh evidence; open the PR READY (park-only, no merge/no auto-merge).
@@ -17,7 +17,12 @@ Consolidate ⚑A (add Stripe keys) + ⚑E (publish $29 Stripe Webhook Test Kit) 
 ## Work log
 
 - Born-red card + branch `owner-launch-hour` created off `2044dc6`.
+- Grounded on the ⚑E publish click-script, kit one-pager/LISTING, INTAKE/GOTCHAS, `swtk.py`/`stub_handler.py`, the agent-fleet six-field template, and status.md/inbox.md. Confirmed the kit reads env var **`SWTK_WEBHOOK_SECRET`** (default in `swtk.py --secret-env` + `stub_handler.py`); confirmed ⚑E publishes via a **marketplace-hosted** checkout (Gumroad / Lemon Squeezy), so ⚑A was honestly adapted — no self-hosted Stripe checkout invented.
+- Re-ran the kit real-path HTTP suite at HEAD: `python3 -m unittest test_http_realpath -v` → `Ran 14 tests in 3.033s` / `OK`, exit 0, at HEAD `3f7c415`. All five gate behaviours exercised.
+- Authored `docs/launch/OWNER-LAUNCH-HOUR.md` (⚑A + ⚑E + first-sale verification, six-field grammar, evidence block, conservative revenue/payback, kill rule); linked it from `docs/launch/README.md` to clear the orphan-reachability check.
+- Opened PR #57 READY (park-only, no merge / no auto-merge). Fresh `kit-tests` CI run [29170630449](https://github.com/menno420/venture-lab/actions/runs/29170630449) → **success** on head `ea16f06`; run URL wired into the packet's Evidence block.
+- Re-read `control/inbox.md` at origin/main (`296a1a9`) — no new order (highest is ORDER 006, already done). Heartbeat `control/status.md` updated: ⚑ queue preserved verbatim + new "OWNER LAUNCH HOUR" entry pointing ⚑A+⚑E at the packet.
 
 ## Status / outcome
 
-In progress.
+Complete. `docs/launch/OWNER-LAUNCH-HOUR.md` on branch `owner-launch-hour`, PR #57 open READY (owner park-only — not merged, auto-merge not armed). Fresh at-HEAD real-path suite green (14/14 OK) and fresh CI green (run 29170630449). `control/inbox.md` untouched (append-only, manager-owned). No secret values in-repo — env var NAME `SWTK_WEBHOOK_SECRET` only.

@@ -57,7 +57,7 @@ signature reject; stale-timestamp reject; and the `success_url`
 This packet's PR triggers a fresh CI run on its head SHA; the green run URL is
 filled in below once it completes.
 
-- **Fresh CI run (this PR's head SHA):** _to be filled from the PR's `kit-tests` run once green (final commit)._
+- **Fresh CI run (this PR's head SHA `ea16f06`):** [run 29170630449](https://github.com/menno420/venture-lab/actions/runs/29170630449) — `kit-tests` conclusion **success** (both jobs `stripe-webhook-test-kit-tests` and `membership-kit-tests` green). The `substrate-gate` required check holds red on the born-red in-progress card **by design**; it clears to green on the card-flip commit that finalizes this packet.
 
 **Binding lesson (re-stated, do not regress).** A real
 `checkout.session.completed` event carries `customer_email: null`, with the
