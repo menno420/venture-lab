@@ -1,6 +1,6 @@
 # Session — kit-tests CI: run the SupabaseStore suite
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-fable-5 · medium · ci-maintenance
 - **session:** extend the HOST-OWNED `kit-tests` workflow so the new
@@ -38,3 +38,14 @@ reds the check on any failure.
 ## Work log
 
 - Born-red first commit: workflow edit + this card.
+- Edited `.github/workflows/kit-tests.yml`: unittest invocation now runs
+  `test_membership test_http_realpath test_supabase_store` (step name updated
+  to mention SupabaseStore). No other workflow changes.
+- Verified locally in `candidates/membership-kit/server`:
+  `python3 -m unittest test_membership test_http_realpath test_supabase_store -v`
+  → `Ran 35 tests ... OK`.
+- `python3 bootstrap.py check --strict --session-log .sessions/2026-07-11-kit-tests-supabase-ci.md`
+  green before push.
+- Close-out commit flips this card to `complete`; PR merges once
+  substrate-gate AND kit-tests are green on the head (kit-tests must show the
+  full 35-test suite).
