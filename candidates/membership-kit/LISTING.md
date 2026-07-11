@@ -14,8 +14,8 @@
 
 Stop re-wiring Stripe webhooks, gated routes, and invite-on-purchase from
 scratch. This kit hands you the whole membership loop — checkout, webhook,
-membership grant, gated content, and a Discord invite on purchase — already
-connected and covered by tests. It ships in **mock mode**, so you clone it and
+membership grant, gated content, and a Discord invite-URL hook on purchase —
+already connected and covered by tests. It ships in **mock mode**, so you clone it and
 watch a purchase unlock the members area in one command, before you sign up for
 Stripe, Supabase, or Discord. When you're ready, paste your test keys and the
 same code goes live. Stdlib-only backend (no dependency hell), a styled landing
@@ -27,7 +27,7 @@ boilerplate; ship the product.
 
 - **Runs with zero accounts** — mock mode demonstrates the full purchase→access flow before you sign up for anything.
 - **Stripe Checkout + webhook, pre-wired** — `/create-checkout-session` and a signature-ready `/webhook` handler that grants membership.
-- **Invite-on-purchase** — Discord invite hook fires the moment a payment lands.
+- **Invite-on-purchase hook** — returns your configured Discord invite URL the moment a payment lands (wiring the live Discord API send is a documented next step).
 - **Gated content that actually gates** — a membership store with a tested access check; unpaid users get a clean 402.
 - **Tested membership logic** — grant, deny, and idempotent-duplicate cases proven by a `unittest` suite that needs no network.
 - **Stdlib-only backend** — `python3 app.py`, no pip install, no build step.
@@ -57,7 +57,7 @@ auth/DB, Discord for invites, and a static landing page styled from a JSON
 token file. Integrations are env-gated so nothing breaks before you wire keys.
 
 **Q: Is this production-ready?**
-It's an honest **v0.1** — the membership-grant flow is real and tested; the
+It's an honest **v0.2** — the membership-grant flow is real and tested; the
 in-memory store, live-Stripe E2E, and Discord delivery are documented next
 steps. You're buying a wired, readable head start, not a black box.
 

@@ -635,6 +635,10 @@ class Handler(BaseHTTPRequestHandler):
             # Stripe webhook. When STRIPE_WEBHOOK_SECRET is set we verify the
             # signature natively over the RAW body BEFORE parsing/granting, and
             # reject with HTTP 400 on any failure. No `stripe` package required.
+            # When it is NOT set we split by mode: FULL mock (no keys at all)
+            # accepts an unsigned body with a loud warning; a PARTIAL/misconfigured
+            # deploy (real key set, webhook secret missing) FAILS CLOSED — it must
+            # never grant from an unsigned webhook while real checkout is live.
             secret = _webhook_secret()
             if secret:
                 sig = self.headers.get("Stripe-Signature", "")
@@ -650,9 +654,25 @@ class Handler(BaseHTTPRequestHandler):
                     return
                 result = handle_purchase_event(STORE, event)
                 self._json(200, {"mode": "stripe", **result})
+            elif not _is_mock():
+                # FAIL CLOSED on a partial / misconfigured deploy: STRIPE_SECRET_KEY
+                # is set (real checkout is live) but STRIPE_WEBHOOK_SECRET is missing,
+                # so signatures CANNOT be verified. Never grant membership from an
+                # unsigned webhook body in a money-live deploy — a buyer who forgets
+                # the webhook secret would otherwise let anyone POST unsigned JSON and
+                # mint free memberships. Reject loudly instead of falling open.
+                self._json(400, {
+                    "error": (
+                        "misconfigured: STRIPE_WEBHOOK_SECRET is required when "
+                        "STRIPE_SECRET_KEY is set. Refusing to grant membership "
+                        "from an unsigned webhook. Set STRIPE_WEBHOOK_SECRET "
+                        "(whsec_...), or unset STRIPE_SECRET_KEY to run in mock mode."
+                    ),
+                })
+                return
             else:
-                # MOCK: accept a raw JSON event body (no signature check) but
-                # NEVER a silent success — the reply carries a loud warning.
+                # FULL MOCK (no Stripe keys at all): accept a raw JSON event body
+                # (no signature check) but NEVER a silent success — loud warning.
                 try:
                     event = json.loads(raw or b"{}")
                 except json.JSONDecodeError:
