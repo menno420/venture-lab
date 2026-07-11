@@ -114,3 +114,48 @@ mirroring the style of `candidates/bababoefoe/site/build.py`. It reads `packs.js
 and renders a preview gallery ready for samples; with no samples yet it renders the
 pack cards and a "samples coming" state. It intentionally shows only the watermarked
 preview tier — never a sellable file.
+
+## v1 sample drop — curation log (2026-07-11)
+The first real preview drop registers **7 watermarked previews** across two packs,
+derived from 10 owner-supplied full-res originals (originals were downsized +
+watermarked OFF-repo; **no full-res bytes were committed**). Derivatives were
+produced with Pillow: EXIF auto-orient → downscale to longest edge ≤ 2048px →
+tiled semi-transparent body watermark (`© menno420 — PREVIEW — not for use`,
+crop-resistant per the Watermark policy) + a solid corner mark → JPEG q82, EXIF
+stripped.
+
+- **golden-hours** ("Golden Hours — Waterside") — 4 previews: `__01` hero
+  (sunset reflection), `__02` sunset over water, `__03` + `__04` dusk/blue-hour.
+- **dutch-skies** ("Dutch Skies") — 3 previews: `__01` big cumulus over hills,
+  `__02` calm morning big-sky, `__03` forested hillside + sky.
+
+**Rotation:** two originals read sideways (EXIF orientation 6) and were auto-oriented
+via `PIL.ImageOps.exif_transpose` before resize, so `golden-hours__03/__04` are
+upright portrait previews — no manual rotation needed.
+
+**Exclusions (documented per curator read):**
+- **DROPPED — cat photo** (`20260513_134737.jpg`): no theme fit; not processed,
+  not committed.
+- **HELD — corporate signage** (`20251005_101440.jpg`): readable third-party
+  signage in frame → licensing risk. Not registered and not committed.
+- **HELD — theme-ambiguous** (`20251109_165738.jpg`): an overcast village/river
+  reflection that fits neither assigned pack cleanly. Processed to a compliant
+  ≤2048px watermarked derivative in scratch but **deliberately NOT registered**
+  (registering an unreferenced file would orphan-fail `validate_samples.py`);
+  pending an owner theme decision before it enters a pack.
+
+## Validator hardening — repo-wide oversize guard
+`validate_samples.py` originally scanned only `samples/`, so a full-res original
+committed **anywhere else** (e.g. repo root, as happened in PR #51) slipped past the
+gate. It now also runs a **repo-wide oversize scan**: every `.png/.jpg/.jpeg` in the
+tree (excluding `.git`) is header-parsed and any image with longest edge > 2048px
+fails the build — there is deliberately **no** sanctioned oversize location
+(`ALLOWED_OVERSIZE_PREFIXES` is empty). The header read window was raised from 64 KiB
+to 4 MiB because large phone-EXIF blocks can push the JPEG SOF marker past 64 KiB
+(an unreadable header now fails closed rather than being assumed small). Still
+stdlib-only and header-only (no pixel decode).
+
+**CI wiring is a follow-up:** no photo-packs check currently lives in
+`.github/workflows/`, and the kit-owned `substrate-gate.yml` must not be hand-edited.
+Wiring `validate_samples.py` into CI should be done in a *separate* host workflow
+file — tracked as a follow-up, not part of this change.

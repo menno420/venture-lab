@@ -43,23 +43,32 @@
       "id": "dutch-skies",
       "title": "Dutch Skies",
       "theme": "nature",
-      "description": "Big-sky, cloud and weather scenes over open landscape.",
+      "description": "Big-sky, cloud and weather scenes over open landscape and green hills.",
       "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
-      "samples": [],
+      "samples": [
+        "dutch-skies__01__preview.jpg",
+        "dutch-skies__02__preview.jpg",
+        "dutch-skies__03__preview.jpg"
+      ],
       "price_usd": 5,
-      "count": 0,
-      "watermark": "watermarked preview only"
+      "count": 3,
+      "watermark": "watermarked preview only (<=2048px, tiled body + corner mark)"
     },
     {
       "id": "golden-hours",
-      "title": "Golden Hours",
+      "title": "Golden Hours — Waterside",
       "theme": "sunset",
-      "description": "Sunsets and golden-hour light — included, but the most saturated pack.",
+      "description": "Sunsets, dusk and blue-hour light over water — reflections, silhouettes and moonrise.",
       "tiers": ["phone", "desktop-4k", "desktop-5k", "ultrawide"],
-      "samples": [],
+      "samples": [
+        "golden-hours__01__preview.jpg",
+        "golden-hours__02__preview.jpg",
+        "golden-hours__03__preview.jpg",
+        "golden-hours__04__preview.jpg"
+      ],
       "price_usd": 5,
-      "count": 0,
-      "watermark": "watermarked preview only"
+      "count": 4,
+      "watermark": "watermarked preview only (<=2048px, tiled body + corner mark)"
     }
   ]
 }
