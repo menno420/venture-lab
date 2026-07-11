@@ -1,6 +1,6 @@
 # 2026-07-11 — gen-2 archive ender (ORDER 004 boot/state-repair)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 ## Session idea
 Execute ORDER 004 (P1): overwrite the stale 2026-07-10T04:57Z status heartbeat with real HEAD state, ack ORDERs 002/003/004, and write the next-boot succession brief on main — so a fresh Project boots clean without PR archaeology.
