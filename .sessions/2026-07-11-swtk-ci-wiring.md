@@ -1,6 +1,6 @@
 # Session — CI wiring: stripe-webhook-test-kit real-path suite in kit-tests
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-fable-5 · high · ci-wiring
 - **session:** wire the freshly merged stripe-webhook-test-kit (PR #27) real-path
