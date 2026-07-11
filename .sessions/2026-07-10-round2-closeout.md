@@ -54,7 +54,7 @@ their behavior.
   (persistence, 13 tests, honest token-cost) + new candidate #2 entry
   (publish-ready v0.1) + added ⚑D (publish template-packs listing).
 - Appended the parallel-workers / isolated-worktree recipe to
-  `docs/capabilities.md` under CAN.
+  `docs/CAPABILITIES.md` under CAN.
 - Overwrote `control/status.md`: round-2-complete heartbeat, refreshed ⚑A–⚑D +
   the advisory kit-token NOTE + attribution note.
 

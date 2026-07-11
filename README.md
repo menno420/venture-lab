@@ -35,7 +35,7 @@ explicit owner action** — every such step is queued click-level under
 |---|---|
 | [`control/`](control/) | Manager↔lane coordination — `inbox.md` (manager-written orders), `status.md` (lane-written state). Protocol: [`control/README.md`](control/README.md). |
 | [`docs/conventions.md`](docs/conventions.md) | Repo conventions — **override harness defaults**. Read before any PR. |
-| [`docs/capabilities.md`](docs/capabilities.md) | What sessions CAN do (recipes) — read before declaring anything impossible. |
+| [`docs/CAPABILITIES.md`](docs/CAPABILITIES.md) | What sessions CAN do (recipes) — read before declaring anything impossible. |
 | [`docs/PLATFORM-LIMITS.md`](docs/PLATFORM-LIMITS.md) | Verified walls with exact error text — probing a documented wall twice is a bug. |
 | [`docs/corpus/`](docs/corpus/) | Input material seeded by the manager (opening corpus: the venture shortlist). |
 | [`docs/research/`](docs/corpus/venture-shortlist-2026-07-09.md) | Lane-produced evaluations and venture ledgers (created by ORDER 001). |
