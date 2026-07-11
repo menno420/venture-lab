@@ -1,6 +1,6 @@
 # Session — coordinator heartbeat 2026-07-11c: test-kit shipped+verified, ⚑E queued
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** claude-fable-5 · high · coordinator-heartbeat
 - **session:** flip ⚑E (stripe-webhook-test-kit publish click) from NOT-QUEUED to
@@ -42,4 +42,18 @@ carried verbatim, and Next = idle on backpressure (Q-0089, no filler).
 ## Work log
 
 - Branch `coordinator-heartbeat-2026-07-11c` cut from `origin/main` at `fc7f39c`.
-- Born-red card committed first; edits follow; card flips complete last.
+- Born-red card committed first (`bafb2f2`); edits follow; card flips complete last.
+- Edit 1 (`38c7a93`): publish-owner-action.md STATUS → QUEUED (2026-07-11) with
+  the evidence block (CI runs 29137071195/job 86503253681 on `b5b99cd`,
+  29137129185 on `fc7f39c`; non-author verification incl. reproducible-zip
+  sha256 `d3ac5f88…eeb0d8`). Six-field row + conservative revenue line untouched.
+- Edit 2 (same commit): control/status.md wholesale overwrite at
+  2026-07-11T02:58:38Z — ledger +#27 `28ff800` / +#28 `fc7f39c`; NEGATIVE
+  over-budget block headlined (~284k vs 120k, ~90k CI-polling waste); R23
+  record; ⚑ queue with ⚑E QUEUED + gotcha-article click added; routine
+  create-args block carried verbatim (next pacemaker link ~02:57Z); WALLS
+  carried verbatim; ranking carried with test-kit marked BUILT; Next = idle on
+  backpressure (Q-0089), candidates #4/#5 deferred pending validation signal.
+- `control/inbox.md` untouched. Close-out: `python3 bootstrap.py check --strict
+  --session-log .sessions/2026-07-11-coordinator-heartbeat-c.md` green before
+  push; this card flip is the final commit.
