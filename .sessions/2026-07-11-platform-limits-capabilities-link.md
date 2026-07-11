@@ -1,6 +1,6 @@
 # 2026-07-11 — PLATFORM-LIMITS capabilities link repair
 
-> **Status:** `🔴 in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** venture-lab worker · fix/platform-limits-capabilities-link
 - **session:** repoint an orphaned doc link and drop its temporary suppression
