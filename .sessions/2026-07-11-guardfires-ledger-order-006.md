@@ -1,6 +1,6 @@
 # Session — ledger: commit guard-fires line from ORDER 006 slice
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · high · guardfires-ledger-commit
 - **session:** commit the one auto-appended `.substrate/guard-fires.jsonl`
@@ -44,5 +44,8 @@ telemetry like the line this session exists to land.
 
 ## Status / outcome
 
-In progress — born-red heartbeat; flip to `complete` is the deliberate last
-step after the ledger append commit.
+Complete. Born-red card `a964d64`, ledger append `ee25c93`
+("telemetry: guard-fires ledger line from ORDER 006 check run"), then this
+flip. `check --strict --session-log` green on this card at flip. Landing via
+a READY PR, squash-merged once after all three checks green, under the
+owner's standing grant (event b92aab44).
