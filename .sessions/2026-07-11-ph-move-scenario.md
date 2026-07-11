@@ -1,6 +1,6 @@
 # Session — PH-move scenario addendum (NL national, Filipina partner)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · owner-directed research (PH-move scenario)
 - **session:** research the practical "actually move to the Philippines" case for an NL national with a Filipina girlfriend (unmarried) running a portable online business; append a dated scenario doc to the monetization-jurisdictions research.
@@ -17,8 +17,8 @@ Owner (2026-07-11) confirmed the PH-residency scenario is real, not hypothetical
 ## Work log
 
 - Born-red card + branch created; PR opened READY.
-- [pending] scenario-ph-move.md written and linked from comparison.md.
+- scenario-ph-move.md written (Scenarios immigration/tax/rails + two-entity A/B experiment + verdict) and linked from comparison.md.
 
 ## Status / outcome
 
-In progress — born-red hold until the addendum lands and this card flips `complete` (with `check --strict --session-log` green at flip).
+Complete. scenario-ph-move.md landed and linked from comparison.md; `check --strict --session-log` green at flip.
