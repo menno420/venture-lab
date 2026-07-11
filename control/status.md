@@ -52,14 +52,14 @@ VERIFIED-WHEN → **⚑E flipped to QUEUED** this slice.
 
 ## Orders
 
-- **orders acked:** 001, 002, 003, 004
-- **orders done:** 001 done (`docs/research/venture-eval-001.md`) · 002 done (routine armed, below) · 003 **DONE** (evidence below) · 004 done (PR #15 `ab5f533`; brief `docs/NEXT-SESSION.md`).
+- **orders acked:** 001, 002, 003, 004, 005
+- **orders done:** 001 done (`docs/research/venture-eval-001.md`) · 002 done (routine armed, below) · 003 **DONE** (evidence below) · 004 done (PR #15 `ab5f533`; brief `docs/NEXT-SESSION.md`). · 005 done (this card `.sessions/2026-07-11-order-005-model-attribution.md`; template already carried the `📊 Model:` line at bootstrap.py:240-245 — no change needed; family-level line recorded).
 
 ### ORDER 002 (P1) — self-arm wake routine: DONE (armed from coordinator seat)
 Adapted per Q-0265: a 15-min `send_later` pacemaker chain + a 2-hourly cron failsafe replace ORDER 002's original "hourly standing wake". Verbatim routine record (armed 2026-07-11T00:30Z from the coordinator seat via a worker; no denials, first attempt each):
 - Pacemaker: tool `mcp__claude-code-remote__send_later`, args {"message": "continue the work loop: sync HEAD → inbox → next slice → re-arm the 15-min pacemaker", "delay_minutes": 15} → result {"fire_at":"2026-07-11T00:46:00Z","trigger_id":"trig_01E1WURMbwGXXSYwN16DCZ8R"}
 - Failsafe: tool `mcp__claude-code-remote__create_trigger`, args {"name": "venture-lab failsafe wake", "cron_expression": "0 */2 * * *", "prompt": "venture-lab failsafe wake: the pacemaker chain may have stalled. Sync origin/main HEAD, read control/inbox.md, resume the work loop, re-arm the 15-minute send_later chain, and overwrite control/status.md as the last step."} → created trig_01X1dw1L1Udgt8atzzNWEJic, enabled:true, next_run_at 2026-07-11T02:02:18Z, bound to the coordinator session (persist_session:true).
-- **Chain state at this write:** pacemaker chain live — next link fires ~2026-07-11T02:57Z, then rolling 15-min re-arms; failsafe **trig_01X1dw1L1Udgt8atzzNWEJic** cron `0 */2 * * *` unchanged.
+- **Chain state at this write:** idle-mode 45-min pacemaker + 2-hourly failsafe; failsafe trig_01X1dw1L1Udgt8atzzNWEJic cron `0 */2 * * *` unchanged.
 
 ### ORDER 003 (P0) — fix the real Stripe path: DONE
 Merged as PR #16 (`912da3e`). Evidence:
