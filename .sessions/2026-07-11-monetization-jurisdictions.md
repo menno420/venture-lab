@@ -1,6 +1,6 @@
 # Session — Monetization jurisdictions research: NL vs PH
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · owner-directed research (monetization jurisdictions)
 - **session:** research online-monetization rules/requirements for the Netherlands and the Philippines; produce a comparison and a run-from recommendation for the owner.
@@ -17,8 +17,8 @@ Owner asked (2026-07-11) for everything about the rules/requirements around mone
 ## Work log
 
 - Born-red card + branch created; PR opened READY.
-- [pending] netherlands.md, philippines.md, comparison.md assembled from cited public-source research.
+- netherlands.md, philippines.md, comparison.md assembled and committed.
 
 ## Status / outcome
 
-In progress — born-red hold until the three docs land and this card flips `complete` (with `check --strict --session-log` green at flip).
+Complete. Three cited research docs landed under docs/research/monetization-jurisdictions/; `check --strict --session-log` green at flip.

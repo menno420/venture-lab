@@ -226,3 +226,7 @@ None of these have been performed. Each is queued for one owner action.
   cross-sell.
 - **VERIFIED-WHEN:** The live listing URL resolves and the uploaded
   `template-packs-v0.1.zip` downloads.
+
+## Related research
+
+- [Monetization jurisdictions — NL vs PH](monetization-jurisdictions/comparison.md): rules/requirements and a "which is easier & more beneficial to run from" comparison for the Netherlands vs the Philippines (owner-directed, 2026-07-11). Links out to [netherlands.md](monetization-jurisdictions/netherlands.md) and [philippines.md](monetization-jurisdictions/philippines.md).
