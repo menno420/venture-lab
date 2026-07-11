@@ -1,0 +1,8 @@
+# Reasons-required check allowlist (KL-3 §5.3). One entry per accepted finding;
+# reason is REQUIRED. Matching is exact on path+kind.
+- path: PLATFORM-LIMITS.md
+  kind: link
+  reason: "L63 links the merged-away lowercase docs/capabilities.md; the fix is a one-line pointer edit in PLATFORM-LIMITS.md, which this case-collision PR is contractually barred from touching (a pending append owns that file). Deferred to that file's owner."
+  triaged: 2026-07-11
+  by: fix-capabilities-case-collision
+  verdict: accepted_risk

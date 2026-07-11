@@ -22,21 +22,29 @@ Before declaring anything impossible, and before assuming a tool or
 credential is missing:
 
 1. **Check this file** — the capability or wall may already be recorded.
+   Verified walls with exact error text also live in
+   [`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md) — **probing a documented wall
+   twice is a bug.**
 2. **Check the environment** — `printenv` / list the available tools BEFORE
    assuming no credentials exist (provisioned env tokens are routinely
-   forgotten, not absent).
-3. **Attempt once** — try the operation and capture the **exact** error text;
-   a guessed wall and a verified wall are different facts.
+   forgotten, not absent):
+   ```bash
+   printenv | grep -iE 'token|key|railway|discord'   # presence only, never values
+   ```
+3. **Attempt once** — try the operation and capture the **exact** error text
+   verbatim, not paraphrased; a guessed wall and a verified wall are different
+   facts.
 4. **Append the finding same session** — capability or wall, dated, with the
    evidence (exact error, or proof it worked) and the workaround if one was
    found. An unrecorded discovery is re-paid by every future session.
 
 ## Capabilities — verified working
 
-- **Media is readable**: a video is never "unviewable" — extract frames
-  (`ffmpeg -i in.mp4 -vf fps=1 frame_%04d.png`) and read the images; same
-  idea for audio (transcribe) and PDFs (render pages). Try the recipe before
-  reporting a format wall.
+Short summary bullets, then the recipes sessions most often forget.
+
+- **Media is readable**: a video is never "unviewable" — extract frames and
+  read the images; same idea for audio (transcribe) and PDFs (render pages).
+  Try the recipe before reporting a format wall.
 - **Provisioned credentials**: the environment often carries tokens/keys as
   env vars — `printenv` first; a missing-looking credential is usually a
   missing *look*.
@@ -44,7 +52,91 @@ credential is missing:
   release workflow (with a version input) creates the tag in-Actions —
   proven repeatedly fleet-wide after direct tag pushes 403'd.
 
+### View video / audio files (.mp4, .webm, .mov, .mp3, …)
+Sessions claim they can't view an .mp4. They CAN:
+
+```bash
+ffprobe -v error -show_format -show_streams <file>          # inspect codecs/duration first
+ffmpeg -i <file> -vf "fps=0.5" -q:v 2 frames_%03d.jpg       # extract frames into the scratchpad
+```
+
+Then `Read` the extracted frames as images — one frame every 2 seconds at
+`fps=0.5`; raise/lower the fps for denser/sparser sampling. Audio tracks:
+extract with `ffmpeg -i <file> -vn audio.wav` and process from there.
+
+### View images and PDFs
+`Read` them directly — the Read tool renders images visually and reads PDFs
+page-by-page (`pages` parameter). No conversion step needed.
+
+### Use provisioned secrets
+Sessions forget tokens exist. **CHECK THE ENVIRONMENT FIRST:**
+
+```bash
+printenv | grep -iE 'token|key|railway|discord'
+```
+
+Confirm **presence only** (names, not values) — **never echo full secret
+values into logs, files, or transcripts**. Use them via the env var.
+
+### First commit to an empty repo
+`git push` to a truly empty repo fails through the proxy tooling. Make the
+first commit via the **Contents API** (`create_or_update_file` / `push_files`)
+— that creates `main`, and normal git works from then on. (Fleet playbook R13;
+this repo was bootstrapped exactly this way, 2026-07-09.)
+
+### Arm auto-merge while checks are pending
+GitHub refuses to arm auto-merge on an already-green PR — arm it **at PR
+creation, in the checks-pending window** (`enable_pr_auto_merge`). This is the
+sanctioned merge path; see the self-merge wall in
+[`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md). (Fleet playbook R5/R12.)
+
+### Run any repo's own checkers locally
+Clone (or fetch) the repo and run its own gates — `bootstrap.py check
+--strict`, pytest suites — before pushing. Nothing restricts a session to the
+repo it was launched for.
+
+### Read files from other public repos without extra scope
+`WebFetch` on `https://raw.githubusercontent.com/<owner>/<repo>/<ref>/<path>`
+works cross-repo for public content — no token scope or `add_repo` needed for
+read-only single-file pulls.
+
+### Spawn subagents for parallel work
+The Agent tool runs research/implementation/verification workers concurrently
+— fan out independent lanes instead of serializing them. (Worker agents
+themselves don't re-spawn; the manager/coordinator tier does.)
+
+### Watch something over time
+Use **blocking foreground waits** — `until [ $(date +%s) -ge $end ]; do sleep
+5; done` — never background timers. Background timers silently drop the final
+report. (Fleet playbook R4.)
+
+### YouTube transcripts
+`youtube_transcript_api` is IP-blocked from datacenter IPs — sessions conclude
+transcripts are impossible. They aren't:
+
+```bash
+yt-dlp --skip-download --write-auto-sub <video-url>
+```
+
+works via its android-vr endpoint; then parse the resulting `.vtt` file.
+(Discovered 2026-07-09, transcript+miner task.)
+
+### Run parallel file-mutating workers in isolated worktrees
+Parallel file-mutating subagents MUST run in isolated git worktrees (Agent
+`isolation:'worktree'` or `EnterWorktree`), or be serialized. Observed
+2026-07-10: two builders sharing one clone raced on git state —
+candidate-02's `git add -A` swept candidate-01 v0.2's uncommitted files into
+candidate-02's commit, landing both under one PR (#7, 6b4ad52) and muddling
+attribution. Content was byte-identical/correct, but a dedicated PR per
+workstream became impossible. Recipe: for concurrent builders touching the
+working tree, pass `isolation:'worktree'` so each gets its own checkout; only
+read-only parallel workers are safe in a shared clone.
+
 ## Walls — verified blocked (use the workaround; don't rediscover)
+
+Exact error text for these lives in
+[`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md) — probing a documented wall twice
+is a bug.
 
 - **Tag push / release create via git**: HTTP 403 from the environment's git
   proxy → use the workflow_dispatch release path.
@@ -66,3 +158,9 @@ Format: `- YYYY-MM-DD · capability|wall · finding · evidence · workaround`.
 
 (Hand-filled by sessions, per the discovery rule. Seed walls/capabilities
 above came from the fleet's lived 2026-07 findings; local ones go here.)
+
+- 2026-07-11 · capability · the two split ledgers (`docs/CAPABILITIES.md` +
+  `docs/capabilities.md`, a case collision) merged into this one file at the
+  kit-canonical uppercase path · evidence: `bootstrap.py:2727`
+  `CAPABILITIES_RELPATH = "docs/CAPABILITIES.md"` · workaround: append here,
+  never re-fork the ledger under a different casing.
