@@ -34,10 +34,12 @@ import json
 import os
 import sys
 import time
+import urllib.error
+import urllib.request
 from abc import ABC, abstractmethod
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 
 # --- config (env-gated; placeholders live in .env.example) ---------------
 # NOTE: the request handlers read the Stripe env vars *live* (see the
@@ -58,6 +60,23 @@ MOCK_WARNING = (
     "MOCK MODE — no real payments. Set STRIPE_SECRET_KEY and "
     "STRIPE_WEBHOOK_SECRET to take the real Stripe path."
 )
+
+# Same "never a silent success" posture for the storage layer: selecting the
+# hosted Supabase backend without its env vars must never quietly break the
+# server. `make_store()` warns LOUDLY (this text, via `_loud_banner`) and falls
+# back to the local file store — mirroring the MOCK-mode banner style.
+SUPABASE_FALLBACK_WARNING = (
+    "SUPABASE FALLBACK — STORE_BACKEND=supabase but SUPABASE_URL/SUPABASE_KEY "
+    "are unset. Falling back to local JSON file persistence. Set BOTH env vars "
+    "(NAMES only — never paste a key value into the repo) to use the hosted "
+    "Supabase store."
+)
+
+
+def _loud_banner(message: str) -> None:
+    """Print an unmissable ``!!!``-barred banner to stderr (never a silent state)."""
+    bar = "!" * len(message)
+    print(f"\n{bar}\n{message}\n{bar}\n", file=sys.stderr, flush=True)
 
 # Persistence config. STORE_BACKEND picks the implementation; MEMBERS_DB_PATH
 # is the JSON file the default backend writes (kept out of git via .gitignore).
@@ -182,21 +201,35 @@ class JsonFileStore(MembershipStore):
 
 
 class SupabaseStore(MembershipStore):
-    """Drop-in-ready hosted backend (skeleton).
+    """Hosted backend — persists members in Supabase via its PostgREST REST API.
 
-    Same interface as :class:`JsonFileStore`. The point of v0.2 is that going
-    live is a *config flip* (``STORE_BACKEND=supabase`` + keys) and filling the
-    documented PostgREST bodies below — with **no** change to app.py.
+    Same interface as :class:`JsonFileStore`, so going hosted is a *config flip*
+    (``STORE_BACKEND=supabase`` + ``SUPABASE_URL``/``SUPABASE_KEY``) with **no**
+    change to app.py. Talks to Supabase over its REST endpoint
+    ``{SUPABASE_URL}/rest/v1/{TABLE}`` using **stdlib ``urllib`` only** — no
+    ``supabase`` package, no third-party HTTP client (matching the kit's
+    zero-dependency posture). Auth on every call is the pair Supabase requires:
+    an ``apikey`` header and an ``Authorization: Bearer <key>`` header.
+
+    ``SUPABASE_KEY`` should be the project's **service_role** key: the store
+    performs server-side reads and writes to the members table, so it needs a
+    key that bypasses row-level security. The key is read from the environment,
+    sent only as request headers, and **never logged or echoed** — error
+    messages carry the HTTP status and response body, never the key.
+
+    Requires a ``members`` table (``email`` unique/PK, ``source`` text) in the
+    owner's Supabase project — see the OWNER-ACTION in ``server/README.md``.
 
     Guardrails:
       * No top-level ``supabase`` import — importing this module never crashes
         because a package is missing.
-      * The constructor is the single startup gate: selecting this backend
-        without ``SUPABASE_URL``/``SUPABASE_KEY`` raises a clear, actionable
-        error instead of failing later mid-request.
+      * Direct construction without keys raises a clear, actionable error. The
+        server never crashes on this, though: ``make_store()`` catches it, warns
+        loudly, and falls back to the local JSON store (see ``make_store``).
     """
 
     TABLE = "members"
+    TIMEOUT = 10  # seconds per PostgREST call
 
     def __init__(self, url: str | None = None, key: str | None = None) -> None:
         self._url = (url if url is not None else os.environ.get("SUPABASE_URL", "")).rstrip("/")
@@ -209,68 +242,149 @@ class SupabaseStore(MembershipStore):
             )
 
     def _headers(self) -> dict:
-        # Shared auth headers for every PostgREST call.
+        # Shared auth headers for every PostgREST call. Supabase requires BOTH
+        # `apikey` and `Authorization: Bearer <key>` (verified against the
+        # Supabase REST docs — see server/README.md provenance).
         return {
             "apikey": self._key,
             "Authorization": f"Bearer {self._key}",
             "Content-Type": "application/json",
         }
 
+    def _request(
+        self,
+        method: str,
+        *,
+        query: str = "",
+        body: object | None = None,
+        extra_headers: dict | None = None,
+    ) -> tuple[int, object, object]:
+        """Make one PostgREST call and return ``(status, headers, parsed_body)``.
+
+        Raises ``RuntimeError`` on any non-2xx response or transport failure.
+        The raised message includes the HTTP status and (truncated) response
+        body for debuggability but **never** the ``SUPABASE_KEY`` value — the
+        key lives only in request headers, which are not echoed here.
+        """
+        url = f"{self._url}/rest/v1/{self.TABLE}"
+        if query:
+            url = f"{url}?{query}"
+        headers = self._headers()
+        if extra_headers:
+            headers.update(extra_headers)
+        data = json.dumps(body).encode("utf-8") if body is not None else None
+        req = urllib.request.Request(url, data=data, method=method, headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=self.TIMEOUT) as resp:
+                status = resp.status
+                resp_headers = resp.headers
+                raw = resp.read()
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", "replace")[:500]
+            # Note: exc carries the request URL (never the key) — safe to omit.
+            raise RuntimeError(
+                f"Supabase {method} {self.TABLE} failed: HTTP {exc.code} {detail}"
+            ) from None
+        except urllib.error.URLError as exc:
+            raise RuntimeError(
+                f"Supabase {method} {self.TABLE} unreachable: {exc.reason}"
+            ) from None
+        parsed = json.loads(raw) if raw else None
+        return status, resp_headers, parsed
+
+    def _select_one(self, key: str) -> dict | None:
+        """Return the stored row for ``key`` (email/source) or ``None``."""
+        _, _, rows = self._request(
+            "GET",
+            query=f"email=eq.{quote(key, safe='')}&select=email,source&limit=1",
+        )
+        if isinstance(rows, list) and rows:
+            return rows[0]
+        return None
+
     def grant(self, email: str, source: str = "unknown") -> dict:
         key = self._normalize(email)
         if not key:
             raise ValueError("email required to grant membership")
-        # DROP-IN: idempotent upsert via PostgREST.
-        #   POST {self._url}/rest/v1/{self.TABLE}?on_conflict=email
-        #   headers: {**self._headers(),
-        #             "Prefer": "resolution=merge-duplicates,return=representation"}
-        #   body:    json.dumps({"email": key, "source": source})
-        #   -> parse response; created = HTTP 201 / row not previously present.
-        #   return {"email": key, "created": <bool>, "source": source}
-        raise NotImplementedError(
-            "SupabaseStore.grant is a drop-in skeleton — fill the PostgREST "
-            "upsert (shape documented above). Use STORE_BACKEND=json until then."
+        # Idempotent like JsonFileStore: an already-present member keeps its
+        # ORIGINAL source and reports created=False. Check-then-insert so we
+        # never clobber an existing source.
+        existing = self._select_one(key)
+        if existing is not None:
+            return {"email": key, "created": False, "source": existing.get("source", source)}
+        # Insert the new member. `Prefer: return=representation` sends the stored
+        # row back (201); `resolution=merge-duplicates` + `on_conflict=email`
+        # makes this an UPSERT, so a concurrent grant that raced us in between
+        # the select above and here merges instead of erroring on the unique
+        # constraint. (PostgREST upsert shape — see server/README.md provenance.)
+        _, _, rows = self._request(
+            "POST",
+            query="on_conflict=email",
+            body=[{"email": key, "source": source}],
+            extra_headers={"Prefer": "resolution=merge-duplicates,return=representation"},
         )
+        stored = rows[0] if isinstance(rows, list) and rows else {}
+        return {
+            "email": stored.get("email", key),
+            "created": True,
+            "source": stored.get("source", source),
+        }
 
     def has_access(self, email: str) -> bool:
         key = self._normalize(email)
-        # DROP-IN:
-        #   GET {self._url}/rest/v1/{self.TABLE}?email=eq.{key}&select=email&limit=1
-        #   headers: self._headers()
-        #   -> return bool(response_json)
-        _ = key
-        raise NotImplementedError(
-            "SupabaseStore.has_access is a drop-in skeleton — fill the "
-            "PostgREST select (shape documented above)."
+        if not key:
+            return False
+        # GET {url}/rest/v1/members?email=eq.<key>&select=email&limit=1 -> [] or [row].
+        _, _, rows = self._request(
+            "GET",
+            query=f"email=eq.{quote(key, safe='')}&select=email&limit=1",
         )
+        return bool(rows)
 
     def all_members(self) -> list:
-        # DROP-IN:
-        #   GET {self._url}/rest/v1/{self.TABLE}?select=email,source
-        #   headers: self._headers()  -> return response_json (list of dicts)
-        raise NotImplementedError(
-            "SupabaseStore.all_members is a drop-in skeleton — fill the "
-            "PostgREST select (shape documented above)."
-        )
+        # GET {url}/rest/v1/members?select=email,source -> list of dicts.
+        _, _, rows = self._request("GET", query="select=email,source")
+        return rows if isinstance(rows, list) else []
 
     def count(self) -> int:
-        # DROP-IN:
-        #   GET {self._url}/rest/v1/{self.TABLE}?select=email
-        #   headers: {**self._headers(), "Prefer": "count=exact"}
-        #   -> read the Content-Range header count.
-        raise NotImplementedError(
-            "SupabaseStore.count is a drop-in skeleton — fill the PostgREST "
-            "count (shape documented above)."
+        # `Prefer: count=exact` returns the total in the Content-Range response
+        # header ("start-end/total", e.g. "0-0/42"; "*/0" when empty). `Range:
+        # 0-0` fetches zero rows but still reports the count, so we never pull
+        # the whole table just to size it. (PostgREST count shape — provenance
+        # in server/README.md.)
+        _, resp_headers, _ = self._request(
+            "GET",
+            query="select=email",
+            extra_headers={"Prefer": "count=exact", "Range-Unit": "items", "Range": "0-0"},
         )
+        content_range = resp_headers.get("Content-Range", "") if resp_headers else ""
+        total = content_range.rsplit("/", 1)[-1] if "/" in content_range else ""
+        try:
+            return int(total)
+        except (TypeError, ValueError):
+            return 0
+
+
+def _json_store() -> JsonFileStore:
+    return JsonFileStore(os.environ.get("MEMBERS_DB_PATH") or DEFAULT_MEMBERS_DB_PATH)
 
 
 def make_store() -> MembershipStore:
-    """Build the configured store. Called once at startup; raises clearly on
-    a bad backend selection so misconfiguration fails fast, not mid-request."""
+    """Build the configured store. Called once at startup.
+
+    Local file persistence (``STORE_BACKEND=json``) is the DEFAULT. Selecting
+    ``STORE_BACKEND=supabase`` without ``SUPABASE_URL``/``SUPABASE_KEY`` does not
+    crash the server: it warns LOUDLY (MOCK-banner style) and falls back to the
+    local file store — never a silent success, never a hard stop on a
+    misconfigured hosted backend. An unknown backend name still fails fast."""
     if STORE_BACKEND == "json":
-        return JsonFileStore(os.environ.get("MEMBERS_DB_PATH") or DEFAULT_MEMBERS_DB_PATH)
+        return _json_store()
     if STORE_BACKEND == "supabase":
-        return SupabaseStore()
+        try:
+            return SupabaseStore()
+        except RuntimeError:
+            _loud_banner(SUPABASE_FALLBACK_WARNING)
+            return _json_store()
     raise RuntimeError(
         f"unknown STORE_BACKEND {STORE_BACKEND!r} — use 'json' (default) or 'supabase'."
     )
@@ -568,9 +682,10 @@ def main() -> None:
     server = ThreadingHTTPServer(("127.0.0.1", port), Handler)
     if _is_mock():
         # D3: loud, unmissable — no real payments happen in this mode.
-        banner = "!!! MOCK MODE: no real payments — set STRIPE_SECRET_KEY and STRIPE_WEBHOOK_SECRET for real Stripe !!!"
-        bar = "!" * len(banner)
-        print(f"\n{bar}\n{banner}\n{bar}\n", file=sys.stderr, flush=True)
+        _loud_banner(
+            "!!! MOCK MODE: no real payments — set STRIPE_SECRET_KEY and "
+            "STRIPE_WEBHOOK_SECRET for real Stripe !!!"
+        )
     print(f"membership-kit backend | mode={_mode()} | store={STORE_BACKEND} | http://localhost:{port}")
     if _mode() == "mock":
         print("  MOCK mode (no keys). Try:")
