@@ -187,6 +187,19 @@ class RealPathHTTPTests(unittest.TestCase):
         self.assertIn("MOCK MODE", payload["warning"])
         self.assertTrue(payload["granted"])  # still grants, but loudly flagged
 
+    def test_webhook_partial_config_fails_closed(self) -> None:
+        """PARTIAL / misconfigured deploy: STRIPE_SECRET_KEY set (real checkout
+        live) but STRIPE_WEBHOOK_SECRET unset. An UNSIGNED POST to /webhook must be
+        REJECTED (400) and must NOT grant — the app must never fail OPEN on a
+        money-live config where signatures cannot be verified."""
+        os.environ["STRIPE_SECRET_KEY"] = "sk_test_partial_config"  # fake TEST value
+        os.environ.pop("STRIPE_WEBHOOK_SECRET", None)
+        raw = REAL_FIXTURE.read_bytes()
+        status, body = self._post("/webhook", raw, {})  # no signature header
+        self.assertEqual(status, 400)
+        self.assertIn("STRIPE_WEBHOOK_SECRET", json.loads(body)["error"])
+        self.assertFalse(app.STORE.is_member("jenny.rosen@example.com"))
+
     def test_buyer_landing_route_http(self) -> None:
         """GET / serves the buyer landing page over HTTP (200)."""
         status, body = self._get("/")
