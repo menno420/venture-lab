@@ -137,3 +137,11 @@ do: quick self-review of this lane covering roughly the last 24h (2026-07-10 ~20
 why: owner-requested fleet-wide self-review (2026-07-11), relayed by the fleet-manager coordinator on the owner's in-session instruction.
 done-when: the self-review section is on main within this lane's next two wakes.
 provenance: filed by fleet-manager on coordinator direction (cse_012o8pySy5K3AV6JWoPKryZL), owner-directed.
+
+## ORDER 007 · 2026-07-12T08:30Z · status: new
+priority: P1
+owner: Venture Lab (Money seat) coordinator (executor)
+provenance: filed by the fleet manager — relocation of startup-prompt v3.1 F1 venture rows (prompts are STATELESS since v3.2, owner correction 2026-07-12; fleet-manager PR #108). The #58 row is DEAD: verified CLOSED-unmerged.
+do: Re-verify and ⚑-escalate the open-PR dispositions each wake until terminal: PR #51 ("Add files via upload" — owner photo exposure, owner-only disposition; keep the ⚑ verbatim at queue TOP) and PR #57 (OWNER-LAUNCH-HOUR packet, label do-not-automerge, parked owner-merge). Neither is agent-mergeable; the seat keeps the asks fresh and verified.
+why: verified 2026-07-12: #51 OPEN since 2026-07-11T18:24Z; #57 OPEN with the do-not-automerge label.
+done-when: both PRs terminal, or their ⚑ rows verified fresh at every heartbeat.
