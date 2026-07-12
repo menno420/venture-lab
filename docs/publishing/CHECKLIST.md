@@ -83,6 +83,7 @@ The gating variable is production cost, not length.
 - [ ] Blurb/description drafted in-repo (committed, nothing published).
 - [ ] Two categories + 7 keywords chosen; avoid the crowded generic terms the
       collision scan surfaced.
+- [ ] Catalog allocation checked: consult [`keyword-map.md`](keyword-map.md) before locking categories/keywords, and claim your rows there in the same PR (conflicts resolved before §7).
 - [ ] Subtitle from §1/§2 locked into the listing metadata draft.
 - [ ] KDP Select (KU) recommendation recorded with rationale (90-day
       exclusivity is reversible; novellas typically earn best via KU
