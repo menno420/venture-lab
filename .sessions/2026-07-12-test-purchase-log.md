@@ -1,6 +1,6 @@
 # Session — SWTK owner test purchase (record the end-to-end buyer path)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · test-purchase-log
 - **session:** record the last open leg of the SWTK launch — the owner
@@ -73,4 +73,23 @@ PR. Do NOT touch `control/inbox.md`. NEVER record the owner's email.
 
 ## Status / outcome
 
-_(pending — filled at flip to complete)_
+Complete. Recorded the last open leg of the SWTK launch: the owner completed a
+discounted **end-to-end test purchase** of the $29 Stripe Webhook Test Kit on
+Gumroad (owner click). Appended a verified-test-purchase entry to
+`docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md` — timestamp
+`Sun Jul 12 18:09:34 UTC 2026`, success banner shown, download page served the
+`stripe-webhook-test-kit-v0.1` ZIP (**19.4 KB**, working Download button),
+checkout→receipt→download verified; the owner's email deliberately NOT recorded.
+Marked the **launch hour COMPLETE end to end** (⚑A PR #74 · ⚑E PR #84 · article
+PR #85 · this test purchase) and the launch now in **MEASUREMENT mode**
+(checkpoints 2026-07-19 / 2026-07-26 armed coordinator-side). Corrected the
+earlier "ZERO tags" note: the article's 4 tags (stripe, debugging, webhooks,
+payments) went LIVE **2026-07-12T17:24:24Z** (dev.to API) — the earlier
+17:24:10Z fetch raced the owner's edit; the tags ARE live and no tagging
+follow-up is needed. Updated `control/status.md` surgically (test-purchase row
+→ **VERIFIED 2026-07-12**, launch state → **measurement mode**), overwritten
+LAST after a final `control/inbox.md` re-read at HEAD (highest order still 007,
+no order newer than 007). Born-red card first, flipped `complete` as the last
+content commit; `python3 bootstrap.py check --strict` green (exit 0) at flip.
+`control/inbox.md` untouched. Landed via a READY `claude/`-headed PR — self-lands
+on green via the enabler (the lane never arms/merges its own PR).

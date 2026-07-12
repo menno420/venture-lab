@@ -107,13 +107,15 @@ The free gotcha article — the funnel top that feeds the $29 listing — is now
 - **Product link present:** yes — `gumroad.com/l/stripe-webhook-test-kit`
   appears **2×** in the rendered article HTML (the article links through to the
   paid listing, so the funnel is wired end-to-end).
-- **Tag state observed at fetch time:** **ZERO tags.** dev.to renders tags as
-  `/t/<tag>` links; `grep -oE 'href="/t/[a-z0-9]+"'` over the fetched HTML
-  returned **no matches** — none of the intended `stripe` / `webhooks` /
-  `payments` / `debugging` tags are present on the article as fetched. This is
-  recorded as the observed state at 2026-07-12T17:24:10Z (untagged articles get
-  far less feed/tag-page discovery on dev.to; adding the four tags is a cheap,
-  owner-side discoverability follow-up — flagged, not blocking).
+- **Tag state — CORRECTED (tags ARE live).** The 17:24:10Z fetch above
+  observed zero `/t/<tag>` links and this log earlier recorded that as "ZERO
+  tags." That fetch **raced the owner's edit**: the article's **four tags —
+  `stripe`, `debugging`, `webhooks`, `payments` — went live at
+  2026-07-12T17:24:24Z** (14 seconds after the racing fetch), verified via the
+  dev.to API. The tags ARE present on the live article; the earlier zero-tags
+  reading was a transient of the edit race, not the settled state. dev.to
+  feed/tag-page discovery therefore applies as intended — no owner follow-up is
+  needed on tagging.
 
 ---
 
@@ -129,14 +131,43 @@ The free gotcha article — the funnel top that feeds the $29 listing — is now
   **2026-07-19** (T+7 mid-window review) and **2026-07-26** (T+14 deadline —
   ≥1 organic sale OR ≥1 qualified inbound, else ledger ⚑E NEGATIVE +
   pause/delist).
-- **Owner test purchase — UNCONFIRMED:** a first end-to-end buyer-path test
-  purchase has **not** been confirmed. This funnel row **stays open** until the
-  owner completes and confirms one; it does not gate the kill clock but
-  de-risks the buyer path.
+- **Owner test purchase — VERIFIED 2026-07-12 (see the entry below).** The
+  first end-to-end buyer-path test purchase is now complete; this row is
+  **CLOSED.**
 
 ---
 
-*This log records the ⚑E launch event plus the free gotcha-article publish
-(funnel top, now LIVE 2026-07-12). The one remaining owner click on the
-T→T+14 clock is a first **test purchase** — still UNCONFIRMED, its row stays
-open.*
+## Owner test purchase — VERIFIED end to end (2026-07-12)
+
+The last open leg of the launch hour is closed: the owner personally completed
+a **discounted test purchase** of the $29 Stripe Webhook Test Kit on Gumroad
+(owner click, per the money protocol — no agent purchased or spent).
+
+- **Timestamp (`date -u`):** **Sun Jul 12 18:09:34 UTC 2026**
+- **What was verified:** the owner completed a discounted test purchase of the
+  $29 Stripe Webhook Test Kit on Gumroad. The **success banner** was shown
+  ("Your purchase was successful! We sent a receipt to the owner's email"). The
+  **download page served the `stripe-webhook-test-kit-v0.1` ZIP** with a working
+  **Download** button. The delivery pipeline — **checkout → receipt → download**
+  — is verified **end to end**.
+- **ZIP size observed:** **19.4 KB** (matches the listing's stated product size
+  and the durable record above).
+- **Owner privacy:** the receipt went to the owner's email; the address is
+  deliberately **not recorded here**.
+
+**Launch hour — COMPLETE end to end.** All four legs are now done and recorded
+on `main`: **⚑A PR #74** (kit verified against a real Stripe signing secret) ·
+**⚑E PR #84** (the $29 Gumroad listing LIVE) · **article PR #85** (free gotcha
+article LIVE on dev.to, funnel top) · **test purchase (this entry)**. With the
+buyer path verified, the launch now moves into **MEASUREMENT mode**: the
+coordinator watches Gumroad analytics + dev.to public engagement against the
+kill clock at the two armed checkpoints — **2026-07-19 (T+7)** and **2026-07-26
+(T+14)**, both armed coordinator-side.
+
+---
+
+*This log records the ⚑E launch event, the free gotcha-article publish (funnel
+top, LIVE 2026-07-12), and the owner's end-to-end **test purchase** (VERIFIED
+2026-07-12). The launch hour is **COMPLETE** — all four legs done — and the
+launch is now in **MEASUREMENT mode** (checkpoints 2026-07-19 / 2026-07-26
+armed coordinator-side).*
