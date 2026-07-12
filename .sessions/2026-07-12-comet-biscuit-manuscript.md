@@ -1,6 +1,6 @@
 # Session — Comet Biscuit manuscripts (EN/NL/DE)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative
 - **session:** develop "Crew of the Comet Biscuit" from concept into finished, readable picture-book manuscripts in three languages
