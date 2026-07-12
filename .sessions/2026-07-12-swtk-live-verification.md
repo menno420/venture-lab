@@ -1,6 +1,6 @@
 # 2026-07-12 — SWTK live verification (⚑A, real signing secret)
 
-> **Status:** `red` (in-progress)
+> **Status:** `complete`
 
 ⚑A LIVE verification of the Stripe Webhook Test Kit against a REAL Stripe-issued
 webhook signing secret (`SWTK_WEBHOOK_SECRET`, owner-placed in the env panel this
@@ -82,3 +82,18 @@ signing secret, not a self-authored one.
 - **⚑ (funnel) — publish the free gotcha article**
   (`docs/launch/stripe-webhook-test-kit/gotcha-article.md`) — the validation
   clock starts at article publish.
+
+💡 Session idea: the kit proves the LOCAL leg of ⚑A but the honest boundary
+(Stripe-server-originated delivery) recurs in every launch note. The kit could
+ship a thin `swtk.py listen` helper that wraps `stripe listen --forward-to` and
+asserts the same three verdicts (200 / forged-4xx / stale-4xx) on
+Stripe-CLI-forwarded events — turning the "separate optional step" into a
+one-command close of the last leg, with no self-authored payloads.
+
+⟲ Previous-session review: the money-seat heartbeat cards (#66/#73) kept the ⚑A
+test-kit leg cleanly separated from the membership-kit env-keys leg, which made
+this verification unambiguous about which product's ⚑A was being closed — good
+precedent. Improvement carried here: this card states the exact masked-secret
+check command and the verbatim HTTP verdicts inline so the evidence is auditable
+without re-running, and names the Stripe-server-delivery boundary explicitly so
+no downstream heartbeat over-claims a full live E2E.
