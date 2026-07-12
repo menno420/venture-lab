@@ -1,6 +1,6 @@
 # Session — Auto-merge guards reference doc + branch-naming convention
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · auto-merge-guards-doc
 - **session:** write venture-lab's OWN `docs/operations/auto-merge-guards.md` —
@@ -50,3 +50,18 @@ merge my own PR.
 
 - (born-red) card committed first; branch `claude/auto-merge-guards-doc` cut from
   `origin/main` at `305646f`.
+- Wrote `docs/operations/auto-merge-guards.md` in venture-lab's own voice —
+  `verified-live` status (NOT the sibling lane's INERT `owner-guidance` state):
+  what the enabler does, the two guards (refuse-to-arm on zero required contexts;
+  `do-not-automerge` carve-out with the fresh ~15s API re-read race guard), the
+  `claude/*`-only head filter, the VERIFIED-LIVE repo-settings state proven by
+  PR #59 self-landing 24s after open (armed by the enabler, merged by
+  `github-actions[bot]`), and the structural-refusal fallback (park READY+green;
+  owner/non-author merges; never self-merge). Secret NAME `ROUTINE_PAT` only.
+- Placed the branch-naming convention line at the TOP of `docs/conventions.md`
+  § "PR state and merge authority (the self-merge grant)" — the binding,
+  project-owned home of the self-merge rules — cross-linking the guards doc.
+  Chose `conventions.md` over `.substrate/claude/CLAUDE.md` because the latter is
+  kit-owned and regenerated on `bootstrap.py upgrade` (a hand edit is lost).
+- Flipped this card `complete` as the deliberate last step before the PR;
+  `python3 bootstrap.py check --strict --session-log <this card>` green at flip.
