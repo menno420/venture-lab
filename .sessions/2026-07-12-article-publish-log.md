@@ -1,6 +1,6 @@
 # Session — SWTK free gotcha-article publish log (funnel top now LIVE)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · article-publish-log
 - **session:** record the free gotcha-article going LIVE on dev.to (the SWTK
@@ -69,6 +69,23 @@ touch `control/inbox.md`.
 
 ## Status / outcome
 
-_(born-red — flipped to complete as the deliberate last content commit once the
-LAUNCH-LOG + status.md edits are in and `python3 bootstrap.py check --strict` is
-green.)_
+Complete. Independently re-verified the funnel-top article LIVE on dev.to —
+**HTTP 200 at 2026-07-12T17:24:10Z**, product link
+`gumroad.com/l/stripe-webhook-test-kit` present (**2×**), tag state **ZERO tags**
+(no `/t/<tag>` links rendered — none of stripe/webhooks/payments/debugging
+present at fetch time; recorded as observed, flagged as a cheap owner-side
+discoverability follow-up). Appended to
+`docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md`: a "Funnel top LIVE" entry
+(URL, published 2026-07-12T17:18:47Z by menno420 owner-click, HTTP re-verify at
+fetch time, product-link present, observed tag state) + a "Funnel measurement"
+line (article views → listing visits → sales; sources dev.to public
+reactions/comments + Gumroad analytics; checkpoints 2026-07-19 / 2026-07-26;
+owner test-purchase UNCONFIRMED — row stays open). Updated `control/status.md`
+surgically: the gotcha-article ⚑ → **PUBLISHED** with the URL, the launch hour
+marked complete end-to-end (⚑A verified PR #74 · ⚑E LAUNCH-LOG in PR #84 ·
+article now live); the **test-purchase row stays OPEN**. status.md was
+overwritten LAST, after a final `control/inbox.md` re-read at HEAD (highest order
+still 007). Born-red card first, flipped `complete` as the deliberate last
+content commit; `python3 bootstrap.py check --strict` green (exit 0) at flip.
+`control/inbox.md` untouched. Landed via a READY `claude/`-headed PR — self-lands
+on green via the enabler (the lane never arms/merges its own PR).
