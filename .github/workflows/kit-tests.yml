@@ -36,3 +36,18 @@ jobs:
       - name: stripe-webhook-test-kit real-path HTTP tests
         working-directory: candidates/stripe-webhook-test-kit
         run: python3 -m unittest test_http_realpath -v
+  ledger-drift-advisory:
+    # ADVISORY ONLY — never a required gate. Double-guarded against
+    # ever turning red: the script exits 0 on EVERY path (in-sync,
+    # trailing, skip, parse failure) AND the step is continue-on-error.
+    # It prints one ledger-drift line comparing docs/current-state.md
+    # "Recently shipped" vs the newest merged PR. Contract + usage:
+    # docs/ledger-drift-checker.md.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ledger drift advisory (stdlib-only, system python3)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/check_ledger_drift.py
