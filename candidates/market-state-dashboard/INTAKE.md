@@ -7,6 +7,13 @@
 > currently signals. **NOT a bot. NOT automated execution. NOT financial advice.** This
 > file is the SPEC only — no site is built in this slice.
 
+> **Related docs:** [`intel-context-2026-07.md`](intel-context-2026-07.md) (CONTEXT — NOT A
+> RECOMMENDATION, for §G/§H) · [`MONETIZATION.md`](MONETIZATION.md) — tier design (FREE
+> dogfood / feature-gated PREMIUM), the BINDING compliance copy rules, the six-field gates
+> before the first paid euro, and the conservative (€0 base-case) revenue line. Monetization
+> is spec/posture only — no spend in scope, and it does **not** loosen the Phase-1 honesty or
+> the §G/§H rotation-hurdle discipline.
+
 ## A. What it is (one-liner)
 
 A GitHub-Pages-hosted static screener that reads free/delayed market data on a cron,
