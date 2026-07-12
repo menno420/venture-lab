@@ -32,10 +32,15 @@ The gating variable is **production cost, not length**: a title needs either jus
 
 **Tier 1 — publish first (cover-only, no illustration gate).** The adult/literary standalones. Start with the cleanest discoverability:
 1. **The Slow Word** — no collision, distinctive.
-2. **The Painted Stones** — no exact collision (recheck on KDP before lockdown).
-3. **The Lantern Door** — no collision, distinctive two-noun phrase.
-4. **Lull** — confirmed novella; near-unsearchable bare word, needs subtitle *"A Novella"*.
-5. **The Last Good Frequency** — adjacent to two 2026 "Last Frequency" titles but the extra word differentiates.
+2. **Lull** — confirmed novella; near-unsearchable bare word, needs subtitle *"A Novella"*.
+3. **The Last Good Frequency** — adjacent to two 2026 "Last Frequency" titles but the extra word differentiates.
+
+**RE-TIER (2026-07-12) — two titles moved out of this tier on manuscript evidence.** The caveat above ("we did not read the manuscripts") fired: this tier originally also listed **The Painted Stones** (#2) and **The Lantern Door** (#3) as adult cover-only standalones, but their manuscripts are children's picture books, so both move to Tier 2 (illustration-gated). Evidence:
+- **The Painted Stones** — 13-spread picture book, ages 4–8, EN body **565 words** (`wc -w`, frontmatter/spread-markers/illustration-notes stripped; file self-reports 556) at `candidates/childrens-books/painted-stones/painted-stones.en.md`. Full kids-path vetting: [`docs/publishing/vetting/the-painted-stones.md`](vetting/the-painted-stones.md) @ `7fc4054` (PR #93), whose §0 flagged this amendment.
+- **The Lantern Door** — 14-spread picture book, ages 4–8 (series *The Small Doors*), EN body **624 words** (same `wc -w` method; file self-reports 621) at `candidates/childrens-books/the-lantern-door/the-lantern-door.en.md` (verified 2026-07-12; no vetting packet yet).
+- No adult manuscript of either title exists: `candidates/adult-novels/` holds only `README.md`, `the-slow-word/`, `the-weigh-house/`, and `ultramarine/` (verified 2026-07-12 at repo HEAD `7fc4054`).
+
+**Next genuine cover-only candidates** after the remaining Tier-1 titles — both verified adult prose 2026-07-12: **The Weigh House** (Amsterdam crime novella, **36,434 words** by `wc -w` at `candidates/adult-novels/the-weigh-house/en/the-weigh-house.md`) and **Ultramarine** (literary novella of Delft 1654, **27,865 words** by `wc -w` at `candidates/adult-novels/ultramarine/manuscript/ultramarine.md`). Both stay in Tier 1b below until their title fixes land (unchanged).
 
 **Tier 1b — cover-only but fix the title first (real collisions):**
 - **The Undertow** — most crowded title in the catalog (Jo Baker; Jeff Sharlet NYT bestseller). Needs a strong subtitle or rename before publishing.
@@ -43,7 +48,7 @@ The gating variable is **production cost, not length**: a title needs either jus
 - **Hollowtide** — collides with an active fantasy series. Add a genre-signalling subtitle.
 - **The Weigh House** — no collision but weigh/weight homophone risk; subtitle *"A Novel"*.
 
-**Tier 2 — GATED ON ILLUSTRATION (owner money decision, see §3).** The kids picture books: **Comet Biscuit** (×3 series), **Bram the Yak Cannot Whisper**, **Dormouse** (publish as *"Pippa and the Tear in the Night"* — the bare "Dormouse" is buried under Julia Donaldson et al.), **Star Pirates** (kids/YA — prefer this over the alt "The Wrong Way Down", which collides with an established crime series). **Tummel** sits between tiers depending on whether it ships illustrated — owner to confirm.
+**Tier 2 — GATED ON ILLUSTRATION (owner money decision, see §3).** The kids picture books: **Comet Biscuit** (×3 series), **Bram the Yak Cannot Whisper**, **Dormouse** (publish as *"Pippa and the Tear in the Night"* — the bare "Dormouse" is buried under Julia Donaldson et al.), **Star Pirates** (kids/YA — prefer this over the alt "The Wrong Way Down", which collides with an established crime series), **The Painted Stones** (re-tiered from Tier 1, 2026-07-12 — 13 spreads, EN 565 words measured; vetted, parks at the §5 illustration gate per [`vetting/the-painted-stones.md`](vetting/the-painted-stones.md) @ `7fc4054`), and **The Lantern Door** (re-tiered from Tier 1, 2026-07-12 — 14 spreads, EN 624 words measured at `candidates/childrens-books/the-lantern-door/`). **Tummel** sits between tiers depending on whether it ships illustrated — owner to confirm.
 
 ## 3. The kids-book illustration decision (owner money-action)
 
@@ -57,7 +62,7 @@ Kids titles cannot publish without interior art. Three options — this is a rea
 
 ## 4. Top-3 OWNER-ACTIONs (owner does every click)
 
-Six fields each. These are the three cover-only Tier-1 titles with the cleanest discoverability.
+Six fields each. Originally the three cover-only Tier-1 titles with the cleanest discoverability; the Painted Stones block below is **withdrawn** by the 2026-07-12 re-tier (§2).
 
 **OWNER-ACTION — Publish "The Slow Word"**
 1. **KDP account:** owner logs into (or creates) the KDP account; complete tax/bank interview first or royalties hold.
@@ -67,13 +72,7 @@ Six fields each. These are the three cover-only Tier-1 titles with the cleanest 
 5. **Categories/keywords:** two literary-fiction categories + 7 keywords; avoid the crowded generic terms.
 6. **KDP Select (KU):** **Yes** — enroll (90-day exclusive). A standalone literary title is exactly the case where KU page-reads offset weak standalone discoverability. Reversible after 90 days.
 
-**OWNER-ACTION — Publish "The Painted Stones"**
-1. **KDP account:** same account.
-2. **Cover:** single ebook cover.
-3. **Format:** reflowable ebook, English-first. (Recheck exact title availability on KDP before upload — the collision scan was inconclusive for obscure self-pub.)
-4. **Price:** $4.99.
-5. **Categories/keywords:** literary/upmarket fiction; 7 keywords.
-6. **KDP Select (KU):** **Yes** (90-day exclusive).
+**OWNER-ACTION — Publish "The Painted Stones" — WITHDRAWN (re-tier, 2026-07-12).** This block was written against the wrong category: the manuscript is a 13-spread kids picture book (EN 565 words measured — §2 re-tier), not a $4.99 reflowable-ebook adult standalone (picture books are fixed-layout print-first, not reflowable). The corrected kids-path owner queue — print-first $12.99 paperback, gated on the §3 illustration money-decision — lives in [`docs/publishing/vetting/the-painted-stones.md`](vetting/the-painted-stones.md) §7 @ `7fc4054` (PR #93), which supersedes this block.
 
 **OWNER-ACTION — Publish "Lull" (as *Lull: A Novella*)**
 1. **KDP account:** same account.
