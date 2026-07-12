@@ -1,6 +1,6 @@
 # Session — Star Pirates manuscript (EN/DE/NL)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative build
 - **session:** ships candidates/childrens-books/star-pirates/ — the complete Book 1 manuscript of Star Pirates in three separately-localized editions (English master + native Dutch + native German), plus DECISIONS.md.
