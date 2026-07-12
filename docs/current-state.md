@@ -8,22 +8,67 @@
 
 ## Stability baseline
 
-(Describe the accepted-stable baseline once established — what is known-good and
-should not be re-audited without a reported regression.)
+- **Canonical landing path proven and in daily use:** born-red session card →
+  READY (non-draft) `claude/`-headed PR → CI green (kit-tests +
+  substrate-gate) → the auto-merge enabler self-lands it (installed PR #59;
+  every recent session PR has landed this way). Lanes never arm or merge their
+  own PRs.
+- **Stripe Webhook Test Kit v0.1 — verified product.** ⚑A live verification
+  (PR #74): HTTP 200 against a real Stripe-issued webhook signing secret,
+  forged and stale-timestamp events rejected HTTP 400, real-path suite 14/14
+  green. Buyer path verified end to end by the owner's test purchase (PR #86).
+- **Substrate-kit v1.15.0** (PR #83) — `python3 bootstrap.py check --strict`
+  is the pre-push gate; claims convention per
+  [`control/claims/README.md`](../control/claims/README.md).
 
 ## In flight
 
 (Verify against live source control — this section is a dated snapshot.)
 
+- **SWTK launch — MEASUREMENT mode (coordinator-owned).** The $29 Stripe
+  Webhook Test Kit is live on Gumroad (launched 2026-07-12); the launch hour
+  is complete end to end (⚑A #74 · ⚑E #84 · article #85 · owner test purchase
+  #86). Funnel: dev.to gotcha article → Gumroad listing. Checkpoints armed
+  coordinator-side: **T+7 funnel checkpoint 2026-07-19** and **T+14
+  kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
+  ledger ⚑E NEGATIVE + pause/delist). Durable record:
+  [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
+- **Book catalog — second revenue line, owner-gated.** The verified
+  [publishing plan](publishing/PUBLISHING-PLAN.md) (PR #87) sets the order:
+  Tier-1 cover-only titles first (The Slow Word, The Painted Stones, The
+  Lantern Door, Lull, The Last Good Frequency); kids titles parked on the
+  owner's illustration money-decision. Every account/upload/pricing click is
+  an OWNER action. New titles are vetted in one pass via the
+  [title-vetting checklist](publishing/CHECKLIST.md); lane index:
+  [`docs/publishing/`](publishing/README.md).
 - [Launch & distribution assets](launch/README.md)
-- [Auto-merge enabler — owner action](operations/owner-action-auto-merge.md) —
-  enabler workflow wired into `.github/workflows/`; INERT until the owner sets
-  "Allow auto-merge" ON + requires the `substrate-gate` check on `main`.
 
 ## Recently shipped (newest first)
 
 (Merged work only, newest first.)
 
+- Publishing plan for the 14-book catalog — verified price points, priority
+  order, illustration owner-decision, translation strategy, title-collision
+  scan: [`docs/publishing/PUBLISHING-PLAN.md`](publishing/PUBLISHING-PLAN.md)
+  (PR #87).
+- SWTK owner test purchase VERIFIED end to end (checkout → receipt →
+  download, 19.4 KB ZIP); launch hour complete, launch moved to measurement
+  mode (PR #86).
+- Free gotcha article LIVE on dev.to — the funnel top feeding the $29
+  listing, product link wired 2× (PR #85).
+- ⚑E LAUNCH recorded: the $29 Stripe Webhook Test Kit live on Gumroad
+  2026-07-12, independently re-verified HTTP 200, kill dates set (PR #84).
+- Kit upgrade: substrate-kit v1.14.0 → v1.15.0 (PR #83).
+- Book-catalog wave 2 — adult/YA manuscripts: Ultramarine (PR #82), The
+  Undertow (PR #81), The Slow Word (PRs #79/#80), The Weigh House (PR #78),
+  Hollowtide (PR #77), The Last Good Frequency (PR #76), plus three
+  trilingual picture books (PR #75). Catalog lives in
+  [`candidates/`](../candidates/).
+- SWTK ⚑A live verification — real Stripe signing secret, 14/14 real-path
+  tests green (PR #74).
+- Book-catalog wave 1 — Tummel + Dormouse picture books (PR #67), Lull Part-1
+  arc (PR #68), Comet Biscuit ×3 series (PR #69), Star Pirates EN/NL/DE
+  (PR #72).
 - Candidate #1 (membership-site boilerplate kit) v0.1 artifact:
   [`candidates/membership-kit/`](../candidates/membership-kit/) — mock-mode
   demonstrable; running status in
