@@ -92,6 +92,51 @@ Re-verified by this worker directly, independent of the coordinator's check:
 
 ---
 
-*This log records the ⚑E launch event only. The owner still performs any first
-test purchase and the free-gotcha-article publish (funnel top); those clicks stay
-open and benefit the T→T+14 validation clock.*
+## Funnel top LIVE — free gotcha article published (2026-07-12)
+
+The free gotcha article — the funnel top that feeds the $29 listing — is now
+**live on dev.to**. The owner published it personally (owner click).
+
+- **Article URL (live):**
+  <https://dev.to/menno420/your-stripe-webhook-says-customeremail-is-null-heres-why-and-the-fix-1bgp>
+- **Published:** **2026-07-12T17:18:47Z** by **menno420** (owner click, per the
+  money protocol — no agent published, spent, or created an account).
+- **Independent re-verification (this slice):** `curl -s -o /dev/null -w "HTTP
+  %{http_code}"` → **HTTP 200 at 2026-07-12T17:24:10Z** (`date -u` fetch
+  timestamp). Not proxy-blocked; the full article HTML rendered.
+- **Product link present:** yes — `gumroad.com/l/stripe-webhook-test-kit`
+  appears **2×** in the rendered article HTML (the article links through to the
+  paid listing, so the funnel is wired end-to-end).
+- **Tag state observed at fetch time:** **ZERO tags.** dev.to renders tags as
+  `/t/<tag>` links; `grep -oE 'href="/t/[a-z0-9]+"'` over the fetched HTML
+  returned **no matches** — none of the intended `stripe` / `webhooks` /
+  `payments` / `debugging` tags are present on the article as fetched. This is
+  recorded as the observed state at 2026-07-12T17:24:10Z (untagged articles get
+  far less feed/tag-page discovery on dev.to; adding the four tags is a cheap,
+  owner-side discoverability follow-up — flagged, not blocking).
+
+---
+
+## Funnel measurement — article → listing → sales
+
+- **Funnel:** **dev.to article views → Gumroad listing visits → sales.**
+- **Sources of truth:** dev.to's public **reactions / comments** (the only
+  agent-visible article-engagement signal — the private view counter is
+  owner-dashboard-only) + **Gumroad analytics** (owner-readable views/sales per
+  product; the authoritative organic-sale / qualified-inbound signal — agent
+  surfaces do NOT see sales).
+- **Checkpoints (already armed by the coordinator, aligned to the kill clock):**
+  **2026-07-19** (T+7 mid-window review) and **2026-07-26** (T+14 deadline —
+  ≥1 organic sale OR ≥1 qualified inbound, else ledger ⚑E NEGATIVE +
+  pause/delist).
+- **Owner test purchase — UNCONFIRMED:** a first end-to-end buyer-path test
+  purchase has **not** been confirmed. This funnel row **stays open** until the
+  owner completes and confirms one; it does not gate the kill clock but
+  de-risks the buyer path.
+
+---
+
+*This log records the ⚑E launch event plus the free gotcha-article publish
+(funnel top, now LIVE 2026-07-12). The one remaining owner click on the
+T→T+14 clock is a first **test purchase** — still UNCONFIRMED, its row stays
+open.*
