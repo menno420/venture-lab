@@ -8,6 +8,13 @@
 
 ## PR state and merge authority (the self-merge grant)
 
+> **Branch naming — MUST `claude/`-prefix to self-land.** Agent PR branches
+> MUST use the `claude/` prefix to self-land (see
+> [`operations/auto-merge-guards.md`](operations/auto-merge-guards.md)). The
+> auto-merge enabler arms **only** `claude/*` heads; a differently-named branch
+> (e.g. `money-seat-heartbeat`) is never armed and must park READY + green for a
+> non-author merge.
+
 1. **READY, never draft.** The harness "create as draft" default cost gen-1
    lanes hours of drafts sitting unmerged. Never open a draft PR.
 2. **This lane ALWAYS lands its own PRs — written grant.** Auto-merge armed at
