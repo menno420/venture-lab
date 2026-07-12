@@ -20,6 +20,9 @@
 - **Substrate-kit v1.15.0** (PR #83) — `python3 bootstrap.py check --strict`
   is the pre-push gate; claims convention per
   [`control/claims/README.md`](../control/claims/README.md).
+- **Ledger-drift advisory:** `python3 scripts/check_ledger_drift.py` nags
+  (never gates) when this file's "Recently shipped" trails the newest merged
+  PR — see [`docs/ledger-drift-checker.md`](ledger-drift-checker.md).
 
 ## In flight
 
