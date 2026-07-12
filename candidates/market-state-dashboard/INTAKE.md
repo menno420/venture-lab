@@ -228,6 +228,163 @@ This candidate is **spec-only** (nothing built), so it is INTAKE-standalone like
 earns a ledger entry (and a six-field ⚑ owner action promoted to `venture-ledger.md`) only
 if/when Phase 1 is actually built and the Pages enablement becomes a live ask.
 
+## G. PRIMARY Phase-1 use case — ANCHOR ROTATION (owner-directed)
+
+> This is the **primary** Phase-1 user story the board is built around. It is a
+> **descriptive decision-support** flow — the board describes state, the **owner decides and
+> clicks his own trades on DEGIRO**. **No predictions, no recommendations, no automated
+> execution.** Intel context for this section lives in
+> [`intel-context-2026-07.md`](intel-context-2026-07.md), clearly labelled **CONTEXT — NOT A
+> RECOMMENDATION**.
+
+**The owner's situation.** The owner holds **Intel (INTC)** shares (~**€5–6K** at DEGIRO). The
+**default is HOLD Intel** — the board exists to describe when Intel's *own* mechanical state is
+weak enough that he might consider (a) rotating ~€5K into a better-looking name and rebuying Intel
+later, or (b) trading Intel itself around a flagged reversal. The board never tells him to do
+either; it shows the facts and the cost hurdle, and he decides.
+
+### G.1 — Configurable anchor holding (default INTC)
+
+A **configurable anchor** ticker (default `INTC`) gets a dedicated, prominent panel showing the
+anchor's **own** descriptive state:
+
+- **Regime** — trend vs range (from the same mechanical inputs as §B.Phase-1: BB-width percentile
+  and/or ADX), with days-in-state.
+- **Band position across timeframes** — %B / upper-mid-lower on **daily / 4h / 1h**.
+- **ATR-based expected daily range (%)** — `ATR(daily)/price`, labelled *"typical recent daily
+  range,"* never *"it will move X% today."* (INTC's ATR% is currently ~5% — see the context file.)
+- **Reversal-relevant DESCRIPTIVE facts only** — overnight **gap vs prior close**, **distance to
+  the upper/lower bands**, and **band re-entry after a break** (price closed back inside a band it
+  had broken). These are *observations of what price did*, with **zero predictive claim**. The
+  panel must not say "reversal likely" — only "closed back inside the lower band after breaking it,"
+  and let the owner read it.
+
+### G.2 — Rotation trigger (mechanical, ex-ante)
+
+The rotation prompt is defined **ex-ante and mechanically** — no discretion, no fitting:
+
+> **Trigger:** the anchor is **below its lower daily Bollinger band** OR its **daily regime is
+> downtrend** (ADX/BB-width classifier). (Config-adjustable, but fixed before the fact.)
+
+When the trigger fires, the board surfaces the **strongest rotation candidates from the watchlist**,
+ranked by **DESCRIPTIVE strength ONLY** (e.g. names in a clean uptrend regime / holding above their
+bands with rising band-width). **Phase-1 ranking is descriptive, not predictive** — a *predictive*
+ranking ("this one will outperform") would require a strategy that **passed the forward test, and
+NONE exist**: the trading-strategy lane's one-shot holdout cleared **0 of 13 for deployment**
+(1 CONFIRMED at t = 0.02 "deep inside noise" that *trailed* buy-and-hold after costs, 2 HOLDOUT-BEAT,
+10 HOLDOUT-MISS; verdict *"No candidate holds a finding label"* — trading-strategy
+`docs/final-report.md`, accessed 2026-07-12). So the board ranks *how a name currently looks*, never
+*what it will do*.
+
+### G.3 — Rotation hurdle ALWAYS displayed
+
+Next to **every** surfaced rotation candidate, the board **always** shows the **rotation
+cost/breakeven hurdle** from §H — the candidate is shown *with the cost of switching into it
+attached*, so the owner never sees an attractive-looking name without immediately seeing how much
+it must beat "just hold Intel" by to be worth the switch. The hurdle is not a footnote; it rides
+alongside the candidate.
+
+### G.4 — "Reversal watch" panel (anchor, descriptive only)
+
+A dedicated **reversal-watch panel for the anchor** surfaces the reversal-relevant descriptive facts
+from G.1 — **overnight gap**, **band re-entry after a break**, distance-to-band — as plain
+observations. **No predictions.** Purpose: support situation (b) below (trading Intel itself around a
+flagged intraday/overnight reversal) with facts, not forecasts. Every tile reads as *"here is what
+price did,"* never *"here is what price will do."*
+
+### G.5 — The two situations to support
+
+- **(a) Rotate out of Intel when Intel itself is mechanically weak.** When the anchor trigger (G.2)
+  fires, move ~€5K out of Intel into a stronger-*looking* watchlist name, then **rebuy Intel later**.
+  The board shows the anchor's weakness, the ranked descriptive candidates, and — crucially — the §H
+  round-trip-cycle hurdle each must clear.
+- **(b) Trade Intel itself on a flagged reversal.** When the reversal-watch panel (G.4) shows a
+  descriptive reversal fact (overnight gap, band re-entry), the owner may trade Intel intraday/overnight
+  on his own read. Board's job: surface the fact + the single-round-trip cost, not the call.
+
+## H. ROTATION COST / BREAKEVEN MATH (always shown, honest)
+
+> **This block is prominent by design** and rides next to every rotation candidate (§G.3). A rotation
+> only makes sense if the alternative is expected to beat *just holding Intel* by **more than the full
+> cost of switching**. Here is that cost, computed honestly.
+
+### H.1 — The full cycle = 4 trade legs
+
+A complete rotation-and-return is **four individual trade legs**:
+`sell INTC → buy OTHER → sell OTHER → rebuy INTC`. The cost of the *whole cycle* is what matters,
+not a single trade.
+
+### H.2 — DEGIRO fees (verified, cited)
+
+DEGIRO's current **US-stock** cost structure (verified 2026-07-12):
+
+- **€1 commission + €1 handling fee = €2 per order (per leg).** A completed **buy+sell round trip =
+  €4** — which matches the owner's stated *"~€4 per completed round trip."*
+- **Currency-conversion fee 0.25%** of value on any EUR↔USD auto-conversion (above spot).
+- ([brokerchooser.com DEGIRO fees 2026](https://brokerchooser.com/broker-reviews/degiro-review/degiro-fees), accessed 2026-07-12; fee-schedule changes noted Oct 2025 per [quantroutine.com/brokers/degiro](https://quantroutine.com/brokers/degiro/), accessed 2026-07-12.)
+
+### H.3 — Commission for the 4-leg cycle
+
+- **4 legs × €2 = €8 total commission.**
+- On a **€5,000** position: **€8 / €5,000 = 0.16%.**
+
+### H.4 — Spread / slippage (conservative)
+
+- Use a conservative **5 bps (0.05%) per leg** — the same per-side slippage the trading-strategy lane
+  costs its holdout at (5 bps slippage + 1 bp commission per side, `docs/p5-holdout-protocol.md`).
+- **4 legs × 5 bps = 20 bps = 0.20%**, i.e. **~€10** on €5,000.
+- *Caveat:* 5 bps is reasonable for **liquid** names; a thinner rotation candidate will cost more, so
+  treat 0.20% as a **floor**, not a ceiling.
+
+### H.5 — FX handling (conditional add-on)
+
+DEGIRO's 0.25% conversion applies to EUR↔USD auto-conversions. If proceeds are **kept in USD** between
+legs (INTC and the rotation candidate are both USD stocks), only the initial entry and final exit
+convert; if **auto-FX converts on every leg**, up to **4 × 0.25% = 1.00%** is added. This depends on
+the owner's currency settings, so it is a **conditional add-on**, flagged separately, not baked into
+the base hurdle. **Worst case it dominates the whole cost** — a reason to keep proceeds in USD across
+the cycle.
+
+### H.6 — TOTAL cycle cost & breakeven (the load-bearing number)
+
+| Component | On €5,000 | % of €5K |
+|---|---|---|
+| Commission (4 × €2) | €8 | 0.16% |
+| Slippage (4 × 5 bps, floor) | €10 | 0.20% |
+| **Base cycle cost (USD cash retained)** | **~€18** | **~0.36%** |
+| + auto-FX on all 4 legs (worst case) | up to +€50 | up to +1.00% |
+| **Worst-case cycle cost** | **up to ~€68** | **up to ~1.36%** |
+
+> **BREAKEVEN, stated plainly:** the alternative trade must be **expected to beat simply HOLDING
+> Intel by MORE than ~0.36%** (the base round-trip-cycle friction) just to break even — and
+> realistically by a **larger multiple** of that (to survive slippage variance), rising toward
+> **~1.0–1.4%** if auto-FX converts every leg. If the switch is not expected to clear Intel by at
+> least this margin, **doing nothing (holding Intel) wins.**
+
+### H.7 — GAP RISK (two-sided, quantified)
+
+Transaction cost is **not** the biggest risk — **timing/gap risk is.** While the owner is *out* of
+Intel (holding OTHER during the cycle), **Intel can run up.** Intel's **ATR% is ~5%** (ATR(14)≈5.52
+on a ~$110 price — see [`intel-context-2026-07.md`](intel-context-2026-07.md) §5). A ~5%-ATR name can
+easily move **5–10%+ over even a few sessions**, so if Intel rallies while he's out, the foregone
+gain **dwarfs the ~0.36% switching friction by an order of magnitude.** A scheduled catalyst
+sharpens this: **Intel reports Q2 earnings 2026-07-23**, a binary event inside any near-term rotation
+window. **Implication:** the rotation only makes sense when the anchor's descriptive weakness is
+strong enough that the expected relative underperformance of Intel exceeds **both** the friction
+(§H.6) **and** this gap risk — a high bar, honestly stated.
+
+### H.8 — NL tax note (general info — NOT tax advice)
+
+Under the Dutch **box 3** regime, tax is levied on **wealth** (a deemed/notional return on net
+assets — 2026: an assumed ~7.78% return taxed at 36%, ≈ 2.80% effective), **not on per-trade realized
+gains.** So **churn itself carries no direct per-trade tax penalty** — rotating does not trigger a
+capital-gains event the way it would in a realization-based system. Note the **pending
+werkelijk-rendement (actual-return) reform**: a bill to tax *actual* returns (incl. unrealized gains)
+was **adopted by the House of Representatives on 2026-02-12**, aimed at **2028**, but the Minister of
+Finance has said amendments are needed and Senate passage is uncertain. **This is general
+information, not tax advice.**
+([Deloitte NL — Box 3 Actual Return Act](https://www.deloitte.com/nl/en/services/tax/perspectives/wetsvoorstel-wet-werkelijk-rendement-box-3-aangenomen-tweede-kamer.html) · [KPMG — transition to new Box 3](https://kpmg.com/us/en/taxnewsflash/news/2026/02/tnf-netherlands-transition-to-new-box-3-wealth-tax-regime.html), accessed 2026-07-12.)
+
 ## Why this might fail
 
 The honest downside: the owner may not sustain the manual-read-and-click habit (kill
