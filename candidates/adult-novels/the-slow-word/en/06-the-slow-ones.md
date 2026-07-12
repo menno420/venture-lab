@@ -1,4 +1,4 @@
-# Chapter Six — The Slow Ones
+# Chapter 6 — The Slow Ones
 
 For three days she did not try to read the question. She tried to read the questioner.
 
