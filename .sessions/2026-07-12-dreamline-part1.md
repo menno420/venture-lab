@@ -1,6 +1,6 @@
 # Session — DREAMLINE / "Lull" — Book 1 Part 1 arc (ch4–close)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative writing
 - **session:** continues the owner-directed DREAMLINE dream-series (landed ch1–3 + bible via PR #44) past chapter 3 to a complete Book-1 Part-1 arc: names the series from the owner's shortlist, records the decision, writes finished prose from chapter 4 through a satisfying arc close, and adds a one-page Part-2 direction note.
@@ -24,7 +24,12 @@ Owner delegated the series name (shortlist: Palimpsest, Vivid, Anchoring, Lull, 
 ## Work log
 
 - Born-red session card committed to open the slice.
+- Series named **Lull** (owner-delegated pick, coordinator default confirmed on the content of ch1–3); decision + rationale recorded in `candidates/dream-series/DECISIONS.md` (D-001), owner-vetoable. Applied to ch1–3 front-matter; DREAMLINE kept as project codename.
+- Wrote finished prose ch4–ch12 (`candidates/dream-series/book1/ch04.md` … `ch12.md`), matching the ch1–3 voice/POV/tense/length and the `outline.md` beats through the outline's self-contained Part-1 close (ch12 "The Choice").
+- Added `candidates/dream-series/book1/part2-direction.md` (one page) with ch13–14 close, the Book-2/3 spine, planted threads, and a ⚑ owner language/translation decision flagged OUT of scope.
+- `python3 bootstrap.py check --strict` GREEN (this card's designed born-red hold flipped complete in this commit).
 
 ## Status / outcome
 
-(to be completed at close)
+Shipped the Book-1 Part-1 arc as finished prose: series named **Lull**, chapters 4–12 written to a satisfying self-contained close (Sam holds the Night Watch true and chooses the Vigil, paying the arc-level cost; the Lantern crosses fully into waking), plus a Part-2 direction note. Original language of ch1–3 is English (the owner's source fragment is Dutch; language stays the owner's call — translation flagged, not attempted). Creative portfolio — no spend, no accounts, no external publish; every publish path stays owner-gated. `check --strict` GREEN. Committed and pushed on `claude/dreamline-part1`; PR opened READY into main. control/ left entirely untouched this slice.
+
