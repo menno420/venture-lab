@@ -1,6 +1,6 @@
 # Session — PUBLISHING-PLAN re-tier (Painted Stones + Lantern Door → kids track)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · publishing-plan-retier
 - **session:** execute the plan amendment PR #93's vetting packet flagged for
@@ -14,7 +14,7 @@
   price or strategy changes beyond it; no new vetting packets; no publish,
   spend, account, or click.
 - **started (date -u):** Sun Jul 12 22:07:47 UTC 2026
-- **completed (date -u):** [[fill:completed]]
+- **completed (date -u):** Sun Jul 12 22:10:34 UTC 2026
 
 ## Scope
 
@@ -59,22 +59,64 @@
   both titles added to §2 Tier 2; §4 Painted Stones block WITHDRAWN with a
   pointer to the packet's §7 queue; next cover-only candidates named
   (stay Tier 1b until their title fixes — strategy unchanged).
-- `python3 bootstrap.py check --strict` pre-flip: [[fill:gate-result]]
-- Opened PR [[fill:pr-number]] READY (non-draft), base `main`; the enabler
-  lands it on green — this lane never arms or merges.
+- `python3 bootstrap.py check --strict` pre-flip: exit 1 with the ONLY
+  output being the designed born-red hold on this card (+ its unresolved
+  auto-draft slots) — no real gate failures; clean at flip.
+- Opened PR #94 READY (non-draft), base `main`; the enabler lands it on
+  green — this lane never arms or merges.
 
 ## Status / outcome
 
-[[fill:outcome]]
+**Complete.** The publishing plan no longer contradicts the manuscript
+tree: The Painted Stones and The Lantern Door sit in the Tier-2
+illustration-gated kids track where their manuscripts put them, the §4
+"$4.99 reflowable ebook" Painted Stones block is withdrawn in favor of the
+packet's §7 kids-path queue, and the next cover-only candidates (The Weigh
+House, Ultramarine) are named on measured evidence while keeping their
+Tier-1b title-fix gates unchanged. Factual re-tier only; no publish,
+spend, account, or external action by the seat.
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 **Catalog-level keyword & category allocation map.** Vetting packets
+each draft "2 categories + 7 keywords" per title in isolation — with 14
+titles heading for the same storefront, several will inevitably converge
+on the same high-value phrases (e.g. `read aloud mystery for kids`,
+literary-fiction generics) and cannibalize each other's placement instead
+of covering adjacent shelves. One small living table
+(`docs/publishing/keyword-map.md`: keyword/category → title that owns it)
+consulted at packet-writing time would make each new packet CLAIM its
+phrases the way `control/claims/` claims work — cheap to maintain (one row
+per vetted title), and it turns 14 independent listings into a portfolio
+that deliberately tiles the search space. (Distinct from the taken ideas:
+not a drift checker at all — it's a shared allocation ledger for listing
+metadata.)
 
 ## ⟲ Previous-session review
 
-[[fill:previous-session-review]]
+⟲ previous-session review: `.sessions/2026-07-12-painted-stones-vetting.md`
+(PR #93) is the reason this slice existed and it did the hard part right —
+it read the manuscript instead of trusting the plan, measured word counts
+mechanically, and (good discipline) flagged the plan amendment for the
+coordinator rather than scope-creeping into `PUBLISHING-PLAN.md` from a
+vetting slice. One honest gap: having discovered that Tier-1 title #2 was
+misclassified BECAUSE its manuscript lives under
+`candidates/childrens-books/`, it stopped one directory short — the very
+next Tier-1 title (#3, The Lantern Door) sits in the SAME directory with
+the same picture-book frontmatter, and a single `ls` would have flagged
+both misclassifications in one packet instead of leaving #3 for this
+session to re-derive. Its own 💡 (plan-vs-manuscript drift checker) is
+precisely the generalization of that miss, so the lesson was learned in
+the same breath it was taught.
 
 ## Deliverable summary
 
-[[fill:deliverable-summary]]
+`docs/publishing/PUBLISHING-PLAN.md` amended (PR #94): §2 Tier-1 list
+rebuilt without the two kids titles + RE-TIER evidence block (Painted
+Stones 13 spreads / EN 565 words measured, packet @ `7fc4054`; Lantern
+Door 14 spreads / EN 624 words measured); both titles added to §2 Tier 2;
+§4 Painted Stones owner-action withdrawn → packet §7 supersedes; next
+cover-only candidates named as verified (The Weigh House 36,434 words;
+Ultramarine 27,865 words — both remain Tier 1b pending title fixes).
+Landing: READY `claude/`-headed PR #94, born-red card first commit
+(a17c0c7), plan edit 2dbfb99, claim released at flip.
