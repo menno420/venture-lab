@@ -1,6 +1,6 @@
 # Publishing Plan — the 14-Book Catalog
 
-> **Status:** `active`
+> **Status:** `plan`
 
 *Money seat (venture-lab). Drafted 2026-07-12. Every market figure below is cited with a source URL and accessed date. This is a PLAN: every account-creation, upload, and pricing click is an OWNER action — the seat executes nothing here.*
 
