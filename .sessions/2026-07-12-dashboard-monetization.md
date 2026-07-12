@@ -1,6 +1,6 @@
 # 2026-07-12 — Market State Dashboard: monetization posture (tiers, compliance copy rules, paid-euro gates, conservative revenue)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 ## 💡 Session idea
 Extend the existing `candidates/market-state-dashboard/` spec with a **MONETIZATION**
@@ -49,5 +49,46 @@ per repo convention).
 - candidates/market-state-dashboard/INTAKE.md — one-line link to MONETIZATION.md (edit)
 
 ## Outcome
-_(to be written at close-out — born-red until the monetization content is landed and
-`python3 bootstrap.py check --strict` is green.)_
+Added `candidates/market-state-dashboard/MONETIZATION.md` (NEW supplementary doc, per the
+per-candidate `.md`-alongside-INTAKE convention — no prior `MONETIZATION.md` existed) and
+linked it from `INTAKE.md`'s intro "Related docs" pointer. All four required pieces, written
+in ANALYTICS voice and explicitly non-contradicting §B PHASED HONESTY and the §G/§H
+anchor-rotation additions.
+
+**§B Tier design** — **FREE** = the owner-dogfood Phase 1 (limited watchlist, core market
+states, with the disclaimer + per-item methodology as free-tier *obligations*). **PREMIUM
+€5–15/mo, feature-gated NOT advice-gated** = larger/custom watchlists, advanced/custom
+indicators, email/push "ping" alerts (that state *what price did*, never *what to do*), and
+the **anchor-rotation tooling** (§G/§H machinery — configurable anchor, ex-ante trigger,
+descriptive-only ranking, always-attached rotation-cost hurdle). Advice-gating forbidden at
+any price. **Architecture note:** Phase 1 stays a $0 static site but keeps an **auth-ready
+seam** (compute/presentation split; premium emitted as a separately-gate-able bundle) — the
+seam *exists* but is deliberately **not wired**; no login/DB/billing in Phase 1.
+
+**§C Compliance posture = BINDING COPY RULES** — a pass/fail checklist every surface must
+pass: analytics voice only; full denominators + published methodology; never imperative
+buy/sell; per-item methodology links; standing "historical data, no guarantee of future
+results" disclaimer on every surface; backtest claims OUT-OF-SAMPLE + full denominator (house
+rule). **Rationale stated:** EU **MAR** can treat even generic instrument-specific "suggested
+strategies" as investment recommendations (disclosure duties); personalized advice is
+**MiFID**-licensed territory — the rules keep the product on the analytics side of BOTH lines.
+
+**§D Gates before the first paid euro** — three **six-field OWNER-ACTION rows**
+(WHAT/WHERE/HOW/WHY/UNBLOCKS/VERIFIED-WHEN, schema replicated from
+`docs/research/venture-ledger.md` § ⚑ needs-owner / INTAKE §E): **⚑M1** licensed COMMERCIAL
+data feed (~€25–100/mo — free yfinance/Stooq are personal-use-only; candidates **Polygon.io**
+/ **Tiingo**, key NAME only as an Actions secret); **⚑M2** one-off **NL** legal/compliance
+counsel check of the premium copy (small fixed cost); **⚑M3** the existing **2-week owner
+dogfood KILL CRITERION** stands as the go/no-go before any premium spend/build. None performed
+— documented, not requested.
+
+**§E Conservative revenue line** — **base case €0** without distribution, with the explicit
+unproven assumption chain (no audience → visits unproven → visit→checkout unproven →
+checkout→paid unproven). No figure projected; consistent with INTAKE's own "does not by itself
+make money" read. No overstatement.
+
+RAILS honoured: spec/posture only — no accounts, no spend, no trades, no recommendations;
+touched only `candidates/market-state-dashboard/` (MONETIZATION.md + INTAKE link) + this card;
+`control/` untouched; ledger untouched (spec-only candidate → INTAKE-standalone per convention).
+First commit = born-red card (`in-progress`); content committed next; this final commit flips
+the card `complete`. `python3 bootstrap.py check --strict` green.
