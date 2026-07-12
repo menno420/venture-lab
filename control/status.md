@@ -5,15 +5,41 @@
 
 ---
 
-updated: 2026-07-12T12:11:00Z
+updated: 2026-07-12T13:33:41Z
 status: green
 
-- **timestamp:** 2026-07-12T12:11:00Z (Money-seat heartbeat 2026-07-12 — first refresh AFTER the owner entered the launch. Every claim below re-verified against GitHub before writing (Q-0120). Prior write: Money-seat heartbeat v2 (PR #61, `b633db6`), HEAD-at-write `8d77a08`.)
+- **timestamp:** 2026-07-12T13:33:41Z (Manuscripts slice — TUMMEL + DORMOUSE full picture-book manuscripts shipped on branch `claude/tummel-dormouse-manuscripts`, born-red card flipped green, PR opened READY to self-land. This write follows a final `control/inbox.md` re-read at HEAD `1b9416b` — highest order still 007, no new orders. Prior write: Money-seat heartbeat 2026-07-12 (`a93f449`, HEAD-at-write `a93f449`).)
 - **seat:** **Money seat** — venture-lab + trading-strategy merged under ONE seat (owner decision 2026-07-11). This lane = **venture-lab** (sellable products, revenue-primary). **Trading-strategy is research-only** (no live trading / paper accounts / brokerage signup / real money, ever — the money mandate does not lift that rail); its science is **PARKED GREEN** (0/13 cleared the one-shot holdout; holdout SPENT). One PR = one repo; cross-repo reads via raw.
 - **phase:** **ACTIVE — LAUNCH IN PROGRESS, owner mid-Launch-Hour.** Not archived: a fresh Money-seat coordinator is live with re-armed wake mechanics (triggers below). The owner has begun the OWNER LAUNCH HOUR runbook (#57, now on main) — see the LAUNCH block. Between owner returns the lane idles per Q-0089 (no filler).
 - **health:** green — `python3 bootstrap.py check --strict`, exit 0 at flip (bare invocation can red by design mid-slice on a fresh born-red card).
 - **kit heartbeat:** kit: v1.12.1 · check: green (`--strict` exit 0 at flip) · engaged: yes — kit v1.12.1 landed on main via PR #56 (`296a1a9`); still current at this HEAD. (The trading lane sibling moved to v1.13.0 via its PR #72; venture-lab's own kit upgrade is not in this slice.)
 - **HEAD at write:** `a93f449` (origin/main, PR #65 Market State Dashboard anchor-rotation merged; verified `git ls-remote origin main` == `git rev-parse HEAD`).
+
+## MANUSCRIPTS SHIPPED 2026-07-12 — TUMMEL + DORMOUSE (owner creative pick)
+
+The owner's manuscript picks TUMMEL (concept #1) and DORMOUSE (adaptation B1) are
+now **complete full picture-book manuscripts**, on branch `claude/tummel-dormouse-manuscripts`
+(PR opened READY, self-lands on green via the enabler). Two-worker slice.
+
+- **Both books:** one self-contained ~12-spread story, read-aloud **ages 3–6**, in
+  **three languages each** — English master (voice source of truth) + native-quality,
+  re-authored (NOT literal) Dutch and German. NL prioritized as the owner's native
+  language. Each language file carries front matter (localized title / age band /
+  ACTUAL word count / one-line pitch); each book has a `DECISIONS.md` log.
+- **TUMMEL** — `candidates/childrens-books/tummel/` — "Tummel and the Squeak in the
+  Dark" (windmill-sprite cozy-wonder, Episode 1). Body words: **EN 536 / NL 545 / DE 522**.
+- **DORMOUSE** — `candidates/childrens-books/dormouse/` — "Pippa and the Tear in the
+  Night" (origin; Pippa dreams-awake, meets Heron, sews her first moonlight stitch).
+  Body words: **EN 634 / NL 619 / DE 607** (runs ~90–110 words longer than Tummel —
+  decide-and-flag: an origin must introduce Heron *and* teach the mending action;
+  still 12 spreads, still 3–6, still picture-book range). Kept strictly to **tot-register**:
+  no DREAMLINE canon terms invented or contradicted (canon at `candidates/dream-series/`
+  stayed READ-ONLY; the owner's open name picks in the series bible still apply cleanly).
+- **Born-red → green:** session card `.sessions/2026-07-12-tummel-dormouse-manuscripts.md`
+  opened FIRST with `Status: in-progress`, flipped to `complete` as the LAST content
+  change. `python3 bootstrap.py check --strict --session-log <card>` **green (exit 0)** at flip.
+- Owner-gated as ever: **no images generated, no accounts, no spend.** Illustration,
+  print, ISBN, listing, and English-first vs Dutch-first market lead all remain owner calls.
 
 ## OWNER ACTIONS COMPLETED 2026-07-12 — verified against GitHub
 
@@ -153,7 +179,7 @@ Verbatim classifier findings (carried):
 
 ## OWNER CREATIVE PICKS — open (list for the sweep)
 
-- **Manuscripts to develop** — shortlist: **Star Pirates / Comet Biscuit / Tummel / Dormouse**.
+- **Manuscripts to develop** — **Tummel + Dormouse DONE** (full EN/NL/DE manuscripts shipped this slice, branch `claude/tummel-dormouse-manuscripts`; see MANUSCRIPTS SHIPPED above). Remaining shortlist for a future slice: **Star Pirates / Comet Biscuit**.
 - **Language per title** (per manuscript picked).
 - **Star Pirates age band.**
 - **DREAMLINE name picks** — recommended: **Palimpsest / Vivid / Anchoring / Lull / Vigil**.
@@ -210,6 +236,6 @@ Questions the sim-lab should price before/alongside test-kit distribution:
 - **ACTIVE — LAUNCH IN PROGRESS.** The owner is mid-Launch-Hour on the flagship $29 test kit (⚑A key + ⚑E Gumroad listing are the two open legs). Between owner returns the lane idles per Q-0089 (no filler). The frontier is otherwise owner-gated on the ⚑ queue (market-state-dashboard Phase-1 go; publish clicks ⚑B/⚑D/⚑F + gotcha article + ⚑G Pages; photo samples; optional Supabase; decide-and-flag vetoes; stale-branch delete) and the owner creative-picks block.
 - **market-state-dashboard** awaits an owner Phase-1 go/no-go before any build.
 - **photo-packs awaits owner samples** (`candidates/photo-packs/samples/`, ≤2048px watermarked) before curation/gallery/listing.
-- **Manuscripts await owner picks** (shortlist + language + age band + DREAMLINE names + continue-past-ch3).
+- **Manuscripts:** Tummel + Dormouse now shipped as full EN/NL/DE picture-book manuscripts (PR from `claude/tummel-dormouse-manuscripts`, self-lands on green). Still open for owner: illustration/print/listing go, English-first vs Dutch-first lead, the remaining shortlist (Star Pirates / Comet Biscuit), DREAMLINE name picks, continue-past-ch3.
 - **#5 CC Cost Lens deferred** pending the test-kit validation signal — clock starts at gotcha-article publish.
 - **Wake mechanics** are live (Routine state above); a fresh session syncs HEAD, re-reads the inbox, and acts only on owner return or new orders. The self-landing path is PROVEN (PRs #59/#60/#61/#63/#65) — `claude/`-headed PRs auto-land on green via the enabler.

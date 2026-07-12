@@ -1,6 +1,6 @@
 # Session — Tummel + Dormouse full manuscripts (EN/NL/DE)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative writing
 - **session:** ships complete children's-book manuscripts for TWO titles — TUMMEL (windmill-sprite cozy-wonder) and DORMOUSE (Pippa dreams-awake) — each in three languages (English master, native-quality Dutch and German). Two-worker slice: Worker 1 = boot/recon/setup + Tummel; Worker 2 = Dormouse + landing (flip card, status, PR).
@@ -23,11 +23,13 @@ Turn two owner-picked concepts into complete, readable picture-book manuscripts.
 
 ## Work log
 
-- Born-red session card opened FIRST (this commit) on branch `claude/tummel-dormouse-manuscripts`.
-- (in progress) Tummel EN/NL/DE manuscripts + DECISIONS.md — Worker 1.
-- (pending) Dormouse EN/NL/DE manuscripts + DECISIONS.md — Worker 2.
-- (pending) `python3 bootstrap.py check --strict --session-log <this card>` GREEN before flip — Worker 2.
+- Born-red session card opened FIRST on branch `claude/tummel-dormouse-manuscripts`.
+- DONE — Tummel EN/NL/DE manuscripts + DECISIONS.md (Worker 1). EN 536 / NL 545 / DE 522 words, 12 spreads, ages 3–6.
+- DONE — Dormouse EN/NL/DE manuscripts + DECISIONS.md (Worker 2). EN 634 / NL 619 / DE 607 words, 12 spreads, ages 3–6; origin story "Pippa and the Tear in the Night", tot-register (no DREAMLINE canon terms invented/contradicted).
+- DONE — `python3 bootstrap.py check --strict --session-log <this card>` GREEN (exit 0) at flip — Worker 2.
+- DONE — `control/status.md` heartbeat/self-review written after a final inbox re-read at HEAD (Worker 2).
+- Card flipped `in-progress` → `complete` (Sun Jul 12 13:33:41 UTC 2026) as the deliberate LAST content change before the strict gate.
 
 ## Status / outcome
 
-In progress — born-red. Card flips to `complete` as the deliberate LAST step (Worker 2) once both books are landed, the strict session-log gate is green, and `control/status.md` carries the heartbeat/self-review. No owner spend, no accounts, no images generated; publish paths remain owner-gated.
+Complete. Both books landed on branch `claude/tummel-dormouse-manuscripts`: TUMMEL and DORMOUSE, each a complete 12-spread ~3–6 read-aloud picture book in EN/NL/DE with front matter (localized title / age band / actual word count / one-line pitch) plus a per-book DECISIONS.md. The strict session-log gate is green (exit 0), and `control/status.md` carries the heartbeat/self-review after a final inbox re-read at HEAD. No owner spend, no accounts, no images generated; every publish path (illustration, print, listing) remains owner-gated.
