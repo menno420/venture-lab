@@ -1,6 +1,6 @@
 # Session — *The Last Good Frequency* (YA novella)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative
 - **session:** write ONE original, complete contemporary YA coming-of-age novella (~26k words, English) as a sellable venture-lab product — book wave 2, YA lane
