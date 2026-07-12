@@ -1,4 +1,5 @@
 # venture-lab coordinator heartbeat
+updated: 2026-07-12T21:02:18Z
 As of 2026-07-12T21:02:18Z — coordinator session_01CXEh5TBKBNTDGgsDstfcjc, boot 2026-07-12.
 
 Routines: failsafe "Venture Lab failsafe wake" trig_01HCLdpcX9QNUz4Y33efgt57 (cron 45 1-23/2 * * *), verified live and bound to this coordinator. Pacemaker send_later chain alive (~15 min cadence). Predecessor money-seat failsafe trig_017o6azZTd9pzcaSthEncT5q deleted and verified absent (full-registry sweep 2026-07-12). SWTK checkpoints rebound to this coordinator: T+7 trig_01LfwTPMGzM1fqA9CTQLgHnD (fires 2026-07-19T16:37Z), T+14 trig_01Muk6nrt2BdxsPmDVY4arwA (fires 2026-07-26T16:37Z); old ids trig_01PJhGcoUJ7rYL51DKY2fjHo and trig_01VQs4pm9Uw1LDeXzn2J6Wve deleted and verified absent.
