@@ -1,6 +1,6 @@
 # Auto-merge enabler — guards & the self-landing path
 
-> **Status:** `verified-live` — the canonical landing path is ON in
+> **Status:** `reference` — the canonical landing path is **verified live** in
 > `menno420/venture-lab` and has self-landed a real PR. This doc explains what
 > the enabler does, the guards that make arming safe, which branches it arms,
 > and the fallback for when GitHub structurally refuses the arm.
