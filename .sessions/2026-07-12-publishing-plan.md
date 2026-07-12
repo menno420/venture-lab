@@ -1,6 +1,6 @@
 # 2026-07-12 — Publishing plan for the 14-book catalog
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 Turned the usable (market) half of the owner's external GPT deep-research review into a verified, cited publishing plan for the 14-book catalog. Craft feedback discarded as ungrounded (the review showed no evidence of reading the manuscripts); market claims verified/corrected against live sources; a 14-title discoverability scan; per-category price points; a priority order; the kids-book illustration decision framed as an owner money-action; a translation strategy; and conservative revenue framing (unknown-author base case ≈ $0).
 
