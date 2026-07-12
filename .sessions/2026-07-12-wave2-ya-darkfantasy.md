@@ -1,6 +1,6 @@
 # Session — Hollowtide — original YA dark-fantasy thriller novella (wave 2)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative writing
 - **session:** writes ONE original, complete YA dark-fantasy thriller novella (~20–30k words, English) for book wave 2 under the 2026-07-12 owner delegation. Fresh premise, no derivative material, deliberately distinct from the "Lull" dream-series. Lands under `candidates/ya-novels/hollowtide/` with manuscript, README, lite INTAKE, and DECISIONS; control/ untouched.
