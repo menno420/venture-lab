@@ -50,6 +50,10 @@
 
 (Merged work only, newest first.)
 
+- The Weigh House vetting packet — Tier-1b title-fix worked (keep title +
+  subtitle), parks at the §7 owner gate (PR #97, squash `e0f343a`).
+- Coordinator heartbeat status refresh — `control/status.md` re-stamped,
+  #89–#94 dispositions live-verified (PR #95, squash `526cca1`).
 - PUBLISHING-PLAN re-tier — The Painted Stones + The Lantern Door moved to
   the Tier-2 kids (illustration-gated) track on manuscript evidence; next
   cover-only candidates named (The Weigh House, Ultramarine) (PR #94,
