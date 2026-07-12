@@ -1,6 +1,6 @@
 # Session — The Weigh House (adult crime novella, EN)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative
 - **session:** wave-2 adult-novels — original crime thriller novella
@@ -16,3 +16,5 @@ Write one COMPLETE original adult crime-thriller novella (~30–36k words, Engli
 
 ## Work log
 - 2026-07-12T15:04Z — Branch `claude/wave2-adult-crime` opened; born-red card + lane scaffold committed (first commit). Manuscript drafting in progress.
+- 2026-07-12T15:31Z — All 16 chapters drafted and expanded to novella weight (~36,000 words) via parallel workers against a fixed story bible; assembled to en/the-weigh-house.md, seam/continuity-checked. README + DECISIONS written.
+- 2026-07-12T15:31Z — Card flipped to complete; `python3 bootstrap.py check --strict` green; branch pushed for READY PR.
