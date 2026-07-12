@@ -1,10 +1,11 @@
 # Session — The Slow Word: chapter-header numeral fix
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative polish
 - **session:** Normalize spelled-out chapter numerals (Five/Six → 5/6) in The Slow Word EN master for header consistency.
 - **started (date -u):** Sun Jul 12 15:37:30 UTC 2026  (born-red first commit)
+- **completed (date -u):** Sun Jul 12 15:37:30 UTC 2026
 
 ## ⟲ Previous-session review
 
@@ -22,7 +23,9 @@ Product polish: a sellable manuscript should have consistent chapter headers. Ch
 ## Work log
 
 - Born-red session card opened (first commit).
+- Normalized `en/05-ten-thousand-years.md` and `en/06-the-slow-ones.md` H1 from "Chapter Five/Six" to "Chapter 5/6"; verified the other ten chapters already use digits.
+- `python3 bootstrap.py check --strict --session-log .sessions/2026-07-12-wave2-scifi-header-fix.md` GREEN before push.
 
 ## Status / outcome
 
-Pending — session in progress.
+Complete. Chapter headers normalized to digits across all 12 chapters of The Slow Word. Card flipped complete as last change; PR opened READY (non-draft) from claude/wave2-scifi-header-fix to self-land on green. control/ untouched; no arm/merge by this lane.
