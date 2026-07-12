@@ -5,41 +5,43 @@
 
 ---
 
-updated: 2026-07-12T13:33:41Z
+updated: 2026-07-12T14:01Z
 status: green
 
-- **timestamp:** 2026-07-12T13:33:41Z (Manuscripts slice — TUMMEL + DORMOUSE full picture-book manuscripts shipped on branch `claude/tummel-dormouse-manuscripts`, born-red card flipped green, PR opened READY to self-land. This write follows a final `control/inbox.md` re-read at HEAD `1b9416b` — highest order still 007, no new orders. Prior write: Money-seat heartbeat 2026-07-12 (`a93f449`, HEAD-at-write `a93f449`).)
+- **timestamp:** 2026-07-12T14:01Z (Money-seat heartbeat **2026-07-12b** — ledger refresh folding the owner-delegated creative wave that self-landed since the 12:15Z heartbeat (#66): #67 Tummel+Dormouse, #68 Lull (DREAMLINE) Part-1, #69 Comet Biscuit trilogy, #71 dashboard MONETIZATION.md, #72 Star Pirates Book 1 — every claim verified merged against GitHub before writing. Branch `claude/heartbeat-2026-07-12b`, born-red card flipped green, PR opened READY to self-land. This write follows a final `control/inbox.md` re-read at HEAD `574408a` — highest order still 007, no order newer than 007. Prior write: Manuscripts slice / Money-seat heartbeat 2026-07-12 (#66, HEAD-at-write `a93f449`).)
 - **seat:** **Money seat** — venture-lab + trading-strategy merged under ONE seat (owner decision 2026-07-11). This lane = **venture-lab** (sellable products, revenue-primary). **Trading-strategy is research-only** (no live trading / paper accounts / brokerage signup / real money, ever — the money mandate does not lift that rail); its science is **PARKED GREEN** (0/13 cleared the one-shot holdout; holdout SPENT). One PR = one repo; cross-repo reads via raw.
 - **phase:** **ACTIVE — LAUNCH IN PROGRESS, owner mid-Launch-Hour.** Not archived: a fresh Money-seat coordinator is live with re-armed wake mechanics (triggers below). The owner has begun the OWNER LAUNCH HOUR runbook (#57, now on main) — see the LAUNCH block. Between owner returns the lane idles per Q-0089 (no filler).
 - **health:** green — `python3 bootstrap.py check --strict`, exit 0 at flip (bare invocation can red by design mid-slice on a fresh born-red card).
-- **kit heartbeat:** kit: v1.12.1 · check: green (`--strict` exit 0 at flip) · engaged: yes — kit v1.12.1 landed on main via PR #56 (`296a1a9`); still current at this HEAD. (The trading lane sibling moved to v1.13.0 via its PR #72; venture-lab's own kit upgrade is not in this slice.)
-- **HEAD at write:** `a93f449` (origin/main, PR #65 Market State Dashboard anchor-rotation merged; verified `git ls-remote origin main` == `git rev-parse HEAD`).
+- **kit heartbeat:** kit: **v1.14.0** · check: green (`--strict` exit 0 at flip) · engaged: yes — venture-lab's kit advanced v1.12.1 → v1.13.0 (PR #64 `2bad7c1`) → **v1.14.0** (PR #70 `1afc70b`, self-landed today); `substrate.config.json` reports `kit_version 1.14.0` at this HEAD.
+- **HEAD at write:** `574408a` (origin/main, PR #72 Star Pirates Book 1 merged; verified `git ls-remote origin main` == `git rev-parse HEAD` == `574408a`).
 
-## MANUSCRIPTS SHIPPED 2026-07-12 — TUMMEL + DORMOUSE (owner creative pick)
+## Landed since the 12:15Z heartbeat (#66) — owner-delegated creative wave (all self-landed, verified against GitHub)
 
-The owner's manuscript picks TUMMEL (concept #1) and DORMOUSE (adaptation B1) are
-now **complete full picture-book manuscripts**, on branch `claude/tummel-dormouse-manuscripts`
-(PR opened READY, self-lands on green via the enabler). Two-worker slice.
+Between the prior heartbeat (#66) and this one, a large owner-delegated creative wave
+self-landed via the enabler — each PR merged by `github-actions[bot]` into `main`; every
+merge time below was verified via `get_pull_request` (merged=true) **before** any ledger
+line was written:
 
-- **Both books:** one self-contained ~12-spread story, read-aloud **ages 3–6**, in
-  **three languages each** — English master (voice source of truth) + native-quality,
-  re-authored (NOT literal) Dutch and German. NL prioritized as the owner's native
-  language. Each language file carries front matter (localized title / age band /
-  ACTUAL word count / one-line pitch); each book has a `DECISIONS.md` log.
-- **TUMMEL** — `candidates/childrens-books/tummel/` — "Tummel and the Squeak in the
-  Dark" (windmill-sprite cozy-wonder, Episode 1). Body words: **EN 536 / NL 545 / DE 522**.
-- **DORMOUSE** — `candidates/childrens-books/dormouse/` — "Pippa and the Tear in the
-  Night" (origin; Pippa dreams-awake, meets Heron, sews her first moonlight stitch).
-  Body words: **EN 634 / NL 619 / DE 607** (runs ~90–110 words longer than Tummel —
-  decide-and-flag: an origin must introduce Heron *and* teach the mending action;
-  still 12 spreads, still 3–6, still picture-book range). Kept strictly to **tot-register**:
-  no DREAMLINE canon terms invented or contradicted (canon at `candidates/dream-series/`
-  stayed READ-ONLY; the owner's open name picks in the series bible still apply cleanly).
-- **Born-red → green:** session card `.sessions/2026-07-12-tummel-dormouse-manuscripts.md`
-  opened FIRST with `Status: in-progress`, flipped to `complete` as the LAST content
-  change. `python3 bootstrap.py check --strict --session-log <card>` **green (exit 0)** at flip.
-- Owner-gated as ever: **no images generated, no accounts, no spend.** Illustration,
-  print, ISBN, listing, and English-first vs Dutch-first market lead all remain owner calls.
+- **#67 `6d5d45d`** — TUMMEL + DORMOUSE full picture-book manuscripts EN/NL/DE
+  (`candidates/childrens-books/{tummel,dormouse}/`, ~12 spreads each, ages 3–6);
+  self-landed **2026-07-12T13:37:18Z**.
+- **#68 `0dfd769`** — Lull (DREAMLINE) Book-1 Part-1 arc **ch4–12** + series **named "Lull"**
+  (decision **D-001** in `candidates/dream-series/DECISIONS.md`, owner-vetoable) + a Part-2
+  direction note; self-landed **2026-07-12T13:38:24Z**.
+- **#69 `85cb827`** — Comet Biscuit **trilogy** — nine manuscripts EN/NL/DE
+  (`candidates/childrens-books/comet-biscuit/`, ages 3–6); self-landed **2026-07-12T13:45:04Z**.
+- **#71 `e992e53`** — Market State Dashboard **`MONETIZATION.md`** (tiers, analytics-voice
+  BINDING copy rules, paid-euro gates **⚑M1–M3**, €0 base-case revenue line — spec/posture
+  only, no spend); self-landed **2026-07-12T13:48:23Z**.
+- **#72 `574408a`** — Star Pirates **complete Book 1** EN/NL/DE (10 chapters, ~11–12k words
+  each edition; `candidates/childrens-books/star-pirates/`); self-landed **2026-07-12T13:54:13Z**.
+
+Also self-landed in the same window (not a creative row): **#70 `1afc70b`** — kit upgrade
+substrate-kit v1.13.0 → **v1.14.0** (reflected in the kit heartbeat above).
+
+Owner-gated as ever across the whole wave: **no images generated, no accounts, no spend.**
+Illustration, print/ISBN, listing, and market-lead order all remain owner calls (see the
+resolved OWNER CREATIVE PICKS block + the new "books read-through → winners pick" ⚑ gate).
 
 ## OWNER ACTIONS COMPLETED 2026-07-12 — verified against GitHub
 
@@ -118,6 +120,7 @@ Metered agent-effort tokens vs intake caps, all coordinator-metered:
 - **Agent Fleet Field Manual: ~200k vs 90k cap (~2.2×)** — self-labelled a kinder "estimate"; the metered figure is worse.
 - **photo-packs: ~93.8k vs 80k cap (~1.2×)** — a miss even at modest scope.
 - **Only Bababoefoe came in under cap: ~100k vs 150k.**
+- **Creative wave 2026-07-12 (build-session-flagged, not coordinator-metered):** **Star Pirates build ~300k metered vs ~150k advisory cap (~2×)** — flagged by the build session; three full-length trilingual books (EN/NL/DE, ~11–12k words each, #72). The other creative builds landed in range: **Lull ~110k vs 150k** (#68); Tummel+Dormouse / Comet Biscuit within their picture-book caps. Star Pirates is the one over-cap outlier of the wave — headlined per the kill rule, not buried.
 
 **Pattern:** caps were unrealistic for research/CI overhead, not just builds greedy. **Rule:** intake caps must include research + CI overhead explicitly, and builds report **metered** (not self-estimated) usage. A cap silently exceeded 3-of-4 is not a cap. Artifacts shipped and were verified where claimed; the budget lines are the misses, headlined not buried.
 
@@ -125,9 +128,9 @@ Metered agent-effort tokens vs intake caps, all coordinator-metered:
 
 Self-review (ORDER 006): moved to docs/retro/2026-07-11-coordinator-retro.md.
 
-## Ledger — verified against git log through HEAD a93f449
+## Ledger — verified against git log through HEAD 574408a
 
-Ledger verified against `git log`: **#65 `a93f449`** Market State Dashboard anchor-rotation + rotation-cost math + Intel context (self-landed 2026-07-12T12:06:08Z by github-actions[bot]) · **#64 `2bad7c1`** kit v1.12.1→v1.13.0 (distribution wave B, self-landed 2026-07-12T~11:55Z) · **#63 `1db7427`** Market State Dashboard intake/spec (self-landed 2026-07-12T11:25:33Z) · **#57 `4c2e623`** OWNER LAUNCH HOUR packet (owner-merged 2026-07-12T09:40:17Z) · **#62 `f92a2ef`** ORDER 007 relocation · **#61 `b633db6`** Money-seat heartbeat v2 · **#60 `8d77a08`** auto-merge guards doc + `claude/` convention · **#59 `305646f`** auto-merge enabler installed + landing PROVEN live · **#56 `296a1a9`** kit v1.12.1 upgrade — atop the earlier #44–#54 creative + research wave. Orders 001–006 all done/acked; ORDER 007 acked + being executed each wake (see Orders). Full per-PR SHA ledger: docs/retro/2026-07-11-coordinator-retro.md.
+Ledger verified against `git log origin/main` (SHAs = main squash commits): **#72 `574408a`** Star Pirates complete Book 1 EN/NL/DE (self-landed 2026-07-12T13:54:13Z by github-actions[bot]) · **#71 `e992e53`** dashboard MONETIZATION.md — tiers + analytics-voice copy rules + ⚑M1–M3 (13:48:23Z) · **#70 `1afc70b`** kit v1.13.0→v1.14.0 (self-landed today, same wave) · **#69 `85cb827`** Comet Biscuit trilogy 9 manuscripts EN/NL/DE (13:45:04Z) · **#68 `0dfd769`** Lull (DREAMLINE) Book-1 Part-1 ch4–12 + name D-001 (13:38:24Z) · **#67 `6d5d45d`** Tummel + Dormouse picture books EN/NL/DE (13:37:18Z) · **#66 `482131d`** Money-seat heartbeat 2026-07-12 launch-in-progress + owner actions #51/#57 done (prior heartbeat) · **#65 `a93f449`** Market State Dashboard anchor-rotation + rotation-cost math + Intel context (self-landed 2026-07-12T12:06:08Z by github-actions[bot]) · **#64 `2bad7c1`** kit v1.12.1→v1.13.0 (distribution wave B, self-landed 2026-07-12T~11:55Z) · **#63 `1db7427`** Market State Dashboard intake/spec (self-landed 2026-07-12T11:25:33Z) · **#57 `4c2e623`** OWNER LAUNCH HOUR packet (owner-merged 2026-07-12T09:40:17Z) · **#62 `f92a2ef`** ORDER 007 relocation · **#61 `b633db6`** Money-seat heartbeat v2 · **#60 `8d77a08`** auto-merge guards doc + `claude/` convention · **#59 `305646f`** auto-merge enabler installed + landing PROVEN live · **#56 `296a1a9`** kit v1.12.1 upgrade — atop the earlier #44–#54 creative + research wave. Orders 001–006 all done/acked; ORDER 007 acked + being executed each wake (see Orders). Full per-PR SHA ledger: docs/retro/2026-07-11-coordinator-retro.md.
 
 ## Non-author verification record (R23 — satisfied for ⚑E)
 
@@ -177,17 +180,37 @@ Verbatim classifier findings (carried):
 
 **Creative wave (owner-engaged, outside the venture-eval ranking):** DREAMLINE dream-series (#44) · children's-book portfolio 6 originals + 4 adaptations + Star Pirates (#45/#47) · Bababoefoe plushy brand (#46) · photo-packs 2.35 (#48, awaits owner samples).
 
-## OWNER CREATIVE PICKS — open (list for the sweep)
+## OWNER CREATIVE PICKS — RESOLVED (owner delegated all decisions 2026-07-12)
 
-- **Manuscripts to develop** — **Tummel + Dormouse DONE** (full EN/NL/DE manuscripts shipped this slice, branch `claude/tummel-dormouse-manuscripts`; see MANUSCRIPTS SHIPPED above). Remaining shortlist for a future slice: **Star Pirates / Comet Biscuit**.
-- **Language per title** (per manuscript picked).
-- **Star Pirates age band.**
-- **DREAMLINE name picks** — recommended: **Palimpsest / Vivid / Anchoring / Lull / Vigil**.
-- **Continue DREAMLINE past ch3?**
+The owner delegated every open creative call on 2026-07-12 — **"EN+DE+NL, any order,
+decide for me."** The lane executed decide-and-flag; each per-book creative call is logged
+in that book's **`DECISIONS.md`** (owner-vetoable), and the series name is settled:
+
+- **Manuscripts to develop — ALL DONE.** Tummel + Dormouse (#67), Comet Biscuit trilogy
+  (#69), Star Pirates Book 1 (#72) are shipped as finished EN/NL/DE manuscripts; Lull
+  (DREAMLINE) advanced to a self-contained Book-1 Part-1 arc (#68). NL prioritized as the
+  owner's native language; all three languages delivered per the delegation.
+- **Language per title / order — RESOLVED:** EN master + native-quality NL + DE for every
+  book, any order (per the delegation); logged per book in `DECISIONS.md`.
+- **Star Pirates age band — RESOLVED:** 7–9 chapter book (logged in its `DECISIONS.md`).
+- **DREAMLINE name pick — RESOLVED:** series named **"Lull"** — decision **D-001** in
+  `candidates/dream-series/DECISIONS.md`, **owner-vetoable retroactively** (DREAMLINE kept as
+  the project codename). Continue-past-ch3 — RESOLVED (#68 carried it to ch12 + a Part-2 note).
+
+**New owner gate (replaces this block):** read the shipped books → **pick the winner(s)** →
+decide the illustration / print / publishing path. Surfaced as a ⚑ row below.
 
 ## ⚑ needs-owner
 
 - **⚑ LAUNCH — finish the OWNER LAUNCH HOUR sequence (in progress)** · WHAT: complete the two open legs — (A) paste the **`SWTK_WEBHOOK_SECRET`** value into the "Fleetwork Labs" Stripe webhook env panel (env NAME only in repo), and (E) publish the **Gumroad $29 listing** for the Stripe Webhook Test Kit. · WHY: closes the kit's live E2E leg (A) and starts the T+14 validation/kill clock (E, T=listing-live). Runbook: `docs/launch/OWNER-LAUNCH-HOUR.md`. · VERIFIED-WHEN: webhook endpoint live + Gumroad listing URL returns HTTP 200 on a purchasable $29 page.
+
+- **⚑ NEW — books read-through → pick winner(s) → choose the illustration/publishing path** · WHAT: read the shipped finished manuscripts — Tummel + Dormouse (#67), Comet Biscuit trilogy (#69), Star Pirates Book 1 (#72), and the Lull (DREAMLINE) Part-1 arc (#68) — and pick which one(s) to carry forward, then decide the next path (illustration, print/ISBN, listing). · WHERE: `candidates/childrens-books/{tummel,dormouse,comet-biscuit,star-pirates}/` + `candidates/dream-series/`; each carries a `DECISIONS.md` (owner-vetoable). · HOW: read the EN masters (NL/DE are native re-tellings), mark winner(s), and record the illustration/publishing decision. · WHY: the creative wave is finished and owner-gated — no images, accounts, or spend happen until the owner picks winners and a path. · UNBLOCKS: illustration + any publish/print/listing work. · VERIFIED-WHEN: owner records the winner pick(s) + the chosen illustration/publishing path.
+
+- **⚑M1 — License a COMMERCIAL market-data feed (the free feeds are personal-use only)** · WHAT: replace yfinance/Stooq (personal-use only) with a commercially-licensed feed (~€25–100/mo) whose terms permit a paid/redistributed product, for the market-state-dashboard. · WHERE: a commercial-tier market-data API — **Polygon.io** or **Tiingo** (`candidates/market-state-dashboard/MONETIZATION.md` §D/⚑M1); key NAME as an owner-managed Actions secret (never a value in repo). · WHY: charging subscribers off a personal-use feed is a ToS/licensing breach — a paid product must sit on a commercial feed. · UNBLOCKS: a legally-sellable data layer (precondition for any premium tier). · VERIFIED-WHEN: commercial plan active + licence permits a paid product + board renders off the licensed feed. **Downstream of ⚑M3 + the Phase-1 go/no-go — not requested yet.**
+
+- **⚑M2 — One-off NL legal/compliance counsel check of the premium copy** · WHAT: a single fixed-cost review by qualified **Netherlands** legal/compliance counsel of the premium site + marketing copy against the §C copy rules and the MAR/MiFID lines. · WHERE: a Dutch financial-promotions / MAR-MiFID firm, engaged by the owner; copy under review = `candidates/market-state-dashboard/MONETIZATION.md` §C + the drafted premium/landing/alert text (`MONETIZATION.md` §D/⚑M2). · WHY: §C is a house posture, not a legal opinion; a professional confirmation before charging money on line-walking copy is cheap insurance. · UNBLOCKS: confidence to publish paid copy (the compliance sign-off gate). · VERIFIED-WHEN: written NL counsel sign-off on record + every required edit landed. **Downstream of ⚑M3 + the Phase-1 go/no-go — not requested yet.**
+
+- **⚑M3 — Existing KILL CRITERION stands: 2-week owner dogfood before any premium build** · WHAT: the owner uses the Phase-1 board for **2 weeks** before any premium build begins or any ⚑M1/⚑M2 spend is authorized. · WHERE: the live Phase-1 dashboard (owner's dogfood instance); disuse check per INTAKE §E / `MONETIZATION.md` §D/⚑M3. · HOW: sustained real use → proceed to authorize ⚑M1/⚑M2; board unread for 2 weeks → park the candidate and spend nothing. · WHY: a screener the owner himself won't open is worth nothing to strangers — self-use is the cheapest validation before paying for a feed + legal review. · UNBLOCKS: permission to spend on ⚑M1/⚑M2 and start the premium build. · VERIFIED-WHEN: 2 weeks of sustained owner use on record. **Gated behind the Phase-1 build existing at all (the go/no-go above).**
 
 - **⚑ NEW — market-state-dashboard Phase 1 build go/no-go** · WHAT: approve (or decline) building the Phase-1 descriptive screener spec'd in `candidates/market-state-dashboard/INTAKE.md` (anchor-rotation primary use case; $0-hosted static; descriptive-only, no signals). · WHY: it's a spec-only intake today; nothing is built until the owner says go. Build cap ≈ 120k tokens incl. CI. · VERIFIED-WHEN: owner records go/no-go.
 
@@ -233,9 +256,9 @@ Questions the sim-lab should price before/alongside test-kit distribution:
 
 ## Next
 
-- **ACTIVE — LAUNCH IN PROGRESS.** The owner is mid-Launch-Hour on the flagship $29 test kit (⚑A key + ⚑E Gumroad listing are the two open legs). Between owner returns the lane idles per Q-0089 (no filler). The frontier is otherwise owner-gated on the ⚑ queue (market-state-dashboard Phase-1 go; publish clicks ⚑B/⚑D/⚑F + gotcha article + ⚑G Pages; photo samples; optional Supabase; decide-and-flag vetoes; stale-branch delete) and the owner creative-picks block.
+- **ACTIVE — LAUNCH IN PROGRESS.** The owner is mid-Launch-Hour on the flagship $29 test kit (⚑A key + ⚑E Gumroad listing are the two open legs). Between owner returns the lane idles per Q-0089 (no filler). The frontier is otherwise owner-gated on the ⚑ queue (books read-through → winners pick → illustration/publishing path; market-state-dashboard Phase-1 go + its downstream ⚑M1–M3; publish clicks ⚑B/⚑D/⚑F + gotcha article + ⚑G Pages; photo samples; optional Supabase; decide-and-flag vetoes; stale-branch delete). The OWNER CREATIVE PICKS block is now RESOLVED (owner delegated all calls 2026-07-12).
 - **market-state-dashboard** awaits an owner Phase-1 go/no-go before any build.
 - **photo-packs awaits owner samples** (`candidates/photo-packs/samples/`, ≤2048px watermarked) before curation/gallery/listing.
-- **Manuscripts:** Tummel + Dormouse now shipped as full EN/NL/DE picture-book manuscripts (PR from `claude/tummel-dormouse-manuscripts`, self-lands on green). Still open for owner: illustration/print/listing go, English-first vs Dutch-first lead, the remaining shortlist (Star Pirates / Comet Biscuit), DREAMLINE name picks, continue-past-ch3.
+- **Manuscripts — creative wave DONE + owner-delegated calls RESOLVED.** Tummel + Dormouse (#67), Comet Biscuit trilogy (#69), and Star Pirates Book 1 (#72) are shipped as finished EN/NL/DE manuscripts; Lull (DREAMLINE) advanced to a Book-1 Part-1 arc + named "Lull" (#68, D-001 vetoable). The only open owner action is the new ⚑ gate: **read the books → pick winner(s) → choose the illustration/print/listing path.**
 - **#5 CC Cost Lens deferred** pending the test-kit validation signal — clock starts at gotcha-article publish.
-- **Wake mechanics** are live (Routine state above); a fresh session syncs HEAD, re-reads the inbox, and acts only on owner return or new orders. The self-landing path is PROVEN (PRs #59/#60/#61/#63/#65) — `claude/`-headed PRs auto-land on green via the enabler.
+- **Wake mechanics** are live (Routine state above); a fresh session syncs HEAD, re-reads the inbox, and acts only on owner return or new orders. The self-landing path is PROVEN — PRs #59/#60/#61/#63/#65 and now the whole 2026-07-12 creative wave (#67/#68/#69/#70/#71/#72) all self-landed via the enabler; `claude/`-headed PRs auto-land on green.
