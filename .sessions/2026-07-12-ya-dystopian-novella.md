@@ -1,6 +1,6 @@
 # Session — YA dystopian novella (THE UNDERTOW)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · revenue-lane creative build
 - **session:** ships candidates/ya-novels/the-undertow/ — a complete ~26k-word original YA dystopian sci-fi novella (English), establishing the candidates/ya-novels/ category (mirrors the childrens-books convention).
@@ -23,8 +23,16 @@ Owner delegation (2026-07-12, book wave 2): write ONE original YA dystopian sci-
 ## Work log
 
 - Born-red session card opened (first commit).
-- (updated by the finalize step)
+- Recon: hard-synced main (HEAD d7896f0 == remote), read control/inbox.md (tops at ORDER 007, none newer), captured the childrens-books convention + born-red card format.
+- Story bible locked (premise, canon, cast, 15-chapter + epigraph/epilogue beat sheet); decisions recorded in candidates/ya-novels/the-undertow/DECISIONS.md.
+- Drafted the full novella across five parallel act-writers from the shared bible: epigraph + 15 chapters + epilogue (~27,781 words).
+- Continuity/polish pass reconciled canon, tier system, timeline, the scrip-count scale (fixed an inverted Shallow-2/Undertow contradiction), Tess's name, and normalized American spelling across all 17 files.
+- Packaged: new candidates/ya-novels/ category (README + INTAKE-lite) and the-undertow/ (README + DECISIONS + en/ README + EXPANSION.md).
+- `python3 bootstrap.py check --strict --session-log .sessions/2026-07-12-ya-dystopian-novella.md` GREEN before push; card flipped complete as the last step.
 
 ## Status / outcome
 
-- (updated by the finalize step)
+Complete. `bootstrap.py check --strict --session-log <this card>` PASS; card flipped complete as the last step. READY (non-draft) PR opened from `claude/wave2-ya-dystopian` into main; nothing merge-related touched (self-lands via the enabler). control/ untouched.
+Deliverable: candidates/ya-novels/the-undertow/ — a complete ~27,781-word original YA dystopian sci-fi novella (English) the owner can read and judge, plus DECISIONS.md and a one-page EXPANSION note. NL/DE localization is an owner-approval follow-up (out of scope).
+Honest budget: ~0.45M tokens metered (recon + five parallel act-writers + a full-manuscript continuity pass + packaging + CI). This exceeds the ~150k advisory cap because a complete ~28k-word novella with a thorough continuity pass is inherently large (comparable to the three-language Star Pirates build) — reported honestly, not padded.
+Still a creative manuscript, not a shippable product: cover art and every publish/print/listing path remain owner-gated OWNER-ACTIONs; no images generated; no revenue claimed.
