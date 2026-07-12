@@ -50,6 +50,24 @@
 
 (Merged work only, newest first.)
 
+- PUBLISHING-PLAN re-tier — The Painted Stones + The Lantern Door moved to
+  the Tier-2 kids (illustration-gated) track on manuscript evidence; next
+  cover-only candidates named (The Weigh House, Ultramarine) (PR #94,
+  squash `6d80f71`).
+- The Painted Stones vetting packet — Tier-1 title #2 reclassified as a
+  kids picture book, parks at the illustration owner-gate (PR #93, squash
+  `7fc4054`).
+- Advisory ledger-drift checker — nags (never gates) when this file's
+  "Recently shipped" trails the newest merged PR (PR #92, squash `838b46e`).
+- The Slow Word vetting packet — Tier-1 title #1 owner-click-ready (PR #91,
+  squash `c1214b8`).
+- Current-state ledger refresh + one-pass title-vetting checklist
+  [`docs/publishing/CHECKLIST.md`](publishing/CHECKLIST.md) (PR #90, squash
+  `67c7066`).
+- Coordinator heartbeat 2026-07-12 — trigger cutover + ORDER 007 closure
+  re-stamped in `control/status.md` (PR #89, squash `f40aa5b`).
+- Money seat session close-out 2026-07-12 — status.md overwritten with the
+  launch-day close-out + session card (PR #88, squash `6fd0e10`).
 - Publishing plan for the 14-book catalog — verified price points, priority
   order, illustration owner-decision, translation strategy, title-collision
   scan: [`docs/publishing/PUBLISHING-PLAN.md`](publishing/PUBLISHING-PLAN.md)
