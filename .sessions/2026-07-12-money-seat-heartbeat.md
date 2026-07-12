@@ -1,6 +1,6 @@
 # Session — Money-seat heartbeat 2026-07-12
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · money-seat-heartbeat
 - **session:** refresh `control/status.md` to current `main` HEAD (`a93f449`, PR
@@ -65,5 +65,17 @@ touch `control/inbox.md`, PRs #51/#57, launch docs, or `candidates/`.
 
 ## Status / outcome
 
-(pending flip — completed on the deliberate last commit after `check --strict`
-is green)
+Complete. `control/status.md` refreshed wholesale to current HEAD `a93f449`:
+owner actions #51 (closed+branch deleted → photo-exposure RESOLVED) and #57
+(merged → runbook on main) folded in; a new **LAUNCH IN PROGRESS** block records
+the owner mid-Launch-Hour (Stripe sandbox "Fleetwork Labs", webhook being
+configured, awaiting `SWTK_WEBHOOK_SECRET` + the Gumroad $29 listing that starts
+the T+14 clock); landings #59/#60/#61/#63/#65 ledgered; new market-state-dashboard
+candidate + its Phase-1 go/no-go ⚑ added; ⚑ queue pruned (#51 + #38 → Resolved),
+stale-branch `money-seat-heartbeat` delete row added; routine state re-verified;
+cross-lane trading note (#68–#71 + #72). Every claim verified against GitHub
+before writing. Born-red card first, flipped complete as the deliberate last
+commit; `python3 bootstrap.py check --strict` green (exit 0) at flip. `control/inbox.md`
+untouched. No secret values — env var NAME `SWTK_WEBHOOK_SECRET` only. Landed via
+a READY `claude/`-headed PR — self-lands on green via the enabler (the lane never
+arms/merges its own PR).
