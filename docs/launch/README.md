@@ -17,6 +17,7 @@ Zero-owner-click launch material for the two sellable candidates. Everything her
 - [README buy-section snippet](template-packs/readme-buy-snippet.md)
 
 ## Stripe Webhook Test Kit — $29
+- [**OWNER LAUNCH HOUR** — atomic ~1h runbook (⚑A + ⚑E + first-sale verification)](OWNER-LAUNCH-HOUR.md)
 - [One-pager](stripe-webhook-test-kit/one-pager.md)
 - [Listing copy](stripe-webhook-test-kit/LISTING.md)
 - [Publish owner-action (NOT-QUEUED)](stripe-webhook-test-kit/publish-owner-action.md)

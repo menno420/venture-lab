@@ -5,10 +5,10 @@
 
 ---
 
-updated: 2026-07-12T00:26:56Z
+updated: 2026-07-12T00:36:27Z
 status: green
 
-- **timestamp:** 2026-07-12T00:26:56Z (Money-seat heartbeat v2 — refresh the #58 draft to current HEAD after the auto-merge-enabler landings; prior write 2026-07-11T23:18:41Z was PR #58's draft at `f2fac7d`, which predates PRs #59/#60). This heartbeat rides the now-PROVEN self-landing path on a `claude/`-prefixed branch.
+- **timestamp:** 2026-07-12T00:36:27Z (PR #57 OWNER LAUNCH HOUR slice, rebased onto the Money-seat heartbeat v2 base — the v2 heartbeat content below is authoritative and unchanged; this write only layers the OWNER LAUNCH HOUR packet section onto it. Base heartbeat: Money-seat v2, refreshed the #58 draft to HEAD after the auto-merge-enabler landings; prior write 2026-07-11T23:18:41Z was PR #58's draft at `f2fac7d`, which predates PRs #59/#60).
 - **seat:** **Money seat** — venture-lab + trading-strategy merged under ONE seat (owner decision 2026-07-11). This lane = **venture-lab** (sellable products, revenue-primary). **Trading-strategy is research-only** (no live trading / paper accounts / brokerage signup / real money, ever — the money mandate does not lift that rail); its science is **PARKED GREEN** (0/13 cleared the one-shot holdout; holdout SPENT). One PR = one repo; cross-repo reads via raw.
 - **phase:** **ACTIVE — Money seat, frontier owner-gated.** Not archived: a fresh Money-seat coordinator is live with re-armed wake mechanics (triggers below). The frontier stays **owner-gated** on **publish clicks** (⚑ queue) and **creative picks** (owner-picks block). Between owner returns the lane idles per Q-0089 (no filler).
 - **health:** green — `python3 bootstrap.py check --strict --session-log .sessions/2026-07-12-money-seat-heartbeat-v2.md`, exit 0 at flip (bare invocation can red by design mid-slice on a fresh born-red card).
@@ -46,6 +46,16 @@ closed** — its status draft is carried forward and updated here to current HEA
 ## PR #57 — OWNER LAUNCH HOUR packet (READY, green, PARKED — owner-merge only)
 
 PR #57 ("OWNER LAUNCH HOUR packet — Stripe keys + $29 kit publish + first-sale verification") is **OPEN, READY (not draft), all 3 required checks GREEN** on head `ed6bbd6` (`stripe-webhook-test-kit-tests`, `membership-kit-tests`, `substrate-gate` all success; the legacy combined-status endpoint reads pending only because there are no old-style commit statuses — the actual Checks are green). It adds **`docs/launch/OWNER-LAUNCH-HOUR.md`** — the atomic launch-hour packet (keys → publish → first-sale verification). The PR body carries an explicit **PARK / do-not-merge** owner directive → **owner-merge only**; the lane does NOT arm or merge it (self-authored + park directive). **PR #57 also carries its own `control/status.md` edit, which will be rebased onto this heartbeat** once one of the two lands. This heartbeat did NOT touch PR #57.
+
+## OWNER LAUNCH HOUR (2026-07-11) — ⚑A + ⚑E consolidated into one runbook
+
+New this slice: **`docs/launch/OWNER-LAUNCH-HOUR.md`** — an atomic ~1-hour owner runbook that consolidates **⚑A** (add Stripe keys), **⚑E** (publish the $29 kit), and **first-sale verification** into a single ordered six-field sequence. It **links** the ⚑E click-script (`docs/launch/stripe-webhook-test-kit/publish-owner-action.md`) rather than duplicating it, and it points ⚑A+⚑E at the packet — the ⚑ rows below (v2 heartbeat) are unchanged and not duplicated.
+
+- **PR:** [#57](https://github.com/menno420/venture-lab/pull/57) — open **READY, park-only** (NOT merged, auto-merge NOT armed; merge is an owner action).
+- **Fresh CI (current head `e821a8c`):** [`kit-tests` run 29170727273](https://github.com/menno420/venture-lab/actions/runs/29170727273) — **success** (both `stripe-webhook-test-kit-tests` and `membership-kit-tests` green) — and required [`substrate-gate` run 29170727282](https://github.com/menno420/venture-lab/actions/runs/29170727282) — **success**. This doc-only commit re-runs the identical suite. (Earlier: `kit-tests` run 29170630449 was green on the pre-card-flip head `ea16f06`.)
+- **Kit real-path test at HEAD:** `python3 -m unittest test_http_realpath -v` → `Ran 14 tests in 3.033s` / **`OK`**, exit 0, at HEAD `3f7c415` — the fresh at-HEAD real-path run against the vendored real-shape Stripe fixtures.
+- **Env var (⚑A):** the kit reads **`SWTK_WEBHOOK_SECRET`** (NAME only; value never in-repo). ⚑A is honestly **adapted**: ⚑E publishes via a marketplace-hosted checkout (Gumroad/Lemon Squeezy), so the $29 sale needs no self-hosted Stripe checkout — the keys only close the kit's own live test-mode E2E leg. (The separate membership-kit server path uses `STRIPE_SECRET_KEY` + `STRIPE_WEBHOOK_SECRET`, ⚑A row below — different product.)
+- **Conservative economics (from the packet):** $29 gross; raw Stripe fee 2.9%+$0.30=$1.14 → net ≈ $27.86/sale (upper bound — a marketplace host takes more). Sunk build ≈ 284k tokens (vs 120k cap); owner-confirmed token-dollar value ≈ $3–9 at an illustrative $10–30/1M rate, so one sale's ~$27.86 net covers it. **BASE CASE = 0 sales** (no distribution wired) → payback **INDEFINITE/possibly never**. **Kill rule:** ≥1 organic sale OR ≥1 qualified inbound within 14 days of listing-live (T; deadline T+14) or ledger ⚑E NEGATIVE + pause/delist; cap further launch-support at ~50k tokens.
 
 ## Trading-lane note (research-only sibling)
 
