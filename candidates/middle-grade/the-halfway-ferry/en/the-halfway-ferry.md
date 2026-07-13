@@ -547,3 +547,151 @@ Tam Rush came forward to the bow with his brown jacket buttoned, and stood besid
 "Deckhand," said Captain Marl, easing the wheel over, "call the stop."
 
 "It's not my — " Wren began, and then understood, and her eyes stung, and she called it in her wagtail voice down the whole bright length of the last channel: "*Harebell landing! All ashore that's sixty years going ashore!*"
+
+# Chapter Twelve — Overslake
+
+The town at the end of the channel was Little Slake.
+
+It was Little Slake the way the brown photograph in the chapel vestry was Little Slake: three jetties and all three working, a riverwall with the same seven lamps her own riverwall had five of, the chapel with its clock — Wren checked, of course she checked — running eleven minutes fast, out of civic optimism, on the far side of the door under the world. The houses had settled differently, and the trees had had sixty years of their own opinions, and over the door of a rope-and-tin shop on what was unmistakably Slake Street hung a sign that said, unmistakably, OVERSLAKE.
+
+"They named it," said Captain Marl, bringing the wheel over a last quarter-spoke, "the way you name the far end of anything. Over-the-water Slake. Forty souls came across on the *Harebell*'s last run, and the fog set them down here, all together — that was the fare the whole town's leaving had paid, though none of them knew they'd paid it: a town, spared. And they built their landing, and they kept their boat painted, and one of them, deckhand, has rung the bell on the first Tuesday of every month for sixty years, on the chance the Line might open. You may tell your chapel sexton, when you're home, that somewhere the habit of hopeless punctuality is a *sacrament.*"
+
+The *Harebell* lay at the landing.
+
+She was small — smaller than Wren had built her in her head, the way everything in the vestry photograph was smaller than its legend — clinker-built and honest, and sixty years painted: you could see the years of paint on her the way you can see rings in a stump, layer on faithful layer, harebell blue. Her brass was bright. Her bell was swinging, live, in a rope-hardened old hand.
+
+And the landing was full. Word travels fast in a town of forty souls and their sixty years of children; there were lanterns coming down every lane of Overslake, and the crowd stood along the water in their nightshirts and coats the way crowds had once stood, on the other side, to see off the coal barge — except silent, all of them, dead silent, watching the ferry with no name come up the channel with a boy in the bow.
+
+Tam Rush stood at the rail where the gangway would go, and his manners finally failed him, and no one aboard held it against him: he was up on the sheer-strake with one hand on a stanchion, leaning out over the bright water like a figurehead of some country whose flag was a canvas jacket, searching the lantern-light face by face, counting — Wren could see his lips move — counting the way he did everything, and his count kept snagging and starting over, because the faces kept being almost, almost, almost —
+
+"*TAM!*"
+
+An old woman came through the crowd the way Mrs. Grebe's bread-smell had gone into the box: parting everything, golden, unstoppable. She was small and white-haired and she had a wooden spoon in her hand — she had, it would later be established, been stirring something, and would carry the spoon through the entire ensuing hour without once noticing — and the crowd made way for her because the crowd knew, every lantern of it, exactly who she was and exactly who was standing on the incoming rail.
+
+Ship's cook of the *Harebell.* Sixty years of first Tuesdays.
+
+Tam Rush said, "Mam," in a voice that was no particular age at all, and did not wait for the plank, which Wren logged in the book as *conduct unbecoming, thoroughly becoming,* and jumped.
+
+He landed in the shallows of everywhere else, drenched to the knee in bright water, three strides from sixty years, and Margaret Rush dropped her spoon after all and met him at the second stride, and the lanterns closed around the two of them, and the whole crowd of Overslake made one sound together. It was not a cheer. A cheer is thinner. It was the sound a town makes when its last account squares — when the one line stepped-around in every ledger of every family in it is finally signed — and Wren Tolliver stood at the rail of the ferry with her notebook shut, because there are counts you keep and counts you only witness, and Tar sat beside her with his tail wrapped round his feet, purring like a slow engine, and even Captain Marl, at the wheel, cap in hand, was — Wren logged this too, and stood by it — leaking, quietly, in a weathered and dignified fashion, at the eyes.
+
+An old man came down the landing through the lanterns, straight-backed, in a captain's coat sixty years out of fashion and utterly unimpeached, and stood at the water's edge, and looked a long time at the boy in the shallows. Then he looked up at the ferry with no name, and at Captain Marl, and touched his cap-brim, one working captain to another across whatever it is that lies between here and everywhere else.
+
+"You'd be the one that carries them now," said Captain Weck of the *Harebell.* His voice was like the log's green spine. "We heard the Line open. Sixty years we've told them — the young ones — the Line answers a squared account, and sixty years it's been a story for first Tuesdays." He looked at Tam, hauled now onto the landing proper and being wept on in relays. "Who found the fare? He never had a thing on him but the jacket. We knew. It's why we couldn't — " and there sixty years of a captain's arithmetic showed for a moment in his face, the long unforgiving sum of a boat sailed on time " — it's why the Line never opened to *our* knocking. The debt wasn't ours to pay. Who counted him?"
+
+"My deckhand," said Captain Marl, and did not say anything further, and did not need to; and the old captain of the *Harebell* looked at Wren Tolliver, eleven, of the rope shop, in wool, with a stock book buttoned over her heart, and gave her the whole cap-brim, all the way off the head, the salute Wren would not learn the size of for years, until she had stood at a wheel or two herself.
+
+"Deck-boy Rush," called Captain Weck, without turning, in a voice that had called it across weather Wren hoped never to meet, "you're out of uniform and your count's overdue."
+
+And Tam Rush, drenched, laughing, alive, mothered half to death, came up straight as a Monday out of the crowd and gave back, cracked and joyful, the answer he'd been keeping warm the whole of a cold sixty years:
+
+"All aboard that's coming aboard, captain! Forty-one souls, all told —" and the bell of the *Harebell* rang out over the bright water, live and swinging, rung by somebody's grandchild, one full minute, proper — "*all counted!*"
+
+⁂
+
+They stayed an hour, by the chapel clock of Overslake, which is to say: nobody ever agreed afterward how long they stayed.
+
+There was toffee. There was a great deal of toffee; the twins' grandmother, it turned out, was not the only keeper of the recipe on this side, and Overslake's version had had sixty years to diverge, and feelings about the divergence ran hot and delicious in both directions. There was Margaret Rush holding Wren's face in two floury hands and saying nothing at all, which said it. There was the *Harebell*'s log fetched out, and the two green ledgers laid open side by side on a trestle under the lanterns, sixty years apart, at two versions of one morning, and Captain Weck drawing his pen down at last through the entry that read *40 souls* and writing above it, in the careful uphill hand of a man correcting the only mistake of his career: *41. Deck-boy rejoined. Line squared. W.T., deckhand, per the count.*
+
+Wren Tolliver's initials, in the log of the *Harebell,* on the far side of the fog.
+
+"Ledgers," said Captain Weck, blotting it, "are patient. That's all a ledger is, girl. Patience, ruled."
+
+And when the ferry with no name backed off the Overslake landing — engine dreaming, lamps upright, Tar aloofly permitting a dockside crowd of children to admire him — the whole town stood along the bright water to see them out of the channel, and Tam Rush stood at the front of it, between his mother and his captain, one hand raised, not waving: *holding,* the way you hold a thing you mean to keep; and the last Wren saw of him, before the pearl-light folded the channel closed, he had turned to look up at Captain Weck, and he was talking, both hands going, and Wren knew exactly what he was doing, because it was what she would have been doing.
+
+He was telling the story.
+
+# Chapter Thirteen — The Way Back Is Shorter
+
+The way back was shorter. Captain Marl said it always is, and declined, at the wheel, in the pearl-colored quiet between the walls of shining, to say one word more about it; so Wren took the question to the fare box, where Tar sat on the brass-cornered lid washing an ear with the industry of a cat who has recently been publicly admired.
+
+"Why is the way back shorter?"
+
+"Because," said Tar, "you weigh less." The ear achieved perfection. "Everyone does, going home. You paid attention the whole way out, and attention's heavy. Any other questions, deckhand, while my rates are low?"
+
+Wren had approximately four hundred, and an open notebook, and the sense — new tonight, and never to leave her — of standing at the very beginning of a very long stock book. She picked the question at the front.
+
+"The boat had a name. The captain said so, my first evening: *that's not the same as never having had one.* What was it?"
+
+Tar stopped washing.
+
+"That," said the cat, after a moment, "is not a low-rate question." He looked forward, at the wheelhouse, where the captain's gray shape stood easy against the pearl-light, and his voice did the thing voices do when they decide to hand you something breakable. "Here's what a cat will say for free. Fares are never money, and names are never free, and once — long before your town had a notice to hang — this boat's name was somebody's fare. Paid at that box. Taken clean off her bows, letter by letter, and over the rail, and the account it squared was —" the tail tightened round the feet "— large. She's run nameless since, and the captain's run with her, and if you want the rest of it, you'll want to be the kind of deckhand a captain tells things to on a slow crossing about four winters from now. I'd start," said Tar, resuming the ear, "by keeping the tea coming and the counts clean."
+
+*Four winters,* wrote Wren, in the notebook, under a fresh heading she'd opened that had begun, already, to fill: *OWED TO ME BY THIS RIVER (patience, ruled).*
+
+Under it were three entries now, and she read them over while the bright channels braided themselves back toward the iron-colored dark of the near side of the Line:
+
+*Item: the boat's name. Somebody's fare. Whose? — four winters, per cat.*
+
+*Item: the captain squared it with Mother "for reasons that are her business." The fare box knows our left hands. Mother knows the box sticks. Mother said "mind the notice," not "there's no boat." Query the entire history of my family, at tea, repeatedly, forever.*
+
+*Item —*
+
+The third entry was the newest, and she had written it back at the Overslake trestle, fast, while two ledgers lay open in lantern-light. Because Captain Marl, turning the pages of the nameless ferry's own green log to find Tam's signed line, had turned one page too many, and Wren — trained over a shop, cursed and blessed to read all ledgers upside down — had seen an entry, old, older than the *Harebell* page, in faded formal copperplate:
+
+*Received of Tolliver, one fare, paid in full. Crossing open-dated, at the holder's need. Balance: kept.*
+
+*Item: somebody named Tolliver has a paid-up crossing in that box. Open-dated. Uncollected. — WHO? For WHERE? And why does nobody in my family ride ferries?*
+
+She was still looking at that entry when the light changed — pearl to iron, iron to plain honest night-gray — and the ferry came through the standing wall the ordinary way, without ceremony, the way you come out of a shop with the bell jingling behind you; and there, upriver, small and lamplit and dear and running eleven minutes fast, was the true and only original Little Slake, fast asleep on both banks of the ordinary Sedge.
+
+"Second count," said Captain Marl, from the wheel, without turning round.
+
+"Captain?"
+
+"Passengers, deckhand. The rule is the rule, outbound and home."
+
+Wren stood in the middle of the empty deck, and counted the benches, out loud, by faces, of which there were none; and the fog stood off the stern, watching, the way it had watched her on the riverwall the first evening — *facing her* — and she understood, at last, standing in the lamplight of the emptied boat, what the second count was actually for.
+
+"None aboard," called Wren Tolliver, to her captain, and to the cat, and to the listening fog, and to the river between here and everywhere else. "Seven carried, seven landed. One found, one signed, one *home.* Nobody lost, nobody left, nobody standing on any jetty anywhere in the middle of ringing a bell." Her voice wobbled precisely once, on the last of it, and she let it, because the fog respects a person who'll say the thing out loud: "All counted."
+
+"Counts agree," said Captain Marl, and Tar purred like a slow engine, and the fog — Wren logged it, and stood by the log entry all her life — *bowed;* the whole standing bank of it inclining, once, slightly, the way the third stepping-stone might finally nod to the bridgekeeper's daughter; and then it was only weather again, gray and enormous and minding its own business, all the way down the Sedge.
+
+The condemned jetty took their line with a creak like a welcome. Far up Slake Street a light was on over a rope-and-tin shop, at half past very-late indeed, and somebody's shape was in the window, not anxious, exactly. Keeping a count of her own.
+
+"Trial's over," said Captain Marl, at the gangplank, and put into Wren's palm a sixpence — real money; wages are wages — and held the hand a moment after, rope-hard and steady. "You counted a boy the whole river had lost, and you found the fare in him when he'd have sworn to empty pockets, and you said *all counted* out loud with the fog listening, and it bowed. I've had deckhands forty years who never got a nod out of it." The no-particular-color eyes were, Wren decided, the color of the river after all: you'd know them anywhere. "The job's yours, Wren Tolliver. Dawn Tuesdays, and any morning the fog docks us at your notice. Bring the book. Mind the third plank."
+
+"She's a liar," said Wren.
+
+"You'll do," said the captain.
+
+# Chapter Fourteen — Home Before the Kettle
+
+Her mother was at the shop door before Wren's boots found the good stones, and what happened there is family business, but it involved the kind of hug that re-counts a person, rib by rib, twice.
+
+There was cocoa. There was, remarkably, no scolding — there was instead her mother turning the sixpence over in the lamplight with an expression Wren had last seen her use on a genuinely rare knot, and saying, "Left-hand lid and all, I suppose," and pouring a second cocoa without being asked, as if a certain conversation had been standing in a queue for years and had finally, resignedly, shuffled forward.
+
+"The captain says the box still sticks," said Wren. "Only on the left. Only in spring. And that you still owe it a fare."
+
+"Mm," said her mother, which was shopkeeper for *later.* But she said the rest into the fire, quietly, and Wren wrote it in the book before sleep, word for word, under ITEM TWO: "*Everyone in this family pays that box eventually, my wren. Your great-gran paid it a whole rope-walk. I've been keeping mine back for thirty years, and it can wait a few more, and so can you.*" A pause; a poker settling a log. "*Tuesdays, is it. You'll want thicker socks.*"
+
+Which was, as declarations of unconditional surrender go, the finest in the history of Slake Street.
+
+⁂
+
+The days after went the way days go: school, shop, gutter (mended — her father came home Sunday and did it in an hour, and heard the whole story twice, once plain and once with the questions, and said at the end of it, being a dredger man, "*Always* count yourself. First rule of mud."). The wagtails kept the nest. The chapel clock kept its eleven optimistic minutes. The notice went on saying CONDEMNED, and Wren went on leaving it at number one in the book, partly from honesty — the planking really was scandalous — and partly because she had begun to suspect the lean and the notice were the ferry's idea of a locked door, and that some doors are better kept looking broken.
+
+And on the first Tuesday of the month, at dawn, with fog standing on the river and thicker socks standing on the third plank, deckhand Tolliver reported aboard, and found the captain on the bollard, and the harbor cat sitting at attention with his tail wrapped, being paid.
+
+"— and the bridgekeeper's daughter," Captain Marl was saying, "looked at the third stepping-stone, and the third stepping-stone looked back. And what she said to it — and it to her — and what was under it, keeping the toll — " the captain stood, unhurried, leaving the story open on the morning air like a lid " — is a tale for the next slow water, sir, because here's my crew, and we've a queue."
+
+There was a queue. There would always be a queue now, Wren understood; the fog had opened something and word was traveling, the slow sure way word travels along a river. Six this morning: faces she knew, bundles she could inventory at a glance, fares she was already, ten years too early, beginning to guess at.
+
+Tar fell in beside her boots at the gangway, disgusted and content.
+
+"He *stops,*" said the cat, "at the best bit. Every time. One of these mornings, deckhand, I will get the end of a story out of that captain in one piece, and the river will run backward from shock."
+
+"Pay more," said Wren.
+
+"*Cheat,*" said Tar, comfortably, and took his post on the fare box.
+
+Wren Tolliver stood at the head of the gangway of the ferry with no name, at the condemned jetty of Little Slake, with her notebook open to a fresh page and the fog standing up off the water like a shop door opening, and the whole river between here and everywhere else went out ahead of her, channel after channel after channel, wider than any chart had ever met.
+
+"Good morning," she said, in her mother's stocktaking voice, to the queue, to the morning, to all of it. "Boarding now. Have your fares ready. Fares are never money."
+
+And she counted them aboard, one by one, by faces.
+
+Twice, when the fog had them. But that's the rule, and by now you know it: that one's not for the boarding.
+
+That one's to be sure that everybody — *everybody* — counts.
+
+**THE END**
