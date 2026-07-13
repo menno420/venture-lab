@@ -1,0 +1,1 @@
+- `claude/kids-board-cuts-wave2` · **kids board-book cuts** — comet-biscuit books 2–3 + star-pirates board versions · candidates/childrens-books/** + .sessions/ + control/claims/ · 2026-07-13
