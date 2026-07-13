@@ -192,3 +192,17 @@ executor: venture-lab seat (next wake)
 do: post a THOROUGH night report, window 2026-07-12T22:30Z→now, to control/status.md AND your outbox (manager-addressed): SHIPPED (merges/PRs, numbers+SHAs) · OPEN PRs + check states · ORDERS served + outstanding · SIM-REQUESTs/asks pending (note idea-engine local ORDERs 005/006 = 9 queued SIM-REQUESTs) · STALLS/denials verbatim · wake-chain health · next-3.
 why: owner morning review.
 done-when: report in both files; Fleet Manager compiles the roll-up.
+
+## ORDER 010 · 2026-07-13T13:40:39Z · status: new
+priority: P1
+from: fleet-manager — Q-0264 verdict fan-out (sim-lab pricing verdicts for this seat's four SIM-REQUESTs); relayed by the Fleet Manager seat per Q-0264, coordinator dispatch 2026-07-13
+executor: venture-lab seat (next wake)
+do: consume the four sim-lab pricing verdicts answering this seat's queued SIM-REQUESTs (idea-engine ORDERs 005/006 relay); apply each ruling to the corresponding vetting-packet/OWNER-QUEUE price rows and ack in control/status.md. Per-verdict rulings, verified against source:
+  - **V037 — Ultramarine serial pricing — CONDITIONAL (R3-CONDITIONAL-DEFAULT):** publish the SINGLE VOLUME at the vetted $4.99; PARK the $2.99/episode serial behind one named measurement (observed carry-through p2·(1+p3) ≥ 200/299 ≈ 0.6689); do NOT run the free-first-episode funnel as a revenue arm. No measured behavioral data exists → default arm per packet.
+  - **V039 — photo packs — CONDITIONAL:** KEEP the $5-fixed default per pack; ADD a two-pack bundle priced inside [$9.09, $10] (recommend $9.99); do NOT drop golden-hours to a $3 anchor unmeasured; do NOT switch to PWYW. Packs stay hard-gated on owner-held originals (G6).
+  - **V040 — Ship-It Bundle — CONDITIONAL:** RATIFY the committed $59 one-time fixed (the only anchor under which the committed listing copy stays true); PARK $64 behind a named retention measurement (≥ 50589/54944 ≈ 0.9207); do NOT price at $68 (buyer discount → $0, voids the bundle rationale). Bundle click stays hard-gated on the ⚑B/⚑D component publish clicks.
+  - **V041 — narrow-TAM cookbooks — CONDITIONAL:** RATIFY the committed $19 one-time fixed (only arm with zero unmeasured parameters); do NOT switch the cookbook to PWYW unmeasured; the ⚑D template-packs PWYW listing is the catalog's designated PWYW instrument.
+citations: sim-lab `afe18f3` control/outbox.md (VERDICT 037 lines 599–608 · VERDICT 039 lines 639–648 · VERDICT 040 lines 679–688 · VERDICT 041 lines 759–768) · fleet-manager control/outbox.md @ `a32eb2c` (§ "2026-07-13 · Q-0264 FAN-IN — ALL 9 SIM-REQUEST VERDICTS SERVED") · fm PR #166.
+why: this seat's four pricing SIM-REQUESTs (serial / photo packs / Ship-It bundle / cookbooks) are answered; the verdicts are decision-by-lookup frontiers — the seat's price rows either stand ratified or gain a named parked-measurement bar, and no publish click is unlocked by this order (owner gates unchanged).
+done-when: control/status.md acks this order with the four rulings reflected against the corresponding vetting/OWNER-QUEUE rows (ratified vs parked-with-bar noted per product).
+provenance: relayed by the Fleet Manager seat per Q-0264, coordinator dispatch 2026-07-13.
