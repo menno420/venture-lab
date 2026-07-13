@@ -1,1 +1,0 @@
-- `claude/ultramarine-serial-edition` · **books: ultramarine versions** — serialized 3-part edition · candidates/adult-novels/ultramarine/versions/** · 2026-07-13
