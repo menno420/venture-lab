@@ -1,1 +1,0 @@
-- `claude/slow-word-novella-nl` · **books: slow-word NL edition** — Dutch novella translation · candidates/adult-novels/the-slow-word/versions/novella-cut-nl/** · 2026-07-13
