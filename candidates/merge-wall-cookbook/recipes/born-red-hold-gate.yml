@@ -1,0 +1,91 @@
+# RECIPE 3 — the born-red HOLD gate (required check that holds a
+# mid-flight PR red BY DESIGN until its session journal flips complete).
+#
+# PROVENANCE: distilled from a LIVE production gate
+# (menno420/venture-lab .github/workflows/substrate-gate.yml @ 4776045,
+# enforcement engine bootstrap.py @ 6c46941). The production engine's
+# added-card lane holds any PR that ADDS a session card declaring an
+# in-progress/drafted status; this recipe is the self-contained bash
+# distillation of that rule so you can adopt it without the engine.
+#
+# WHY THIS EXISTS — the 24-second false-green: with auto-merge pre-armed
+# (Recipe 1) and a required check that only validates format, a PR whose
+# only content is an in-progress work journal goes green and merges the
+# instant CI reports (the production engine's docstring records exactly
+# this: a card-only born-red PR merged in 24 seconds, superbot-games #40).
+# The fix is a DESIGNED HOLD: the required check fails — loudly, with a
+# banner saying the red is intentional — while any ADDED journal file
+# still declares an unfinished status. The agent's ender commit flips the
+# journal to complete; the same push re-runs this gate green; the
+# pre-armed auto-merge lands the PR. Merge order becomes: work done ->
+# journal closed -> green -> merged, mechanically.
+#
+# REQUIRED-CHECK RULE: if you make this check required (you should — an
+# unrequired gate arms nothing, see Recipe 1's refuse-to-arm guard),
+# NEVER use `paths-ignore` on it: a required context that never reports
+# stays pending and blocks auto-merge forever. Short-circuit IN the job
+# instead (this file's fast-lane step; the pattern is Recipe 4's cousin).
+name: required-gate
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  required-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: fast lane (docs-only diff short-circuits GREEN, never skips reporting)
+        # Coordination-only diffs skip the heavy checks but the job
+        # still REPORTS green — a required context must always report.
+        # Empty/unreadable diffs fail safe onto the full lane.
+        id: lane
+        run: |
+          if [ -n "${{ github.base_ref }}" ]; then
+            git fetch origin "${{ github.base_ref }}" --depth=50 || true
+            range="origin/${{ github.base_ref }}...HEAD"
+          else
+            range="${{ github.event.before }}..${{ github.sha }}"
+          fi
+          files="$(git diff --name-only "$range" 2>/dev/null || true)"
+          fast=false
+          # Adjust the prefix to YOUR coordination namespace.
+          if [ -n "$files" ] && [ -z "$(printf '%s\n' "$files" | grep -v '^control/')" ]; then
+            fast=true
+          fi
+          echo "fast=$fast" >> "$GITHUB_OUTPUT"
+          echo "fast-lane diff: $fast"
+      - name: born-red HOLD — added session journals must be COMPLETE to merge
+        if: steps.lane.outputs.fast != 'true'
+        run: |
+          set -eu
+          if [ -n "${{ github.base_ref }}" ]; then
+            range="origin/${{ github.base_ref }}...HEAD"
+          else
+            range="${{ github.event.before }}..${{ github.sha }}"
+          fi
+          # Journals your agents write per session; adjust the path.
+          added="$(git diff --name-only --diff-filter=A "$range" -- '.sessions/*.md' 2>/dev/null || true)"
+          hold=0
+          for f in $added; do
+            [ -f "$f" ] || continue
+            # The journal's status badge line, e.g.:  > **Status:** `in-progress`
+            badge="$(grep -i '\*\*status:\*\*' "$f" | head -1 || true)"
+            if [ -z "$badge" ]; then
+              echo "::error file=$f::session journal has no Status badge — every journal carries one from its first commit."
+              hold=1
+              continue
+            fi
+            lowered="$(printf '%s' "$badge" | tr '[:upper:]' '[:lower:]')"
+            case "$lowered" in
+              *in-progress*|*"in progress"*|*wip*|*hold*|*drafted*)
+                echo "::error file=$f::born-red HOLD: this PR ADDS a session journal that declares an in-progress/drafted Status — the gate holds the merge red until the journal flips complete (designed hold, not a defect). Without this hold a journal-only born-red PR with auto-merge pre-armed merges the instant CI reports."
+                hold=1 ;;
+            esac
+          done
+          [ "$hold" = "0" ] || exit 1
+          echo "no added journal declares an unfinished status — gate green."
+      # Append your real test/lint steps below this line; the fast-lane
+      # condition `if: steps.lane.outputs.fast != 'true'` goes on each.

@@ -1,0 +1,90 @@
+# RECIPE 2 — GITHUB_TOKEN merge-on-green (the REST fallback path).
+#
+# WHEN YOU NEED THIS instead of Recipe 1: GitHub structurally refuses
+# the native auto-merge arm on some repo shapes — a required check that
+# is already red at arm time with no pending window, or a
+# PR-required-but-no-CI branch. The live enabler this cookbook is built
+# from names exactly this fallback in its own failure message
+# ("REST merge-on-green is the landing path instead", auto-merge-enabler.yml
+# @ 305646f), and the source repo's platform-limits ledger records REST
+# merge-on-green as the documented fallback when GraphQL quota is
+# exhausted (docs/PLATFORM-LIMITS.md @ 2044dc6, fleet playbook R8).
+#
+# HONESTY LABEL (read before trusting): unlike Recipe 1, this exact
+# file is NOT running in production in the source repo — venture-lab
+# lands PRs via the native-arm enabler, so this recipe is
+# parse-verified and assembled from the documented fallback, not
+# production-run. Test it on a scratch repo first.
+#
+# HOW IT WORKS: fires when your gate workflow completes; finds the open
+# PRs on that head sha; re-reads labels fresh (stale-payload race);
+# verifies EVERY check run on the head is green (not just the gate);
+# then squash-merges via the API under GITHUB_TOKEN.
+#
+# CAUTION (verify against current GitHub docs before chaining
+# automation off the merge): pushes and merges created with the
+# repo-scoped GITHUB_TOKEN generally do NOT trigger further workflow
+# runs (recursion guard) — if your main branch runs post-merge
+# workflows you need them to fire, use a PAT/GitHub App token instead.
+name: merge-on-green
+on:
+  workflow_run:
+    # Set this to the `name:` of your REQUIRED gate workflow.
+    workflows: ["required-gate"]
+    types: [completed]
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+concurrency:
+  group: merge-on-green-${{ github.event.workflow_run.head_sha }}
+  cancel-in-progress: false
+jobs:
+  merge:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge open agent PRs on this head once EVERY check is green
+        env:
+          GH_TOKEN: ${{ secrets.MERGE_PAT || secrets.GITHUB_TOKEN }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          set -eu
+          # 1) Which open PRs have this exact head?
+          prs="$(gh api "repos/$GITHUB_REPOSITORY/commits/$HEAD_SHA/pulls" \
+            --jq '[.[] | select(.state == "open"
+                               and .head.sha == env.HEAD_SHA
+                               and .head.repo.full_name == env.GITHUB_REPOSITORY
+                               and .draft == false
+                               and (.head.ref | startswith("claude/")))
+                   | .number] | .[]')"
+          [ -n "$prs" ] || { echo "no eligible open PR on $HEAD_SHA — nothing to merge."; exit 0; }
+          for pr in $prs; do
+            # 2) Label carve-out, re-read FRESH from the API.
+            labels="$(gh api "repos/$GITHUB_REPOSITORY/issues/$pr/labels" --jq '[.[].name] | join(",")')"
+            case ",$labels," in
+              *,do-not-automerge,*) echo "PR #$pr labeled do-not-automerge — skipping."; continue ;;
+            esac
+            # 3) EVERY check run on the head must have concluded green
+            #    (success/neutral/skipped). One red or pending run = no merge.
+            not_green="$(gh api "repos/$GITHUB_REPOSITORY/commits/$HEAD_SHA/check-runs" \
+              --paginate --jq '[.check_runs[]
+                | select(.status != "completed"
+                         or ((.conclusion // "none") | IN("success","neutral","skipped") | not))
+                | .name] | length')"
+            if [ "$not_green" != "0" ]; then
+              echo "PR #$pr: $not_green check run(s) not green on $HEAD_SHA — refusing to merge."
+              continue
+            fi
+            # 4) REST squash merge, pinned to the sha we just verified —
+            #    a race-pushed newer head makes this 409 instead of
+            #    merging unverified code.
+            if gh api -X PUT "repos/$GITHUB_REPOSITORY/pulls/$pr/merge" \
+                 -f merge_method=squash -f sha="$HEAD_SHA"; then
+              echo "PR #$pr merged on green."
+            else
+              echo "::warning::merge of PR #$pr failed (branch protection, race, or permissions) — leaving it for the next green run."
+            fi
+          done
