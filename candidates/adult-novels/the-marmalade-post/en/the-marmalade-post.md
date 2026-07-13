@@ -116,6 +116,8 @@ When the shop was empty she made a pot of tea, lifted Frank off the scales, and 
 
 She turned the little standing loop of the knot with one finger. She had tied that exact knot ten thousand times. Waxed twine, two crossings, a packer's hitch snugged with the thumb, and the finished loop left proud so the next pair of hands could get a finger in — counter-work, from the age when parcels were tied at the counter as a courtesy. It was post office string, tied by post office training, thirty years out of date.
 
+And there was one thing more, which she had missed on the Tuesday and found now, and which made her sit back in her chair: tucked under the crossing of the string, flat against the paper where it would ride safe, was a single spare stamp. Another honeybee, loose, unlicked. Nobody did that any more. Nobody had done it for thirty years — it was the old counter courtesy, the allowance against the surcharge, so that if the rate had crept up while your stamps sat in their drawer, the office at the far end could make good the difference without troubling the addressee. The sender had posted a parcel with decade-old stamps and had *known* they might fall short, and had provided for it, correctly, in the manner of the old service, as if Mr Hedges himself were still on the far side of the scales to notice and approve.
+
 "Well, Frank," said Vera. "She was one of ours."
 
 ⁂
@@ -296,7 +298,7 @@ Which unsealed nobody in Little Dunnock, where everyone over forty had known the
 
 The village managed its shock in the traditional way, by shopping. All morning — Vera opened at ten; it was that or hold the parish at bay with a broom — the bell went and went, and the same six sentences got said over the counter in different hats. It was travellers off the bypass. It was youths. It was (lowered voice) *to do with the parcel*, and wasn't it awful, and she'd want to be careful, a woman alone, and would she not be better handing the wretched thing to the committee after all and letting everyone sleep?
 
-That last sentence arrived four times in three hours, in four mouths, with one grammar. Vera sold stamps and counted.
+That last sentence arrived four times in three hours, in four mouths, with one grammar — *hand it to the committee and let everyone sleep* — and a sentence that arrives in four mouths with one grammar has been posted from somewhere, as any sorter could tell you. Vera sold stamps and counted, and between customers she did a little idle tracing of the postmark. Mrs Aldous had it from the Tremletts; the Tremletts had it from the tearoom queue; the tearoom queue, this morning of all mornings, had been addressed at its head by a calm and reassuring presence buying teacakes and *keeping everyone's spirits up*. It proved nothing. Comfort and guilt run the same errands. But she wrote the index card anyway: *Who benefits from everyone sleeping?*
 
 Prue Hollis did not come in. Prue Hollis, who had found a reason to pass the counter every day that week, on the one morning the village had a real thing to discuss, stayed away — and the tearoom stayed shut past noon, which had not happened, Dilys reported flatly, since the Queen died. When it finally opened, Mrs Aldous had it from the Tremletts that Prue looked as if she hadn't slept a wink.
 
@@ -446,4 +448,121 @@ The shop was very quiet. Frank watched from the safe shelf. Through the window t
 "Mrs Pascoe," said Vera. "How would you like to come home and finish your Walter's count?"
 
 ⁂
+
+# Chapter Ten — Night Watch
+
+The registered packet from Cornwall arrived Friday morning, show eve, and was signed for at the counter at 8:41 in full view of Mrs Aldous, both Miss Tremletts, and the man from the Grange, which was as good as publishing it in the parish magazine with a photograph.
+
+By ten, Dilys had done the rest. She had been given her script the evening before, over the good biscuits, and had listened with the rapt professional attention of a leading lady handed, at last, the role she had been in training for since girlhood. *You're to say it in confidence,* Vera had said. *Confidence is the only post that always arrives.* And so it went out on the morning tide, to the tearoom and the allotments and the bell-ringers' practice, in a hiss like braking steam: *the book, Walter's own book, come registered from Cornwall — the counts and all, they say — too big for that little safe, so she's put it overnight where Hedges always kept the held things, in the pending drawer, well you'd know it, the deep one under the scales, and Ruth Tanner herself collecting it at the show tomorrow, and NOT a word.*
+
+Every syllable of it true, except the one that mattered. The registered packet held a biscuit tin, a quantity of Tuesday's *Gazette*, and a note that said *HELD ITEM — PENDING*, and it lay that night in the deep drawer wrapped in brown paper and tied — Vera had permitted herself this, as senior officer present — in a counter hitch with the standing loop left proud. The book itself was on a train somewhere west of Exeter, in a shopping bag on the knee of Ruth Pascoe, who had said down the wire, when the plan was put to her: "A decoy parcel in Hedges's drawer. He'd have shut the shop for joy. Yes. Do it."
+
+PC Draycott had taken more convincing, being young, and sworn to procedure, and in the right about most of it. Vera had given him the whole chain across the back-room table like a teller counting out a withdrawal: the figure, first — a sum that had never publicly existed to the pound, said angrily across her counter by the one man the count had been finished *to*; then Prue Hollis's statement, key and lock and lane and the walk from the heels and the handle tried after, sworn to the facts and silent on the guess; then the voice on the telephone that first Tuesday, a man doing officialdom the way you do a thing you've worn all your life, wrong only in the vocabulary of a service he'd last dealt with decades ago; then the committee letter, propped and seconded and carried, requesting in headed-paper Latin what the phone call had failed to collect in plain clothes. "Every single approach in costume, Constable. Committee, official, key-holder. He has never once, in ten years, done a wrong thing that didn't look exactly like a right one — that's why it's held so long. So we let him make his one exception. Nobody believes a man like that on evidence of character. They'll believe a drawer."
+ What carried the evening was the hall key. "You left it on its nail, Constable, after the first time, because I asked you to," Vera said, "and I asked you to because you don't mend the hole in the net while the fish is still deciding. He put it back the same night he used it — a borrower to the bone, that man; it's the whole of him in one habit. He'll borrow it once more, and you'll be sitting in my back room drinking cocoa when he returns it."
+
+"And if he doesn't come?"
+
+"Then Monday I'll owe you an apology and the Royal Mail a night's sleep, and the book gets read out at the show regardless and the truth arrives by second post. It arrives either way, Constable. Tonight is only about the postage."
+
+They sat in the back room from eleven: Draycott by the door with his radio down low; the vicar, who had declined to be left out on the grounds that the parish's sins were technically her paperwork; Vera in the wicker chair with Frank unconscious on her feet; and the cocoa, and the shop clock, and the particular listening dark of a room above which a whole village was pretending to sleep. Nobody spoke after midnight. The clock went round. A car passed at one, going home from somewhere, and was let pass.
+
+At twenty to two, the front lock turned. One motion, no fumbling. Like a man coming home.
+
+They let him all the way in, because evidence is a parcel and wants its string tied. Soft heel-first steps on old boards; the counter flap, lifted with a burglar's patience by a man who had heard it squeak across thirty years of buying stamps; the long wooden sigh of the pending drawer. A torch now — one thin stripe of it under the door, dead still — and the crackle of brown paper, and then nothing. Nothing for so long that Draycott's hand went to the door and Vera's hand went to Draycott's sleeve.
+
+Because the nothing had a shape. On the other side of the door, by the light of a torch held in his teeth for all they knew, Gerald Pocock had found the standing loop, and was learning what it meant, and was understanding — three seconds ahead of the lamp switch, in the last private dark he would ever get — exactly whose drawer he was standing in, and that the string had been tied for him.
+
+Vera turned on the light.
+
+He did not run, or bluster, or perform. That was the terrible thing, she thought afterwards; the performances were all for the daylight. He stood at the drawer with the biscuit tin in both hands and the paper hanging open, a big man gone smaller in a good coat, and he looked at the three of them in the doorway, and at the tin, and he said, in a voice like the bottom of a till: "There's no book, is there."
+
+"It's coming by hand," said Vera. "First thing. The last page is a count, finished twice over, and a line under it: *G.P. collected box 9.40 p.m. — receipt Monday.* And a Monday page ruled up, waiting. It's waited ten years, Mr Pocock. Sit down. Constable Draycott is going to say the official words, and then I am going to make a pot of tea, and you are going to tell us about the nine-forty."
+
+He sat. Draycott said the words. The kettle did its office.
+
+And Gerald Pocock, chairman of everything, laid his hands flat on the back-room table as if steadying it, and posted, at last, the letter he'd been carrying ten years.
+
+"He phoned the shop at half nine. I was still at the books — you didn't run a hardware on air, even then, and I was six hundred down on the quarter with the wholesaler's van due Tuesday and the bank being modern at me. And Walter says, come and fetch your box, I've counted it twice, and mind you write me a receipt Monday, you heathen. Last words I ever had off him. I drove down to the tent and he handed it over at the flap, and he was rubbing his arm, and I said are you right, Walter, and he said, bells tomorrow, Gerald, get home. And Sunday morning he was gone." The tea steamed in front of him, untouched, doing its work just by standing there. "And Tuesday, at the meeting, I heard my own mouth say the box never reached me. That's all it took. One sentence, eight words, and every soul in that room the readier to believe it because it was me saying it. I never planned a theft in my life. I just — didn't correct one. And then the shop didn't fail. And then it was a year old, and then it was five, and there's no way back in a village, is there — you can't be a bit sorry, not here; it's the full flood or nothing, and I'd a wife then, and the shop, and the chairs of things." He looked up, and it was the August-ground face, drought all through. "You've all been buying your hinges out of that box for ten years. That's what I did with the village's money. I kept the village's shop. I've never once worked out if that's better or worse than spending it."
+
+"And the book?" said the vicar quietly.
+
+"Walter wrote everything. Everyone knew it — recipes to the front, world to the back. I lay awake the Wednesday after the funeral and thought: he'll have written the handover, he wrote his own porridge. So I went through the house in October — I'm not proud, you'd got that far without me — and it was gone, and the girl was gone, and I spent ten years telling myself she'd burned it or binned it or never once turned to the back. And then." He made a small gesture at the shop around them, the counter, the scales, the whole gentle apparatus. "Then somebody sent him marmalade. And I knew the way you know weather. It was all coming home by post."
+
+The clock in the shop struck two, unhurried. Frank got up, walked over, and sat on Gerald Pocock's foot — the cat's one act of judgement, or mercy; with Frank it was never possible to say.
+
+"The telephone call was you," said Vera, not really asking. "The Tuesday."
+
+"From the box outside the bank at Maldenbury, like a fool of a schoolboy. 'The dead letter office.'" He shut his eyes briefly at the taste of it. "I knew inside ten seconds I'd rung the one counter in England that couldn't be rung. And then the committee letter, because a man who's chaired things thirty years reaches for a committee the way other men reach for a drink. And when that came back with the law in it, and then Monday you went and *delivered* the thing, witnesses and minute-book and Martin of all people — and by Tuesday teatime the whole village had the letter by heart, and half of it was saying 'back pages' to the other half over the fences, not even knowing what it was saying —" He spread his big hands on the table, empty. "I stopped sleeping. You weren't ever meant to be burgled, Mrs Cusworth. You were meant to hand a wretched jam jar to a committee, the way everyone hands everything to a committee in this village, and it would all have gone in a drawer of mine instead of a drawer of yours, and stayed shut another ten years."
+
+"Three thousand one hundred and forty-seven," said Gerald, to nobody. "He said it twice down the phone, so proud of the two counts agreeing. I've paid it back in my head every January." He looked at Vera. "You caught it. When I said it at your counter."
+
+"I filed it," said Vera. "Catching came later. Drink your tea, Mr Pocock. Tomorrow you're going to finish the count in front of the village — that's not the constable's terms, that's mine, and you'll find they're the light ones. Walter Finch has been owed a receipt for ten years." She poured her own cup, and her voice, without going soft, made room. "You'll write it at the show."
+
+⁂
+
+# Chapter Eleven — Show Day
+
+Show Saturday came up the way the good ones do, mist off the water meadows burning through by nine, and the marquee on the cricket field filling with the smell that never changes — crushed grass, canvas, sweet peas, and the pond-water reek of three hundred cut dahlia stems — while the village walked round itself in its better hat.
+
+Ruth Pascoe came in on the early bus.
+
+Vera, watching from the shop step, would not have picked her from a line: a spare, weathered, sandy-grey woman in her early fifties with a shopping bag in one hand, standing on the green a long moment looking at nothing in particular, which was of course everything. It was Dilys who broke first — Dilys, who had rehearsed a speech all week and used none of it, crossing the green at a pace unsafe for her years and stopping dead a yard short with her chin going, and it was Ruth who closed the yard. What she said into Dilys's shoulder stayed on the green, between them, unfranked, which is the correct handling for such items.
+
+The preserves bench had been judged by ten — an outside judge this year, a brisk WI assessor from two valleys over who knew none of the history and gave Class 41 to an unmarked jar the colour of church-window fire, remarking, per the card, *exceptional cut, faultless set, and something rung through it I couldn't name if you paid me.* The cup that went with the class had been rubbed up that morning by the committee's newest co-opted member, Martin Finch, and bore a strip of engraving so fresh it still had polish in the letters: THE WALTER FINCH MEMORIAL CUP.
+
+But all of that, the village barely remembered afterwards, because at noon the show fell silent for the first extraordinary general meeting ever held in a marquee.
+
+The vicar spoke first, briefly, in the voice she kept for gravesides and read the whole of Ruth's letter from *Dear Walter* to *the Tanner girl* with the tent flaps snapping gently for punctuation. Then Ruth Pascoe stood at the trestle where the cakes usually went, opened a shopping bag, and took out a small black book with its spine gone soft as fabric, and read the last written page — the count, the two agreements, the nine-forty, the receipt ruled up and waiting — and there was a sound in the marquee like a whole village putting down something heavy at the same moment.
+
+And then Gerald Pocock walked up between the benches, in his suit, with every eye of his life on him, and did the only large thing left to him to do: he told it. All of it, unwatered — the phone call, the tent flap, the eight words on the Tuesday, the ten Januaries. No performance; he had none in stock. When he finished he took out a cheque already written — three thousand one hundred and forty-seven pounds, and beneath it a second figure, larger, that he called *interest, at the rate a village charges* — laid both on the trestle by the book, and then, with Ruth Pascoe holding the page flat for him, he wrote in the space Walter Finch had ruled for it a decade before: *Received back in full, with shame and thanks. G. Pocock.* And dated it. And put down the pen, and resigned, in one sentence, everything he chaired.
+
+What a village does at such a moment cannot be predicted from outside it, and even Vera, professionally unsurprisable, held her breath. Nobody cheered, thank God; nobody hissed. There was a long, working silence, the sound of three hundred people each auditing a decade of their own — every whisper indulged, every silence kept, every *well, you do wonder about the girl* — and finding, most of them, a small sum owing. It was Mrs Aldous, ninety-one, who ruled on it for everyone. "Well," she said, at large, terribly. "We none of us asked, did we." And then, having sentenced the parish entire, she led the queue to shake Ruth Pascoe's hand.
+
+PC Draycott, at the tent flap in his good uniform, confirmed to those who asked that the other matter — the night, the key, the drawer — would go before the Maldenbury magistrates in September, guilty plea entered, and the village absorbed that too, and began, in its immemorial way, to compost the whole affair into anecdote. By teatime the phrase *the marmalade post* had been coined at the urn (Vera heard it minted; she was two teacups away) and she knew the ten years' misery had finally been decanted into the only vessel a village trusts: a story with an ending.
+
+Two smaller deliveries completed the day's round.
+
+At the preserves bench, in the mid-afternoon lull, Prue Hollis returned the missing scrapbook page to the show archive in front of the archivist, entry card and all, and then stood in front of Ruth Pascoe with the whole of it — the second prize in 2016, the demonstration notes, the nine dark years of rosettes — and offered it up unprompted, publicly, at the top of her considerable voice, so as to be certain of never being able to take it back. Ruth heard her out, looked at her a long moment with a judge's eye, and said: "You've been making his marmalade nine years with the bells missing. That's the hardest way there is. Come here." And bent her head close, and told her — Vera, frankly eavesdropping, caught only the words *chapel field*, *off the boil*, and *the bees lived under the bells* — and Prue Hollis put her hand over her mouth and laughed and cried at once, which is the correct response to any true recipe.
+
+And at five, as the tent came down, Martin Finch presented the Walter Finch Memorial Cup, first awarding of, to the unmarked jar — *R. Pascoe, "Seville & Chapel Bells" (recipe W. Finch, by his kind teaching)* — and got most of the way through *my uncle would have* before his voice went, and Ruth took the cup and finished the sentence for him: "— said the judging ran long. He would. He'd also want his dinner." She held the cup up to the light where the whole marquee had once watched a big man in his Sunday jacket hold up jars like lamps. "One sitting, Walter," she said. "As promised."
+
+⁂
+
+# Chapter Twelve — Delivered
+
+The last delivery went out on Sunday morning, after church, on foot.
+
+They came through the lychgate in no order that had been arranged and no order that was accidental: Ruth Pascoe with the parcel — rewrapped in its own brown paper, retied in its own string, because some things must arrive properly or not at all — and Martin Finch beside her; the vicar; Dilys and Prue; Vera and, at a distance he wished understood to be coincidental, PC Draycott, off duty, in a jersey. The morning was rinsed and blue. Third row from the yew, the turf was fresh-edged — Martin's work, it turned out, one Saturday a month, ten years, another anonymous donation come home to its name — and the old votive jar stood neck-deep where Ruth had planted it the morning she left, the morning Dilys saw her, twenty-three years old with her whole inheritance under her coat and nowhere in the world to be believed.
+
+She knelt now and set the new jar beside the old one, first prize against ten winters, and undid the string one last time and left the loop standing. "Post for you, Walter Finch," she said. "Sorry it's late. There was trouble on the line."
+
+They read the letter out loud over him — the vicar offered, but Ruth said no, it was Dilys's turn to say the words, and Dilys, silent once for ten years, read a dead man his mail in a voice that never once wobbled until *eat it at one sitting, mind*, and then wobbled honourably. The bells above them were still swinging faintly from the morning ring. When the wind lay right, Vera thought, you could probably hear them from the Limekilns garden. The wind lay right.
+
+Then, because the village was the village, everyone went to the tearoom.
+
+Prue shut the till, put the CLOSED sign up with the whole parish inside, and toasted four loaves. The Porthgullow jar — the posted jar, the actual first-of-the-winnings, ten days a legend behind Vera's counter — was opened at the big table with a waxed pop that got a round of applause, and eaten, as specified in the terms of the original contract, at one sitting: thick bell-cut peel, church-window amber, and rung through it, plain as Sunday, something you couldn't name if they paid you. Vera had two rounds and gave her verdict as a professional of a different counter: "It arrives," she said, "and it's been kept safe the whole way," and Ruth Pascoe looked at her down the table and touched her teacup to the air, one keeper of undeliverable things to another.
+
+She was staying the fortnight — at the tearoom, in the spare room, an arrangement concluded between Ruth and Prue in the space of one washing-up and reported by Dilys to the wider service before the cups were dry. There was talk, already, of bees again along the chapel field; there was talk of a stall; the village had its teeth into happiness now with the same thoroughness it had once given the other thing. Martin sat in the middle of it all with the little black book in front of him, opened it to the front pages, and slid it across the table to Ruth. "Recipes to the front," he said. "He'd want the book working, not filed." And Ruth put her hand flat on it, the way you would on the shoulder of an old friend, and left it there a long time before she said, "Then it stays working. First lesson's Tuesday, Prue Hollis. Bring your own Sevilles."
+
+Vera walked home the long way in the late afternoon, past the war memorial and the green and the hardware shop, whose blinds were down but whose sign, she noted, said OPEN MONDAY — because a village that had decided to keep a man's shop alive with his own stolen money for ten years without knowing it was not going to let the lesson bankrupt him now that everyone could see the books. That was the oddest mercy of the whole affair and, she suspected, the most durable. Restitution had been made; the magistrates would say their piece in September; and on Wednesday market day, some brave soul would go in for hinges, and the till would ring, and the second decade of the sentence would begin, served openly, at the counter, where the village could keep an eye on the sum.
+
+At her own kitchen table she took out a card, wrote *Dear Ted*, and this time filled it to the edges — the tent, the count, the receipt ten years late, Mrs Aldous's verdict, the bells lying right — and put it in the drawer with the others, delivered. Frank took Ted's chair. The kettle spoke. Quiet, at last, of exactly the kind she had ordered when she signed the licence: the kind with a whole village breathing inside it.
+
+The post came to Little Dunnock at ten past seven on Monday, two bags.
+
+"Catalogues for Mrs Aldous," said Dilys, sorting, restored to full operational tempo. "Seed potatoes, late, there'll be words. Postcard from Ruth's neighbour to Ruth, care of the tearoom, that's nice, they'll be watering her tomatoes — and —" and she stopped, with her hand in the bag, and said it the way a robin says something's moved in the hedge. "Now that's a funny one."
+
+It was a small wooden box, old, dovetailed, no bigger than a Bible, wax-sealed at the seams, wrapped in oilcloth that had been wet — you could see the tide-marks on it, white as salt — and posted, according to the frank, from Falmouth on Thursday last. The address was in copperplate, faded to the colour of weak tea, and it said:
+
+*Miss Patience Crumb*
+*The Quiet Woman*
+*Little Dunnock*
+
+"The Quiet Woman," said Dilys, in the hushed and shining voice of a woman being handed her life's second great role, "burned down in 1963, Mrs Cusworth. My mother watched it go from the church tower. And there's been no Crumb in this parish since — well. Before even my time."
+
+Vera Cusworth turned the box over once, gently, listening to the small dry shift of whatever had waited inside it across the water and the years. She looked at the shelf between the scales and the safe, where undeliverable things sat while she decided what they were. Then she looked at the clock, and turned the sign, and opened Little Dunnock's post office nine seconds early.
+
+"Put the kettle on, Dilys," she said. "First post."
+
+THE END
 
