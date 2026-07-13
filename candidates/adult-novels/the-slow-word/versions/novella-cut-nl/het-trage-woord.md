@@ -187,3 +187,213 @@ Tuli zat heel stil.
 Waar ter wereld, had ze zichzelf de hele dag zitten vragen, vindt men een archief dat duizend jaar omspant.
 
 De wind bracht haar het antwoord en ze had haar hele leven besteed aan ervan weg te lopen.
+
+## Hoofdstuk 4 — Diepe archieven
+
+Ze sliep er niet zozeer een nacht over als wel dat ze het aan zich liet werken, zoals zeewater aan een meertros werkt, en in de ochtend ging ze op jacht naar duizend jaar.
+
+Eerst de nette plekken, omdat ze een nette wetenschapper was en omdat de onnette plek haar bang maakte. Alles wat het licht van de pulsar moduleerde op een schaal van eeuwen zou ook, zwak, geschreven staan in elk lang archief dat gevoelig was voor dezelfde fysica. Wat ze nodig had waren proxy's. Oude, geduldige, onafhankelijke metingen die terugreikten tot voorbij het radiotijdperk en die haar kromme niet kenden en haar dus niet konden vleien.
+
+Ze begon met ijs. De grote poolkernen waren openbaar, of openbaar genoeg, en ze bracht de ochtend door met het bijeenschrapen van cadansdata — de jaarlijkse gelaagdheid, speurend naar elke zwakke periodieke modulatie in het bereik dat haar fit had opgehoest. Iets. Misschien. Een fluistering van vermogen in de band die ze hebben wilde, precies op de rand van niets betekenen — het soort ding dat verdween zodra je er recht naar keek en terugkwam wanneer je wegkeek, en dat was óf een echt zwak proces óf een wetenschapper die er te graag een wilde. Ze had aan beide kanten van die lijn gestaan en wist hoe dun hij was.
+
+Daarna ging ze naar de eclipsarchieven, en daar hield ze van — de Babylonische kleitabletten, de Chinese hofastronomen, generaties bange zorgvuldige mannen die de hemel zich hadden zien misdragen en hadden opgeschreven *wanneer*, op het uur nauwkeurig, op klei en zijde en perkament, over drieduizend jaar heen. Als haar modulatie de voortplanting van het pulsarlicht ook maar raakte, kon ze een residu hebben achtergelaten in de timingresten die anderen al uit die oeroude waarnemingen hadden losgepeuterd. Ze legde eroverheen wat ze vinden kon. Ze verbreedde elke foutmarge tot het pijn deed.
+
+Tegen het eind van de middag had ze drie proxy's, alle drie zwak, alle drie afzonderlijk weg te wuiven. Drie fluisteringen waren nog altijd maar fluisteringen. Maar ze fluisterden in dezelfde band. En om te toetsen of ze *in fase* fluisterden — of ze dezelfde stem waren die haar langs drie verschillende wegen bereikte — had ze een vierde weg nodig, en een anker: een lange schone meting, trouw bijgehouden, uit het deel van de wereld dat geen telescopen had en geen kleitabletten en dat toch de grootste oceaan op aarde was overgestoken, door de hemel te lezen.
+
+Ze zat daar een tijdje mee, de fles rum binnen handbereik en onaangeroerd. Toen ging ze haar gezicht wassen en trok een behoorlijk overhemd aan en liep de heuvel af, in de laatste hitte, naar de fale van Matua Ropati.
+
+Hij zat op het verhoogde platform in het aan alle kanten open huis, een zeer oude man met grote waardigheid geschikt op een pandanusmat, en hij keek haar het hele pad op aan zonder te doen alsof hij dat niet deed. Hij stond niet op. Opstaan was niet waar hij voor diende.
+
+'Teuila,' zei hij, toen ze haar sandalen had uitgeschoven en was gaan zitten, laag, zoals je voor een matai zat, zoals haar lichaam het zich herinnerde terwijl haar verstand ertegen protesteerde. Niet *Tuli*. De hele naam, de naam die de hare was in het gezang. 'De hemel heeft je dus laten gaan.'
+
+'Voor een middag.'
+
+'Een middag.' Hij draaide het woord om alsof hij het op beschadigingen inspecteerde. 'Je bent gisteravond niet gekomen. Je naam is gezegd. De naam van je grootmoeder is gezegd. Fa‘amanu, die jou leerde ze terug te zeggen, voordat jij besloot dat de machines van de palagi een beter gebruik waren voor een Va‘a-mond.' Hij liet dat liggen in de va tussen hen, de geladen tussenruimte, en verzachtte het niet. 'Dertig jaar zet ik jouw naam in de lijn voor mensen die vragen waar je gebleven bent. Het is lang om te antwoorden voor iemand die niet voor zichzelf antwoorden wil.'
+
+Tuli keek naar de mat. Ze was gekomen om deze man een gunst te vragen en hij ging haar het recht om te vragen laten verdienen, en ze merkte dat ze het hem niet kwalijk kon nemen, omdat hij gelijk had.
+
+'Ik weet het, Matua,' zei ze. 'Het spijt me. Ik ben te lang weggebleven.'
+
+'Dat ben je.' Hij aanvaardde de verontschuldiging zonder er korting op te geven. Toen, omdat hij streng was en niet wreed: 'Maar je bent gekomen. Het voorhoofd van Fa‘amanu is de heuvel af gekomen. Wat wil de hemel, dat hij je naar de mat van een oude man stuurt?'
+
+Dus vertelde ze het hem. Haperend eerst, in haar wetenschap, en toen — terwijl ze zag dat hij niet de woorden volgde maar *haar* — vond ze de vorm ervan in de enige termen die het konden dragen. Er is een licht, zei ze, van heel ver, ouder dan het eiland. Het draagt een merkteken. Het merkteken verandert, heel langzaam, zo langzaam dat één mensenleven het geheel niet zien kan, en om het te lezen moet ik mijn jaren leggen tegen iets wat veel langer is, iets wat waar is gehouden over vele levens heen. En ik heb gezocht in het ijs en in de boeken van de oude dode astronomen, en ze fluisteren, maar ze willen me niet vertellen waar in de omwenteling we zijn. En ik herinnerde me — zei ze, en stokte, en dwong zichzelf het te zeggen — ik herinnerde me de gafa. Dat u de namen waar houdt over dertig generaties zonder één beschreven bladzijde. Dat uw vaderen de sterrenpaden in het gezang hebben gehouden, onveranderd, duizend jaar en langer.
+
+De oude man was lang stil.
+
+'Je wilt de sterrenkennis,' zei hij. 'De fetū. De paden.'
+
+'Ik wil weten hoe u ze waar houdt,' zei ze. 'Over zo lang. Ik wil begrijpen hoe het niet wegrot.'
+
+En Matua Ropati, tulāfale, bewaarder van de fa‘alupega, keek nog een poos naar de laatste astronoom van Fenua, en toen deed hij het waar ze de heuvel voor was afgelopen, hopend en vrezend tegelijk — hij sloot zijn ogen, en hij begon voor te dragen.
+
+Ze had het als kind gehoord en had erdoorheen geslapen. Ze had het nog niet gehoord als wat ze nu was.
+
+De gafa kwam traag en enorm uit hem, naam die naam baarde, en zij luisterde ditmaal zoals ze naar data luisterde — naar structuur, naar architectuur — en de architectuur maakte haar kapot. Het was geen lijst. Een lijst zou in drie generaties gestorven zijn; één weggevallen naam en alles erna is verweesd. Elke naam kwam *geschoord* aan — met zijn paringen, zijn huwelijk, zijn plaats vastgezet tegen twee of drie andere, zodat als één schakel ooit faalde, de andere de vorm van het gat vasthielden. Het gezang vouwde op zichzelf terug, beurtzang, de stemmen van de jonge mannen die invielen vanuit de schaduwen van de fale, de regels opvingen, ze teruggooiden, zodat geen enkele mond de hele last droeg. Wanneer Ropati's geheugen een halve tel haperde, leverde een andere stem de naam, en hij nam hem terug, en de lijn ging door, zelfcorrigerend, redundant, *robuust*, duizend jaar doden marcherend in gelederen zo diep dat je er grote gaten in kon schieten en de gelederen zouden zich sluiten.
+
+Tuli zat op de mat met haar wetenschappershart dat hard sloeg, want ze hoorde een foutcorrigerende code. Geen metafoor ervoor. Het ding zelf. Redundantie, pariteit, gedistribueerde opslag, controlesom in beurtzang — elke truc die haar beschaving in de laatste tachtig jaar had uitgevonden om een getal ongeschonden door een ruisend kanaal te duwen, hadden deze mensen uitgevonden om hun voorouders door een ruisend millennium te duwen, en dat van hen had *gewerkt*, dat van hen werkte op dit moment, in de monden van tieners in het donker, de namen die onverrot aankwamen van vóór de eerste Europeaan deze oceaan zag.
+
+*Dit* was hoe je een meting duizend jaar waar hield. Niet door haar op te schrijven, waar ze zou verbranden of beschimmelen. Je bouwde haar in een levende structuur die zichzelf herstelde telkens wanneer ze werd uitgesproken, en je maakte van het uitspreken een plicht en een identiteit, zodat de lijn zou vechten om haar te blijven zeggen lang nadat de redenen vergeten waren.
+
+Het gezang bereikte de sterrenpaden. Ze hoorde de opkomstpunten genoemd worden, de wegen waarop de grote kano's hadden gestuurd — een hemelklok, geijkt door tienduizend oversteken, gevat in dezelfde zelfcorrigerende structuur als de namen van de doden, en even waar. Dit was haar vierde weg en haar anker ineen.
+
+Toen het gedaan was — toen Ropati zijn ogen opende en de jonge stemmen stil werden en het rif terugkeerde in de stilte — keek hij haar aan en zag dat er iets was gebeurd in haar gezicht.
+
+'Je hebt het gehoord,' zei hij.
+
+'Ik heb het gehoord, Matua. Zoals ik het veertig jaar geleden had moeten horen.'
+
+Hij knikte, eenmaal, en iets in de va tussen hen ontspande, niet helemaal, maar genoeg. 'Kom terug,' zei hij. 'Jij hebt dingen te leren en ik heb niet veel tijd om ze te onderwijzen. Dat is een slechte grap waar wij tweeën samen in staan. Breng de vragen van je machine mee. We zullen zien wat de oude lijn zich herinnert.'
+
+Ze liep in het donker de heuvel weer op met de sterrenpaden nog draaiend in haar hoofd, en ze ging niet naar bed. Ze ging naar de console, en ze nam de opkomstpunten uit het gezang — gedateerd, gefaseerd, verankerd over eeuwen — en ze voegde ze bij het ijs en de eclipsen en de decennia van de trage buiging van de Metronoom, alles gedwongen op één lange as die terugreikte tot voorbij het radiotijdperk, voorbij de telescoop, voorbij het schrift.
+
+Ze legde ze over elkaar. Een ogenblik was het scherm alleen maar een puinhoop, vier rafelige fragmenten op vier verschillende schalen, en haar hart zonk. Toen faseerde ze ze — verankerde het geheel op de sterrenklok, de ene schone duizendjarige meting die ze had, en liet de andere in hun juiste plaatsen ertegenaan schuiven.
+
+Ze vielen op één lijn.
+
+Niet volmaakt. Niet zonder speling. Maar de zwakke fluistering van het ijs en het residu van de dode astronomen en haar eigen decennia van buiging vielen alle op *dezelfde kromme*, elk fragment een andere boog van één enorme cirkel, en waar ze elkaar overlapten stemden ze overeen, en waar ze niet overlapten verlengden ze elkaar, zoals de geschoorde namen in het gezang zich over de gaten heen strekten.
+
+Tuli leunde achterover in het ademende donker van de lege hal en keek naar tienduizend jaar van één samenhangend signaal, bijeengezet uit ijs en klei en de monden van de doden, en ze zei, hardop, tegen niemand, met een stem die vreemd was geworden:
+
+'Het is geen ruis.'
+
+Ergens voorbij het galactisch centrum had een vuurtoren zijn licht met opzet zitten buigen, en zij had zojuist, voor het eerst, ver genoeg langs de golf gekeken om het zeker te weten. Nu hoefde ze hem alleen nog te leren lezen.
+
+## Hoofdstuk 5 — Tienduizend jaar
+
+De truc was, uiteindelijk, om de klok niet meer te vertrouwen.
+
+De modulatie waar ze op joeg leefde niet in de klok. Ze leefde in de trage draaiing van het vlak van het licht bij aankomst, en die draaiing veranderde op een schaal zo lang dat geen klok, gebouwd door iets met een hartslag, haar kon vasthouden. Om haar te lezen moest ze de seconde loslaten en in eeuwen denken, en om in eeuwen te denken moest ze de klokken van anderen lenen — klokken die liepen in ijs en steen en uit het hoofd geleerde spraak. Vier klokken. Geen ervan op de seconde nauwkeurig. Alle vier samen op de eeuw nauwkeurig.
+
+Wat ze zichzelf tot vanavond niet had toegestaan, was het hebzuchtige: niet alleen het signaal bevestigen, maar het eruit trekken. De reeks er in zijn geheel uit halen. Ze schreef het laatste van de code staande, omdat zitten als aanmatiging voelde. De eerste run mislukte — een tekenfout in de precessiecorrectie, en ze was bijna opgelucht; het universum dat zijn onverschilligheid weer liet gelden was een vertrouwde troost. Ze herstelde hem en draaide hem opnieuw.
+
+De grafiek tekende zichzelf over het scherm in een stotteren van groen.
+
+Een ogenblik begreep ze niet waar ze naar keek, want ze had zich schrap gezet voor een kromme — het soort ding dat een ster doet. Dit was geen kromme. Dit waren treden. De polarisatiehoek hield stand, en hield stand, en dan verschoof hij — een schone overgang, een nieuw plateau dat zijn eigen spanne aanhield, dan weer een verschuiving. De hoek varieerde niet. Hij werd *gezet*. Op één stand gehouden, dan verzet naar een andere, zoals een hand een steen neerlegt en hem laat liggen en terugkomt en de volgende neerlegt.
+
+Discreet. Gekwantiseerd. Geen golf. Een reeks waarden.
+
+Ze telde de plateaus. De gemiddelde breedte kwam uit op honderdelf komma zes jaar, met een spreiding zo krap dat haar mond er droog van werd — krap genoeg dat de breedte zelf duidelijk bedoeld was, een klok binnen de klok, zodat iedereen stroomafwaarts zou weten waar de ene eenheid eindigde en de volgende begon.
+
+Honderdtwaalf jaar per symbool. En de symbolen waren niet willekeurig. Ze draaide de vlakke, eerlijke statistiek die elke hoop die ze ooit had gehad had gedood, en de reeks kwam gestructureerd terug — niet-willekeurig met een betrouwbaarheid die elke gewone discussie beëindigd zou hebben voordat ze begon.
+
+Ze stond in het zoemen en keek ernaar. Ruwweg honderd symbolen, elk een plateau van een eeuw breed, het geheel terugreikend in de orde van tienduizend jaar en doorlopend tot nu, tot het licht dat op dit moment op de schotels viel, tot deze kamer.
+
+Tienduizend jaar neergelegde steen.
+
+Ze had dagen geleden in haar aantekeningen het woord *foneem* gebruikt, als plaatshouder, en van plan geweest het te schrappen. Ze schrapte het nu niet. Niets fysisch hield een waarde een eeuw lang loodrecht stil en stapte dan schoon naar de volgende en hield die vast. Vasthouden was duur. Vasthouden was arbeid. Ergens daarbuiten betaalde iets, symbool na symbool, de prijs van ondubbelzinnig zijn, en het betaalde al sinds voordat de eerste stad op aarde een muur had.
+
+Ze keek niet naar een ster. Ze keek naar iemands zorg.
+
+Ze ging alsnog zitten, omdat haar benen de beslissing voor haar hadden genomen. Toen belde ze Marcus. Het was ook bij hem ver na middernacht. Hij nam op met beeld, zijn leesbril omhooggeschoven in grijs haar, een boek opengeslagen omgekeerd op zijn borst.
+
+'Marcus. Ik wil dat je tien minuten natuurkundige bent en daarna mag je weer gaan slapen en besluiten dat ik gek geworden ben.'
+
+Hij keek haar goed aan. Wat hij zag deed hem rechtop komen, en het boek gleed op de vloer, en hij reikte er niet naar. 'Oké,' zei hij. 'Ik ben wakker. Kom maar.'
+
+Ze vertelde het hem. Ze was zo mogelijk kouder dan de data rechtvaardigde, want ze had nodig dat hij het probeerde te breken, niet dat hij werd meegesleept. Ze gaf hem de vier klokken en de herbemonstering en de tekenfout die ze zelf had gevangen en de breedte van de plateaus en de vlakke statistiek, en zag zijn gezicht jagen op de saaie verklaring en die niet vinden.
+
+'Instrumenteel,' zei hij. 'De feed, iets traag thermisch—'
+
+'Met een periode van honderdtwaalf jaar? De ontvanger is negen jaar oud.'
+
+'Ionosfeer. Faradayrotatie—'
+
+'Draait het snel en vuil en willekeurig. Dit is traag en schoon en het *stapt*. De ionosfeer houdt geen waarde een eeuw vast om dan te besluiten te verschuiven. Niets doet dat. Dat is nou juist het hele punt.'
+
+Hij zweeg. Toen hij terugkwam, had iets banger de plaats van de zachtheid ingenomen.
+
+'Als het echt is,' zei hij langzaam, 'kun je er niet op blijven zitten. Het is niet van jou. Je laat het tijdstempelen en door getuigen bevestigen en je krijgt het die kamer uit. Zodra het Consortium begrijpt wat er op die array staat, houdt Fenua op een ontmanteling te zijn en wordt het een actief. Het bestuur wil het in een kluis in Genève met hun naam op de deur en jou bedankt in een voetnoot. Ga *nu* naar buiten, nu het nog van jou is om weg te geven.'
+
+Het was goed advies, precies het advies dat zij hem gegeven zou hebben. Ze zat ermee en merkte dat ze het niet wilde, en dwong zichzelf het willen te onderzoeken.
+
+'Als ik vanavond naar buiten treed,' zei ze, 'wat heb ik dan? Honderd plateaus en een claim. Bewijs dat iemand gesproken heeft en geen idee wat er gezegd is. En op het moment dat het de keten in gaat, gaat het naar mensen met meer machines en meer geld en meer tijd dan ik heb, en zij zullen het kraken — uiteindelijk, over tien jaar, twintig. En ik zal dood zijn, of bijna, en ik zal het enige wat ik ooit gevonden heb dat ertoe deed hebben weggegeven, op precies het moment vóór het iets betekende, zodat het *veilig* zou zijn.' Ze keek naar het donker achter het raam. 'Ik wil het begrijpen voordat ik het loslaat. Niet bezitten. Begrijpen. Eén symbool, zodat ik, wanneer ik het overdraag, een *woord* overdraag en geen gerucht.'
+
+Marcus was lange tijd stil. 'Beloof me dat je een back-up maakt,' zei hij ten slotte. 'Van het eiland af. Vanavond. Beloof me dat de boodschap jou overleeft, zelfs als niets anders dat doet.'
+
+'Ik beloof het,' zei ze, en het gemak waarmee ze het meende joeg haar meer angst aan dan de data had gedaan, want het betekende dat een deel van haar al om haar eigen afwezigheid heen was gaan plannen.
+
+'Hou het dan vast,' zei hij. 'God sta je bij. Hou het vast. En bel me. Elke dag, Tuli. Ik meen het.'
+
+Ze maakte de back-up ook echt — drie kopieën, één naar een versleutelde opslag in Auckland — voordat ze zichzelf naar de grafiek terug liet gaan. Toen deed ze het ding dat ze had opgespaard.
+
+Ze draaide de reeks af. Niet geanalyseerd — *afgespeeld*. Ze beeldde de hoek van elk foneem af op een waarde en liet de reconstructie over het scherm lopen, tienduizend jaar die in negentig seconden voorbijrolden, de neergelegde stenen ervan die zich één voor één neerzetten. Toen draaide ze hem nog eens, langzamer, en keek niet naar de waarden maar naar de *vorm* — de manier waarop de symbolen zich groepeerden, de redundantie, de aanroep en zijn antwoord.
+
+Ze had verwacht, als ze al iets had verwacht, een lijst. Feiten, coördinaten, het periodiek systeem in een of ander universeel handschrift. Een schreeuw met informatie erin.
+
+Het was geen lijst. Lijsten hadden deze vorm niet. Dit had de vorm van een *zin*. Hij opende, hij bouwde op, hij keerde op zichzelf terug en verwees naar zijn eigen begin, hij droeg één lange lijn van bedoeling van zijn eerste neergelegde steen tot zijn laatste. Iemand was niet aan het opzeggen. Iemand was aan het *zeggen*.
+
+En het einde ervan — de nieuwste fonemen, die nog aankwamen — het einde ervan steeg. Ze zag het en vertrouwde het niet en draaide het opnieuw en zag het opnieuw. De laatste symbolen klommen, een stijgende cadans, de intonatie van een stem die omhooggaat aan het slot van een regel, zoals elke menselijke stem in elke taal die ze ooit gehoord had omhooggaat wanneer ze is opgehouden je iets te vertellen en begonnen is te vragen.
+
+Het was geen uitzending.
+
+Het was een vraag.
+
+En hij was niet af. Het laatste foneem werd nog vastgehouden — daarbuiten, nu, vanavond, een steen zo groot als een eeuw, neergelegd en nog niet opgetild — en Tuli zat heel stil in het zoemende donker en begreep dat ergens een mond die zij nooit zou zien haar op dit exacte ogenblik, midden in de beweging, iets aan het vragen was, en het nog honderd jaar zou blijven vragen, lang nadat zij was opgehouden wie dan ook te zijn.
+
+## Hoofdstuk 6 — De Tragen
+
+Drie dagen lang probeerde ze de vraag niet te lezen. Ze probeerde de vrager te lezen. Ze hield zichzelf voor dat het de gedisciplineerde volgorde van werken was. De waarheid was eenvoudiger: ze was bang voor de betekenis en niet bang voor de wiskunde, en dus ging ze waar de angst het dunst was.
+
+Honderdelf komma zes jaar per symbool. Ze maakte de rekensom die ze had zitten ontwijken, op de betonnen stoep voor de controlekamer in het grijs vóór de hitte. Als een foneem honderdtwaalf jaar duurde, dan liep een woord op tot vier, vijf eeuwen, en een zin tot duizend jaar en meer. Ze probeerde het menselijk te maken en het wilde niet menselijk worden. Spraak zat, voor een mens, op de adem — een lettergreep zo lang als één uitademing. Dat was het lichaam dat het tempo zette.
+
+Dus keerde ze het om. Als deze wezens spraken op de snelheid waarvoor ze gebouwd waren, dan was één hartslag van hen een eeuw van de aarde. Een mensenleven, haar eigen achtenvijftig jaar, alles bij elkaar — de eilanden en het weggaan en Marcus en de grootmoeder in de grond — was nog geen volle slag van het wezen dat sprak. Het was minder dan de pauze die een mens laat vallen voor het volgende woord.
+
+Ze zat ermee tot de mok ondrinkbaar was, en merkte dat ze niet ontzet was. Ze was — het enige woord dat kwam was het oude kerkwoord — in *ontzag*, in de exacte en verschrikkelijke oorspronkelijke zin waar de vrees in meegevouwen zit.
+
+Ze dachten dwars door de diepe tijd. Niet metaforisch. Hun gedachten hadden de lengte van beschavingen. Wat ze ook waren — ze had geen beeld en weigerde er een te verzinnen, ze zou ze niet beledigen met een gezicht — ze leefden op een tempo waarop de ijstijden weer waren, en een soort kon opstaan, radio leren vangen en weer sterven binnen het bestek van één van hun uitgesproken bijzinnen. En de mensheid had de staart gevangen. Alleen de staart. Ze spraken al voordat hier iemand was om te luisteren, en zij — Teuila Va‘a, op een station dat voor vernietiging op de rol stond — had toevallig het ene smalle instrument dat het zien kon op de juiste dode ster gericht, in de laatste paar jaren voordat ze hem uitzetten.
+
+Ze had zich klein moeten voelen. Maar het was geen kleinheid die ze die ochtend op de stoep voelde. Het was het tegendeel en het vreemdere: dat iets op de schaal van ijs en continenten de vorm van zijn aandacht had gebogen naar het *zeggen*, naar het geduldige, kostbare werk van verstaan worden, en betekenis van dat soort gaf er niet om hoe klein je was. Ze gaf er alleen om of je luisterde. En zij had geluisterd. Voor één keer in de hele onverschillige hemel had iets gesproken, en zij was wakker geweest.
+
+Ze ging naar binnen om te werken, gelukkiger dan ze in tien jaar geweest was, en dat is het optekenen waard, vanwege wat erna kwam.
+
+---
+
+Het kwam vier dagen later, in de middag, en het kondigde zich niet aan.
+
+Ze zat aan de terminal de redundantie uit te lijnen — de aanroepsymbolen te paren met hun antwoordsymbolen zoals Ropati's gezang de naam van een vader paarde aan het antwoord van de kamer. Haar handen lagen op de toetsen. En toen waren haar handen het minste van haar, want er zat een vuist in haar borst.
+
+Dat was het enige woord ervoor, omdat het exact was. Geen pijn, eerst, een *aanwezigheid* — alsof iets onder het borstbeen naar binnen had gereikt en langzaam, weloverwogen, ongeïnteresseerd een vuist aan het maken was, en elke slag erlangs geperst moest worden. De kamer bleef volmaakt stil en werd grijs aan de randen. Haar linkerarm was verkeerd. Ze had tijd om te denken, met een helderheid die haar naderhand ontzette, *de back-up is al gemaakt, goed zo,* voordat ze op de vloer lag en zich niet herinnerde daar te zijn aangekomen.
+
+Ze raakte niet helemaal buiten bewustzijn. Dat was de genade en de gruwel ervan — ze bleef net aanwezig genoeg om bang te zijn, liggend op het koele beton, luisterend naar haar eigen hart dat zijn ongelijkmatige, weinig overtuigende pleidooi voor doorgaan hield. Ze telde het, want tellen was waar ze voor diende. Het telde niet goed. Het strompelde, haakte, joeg een klont snelle ondiepe slagen door en dan een lange zieke pauze, en in die pauze begreep ze met heel haar lichaam wat ze de hele week alleen met haar rekenwerk had begrepen: dat een hartslag een klein ding is, een kort ding, en het volledige fundament waarop een mens gebouwd is, en dat het hare onderhandelbaar was.
+
+Het liet haar uiteindelijk los. Ze bleef nog een poos liggen, vertrouwde het niet, en stond toen op omdat er niemand was om voor haar op te staan. Ze heeft het zichzelf nooit helemaal vergeven dat ze eerst naar de terminal ging, nog wankelend, om te bevestigen dat de back-up voltooid was. Pas daarna riep ze de ene kliniek van het atol op.
+
+De kliniek was twee kamers en een generator en een jonge waarnemend arts uit Suva die dokter Ravai heette. Hij draaide de ECG-strook twee keer, en trok met zijn pen het spoor na van wat er mis was, de tussenruimten die strompelden en haakten en joegen en pauzeerden, en zij keek naar haar eigen hart, uitgeschreven als een lijn op papier, en dacht, onstuitbaar, aan de plateaus op haar scherm, de neergelegde stenen, de slag binnen de slag. Alles wat het universum haar de laatste tijd vertelde, vertelde het haar in de taal van timing. 'Dit is geen waarschuwing,' zei Ravai, en gunde haar de waardigheid van de rechtstreekse versie omdat ze erom gevraagd had. 'Dit is de gebeurtenis zelf. U hebt haar gehad op de vloer van uw station, met niemand erbij. Dat u in mijn stoel zit is geluk, en geluk wordt niet verlengd.'
+
+Hij gaf het een naam. De naam deed er minder toe dan de vorm ervan: iets structureels en voortschrijdends in de spier en haar bedrading, een defect dat niet zou helen en hier niet te verhelpen was — een aftelklok waarvan zij de wijzerplaat niet lezen kon.
+
+'Hoe lang,' zei ze, omdat ze was wat ze was.
+
+Hij beledigde haar niet met *dat is onmogelijk te zeggen.* 'Als u morgen naar Auckland gaat, en ze nemen u aan, en het verloopt goed — jaren, misschien. Als u blijft—' Hij keek naar haar, en naar de strook. 'Maanden. Het jaar zou ik u niet beloven.'
+
+Maanden.
+
+Ze zat met het woord en het wilde niet in haar mond passen. Ze had de week doorgebracht met haar hele geest af te stemmen op het tempo van iets wat honderd jaar aan één klank besteedde, en nu boog hetzelfde universum zich dicht naar haar toe en legde, loodrecht stil, zonder wreedheid en daardoor met een wreedheid die niet te dragen was, zijn eigen steen neer: *maanden.* Het foneem dat zij vanavond vasthielden zouden ze nog altijd vasthouden, onveranderd, in het jaar dat haar achternichtje Lani haar leeftijd had, in elk jaar van elk nog niet begonnen leven van iedereen van wie Tuli ooit had gehouden. En Tuli zou niet horen hoe het werd opgetild. Ze zou niet horen hoe het volgende begon.
+
+'Ik zal over Auckland nadenken,' zei ze, en ze wisten allebei dat het een nee was.
+
+---
+
+Ze belde Marcus die avond. Ze had zich voorgenomen voorzichtig te zijn, de koude heldere stem die de symptomen van een andere vrouw beschrijft. Ze kwam tot *ik ben vandaag bij een dokter geweest* en toen kwam ze een tijdje niet verder, en hij wachtte, en toen ze weer spreken kon vertelde ze hem de ware versie. De vloer. De vuist. De strook in het vensterlicht en het woord *maanden.*
+
+'Kom naar huis,' zei hij, toen hij het kon. 'Kom naar Auckland. Laat ze—'
+
+'En de boodschap doen vanuit een ziekenhuisbed met slangen in me en andermans handen aan de array? Nee. Ik heb liever de maanden en de boodschap dan de jaren en een voetnoot.'
+
+'Dat is niet—' Hij hield op. Hij had nooit tegen haar rekenwerk op gekund. 'Ik ben niet bang om de boodschap te verliezen. Ik wil dat je me dat hoort zeggen. Het kan me schelen dat jij weer op die vloer zult liggen en dat ik een telefoongesprek en elf seconden ver weg ben.'
+
+'Ik weet het,' zei ze. 'Ik weet dat het je kan schelen.' En toen, omdat hij de enige levende mens was voor wie ze geen toneel wilde spelen, gaf ze hem het ding onder al het rekenwerk, het ding dat ze zelfs tegen zichzelf niet had gezegd tot het zeggen het waar maakte.
+
+'Ik ben bang, Marcus.'
+
+Hij werd stil. Ze had het in dertig jaar niet tegen hem gezegd. Ze wist niet zeker of ze het ooit tegen iemand had gezegd.
+
+'Niet voor hen. Dat is het vreemde. Ze hebben tienduizend jaar geduld gehad met een soort die pas vorige week dinsdag is gaan luisteren. Ik ben niet bang voor de Tragen.' Haar stem hield. Ze liet hem houden. 'Ik ben bang om er middenin te sterven. Ik heb het ene ding gevonden dat alles overleeft, en het gaat mij overleven voordat ik het gelezen heb. Ik ben bang het half gehoord achter te laten.'
+
+De zee ging door tegen het rif, de lange trage zin ervan.
+
+'Dan lezen we het,' zei Marcus, heel zacht, en het *we* ging in haar als speling in de aftelklok. 'Wat er nog over is. Hoe lang dat ook is. Je bent niet meer alleen. We lezen de tragen samen, zo lang als jij hebt.'
+
+*De Tragen.* Hij had haar woord genomen — ze had het één keer gebruikt, vanavond, zonder het te besluiten — en het haar teruggegeven met hoofdletters erin, er hun naam van gemaakt, en ze merkte dat ze eindelijk huilde, niet om de diagnose en zelfs niet om de jaren, maar omdat iets op de schaal van ijs zich naar het zeggen had toegebogen, en iets op de schaal van maanden was uitgekozen om het te horen, en er was geen klok in het universum snel genoeg of traag genoeg om die twee te laten passen.
+
+'De Tragen,' stemde ze in, het donker in, het zoemen in. 'Goed. Ja. Samen.' En ze was bang, en ze zei het, en ze bleef luisteren.
