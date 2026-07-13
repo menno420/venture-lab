@@ -56,6 +56,21 @@ jobs:
       - name: owner-click-queue-kit parse/derive/lint tests
         working-directory: candidates/owner-click-queue-kit
         run: python3 -m unittest test_ocq -v
+  owner-gate-lint-advisory:
+    # ADVISORY ONLY — never a required gate. The step is
+    # continue-on-error, so a red lint flags without blocking unrelated
+    # work (same shape as ledger-drift-advisory below). It runs the
+    # strict OCQK-ported linter over the packet §7 OWNER-GATE blocks +
+    # keyword-map ⚑ OWNER conflicts and exits 1 on any malformed gate —
+    # including date-SHAPED but impossible dates (month 13, day 32)
+    # that the tolerant derive script accepts. Contract + checks:
+    # the scripts/lint_owner_gates.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: owner-gate lint advisory (stdlib-only, system python3)
+        continue-on-error: true
+        run: python3 scripts/lint_owner_gates.py
   ledger-drift-advisory:
     # ADVISORY ONLY — never a required gate. Double-guarded against
     # ever turning red: the script exits 0 on EVERY path (in-sync,

@@ -73,7 +73,13 @@ clean title existed.)
 
 - [ ] Length class: **planned middle-grade novel (~30k–40k words)** — MG
       convention; plan, not measurement; no manuscript exists. This is the
-      packet's honest biggest gap.
+      packet's honest biggest gap. **Amended 2026-07-13 (write-slice, PR
+      #155):** re-planned as a ~15k–16k short-MG series opener per the
+      write-brief 2026-07-13 (repo book-parity band; delivered honest
+      `wc -w` = 15,173 on `candidates/middle-grade/the-halfway-ferry/en/
+      the-halfway-ferry.md`); an expansion pass toward the MG-convention
+      band remains possible as a follow-up slice (⚑ owner call). Delta
+      flagged in the title's DECISIONS.md, the session card, and the PR.
 - [ ] Category comps: the series-driven MG fantasy shelf is the strongest
       series market in publishing — e.g. B.B. Alston, *Amari and the Night
       Brothers* — "an exhilarating debut middle grade fantasy, the first in
