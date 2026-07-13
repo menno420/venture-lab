@@ -147,6 +147,11 @@ why: verified 2026-07-12: #51 OPEN since 2026-07-11T18:24Z; #57 OPEN with the do
 done-when: both PRs terminal, or their ⚑ rows verified fresh at every heartbeat.
 
 ## ORDER 008 · 2026-07-13T00:46:54Z · status: new
+priority: P0
+do: execute the owner's 2026-07-13 night-run DIRECT ORDER, carried verbatim below, all night.
+why: top-precedence owner turn (owner, 2026-07-13, night run) — landed in the inbox verbatim per the order's own first line.
+done-when: the morning tally (~06:00Z) is posted in heartbeat + outbox per the order's MORNING clause.
+
 DIRECT ORDER — VENTURE LAB (owner, 2026-07-13, night run). Land this verbatim in your inbox
 (top-precedence owner turn), then execute all night.
 
