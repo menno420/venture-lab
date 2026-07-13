@@ -429,7 +429,35 @@ Ash Carrow, of the Carrows on the chapel wall, took the brass key out from under
 
 "Founders' Day is in nine days," said Gwen Okafor, to nobody in particular, in the tone of a woman signing something. "The exhibition cases go into the reading room Friday. He'll want his answer before the collection goes on show, and we will want ours first." She stood, and straightened her cardigan, Special Collections again to the beads of her glasses chain. "Wednesday, then. Digitization day. I shall want that register back on my desk by eight, Miss Vane, and I have absolutely no idea what any of you do with your Thursdays."
 
-# Chapter 10 — The Map Room
+# Chapter 10 — Exeat
+
+Between the ghost page and the map room came the exeat weekend, marked in the school calendar for a month, immovable: two nights at home, required, the school scrubbed of students while the staff readied Founders' Day. Iris rode the coach north on Friday with her forehead on the glass and the whole Ladder climbing round and round behind her eyes, and got off it into her mother's arms outside a shop with one window, and stood there being held on the pavement for slightly longer than either of them acknowledged.
+
+Vane & Daughter, Repairs & Fine Bindings, was eleven feet wide. It smelled of leather and dust and the vinegar ghost of glue, and stepping into it was like stepping into the west stacks turned inside out — the same air, but warm, and lit yellow, and hers without conditions. The bus timetable was still pinned to the workshop wall. The kettle still had to be unplugged to run the laminator. Her mother still worked until eight because the light over the bench was better than the light in the flat, and Iris, that first evening, sat on her old stool at the bench's end and pared leather for joints until her shoulders came down from around her ears, and understood that she had been holding them there since September.
+
+They talked shop, because in her family shop was how you said everything else. Her mother asked about the library sideways — what paste, what press, who trained the librarian — and nodded at the answers the way she'd nod at a sound spine. Iris told her what she could: the bequest, the mending desk, the valuation with its cotton gloves and trestles. Not the pencil. Not the flyleaf with *Yes. — I.* on it, which was the one piece of work she'd ever done that her mother must never assess.
+
+"They know what they've got, at least," her mother said. "Now there's an auction house in it. Annotated copies — twenty years ago you couldn't give them away; a written-in book was a spoiled book. Now the association trade is the only part of the business with a pulse. Provenance, marginalia, the human hand. Punters used to pay for clean. These days they pay for *touched*." She tapped the bench with the paring knife, driest voice in England. "The hand is the value, Iris. Took the trade three hundred years to notice."
+
+Iris kept her eyes on her leather and filed that where she filed everything now, in the case-seven cold at the back of her head.
+
+Saturday brought the framing job in: a customer's sampler, Victorian, *THOU GOD SEEST ME* in a nine-year-old's cross-stitch, its oak frame water-stained and its backing gone soft. Iris watched her mother lay it face down on baize — the reflex of it, the tenderness that was really just competence compounded over decades — and slit the amber paper tape along one edge, and lift the backing panel out whole.
+
+"People think framing's carpentry," her mother said, to the sampler, or to her. "It's binding. A frame is a book with one page. Boards, backing, sealed spine — you're not hanging a picture, you're *casing* it. And nobody" — she eased the sampler off its old acidic mount, and underneath it, flat as a pressed leaf, lay a folded paper: a butcher's bill, 1893, slipped behind the stitching by some framer to pack the depth — "*nobody* ever looks inside a frame. First place a binder would think of. Last place anyone else does. I've found wills in frames. Love letters. A ten-bob note, once, and the customer cried." She held the butcher's bill up to the window light, pleased as a magpie. "Every frame in every house in this country has a back, and not one soul in a thousand has ever opened one."
+
+That night Iris lay in her own bed, in the room the size of the muniment stair, and did the arithmetic she had been refusing to do in front of witnesses. The scholarship review. *In the light of conduct and circumstances.* Eleven places cut to four. Below her the shop ticked and settled, eleven feet wide, one window, her mother's whole life bound in one thin case that a bad winter could break — and her mother had signed the Aldercote forms anyway, had sat at this kitchen table reading the interview letter twice and saying, *well then, they're not fools after all.* What it would do to her if it all came home undone — not the money, the *verdict*; the school's gravity deciding, the way it had decided about a girl in 1994, that people from shops this size were what you scraped off the record —
+
+She turned over and made herself think about pencils until she slept.
+
+Sunday evening, on the coach south, her phone buzzed against her ribs: Priya, from the one laptop that never touched the school's network, relaying three lines from Gwen.
+
+*Valuation resumes Mon. Case nine, shelf three, is on this week's schedule — all of it. Wednesday is digitization day. Bring your smallest knife.*
+
+Iris put the phone away and watched the dark fields run backwards, and found that her shoulders were down and her head was clear and the arithmetic had finished itself somewhere north of the last service station. The frame is a book with one page. The hand is the value. And nobody who mattered had ever yet opened the back of anything her family cased shut.
+
+They were going to out-read him. It was the family trade.
+
+# Chapter 11 — The Map Room
 
 The muniment stair smelled of cold stone and mouse, and Ash's torch found the committee's 1961 handiwork exactly where the drawings promised: a plain oak door behind the map presses, its lock the same pattern as the grille's old one, because the Governors' Building Committee had bought its ironmongery in one job lot and never imagined a world that would need to know.
 
@@ -457,7 +485,7 @@ Nobody said anything for a moment. Above their heads, through the floor, the lib
 
 "Then we manufacture one," said Gwen Okafor slowly, "in the open, in the light, on the record — because the age of doing things quietly at this school is over; quietly is *his* country." She was watching Iris with an expression that had stopped being a librarian's. "Condition survey of library fixtures and historic fittings, prior to Founders' Day. Signed authorization, Special Collections. It is, after all" — the dry papery voice, one last time, pure Custos — "exactly what I would ask my mender to do."
 
-# Chapter 11 — The Price of Quiet
+# Chapter 12 — The Price of Quiet
 
 Iris took the founder's rule off the wall at ten o'clock the next morning, in front of the camera, wearing cotton gloves, from a stepladder held by the duty prefect.
 
@@ -496,3 +524,73 @@ She made it as far as the north bay before her hands started shaking, and that w
 Gwen said nothing at all just then. But on Sunday she drove ninety minutes to a market town two counties over, to a narrow shop with *CRAY & DAUGHTERS — SECONDHAND & ANTIQUARIAN* over the window, and was gone a long time, and came back with her eyes bad and her spine like a lance, carrying Marion Cray's answer, which was four words long, written — in pencil — on the shop's own bookmark:
 
 *Save me a margin.*
+
+# Chapter 13 — Founders' Day
+
+Founders' Day at Aldercote began with chapel and ended with sherry, and in between, this year, came the unveiling of the Verrall Renewal Project: the reading room cleared and polished, six glass exhibition cases down its spine, and everyone who mattered to the school standing in it by eleven — governors with their chains of little ribbons, parents, Old Aldercotians, a reporter from the county paper being handled by the development office, and at the front, between the Head and the Chair of Governors, Dr. Everard Sim in his best suit, presiding over nine bookcases' worth of sleeping paper like a man finally being paid.
+
+The Society had spent three days arranging the room without appearing to arrange anything.
+
+The exhibition labels were Special Collections work; nobody had thought to take that duty from Gwen, and so it was Gwen who had chosen, for the centerpiece case, the jewel of the bequest: *Goblin Market and Other Poems*, 1862, first edition, open — her label said *to the poem's celebrated conclusion* — at *there is no friend like a sister*, with sixty years of pencil running down its margins in plain view of every eye in the room. Ash had arrived an hour early with his father and a archive box, formally presented to the Chair of Governors on behalf of the Carrow family — *my great-uncle's governors' papers, Lady Harwood; the family felt the school's records should be complete; you'll find the 1994 minutes particularly full* — with one page flagged in yellow, because Lady Harwood was known to read what was put in her hands. Priya's photography had made the exhibition boards themselves: enormous, beautiful enlargements of the marginalia, *1966* blown up to the size of a window, hands arguing about love and pride in silver pencil six feet tall. Dr. Sim had approved the boards himself, from thumbnails. It had apparently not occurred to him that nobody reads anything as carefully as they read it at six feet tall.
+
+And at eight minutes past eleven, when the Head asked whether the Chair would say a few words, a woman none of the staff recognized came in quietly at the back, on Gwen Okafor's arm, in a good grey coat, with a bookseller's flat parcel under one arm, and stood where she could see case seven's little green book lying open under glass, and looked at it for a long time.
+
+Lady Harwood spoke about continuity. Dr. Sim spoke about heritage, and expert eyes at last, and the future of the scholarship programme, and was applauded.
+
+"Before we open the cases," said Gwen Okafor then, stepping forward with her reading glasses down, in the carrying, unhurried voice of a woman who has rehearsed a sentence for thirty-two years, "Special Collections has one small addition to the provenance record."
+
+It went, afterward, into county legend, and no two people told it alike; but it went, in fact, like this:
+
+Gwen asked the senior partner from the auction house — a brisk grey woman who had spent three weeks with her hands on the bequest — a single technical question: whether any volume of the Verrall Bequest had ever borne, or could ever bear, the school's own bookplate. And the partner, puzzled, answered as anyone competent must: impossible; the bequest was never school property in that sense; every volume carried Warden Verrall's armorial plate, 1912, without exception; it was the collection's defining provenance feature. Gwen thanked her, and handed Lady Harwood a photocopied incident report, dated 1994, and invited her to read aloud its identification of a recovered stolen volume.
+
+*Positively identified by the school bookplate inside the front board.*
+
+"The volume alleged to have been stolen," Gwen said, into the beginning of the noise, "is in case three, where it has stood since 1912, and Ms. Gantry will confirm its plate, its pressmark, and its unbroken shelf history. The book recovered from a scholar's room in 1994 was a decoy, described by the one man in the school who never had to show it to an expert, because he wrote the report identifying it. The scholar's name was Marion Cray. She lost a scholarship, a First, and thirty years. She is standing at the back of this room."
+
+Every head turned. Marion Cray, bookseller, of Cray & Daughters, came down the middle of the reading room she had been marched out of at seventeen, and it was so quiet you could hear the radiators. She didn't look at Dr. Sim at all. She put her flat parcel on the table in front of Lady Harwood and said, in a shop voice, pleasant and level: "You'll want the originals of what's in there verified. The bursary's own photocopier, 1994; the initials on every page are legible. There's also a letter I was prevented from sending you. It's addressed to the Chair of Governors, so it's yours; it's only twenty-two years late — forgive me, thirty-two; you lose count." And then she did look at Sim, once, the way you check a price. "Hello, Everard. You've gone grey."
+
+What Dr. Sim should have done — Iris understood this later, watching it back in memory the way Priya watched raking-light composites — was nothing. Deny knowledge, demand process, retreat into committees, where he had won every game for three decades. What he did instead, with the county reporter's phone already up, was reach across Lady Harwood, take the packet, and say: "This is not the venue. These documents are unverified — students have been *writing in the books*, I have photographic proof of recent forgery in these very margins, planted this term—"
+
+"How would you know they're recent?" said Iris Vane.
+
+She hadn't planned to speak at all; that wasn't the plan; the plan was grown-ups from here. But the question came out of her in the flat shop voice her mother used across the counter, and it landed in the silence like a coin, and Dr. Sim looked at her and made his second mistake, which was to answer. "The project's photography—"
+
+"Photographs date nothing," Iris said. "You can't date graphite from a photograph. You'd have to have read the margins yourself, over time — to know what was there before and what came after. When exactly did you read them, Dr. Sim? Before you cut the page out of the accession register, or after?" And into whatever his face was doing: "Nobody could read that page, could they. It was cut out close to the gutter in 1994. We read it anyway. Paper remembers. It's all it does."
+
+Priya's last exhibition board was already turning on its easel — she had built it for this moment and labelled it, with scholarly restraint, *A Study of Hands*: the block-capital margin note, *A FRIEND OF THE SOCIETY*, enlarged; beside it three of the valuation's condition slips in the identical fine unvarying propelling-pencil capitals; beside those, initialed *E.S.*, a bursary ledger page. Three hands. One hand.
+
+"The gentleman," said Ms. Gantry, in the tone of a woman revising an attribution, "appears to be holding the documents."
+
+He was. That was the photograph the county paper ran, in the end — not Marion, not the boards: Dr. Everard Sim with the oilcloth packet clutched to his chest in front of four hundred witnesses, the one object in the room he could not explain his hands around.
+
+Lady Harwood, who had chaired worse rooms than this, took the packet back without hurry, held it while she looked at him for a long moment, and then said the sentence that ended the Renewal Project, and other things:
+
+"Dr. Sim, the Board thanks you for your years of service, and will want them accounted for. Rather fully, I think."
+
+# Chapter 14 — Ex Libris
+
+The inquiry took the rest of the autumn, the way paper takes time, and Iris learned that endings in the world were not like endings in books: no manacles, no thunderclap. Dr. Sim resigned "to assist the Board's review" and was gone by half term, out through the Carrow Gate with a single car's worth of boxes; the forensic accountants came in January and were still there at Easter; the word *restitution* began appearing in governors' minutes that Ash's family, on principle, now read line by line. The Fenwick Foundation announced in the spring list that the intake would be eleven scholars after all — *following a review of the Foundation's historic administration* — which was, Priya observed, the most expensive subordinate clause in the school's history.
+
+The bequest stayed. That was Ms. Gantry's doing as much as anyone's: her formal valuation, delivered to the Board in February, declared the Verrall collection's chief significance to be "an unbroken sequence of reader annotation, 1948 to the present, unique in British school libraries — an association archive whose dispersal would destroy precisely what it is worth." You cannot sell the margins off the pages, she told the governors, and you would be fools to try. The Board, newly attentive to expert eyes, voted to conserve the collection entire, and to found — the school being incapable of experiencing anything except through the founding of something — an annual exhibition, keeper: G. Okafor. The oak frame went back on the wall by the library door, its backing resealed by the school's own mender, its rule unchanged, because rules, as Iris had learned, meant exactly whatever the people enforcing them could afford to believe. Under it the school added a small brass plate: *and let every hand be read.* Gwen chose the words. Nobody but five people knew they were a joke, which Gwen said was the definition of a good institutional motto.
+
+Iris's mother came down for the first annual exhibition, in June, shutting the shop for a whole Saturday, which had happened before in living memory exactly twice. She went round the six glass cases at her own pace, twice, in her good coat, with her hands clasped behind her back the way she stood at auction viewings, and finished in front of Priya's giant silver boards — the 1966 hands, six feet tall, arguing about love and pride — and read every word. "Well," she said at last, to the room in general, "somebody here finally noticed the hand is the value," and then, to Iris, quieter, with one nod at the mending desk in the north bay: "Show me your paste." Iris did. Her mother tested it between finger and thumb, looked once around the double-height room — the gallery rail worn silver by two hundred years of hands, her daughter's brass lamp burning in the middle of it all like a shop eleven feet wide that had somehow got into the best building in the county — and said nothing else whatsoever, which in the family trade was the highest grade there was.
+
+Marion Cray came back four times that year. The first time was for the Board; the second was for the newspapers; the third was for the exams she sat, thirty-two years late, under special dispensation, in the Long Gallery, at a table by the window seats, because it turned out you could not hold a First but you could hold the record straight. The fourth time was on a Tuesday in June, out of hours, when Gwen let her through the brass grille with no equipment and no witnesses except the entire Marginalia Society, and Marion Cray stood at case seven a long time with the little green Rossetti open on her two palms, reading the argument that had never finished.
+
+Then she took out a pencil — her own, from the shop, sharpened with a blade — and in the margin beside *there is no friend like a sister*, under four lines rubbed half away by her own deliberate thumb in the worst week of her life, she wrote the answer she had owed the page since 1994. Nobody read it over her shoulder. Article Five: no member shall ask why.
+
+But the flyleaf they all signed. Under the roll of sixty years — under E. and F. and the fish and the sprig and θ, under the key, under the bird — the constitution took four new devices that evening: a needle and thread; a gate, drawn open; a camera's aperture, six little strokes in a ring; and the bird again, added back small and steady, dated. Gwen ruled the line beneath them herself, with a light hand, the way you rule a line in a book you are leaving able to forget you, knowing it won't.
+
+The letter came in September, care of the school library, addressed in an old man's slanted, looping hand that Iris knew before she had finished the first word of her own name. Inside was a single sheet.
+
+*Dear Miss Vane — The newspapers, which I read in a garden in another county, tell me a schoolgirl recently proved that paper remembers. I thought you should know that in 1966 I lost an argument about Christina Rossetti to the only person who ever beat me fairly, and that ours was not the only library. There are margins like yours sleeping in a dozen schools I could name, and one cathedral, and at least one prison. Some of them should perhaps be read by somebody with a light hand, before the wrong people learn to. If your Society ever travels — T.L.*
+
+Iris read it twice at the mending desk, in the four o'clock light, and then carried it down the three steps past the grille, where the others were waiting in the pewter cold among nine cases of paper that would now sleep safely for another century — Ash with the biscuit tin, Priya with the laptop, the whole found, unlikely, pencil-sworn family of it — and laid the letter on the register desk like a rung.
+
+"Homework," she said.
+
+And on the flyleaf of the Rossetti that evening, beneath sixty years of hands, in her small careful shop-hand, the newest member of the Marginalia Society ruled a light line and wrote the Society's whole law and history and future in three words, which is all the margin ever gives you room for, and all you ever need:
+
+*Still reading. — I.*
+
+THE END
