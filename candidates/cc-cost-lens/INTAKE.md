@@ -31,3 +31,56 @@ This is the eval's worst-scoring pattern (organic-directory discovery) in a new 
 
 ## Owner actions (six-field grammar) — NOT queued yet
 No owner action queued at intake. Directory submissions and the companion listing are earned only after v0.1 is built.
+
+## Verdict at gate: KILL (2026-07-13)
+
+Gated at intake under **Kill Rule 0** (the intake precedes the build) and
+recorded under **Rule 3** (kills stay killed) —
+`candidates/kill-rule-intake-kit/pack/KILL-RULES.md`. Decision made at the
+ORDER 011 item 1 dispatch (`control/inbox.md@991aff1`, decide-and-flag);
+no code, copy, or design work was ever spent on this candidate beyond this
+intake file. Grounds, specifically:
+
+1. **The candidate's own honest framing predicts ~$0.** Its
+   "Conservative revenue estimate" line says *"Realistically ~$0 without
+   directory traction"* on top of the organic-directory discovery
+   pattern — the surface venture-eval-001 scored WORST (affiliate
+   directories, 2.65). The intake itself labels the concept "the
+   low-confidence option, not a recommendation." An intake that argues
+   against its own build is evidence, not pessimism.
+2. **The 3.10 score is on the STALE rubric.** It was scored on the
+   venture-eval-001 rubric, not the current shipped rubric
+   (`candidates/kill-rule-intake-kit/pack/SCORING-RUBRIC.md`) that every
+   concept in the 2026-07-13 batch (PR #142) was scored on — so the number
+   is not comparable to the ranked batch without a re-score, and a
+   re-score would only re-spend tokens on a candidate whose distribution
+   axis is already known to sit on the worst-measured pattern.
+3. **Comparative band (Rule 4 — the rubric is comparative):** 3.10 exactly
+   ties batch concept #7 (Advisory-Checker Pack), which the lane PARKED,
+   and everything in that batch scoring below 3.225 was parked or killed.
+   Nothing about cc-cost-lens argues it deserves better treatment than the
+   band it lands in.
+4. **The kill clock cannot even start.** Its binding validation signal
+   requires the free tool "listed on ≥2 directories" — owner-gated ⚑
+   clicks — while ALL 177 queued owner clicks are blocked
+   (`docs/publishing/OWNER-QUEUE.md`, none performed). A candidate whose
+   21-day clock cannot arm has no path to its own signal; building it now
+   would be sunk cost by construction.
+
+**Ledger entry (Rule 3):** no repo-level negative-ledger file or
+convention exists (checked: `docs/` and the kill-rule kit — the kit ships
+`NEGATIVE-LEDGER-TEMPLATE.md` as buyer content, and
+`docs/research/venture-ledger.md` records BUILT candidates only, which
+this never was). **This section IS the negative-ledger entry.** What died:
+cc-cost-lens (free cost-estimator tool + $15 paid companion, the
+directory-funnel experiment). Which condition fired: killed at gate on the
+grounds above — intake's own "Why this might fail" section proved right
+before a token was spent on a build. Actual spend vs budget: ~intake-only
+vs a 70k-token build budget that was never opened. Lesson: a candidate
+written as a distribution *experiment* on a channel the eval already
+measured worst should be killed at intake, not carried as "remaining
+unpacketed candidate" — the honest low-confidence label was the verdict
+all along. Revival bar: a live, owner-performed directory listing surface
+with demonstrated traffic (i.e. the ⚑ clicks actually done and measured)
+AND a re-score on the current rubric clearing the 3.0 band. Kills stay
+killed; the candidate directory is retained as the record.
