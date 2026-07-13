@@ -1,0 +1,1 @@
+- `claude/night-false-green` · **scope** — false-green-test-trap build to publish-READY: candidates/false-green-test-trap/ + docs/launch/false-green-test-trap/ + docs/publishing/vetting/false-green-test-trap.md + OWNER-QUEUE regen + docs/current-state.md sweep-line flip · 2026-07-13
