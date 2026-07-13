@@ -310,3 +310,147 @@ On deck the bell struck; the watch turned over; the sandglass turned; the ship's
 
 Two days later, the weather came for them all — and after the weather, nothing on the *Petrel* was ever the same again.
 
+---
+
+# Chapter 7 — The Gale
+
+It began as a line of dirty light along the western horizon at dawn, and Old Sier looked at it the way Sana looked at a page that would not cast.
+
+"Wind before noon," he said, to nobody, to the sea. "Wind, and then more wind, and then the wind's big brother."
+
+By noon the *Petrel* was down to reefed courses and the world had turned the color of wet slate. By the first dog-watch there was no world at all — only the next sea, coming on out of the smother like a moving hill with a grudge, and the ship climbing it sideways in a long shuddering heave, and the wind not so much a sound as a pressure on the skull, a hand pushing steadily against thought itself. Sana had believed she'd learned the ship. She had learned the ship in fine weather, which — Tade shouted this cheerfully into her ear as they clawed along the lifeline, both of them sent scrambling with messages because the smallest legs are the most spareable — was like learning a horse from a painting of a horse.
+
+She was terrified for about two hours, sick for one more, and then, somewhere in the roaring middle of it, too busy for either. That was the second thing the sea taught her: fear is a stores-account, and work draws it down.
+
+The trouble was not the gale. The trouble was where the gale was putting them. Sana understood it at the change of the watch, standing dripping in the shelter of the binnacle while Bakker the mate and Old Sier put their heads together over the compass and the log-slate, and their two old faces wore the same expression, and it was her father's expression over a page that smelled.
+
+The *Petrel* was being driven — east and south, hour after hour, toward the coast and its outworks: a maze of banks and shoals that Old Sier called the Combs, "because they comb the wrecks out of a sea, girl, and lay them in rows." No chart aboard agreed exactly where the Combs' teeth lay this year; sandbanks walk in winter gales. The lead was going constantly now, a man in the chains swinging and calling, and the calls were getting smaller. Fifteen fathoms. Thirteen. Twelve and a half.
+
+And here was the thing that put Sana, for the first time, of some real use on a ship: to know where you are when nothing can be seen, you must *reckon* it — and reckoning is bookkeeping. The ship keeps a page, and the sea audits it. Every half-hour glass: the course steered, pegged on the traverse board; the speed, from the log-line paid out over the stern, its knots counted against the little glass. Leeway guessed and allowed. Current guessed and allowed. Entry after entry, cast up into a position — a position made of arithmetic, believed in like a creed, wrong in proportion to every lazy guess in the column.
+
+Old Sier kept that page in his head, and had for forty years. But Old Sier was one man, and had been on deck since the dirty dawn, and there were eight hours of shrieking guesswork in the column now, and the lead kept calling smaller numbers.
+
+Sana got herself and her slate braced in the lee of the binnacle and did what she was for. She took his reckoning apart entry by entry, shouting the questions, Sier shouting back — course, glass by glass; the log's knots, and *who* counted them, because the quay-sweeping Joos counted a slow line as proud as a fast one; the leeway when they'd worn ship; the tide, because the tide ran across their course down here and turned with the hours, and Sier knew its habits the way he knew his own hands, but habits must still be multiplied, and a frightened man multiplies badly. She was not frightened, or not where the numbers lived. She cast the whole day fair, twice, both columns.
+
+Her position and Sier's differed by four miles. Four miles, tonight, was the difference between deep water and the teeth.
+
+"You'd trust a slate," Bakker bellowed, "against Sier's forty years?"
+
+"It's HIS forty years, cast fair!" Sana screamed back against the wind. "Every number in it is his! I only refused to let any of them be hopeful!"
+
+Old Sier looked at her slate, rain streaming off the chart of everywhere, and Sana watched a forty-year pride do its own arithmetic in about four seconds, which is fast, and come out on the side of living, which not every pride does.
+
+"The girl's column says we're four mile deeper into the bight than mine," he shouted to Bakker. "If she's right and we hold this board, we strike inside two glasses. If I'm right and we wear ship now, we lose nothing but sea-room we can win back tomorrow." A grin split the chart into two older charts. "Cast it, mate. It only balances one way."
+
+Bakker went to the captain's door, and came back alone with permission in the shape of a man who would not come out. They wore ship in a howling half-hour of all hands, the *Petrel* coming around heavy as a turning church, sails thundering, and stood off close-hauled into the open dark with the lead calling — eleven, eleven, twelve — thirteen — *fifteen* — and at fifteen fathoms Old Sier put his hand flat on the binnacle like a man touching a communion rail.
+
+Just past the middle watch the wind's big brother went home. Dawn came up washed and enormous, all the sea's malice smoothed into long silver swells, and away on the eastern quarter, plain in the risen light, a broken line of white showed where the Combs were chewing what was left of the gale.
+
+The whole deck looked at that white line, and then a good part of the deck looked at Sana, and something had changed and did not change back. It was not that they thought her lucky. Seamen are exact about credit. It was that every man aboard now knew the ship's own arithmetic had been worth four miles in the dark — and that the girl the supercargo kept penned in the steerage was the one who could cast it.
+
+Vos knew it too. He stood at the break of the quarterdeck in the clean morning light, unslept, immaculate, doing what he always did — adding her up — and Sana, meeting his look for exactly as long as was wise and one second less, saw the total move. She had stopped being a nuisance in his books, and become a risk.
+
+But it was Captain Tans who told her what the storm had really changed — told the whole ship, though only three people aboard could read the entry. At noon, red-eyed, steady-handed, smelling of his cabin, he came on deck, took the slate of the reckoning, and set their new course himself. Sana pegged it on the traverse board with her own hands.
+
+The storm had blown them a day's sailing past every western port a cargo of condemned pepper could honestly be bound for.
+
+And the new course did not turn back for one of them.
+
+---
+
+# Chapter 8 — A Course That Lies
+
+From that day, Sana kept two reckonings.
+
+One lived on the official slate in the steerage cuddy, copied fair into the ship's log under Vos's flat gaze: course, distance, position, all the *Petrel*'s public story, day by day. The other lived folded flat against her ribs, on the good paper she'd carried aboard under her shirt — her own traverse-book, kept in stolen minutes, in a code that was not a code at all, just a clerk-girl's private habit of writing sums small. Course and log and lee-way, glass by glass, cast fair each night in her hammock-corner by feel and memory, the way her father added columns with his eyes shut.
+
+By the third clean-weather day, the two reckonings had quietly divorced.
+
+The log's story: making what westing the winds allow, bound for the western port, delayed by weather. The paper against her ribs: a ship edging south and south again, every "allowance for current" leaning the same direction like witnesses paid by the same purse, until the sum of small dishonesties was a course as plain as a signpost — down past the mouths of every port on the sailing-orders, toward a stretch of coast that was nothing but islands, rocks and hungry water. There was no trade down there. There was nothing down there at all, Tade confirmed, except gulls, seals, wreckers by reputation—
+
+"—and the Old Wife," said Old Sier.
+
+He said it quietly, at the wheel, in the middle of a sentence about something else, on the fourth evening. Sana had taken to standing her watches near him; it had become natural; half the crew now assumed she was some steersman's brat being taught the family trade, and Sier had not corrected them.
+
+"The Old Wife?"
+
+"An island. If you can call it that — a black hump and a cove behind it, deep water and dead men's ground-tackle, and no reason under heaven for a Company hull to know it exists." His eyes stayed on the leech of the maintopsail. "I've watched you keep your paper, girl. You reckon where this ship's truly bound, and don't trouble to lie to me; I had my own paper kept two days before you." The chart of everywhere turned to her, and for the first time it looked old. "What I don't reckon is *why*. There's no cargo aboard but pepper the survey killed. A man doesn't steal a dunghill."
+
+It was the opening she and her father had been waiting a week for, and she took it the way she'd learned to take everything on this ship: exactly, and in order, and with the numbers first.
+
+"Come and count sacks with me," she said, "and I'll show you a resurrection."
+
+They went down that night, the middle watch, three of them — Sier, because his word was worth twenty men's; Tade, because Cook's boy could be anywhere and no one asked; Sana, because it was her ledger being written now and she would keep it herself. Down past the orlop with a shuttered lantern, into the pepper dark, where the dust hung in the lantern-slot like golden smoke and the cargo whispered its dry, patient, incriminating whisper on every roll.
+
+She showed them everything. She had been a week preparing this page.
+
+She showed them the sacks: the sacking new and sound — "Sea-damaged pepper travels in stained cloth, rotted cloth; this is this year's weave, look at it" — and the marks stenciled on each: the Company's own mark struck through with the condemnation brand, and under it, where Tade held the lantern low, the weigh-house tally-marks still legible: *garbled, dry, prime.* She opened the sack she had burst with her own head in the gale and ran the berries through Sier's cracked palm: hard, black, rattling, hot-smelling. "Bite one." He bit one, and his eyes watered, and he laughed the shortest laugh she'd ever heard.
+
+She showed them the count. Manifest: 820 sacks condemned. Her count, tier by tier, notched on a batten over six nights of stolen minutes with Tade holding the light: 823 — and the three sacks over were the best of all, because they proved the loading had been done in haste from a *live* warehouse tier, not a condemned one; dead cargo is counted to the sack, plunder is shoveled.
+
+And then she sat them down on a fortune in spice, and gave them the whole account: the survey bought and the write-down entered; Herrn & Cie, the buyer who had not existed a year ago; the hull insured like a treasure-ship for a knacker's errand; six weeks' stores for a three-week story; the letter-book's anchorage and its 20th of the month; the instructions too dark to be committed to paper; and the wage-book with its twenty-eight names, which was the only page of the whole scheme that had no second, secret version, because in Corver's arithmetic it did not need one. That page balanced as it stood. The men were entered at cost, and written off.
+
+The lantern hissed. The pepper whispered. Tade had gone the color of biscuit.
+
+"You're saying the ship's to be cast away," Old Sier said at last. "Sold empty to the sea for her insurance, off the ugliest ground on this coast, in the dark of the year. With us in her." He was silent a moment. "I've sailed her nineteen years. I signed her wage-book when your father was signing school-slates." His hand closed slowly around the pepper berries until the knuckles stood up like the Combs. "Who else knows the whole of it?"
+
+"My father. Now you two."
+
+"Not Bakker?"
+
+"Bakker's next. Bakker's the law aboard after the captain, and what we do must be done by law, or it's mutiny and we hang for their fraud." She heard her own voice say it, level, in the fair small hand of the mind, and some distant girl at a counting-house desk marveled at her. "But when we tell him, we tell him with proof he can hold, or he must choose between a captain and a child, and no honest mate alive chooses the child. So we go on counting. We copy. We witness. We build the page they can't scrape."
+
+Old Sier looked at her a long moment in the lantern-slot light.
+
+"Your father taught you the books," he said. "Who taught you *this*?"
+
+"You did," said Sana. "All of you. It's just dead reckoning. When you can't see land, you keep every entry honest and cast the column fair — and you refuse," she rolled a single black berry back into the sack and drew the mouth of it closed, "to let any of them be hopeful."
+
+They went up out of the pepper dark in silence. The next morning the lookout raised a sail astern, hull-down, patient, holding their course; and it held there all day, and the next, like a figure carried forward from one page to another.
+
+Vos watched it through the captain's glass for a long time, and for once, Sana saw him almost smile.
+
+The 20th of the month was five days off.
+
+---
+
+# Chapter 9 — Mutiny Arithmetic
+
+Her father called the last piece of the case "the keystone," and it was the one piece they did not have: the sampling-weights.
+
+He explained it in chalk and murmur across three days of copying. The weigh-house did not weigh every sack at a landing; it weighed sampled sacks, one in ten, chosen by the sworn tally-clerks, and the sample-weights were entered in a schedule that traveled with the survey papers. Corver's bought assessors had scraped and rewritten the schedule's *conclusions* — but the raw sample-weights themselves, sack-numbers against pounds, had been copied into the papers Vos kept in his cabin, because Vos was exact, and an exact man verifies even his own fraud. Match those weights to the numbered sacks in the hold — dry weights, matching dry sacks, dated the day of landing — and the condemnation collapsed arithmetically: pepper that had been brine-soaked off the Cape would have landed heavy with damp and light in value, and these sacks had landed at prime dry weight and never changed. No surveyor's signature could argue with a scale.
+
+The schedule lived in Vos's cabin, in the black despatch-box under his cot. Her father knew because he had been made to inventory the box's contents on the first day aboard, under Vos's eye — *exactness again; a witness to his tidiness* — and had been carrying the box's little inventory in his head ever since, waiting to understand which paper mattered.
+
+"So we need a thief," Tade said, when the plan reached him.
+
+"We need a *copyist*," Sana said. "A thief makes a hole where the paper was. A copyist leaves the world exactly as it lies, minus one secret."
+
+She did it on the night of the 17th, during the second dog-watch, when Vos took his half-hour turn on the quarterdeck with the captain — the one fixed appointment in an exact man's day. Tade kept the companionway with a bucket and a story; Old Sier kept Wick occupied forward with a foul-hawse job invented for the purpose; and Sana went into the small dark cabin with her heart going like the fulling-mill again, and a shuttered stub of candle, and her father's spare quill, and the flat-folded paper from against her ribs.
+
+The despatch-box was where memory said. The schedule was the fourth paper down, folded in three, docketed in Vos's own hand — *weights, sampled, P., at landing* — and she knelt with it under the candle-slot and copied as she had never copied in her life: sack-numbers and pounds, forty entries, her father's fair small hand flowing out of her fingers as if he were guiding them, no blot, no tremble, *do not hurry, hurrying is hoping*, while the ship rolled gently and the wax dripped and every footfall on the deck overhead walked straight across her spine.
+
+Forty entries. She folded her copy against her ribs, refolded the original in three — in its own creases, the way it had lain, docket outward, fourth paper down — closed the box, and was at the door when the door opened.
+
+It was not Vos. It was Captain Tans.
+
+They looked at each other in the light of one bad candle, the captain and the stowaway, in the supercargo's cabin where neither of them had any business being, and Sana watched the slow, sad arithmetic move behind his eyes — and understood, in that suspended moment, what she was actually looking at, what she had been looking at all voyage. Not a villain. A man in the middle of a page he couldn't cast: half-drunk for weeks because sober he could hear the instructions that were too dark for paper, hating Vos, fearing Corver, in debt to the house — she would have wagered the ledger on it — entered in somebody's book long ago and compounding ever since.
+
+"You're the clerk's girl," he said. Barely a question.
+
+"Yes, Captain."
+
+"He sent you in here? Your father?"
+
+"My father sent me nowhere. My father told me once that numbers never lie — only the men who write them." She was past fear and out the far side, into the cold clear country where the columns lived. "Captain — on the 20th, when the pepper's out of her and the instructions come that were never put in paper — how were they going to write *you*? Twenty-eight names in that wage-book, sir. Yours is the twenty-eighth. Have you cast what your name's worth to them, alongside a hull insured at treble? Because I have. I'll show you the figures, if you like. It only balances one way."
+
+The candle spat. Somewhere above, Vos's soft boots crossed the deck toward the companionway, and Captain Tans stood aside from his own supercargo's door and looked at nothing.
+
+"Go below, girl," he said, thick and quiet. "I never saw you."
+
+It was not an alliance. It was not even a promise. But sixty seconds later, lying rigid in her hammock-corner with forty sample-weights against her ribs and her blood shouting, Sana entered it in the night's column for what it was: the twenty-eighth name, beginning — only beginning — to suspect on which side of the ledger it stood.
+
+On the 19th, at first light, the black hump of the Old Wife came up out of the sea-haze off the larboard bow, exactly where three private reckonings had promised her; and in the cove behind the island, riding to her anchor with sails loosed to dry and boats already in the water, lay a lugger with no flag, no port of registry on her stern, and no honest reason on this earth to be waiting there.
+
+The sail that had followed them for five days was gone from the horizon astern. It had arrived.
+
