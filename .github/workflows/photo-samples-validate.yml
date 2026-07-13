@@ -1,0 +1,22 @@
+# HOST-OWNED standalone workflow — the PACK-SPEC follow-up
+# (candidates/photo-packs/PACK-SPEC.md § "CI wiring is a follow-up"):
+# runs the stdlib-only photo-packs sample validator on PRs touching the
+# candidate, in a SEPARATE file because the kit-owned substrate-gate.yml
+# must never be hand-edited. One job, no secrets, no deps. The validator
+# exits nonzero on any violation (oversize image, bad name, orphan
+# sample, invalid packs.json), so a violation reds this check; it exits
+# 0 when samples/ is absent, so it can never block unrelated work.
+name: photo-samples-validate
+on:
+  pull_request:
+    paths:
+      - "candidates/photo-packs/**"
+permissions:
+  contents: read
+jobs:
+  validate-samples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate photo-pack samples (stdlib only)
+        run: python3 candidates/photo-packs/validate_samples.py
