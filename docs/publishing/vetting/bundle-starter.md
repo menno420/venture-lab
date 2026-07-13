@@ -132,12 +132,12 @@ derives zero D-items from this packet by construction. HOW detail:
 - [ ] ⚑ **Owner:** execute the ⚑B membership-kit ($49) publish click —
       blocking: ⚑B membership-kit publish click must be executed first (a
       Gumroad bundle references existing live products; click queued PR
-      #106, [membership-kit.md](membership-kit.md) §7). Nothing below
+      #106, packet `membership-kit.md` §7). Nothing below
       proceeds.
 - [ ] ⚑ **Owner:** execute the ⚑D template-packs ($19 PWYW) publish click —
       blocking: ⚑D template-packs publish click must be executed first
       (same live-referent rule; click queued PR #108,
-      [template-packs.md](template-packs.md) §7). Nothing below proceeds.
+      packet `template-packs.md` §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** create the Gumroad bundle of the two live products (New
       product → Bundle, both components selected).
 - [ ] ⚑ **Owner:** listing copy pasted from the refreshed bundle
