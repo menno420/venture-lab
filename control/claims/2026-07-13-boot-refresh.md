@@ -1,0 +1,1 @@
+- `claude/boot-refresh-2026-07-13` · **boot refresh: trigger-cutover record + docs refresh** — 2026-07-13 coordinator-seat trigger disposition into a fresh heartbeat + current-state staleness fixes (#158/#159/#160 terminal states) · control/status.md, docs/current-state.md, .sessions/ · 2026-07-13
