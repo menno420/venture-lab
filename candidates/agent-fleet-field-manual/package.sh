@@ -1,9 +1,10 @@
 #!/bin/sh
 # Build the buyer bundle for the Agent Fleet Field Manual v0.1.
 # Bundles: the buyer-facing README + LISTING, the chapters/ markdown, the
-# runnable templates/, and the built single-file dist HTML.
-# EXCLUDES: INTAKE.md (internal), build.py + package.sh (build tooling),
-# dist/*.zip, .git, __pycache__.
+# runnable templates/, the built single-file dist HTML, and the stdlib-only
+# build tooling (build.py + package.sh) so the README's "rebuild it yourself"
+# instructions actually work from the extracted bundle.
+# EXCLUDES: INTAKE.md (internal), dist/*.zip, .git, __pycache__.
 # The zip is byte-reproducible: mtimes are pinned and entries are sorted.
 set -eu
 
@@ -28,6 +29,8 @@ cp "$SRC/LISTING.md"           "$ROOT/LISTING.md"
 cp "$SRC"/chapters/*.md        "$ROOT/chapters/"
 cp "$SRC"/templates/*.md       "$ROOT/templates/"
 cp "$SRC/dist/$HTML_NAME"      "$ROOT/dist/$HTML_NAME"
+cp "$SRC/build.py"             "$ROOT/build.py"
+cp "$SRC/package.sh"           "$ROOT/package.sh"
 
 # Pin every mtime so the archive is byte-reproducible.
 find "$ROOT" -exec touch -t "$SOURCE_DATE" {} +
