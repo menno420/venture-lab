@@ -1,0 +1,1 @@
+- `<branch-or-scope>` · **scope** — <one-line detail> · <expected files/area> · <YYYY-MM-DD>
