@@ -39,6 +39,13 @@
 | Literature & Fiction → **Literary Fiction** | Ultramarine — **CONTESTED, see C1** | [`vetting/ultramarine.md`](vetting/ultramarine.md) §6 |
 | Children's Books → **Mysteries & Detectives** | The Painted Stones | [`vetting/the-painted-stones.md`](vetting/the-painted-stones.md) §6 |
 | Children's Books → Growing Up & Facts of Life → **Friendship** | The Painted Stones | [`vetting/the-painted-stones.md`](vetting/the-painted-stones.md) §6 |
+| Historical Fiction → **World War II** | De papieren sinaasappel (NL edition of The Paper Orange; the EN edition shares the node at its graduation — C4) | [`vetting/de-papieren-sinaasappel.md`](vetting/de-papieren-sinaasappel.md) §6 |
+| Literature & Fiction → **War & Military** | De papieren sinaasappel (NL edition; same sharing rule — C4) | [`vetting/de-papieren-sinaasappel.md`](vetting/de-papieren-sinaasappel.md) §6 |
+
+*Edition-sharing note (C4):* **Het trage woord** (NL edition of The Slow
+Word, [`vetting/het-trage-woord.md`](vetting/het-trage-woord.md) §6) uses
+The Slow Word's two nodes above — same-title editions share browse nodes by
+design and add no duplicate category row.
 
 ### Keywords
 
@@ -72,6 +79,20 @@
 | `shy child friendship picture book` | The Painted Stones |
 | `seaside village children's story` | The Painted Stones |
 | `welcoming new neighbors book` | The Painted Stones |
+| `sciencefiction novelle Nederlands` | Het trage woord (NL — C4 namespace) |
+| `eerste contact roman` | Het trage woord (NL — C4 namespace) |
+| `literaire sciencefiction` | Het trage woord (NL — C4 namespace) |
+| `buitenaards signaal roman` | Het trage woord (NL — C4 namespace) |
+| `radiotelescoop Stille Oceaan roman` | Het trage woord (NL — C4 namespace) |
+| `diepe tijd sciencefiction` | Het trage woord (NL — C4 namespace) |
+| `boodschap van de sterren novelle` | Het trage woord (NL — C4 namespace) |
+| `literaire roman Hongerwinter` | De papieren sinaasappel (NL — C4 namespace) |
+| `Tweede Wereldoorlog Amsterdam roman` | De papieren sinaasappel (NL — C4 namespace) |
+| `bezetting 1944 roman` | De papieren sinaasappel (NL — C4 namespace) |
+| `bonkaarten vervalsing oorlog` | De papieren sinaasappel (NL — C4 namespace) |
+| `drukkerij verzet roman` | De papieren sinaasappel (NL — C4 namespace) |
+| `oorlogsweduwe roman Nederland` | De papieren sinaasappel (NL — C4 namespace) |
+| `bevrijding 1945 roman` | De papieren sinaasappel (NL — C4 namespace) |
 
 ## 2. CONFLICTS (resolved here before any packet ships)
 
@@ -129,6 +150,36 @@ register → Ultramarine. Any future Dutch-set title must pick phrases outside
 both registers or negotiate a row here first. No conflict today; rule
 recorded to prevent one.
 
+### C4 — Dutch-LANGUAGE editions: separate keyword namespace, shared browse nodes (standing rule)
+
+The catalog's first two NL editions (*Het trage woord*, PR #126; *De
+papieren sinaasappel*, PR #130) set the rule for every translated edition
+that follows:
+
+- **Dutch-language keywords are a separate namespace.** An NL listing's
+  keywords are Dutch phrases typed by Dutch-language buyers; they cannot
+  cannibalize the EN rows (different query language), so an NL edition
+  never "re-claims" its EN title's phrases. But NL phrases CAN cannibalize
+  each other — so they get ownership rows in §1 like every other phrase,
+  tagged `(NL — C4 namespace)`.
+- **Same-title editions share browse nodes.** KDP browse nodes are
+  storefront-global; the language metadata, not the node, splits the
+  audience. An NL edition uses its EN title's nodes and adds no duplicate
+  category row (see the §1 edition-sharing note). Where the EN packet is
+  still concept-stage (The Paper Orange), the manuscript-backed NL packet
+  claims the nodes first and the EN edition shares them at graduation.
+- **C3 extends into Dutch:** the era-register split governs the Dutch
+  namespace too. Future NL editions of The Weigh House own
+  modern-crime-register Dutch phrases; of Ultramarine, Golden-Age-register
+  Dutch phrases; De papieren sinaasappel holds the WWII/Hongerwinter
+  register (`literaire roman Hongerwinter`, `bezetting 1944 roman`, …).
+- **Register etiquette recorded** (from the packet §6 notes): the word
+  "Oorlogswinter" is never drafted as a keyword — it is Jan Terlouw's
+  famous title, and squatting it would be title-adjacent keyword piracy;
+  the shared "Hongerwinter" STEM is split by intent — our phrases say
+  "literaire roman" to keep clear of the YA (Currie) and nonfiction
+  (De Zwarte/Barnouw) shelves that legitimately share the stem.
+
 ## 3. Name-level reservations — unvetted titles (niche only, NO keyword drafting)
 
 Reservations block other catalog titles from squatting a niche; actual
@@ -149,7 +200,7 @@ checked against this map at that time.
 | Comet Biscuit (Book 3) | Kids space-adventure series niche (shared with Book 1) | Same as Book 2. |
 | Bram the Yak Cannot Whisper | Kids animal-humor / loud-animal read-aloud niche | Best-differentiated title in the catalog (plan §7: collision None). |
 | Star Pirates | Kids/YA space-pirate adventure niche | Shares the space shelf with Comet Biscuit — pirate-flavored phrases vs Comet Biscuit's cozy-space; split finalized when the second of the two is vetted. Avoid alt title *The Wrong Way Down* (plan §7). |
-| The Paper Orange (concept, [packet](vetting/the-paper-orange.md)) | Adult WWII-occupation Netherlands literary-historical — Hunger Winter register | Adds a THIRD Netherlands era-register alongside C3's two: WWII-occupation phrases (Hunger Winter, occupation 1944, Dutch resistance) reserve here; must NOT reuse Weigh House's modern-crime or Ultramarine's Golden-Age phrases. `Amsterdam occupation 1944 story` vs Weigh House's `Amsterdam crime novel` = watched adjacency (C2 pattern, disjoint intent). Concept-stage: phrases drafted provisionally in the packet §6; ownership rows claimed only at graduation (manuscript exists). |
+| The Paper Orange (concept, [packet](vetting/the-paper-orange.md)) | Adult WWII-occupation Netherlands literary-historical — Hunger Winter register | Adds a THIRD Netherlands era-register alongside C3's two: WWII-occupation phrases (Hunger Winter, occupation 1944, Dutch resistance) reserve here; must NOT reuse Weigh House's modern-crime or Ultramarine's Golden-Age phrases. `Amsterdam occupation 1944 story` vs Weigh House's `Amsterdam crime novel` = watched adjacency (C2 pattern, disjoint intent). Concept-stage: phrases drafted provisionally in the packet §6; ownership rows claimed only at graduation (manuscript exists — landed PR #122; EN packet graduation is an open follow-up). **The Dutch edition is ahead of the EN one here:** its manuscript-backed packet ([`vetting/de-papieren-sinaasappel.md`](vetting/de-papieren-sinaasappel.md)) owns §1 rows in the C4 Dutch namespace + the two WWII nodes. |
 | The Night Kiln (concept, [packet](vetting/the-night-kiln.md)) | Adult cozy fantasy — low-stakes magical-craft comfort read | The catalog's first adult fantasy shelf; deliberately the OPPOSITE register from Hollowtide's reserved YA seasonal/folk DARK fantasy (comfort vs dread). Kiln→kill autocorrect drift noted in packet §1. Concept-stage; ownership rows at graduation. |
 | The Pepper Ledger (concept, [packet](vetting/the-pepper-ledger.md)) | YA age-of-sail / spice-route maritime adventure (17th-century era) | Reuses Ultramarine's 17th-century research base in a different lane per the C3 rule: drafts ZERO Netherlands-branded phrases (no Dutch/Golden Age/Delft/Amsterdam stems) — maritime-adventure register only; Ultramarine's Golden-Age-historical register untouched. Concept-stage; ownership rows at graduation. |
 | The Marginalia Society (concept, [packet](vetting/the-marginalia-society.md)) | YA dark academia / boarding-school secret-society mystery | Teen & YA mystery shelf — distinct from Painted Stones' Children's Mysteries & Detectives node, and non-supernatural (no overlap with Hollowtide's folk-fantasy dark). Concept-stage; ownership rows at graduation. |
