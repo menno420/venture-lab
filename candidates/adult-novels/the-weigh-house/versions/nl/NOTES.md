@@ -4,15 +4,23 @@
 
 A complete literary Dutch (Netherlands register) translation of *The Weigh
 House*. Source text: `../../en/the-weigh-house.md` at its merged state on
-`main` (verbatim `wc -w` 36,434 words including title, front matter, and
-chapter headings). All 16 chapters translated in full — every line finished
-prose, no summary placeholders. The EN manuscript stays the source of truth
+`main` (verbatim `wc -w` 36,427 words after the 2026-07-13 continuity
+patch, including title, front matter, and chapter headings). All 16
+chapters translated in full — every line finished prose, no summary
+placeholders. The EN manuscript stays the source of truth
 for the story; fixes propagate EN → NL, never the reverse. The EN
 DECISIONS.md explicitly deferred "NL/DE translations … to a follow-on
 session (mirrors the childrens-books lane)" — this edition is that
 follow-on for NL. Known EN continuity wobble (the Prinsengracht flat in
-Ch 2 vs the houseboat from Ch 7 on) is carried over as-is per the
-fixes-propagate-EN→NL rule, not silently repaired.
+Ch 2 vs the houseboat from Ch 7 on) was carried over as-is per the
+fixes-propagate-EN→NL rule at first landing, not silently repaired.
+**RESOLVED 2026-07-13:** the EN master now standardises on the houseboat
+on the Kloveniersburgwal (the same resolution the novella cut chose and
+documented in its NOTES "Continuity smoothing" section — the houseboat is
+load-bearing: Joke is a mooring neighbour, the night sighting happens on
+that canal, and the master itself already put Sanne's "own dark window
+over the Kloveniersburgwal" from Ch 11 on). The fix has been propagated
+EN→NL into this edition in the same change; the seam is closed.
 
 Run under ORDER 008 (owner night run 2026-07-13, BOOKS clause: versions
 across "different angles, audiences, lengths" — this version adds a
@@ -23,14 +31,14 @@ and the EN text glosses Dutch realities that the NL edition simply speaks.
 
 ## Honest word count
 
-Verbatim `wc -w` on 2026-07-13 (includes title, front matter, and chapter
-headings):
+Verbatim `wc -w` on 2026-07-13, re-measured after the flat/houseboat
+continuity patch (includes title, front matter, and chapter headings):
 
 ```
 36997 candidates/adult-novels/the-weigh-house/versions/nl/de-waag.md
 ```
 
-Versus the EN source's 36,434 (+1.5%). Slightly below the +2.5% ratio
+Versus the EN source's 36,427 (+1.6%). Slightly below the +2.5% ratio
 measured on the catalog's first two NL editions — plausible for this book:
 its heavy Dutch-institution vocabulary (duikteam, Kadaster, notaris,
 recherche) was already Dutch in the EN and gains no words in translation.
