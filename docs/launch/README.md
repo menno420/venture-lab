@@ -24,6 +24,11 @@ Zero-owner-click launch material for the sellable candidates. Everything here is
 - [Owner bundle-creation click-script (HARD-GATED 2026-07-13)](bundle-starter/owner-actions.md)
 - [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/bundle-starter.md)
 
+## Kill-Rule Intake Kit — $15
+- [Listing copy](kill-rule-intake-kit/listing-copy.md)
+- [Owner publish click-script (QUEUED 2026-07-13, no freeze applies)](kill-rule-intake-kit/owner-actions.md)
+- [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/kill-rule-intake-kit.md)
+
 ## Stripe Webhook Test Kit — $29
 - [**OWNER LAUNCH HOUR** — atomic ~1h runbook (⚑A + ⚑E + first-sale verification)](OWNER-LAUNCH-HOUR.md)
 - [One-pager](stripe-webhook-test-kit/one-pager.md)
