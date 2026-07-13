@@ -55,6 +55,15 @@
 - **2026-07-11 — Merge wall re-verified on PR #55 (substrate-gate now a REQUIRED check).** Two verified changes from the older wall note:
   1. **substrate-gate is now a REQUIRED check on `main`.** PR #55 showed `mergeable_state: blocked` with 3 check runs actually gating (substrate-gate, membership-kit-tests, stripe-webhook-test-kit-tests) — i.e. there IS now a checks-pending window, unlike the earlier documented state where PRs went `clean` instantly with no required checks. Update any stale claim above that substrate-gate is not required.
   2. **Self/relayed merge still classifier-DENIED regardless.** Even with checks green, a coordinator-seat merge of the agent's own PR citing relayed (coordinator-context) authorization is denied [Merge Without Review] + [Self-Approval] (verbatim recorded in `control/status.md` WALLS, 2026-07-11 PR #55 entry). A genuine owner turn is required to merge; agents leave the PR READY + green and ⚑ the owner.
+- **2026-07-13 — Remote branch deletion re-verified DENIED (credential
+  layer).** `git push origin --delete <branch>` fails verbatim:
+  `error: RPC failed; HTTP 403 curl 22 The requested URL returned error: 403`.
+  Reads (fetch/ls-remote) work fine over the same credential; there is **no
+  MCP alternative** (no branch-delete tool surface). One-attempt deny-wins —
+  do NOT re-probe; probing a documented wall twice is a bug. Evidenced
+  against a 94-branch stale `claude/*` list gathered for hygiene pruning.
+  Fix is an owner click: grant branch-delete scope to the git credential in
+  the repo/console settings; VERIFY with one successful delete; reversible.
 
 ## Mission-specific rails (not platform walls — owner rails, equally hard)
 
