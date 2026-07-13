@@ -1,0 +1,1 @@
+- `claude/night-swtk-packet` · **scope** — Stripe Webhook Test Kit catalog parity (already-live verification, dist freshness, ARTIFACT sha, listing parity; NO duplicate click) · candidates/stripe-webhook-test-kit/ + docs/launch/stripe-webhook-test-kit/ + .sessions/ · 2026-07-13
