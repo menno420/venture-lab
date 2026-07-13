@@ -454,3 +454,123 @@ On the 19th, at first light, the black hump of the Old Wife came up out of the s
 
 The sail that had followed them for five days was gone from the horizon astern. It had arrived.
 
+---
+
+# Chapter 10 — The Old Wife
+
+The *Petrel* stood in past the black shoulder of the island on the young flood, and the cove closed around her like a hand.
+
+It was a lonely, waiting sort of place. Cliff on two sides, streaked white with gulls; a shingle beach where seals lay like misplaced cargo; deep still water the color of bottle-glass; and the lugger, swinging to her anchor in the middle of it, her deck crowded with more men than any honest lugger carried. Sana counted them from the steerage scuttle out of lifelong habit. Nineteen. Every one of them stopped what he was doing to watch the Indiaman come in.
+
+The anchor went down with a roar that sent the gulls up screaming. And then, before the cable was even fairly veered, Vos came up from below in his good black cloth, and everything about the *Petrel* changed key.
+
+He had papers in his hand and men at his back — Wick, Joos, and four more of the quay-sweepings, and Sana saw with a small cold shock that two of them now wore hangers at their belts, plain short blades, worn openly, as if some page had turned and a new chapter's rules were in force. Vos spoke to the deck the way he wrote: exactly, without waste.
+
+The buyer's vessel would come alongside at slack water, he said. All hands would turn to and break bulk; the condemned cargo would go out of her by both hatches; the work would go on by watch and watch, through the night if the weather held, until it was done. Double grog for a willing ship. The sooner out, the sooner home.
+
+It was all perfectly reasonable, and it sat on the deck like a coffin lid. Sana watched the older hands — the real seamen, Sier's generation, the ones who had sailed the actual sea and not merely signed aboard from an alley — and saw the same slow trouble working in face after face, the instinct of men who could not yet cast the column but could smell the draught in it. Sell a cargo over the side in a nameless cove, to a ship with no flag, off the books, in the dark? Men had been paid to forget stranger nights, aye. But forty thousand pounds of it? And why here, and why us, and why does the supercargo's tally-party wear iron?
+
+"Because when the hold's empty," said Tade's voice, very low, at her shoulder, "they don't need but a boat's worth of us to sail her out to deep water and open her. The rest can be *lost in the lading*. Cook heard Wick say it. Those words. Lost in the lading."
+
+Sana stood very still, watching Vos's exact hands moving over his lists, and finished the sum. Not even a storm required, then. An accident of work in the dark: a parted tackle, a swamped boat, a tier come down. Sea-graves dug by lamplight, one or two at a time, unremarkable, initialed. And the ship herself scuttled after, off the ugliest ground on the coast, with whoever was left aboard her — the clerk who knew too much and the girl who counted too well surely first among them.
+
+The 20th was tomorrow. Slack water was in four hours.
+
+"Now," she said. "It has to be now, before the lugger's alongside — while every man's still aboard and the only blades out are six. Get me Sier. And Tade—" he was already turning; she caught his sleeve, and the words came out of some page in her that had been writing itself all voyage, "—when it starts, whatever it looks like, it is not a mutiny. It's an audit. Everything in order. Everything witnessed. We're not seizing the ship. We're *casting her books*."
+
+They gathered in the one place aboard where a crowd was lawful: the fo'c'sle at the change of the watch, when the off-going and on-coming watches overlapped and thirty tired men could stand in one smoky space between the anchors' cables without a single order being disobeyed. Cook had contrived a mess of hot burgoo as pretext and cover — "Nobody suspicions a man standing next to supper," he said grimly — and Old Sier had passed the word through the real seamen one by one, in the old way, mouth to ear: *the girl that conned us off the Combs has the reckoning of this voyage, and a man should hear it before slack water.*
+
+They came. Sixteen of them, then nineteen, wedged along the cables and the chests, faces stacked in the lamplight like coin. Bakker came last, filling the little doorway, square and slow and thunderous, exactly as unavoidable as she had planned — because a meeting the mate walks in on is a conspiracy, but a meeting held openly in his path, that waits for him, that *wants* him: that is a deposition.
+
+Her father could not be there. Her father was in the steerage under Wick's eye, and that too was part of the plan — *if it goes wrong, it must land on me alone; you're a child, they'll not dare* — the one entry of his she had silently falsified in her own copy, because she knew, better than he would let himself know, that the wage-book had no column for *child*.
+
+Sana Brandt stood up on the cable-tier with the lamp swinging over her head, fifteen years old, in a boy's coat with pepper still in the seams of it, and took out of her shirt the flat-folded pages of the truest book she would ever keep.
+
+"Before slack water," she said, "I have an account to read to this ship's company. It's your account. Every man of you is entered in it. It runs to one page, and I'll read it fair, and when it's read you may cast it yourselves — for my father taught me that numbers never lie. Only the men who write them."
+
+The fo'c'sle went quiet. Even the gulls outside seemed to lean in.
+
+"It begins in a warehouse in Marren, with pepper that whispered."
+
+---
+
+# Chapter 11 — The Reading of the Book
+
+She read them the whole page, and she read it in wages.
+
+That was the decision she had made, lying awake in her hammock-corner turning the persuasion over like a sum that had to cast at first sight, in poor light, for tired men. Not the survey first, not the insurance, not the law — *wages*. Begin where every listening man kept his own books.
+
+"Joris Andriesz," she read. "Able seaman, eleven florins the month, two months owing. Klaas Pot, able seaman, eleven florins, two months owing. Ruy the Fleming, ordinary, nine florins. Tade, cook's boy, five florins and slops." She went down the wage-book from memory, name by name — she had copied it fair twice, and figures stuck to her like burrs — and she watched each man flinch slightly as his own name found him in the crowd, because there is no sound on earth that fixes attention like one's own name in a ledger, read aloud, in the presence of others. "Twenty-eight names. Cast together, with the officers, with everything this ship owes every soul aboard her for the whole run: three hundred and forty florins would clear it. Three hundred and forty. Hold that number. Now here is the other side of the page."
+
+And then she gave them the pepper.
+
+"Eight hundred and twenty sacks lie under your feet. The house's books say they're spoiled — brine-rotted, condemned, worth ballast-price, fit for cattle. You've every one of you smelled the hold this voyage. Does she smell of marsh, or does she smell of money?" A low sound went along the cables. "The weigh-house sampled those sacks at landing, sworn clerks, one sack in ten, and I hold the copy of their schedule *here*—" she snapped the page up into the lamplight — "sack-numbers against pounds, dry prime weight, every one, in the supercargo's own docketing. And three days past, myself and two men of this company went down and matched schedule to sacking, number to number, mark to mark. The condemnation is a forgery with a survey's seal on it. What swims under your feet is garbled prime pepper, and at any exchange in the north it casts out—" she said the number slowly, in the fo'c'sle hush, and it was like dropping an anchor through a church roof— "at better than sixty thousand florins."
+
+Silence. Then someone breathed a word that was not fit for church, and nobody rebuked him.
+
+"Sixty thousand on one side," Sana said. "Your three hundred and forty on the other. Now I'll show you the entries between — because between those two numbers is everything this voyage has done and everything it means to do before tomorrow's ebb."
+
+She walked them through it the way her father had walked her through her first ledger, entry by entry, letting each debit call to its credit, making them say the answers with her. The buyer with no warehouse and no history — "who sells to a ghost?" *A man selling to himself.* The hull of a twenty-year ship insured at treble for a knacker's errand — "who gilds a cart-horse?" *A man about to shoot it.* Six weeks' stores signed for a three-week story; the course that lied its way south allowance by allowance; the anchorage no Company hull should know; the lugger out there this minute with nineteen idle men and iron on her deck; the instructions too dark to be put in paper, in a letter-book where everything else was. And then the last entry, and she made her voice do what her father's did over a finished column — go quiet, and level, and final.
+
+"There's a line in the private reckonings I copied that I'll read as it stands. It says: *against this, wages of a short crew, twenty-eight men, one voyage.* Cast it, lads. In their book, you are not the ship's company. You're the ship's *cost*. Three hundred and forty florins of cost, against sixty thousand of pepper and a treble hull — and a cost is a thing a good house always finds the way to write off. Ask yourselves why a ship that wants ninety men sails with twenty-eight. Ask why her boats hold twenty-six in a calm. Ask what work tonight, in the dark, by watch and watch, with the tally-party wearing hangers, will be called tomorrow when some of you are *lost in the lading.*" She let the fo'c'sle hear its own breathing. "The sea buries cheap. That's the whole of the account. It balances to a farthing. It only fails one way — if the witnesses refuse to drown."
+
+"Enough." Bakker's voice, from the doorway, like a chain running out.
+
+He came forward into the lamplight, and the men made way, and Sana's heart put itself somewhere between her teeth, because here it was: the entry that decided the book. The mate stood in front of the cable-tier and looked up at her — square, slow, honest as a fencepost, a man visibly hating every path out of the place the world had just put him.
+
+"You're a child," he said, "reading treason against the owners in my ship's fo'c'sle. Words are wind, and paper is only paper — men are flogged round the fleet for less than what you've said tonight. Why should I not take you aft to the captain this minute?"
+
+"You should," said Sana Brandt. "That's the law of the ship, and everything I want stands on the law of the ship. Take me aft — but take the papers too, and the two men who counted sacks with me, and Cook who heard what Wick said, and put it all to the captain *in writing*, with the company as witness, as the mate of an honest ship may lawfully do when he suspects barratry against the owners' insurers and the lives of the crew." She had saved the word for this moment, the old dry legal word her father had chalked and wiped, and she saw it strike home. "Barratry, Meneer Bakker. Casting away a sound ship for her insurance. It's not the crew that's mutinying against this ship. It's this ship's own masters. All I ask is what any honest book asks. *Audit us.* Go below yourself, this hour, before slack water — take what men you trust, take the schedule, and count."
+
+Bakker looked at her for a long, grinding moment. Then he took the schedule out of her hand — carefully, the way a man takes evidence, not the way a man takes contraband — and turned to Old Sier.
+
+"You counted these sacks?"
+
+"Number by number, mate. Nineteen years I've sailed her. I'll swear it on anything that swears."
+
+"Then fetch a lantern," said Bakker heavily, "and fetch the tally-boy, and God help every soul aboard if this column casts the way I think it will." At the doorway he stopped, without turning. "And somebody tell me why the supercargo's watch-list has the six worst men of this crew armed and standing aft tonight, and every man I'd trust with my mother's coffin sent forward or below."
+
+Nobody answered him. On the deck above, faint through the planking, they heard the lugger's capstan begin to clank as she hove short, making ready to come alongside — and, nearer, crossing toward the fo'c'sle scuttle with no hurry in them at all, the soft, exact footsteps of Meneer Vos.
+
+---
+
+# Chapter 12 — The Reckoning
+
+What saved them all, Sana thought afterward, was that Vos came down expecting to interrupt a grievance — and walked instead into a court.
+
+He stood at the foot of the fo'c'sle ladder with two of his armed men behind him, and what he found in the lamplight was not conspiracy huddled in corners: it was the ship's mate at a mess-chest with papers squared in front of him, the steersman and the cook ranged beside like assessors, thirty men standing in order as if mustered, and a fifteen-year-old clerk on the cable-tier with her hands folded, waiting, as though he were late.
+
+"This gathering is irregular," Vos said softly. "The watch below will turn out for lading at slack water. Master Bakker, your place is on deck."
+
+"My place," said Bakker, not rising, "is where the ship's safety is questioned. A charge of barratry has been laid before me in form, with papers, and named witnesses, against the supercargo and persons unknown. I'm bound to put it to the captain. You may stand as accused or you may stand as auditor, Meneer, but the hold will be counted this hour, and by the ship's own officers — not your tally-party."
+
+For once in that whole exact voyage, Sana watched Vos reach for a next entry and find the page blank. He had prepared, she understood, for every seagoing danger to his scheme: storm, drink, greed, desertion, even violence. He had not prepared for *procedure*. He had built the fraud out of documents, and now the documents had turned in his hand like a blade reversing; here was a mate armored head to foot in exactly the kind of paper Vos himself worshipped, and behind the mate, thirty witnesses standing in lawful order, and every minute of delay another initial on the page.
+
+"The captain," Vos said at last, "will decide what is counted in his ship," and went up the ladder fast, and Sana knew they had him, because he had just appealed to the one man aboard whose name was twenty-eighth in the wage-book.
+
+What followed filled the strangest three hours of her life, and she kept its minutes herself — actually kept them, on paper, at Bakker's growled order, because somebody had to and her hand was fairest: *the audit of the ship Petrel, at anchor under the Old Wife, the 19th of the month, before slack water.*
+
+They counted. Bakker, Sier, Cook, and six trusted hands went down into the pepper dark with the schedule while armed Wick and his mates stood glowering and outnumbered at the hatch — and the hold witnessed true, sack after numbered sack, dry and prime and whispering. On deck, the lugger, twice hailed and twice given no order, sheered off at last and lay hove-to at the cove's mouth like a dog shut out of a kitchen. In the great cabin, Captain Tans sat looking at the audit's first sheet as it was carried in to him page by page, and drank nothing at all, which those who knew him said afterward was the loudest thing he ever did.
+
+And at the second hour, with the count at four hundred sacks and casting perfectly, Vos stopped being exact.
+
+He went, quietly, with the last three men whose iron was loyal to him, not for the papers and not for the boats — Sana had guessed boats, Bakker had guessed papers, and they had guarded both — but down the after-hatchway to the lamp-room, where a careful man might, in five unwatched minutes, arrange for a ship under audit to stop being evidence at all. What was a hull worth burned to the waterline in a wrecker's cove? Exactly what the policy said it was worth. Fire tidies every ledger.
+
+It was Tade who smelled it — Tade, posted below by Cook on the plain kitchen logic that *a man who'll cook books will cook anything* — and his yell up the hatchway broke the audit like a dropped plate. Smoke in the after-orlop. Lamp-oil down the scuttle into the pepper-dust dark, and a wick of tarred spun-yarn already crawling with flame, and Vos's men holding the ladder-head against all comers with drawn hangers while the exact man finished his last piece of clerking below.
+
+The next quarter-hour Sana ever after remembered in entries, not moments, because that was how her mind survived it. *Item:* Bakker roaring the hands to the pumps and the wet sails. *Item:* the ladder-head rush, seamen against sweepings, marlinspikes and fists against iron, short and ugly and won by weight of honest numbers — one man slashed across the forearm, none killed, the sweepings pinned and trussed with their own belts. *Item:* herself and Tade going down the forehatch with wet cloths over their faces into the smoke, because they were the two aboard who knew the pepper-tiers blind, and the fire-party behind them was lost in a hold she could walk in her sleep. *Item:* the heat, and the evil pepper-smoke that fought like a live thing, scouring eyes and throat raw, and the red crawl of flame along the spilled oil toward the tiers — and the bucket-chain finding them, and the sea coming down the hatch in green sheets, and the pumps' dry clank going wet at last. *Item:* Vos in the smoke-light with his good black cloth scorched, cornered between fire and audit against the futtocks, still holding — she would remember this always — his despatch-box; making his last exact calculation; and handing it, unopened and undamaged, to the mate of the *Petrel* in exchange for the ladder, because even now, even here, the man could not stop trading.
+
+*Item:* the fire, drowned. Six tiers of pepper spoiled by salt water in the drowning of it — the house's lie made true at last, Sana thought, coughing in the wash, by the house's own hand.
+
+*Item:* the ship, saved. The company, all told, twenty-eight, burned and cut and half-poisoned with pepper-smoke, and alive, every name.
+
+They brought Vos up into the grey evening light with his hands bound before him, and the last thing needed happened then, unforced, in front of the mustered ship's company: Captain Tans came down from the quarterdeck, took the *Petrel*'s log-book from under his arm, laid it open on the capstan-head, and in a dead steady hand wrote the supercargo into custody and the truth into the record — anchorage, lugger, fire, count — signing his own ruin line by line and looking ten years younger with every stroke.
+
+"I'll hang beside him, like enough," he said to no one in particular, capping the inkhorn. "But I'll hang in a fair book."
+
+Sana stood at the rail with her father — freed from the steerage an hour since, grey with smoke, his careful hands, for once, not squaring anything, only holding onto her shoulders as if she were the one fixed point on the whole heaving sea — and watched the lugger at the cove's mouth shake out her sails, come to her senses, and run.
+
+"Let her go," said Bakker, from the quarterdeck. "The one that matters is trussed by the mainmast. Turn the glass, strike the bell, and somebody get this ship's books in order."
+
+"They're in order," said Sana Brandt hoarsely, and twenty-eight living entries laughed until the gulls left the cliff.
+
