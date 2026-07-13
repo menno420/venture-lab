@@ -1,9 +1,10 @@
 # 2026-07-13 — Day run: The Paper Orange EN packet graduation + serial-edition continuity patch (BOOKS lane)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · worker slice · BOOKS lane, 2026-07-13 day run
 - **Started:** 2026-07-13T09:42:16Z (`date -u`)
+- **Closed:** 2026-07-13T09:50:02Z (`date -u`) · PR #146
 - **⚑ Order basis:** day-run BOOKS-lane slice (coordinator-assigned; continues ORDER 008's BOOKS clause work). Both items are pre-flagged open follow-ups on `main`, not self-invented scope.
 
 **Intent:** ONE landed-ready PR closing two warm-backlog items flagged by earlier 2026-07-13 cards:
@@ -12,3 +13,19 @@
 2. **Serial-edition continuity patch** — `.sessions/2026-07-13-en-continuity-patches.md` (PR #136) patched the Ultramarine Ch 5 sill/fist seam in both master copies but flagged `versions/serial-edition/ultramarine-part-2.md` as the stale verbatim holdout. One sentence inserted so the serial paragraph matches the patched master exactly.
 
 **Scope:** `docs/publishing/vetting/the-paper-orange.md`, `docs/publishing/keyword-map.md`, `candidates/adult-novels/ultramarine/versions/serial-edition/ultramarine-part-2.md`, this card + claim. Walls held: no `the-night-kiln/**` files (sibling worker's lane), no control/status.md / outbox / inbox edits, no publish, spend, or external action; every owner-money step stays inside packet §7 checkboxes.
+
+## Outcome
+
+- **A — The Paper Orange EN packet GRADUATED** (`docs/publishing/vetting/the-paper-orange.md`): §3/§5 now carry the REAL measured length — verbatim `wc -w` **15,811** (`en/the-paper-orange.md`, PR #122) — with the plan-vs-actual delta flagged honestly, not hidden (the concept packet planned ~25k–35k; the write-slice ran a 13k–17k brief; the finished book is roughly half the concept plan's length; the $3.99–$5.99 band is unaffected). §2 got a light graduation re-scan dated 2026-07-13 (`"The Paper Orange" book`): still no same-named book, same nearby entities (UK YA bookshop brand "Paper Orange", FDA/NBER "Orange Book"), verdict re-confirmed **Low**. §4 price confirmed ($4.99, 70% tier). Closing verdict flipped from "PARKS at 'no manuscript'" to **GRADUATED — publish-ready up to the owner gate (§7)**. Honest gap kept open, not glossed: the §6 blurb is still concept draft v0 (rewrite from the finished manuscript = seat work owed before §7 step 5).
+- **Keyword map** (`docs/publishing/keyword-map.md`): The Paper Orange moved from §3 name-level reservation to full §1 ownership — the map's first §3→§1 graduation. Per C4 the EN edition SHARES the two WWII browse nodes its manuscript-backed NL packet claimed first (both category rows + edition-sharing note updated); **7 EN keyword rows added verbatim from packet §6**, each checked against every existing owned row (zero collisions; two annotated C2-pattern adjacencies: `Amsterdam occupation 1944 story` vs Weigh House's `Amsterdam crime novel`, `wartime widow survival novella` vs the two owned widow-stem rows). C3 now records WWII-occupation as the THIRD Netherlands era-register, owned by Paper Orange; the §3 row is retired as a tombstone pointing at the §1 rows.
+- **B — Ultramarine serial-edition continuity patch** (`candidates/adult-novels/ultramarine/versions/serial-edition/ultramarine-part-2.md` L29): inserted the one retrieval sentence verbatim from the patched master ("Then she gathered them back into her fist, all four, the way she always carried them; the sill was for the counting, not the keeping.") between the sill-checking line and "The button's cold." Verified by `diff`: the serial paragraph now matches `manuscript/ultramarine.md` L243 AND `manuscript/part-two.md` L11 byte-for-byte — PR #136's flagged stale holdout is closed.
+- Every owner-money action stayed inside §7 checkboxes; no publishing step performed; no `the-night-kiln/**` file touched (sibling lane); derived `OWNER-QUEUE.md` untouched (this slice changes no §7 rows — see follow-up below).
+- **Follow-up flagged, not fixed (out of scope):** `docs/publishing/OWNER-QUEUE.md` is stale on `main` — re-running `scripts/derive_owner_queue.py` at this HEAD adds 49 lines (the six round-2 packets from PR #143 never got a queue regeneration). Left for a dedicated slice; regenerating it here would smuggle unrelated diff into this PR.
+
+## 💡 Session idea
+💡 **Length budgets need one source of truth: write-briefs must cite (or amend) the packet §3 plan.** This graduation surfaced a 2x plan-vs-actual miss that nobody caught for a full day: the concept packet planned ~25k–35k words, the write-slice ran a 13k–17k brief and landed proudly "inside brief" at 15,811 — both documents were internally honest and mutually contradictory, and the contradiction only became visible when graduation put the measured count next to the packet's §3 plan. Cheap rule for every future write-slice: the brief's word budget is COPIED FROM the packet §3, and if the write-slice deliberately deviates, it amends the packet §3 in the SAME PR (one line: "re-planned 13k–17k, reason"), so no later slice discovers the fork. Distinct from `night-book-idea-packets`' graduation-checker idea (that machine-checks a manuscript EXISTS on disk; this keeps the LENGTH PLAN from forking across documents while both exist) and from `paper-orange-manuscript`'s vetting-packet-as-outline (that celebrates packet-first drafting — yet its own slice is the one that quietly swapped the length budget).
+
+## Previous-session review
+previous-session review: `.sessions/2026-07-13-round2-idea-packets.md` (PR #143) — genuine strength: its collision scans were real enough to change decisions mid-slice (the same-day rename OFF the occupied Thistlewick stem is the scan doing its job, not decorating the packet); honest nit: it landed six new packets each carrying a §7 OWNER-GATE block but did not regenerate the derived `OWNER-QUEUE.md`, leaving the queue stale on `main` — measured this session: re-running `derive_owner_queue.py` adds 49 lines, all six of its sequences missing. The regeneration rule its own lineage established (PR #131 "regenerated so the new §7 ⚑ OWNER blocks surface") got dropped exactly one wave later.
+
+Run as a day-run BOOKS-lane worker slice; claim `control/claims/paper-orange-graduation.md` deleted in this flip commit per the claims README ("delete your own claim file at session close").
