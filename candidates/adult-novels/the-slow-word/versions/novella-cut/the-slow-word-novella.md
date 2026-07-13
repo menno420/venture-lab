@@ -282,3 +282,297 @@ Tuli sat back in the breathing dark of the empty hall and looked at ten thousand
 The curve held. It did not sag into a fan of possibilities. It was one thing, saying one thing, across a span that made her entire life a held breath — real, coherent, not random, waiting.
 
 Somewhere out past the galactic centre a lighthouse had been bending its light on purpose, and she had just, for the first time, seen far enough down the wave to be sure. Now she only had to learn to read it.
+
+## Chapter 5 — Ten Thousand Years
+
+The trick, in the end, was to stop trusting the clock.
+
+Tuli had spent forty years teaching herself the opposite. A radio astronomer lived and died by timing; the whole apparatus of the field was a cathedral built to the worship of the exact second. But the modulation she was chasing did not live in the clock. It lived in the slow twist of the light's plane as it arrived, and that twist changed on a scale so long that no clock built by anything with a pulse could hold it. To read it she had to abandon the second and think in centuries, and to think in centuries she had to borrow other people's clocks — clocks that ran in ice and stone and memorised speech. Four clocks. None accurate to the second. All of them, together, accurate to the century.
+
+What she had not let herself do, until tonight, was the greedy thing, the thing she had been circling for a week like a dog around a snake: not just confirm the signal, but extract it. Pull the sequence out whole. Line up all four clocks, resample the polarisation angle onto a single deep-time axis, and let the numbers fall where they fell.
+
+She wrote the last of the code standing up, because sitting felt like presumption. The first run failed — a sign error in the precession correction, and she was almost relieved; the universe reasserting its indifference was a familiar comfort. She fixed it and ran it again.
+
+The plot drew itself across the screen in a stutter of green.
+
+For a moment she did not understand what she was looking at, because she had been braced for a curve — a slow sinusoid, something continuous and physical, the kind of thing a star does. This was not a curve. This was steps. The polarisation angle did not slide from one value to the next; it held, and held, and then it moved — a clean transition, a settling, a new plateau held for its own span, then another move. The angle was not varying. It was being *set*. Held at one position, then reset to another, the way a hand sets a stone down and leaves it and comes back and sets down another.
+
+Discrete. Quantised. Not a wave. A string of values.
+
+She counted the plateaus. The average width came out to a hundred and eleven point six years, with a scatter tight enough to make her mouth go dry — tight enough that the width itself was clearly meant, a clock inside the clock, a beat the sender was keeping deliberately so that anyone downstream would know where one unit ended and the next began.
+
+A hundred and twelve years to a symbol. And the symbols were not random. She ran the flat honest statistics that had killed every hope she'd ever had, and the sequence came back structured — non-random at a confidence that, in any paper about any ordinary thing, would have ended the argument before it started.
+
+She stood in the hum and looked at it. Roughly a hundred symbols, each a plateau a century wide, the whole thing reaching back something on the order of ten thousand years and running forward to now, to the light presently falling on the dishes, to this room.
+
+Ten thousand years of held stone.
+
+She had used the word *phoneme* in her notes days ago, a placeholder, and had meant to strike it. She did not strike it now. It was the right word, and the knowing was the most frightening thing that had happened to her in a professional life not short of fright. Nothing physical held a value dead level for a century and then stepped cleanly to the next and held that. Holding was expensive. Holding was work. Somewhere out there something was paying, symbol by symbol, the cost of being unambiguous, and it had been paying since before the first city on Earth had a wall.
+
+She was not looking at a star. She was looking at somebody's care.
+
+She sat down after all, because her legs had made the decision for her. Then she called Marcus.
+
+It was past midnight where he was too. He answered on video with his reading glasses pushed up into grey hair, a book face-down on his chest, and the unguarded softness of a man woken who is not yet performing being awake.
+
+"Marcus. I need you to be a physicist for ten minutes and then you can go back to sleep and decide I've lost my mind."
+
+He looked at her properly. Whatever he saw made him sit up, and the book slid to the floor, and he did not reach for it. "Okay," he said. "I'm awake. Go."
+
+She told him. She was, if anything, colder than the data warranted, because she needed him to try to break it, not to be swept. She gave him the four clocks and the resampling and the sign error she'd caught and the width of the plateaus and the flat statistics, and watched his face do the thing she'd watched it do for thirty years — the scepticism, the hunt for the boring explanation, the small unconscious frown when he couldn't find one.
+
+"Instrumental," he said. "The feed, some slow thermal—"
+
+"On a hundred-and-twelve-year period? The receiver's nine years old."
+
+"Ionosphere. Faraday rotation—"
+
+"Twists it fast and dirty and randomly. This is slow and clean and it *steps*. The ionosphere doesn't hold a value for a century and then decide to move. Nothing does. That's the whole point. That's why I'm calling you at midnight instead of writing it up like a sane person."
+
+He was quiet. When he came back his voice had changed. The softness was gone and something more frightened had taken its place.
+
+"If it's real," he said slowly, "you can't sit on it. It's not yours. You call Halvorsen, you get it timestamped and witnessed and out of that room before somebody decides to—"
+
+"Before somebody decides to what."
+
+"Before you have an accident with a hard drive," he said. "You know how this goes. The moment the Consortium understands what's on that array, Fenua stops being a decommissioning and becomes an asset. Halvorsen isn't a villain but she has a board, and the board will want it in a vault in Geneva with their name on the door and you thanked in a footnote. Go public *now*, while it's still yours to give away."
+
+It was good advice, exactly the advice she would have given him. She sat with it and found that she did not want it, and made herself examine the wanting.
+
+"If I go public tonight," she said, "what do I have? A hundred plateaus and a claim. I don't have a translation. I have proof that somebody spoke and no idea what they said. And the instant it goes up the chain, it goes to people with more machines and more money and more time than I've got, and they'll get it — eventually, in ten years, twenty. And I will be dead, or close to it, and I will have handed away the only thing I have ever found that mattered, at the exact moment before it meant anything, so that it would be *safe*." She looked at the dark beyond the window, the invisible sea saying its one long sentence against the reef. "I want to understand it before I let go of it. Not own it. Understand it. One symbol, so that when I hand it over I'm handing over a *word* and not a rumour."
+
+Marcus was silent a long time. "Promise me you back it up," he said at last. "Off-island. Tonight. Promise me the message survives you even if nothing else does."
+
+"I promise," she said, and meant it, and the ease of meaning it frightened her more than the data had, because it meant some part of her had already begun to plan around her own absence.
+
+"Then hold it," he said. "God help you. Hold it. And call me. Every day, Tuli. I mean it."
+
+She did back it up — three copies, one to an encrypted store in Auckland, before she let herself go back to the plot. Then she did the thing she had been saving.
+
+She ran the sequence. Not analysed — *played*. She mapped each phoneme's angle to a value, laid them end to end, and let the reconstruction run across the screen from the oldest she could reach to the newest, ten thousand years scrolling past in ninety seconds, the held stones of it setting themselves down one after another after another. Then she ran it again, slower, watching not the values but the *shape* — the way the symbols grouped, the way certain ones recurred and framed the others, the redundancy, the call and its answer, the structure that was there so that meaning could survive the loss of any single beat.
+
+She had expected, if she'd expected anything, a list. A table. Facts, coordinates, the periodic table in some universal hand — the tidy first contact of every hopeful paper she'd ever half-believed. A shout with information in it.
+
+It was not a list. Lists did not have this shape. She had sat on a mat while an old man's hand kept time, and she knew now what she was seeing because he had taught her the difference without either of them knowing that was the lesson. This had the shape of a *sentence*. It opened, it built, it turned on itself and referred back to its own beginning, it carried one long line of intent from its first held stone to its last. Somebody was not reciting. Somebody was *saying*.
+
+And the end of it — the newest phonemes, the ones still arriving, the light that had left its source when the pyramids were already old — the end of it lifted. She saw it and did not trust it and ran it again and saw it again. The final symbols climbed. The angle stepped up and up in the last stretch, a rising cadence, the intonation of a voice going up at the close of a line, the way every human voice in every language she had ever heard goes up, when it has stopped telling you something and started asking.
+
+It was not a broadcast.
+
+It was a question.
+
+And it was not finished. The last phoneme was still being held — out there, now, tonight, a stone the size of a century set down and not yet lifted — and the sea went on against the reef, and Tuli sat very still in the humming dark and understood that somewhere a mouth she would never see was, at this exact moment, in the middle of asking her something, and would go on asking it for another hundred years, long after she had stopped being anyone at all.
+
+## Chapter 6 — The Slow Ones
+
+For three days she did not try to read the question. She tried to read the questioner.
+
+It was, she told herself, the disciplined order of operations: you do not translate a language before you know something of the mouth that speaks it. But the truth was simpler. She was afraid of the meaning and unafraid of the mathematics, and so she went where the fear was thinner.
+
+A hundred and eleven point six years to a symbol. She did the arithmetic she'd been avoiding, on the concrete step outside the control room in the grey before the heat. If a phoneme took a hundred and twelve years, then a word took four or five centuries, and a sentence ran to a thousand years and more. She tried to make it human and it would not go human. Speech, for a person, sat on the breath — a syllable the length of one exhalation, the span of a single heartbeat. That was the body setting the tempo.
+
+So she inverted it. If these beings spoke at the speed they were built to speak — if a phoneme sat on one breath of theirs, one beat of whatever kept them going — then a single heartbeat of theirs was a century of Earth's. A human life, her own fifty-eight years, all of it — the islands and the leaving and Marcus and the grandmother in the ground and every single thing she had ever done or failed to do — was not even one full beat of the thing that was speaking. It was less than the pause a person leaves before the next word.
+
+She sat with that on the cold step until the mug was undrinkable, and found she was not horrified. She was — the only word that came was the old church one — in *awe*, in the exact and terrible original sense that has fear folded into it and does not apologise for the fear.
+
+They thought across deep time. Not metaphorically. Their thoughts were the length of civilisations. Whatever they were — she had no picture and refused to invent one, she would not insult them with a face — they lived at a tempo where the ice ages were weather, the pyramids a recent noise, and a species could rise, learn to catch radio, and die again inside the space of one of their spoken clauses. And humanity had caught the tail. Only the tail. They had been speaking before there was anyone here to listen, and the species had happened to build the one narrow instrument that could see the twist in the light, and she — Teuila Va‘a, on a station scheduled for deletion — had happened to point it at the right dead star in the last few years before they turned it off.
+
+She should have felt small; she had been braced, all her life, for the cosmos to make her feel small. But it was not smallness she felt on the step that morning. It was the opposite and stranger thing: that something on the scale of ice and continents had bent the shape of its attention toward *saying*, toward the patient expensive work of being understood, and meaning of that kind did not care how small you were. It cared only whether you were listening. And she had been listening. For once in the whole indifferent sky, something had spoken, and she had been awake.
+
+She went inside to work, happier than she had been in a decade, which is worth recording, because of what came after.
+
+---
+
+It came four days later, in the afternoon, and it did not announce itself.
+
+She was at the terminal aligning the redundancy — pairing the call-symbols with their answer-symbols the way Ropati's chant paired the name of a father with the response of the room. Her hands were on the keys. And then her hands were the least of her, because there was a fist in her chest.
+
+That was the only word for it, and she used it later, to the doctor, to Marcus, because it was exact. Not a pain, at first, a *presence* — as if something had reached in under the sternum and taken hold and was making a slow, deliberate, uninterested fist, and every beat had to be squeezed out past it. The room did not spin. It did something worse; it stayed perfectly still and went grey at the edges, the colour draining inward the way the tide leaves the flats. Her left arm was wrong. Her jaw ached. She had time to think, with a clarity that appalled her afterward, *it's already backed up, good,* before she was on the floor and did not remember arriving there.
+
+She did not black out fully. That was the mercy and the horror of it — she stayed just present enough to be afraid, lying on the cool concrete with her cheek against the grit of coral dust, listening to her own heart make its uneven, unconvincing case for continuing. She counted it, because counting was what she was for. It was not counting well. It stumbled, caught, ran a clot of fast shallow beats and then a long sick pause that went on past when it should have ended, and in that pause she understood with her whole body what she had understood all week only with her arithmetic: that a heartbeat is a small thing, a brief thing, and the entire foundation on which a person is built, and that hers was negotiable.
+
+It let go of her eventually. She lay a while longer, not trusting it, then got up because there was no one to get up for her. She has never entirely forgiven herself the fact that she went first to the terminal, still swaying, to confirm the backup had completed. Only then did she raise the atoll's one clinic.
+
+The clinic was two rooms and a generator and a young locum from Suva named Dr. Ravai who was better than the building deserved. He ran the ECG strip twice, held the second up to the window light, and was quiet in the particular way she had learned, over one long week, to read as *structure, not noise* — the quiet of a man looking at a pattern he wished were random and knowing it was not.
+
+"Dr. Va‘a," he said. "You should not have been standing up, four days ago or now." He traced with his pen the thing that was wrong, the spacing that stumbled and caught and ran and paused, and she looked at her own heart written out as a line on paper and thought, unstoppably, of the plateaus on her screen, the held stones, the beat inside the beat. Everything the universe was telling her lately, it told her in the language of timing. "This is not a warning," Ravai said, giving her the dignity of the straight version because she had asked for it. "This is the event. You had it on the floor of your station with nobody there. That you are sitting in my chair is luck, and luck does not renew."
+
+He named it. The name mattered less than the shape of it: something structural and progressive in the muscle and its wiring, a fault that would not mend and could not, here, be fixed — that in a city with a catheter lab might have been managed for years, and that here was simply a countdown she could not read the face of.
+
+"How long," she said, because she was what she was.
+
+He did not insult her with *it's impossible to say.* "If you go to Auckland tomorrow, and they take you, and it goes well — years, maybe. If you stay—" He looked at her, and at the strip, and out the window at the dishes. "Months. I would not promise you the year."
+
+Months.
+
+She sat with the word and it would not fit in her mouth. She had spent the week learning to think in centuries, retuning her whole mind to the tempo of something that spent a hundred years on a single sound, and now the same universe leaned in close and set down, dead level, without cruelty and therefore with a cruelty past bearing, its own held stone: *months.* The phoneme they were holding tonight — the one out there, a century wide, set down and not yet lifted — they would still be holding it, unchanged, in the year her grand-niece Lani was her age, in every year of every life not yet begun of everyone Tuli had ever loved. And Tuli would not hear it lifted. She would not hear the next one begin.
+
+"I'll think about Auckland," she said, which they both knew was a no, and Ravai had the grace not to push, only to write her a script for the pills that would buy the days a little slack.
+
+---
+
+She called Marcus that night. She had meant to be careful, the cold clear voice describing another woman's symptoms, to protect him the way she had protected everyone her whole competent solitary life. She got as far as *I saw a doctor today* and then she did not get any further for a while, and he waited, and when she could speak again she told him the true version. The floor. The fist. The strip in the window light and the word *months.*
+
+"Come home," he said, when he could. "Come to Auckland. Let them—"
+
+"And do the message from a hospital bed with tubes in me and someone else's hands on the array? No." She was not angry. She was past angry, out the other side of it into somewhere very quiet. "I'm not going to trade the reading for the year, Marcus. I'd rather have the months and the message than the years and a footnote."
+
+"That's not—" He stopped. He had never been able to argue with her arithmetic and he did not try now. "I'm not frightened of losing the message. I want you to hear me say that. I care that you'll be on that floor again and I'll be a phone call and eleven seconds away."
+
+"I know," she said. "I know you do." And then, because he had earned it, because he was the one person alive she would not perform for, she gave him the thing under all the arithmetic, the thing she had not said even to herself until saying it made it true.
+
+"I'm afraid, Marcus."
+
+He went still. She had not said it to him in thirty years. She was not sure she had ever said it to anyone.
+
+"Not of them. That's the strange part. They've spent ten thousand years being patient with a species that only started listening last Tuesday. I'm not afraid of the Slow Ones." Her voice held. She made it hold. "I'm afraid of dying in the middle of it. There's a question out there a hundred years wide and it's still being asked and I am going to die before I understand it, and it will go on being asked, exactly the same, over the top of my grave and everyone's. I found the one thing that outlasts everything, and it's going to outlast me before I've read it. I'm afraid of leaving it half-heard."
+
+The sea went on against the reef, the long slow sentence of it.
+
+"Then we read it," Marcus said, very quietly, and the *we* went into her like the pills, like slack in the countdown. "Whatever's left. However long that is. You're not alone anymore. Back it up, don't be alone, and we read the slow ones together for as long as you've got."
+
+*The Slow Ones.* He had taken her word — she had used it once, tonight, without deciding to — and given it back with capitals in it, made it their name, and she found she was crying at last, not for the diagnosis and not even for the years, but because something on the scale of ice had bent toward saying, and something on the scale of months had been chosen to hear it, and there was no clock in the universe fast enough or slow enough to make the two fit.
+
+"The Slow Ones," she agreed, into the dark, into the hum, into the long light that had left its source before any of this and was only now, tonight, arriving. "Alright. Yes. Together." And she was afraid, and she said so, and she went on listening.
+
+## Chapter 7 — The Question
+
+Tuli had spent forty years listening to things that could not talk back, and so she recognised, before she could prove it, the particular vertigo of being addressed.
+
+It came at half past three in the morning, in the concrete cool of the control room. She had laid the message out the only way that had ever made sense to her: a line of marks unrolling left to right across three stitched monitors, each mark a phoneme, each phoneme a full setting of the angle that the Slow Ones had cut into the Metronome's light across a hundred and twelve years of their patience. Ninety marks. Ninety syllables that took ten thousand years to say. She had been staring at them for a week the way you stare at a word until it stops meaning anything.
+
+The trouble was that she had been reading them as a statement. As something that ended.
+
+What broke it open was not the code. It was the memory of Ropati on the mat — the way he had not recited a list. He would say a name, and then say it again folded into the next, and then double back — *and this one, who was the child of that one, whose mother was* — laying each generation down twice, three times, from different sides, so that if you lost a name to a cough or a passing truck you could still reconstruct it from the names that leaned against it. He could be corrected, mid-breath, by a woman across the room who had heard her own grandmother do it differently, and the two of them would negotiate the discrepancy until the line came clean again. It was not memory as she had been taught memory, a bucket you filled and spilled. It was memory as a protocol. Call and response. Parity. Error correction running across three hundred years of human mouths, and holding.
+
+She had been reading the Slow Ones as if they had left a monument. A thing said once, carved, abandoned to the light.
+
+But nobody who thought in deep time would carve. Carving was for people who trusted stone more than each other. People who thought across ten thousand years, who had learned — as Ropati's people had learned across their own smaller ocean of time — that nothing physical survives that long intact, would not build a statement. They would build a protocol. And a protocol has a shape, and the shape of a protocol is not a full stop.
+
+It is a turn.
+
+She went back to the ninety marks and saw it the way you see the second face in the drawing. The message did not end. It rose. The final structure — the last eleven phonemes she had spent a month treating as a decorative coda, a signing-off — was not a coda. It was the same grammatical hinge that Ropati put at the seam between one generation and the next. *And who, then.* It was a socket. It was cut to receive.
+
+The whole ten thousand years of it was call. It was built, from the first phoneme, to be answered.
+
+"Oh," she said, out loud, to the empty room and the sea. "Oh, you clever bastards."
+
+She did not sleep. She worked the meaning the way Ropati worked a contested name, from every side she had, cross-checking the slow grammar against the redundant echoes the senders had built into their own transmission — because of course they had built in redundancy, of course they had, they had said everything two and three times from different angles, exactly as the old man in the good chair, and how had she not seen that a message meant to cross deep time and a genealogy meant to cross deep time would be built by the same pressures into the same shape. Convergent. The ocean makes the same fish twice. Deep time makes the same sentence twice, on two worlds.
+
+By the grey of first light she had a translation she trusted. Not word for word — the Slow Ones had no words, only relations, only the va between one state and the next — but she trusted the sense of it the way she trusted the sense of the tide. She wrote it on the back of a defunding letter from the Consortium because it was the paper nearest her hand, and later she would think there was something right about that, the sentence written on the back of its own death warrant.
+
+*We have been speaking a long time. Is there anyone there steady enough to answer?*
+
+She sat with it. Outside, the frigatebirds came off the roost and went out over the lagoon, black scissors against the paling sky. She read the sentence again on the back of the letter. It did not change.
+
+It was not a question about existence. That was what took the breath out of her, slowly, over the next hour, as the full weight of it arrived the way water arrives, without hurry, filling every low place. They were not asking *is anyone there.* They had solved that; they were speaking, they had chosen to speak, they assumed a listener the way you assume the far shore. They were asking something crueller and more intimate. They were asking whether the listener was *continuous.* Because to answer them at all you would have to speak back in their register, one phoneme per century, and hold your meaning steady, hold your very *self* steady, across the thousands of years it would take to complete a single reply. They were not asking if you existed. They were asking if you could *keep a promise.* If there was anything on your world that lasted.
+
+And she thought of the Consortium, which would not last the quarter. She thought of the observatory, forty years old and dying under her, the youngest institution she could name and already a ghost. She thought of the languages she had watched die on this ocean, and the ones her own family had let go of, the words for tides her grandmother had and she did not. She thought of nation-states that lasted a few centuries drunk on the idea of their own permanence. She thought of the internet, which could not hold a link for a decade. She thought of her own body, the traitor muscle in her chest ticking its faulty metronome, and she thought: I am the steadiest thing this discovery has, and I am the least continuous thing in this room. The dishes will outlast me. The letter I wrote this on will outlast me.
+
+*Is there anyone there steady enough to answer.*
+
+No.
+
+That was the answer. She let herself have it, alone, in the grey. No. There was no institution, no language, no memory, no machine, and no woman on this earth that could hold a coherent transmission across ten thousand years, or one thousand, or even the five hundred she'd need just to begin. To reply to the Slow Ones you would have to become the kind of thing they already were — a mind that persisted past its own components, that survived the death of every cell that first thought the thought — and humanity had never once managed it, not for its gods, not for its empires, not for love. Everything humans made to outlast themselves, they made out of the wrong material. Stone forgets. Steel rusts. Files rot. The message she had spent her last good year of health pulling out of the sky was a question, and the honest answer was silence, and she would die knowing that the one time the universe had leaned across the dark and asked whether we were steady enough, the answer had been no, and she had been the one to have to know it.
+
+The self-pity of that thought disgusted her even as she had it. But it did not leave.
+
+The next night was worse. That was the night she nearly did it.
+
+She told herself afterward that it was fatigue, that the medication thinned everything, but she knew that was only part true. Part of it was cleaner and colder than that. The Meridian people had started to circle — she'd had the first email that day, all bland menace, *strategic significance, appropriate custodianship* — and she had understood, sitting alone with the second glass of wine she was not supposed to have, that the discovery would outlive her and would not outlive her *intact.* It would be taken. It would be classified, relocated, cut off the island and off the sky and stapled into some vault, turned from a question the ocean could hear into an asset three governments would fight over. The Slow Ones had asked whether anyone was steady, and the answer humanity was preparing to give was to lock the question in a drawer and quarrel over the key. And if that was the answer, then maybe the kinder thing, the *cleaner* thing, was for the answer to be nothing at all. A true silence rather than a false one. Let it be lost the honest way, in the sky, instead of the ugly way, in a safe.
+
+She opened the archive. She had root. She had built the whole thing; there was no version of it she could not reach. The ten thousand years sat in front of her in a folder she could put in the trash with two clicks, and empty the trash with a third, and overwrite the sectors with a command she could type from memory, and then there would be no message, and no theft, and no failure, because you cannot fail to answer a question that no one can prove was ever asked.
+
+She put the cursor on it. Her hand was steady, which was somehow the worst part. Forty years of steady hands.
+
+And then she heard it — not a voice, she was not a woman who heard voices, but the shape of the old man's cadence, the call-and-response of it, laid down twice, three times, so that no single failure could take the line. *And this one, who was the child of that one.* Ropati would be asleep now down in the village, carrying three hundred years in his body, and in the morning he would wake and the three hundred years would still be there, because he had never once trusted them to a single mouth, or a single stone, or a single drive. He had trusted them to the *between.* To the va. To the fact that there was always someone across the room who could correct you.
+
+She took her hand off the trackpad. She took it off slowly, the way you take your hand off a thing that is still warm, still capable of being touched again.
+
+She did not delete it. She backed away from the machine as if from a ledge, and she left the room, and she stood on the concrete apron under a sky stiff with more stars than any city person would believe, and she understood only that she had almost done a terrible thing and had been stopped, and that she did not yet know by what.
+
+*Is there anyone there steady enough to answer.*
+
+"I don't know," she said, to the light that had left long ago. "I don't know yet. Give me a minute. I'm working on it."
+
+The tide came in. She let it.
+
+## Chapter 8 — What the Tide Brings
+
+The world found her three days later, which was faster than the world usually managed on Vaituga.
+
+It found her first through Elin Halvorsen, calling at an hour that was polite in Geneva and cruel on the atoll, her face composed into the particular sympathy of a person about to make your life harder. The Consortium's systems had flagged an unusual pattern of archive activity on the Fenua node. Very high pulls. Repeated. Off-schedule. Given the decommissioning timeline, they simply had to ask what was being accessed.
+
+"I'm a scientist reading my own data," Tuli said. "On my own array. Shocking."
+
+"No one's accusing you of anything, Teuila." A pause with weather in it. "There's been interest," Halvorsen said, "from outside the Consortium. In the site. I'm not at liberty. But I'd — off the record, I'd get your affairs in order. The scientific ones. Sooner than the schedule says."
+
+She knew what that meant before the second email arrived that afternoon, and it did arrive, and it was worse than the first because it was warmer. The Meridian Group thanked her for her decades of distinguished stewardship. They noted the *national and strategic significance* of the Fenua findings. They proposed, at no cost to her or to the government of Vaituga, to *ensure the discovery's security and continuity* by relocating the relevant instrumentation and archives to a *hardened facility* off-island. A team could arrive within the month. There was a logo. There was, at the bottom, a defence-ministry co-signatory from a country that was not hers and was not Vaituga's.
+
+She read it twice and then she laughed, one hard note, because there was nothing else to do with it.
+
+They wanted to take it off the island. Of course they did. That was the oldest sentence in this ocean, older than the Metronome's message, older than the gafa: *there is something of value here, and it should not stay with the people it belongs to, and we will call the taking of it security.* They had done it with the phosphate and the fish and the airfield and the young men, and now a thing had fallen out of deep space onto a decommissioned dish on a poor atoll, and men with logos had smelled it from the far side of the world and were coming to put it in a vault. She thought of every museum she had ever stood in, full of other people's ancestors behind glass, labelled in a language the ancestors never spoke.
+
+Not this one, she thought. Not this ear. Not the last one.
+
+She did not know yet how she would stop them. She only knew, with a clarity that surprised her, that she would.
+
+Marcus came on the Thursday flight.
+
+She had not, exactly, asked him to. She had written to him the way she wrote to him about everything — a long, dry, technical email about the message, the question-structure, the redundancy, Ropati's gafa — and somewhere in the fourth paragraph she had mentioned, in a subordinate clause, the way you'd mention weather, *the Auckland cardiologist wants me back for more tests but I've told him the sky can't wait,* and Marcus, who had loved her thirty years ago and had never entirely stopped and had read her subordinate clauses for all of them, had written back two words — *I'm coming* — and booked the flight before she could assemble a refusal.
+
+She stood at the little airport with the heat coming off the tarmac and watched him come down the steps: heavier than the man she'd known, grey all through now, a linen shirt already losing to the humidity, and the same unhurried way of moving, as if the world would keep for him.
+
+"You look terrible," he said, taking her hand.
+
+"I'm dying, Marcus, I'm allowed."
+
+"You've been dying since I met you. You were dying about the funding in 2034." But his hand tightened on hers, and his voice, under the wryness, was not steady, and she let him not be steady because one of them had to be allowed.
+
+They worked first. That was who they were; grief and desire could both wait behind physics. She showed him everything in the control room with the louvres open and the sea in the background, and he did what she had needed someone to do for a week, which was to argue with her — to try to break the translation, to attack the question-reading, to insist she'd fooled herself with the gafa parallel, until, unable to break it, he went quiet and stood looking at the ninety marks on the stitched monitors for a long time.
+
+"It's asking if we can keep a promise," he said finally, "across ten thousand years."
+
+"Yes."
+
+"And we can't."
+
+"No institution can. No language. Nothing we've built." She heard her own flatness. "I nearly deleted it, Marcus. Two nights ago. My hand was on it."
+
+He didn't perform shock. That was one of the mercies of him. He just came and stood beside her, shoulder to her shoulder, and looked at the thing that had almost been unmade, and said, "But you didn't."
+
+"Ropati stopped me. Sort of. The idea of him."
+
+"Then we start there," he said. "In the morning. Not tonight." And he looked at her, at fifty-eight and unwell and lit blue by the monitors, and the look was not clinical and not careful, and she understood that the evening had turned a corner while she wasn't watching it.
+
+They ate on the veranda of the observatory house, fish Lani had dropped up, cold beer he was not sure she should have and poured her anyway. The tide came up under the palms. They talked about Fa‘amanu, who had feared the sea and lived beside it eighty years; they talked about the Meridian letter, and he swore, properly, a good hard Samoan-inflected profanity that she'd carried to Auckland thirty years ago and left in his mouth like a coin. They laughed. The laughing was what undid the last of it. You could hold a line against a lot of things but not against being known and laughed with, at the end of the world, by a man who had come nine hundred miles because of a subordinate clause.
+
+When she reached for him it was without ceremony, the way you'd reach for a rail. He came to her carefully, both of them careful, mortality in the room like a third presence they had agreed not to introduce. His hands knew her still, or knew the woman she'd been and found her inside the woman she was, and she let herself be found. There was the slow negotiation of two aged and imperfect bodies that had once been young and certain together and were neither now; there was the ridiculous tenderness of him pausing, of her feeling him listen for the count of her heart against his chest, that faulty metronome, and match his breathing to it as if he could carry the rhythm for her if it faltered. Somewhere in it she stopped being a dying woman and a discoverer and the last scientist at Fenua and was only, for a while, held. The sea kept its time under the house. She let the door close on the rest.
+
+Afterward they lay in the dark with the fan turning and the reef breathing and did not speak for a long time, and the not-speaking was full, the good kind, the va between them charged and easy.
+
+"They're going to take it," she said at last, into the dark. "Meridian. Off the island. Call it security." She felt him go still. "And even if they didn't — it doesn't solve the real thing. The message needs an answer that lasts ten thousand years. Everything I can think of to hold it, I can name the century it fails. The Consortium fails this quarter. I fail this year. Nations fail. Files fail. There's nothing steady enough, Marcus. That's the whole cruelty of it. They asked the one question we're built to fail."
+
+He was quiet, tracing her shoulder. Then: "You keep saying institutions. Languages. Machines." A pause. "You keep listing the things that don't last."
+
+"Because those are the things that carry information. That's what information *lives* in."
+
+"Is it." She heard him turn his head on the pillow. "Tuli. You cracked this whole thing because a ninety-one-year-old man sat in your good chair and recited three hundred years of names without a single note. Without a file. Without an institution. And he can be corrected by his cousin across the room, and the correction holds, and it's held for three hundred years, and it'll hold for three hundred more after he's gone because he's already given it to Lani and Lani doesn't even know she's got it yet." His hand stopped. "You've been looking for something steady enough to carry a promise across deep time, and you've been looking at the sky and the archives, and the whole time there's been a technology on this island older than radio that does *exactly that.* Faithful transmission. Redundancy. Error correction. Thirty generations and holding. You said it yourself — deep time makes the same sentence twice. Maybe it makes the same *machine* twice."
+
+She lay very still.
+
+It came up in her the way the tide comes up, without hurry, filling every low place. Not a machine. Not a vault, not a drive, not a nation, not a woman who would be dead by the wet season. Not a thing you owned at all, which was why Meridian would never understand it, which was why it could not be seized and carried off to a hardened facility, because it did not live in the object, it lived in the *between* — in the va, in the mouths, in the passing of a name from an old man to a girl who complained the whole time she was learning it. A technology for keeping a promise across a thousand years that had never once been recognised as a technology because it did not look like one to people who thought stone and steel were how you spoke to the future. Her own people had built the very instrument the Slow Ones were asking for, built it for something else entirely, built it out of the only material that had ever actually lasted on this earth, which was *each other,* and it had been sitting in her good chair drinking tea she'd forgotten to give it.
+
+You could not answer the Slow Ones with an institution.
+
+You could answer them with a genealogy.
+
+"Oh," she said, exactly as she had said it to the empty room three nights before, the same syllable, a different door.
+
+Marcus waited. He was good at waiting; the ocean would keep for him.
+
+The window had gone from black to the first grey. She could hear, far down the ridge, a rooster, and then another answering it, call and response, the oldest protocol. She sat up in the grey light, her heart doing its faulty steady work, and she was not afraid of the months anymore, or not only afraid, because for the first time since Auckland the thing she carried did not have to fit inside her own lifespan.
+
+"Marcus," she said. "I know who can keep a promise for a thousand years."
+
+He looked at her in the dawn, and he didn't ask who. He'd already heard it. He just reached over and took her hand, the way you take a rail, the way you take a name that's being passed to you, and outside the roosters called and were answered, and the tide, which takes everything, had for once brought something in.
