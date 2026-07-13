@@ -1,1 +1,0 @@
-- `claude/twelfth-cake-manuscript` · **BOOKS write-slice: The Twelfth Cake** — first complete manuscript for the round-2 vetted seasonal Victorian novella (packet parks at "no manuscript"; subtitle mandate honored) · candidates/adult-novels/the-twelfth-cake/** · 2026-07-13
