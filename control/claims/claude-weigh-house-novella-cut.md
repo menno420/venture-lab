@@ -1,0 +1,1 @@
+- `claude/weigh-house-novella-cut` · **books: weigh-house versions** — novella cut · candidates/adult-novels/the-weigh-house/versions/** · 2026-07-13
