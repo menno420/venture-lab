@@ -190,3 +190,13 @@ The seat performed NONE of the actions below — every item is an owner click or
 ## 3. Manual review — packets the parser could not read reliably
 
 *(none — every input parsed clean)*
+
+## 4. Live / completed — already published, read-only
+
+Derived from checked `- [x] ⚑ **Owner:** … — DONE <date>` rows: owner actions ALREADY executed (product live). Nothing here is queued, and nothing here counts toward the pending decision/click totals above.
+
+### Stripe Webhook Test Kit — `docs/publishing/vetting/stripe-webhook-test-kit.md` @ §7 checklist
+
+- [x] Gumroad listing published at $29 (price_cents 2900) at <https://mennomagic01.gumroad.com/l/stripe-webhook-test-kit>, HTTP 200 verified twice · **DONE:** 2026-07-12
+- [x] zip uploaded matching sha256 d3ac5f88…eeb0d8 (19,872 B, 19.4 KB shown on the live download page) · **DONE:** 2026-07-12
+- [x] end-to-end test purchase verified (owner buy, delivery confirmed 18:09:34Z) · **DONE:** 2026-07-12

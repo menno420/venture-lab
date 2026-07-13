@@ -8,11 +8,13 @@ verified 2026-07-12T16:25:16Z, independently re-verified 16:28:47Z; owner test
 purchase verified end-to-end 18:09:34Z). Durable record:
 [`LAUNCH-LOG.md`](LAUNCH-LOG.md). The launch is in MEASUREMENT mode
 (kill-clock checkpoints 2026-07-19 / 2026-07-26). This file stays as the
-historical click-script. There is deliberately NO
-`docs/publishing/vetting/` §7 packet for this product: the derive grammar
-(`scripts/derive_owner_queue.py`) turns every `⚑ **Owner:**` checkbox into a
-queued click and has no already-live/no-click disposition, so a packet here
-would put a DUPLICATE publish click in front of the owner.
+historical click-script. UPDATE 2026-07-13: the derive grammar
+(`scripts/derive_owner_queue.py`) now HAS an already-live disposition
+(`- [x] ⚑ **Owner:** … — DONE <date>` renders read-only, never as a queued
+click), so this product's packet exists at
+`docs/publishing/vetting/stripe-webhook-test-kit.md` — all rows DONE, zero
+clicks queued; the old no-packet rule (a packet would have put a DUPLICATE
+publish click in front of the owner) is retired.
 
 - **ARTIFACT (2026-07-13 catalog-parity verification):** the shipped bundle is
   `candidates/stripe-webhook-test-kit/dist/stripe-webhook-test-kit-v0.1.zip`

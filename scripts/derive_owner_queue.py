@@ -42,6 +42,13 @@ HEADING_RE = re.compile(r"^##\s")
 TITLE_RE = re.compile(r"^#\s*Title Vetting\s*[—-]\s*(.+?)\s*$")
 STEP_RE = re.compile(r"^(\d+)\.\s+(.*)$")
 CHECKBOX_RE = re.compile(r"^- \[[ xX]\]\s+(.*)$")
+# DONE disposition: a CHECKED owner box whose text carries "— DONE <ISO date>"
+# is an already-executed click (product live), rendered read-only in the
+# "Live / completed" section and NEVER counted as a pending click. Both marks
+# are required — a checked box without DONE still queues (legacy tolerance),
+# and an unchecked box with DONE text still queues (the click isn't done).
+CHECKED_RE = re.compile(r"^- \[[xX]\]\s+(.*)$")
+DONE_RE = re.compile(r"[—–-]\s*DONE\s+(\d{4}-\d{2}-\d{2})")
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 # Conflict sections in the keyword map: "### C1 — ..."
 CONFLICT_RE = re.compile(r"^###\s*(C\d+)\s*[—-]\s*(.+?)\s*$")
@@ -63,12 +70,14 @@ class ClickGroup:
     where: str
     blocked: bool
     clicks: list[dict] = field(default_factory=list)
+    done: list[dict] = field(default_factory=list)  # {"what", "date"} rows
 
 
 @dataclass
 class ParseResult:
     decisions: list[Decision] = field(default_factory=list)
     groups: list[ClickGroup] = field(default_factory=list)
+    live: list[ClickGroup] = field(default_factory=list)  # groups with DONE rows
     manual: list[tuple[str, str]] = field(default_factory=list)  # (file, why)
     parsed_files: list[str] = field(default_factory=list)
 
@@ -180,10 +189,22 @@ def parse_packet(path: Path, result: ParseResult) -> None:
 
     steps = collect_items(body, STEP_RE)
     boxes = collect_items(body, CHECKBOX_RE)
-    owner_boxes = [
-        b for b in boxes if b.lstrip().startswith(FLAG) and "**Owner:**" in b
+    # DONE rows: checked (- [x]) owner boxes carrying the "— DONE <date>"
+    # marker. Everything else — including checked boxes WITHOUT the marker —
+    # keeps the legacy pending-click behavior, byte-for-byte.
+    checked = collect_items(body, CHECKED_RE)
+    done_rows = [
+        b
+        for b in checked
+        if b.lstrip().startswith(FLAG) and "**Owner:**" in b and DONE_RE.search(b)
     ]
-    if not steps and not owner_boxes:
+    done_set = set(done_rows)
+    owner_boxes = [
+        b
+        for b in boxes
+        if b.lstrip().startswith(FLAG) and "**Owner:**" in b and b not in done_set
+    ]
+    if not steps and not owner_boxes and not done_rows:
         result.manual.append(
             (name, "§7 present but no OWNER-ACTION steps and no ⚑ Owner checkboxes parsed")
         )
@@ -237,8 +258,17 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         linked = bool(decision_keys & lead_keywords(clean))
         default = extract_default(box) or ""
         group.clicks.append({"what": clean, "default": default, "linked": linked})
+    for box in done_rows:
+        text = box.lstrip()
+        text = text[len(FLAG) :].lstrip()
+        text = text.replace("**Owner:**", "", 1).strip()
+        match = DONE_RE.search(text)
+        what = strip_markup(text[: match.start()] + " " + text[match.end() :])
+        group.done.append({"what": what, "date": match.group(1)})
     if group.clicks:
         result.groups.append(group)
+    if group.done:
+        result.live.append(group)
     result.parsed_files.append(name)
 
 
@@ -396,6 +426,25 @@ def render(result: ParseResult, vetting_dir: str) -> str:
     else:
         out.append("*(none — every input parsed clean)*")
     out.append("")
+
+    # Live / completed — rendered ONLY when a packet carries DONE rows, so
+    # trees without the disposition regenerate byte-identically to before.
+    if result.live:
+        out.append("## 4. Live / completed — already published, read-only")
+        out.append("")
+        out.append(
+            f"Derived from checked `- [x] {FLAG} **Owner:** … — DONE <date>` "
+            "rows: owner actions ALREADY executed (product live). Nothing "
+            "here is queued, and nothing here counts toward the pending "
+            "decision/click totals above."
+        )
+        out.append("")
+        for group in sorted(result.live, key=lambda g: g.title.lower()):
+            out.append(f"### {group.title} — {group.where}")
+            out.append("")
+            for row in group.done:
+                out.append(f"- [x] {row['what']} · **DONE:** {row['date']}")
+            out.append("")
     return "\n".join(out)
 
 
@@ -432,6 +481,12 @@ def run(vetting_dir: str, keyword_map: str, output: str) -> int:
         f"{len(result.decisions)} decisions, {clicks} owner clicks "
         f"across {len(result.groups)} click-run sequences"
     )
+    if result.live:
+        done_rows = sum(len(g.done) for g in result.live)
+        print(
+            f"owner-queue: live/completed {done_rows} DONE rows across "
+            f"{len(result.live)} products (read-only; excluded from pending totals)"
+        )
     for d_index, decision in enumerate(result.decisions, start=1):
         print(f"owner-queue:   D{d_index} [{decision.source}] default {strip_markup(decision.default)}")
     if result.manual:
