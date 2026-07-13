@@ -1,0 +1,1 @@
+- `claude/pepper-ledger-manuscript` · **books: pepper-ledger manuscript** — first full YA draft · candidates/ya-novels/the-pepper-ledger/** · 2026-07-13
