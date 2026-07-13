@@ -1,5 +1,15 @@
 # Decisions — The Night Kiln
 
+## Book 2 — The Morning Door (2026-07-13, day run)
+
+Book 2 of the series (`en/the-morning-door.md`), written under the BOOKS-lane day run 2026-07-13, continuing the book-2 hook planted in book 1's closing pages (the Stonebeck letter; the un-firing of Widow Sorrel's jar as the spine). One fired vessel per book: book 1 the keystone, book 2 the jar itself, re-fired from a shutting into a keeping; book-3 hook planted (the dunted race-dish, "a harvest story").
+
+- **⚑ OWNER — Length call (2026-07-13, pre-decided by coordinator; recorded, not re-litigated)** — Conflict on record: the vetting packet §3 plans ~20k–30k words, while book 1 delivered 15,999 against a 12k–16k coordinator brief. **Book 2 defaults to BOOK-1 PARITY: honest `wc -w` = 15,995** (includes front matter and chapter headings), complete standalone arc, THE END. The owner may prefer the packet's 20k–30k band for book 2 and onward — this is reversible: book 2 can be extended in a follow-up slice on owner say-so (natural extension joints: the Hessa/Col subplot, the between-fires carrying days, the Stonebeck homegoing). Until that owner decision, series-internal length parity beats packet-band conformance so the two books sit honestly side by side on the same product page.
+- **Standalone + continuity** — A new reader can start at book 2 (rules of the craft re-established in ch. 1–2; Sorrel tale retold fresh in ch. 2). Book-1 readers are rewarded: Edda, Perrin (graduates to his first received telling and first carry), Ansel Rooke at the clay-pit cottage with Lena and Nell, the crooked cup, the kiln's law verbatim ("The kiln keeps. It does not take. Say it back."), Wintermark, the ferry (Wim/Griet), the gate-bell at moonrise, the keystone bearing at the climax, the Stonebeck ford bridge tied to both books' griefs.
+- **Structure/register** — 12 chapters, three acts, seasonal (spring→midsummer, the Short Night as Wintermark's inverse pole); cozy contract kept: no violence, low-stakes-but-true conflict (the jar may die in a second firing), grief-work understated, earned warmth. Craft texture researched-real: saggars, refiring risk/dunting of old sealed ware, oxidation vs reduction as the shutting/opening inversion, cone packs, clamming up.
+
+## Book 1 — The Night Kiln (2026-07-13, night run)
+
 Run under ORDER 008 (owner night run 2026-07-13, BOOKS clause). First complete manuscript for the concept vetted in `docs/publishing/vetting/the-night-kiln.md` (concept-stage packet, landed via PR #105); this is the write-slice that packet parks on.
 
 - **Premise fidelity** — Delivers the vetted packet exactly: village kiln-witch (Edda Marren, Wenholt) who fires spoken memories into everyday pottery; the mug that keeps a grandmother's laugh and the bowl that holds a first snowfall are both on the page as commissioned pieces; the inciting stranger (Ansel Rooke) asks her to fire a memory he wants to be rid of forever ("an emptying"). Register is the packet's comfort register throughout: tea, glaze chemistry as soft magic, found family, the ethics of what we choose to preserve.
