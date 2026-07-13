@@ -171,6 +171,15 @@ Manuscript: [`candidates/adult-novels/ultramarine/`](../../../candidates/adult-n
       with KU page-reads as the realistic first revenue surface). Owner
       fallback: $3.99 if the owner prefers pricing strictly by length
       within the catalog.
+- [x] **$4.99 single volume RATIFIED — ORDER 010 / V037 (sim-lab
+      `afe18f3`):** the single volume publishes at the vetted $4.99. The
+      $2.99/episode serial edition
+      (`candidates/adult-novels/ultramarine/versions/serial-edition/`,
+      SIM-REQUEST answered) is **PARKED-WITH-BAR** behind one named
+      measurement — observed carry-through p2·(1+p3) ≥ 200/299 ≈ 0.6689 —
+      and the free-first-episode funnel is **NOT a revenue arm**: do not
+      run it as one. No publish click unlocked by the ruling (§7 gates
+      unchanged).
 - [x] 70%-royalty threshold respected: $4.99 sits inside the verified
       $2.99–$9.99 KDP 70% band. No $0.99 impulse-price trade-off is
       recommended (would drop to 35%).
@@ -303,6 +312,8 @@ plan §4 pattern.
    `candidates/adult-novels/ultramarine/manuscript/ultramarine.md`;
    English-first.
 5. **Price:** **$4.99** (70% tier; ≈ $3.49/sale). Fallback $3.99.
+   Ratified — ORDER 010 / V037 (sim-lab `afe18f3`); the $2.99/episode
+   serial stays parked behind the §4 carry-through bar.
 6. **Categories/keywords:** Historical Fiction + Literary Fiction; the 7
    keywords in §6 verbatim; paste the §6 blurb + content note.
 7. **KDP Select (KU):** **Yes** — enroll (90-day exclusive, reversible),
@@ -312,7 +323,8 @@ plan §4 pattern.
 - [ ] ⚑ **Owner:** title picked (The Widow's Blue recommended); KDP
       title-availability recheck at upload.
 - [ ] ⚑ **Owner:** cover approved / any art spend authorized.
-- [ ] ⚑ **Owner:** price set ($4.99 recommended).
+- [ ] ⚑ **Owner:** price set ($4.99 recommended; ratified per ORDER 010 /
+      V037, sim-lab `afe18f3` — serial pricing parked, §4).
 - [ ] n/a — no AI-art disclosure applies unless the owner chooses AI cover
       art (then tick KDP's AI-generated disclosure at publish).
 - [ ] ⚑ **Owner:** the publish click + KDP Select enrollment.

@@ -73,6 +73,12 @@ Product: [`candidates/photo-packs/`](../../../candidates/photo-packs/INTAKE.md)
       (2) whether saturated golden-hours should anchor at $3 instead;
       (3) two-pack bundle price. No cited evidence either way — defaults
       above stand until simulated or measured.
+- [x] **SIM-REQUEST answered — ORDER 010 / V039 (sim-lab `afe18f3`),
+      RATIFIED with additions:** KEEP the $5-fixed default per pack;
+      ADD a two-pack bundle priced inside [$9.09, $10] — recommend $9.99
+      (new §7 row below); do NOT drop golden-hours to a $3 anchor
+      unmeasured; do NOT switch to PWYW. Packs stay hard-gated on
+      owner-held originals (G6) — no publish click unlocked by the ruling.
 
 ## 4–5. Packaging
 
@@ -115,7 +121,9 @@ them is frozen by construction. NO publish click is queued ungated.
    default; Discover gives audience-free category browse) or Ko-fi (better
    per-sale net ≈ $4.30 vs $3.56, no marketplace browse) — owner's call.
 5. **⚑ Price:** **$5 fixed per pack** (default — §3 evidence; floor $3;
-   PWYW is an open SIM-REQUEST, not tonight's default).
+   ratified by ORDER 010 / V039, sim-lab `afe18f3`: PWYW ruled out, the
+   $3 golden-hours anchor ruled out unmeasured; optional two-pack bundle
+   at $9.99 inside the ruled [$9.09, $10] band).
 6. **Publish + record:** upload zips (sha spot-check vs step 3), paste copy
    from [`listing-copy.md`](../../launch/photo-packs/listing-copy.md),
    publish, preview/test purchase, copy public URLs.
@@ -136,7 +144,12 @@ them is frozen by construction. NO publish click is queued ungated.
 - [ ] ⚑ **Owner:** zips uploaded + sha256 spot-check against the seat build
       record in §1.
 - [ ] ⚑ **Owner:** listing copy pasted for both packs.
-- [ ] ⚑ **Owner:** price set (**$5 fixed per pack** (default); floor $3).
+- [ ] ⚑ **Owner:** price set (**$5 fixed per pack** (default); floor $3;
+      ratified — ORDER 010 / V039, sim-lab `afe18f3`: no PWYW, no
+      unmeasured $3 golden-hours anchor).
+- [ ] ⚑ **Owner:** optional two-pack bundle created (**$9.99** (recommended
+      default); ruled band $9.09–$10 — ORDER 010 / V039, sim-lab
+      `afe18f3`).
 - [ ] ⚑ **Owner:** the publish click + preview/test purchase + public URLs
       copied.
 - [ ] Seat (post-click, no money moved): record the launch durably on
