@@ -917,3 +917,157 @@ Ze dacht aan de halve slag. Ze dacht aan drieën.
 'Ik kom,' zei Sanne. 'Laat een stagefles voor me optuigen. Ik kom nu.'
 
 'Goed zo, meisje,' zei Bram, en de lijn ging dood, en Sanne stond in de regen op de Zeedijk met haar adem die al ging, zonder haar toestemming, in en in en in, in drieën, naar het water toe waarvan ze wist dat het een val was en de enige lijn op de wereld die Tim kon redden, gehouden door de hand die haar man had verdronken.
+
+# Hoofdstuk dertien — Het water in
+
+De bus rook naar neopreen en koude koffie. Sanne zat op de bank achterin met haar droogpak tot het middel geritst en de bovenkant over haar heupen gevouwen, en ze controleerde haar uitrusting zoals ze hem elke keer controleerde, want de gewoonte was ouder dan de angst en sterker.
+
+Ademautomaten. Twee. De primaire aan de lange slang, de reserve aan het nekkoord. Ze ademde door elk om de beurt en keek naar de naald op de manometer en luisterde naar het kleine, eerlijke sissen dat betekende dat de zitting schoon was. Een goede eerste trap faalde naar de veiligheid toe; een slechte faalde naar de bodem. Masker. Vinnen. Snijgereedschap op haar linkerschouderband en een tweede, een lijnensnijder met stompe punt, in een schede op haar rechterheup waar Bram haar hem niet had zien opbergen. Ze had geleerd dingen op te bergen waar Bram ze niet zag. Het had haar twee jaar gekost, geleerd zoals je een taal leert waar je bang voor bent, één woord per keer.
+
+Op de bank tegenover zat Bram Verhoeven op de radio met de officier van dienst te praten. Hij droeg zijn leidinggevendenjack en zijn leesbril omhooggeschoven in zijn grijze haar, en zijn stem had de vlakke, competente kalmte die hij altijd had, de kalmte die de families van veertig verdronken mannen had verteld dat al het mogelijke werd gedaan. Hij zag eruit, dacht Sanne, precies als wat hij hoorde te zijn. Dat was het geheel ervan. Hij had er altijd precies uitgezien als wat hij hoorde te zijn.
+
+'Bevestigd,' zei Bram in de radio. 'Eén te water bij de Amstel, noordoever, bij de sluis. Gemeld door een passerende schipper, twintig minuten geleden. We staan op.' Hij legde de handset neer. Tegen haar zei hij, stil: 'Het is Tim.'
+
+Ze hield haar handen in beweging op de uitrusting. 'Hoe weet je dat het Tim is.'
+
+'Zijn auto staat aan de Weesperzijde. Zijn telefoon heeft om tien over negen voor het laatst de mast aan de Nieuwe Achtergracht aangetikt.' Bram zette zijn bril af en vouwde hem op en stak hem in zijn borstzak, een klein, net gebaar, een man die iets opbergt dat hij niet meer nodig zal hebben. 'Hij is in zijn eentje ergens naar gaan kijken. Domme jongen. Hij heeft het niemand gezegd.'
+
+'Hij zei me dat hij zou wachten,' zei Sanne.
+
+'Dan heeft hij niet gewacht.'
+
+Ze keek toen naar hem op, voor het eerst sinds ze in de bus waren gestapt, en ze liet haar gezicht niets doen. Dit was de val. Ze had geweten dat het de val was sinds de telefoon overging, het geweten zoals je koud water kent voordat je erin gaat, een kennis in de huid. Er was geen schipper. Er was geen toevallige waarneming. Tim was in het water omdat Bram hem erin had gelegd, of dat op het punt stond te doen, en de bergingsmelding was over het eerlijke kanaal uitgegaan zodat het geheel gepapierd en schoon zou zijn, een leidinggevende en zijn duiker die reageerden op een melding, een tragedie in het dossier voordat ze plaatsvond. Als Sanne vannacht stierf, stierf ze op een dienstrooster, in het logboek, met Bram Verhoeven die het blad tekende. Dat was het gruwelijke aan hem: hij verborg de lichamen niet voor het systeem, hij overhandigde ze aan het systeem met het papierwerk al gedaan.
+
+En ze zou toch gaan.
+
+Omdat Tim eenendertig was en een moeder in Purmerend had en haar één keer, op een kerstborrel, had verteld dat zij de reden was dat hij bij het team was gekomen, en omdat er geen versie van de nacht bestond waarin zij op de oever stond en het water hem liet hebben. Dat wist Bram. Hij had het hele ding uit die kennis gebouwd. Hij kende haar zoals je een gereedschap kent dat je jaren hebt gebruikt.
+
+'Nadia weet dat we hier buiten zijn,' zei Sanne. Het was niet helemaal een dreigement. Ze wilde zien wat hij met de naam deed.
+
+'Rechercheur Okonkwo.' Bram knikte langzaam, als een man die een leerling goedkeurt. 'Ja. Die is druk geweest. Rotterdammers zijn dat altijd, die hebben iets te bewijzen.' Hij reikte over en stopte met twee vingers een losse band van haar harnas plat tegen haar borst, het gebaar van een man die haar voor honderd duiken had aangekleed, vaderlijk, automatisch, en ze dwong zichzelf niet terug te deinzen. 'Ze staat op de Blauwbrug met een auto en een telefoon en geen zeggenschap over het water. Ze kan kijken. Meer kan ze niet, daarvandaan. Het water is van mij, Sanne. Dat is het altijd geweest.'
+
+⁂
+
+De opstelplek was een donkere strook kinderkopjes tussen twee afgemeerde dekschuiten, waar het team een draagbare lier bewaarde en een haspel gele lijn. De Amstel was hier breed en traag in beweging, zwart onder een lage oranje lucht, en de kou kwam er in een vlies vanaf waar je tegenaan kon leunen. Sanne stond aan de rand en keek neer op het oppervlak en het gaf haar niets terug, geen bodem, geen vorm, alleen het lantaarnlicht in stukken gebroken.
+
+Ze waren alleen. Dat was het tweede dat ze catalogiseerde. Bij een echte berging waren er twee duikers meer geweest, een reserveduiker aangekleed en gereed op de oever, een verpleger, de boot van de havendienst stationair met zijn blauwe licht uit, uniformen die de brug vrijhielden. Er was Bram, en er was een duiker die Sanne Kessler heette, en er was een lengte gele lijn tussen hen in, en dat was alles. Een berging met twee mensen was geen berging. Het was iets met een andere naam die niemand op het blad had geschreven.
+
+'Waar is de rest van het team,' zei ze, hoewel ze het wist.
+
+'Omgeleid. Incident bij de Houthavens.' Bram was haar lijn aan het inbinden op het ankerpunt, wikkelend en aansnoerend met het gemak van veertig jaar. 'Het is jij en ik vannacht, Sanne. Als vroeger. Als toen je begon.' Hij trok aan de lijn, testte hem, en de ruk kwam door haar harnas terug haar borstbeen in, de plek in waar de ketting onder drie millimeter neopreen tegen haar borst lag. 'Ik sein je vanaf hier. Standaardseinen. Eén haal, alles goed. Twee halen, kom op. Jij kent de drill beter dan ik hem geleerd heb.'
+
+Hij klikte de lijn zelf aan de D-ring van haar harnas. Ze liet hem. Bezwaar maken was zichzelf verklaren, en ze was niet klaar om zichzelf te verklaren zolang ze op het droge stond met nergens heen en zijn handen aan haar tuig.
+
+Hij beheerste haar lijn. Hij beheerste haar luchtvullingen, had voor de vullingen getekend in zijn eigen competente hand, had alles kunnen doen met de flessen die ze ademde. Daarom ademde ze van haar eigen uitrusting, flessen die ze die ochtend had laten vullen bij een winkel in Diemen, onder een verzonnen boodschap. En daarom hing er een kleine aluminium bailoutfles — een pony, driehonderd liter eigen lucht, haar eigen kraan, haar eigen tweede trap — omgekeerd langs haar linkerzij onder haar arm, waar de seinlijn hem zou verbergen en Bram, die haar rug dekte terwijl ze zich optuigde, hem niet had opgemerkt. Een apart leven. Ze was er twee jaar een aan het bouwen, en nu was het zevenhonderd gram aluminium tegen haar ribben, en ze was blij met de rand ervan bij elke ademhaling.
+
+'Comms?' zei ze.
+
+'Volledige comms.' Hij gaf haar het masker met de microfoon en de beengeleiding in de band ingebouwd, de door-het-waterset die het team op zware bergingen gebruikte. 'Ik zit de hele tijd in je oor. Je zult niet alleen zijn daar beneden.' Hij zei het zacht. Hij bedoelde het, begreep ze, als troost, en de vriendelijkheid was niet vals. Hij was wreed zoals weer wreed is, zonder venijn, zonder honger. Hij zou haar doden en er verdriet van hebben en het zou, in hem, geen tegenspraak zijn. Hij had gehuild op Daans begrafenis. Zij had zijn arm vastgehouden.
+
+Ze trok het masker over haar gezicht en klaarde het en voelde de rand koud tegen haar wangen sluiten. Ze zette de automaat in. Ze ademde één keer, twee keer, drie keer, in drieën, ze tellend zoals ze ze telde sinds ze vierentwintig was en doodsbang in een oefentank, één-twee-drie, het ritme dat de koude lucht gewoon maakte. Brams hand kwam neer op de kraan van haar fles, een tik. Gereed.
+
+Ze stapte van de kinderkopjes af het zwart in.
+
+⁂
+
+Het water van de Amstel was vijf graden en sloot zich boven haar hoofd als een deksel. De kou vond de naden zoals hij ze altijd vond, geduldig, persoonlijk, de ritslijn op haar rug aflopend en de polsen van haar manchetten. Ze ontluchtte het pak door het schouderventiel en begon hand over hand de daallijn af, en de oranje lucht kromp tot een munt en toen tot niets, en er was alleen nog de kleine groene wereld die haar lamp maakte en de gele seinlijn die boven haar het donker in vierde.
+
+'Twintig op de diepte,' zei ze. Haar eigen stem kwam vreemd bij haar terug, weerkaatst tegen de binnenkant van het masker.
+
+'Begrepen, twintig.' Bram, in haar schedel, dichtbij als een gedachte. 'Bodem is hier een meter of acht. Het slib is diep, let op je vinnen, je hebt het in één tel zwart als je onvoorzichtig bent.' Een pauze, de lijn die boven door het ankerpunt kraakte. 'Weet je nog, de eerste keer dat ik je de Amstel in liet? Je huilde in de bus, naderhand. Kou in je handschoen gekomen.'
+
+'Ik weet het nog.'
+
+'Je bent niet gestopt. Ik zei tegen de anderen: die stopt niet.' Genegenheid erin, echte genegenheid, en onder de genegenheid iets dat werd opgewonden, strak. 'Daan was trots op je. Hij zei altijd dat jij betere handen had dan hij. Hij had gelijk. Die had je.'
+
+Haar vinnen raakten het slib op zevenenhalve meter en de bodem kwam op als een zacht grijs niets, en ze hing een halve meter erboven, neutraal, langzaam ademend, een sijpel lucht tegen de knijp en er weer uit, de balans vindend. De lamp toonde haar de winkelwagenskeletten en de verdronken fietsen die elk stuk van de stad bevloerden, bevlokt met twee eeuwen slib, en het langzame draaien van deeltjes in de bundel. Geen Tim. Nog niet. Ze keek op de manometer. Tweehonderd bar, van flessen die ze vertrouwde. Ze archiveerde het getal.
+
+'Ik ben op de bodem,' zei ze. 'Geen visueel. Ik ga een zoekslag van de lijn af werken, noord.'
+
+'Noord is goed,' zei Bram. 'Noord is waar hij zal zijn.'
+
+En ze begreep aan de manier waarop hij het zei — noord is waar hij zal zijn — dat hij wist waar het lichaam was, of waar het lichaam zou zijn, want hij had de grond gekozen. Hij koos altijd de grond. Dat was het vak van de leidinggevende en het was het vak van de moordenaar, en in Bram waren die twee hetzelfde vak gebleken. Ze zwom noordwaarts het slib in met de seinlijn slepend van haar heup, en ze telde haar ademhalingen en ze wachtte tot hij het ding zou zeggen, want een man als Bram, eindelijk alleen met haar op de enige plek waar hij ooit werkelijk de leiding had gehad, zou het niet kunnen laten het te zeggen. Ze kon het gewicht ervan horen in zijn ademhaling over de comms.
+
+Hij zei het op negen meter horizontaal, met haar lamp op een vorm vooruit in de troebelte die langzaam oploste tot een duiker — Tim, in teamuitrusting, op zijn knieën op de bodem met zijn armen achter zich aan een meerketting gebonden en een volgelaatsmasker op zijn hoofd, gevoed door een lijn die omhoog het donker in liep, levend, ze kon de bellen zien, levend en worstelend en met witte doodsangst in zijn ogen naar haar lamp kijkend.
+
+'Daar is hij,' zei Bram zacht in haar oor. 'Nu. Sanne. Luister naar me voordat je iets doet, want jij bent altijd degene geweest die luisterde.'
+
+Ze stopte twee meter van Tim en hield haar positie en ging niet naar hem toe, want ze zag nu de tweede lijn, de dunne nylondraad die van Tims luchttoevoer terug door het water liep naar een punt boven en achter haar, en ze begreep dat Tims lucht ook in Brams hand lag, nóg een kraan aan de oppervlakte, nóg een leven aan een draad, en dat als ze zich naar binnen haastte ze niets zou leren en niets zou veranderen en ze allebei op het logboek zouden sterven. Ze maakte haar handen stil en hield stand.
+
+'Ik luister,' zei ze.
+
+⁂
+
+'Ik wilde Daan niet.' Brams stem was waterpas en laag geworden, de stem voor de families, degene die hem nog nooit in de steek had gelaten. 'Dat moet je eerst begrijpen, vóór alles. Ik hield van die man. Tweeëntwintig jaar. Hij was op mijn bruiloft, allebei mijn bruiloften, God, hij heeft de kist gedragen op de begrafenis van mijn vader. Toen ze bij me kwamen over hem, zei ik nee. Ik heb Aalving nee gezegd, ik heb het Slootweg in hun gezicht gezegd: vind een andere weg.'
+
+Tim maakte geluiden in zijn masker, gedempt, een verdrinkingspaniekgeluid hoewel hij nog niet aan het verdrinken was. Sanne hief één gehandschoende hand naar hem, langzaam, plat: stil. Wacht. Vertrouw me. Zijn ogen kwamen op haar hand en zetten zich daar vast zoals een drenkeling zich vastzet op een toegeworpen touw.
+
+'Daan vond de waarderingen,' zei Bram. 'Dat weet je nu, denk ik. Je rechercheur weet het. De aktes van de Herengracht, de getallen die niet klopten met de getallen. Hij kwam ermee naar mij. Naar míj. Omdat ik zijn vriend was, en hij dacht dat ik hem zou helpen het de lijn op te brengen. Hij zat in mijn keuken, Sanne, aan mijn tafel, die met de brandvlek waar je Marijke altijd mee plaagde, en hij liet me de papieren zien, en hij vroeg me wat hij moest doen.' Een lange adem, de hare of de zijne, ze kon het niet uit elkaar houden, de comms mengden ze. 'En ik wist dat als hij het naar boven bracht, ze hem lelijk zouden doden, en zijn gezin erbij om zeker te zijn, zo sluiten die mensen iets af, en ik heb het hem gezegd. Ik zei: Daan, laat het gaan. Geef mij de papieren. Laat het gaan en het gaat niet verder. Hij wilde niet. In mijn hoofd heb ik hem honderd keer terug aan die tafel gezet en het anders gezegd en hij laat het nog steeds niet gaan. Hij wilde het niet laten gaan.'
+
+'Dus je hebt hem verdronken,' zei Sanne.
+
+'Dus heb ik het schoon gemaakt.' De verbetering kwam snel, reflexief, een man die het ene beschermde dat hij nog had. 'Als het ging gebeuren, zou het schoon gebeuren. Niet lelijk, niet waar jij bij was, niet jij die een telefoontje krijgt om te komen kijken naar wat ze van hem gemaakt hadden. Ik heb hem meegenomen het water op — hij vertrouwde me, hij stapte in de boot, hij dacht dat we het nog één keer zouden doorspreken, hij had een thermoskan bij zich, Sanne, hij had koffie meegenomen voor twee — en ik heb een gordel bij hem omgedaan en ik heb hem vastgehouden en het was snel, ik zweer je dat het snel was, en ik heb hem zorgvuldig verzwaard en ik heb hem gelegd waar ík degene kon zijn die hem vond. Ik wás degene die hem vond. Wist je dat? Ik heb gezorgd dat ik het was, op de berging. Zodat er geen vreemde handen aan hem zaten. Zodat ik het kon laten verklaren tot wat het verklaard moest worden.' Zijn stem brak, en hij was echt, de breuk was echt, en dat was het ondraaglijke deel, dat hij echt was. 'Ik heb die man met mijn eigen handen van de bodem van deze rivier gedragen en ik heb het gedaan zodat jij een weduwepensioen zou hebben en een gesloten dossier en een leven. Ik heb je beschermd. Alles daarna heb ik gedaan om jou te beschermen.'
+
+Sanne hing in het zwarte water met haar lamp op Tims doodsbange gezicht en de moordenaar van haar man in haar schedel die het bescherming noemde, en ze telde haar ademhalingen, één-twee-drie, en liet haar stem niet trillen.
+
+'En Victor Maas,' zei ze. 'Heb je die ook beschermd.'
+
+'De klerk was zwak. De klerk ging praten en ons allemaal meenemen, jou inmiddels ook, jij was al vragen aan het stellen, jij had jezelf er al in gezet.' Een hardheid nu, de genegenheid die dun werd als lucht van een lage manometer. 'Ik heb twee jaar het water tussen jou en hen gehouden, Sanne. De uitspraken gestuurd. De gordels verloren voordat iemand de serienummers telde. Elke berging, elk onderzoek, ik, staand tussen jou en de waarheid, want de waarheid was een wak in het ijs en jij bleef ernaartoe lopen, en ik bleef er als eerste zijn en het toedekken zodat jij er niet doorheen zou zakken.' De lijn boven haar gaf een kleine trek, een proefhaaltje, een hand die speling verzamelde, zo licht dat ze het onder zijn stem bijna miste. 'En jij wilde het ook niet laten gaan. Je bent precies als hij. God sta me bij, je bent precies als hij. Ik heb je zo gemaakt, en nu moet ik hetzelfde twee keer doen, bij de twee mensen van wie ik—'
+
+De seinlijn kwam strak en rukte, hard, een haal door haar hele lichaam die haar achterover van haar positie sloeg en haar omhoog en weg sleepte van Tim het open zwart in, en boven haar in het donker voelde ze eerder dan ze zag hoe Bram haar begon in te halen zoals hij haar man had ingehaald, hand over hand, naar de oppervlakte en de gordel en het einde.
+
+# Hoofdstuk veertien — De lijn
+
+De haal nam haar vier meter van de bodem voordat ze ophield ertegen te vechten.
+
+Ertegen vechten was de fout, en haar lichaam wilde de fout maken, wilde terugklauwen naar Tim en naar het slib, en elke centimeter die ze de seinlijn op werd gesleept was een centimeter dichter bij de oppervlakte waar Bram was, waar de gordel was, waar hij de hefboom had van op de aarde staan terwijl zij in het water hing met niets onder haar voeten. Haar longen deden het paniekding, wilden snel en ondiep ademen, wilden happen, en ze pakte ze bij de kraag zoals ze ze bij de kraag pakte sinds ze vierentwintig was. Eén. Twee. Drie. Ze hield op met trappelen. Ze liet zich inhalen, ging slap in het harnas hangen zodat hij minder door het touw zou voelen, en ze ging in het donker aan het werk met haar handen, waar hij ze niet kon zien, want in het water waren de handen alles en de handen waren het ene wat hij haar nooit had kunnen afnemen.
+
+'Niet doen,' zei Bram in haar oor, en zijn stem was nu anders, inspannend, de stem van een man van achtenvijftig die een vechtend gewicht zeven meter water uit haalt aan zijn eigen twee armen. 'Maak het niet lelijk, Sanne. Laat me het niet lelijk hoeven doen. Laat het zijn als bij Daan. Snel. Ik zal snel zijn.'
+
+Haar rechterhand vond de seinlijn waar hij aan de D-ring van haar harnas clipte, sloot zich om de clip, hield hem. Haar linker trok de lijnensnijder met de stompe punt uit de schede op haar heup, degene die hij haar niet had zien opbergen, het haakmes verzonken zodat het in één streek door nylon ging en nooit een droogpakmanchet of het vlees van haar eigen hand zou openen. Ze sneed nog niet. Als ze nu sneed, in open water, vier meter boven een bodem die ze niet meer kon zien, sneed ze zichzelf los het zwart in zonder referentie en met een moordenaar die de grond kende, en hij zou eenvoudig boven aan de daallijn gaan staan wachten tot ze de oppervlakte nodig had, want iedereen heeft de oppervlakte nodig, dat was het geheel van zijn voordeel. De lijn was een riem. Hij was ook, nog één ogenblik, het enige op de wereld dat haar vertelde welke kant boven was. Ze zou hem snijden wanneer boven er niet meer toe deed. Niet eerder.
+
+Hij haalde in. Zij rees. Twee meter onder de oppervlakte nu, schatte ze, aan de druk die haar oren in omgekeerde richting afliep, de kleine klikken terwijl ze klaarde zonder na te denken, en ze gunde hem dat, en ze kreeg haar vinnen onder zich en haar lichaam gericht, hoofd naar beneden, het tegendeel van wat een verdrinkende duiker doet, het tegendeel van wat hij door de lijn zou voelen terugkomen. Laat hem een uitgeput ding voelen. Laat hem voelen dat het eindigde.
+
+Toen sneed Bram haar lucht af.
+
+Hij deed het van boven — een kraan op haar eigen toevoer die hij had bewerkt, of het spruitstuk, ze wist het nooit en het deed er nooit toe — want de primaire automaat in haar mond ging van de gemakkelijke trek van goede lucht naar de harde zuig van niets, tussen de ene ademhaling en de volgende. Ze trok en de automaat gaf haar het begin van een ademteug en toen een muur, en toen, toen ze opnieuw trok, een mond vol water, koud en mineraal en smakend naar de rivier. De paniek steigerde op, reusachtig en wit en totaal, het oudste dier in haar, het dier dat in de oefentank had gezeten en in elke zware duik sindsdien, en dit — deze precieze seconde, de seconde waarin de lucht stopt en het water komt en het lichaam met heel zichzelf begrijpt dat het gaat sterven — dit was wat Daan had gevoeld, en Victor, en elk verzwaard ding dat Bram Verhoeven ooit naar de bodem had gestuurd. Dit was het doden zelf, niet het verhaal ervan, niet het dossier. Ze zat nu binnen in het doden, in de kamer waar het gebeurde, en de kamer was haar eigen lichaam.
+
+Ze ademde niet uit in het niets. Ze rukte niet aan de automaat en reikte niet naar de oppervlakte. Ze reikte over haar eigen lichaam met een hand die de drill in het donker beter kende dan hij haar eigen naam kende, sloot haar vingers om de ponyfles die omgekeerd langs haar ribben hing, liep met haar duim naar de tweede trap die op haar borst was geclipt, precies waar ze hem die ochtend in Diemen had geclipt met een verzonnen boodschap als dekmantel, spuugde de dode primaire uit, en zette haar eigen lucht in haar mond. Ze purgde hem — de knop gaf zijn harde, heldere sis, het water verdrijvend — en ademde.
+
+Eén. Twee. Drie.
+
+Lucht. Haar eigen lucht, van haar eigen fles, van de kraan die geen hand dan de hare ooit had aangeraakt. Het witte dier ging zitten in het donker en was stil.
+
+'Sanne?' Brams stem, en erin, voor het eerst die hele nacht, iets wat ze nog nooit van hem had gehoord: twijfel. De lijn in zijn handen was opgehouden met vechten omdat zij was opgehouden met vechten; ze was opzettelijk, geheel, stil geworden. Voor een man aan de oppervlakte wordt een duiker wiens lucht is afgesneden eerst stijf, dan slaat hij wild, dan wordt hij slap. Ze had hem stijf gegeven. Ze had hem stil gegeven. Hij dacht dat het stille betekende wat het altijd had betekend, want twee jaar lang had het stille altijd dat betekend. 'Sanne. Het is gedaan. Het is voorbij. Het spijt me. God, het spijt me, meisje—'
+
+Ze sneed de lijn.
+
+Eén streek van het haakmes en de gele riem scheidde met een kleine, dode terugslag en ze viel van de oppervlakte weg het donker in, onder zijn handen vandaan, van het logboek af, het doden uit en terug het water in — dat van haar was, dat altijd van haar was geweest, dat de ene plek op de hele wereld was waar Bram Verhoeven nooit werkelijk had geleefd. Hij superviseerde het water. Hij had in negen jaar geen zware duik gemaakt. Hij stond op de oever en trok aan draden en tekende bladen en vertelde de families dat al het mogelijke werd gedaan, en de laatste keer dat hij werkelijk met zijn eigen handen had gedood in het diepe zwarte koud, had hij een gebonden en vertrouwende man gehad die niet vocht en de grond niet kende en koffie had meegenomen voor twee. Hij was vergeten, als hij het ooit werkelijk had geweten, wat de bodem van de Amstel doet met een lichaam dat er niet thuishoort. Sanne kende het in haar slaap. Ze had er op haar vierentwintigste om gehuild in een bus en ze was niet gestopt, en dat was, uiteindelijk, het ding waartoe hij haar had gebouwd en het ding dat hem ging breken.
+
+Ze dumpte de lucht uit haar pak en ging snel en stil naar beneden langs de ladder van haar eigen stijgende bellen, terug naar het slib, terug naar Tim, en ze doofde haar lamp.
+
+⁂
+
+In het donker telde ze. Geen ademhalingen nu — afstand. Negen meter horizontaal vanaf de daallijn, noord, op een koers die ze in was gezwommen en blind terug kon zwemmen, één slagcyclus per meter, een telling die ze de hele weg naar binnen onder de telling van haar adem had bijgehouden zonder Bram haar die te laten horen. Ze ging over de bodem op haar vingertoppen door het slib, het lichtst mogelijke contact, geen wolk opjagend die zou blijven hangen en haar verraden, een handbreedte boven de vloer, en ze vond de meerketting op de tast voordat ze Tim op de tast vond — de koude schalmen, het bont van slib erop — en ze legde haar hand plat op zijn schouder zodat hij zou weten dat het een hand was en niet de rivier die zich sloot.
+
+Ze deed haar lamp weer aan, laag, gekapt in haar vingers, een roodbruine gloed door het vlees van haar hand.
+
+Tims ogen waren weggedraaid en zijn ademhaling was verkeerd, te snel, hyperventilerend in het volgelaatsmasker, het beslaand en klarend en beslaand, maar hij leefde en het masker voedde hem nog — Bram had de lucht van de jongen niet afgesneden. Bewaarde de jongen. Sanne begreep het in één koud, vlak ogenblik, zoals je een meter begrijpt: Tim was het gepapierde deel, de verdronken junior naast de verdronken senior, een dubbele tragedie, schoon, een verhaal met alle randen bijgevijld. Ze zette het mes op het nylon dat zijn polsen aan de ketting bond. Tiewraps, drie, gedubbeld, en ze nam ze één voor één, het haakmes plat tegen de koude schalmen werkend zodat ze hem er niet mee zou raken, zagend, en voelde zijn armen vrijkomen, de ene en toen de andere, en zijn hele lichaam naar voren van de ketting af zakken, naar haar toe.
+
+Ze bracht haar masker tegen het zijne zodat hij haar gezicht kon zien in het gekapte lamplicht, een duim tussen hen in, de twee ruiten glas en het water. Ze stak één vinger op. Toen twee. Toen drie. Adem. In drieën. Ze keek hoe hij het vond, keek hoe zijn ogen terugkwamen van waar ze waren geweest, keek hoe hij meetelde op haar vingers en zijn longen met pure wil vertraagde, één, en twee, en drie, tot het beslaan van zijn masker kwam en ging in een ritme in plaats van een fladderen. Goede handen, had Daan over haar gezegd, tweeëntwintig jaar geleden, tegen een man die hem ervoor zou doden. Ze legde nu goede handen op de jongen en haalde hem terug van de rand waar zijn lichaam al overheen was gestapt.
+
+De dunne draad die zijn lucht voedde liep omhoog het donker in, naar de oppervlakte, naar Bram. Ze kon, door het water heen, de oppervlakte voelen veranderen — een woelen, een zwaarte boven het hoofd, de druksignatuur van een man die zojuist zijn lijn dood en slap in zijn handen had voelen worden en nu over het zwart uit hing te leunen, zich afvragend waarom het lichaam niet was bovengekomen, waarom er niets bovenkwam, waarom het water onder hem stil en verkeerd was geworden voor het eerst van zijn leven.
+
+Ze had een keuze, en ze maakte hem in de kou met haar hand op Tims fles.
+
+Ze kon snel en hard de daallijn op gaan in het donker en Bram vanuit het water van onderen nemen, zijn laarzen grijpen en hem van de oever zijn element in trekken en hem onderhouden zoals hij Daan had ondergehouden, en niemand zou ooit kunnen bewijzen dat het de rivier niet had gedaan. Het willen ervan was enorm. Het zat in haar borst, groter dan de kou, groter dan de angst was geweest. Twee jaar ervan. Daans papieren op de keukentafel van een moordenaar, naast de thermoskan, naast de brandvlek. Ik zal snel zijn, ik zal snel zijn, meisje. Ze kon Bram Verhoeven precies het ding geven dat hij haar man had gegeven, maat voor maat, en het water zou het geheim houden zoals het elk geheim hield, en het zou, in de oudste rekenkunde die er was, de rekenkunde ouder dan de Waag, rechtvaardig zijn.
+
+En het zou de waarheid met hem verdrinken. Een dode Bram in de Amstel was weer een gesloten dossier, weer een uitspraak, weer een net blad — en Bram had twee jaar besteed aan haar leren, zonder het te willen, precies hoe gesloten dossiers gemaakt werden en wie ze maakte. Als ze hem doodde, werd ze de laatste schoonmaker in de keten, de nieuwste schakel, en Aalving en Slootweg zouden bij hun koffie lezen over het tragische verlies van een gedecoreerde leidinggevende en doorgaan met grachtenpanden verkopen tegen bedragen die ze zelf schreven, en Daans dood zou voor altijd een ongeval blijven, want de enige die hem nog kon heropenen zou een moordenares zijn met een motief en een lichaam dat ze met haar eigen handen in het water had gelegd.
+
+Het grootboek lag in een kluis aan de Herengracht op naam van Nadia Okonkwo. De gordels met de gestanste serienummers lagen in een depot van de FIOD met een handtekening en een datum. Het vervalste uitrustingslogboek, de overeenkomende beladingssignatuur op twee lichamen, Jokes verklaring over een grijze boot op het water in de nacht dat Victor verdween — alles, veiliggesteld, wachtend, met nog maar één ding nodig om van een verhaal een zaak te worden: een levende getuige die Bram Verhoeven had horen bekennen, op diepte, met de comms die elk woord opnamen op de teamserver zoals teamcomms altijd opnamen op een zware klus, zoals Bram in zijn zekerheid en zijn verdriet was vergeten dat ze zouden doen.
+
+Sanne keek omhoog langs de daallijn, het donker in, naar de man die haar man had gedood en op zijn begrafenis had gehuild en haar arm had vastgehouden.
+
+Toen keerde ze het haar rug toe. Ze stak haar arm door de banden van Tims harnas, snoerde hem tegen haar zij, legde haar eigen reserveautomaat gereed op haar borst voor het geval zijn lucht onderweg faalde, en zette de jongen in beweging naar de oppervlakte, de langzame veilige weg — over de bodem naar de oever, van de daallijn af, van Bram af, omhoog het oranje licht in langs de route waar niemand op keek. Bovenkomen met het bewijs. Bovenkomen met de jongen. De rest aan de eerlijke machinerie laten.
+
+Het kostte haar meer dan de lijn op gaan zou hebben gekost. Ze voelde precies hoeveel het kostte, de hele lange zwem, elke meter ervan afgeteld onder haar adem, het willen nog steeds reusachtig in haar borst en niet kleiner wordend van het geweigerd zijn. Ze telde nu ademhalingen voor hen allebei, de hare en die van de jongen, ze gelijkzettend, één en twee en drie, en ze droeg de bekentenis van de moordenaar van Victor Maas het water uit in haar schedel als iets geborgens van de bodem, gewiegd, en ze ging niet voor hem terug, en het niet teruggaan was de zwaarste zware duik van haar leven en ze wist het terwijl ze hem maakte.
