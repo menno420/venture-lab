@@ -1,1 +1,0 @@
-- `claude/kids-board-book-cuts-2` · **books: kids board-book versions 2** — tummel + dormouse EN/NL/DE cuts · candidates/childrens-books/{tummel,dormouse}/versions/** · 2026-07-13
