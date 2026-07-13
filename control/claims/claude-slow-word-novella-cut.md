@@ -1,1 +1,0 @@
-- `claude/slow-word-novella-cut` · **books: slow-word versions** — novella cut + large-print spec · candidates/adult-novels/the-slow-word/versions/** · 2026-07-13
