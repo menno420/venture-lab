@@ -1,1 +1,0 @@
-- `claude/new-kids-picture-books` · **books: new kids manuscripts** — windmill-mouse + puddle-museum EN/NL/DE · candidates/childrens-books/{the-windmill-mouse,the-puddle-museum}/** · 2026-07-13
