@@ -1,1 +1,0 @@
-- `claude/claims-prune` · **claims hygiene** — delete stale claims from merged sessions (morning-tally, order-night-run) · control/claims/ · 2026-07-13

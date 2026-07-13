@@ -1,1 +1,0 @@
-- `claude/morning-tally` · **ORDER 008 morning tally** — append night-run tally to control/outbox.md + re-stamp control/status.md heartbeat · control/outbox.md, control/status.md, control/claims/ · 2026-07-13
