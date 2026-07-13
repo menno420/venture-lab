@@ -250,3 +250,5 @@ Derived from checked `- [x] ⚑ **Owner:** … — DONE <date>` rows: owner acti
 - [x] Gumroad listing published at $29 (price_cents 2900) at <https://mennomagic01.gumroad.com/l/stripe-webhook-test-kit>, HTTP 200 verified twice · **DONE:** 2026-07-12
 - [x] zip uploaded matching sha256 d3ac5f88…eeb0d8 (19,872 B, 19.4 KB shown on the live download page) · **DONE:** 2026-07-12
 - [x] end-to-end test purchase verified (owner buy, delivery confirmed 18:09:34Z) · **DONE:** 2026-07-12
+- ⏲ **Next checkpoint:** 2026-07-19 — T+7 funnel checkpoint
+- ⏲ then: 2026-07-26 — T+14 kill-rule deadline (≥1 organic sale OR ≥1 qualified inbound, else ledger ⚑E NEGATIVE + pause/delist per LAUNCH-LOG.md)
