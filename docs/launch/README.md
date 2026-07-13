@@ -29,6 +29,11 @@ Zero-owner-click launch material for the sellable candidates. Everything here is
 - [Owner publish click-script (QUEUED 2026-07-13, no freeze applies)](kill-rule-intake-kit/owner-actions.md)
 - [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/kill-rule-intake-kit.md)
 
+## The False-Green Test Trap — $15
+- [Listing copy](false-green-test-trap/listing-copy.md)
+- [Owner publish click-script (QUEUED 2026-07-13, no freeze applies)](false-green-test-trap/owner-actions.md)
+- [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/false-green-test-trap.md)
+
 ## Stripe Webhook Test Kit — $29
 - [**OWNER LAUNCH HOUR** — atomic ~1h runbook (⚑A + ⚑E + first-sale verification)](OWNER-LAUNCH-HOUR.md)
 - [One-pager](stripe-webhook-test-kit/one-pager.md)
