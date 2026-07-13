@@ -1,1 +1,0 @@
-- `claude/halfway-ferry-manuscript` · **BOOKS write-slice: The Halfway Ferry** — first complete manuscript (middle-grade fantasy series opener, Book 1, EN) for the round-2 vetted concept, packet at docs/publishing/vetting/the-halfway-ferry.md · candidates/middle-grade/the-halfway-ferry/** · 2026-07-13
