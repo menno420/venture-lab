@@ -48,7 +48,10 @@ The Slow Word's two nodes above — same-title editions share browse nodes by
 design and add no duplicate category row. **De Waag** (NL edition of The
 Weigh House, [`vetting/de-waag.md`](vetting/de-waag.md) §6) likewise uses
 The Weigh House's two nodes above (Police Procedurals + International
-Mystery & Crime).
+Mystery & Crime). **Weduwenblauw** (NL edition of Ultramarine,
+[`vetting/weduwenblauw.md`](vetting/weduwenblauw.md) §6) likewise uses
+Ultramarine's two nodes above (Historical Fiction + Literary Fiction,
+inheriting the C1 CONTESTED marker via the EN row).
 
 ### Keywords
 
@@ -102,7 +105,14 @@ Mystery & Crime).
 | `moord in de gracht roman` | De Waag (NL — C4 namespace, C3 modern-crime register) |
 | `witwassen grachtenpand thriller` | De Waag (NL — C4 namespace, C3 modern-crime register) |
 | `literaire thriller Amsterdam` | De Waag (NL — C4 namespace, C3 modern-crime register) |
-| `weduwe onderzoekt dood echtgenoot` | De Waag (NL — C4 namespace; Dutch mirror of the EN C2 watched adjacency — crime intent vs any future Ultramarine NL grief-literary phrase) |
+| `weduwe onderzoekt dood echtgenoot` | De Waag (NL — C4 namespace; Dutch mirror of the EN C2 watched adjacency — crime intent vs Weduwenblauw's grief-literary phrase below) |
+| `Gouden Eeuw roman` | Weduwenblauw (NL — C4 namespace, C3 Golden-Age register) |
+| `Delft 1654 historische roman` | Weduwenblauw (NL — C4 namespace, C3 Golden-Age register) |
+| `Delftse donderslag roman` | Weduwenblauw (NL — C4 namespace, C3 Golden-Age register) |
+| `historische roman schilderkunst` | Weduwenblauw (NL — C4 namespace, C3 Golden-Age register) |
+| `Vermeer tijdperk roman` | Weduwenblauw (NL — C4 namespace, C3 Golden-Age register) |
+| `weduwe rouw literaire roman` | Weduwenblauw (NL — C4 namespace; grief-literary mirror of the C2 watched adjacency, opposite De Waag's crime-intent row above) |
+| `zeventiende eeuw novelle` | Weduwenblauw (NL — C4 namespace, C3 Golden-Age register) |
 
 ## 2. CONFLICTS (resolved here before any packet ships)
 

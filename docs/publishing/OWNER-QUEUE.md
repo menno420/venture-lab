@@ -100,7 +100,14 @@ The seat performed NONE of the actions below — every item is an owner click or
 - **DEFAULT:** **The Widow's Blue — "A Novel of Delft, 1654"**
 - **UNBLOCKS:** the “Ultramarine” publish sequence continuing past this pick
 
-### D14 — Keyword map C1 — Category Literary Fiction
+### D14 — Weduwenblauw — Title coupling
+
+- **WHAT:** Title coupling (⚑ one click, two editions): when picking the EN title (default The Widow's Blue), ratify the NL pairing Weduwenblauw (recommended default; fallback Het blauw van de weduwe; Ultramarijn is blocked by van Woerden regardless of the EN outcome). Then the KDP + bol.com title-availability …
+- **WHERE:** `docs/publishing/vetting/weduwenblauw.md` @ §7, OWNER-ACTION step 2
+- **DEFAULT:** **Weduwenblauw**
+- **UNBLOCKS:** the “Weduwenblauw” publish sequence continuing past this pick
+
+### D15 — Keyword map C1 — Category Literary Fiction
 
 - **WHAT:** Category Literary Fiction: The Slow Word vs Ultramarine (dispute) — proposed resolution: The Slow Word keeps Literary Fiction — it is that book's only non-SF node, so losing it would leave the title entirely inside genre-SF browse, which its register doesn't fit. Ultramarine swaps its second category to another Literature & Fiction node that matches a widow-grief Delft novel: proposed L…
 - **WHERE:** `docs/publishing/keyword-map.md` @ §2 C1
@@ -235,6 +242,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** title picked (The Widow's Blue recommended); KDP title-availability recheck at upload. · **DEFAULT:** **The Widow's Blue recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** EN+NL title pair ratified (The Widow's Blue ↔ Weduwenblauw recommended); title-availability recheck (KDP + bol.com) at upload. · **DEFAULT:** **The Widow's Blue ↔ Weduwenblauw recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### De papieren sinaasappel — `docs/publishing/vetting/de-papieren-sinaasappel.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
