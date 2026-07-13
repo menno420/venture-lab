@@ -4,7 +4,7 @@
 
 *Young adult — historical adventure (age of sail)*
 
-A complete novella.
+A complete novella (~16,500 words).
 
 ---
 
@@ -573,4 +573,92 @@ Sana stood at the rail with her father — freed from the steerage an hour since
 "Let her go," said Bakker, from the quarterdeck. "The one that matters is trussed by the mainmast. Turn the glass, strike the bell, and somebody get this ship's books in order."
 
 "They're in order," said Sana Brandt hoarsely, and twenty-eight living entries laughed until the gulls left the cliff.
+
+---
+
+# Chapter 13 — What Can't Be Counted
+
+They lay two days under the Old Wife, licking wounds and pumping, and the *Petrel* was a different ship in every plank of her.
+
+It was not only that the sweepings were disarmed and turned-to under watch, or that Vos sat in the bread-room he had once meant for her father, docketed like his own papers behind a sound lock. It was the sound of the ship. Sana had lived a whole voyage inside a hull that muttered — men in twos, words swallowed at her step, a company divided into those paid to look away and those afraid to look. Now the *Petrel* talked out loud, all day, one end to the other; and if half the talk was seamen retelling the ladder-head fight to each other in ever-improving versions, and the other half was the word *sixty thousand florins* being rolled around the fo'c'sle like a boiled sweet, all of it was the noise of one crew on one page, and she found she could sleep in it as if it were a lullaby.
+
+Her own accounting of those two days ran otherwise, and she did it, as always, both columns, no hoping.
+
+The costs first, cast fair. Six tiers of pepper — near two hundred sacks — genuinely brine-ruined now, their whisper gone silent for good and their stink already turning marsh-sour; she had them slung, counted, and struck down apart from the sound cargo, and entered the loss in her minutes at its honest weight, because an audit that fudges the losses on its own side is Corver with a kinder face. One seaman's forearm laid open, seven men burned, all mending under Cook's needle and grease. The ship's boats' falls cut in the scuffle; the lamp-room a black ruin; her father's second ledger — the original, the month of patient evening work under the floorboard — gone wherever Corver's fires had long since sent it, so that everything now stood or fell on copies, memory, and the hold itself.
+
+And one cost with no column that would hold it. On the second evening her father found her at the taffrail, and stood beside her a while in the old counting-house silence, and then said, squaring his words the way he squared paper: "I entered you at Aunt Griet's, and the world overruled me, and I am trying to be sorry the way a father ought. But I have read your minutes of the 19th, Sana. Fair copy, no blots, every entry witnessed." He looked out at the black island. "I could not have written that page. Not at your age. Not now. What frightens me is that you already know it."
+
+"Is that a debit or a credit?" she said, aiming for lightness, and missing, because her voice cracked in the middle.
+
+"It's carried forward," her father said. "That's all ever happens to the true things. They're carried forward." And he put his arm around her, ink-stained and smoke-smelling, and the two of them stood watching the seals until the light went, and no bell struck anywhere in it, and for once she did not count a single thing.
+
+The credits, then. A saved hull. A saved company, all twenty-eight names. Six hundred-odd sacks of prime pepper, dry and whispering and *lawful* — evidence now, every sack of it, sailing home under the mate's seals. The despatch-box, unburned: sample schedules, letter-book, policies, the whole beautiful exact architecture of the fraud preserved by its own maker's incurable tidiness. The captain's log, written true at last and signed. And the thing she had not planned for and could not weigh: the way the men looked at her now — not wonder, nothing so useless; more the way they looked at the compass. *Consulted.* On the second morning Bakker had sent for her at the change of the watch, shown her his lading-plan for restowing the shifted tiers, and waited, arms folded, while she checked his figures; and when she'd found them good and said so, he had nodded once, satisfied, exactly as if she were somebody, and put the plan into effect.
+
+"You'll want paying, I suppose," he said gruffly, as she left the cabin. "You've stood watches. Kept the reckoning. Fought the fire." He opened the wage-book — the true one now, kept under his own key — and Sana watched, with a feeling in her chest like the first line of a new page, as the mate of the *Petrel* dipped his pen and made room in the ship's company, between *Tade, cook's boy* and *Wick, in custody*, for a twenty-ninth name.
+
+*Sana Brandt, clerk. Entered this 21st, at wages five florins the month, and found.*
+
+"It's a boy's wage," said Bakker, blotting it, "for clerk's work a grown man couldn't have done. That's the sea for you. Sign or don't."
+
+She signed. Her hand shook exactly enough to be honest about.
+
+They weighed on the morning of the third day and stood north for home with a soldier's wind, the ruined tiers stinking gently below like a confession, the sound ones whispering, and the Old Wife dropping black and small astern. Off the cove's mouth, where the deep water began, Old Sier at the wheel said quietly, to the sea rather than to her: "Somewhere under us is where they'd have opened her. Nought but arithmetic between the company and that ground, girl. Remember it when they tell you figures are dull work."
+
+Sana stood at the rail a long time, watching that innocent-looking water go by.
+
+Here was the thing she kept turning over, the thing she would still be turning over years from now, on other decks, over other books. She had told the fo'c'sle that the account balanced to a farthing, and it had. Every entry of Corver's scheme had been countable — pepper, premiums, wages, the price of an assessor's conscience — and countable things could be caught, that was her whole faith and it had held. But the account she now carried out of that cove would not cast, no matter how she ruled the page. What column takes twenty-eight lives, saved? Where do you enter Tade's yell in the smoke, or Sier's forty-year pride turning itself over in four seconds, or a drunkard captain going sober at the sight of a true page and signing his own ruin with a steady hand? She tried, idly, wickedly, to price it the house's way — three hundred and forty florins, the cost of the crew, the sum a good house could write off — and found that the number had stopped meaning anything at all, the way a word says nothing if you repeat it too often.
+
+Her father had it right, she decided. Some things don't balance. They're not meant to. They're carried forward.
+
+She went below, and took up her pen, and wrote the day's reckoning fair: course, distance, weather, souls aboard, twenty-nine. It cast perfectly. Behind the figures, unenterable, the whole freight of it rode home with them just the same — and for the first time in her life, Sana Brandt understood that this was not a flaw in the bookkeeping.
+
+It was the reason for it. You kept the books true because of all the things the books couldn't hold. That was the trade. That had always been the trade.
+
+Landfall raised the tower of Marren light in a cold clear noon, eleven days out of the cove, and her heart, that faithful clerk, entered the sight under both columns at once.
+
+---
+
+# Chapter 14 — Landfall
+
+The *Petrel* came up the fairway of Marren on the top of the tide, and the town got its second astonishment in a season.
+
+The first had been her sailing — a condemned cargo, a short crew, a debtor-clerk pressed aboard; the quays had chewed that gossip for a week. Now here she came back weeks early and all wrong for the story: sails patched, boats scarred, her after-hatch coamings charred black as a kettle, and at her masthead, where nothing should fly at all on a knacker's errand, the long pennant that a Company hull hoists when she carries dispatches of consequence. Bakker had thought of that. Bakker, it turned out, thought of a great deal once the thinking was allowed to point in an honest direction. "Let the town see *consequence* coming up the fairway," he'd said. "It makes the right men sweat before a word's ashore."
+
+Sana stood at the rail in her boy's coat, her minutes of the voyage sewn into a sailcloth packet at her ribs where the traverse-book had lived, and watched her whole life come up out of the sea: the tower light, the spires the pepper had paid for, the weigh-house crane, the pepper quay, the fine glass front of the House of Corver with the winter sun on it, gold as a false total.
+
+They had argued, off the Old Wife, about how it should be done — argued for a whole evening, she and her father and Bakker and Tans, around the great cabin table with the despatch-box open between them, the first council of war ever convened, so far as she knew, entirely around the question of *paperwork*. Force was out; a mate who seizes his owner lands in irons whatever the books say. Marren's own bench was half Corver's, dining-friends and debtors; hand the box to the town magistrates and the schedule would grow a new page overnight. It was her father, restored to himself, squaring papers by candlelight, who had laid out the true channel as if he'd been buoying it all his life: the marine assessors' court at Weste held commission over insurance fraud on this whole coast — barratry above all, because underwriters defend their florins the way lions defend meat — and the honest assessor at Weste, the one he'd tried to write to a lifetime ago in the fog, sat at the head of it. "We don't accuse," Davit Brandt had said. "Accusation is wind. We *deposit*. The log, the audit, the schedule, the letter-book, the policies — certified copies to Weste by post-rider the hour we land, originals to the underwriters' own syndic in Marren, who is nobody's dining-friend, I promise you, when treble hull-money is at stake. Then Corver may own every magistrate in town, and it will help him exactly as much as owning the weathercocks."
+
+So it went, and Sana had the satisfaction — she admitted it was satisfaction; she entered it honestly — of being on the quay-side steps of the underwriters' hall to see the syndic's face as he read. He was a dry, small, spectacled man, and he read the sample schedule through twice without any expression at all, and then he took off the spectacles and said, in the voice of a man ordering dinner: "Clerk. My compliments to the harbor-master, and the ship Petrel's cargo is arrested where it lies, under the syndicate's seal, pending the court at Weste. And send to the post-house. I shall want four riders." Then he looked over the rail of his desk at Sana, a long look, the schedule still in his hand. "The copies are docketed *S.B.* Whose initials are these?"
+
+"Mine, Meneer."
+
+"They are very fair copies," said the syndic of the underwriters of Marren, which she came to understand, in that world, was roughly what a knighthood was in others.
+
+Corver was taken on the fourth day — not dramatically, not at his fine glass door; men like Corver are arrested the way ledgers close, quietly, at the proper hour, by the proper officers, the assessors' warrant from Weste arriving in company with two of the syndic's men and a locksmith for the counting-house floor. Sana was not there. She heard it all from Meels, who arrived at Aunt Griet's out of breath with his hat in his hand, and who reported — with the relish of a clerk who has laughed at the correct volume for years — that the great man had demanded to know upon whose information, and that the warrant, being a fair document, had told him: *upon the books of his own house, and the depositions of the ship's company of the Petrel, and the audit kept at sea by S. Brandt, clerk.*
+
+"He read that name three times," Meels said. "Then he asked for his coat."
+
+The trials were Weste's business and the winter's; the pepper, arrested, sealed, and eventually condemned in earnest — as evidence — would feed lawyers longer than it would ever have fed cattle. Captain Tans stood his reckoning at the assessors' bar and did not soften a line of his own log, and the court weighed the log against the fire-blackened coamings and the twenty-eight names alive to testify, and let his honesty buy back what his weakness had sold; he lost his command and kept his neck, which he said, on the courthouse steps, was better bookkeeping than he deserved. Vos was exact to the end, they said: corrected the clerk of the court twice on matters of dating, and went to his sentence with his collar clean. Sana found she could spare him no hatred. He had been the truest believer aboard, in his way. He had simply worshipped the wrong thing about the books — the neatness, and never the truth.
+
+Her father was cleared entire — the forged debt-page, examined by the assessors' own ink-men, testified against its makers, the fresh black entries over the scraped vellum plain as a shout under their glasses — and the underwriters' syndicate, which had been saved treble hull-money and the precedent, voted the family a recompense that made Aunt Griet sit down twice, and Davit Brandt the offer of the syndic's own second desk. He took it. He was made for it: a room where every page was a hunt for exactly the kind of lie that had nearly drowned him. On his first morning he came home with his stacks squared once, not twice, and Sana closed that account in her heart with more relief than she let anyone see.
+
+Which left, in the spring, one entry open.
+
+The Company's fleet fitted out in April: five hulls for the pepper coasts, the *Petrel* among them — surveyed, recaulked, her burned coamings replaced with wood so new it still smelled of the saw, and Bakker, confirmed into her command, standing on the quay in a master's coat he kept touching as if it might be someone else's, watching his stores come aboard against a victualling-book he trusted, kept by a purser the syndic had vetted personally. Twenty months out and home, Bantam and the straits, the real voyage this time — the one the whole false one had only pretended toward. Tade was going, rated ordinary seaman, unbearable about it for a fortnight. Old Sier was going, because the *Petrel* did not sail without Old Sier; it would have been like sailing without the keel.
+
+And on the last evening before the fleet dropped down the fairway, Captain Bakker presented himself, square and slow and scrubbed, at Aunt Griet's door, and asked for neither Sana nor her father but for both together; and put his hat on the table, and said what he had come to say the way he did everything, without waste.
+
+"A Company hull carries a captain's clerk. Wages, a florin a month found, and the book learned proper — reckoning, lading, the whole trade of it. It's twenty months of weather, salt meat, and no soft thing anywhere in it, and I never in my life saw anyone made for a berth the way that girl is made for this one." He turned the hat a quarter-turn, his one concession to difficulty. "I'm asking the clerk. But I'm asking her father first, because that's the right order of the entries, and this house knows what the sea can cost better than most."
+
+The silence lasted three heartbeats. Sana spent them watching her father's hands, which was where he kept his answers.
+
+They were quite still. Then they squared the edge of the tablecloth, once, gently — a man ruling a fresh page — and he said: "Numbers never lie, Captain. Only the men who write them. So we had better keep sending out the ones who write them true."
+
+The fleet went down the fairway on the morning tide, five ships in line, pennants running out in a wind that smelled of tar and cold sunlight and, faintly, from the warehouses as they passed the pepper quay, of a hot dry country far away. On the quarterdeck of the *Petrel*, the new captain's clerk stood by the binnacle with the log-slate under her arm — sixteen now, salt-cured, wearing her own name on the ship's books in her own fair hand.
+
+The tower light fell astern. The land thinned to a pencil-line, and the sea opened its enormous blank page.
+
+Sana Brandt dipped her pen, and, smiling, ruled the first line.
+
+**THE END**
 
