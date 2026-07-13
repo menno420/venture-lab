@@ -1,1 +1,0 @@
-- `claude/ender-close-out` · **session-ender close-out: retro+refresh+bake+claims-prune+heartbeat** — coordinator session-ender: day-run retro, current-state refresh, walls-ledger bake, claims prune, heartbeat overwrite · docs/retro/, docs/current-state.md, docs/PLATFORM-LIMITS.md, control/status.md, control/claims/, .sessions/ · 2026-07-13
