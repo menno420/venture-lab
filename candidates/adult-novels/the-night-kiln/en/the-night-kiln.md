@@ -275,3 +275,133 @@ He took the tea. He turned the cup, a quarter-turn, winding.
 Two evenings later, with frost feathering the workshop window and the kettle just short of singing, he came.
 
 ⁂
+
+# Chapter Seven — What the Kiln Kept
+
+She did not take him to the good chair first. She took him to the shelf.
+
+It stood in the workshop's darkest corner, a plain board behind the glaze jars, and on it sat a dozen-odd pieces that no customer ever saw: the private museum of forty years of the craft's mistakes and mercies. Grams Ilsabet's first pot, thumb-marked and honest. A wedding cup fired for a wedding that had not, in the end, happened, unclaimed these thirty years and still faintly humming with a hope that had outlived its occasion, which was why Edda could not bring herself to break it. A dish that had been fired too fast and dunted in the cooling, a fine ringing crack straight through a memory of a rowing race, so that the race now ran only half its course and stopped forever mid-stroke — kept on the shelf as a lesson about patience, and dusted gently, the way you'd tend a small grave.
+
+And at the end, alone, with a hand's width of empty board on either side as though even the other pots stood off from it: a jar.
+
+It was a beautiful thing. That was the first shock of it, every time; people expected something gothic, and instead there was this small honey-glazed jar with a fitted lid, domestic as a Sunday, the kind of jar you'd keep peppercorns in.
+
+"Take it down," Edda said. "Hold it a moment. Then I'll tell you what you're holding."
+
+Ansel took it in his mason's hands. He stood with it while the stove ticked, and Edda watched his face do what every face did: attend, frown, attend harder — and find nothing. Not mystery. Nothing. The jar sat in his palms with the exact presence of an empty jar, which is a kind of absence no truly empty jar ever has; even an empty jar holds the room it's in. This one held the way a keyhole holds after the house is demolished.
+
+"There's a woman in Stonebeck parish, or was," Edda said, "called Widow Sorrel. Before my time here; I had it all from my teacher, who did the thing, and told me the tale the way other trades tell about the bridge that fell. Her man and her two boys went down the valley to the winter fair, the year of the great flood, and the ford took all three coming home. And she lived. And two years on she came up that lane out there on her knees — I mean that as fact, Ansel, not decoration; she'd walked the last half-mile of it kneeling in the frost, because she'd heard somewhere that was how you asked for the old mercies — and she begged my teacher for an emptying. Not of the flood. Understand that. She could bear the flood, she said. It was the morning of it she couldn't bear: the ordinary morning, porridge and squabbling and her man singing flat and one boy's boots on the wrong feet, and them all going out the door happy. The flood only drowned her family, she said. It was the morning that drowned her, every single day, at porridge-time, at boot-time, at the hour a man sings flat. Take the morning, she said. Leave me the flood but take the morning, or dig me in beside them, one or the other, I've done choosing."
+
+The stove ticked. Ansel stood very still, holding the jar the way a man holds a thing he has just been told is loaded.
+
+"My teacher said no for a year. The parish said kinder things about her refusing than I'd have said, watching what that year did to the woman. And at the end of the year, with Sorrel by then a lantern with no candle in it, Grams Ilsabet judged that the root was killing the bank faster than any rain would, and she did it. Did it well — there was no witch better, first to last. Widow Sorrel told the morning all the way through, told it with the wish to be rid, and the fire took it at the root, out of her whole and forever, into that jar in your hands. And she stood up from the telling lighter, and slept that night, and wintered better, and in the spring she came back up the lane on her own two feet with butter and thanks, and asked, since she was passing, to hold the jar." Edda took it gently back from him and set it on its board, in its ring of clean emptiness. "And she held it, Ansel. She held the last morning of her men, her man singing flat and the boots on the wrong feet. And she felt what you just felt. Nothing. Polite, pleasant nothing. She said — my teacher never once told this part dry-eyed, and she was not a wet-eyed woman — she said: it's a nice jar, mistress, did I pay for it? and put it down, and went out to her cart, easy as weather."
+
+"Some would call that healed," Ansel said. Low; testing the mortar of it, not arguing.
+
+"Some would. Here's what they'd be calling healed. The morning wasn't a splinter in her, whatever it felt like at porridge-time. It was a root, and I told you about roots. When the fire pulled it, it brought up what the root was holding: not just the hurt of the morning but the reach of it — every strand that morning touched. She kept her wits, kept her memories, mind; she could tell you to her dying day that she'd had a husband, that he sang flat, that she'd loved them all. She knew it the way you know the year of your birth. What she couldn't do, ever again, was feel it. The morning had been the door, do you see, the live door into all of it, the one with the porridge-warmth still on the latch — and she'd had it taken off its hinges and fired shut. She lived long, Widow Sorrel. Married again, in time; a decent man; she was kind to him, I'm told, the way you'd be kind in a language you learned late. And every few years to the end of her life she'd come and hold the jar. Never wept, never lingered. Just held it a minute, like someone checking a door that was once there. Then: it's a nice jar, mistress. Every time. Like the tide."
+
+The kettle, which had been climbing toward its note all through this, arrived at it. Edda lifted it off the heat, and in the new quiet the workshop was very loud with things unsaid.
+
+"You keep it on an open shelf," Ansel said at last. "A thing like that."
+
+"Where else would I keep a warning? Warnings kept in locked drawers warn nobody." She set out two cups. "Now. I've shown you the worst thing my craft ever did with its whole heart in the right place. You've held it. That's the price of the good chair for a man who came asking what you came asking — not to frighten you off, but so that whatever you choose after tonight, you choose it knowing what the fire does when you ask it to take." She sat, and poured, and looked at him over the pot, and made her voice do what Ilsabet's used to do, the thing like a hand on a shoulder. "So then, Ansel Rooke, mason, of Rooke Brothers as was. The chair's behind you. The moon's not up for an hour yet. Tell me about your brother."
+
+The shutters came all the way open. What stood behind them was so tired.
+
+"His name was Joss," he said, and sat down.
+
+⁂
+
+# Chapter Eight — The Quarrel Told
+
+"He was the elder," Ansel said. "Rooke Brothers was his notion, his name on the yard gate first — Josserand, our mother's father's name; he'd have thumped any man but me who used the whole of it. Stonebeck men, we were. Our father cut lime up there all his life, so the trade was in the milk, you could say. Joss was the better mason. I'll say that plain now because I grudged it forty years: the better mason, the better eye. I was the better hand — give me a drawn line and I'd lay to it truer than him and faster. But the line itself, the shape a thing wanted to be, the way a load wants to travel down through stone to the ground like water finding a stream-bed — that he had from God, and he couldn't teach it, though he tried till we both were hoarse."
+
+He had not touched his tea. He held it, both hands, the way Tally had; the way they all did. Edda sat close by with the bowl in her lap, and this she had not decided lightly.
+
+She had laid it out for him plainly before he sat, because a telling taken in ignorance was against every rule of the chair. The kiln was down. There would be no firing for weeks — the trial fire of the new arch, if the arch got built, if the mortar cured, if the frost allowed. A telling given tonight was a telling she must carry all those weeks, against her teacher's plainest rule, a grief lodged under her breastbone through every working day of the rebuild. She told him that. She told him too what she could not do: there would be no emptying, tonight or ever, not from her hands. What she offered was older and plainer, the thing the chair had always been for.
+
+"Then why take it at all?" he'd asked. "If you'll not take it out of me. What's it for, your carrying it?"
+
+"Because you've carried it alone for — how long?"
+
+"Eleven years in March."
+
+"Eleven years. Then that's what it's for. Eleven years is long enough for any load to be a one-man lift. You'll not be rid of it under my roof, Ansel, but you'll be two on the rope for a while, and a man sleeps different once he's felt the rope shared. And," she'd said, slower, because this part was craft and she owed him exactness, "a telling gives the witch the whole of it. More than you can reach yourself, grief being the poor librarian it is. I don't promise what I'll find. I promise I'll be looking with kinder eyes than the ones you've had turned on it these eleven years — because the only pair looking's been yours, man, and yours have been trained by all this time to find you guilty."
+
+So now: the telling. The stove. The wound-up cup.
+
+"We built together thirty years, near enough. Bridges, kilns, the Aldermere furnace, two churches — one tower of Saint Anselm's at Harrowgate is ours to the belfry course. He married; I didn't; his Lena kept the books and fed me most suppers of my grown life. Their girl called me Uncle Anvil, when she was small, for the ring of the chisels." The cup turned. "You want the day itself, I suppose."
+
+"I want what you want carried. You choose the road in. The day will be there whichever way you walk."
+
+"The day, then. Eleven years ago, the autumn. There was a bridge at Stonebeck — our own home crossing, the ford bridge, the one our father'd carted lime over all his life. Flood-cracked, and the parish scraped the money, and Joss wanted it. God, he wanted it. Rooke Brothers mending the home bridge — he'd have done it for bread and thanks. And the same week comes a letter from the Minster works at Aldercaster. The Minster, mistress. They were rebuilding the great south arch, and they wanted me. Not us. Me. Someone'd seen my banker-work on Saint Anselm's and wanted that hand on Minster stone, and it was a year's work at cathedral rates and my name — my name, alone, for once, in the fabric rolls of a Minster."
+
+The room was very quiet. In the bowl in Edda's lap, the slip lay still and grey, waiting.
+
+"He said no. Not to me — he'd no power to say no to me, I was a grown man and a full partner. He said no to taking the yard there with me, no to shifting the bridge job a season. Said the bridge was owed. That was the word did it, owed. I said a parish ford could wait on the Minster and he said not this ford and not on any Minster and I —" the cup stopped turning "— I'll give it you word for word, mistress, since that's the trade. It was on the scaffold of the abutment; we'd been surveying the crack. He said: stones remember who owes them, Ansel. And I said: then let the stones keep your books, Josserand, they've more head for figures than you ever had — small men mend fords. I'm done being half a small man's name."
+
+He breathed. The kettle held its note somewhere far below hearing.
+
+"And I went down the ladder, and I packed my tools that night, and I went to Aldercaster. And we didn't write — two stubborn Stonebeck men, what would we write? Lena wrote. I answered Lena, and every letter I answered was a letter I didn't send him, and there was a whole language in that and both of us fluent in it. And in the February he took a crew up in the wet to set the bridge's crown course before the thaw floods — shorthanded, because half the valley was down with the winter fever, and then he was down with it too, and being Joss he judged the bridge could not wait and the fever could. And it went to his chest." The cup was perfectly still now. "The letter took nine days to find me, the works being what they were. I rode home through the worst of the thaw and I was four days too late for anything but the stone-yard, and the last words my brother had from me living — the last, mistress, out of thirty years of words — were small men mend fords."
+
+"Tell me the rest," Edda said, very quietly. "There's rest. There's always rest. What did you do then?"
+
+"Finished it," Ansel said. "The bridge. Stayed the spring and finished my brother's bridge with my brother's crew to my brother's drawings, every course, and it stands today and it'll stand two hundred years, and I set no mark on it, for it wasn't mine. And then I sold him my half of the yard — Lena, I mean, sold Lena my half for a shilling, whatever the lawyers wrote — and I took my tools and I went where the work was, and I've been where the work is for eleven years, and I've built nothing since with my own name on it, and every night, mistress — every night, still, now, at my age — some nights it's the scaffold and some nights it's the stone-yard, but it always ends the same, it ends at owed. He was right, do you see. That's the joke of it. Stones remember who owes them. He was right the whole way down."
+
+"And that's the memory you'd have fired out at the root," Edda said. "The scaffold."
+
+"That's the one."
+
+"Then give it to me. All of it, the whole day, from waking — the weather, the smell of the wet lime, what Lena put in front of you at breakfast. Leave nothing out for shame. Shame's a poor librarian too; between it and grief they've been keeping your books eleven years, and you wonder the accounts read black." She settled the bowl. "Tell it, Ansel. I'm on the rope."
+
+He told it. It took the whole hour to moonrise, and it went into her like winter water — not the swallow-of-tea ache of a laugh or a snowfall, but a long cold pouring, the true weight of a thing eleven years in the carrying, and Edda sat and received it and did not once let her face bid him stop. The slip in the bowl turned the grey of wet lime, with something under the grey like a seam of iron.
+
+And deep in the pouring — far under the scaffold, far under owed, in the part of the day his own eyes had not been able to reach for eleven years because shame stood in front of it with its arms crossed — Edda felt something small and warm and utterly unexpected, like a live coal in a flooded hearth. She did not tell him what it was. It was not hers to spend that night, and he had no room to receive it; a man who has just set down a load cannot in the same hour be handed a different one, even a warm one. But she banked it, the way you bank a coal, and she thought, with a rising in her chest that was half awe at her own trade: there you are. Eleven years buried, and warm as the day you were lit.
+
+"There," she said, when it was done, and the moon stood over the ridge, and the big man in the good chair sat emptied and shaking slightly, like a field after rain. "There. That's carried, Ansel Rooke. Two on the rope now. Go down to Hessa's and sleep — and you will sleep — and in the morning come build my kiln. You'll want the work, and I —" she looked at the lime-grey slip, and set it, deliberately, in the very center of the telling shelf, at the height of her heart — "I'll want the fire, when we've earned it. We neither of us knows it yet, but I think your firing's going to be the proving of the new arch."
+
+She was more right than she knew. Witches usually were; it was the trade's one cruelty, that the knowing came first and the understanding limped after.
+
+⁂
+
+# Chapter Nine — Two on the Rope
+
+Carrying it was worse than she had let him see, and better than she had feared, and stranger than either.
+
+Ilsabet's rule had a reason, and Edda now lived the reason daily. A telling was meant to bide in the witch a night — one night, tea to dawn, with the fire already lit and drawing. Joss Rooke's death bided in her for weeks, through every working hour of the rebuild, and it did what her teacher had always warned a kept grief would do: it picked up the keeper's own colors like a pot picking up smoke. She found herself, that first week, dreaming of scaffolds she had never stood on; found her hand pausing over the morning teapot with a sourceless conviction that someone, somewhere, was owed a letter; found, once, tears on her face at the smell of wet lime from the mortar troughs, and had to stand a moment in her own garden naming things — my gate, my quinces, my kiln, my grief and not mine — the way Ilsabet had taught her to sort flooded feelings the way you sort spilled seed.
+
+Perrin noticed by the third day, because Perrin was going to be a witch someday, whatever the boy currently believed about becoming a master thrower.
+
+"You're carrying," he said, over the wedging bench. Flat scared. He knew the rule; she'd made him say it back to her often enough. "The kiln's in bits in the garden and you're carrying."
+
+"I am. One telling, taken with both eyes open, to be fired in the trial firing."
+
+"That's weeks."
+
+"It is."
+
+"Grams Ilsabet said —"
+
+"Grams Ilsabet said a witch is a channel and not a cistern," Edda agreed, "and also, when I was your age and quoting her at her, that rules are the fence and not the field, and a witch who can't tell you why her fence stands where it does is keeping sheep for the wolf. So: ask me why the fence is where it is, and then ask me why I've stepped over it."
+
+Perrin, sixteen, and made of elbows and increasingly of unexpected things, considered this. "Because the man's been a cistern eleven years," he said slowly, "and somebody had to be the channel." Then, with the terrible directness that was the other reason she'd taken him on: "Does it hurt?"
+
+"It's heavy of a morning and heavier at owl-light, and your tea has kept me upright more days than you know, and if I'm sharp with you before noon it's the weight and not the boy. There. That's the honest ledger, and you're old enough to hold a page of it. Now wedge. That clay won't teach itself to forget the pit."
+
+The strange part — the part she had not expected and did not fully tell even Perrin — was what the carrying gave back. She had told Ansel a telling gives the witch the whole of it, and it did; but living with the whole of it, week upon week, was something no rule had prepared, because no witch within the rule would ever do it. She came to know Joss Rooke. Not as a fact in a story: as a man in the house. She knew the flat singing (it was flat, honestly, wonderfully flat, a man singing entirely for the joy of being unfit to). She knew the way he squared his shoulders at a drawing. She knew — from underneath, from inside the memory's own warm dark, where the live coal sat banked and waiting — the thing that shame had walled off from his brother for eleven years, and carrying it unspoken while its rightful owner worked ten feet away was the hardest discipline of her working life.
+
+Because Ansel was there, every day, building.
+
+The new arch went up through the dark end of autumn the way all true work goes: slower than hope, faster than fear, with singing some days. The clamp-firing of the new bricks was the month's festival in itself — a great turf-and-brick loaf built in the paddock behind the kiln shed, the whole village's new-moulded bricks stacked green inside it with fire-channels run through, then lit and left to smoke and roar gently for six days like a sleeping dragon under its turf blanket, and the Askew boys took paid shifts as dragon-watchers overnight and have never in their lives since been so important. The fired bricks came out ringing — you tapped each one and it sang or it didn't, and the ones that sang went to the arch, and the ones that didn't went to Tom Chandler for a garden wall, and Ansel taught the whole village the tap and the listening, so that for one week in Wenholt you could not walk ten yards without seeing some householder solemnly chiming two bricks together like a bell-ringer.
+
+Then frost came early and hard, as promised, and tried to kill the mortar.
+
+Lime mortar cures slow, and frost in green mortar is death — the water in it freezes, swells, and turns the whole bond to sugar. The cold snapped down in the third week with the barrel courses half-laid, and what followed was the night Wenholt would still be retelling at Wintermarks twenty years on: the arch swaddled like a newborn in every horse-blanket, hay-bale, and goose-feather quilt the parish could spare, braziers set in a ring under the shed with relays of villagers feeding them till dawn, Hessa running a soup-line from the workshop stove at two in the morning, Odile Vance arriving unasked at the coldest hour with the church's charcoal and staying to hold a lantern with frost in her eyebrows and something in her face that Edda finally recognized, past midnight, as happiness. Ansel moved through it all half-frantic and wholly alive, laying his palm flat against the blanketed brick the way Edda laid hers against the kiln's old flank, and she watched him do it and thought: there it is. The covered furniture's coming off the windows, room by room.
+
+The mortar held. The arch closed week by week toward its crown, and the two of them, witch and mason, took to ending each day the same way: last light, two stools in the cold shed, tea going smoky from the braziers, looking up together into the beautiful unfinished curve of it — the whole barrel sprung and rising, complete now but for the crown course and, at the very center of the crown, the single waiting gap.
+
+"That one's yours to shape," Ansel said, the evening the gap was all that remained. "Whatever odd thing you're brewing, and don't tell me you're not; you've been circling that gap in your mind for a month, I've watched you do it. It's the keystone, mistress. The whole animal leans on it. So it had better be good."
+
+"It is," said Edda. "It's yours."
+
+⁂
