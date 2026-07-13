@@ -36,6 +36,16 @@ jobs:
       - name: stripe-webhook-test-kit real-path HTTP tests
         working-directory: candidates/stripe-webhook-test-kit
         run: python3 -m unittest test_http_realpath -v
+  github-webhook-test-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: github-webhook-test-kit real-path HTTP tests
+        working-directory: candidates/github-webhook-test-kit
+        run: python3 -m unittest test_http_realpath -v
   ledger-drift-advisory:
     # ADVISORY ONLY — never a required gate. Double-guarded against
     # ever turning red: the script exits 0 on EVERY path (in-sync,

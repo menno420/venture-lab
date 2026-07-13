@@ -1,0 +1,8 @@
+{
+  "_comment": "Fixture -> X-GitHub-Event header value. The event NAME travels ONLY in the X-GitHub-Event header, never in the payload body (see ../GOTCHAS.md #1), so the kit needs this manifest to fire fixtures with the header a real delivery carries.",
+  "check_run_completed": "check_run",
+  "issue_comment_created": "issue_comment",
+  "ping": "ping",
+  "pull_request_opened": "pull_request",
+  "push": "push"
+}
