@@ -1,1 +1,0 @@
-- `claude/paper-orange-nl` · **books: paper-orange NL edition** — Dutch translation · candidates/adult-novels/the-paper-orange/versions/nl/** · 2026-07-13
