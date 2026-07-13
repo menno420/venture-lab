@@ -1,0 +1,1 @@
+- `claude/night-queue-killcheck` · **scope** — ⏲/KILL-CHECK checkpoint column: scripts/derive_owner_queue.py + tests, docs/publishing/vetting/stripe-webhook-test-kit.md, docs/publishing/OWNER-QUEUE.md (regen), docs/products/TEMPLATE.md stage-8 · 2026-07-13
