@@ -1,1 +1,0 @@
-- `claude/night-killclock-advisory` · **scope** — scripts/check_kill_clocks.py + scripts/test_check_kill_clocks.py (new), docs/products/TEMPLATE.md (stage-3 + listing-stage evidence upgrades), docs/current-state.md (advisory note), .sessions/ card · 2026-07-13
