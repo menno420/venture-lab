@@ -4,8 +4,9 @@
 
 A complete literary Dutch (Netherlands register) translation of
 *Ultramarine*. Source text: `../../manuscript/ultramarine.md` at its merged
-state on `main` (verbatim `wc -w` 27,865 words including title page, content
-note, and part/chapter headings). All 12 chapters in three parts translated
+state on `main` (verbatim `wc -w` 27,890 words after the 2026-07-13
+continuity patch, including title page, content note, and part/chapter
+headings). All 12 chapters in three parts translated
 in full — every line finished prose, no summary placeholders. The EN
 manuscript stays the source of truth for the story; fixes propagate EN → NL,
 never the reverse. The EN vetting packet
@@ -24,14 +25,15 @@ simply speaks.
 
 ## Honest word count
 
-Verbatim `wc -w` on 2026-07-13 (includes title page, content note, and
-part/chapter headings):
+Verbatim `wc -w` on 2026-07-13, re-measured after the sill-retrieval
+continuity patch (includes title page, content note, and part/chapter
+headings):
 
 ```
-28439 candidates/adult-novels/ultramarine/versions/nl/weduwenblauw.md
+28464 candidates/adult-novels/ultramarine/versions/nl/weduwenblauw.md
 ```
 
-Versus the EN source's 27,865 (+2.1%) — in line with the catalog's measured
+Versus the EN source's 27,890 (+2.1%) — in line with the catalog's measured
 NL expansion band (+1.5% De Waag, ~+2.5% first two NL editions). The count
 is reported as measured, not targeted.
 
@@ -145,17 +147,23 @@ by *De Waag* (PR #134):
 9. "faber, the maker" (Fabritius's Latin name-etymology) — **kept as-is**:
    it is Latin, not a Dutch gloss, and the beat depends on it.
 
-## Known EN-source wobbles (carried, not repaired)
+## Known EN-source wobbles
 
-Per fixes-propagate-EN→NL, nothing was silently fixed. One candidate found
-during translation, flagged for an EN-side look rather than patched here:
-Ch. 5 has Grietje's treasures "shifted … to the sill of the shop-window"
-(ground floor) that morning, while Ch. 6 finds Grietje under the fallen
-staircase and Ch. 8/9 have her carrying all four treasures "out of the
-ruin in her fist" — workable (she checked them at dawn and could have
-pocketed them), but the EN never says she took them back off the sill; a
-one-line EN clarification would close the seam. The NL renders the scenes
-exactly as the EN has them.
+Per fixes-propagate-EN→NL, nothing was silently fixed at first landing.
+One candidate found during translation, flagged for an EN-side look
+rather than patched here: Ch. 5 had Grietje's treasures "shifted … to the
+sill of the shop-window" (ground floor) that morning, while Ch. 6 finds
+Grietje under the fallen staircase and Ch. 8/9 have her carrying all four
+treasures "out of the ruin in her fist" — workable (she checked them at
+dawn and could have pocketed them), but the EN never said she took them
+back off the sill; a one-line EN clarification would close the seam.
+**RESOLVED 2026-07-13:** the one-line clarification landed in the EN
+master (and its `manuscript/part-two.md` split) — after the morning count
+Grietje gathers the treasures back into her fist, the way she always
+carried them — and the same line has been propagated EN→NL into this
+edition ("Toen schoof ze ze terug in haar vuist, alle vier …"). The seam
+is closed. (The serial edition's part 2 still carries the pre-patch
+paragraph verbatim; flagged as a follow-up, not edited in this slice.)
 
 ## Market note (honest)
 
