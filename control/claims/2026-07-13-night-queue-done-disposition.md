@@ -1,0 +1,1 @@
+- `claude/night-queue-done-disposition` · **scope** — derive_owner_queue.py DONE disposition + SWTK §7 packet + TEMPLATE.md stage-6/8 upgrade · scripts/ + docs/publishing/ + docs/products/TEMPLATE.md · 2026-07-13
