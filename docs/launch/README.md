@@ -13,8 +13,9 @@ Zero-owner-click launch material for the two sellable candidates. Everything her
 ## Agent-Workflow Template Pack — $19 pay-what-you-want
 - [One-pager](template-packs/one-pager.md)
 - [Listing copy](template-packs/listing-copy.md)
-- [Owner publish click-script (FROZEN ❄️)](template-packs/owner-actions.md)
+- [Owner publish click-script (UNFROZEN 2026-07-11)](template-packs/owner-actions.md)
 - [README buy-section snippet](template-packs/readme-buy-snippet.md)
+- [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/template-packs.md)
 
 ## Stripe Webhook Test Kit — $29
 - [**OWNER LAUNCH HOUR** — atomic ~1h runbook (⚑A + ⚑E + first-sale verification)](OWNER-LAUNCH-HOUR.md)
