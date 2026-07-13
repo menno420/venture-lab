@@ -36,7 +36,7 @@
   kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
   ledger ⚑E NEGATIVE + pause/delist). Durable record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-- **Product catalog — 1 live + 5 click-queued + 2 hard-gated (2026-07-13
+- **Product catalog — 1 live + 6 click-queued + 2 hard-gated (2026-07-13
   night run, ORDER 008).** Live: SWTK $29 (above). Click-queued at the
   quality floor (built + priced + listing drafted + verified + sha
   recorded), publish clicks owner-gated in the derived
@@ -47,7 +47,9 @@
   ([`publishing/vetting/kill-rule-intake-kit.md`](publishing/vetting/kill-rule-intake-kit.md),
   PRODUCT #7 candidate sweep), The False-Green Test Trap $15
   ([`publishing/vetting/false-green-test-trap.md`](publishing/vetting/false-green-test-trap.md),
-  PRODUCT #8).
+  PRODUCT #8), The Agent Merge-Wall Cookbook $19
+  ([`publishing/vetting/merge-wall-cookbook.md`](publishing/vetting/merge-wall-cookbook.md),
+  PRODUCT #9).
 - **Candidate sweep verdicts (2026-07-13 night run, PRODUCT #7 slice) —**
   the four unpacketed candidates ranked by distance-to-READY, all four were
   INTAKE.md-only at sweep time:
@@ -59,9 +61,15 @@
   guide authored from the committed war story + fixtures (honest size:
   ~8 pages, not the estimated ~15) and the vendor-a-fixture script
   authored AND executed;
-  `merge-wall-cookbook` — needs-build (medium-heavy): PLATFORM-LIMITS
-  source committed, but recipes + runnable merge-on-green YAML need
-  authoring and its "CI-verified" claim can't be fully executed in-repo;
+  `merge-wall-cookbook` — was needs-build (medium-heavy) → **DRIVEN
+  PRODUCT #9 same night, now click-queued at $19**
+  ([`publishing/vetting/merge-wall-cookbook.md`](publishing/vetting/merge-wall-cookbook.md)):
+  the sweep's "CI-verified YAML can't be executed in-slice" gap closed
+  honestly — the enabler recipe is adapted from this repo's own LIVE
+  `auto-merge-enabler.yml` with real merge events as production evidence
+  (PR #104/#128 merged_by github-actions[bot]), all 4 recipes
+  parse-executed, and the one never-production-run recipe is labeled so
+  in its header, the FAQ, and guide ch.7;
   `cc-cost-lens` — furthest/idea-only: neither the free HTML tool nor the
   $15 companion exists; intake itself brands it the low-confidence
   distribution experiment (3.10, "realistically ~$0").

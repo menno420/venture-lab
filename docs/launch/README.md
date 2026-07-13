@@ -34,6 +34,11 @@ Zero-owner-click launch material for the sellable candidates. Everything here is
 - [Owner publish click-script (QUEUED 2026-07-13, no freeze applies)](false-green-test-trap/owner-actions.md)
 - [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/false-green-test-trap.md)
 
+## The Agent Merge-Wall Cookbook — $19
+- [Listing copy](merge-wall-cookbook/listing-copy.md)
+- [Owner publish click-script (QUEUED 2026-07-13, no freeze applies)](merge-wall-cookbook/owner-actions.md)
+- [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/merge-wall-cookbook.md)
+
 ## Stripe Webhook Test Kit — $29
 - [**OWNER LAUNCH HOUR** — atomic ~1h runbook (⚑A + ⚑E + first-sale verification)](OWNER-LAUNCH-HOUR.md)
 - [One-pager](stripe-webhook-test-kit/one-pager.md)
