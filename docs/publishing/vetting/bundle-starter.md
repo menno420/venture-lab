@@ -68,6 +68,14 @@ d65d4c9ef4b23f3ef7fed7277ef6d73f659891d83773eac9d27e86e35463a2b3  candidates/tem
       manufactured discount anchor. The bundle price is FIXED even though
       the pack alone is PWYW — inheriting PWYW would let the bundle undercut
       the $49 kit alone, which is incoherent pricing.
+- [x] **$59 one-time fixed RATIFIED — ORDER 010 / V040 (sim-lab
+      `afe18f3`):** the committed $59 is the only anchor under which the
+      committed listing copy stays true. **$64 is PARKED-WITH-BAR** behind
+      one named retention measurement — ≥ 50589/54944 ≈ 0.9207. **Never
+      price at $68**: at $68 the buyer discount vs bought-separately is
+      $0, which voids the bundle rationale. The bundle click stays
+      hard-gated on the ⚑B/⚑D component publish clicks — no publish click
+      unlocked by the ruling.
 - [x] Conservative expectation (Q-0259.4): 0–2 sales/month absent
       distribution, same as the components — the bundle adds a **price
       point**, not a new audience or channel. Honest null: no evidence
@@ -124,7 +132,9 @@ derives zero D-items from this packet by construction. HOW detail:
    Pack" → select the two live products as contents.
 3. **Copy:** paste Title / Short + Long description / Bullets / FAQ from
    [`listing-copy.md`](../../launch/bundle-starter/listing-copy.md).
-4. **Price:** **$59 one-time, fixed** (not PWYW — §3).
+4. **Price:** **$59 one-time, fixed** (not PWYW — §3). Ratified — ORDER
+   010 / V040 (sim-lab `afe18f3`); $64 parked behind the §3 retention
+   bar; never $68.
 5. **Publish + verify:** publish, copy the public bundle URL, storefront
    preview/test purchase confirming BOTH zips deliver (spot-check against
    the §1 sha256 pins).
@@ -142,8 +152,9 @@ derives zero D-items from this packet by construction. HOW detail:
       product → Bundle, both components selected).
 - [ ] ⚑ **Owner:** listing copy pasted from the refreshed bundle
       listing-copy.
-- [ ] ⚑ **Owner:** price set ($59 one-time fixed; $68-separate comparison
-      cited in the copy).
+- [ ] ⚑ **Owner:** price set ($59 one-time fixed — ratified, ORDER 010 /
+      V040, sim-lab `afe18f3`; $68-separate comparison cited in the copy,
+      never the sale price; $64 parked behind the §3 retention bar).
 - [ ] ⚑ **Owner:** the publish click + preview/test purchase delivering
       BOTH zips (sha256 spot-check against the §1 pins) + public bundle URL
       copied.

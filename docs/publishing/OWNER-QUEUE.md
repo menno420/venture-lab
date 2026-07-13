@@ -67,7 +67,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 
 ### D9 — Photo Packs (Dutch Skies + Golden Hours) — Price
 
-- **WHAT:** ⚑ Price: $5 fixed per pack (default — §3 evidence; floor $3; PWYW is an open SIM-REQUEST, not tonight's default).
+- **WHAT:** ⚑ Price: $5 fixed per pack (default — §3 evidence; floor $3; ratified by ORDER 010 / V039, sim-lab afe18f3: PWYW ruled out, the $3 golden-hours anchor ruled out unmeasured; optional two-pack bundle at $9.99 inside the ruled [$9.09, $10] band).
 - **WHERE:** `docs/publishing/vetting/photo-packs.md` @ §7, OWNER-ACTION step 5
 - **DEFAULT:** **$5 fixed per pack**
 - **UNBLOCKS:** the entire remaining “Photo Packs (Dutch Skies + Golden Hours)” click-run — hard gate, nothing below it proceeds
@@ -206,7 +206,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** storefront pick (Gumroad (default)) — or Lemon Squeezy. · **DEFAULT:** **Gumroad** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** zip uploaded + sha256 spot-check against §1. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** listing copy pasted. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set ($19 one-time (default per intake + precedent chain)). · **DEFAULT:** **$19 one-time** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($19 one-time (default per intake + precedent chain; ratified — ORDER 010 / V041, sim-lab afe18f3)). · **DEFAULT:** **$19 one-time** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
 ### The False-Green Test Trap — `docs/publishing/vetting/false-green-test-trap.md` @ §7 checklist
@@ -320,7 +320,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** title picked (The Widow's Blue recommended); KDP title-availability recheck at upload. · **DEFAULT:** **The Widow's Blue recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($4.99 recommended; ratified per ORDER 010 / V037, sim-lab afe18f3 — serial pricing parked, §4). · **DEFAULT:** **$4.99 recommended; ratified per ORDER 010 / V037, sim-lab afe18f3 — serial pricing parked, §4** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist
@@ -349,7 +349,8 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** storefront pick (Gumroad (default)) — or Ko-fi. · **DEFAULT:** **Gumroad** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** zips uploaded + sha256 spot-check against the seat build record in §1. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** listing copy pasted for both packs. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set ($5 fixed per pack (default); floor $3). · **DEFAULT:** **$5 fixed per pack** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($5 fixed per pack (default); floor $3; ratified — ORDER 010 / V039, sim-lab afe18f3: no PWYW, no unmeasured $3 golden-hours anchor). · **DEFAULT:** **$5 fixed per pack** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** optional two-pack bundle created ($9.99 (recommended default); ruled band $9.09–$10 — ORDER 010 / V039, sim-lab afe18f3). · **DEFAULT:** **$9.99** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URLs copied. · **UNBLOCKS:** the next click in this sequence
 
 ### Ship-It Bundle (Membership Kit + Template Pack) — `docs/publishing/vetting/bundle-starter.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
@@ -358,7 +359,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** execute the ⚑D template-packs ($19 PWYW) publish click — blocking: ⚑D template-packs publish click must be executed first (same live-referent rule; click queued PR #108, packet template-packs.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** create the Gumroad bundle of the two live products (New product → Bundle, both components selected). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** listing copy pasted from the refreshed bundle listing-copy. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set ($59 one-time fixed; $68-separate comparison cited in the copy). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($59 one-time fixed — ratified, ORDER 010 / V040, sim-lab afe18f3; $68-separate comparison cited in the copy, never the sale price; $64 parked behind the §3 retention bar). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase delivering BOTH zips (sha256 spot-check against the §1 pins) + public bundle URL copied. · **UNBLOCKS:** the next click in this sequence
 
 ### The Painted Stones — `docs/publishing/vetting/the-painted-stones.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)

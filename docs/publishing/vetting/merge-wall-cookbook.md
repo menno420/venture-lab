@@ -108,6 +108,12 @@ scored 3.55).
       sales / $0–$57 first-90-day, $0 absent distribution (the intake's
       own line; validation signal ≥1 sale OR ≥30 reads in 30 days, else
       ledgered negative).
+- [x] **$19 one-time fixed RATIFIED — ORDER 010 / V041 (sim-lab
+      `afe18f3`):** the committed $19 stands (the only arm with zero
+      unmeasured parameters); do NOT switch the cookbook to PWYW
+      unmeasured — the ⚑D template-packs PWYW listing
+      ([template-packs.md](template-packs.md)) is the catalog's designated
+      PWYW instrument. No publish click unlocked by the ruling.
 
 ## 4–5. Packaging
 
@@ -152,7 +158,8 @@ the HOW detail lives there; no freeze applies (no payment-path gate).
 4. **Copy:** paste Title / Short + Long description / Bullets / FAQ from
    [`listing-copy.md`](../../launch/merge-wall-cookbook/listing-copy.md).
 5. **Price:** set **$19 one-time** (fixed — set at intake; template-packs
-   $19 rung).
+   $19 rung). Ratified — ORDER 010 / V041 (sim-lab `afe18f3`); no PWYW
+   switch unmeasured.
 6. **Publish + record:** publish, copy the public product URL, storefront
    preview/test purchase to confirm the zip delivers.
 
@@ -160,7 +167,8 @@ the HOW detail lives there; no freeze applies (no payment-path gate).
 - [ ] ⚑ **Owner:** storefront pick (**Gumroad** (default)) — or Lemon Squeezy.
 - [ ] ⚑ **Owner:** zip uploaded + sha256 spot-check against §1.
 - [ ] ⚑ **Owner:** listing copy pasted.
-- [ ] ⚑ **Owner:** price set (**$19 one-time** (default per intake + precedent chain)).
+- [ ] ⚑ **Owner:** price set (**$19 one-time** (default per intake + precedent
+      chain; ratified — ORDER 010 / V041, sim-lab `afe18f3`)).
 - [ ] ⚑ **Owner:** the publish click + preview/test purchase + public URL copied.
 - [ ] Seat (post-click, no money moved): record the launch durably on `main` —
       verified listing URL, price, timestamp — in the style of
