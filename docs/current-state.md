@@ -36,7 +36,7 @@
   kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
   ledger ⚑E NEGATIVE + pause/delist). Durable record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-- **Product catalog — 1 live + 4 click-queued + 2 hard-gated (2026-07-13
+- **Product catalog — 1 live + 5 click-queued + 2 hard-gated (2026-07-13
   night run, ORDER 008).** Live: SWTK $29 (above). Click-queued at the
   quality floor (built + priced + listing drafted + verified + sha
   recorded), publish clicks owner-gated in the derived
@@ -45,15 +45,20 @@
   (PR #106), Agent-Workflow Template Pack $19 PWYW (PR #108), Agent Fleet
   Field Manual $39 (PR #110), Kill-Rule Intake Kit $15
   ([`publishing/vetting/kill-rule-intake-kit.md`](publishing/vetting/kill-rule-intake-kit.md),
-  PRODUCT #7 candidate sweep).
+  PRODUCT #7 candidate sweep), The False-Green Test Trap $15
+  ([`publishing/vetting/false-green-test-trap.md`](publishing/vetting/false-green-test-trap.md),
+  PRODUCT #8).
 - **Candidate sweep verdicts (2026-07-13 night run, PRODUCT #7 slice) —**
   the four unpacketed candidates ranked by distance-to-READY, all four were
   INTAKE.md-only at sweep time:
   `kill-rule-intake-kit` — needs-build (light), source content committed
   (rubric/intakes/ch.8) → **DRIVEN this slice, now click-queued at $15**;
-  `false-green-test-trap` — needs-build (medium): war story + fixtures
-  committed, but the ~15-page guide + runnable vendor-a-fixture script
-  must be authored and executed;
+  `false-green-test-trap` — was needs-build (medium) → **DRIVEN
+  PRODUCT #8 same night, now click-queued at $15**
+  ([`publishing/vetting/false-green-test-trap.md`](publishing/vetting/false-green-test-trap.md)):
+  guide authored from the committed war story + fixtures (honest size:
+  ~8 pages, not the estimated ~15) and the vendor-a-fixture script
+  authored AND executed;
   `merge-wall-cookbook` — needs-build (medium-heavy): PLATFORM-LIMITS
   source committed, but recipes + runnable merge-on-green YAML need
   authoring and its "CI-verified" claim can't be fully executed in-repo;
