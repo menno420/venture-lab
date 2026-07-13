@@ -49,6 +49,19 @@ CHECKBOX_RE = re.compile(r"^- \[[ xX]\]\s+(.*)$")
 # and an unchecked box with DONE text still queues (the click isn't done).
 CHECKED_RE = re.compile(r"^- \[[xX]\]\s+(.*)$")
 DONE_RE = re.compile(r"[—–-]\s*DONE\s+(\d{4}-\d{2}-\d{2})")
+# KILL-CHECK line (optional, packet-level, inside §7): carries one or more
+# "⏲ <ISO date> <label>" checkpoint tokens for an already-LIVE product's
+# kill clock, e.g.:
+#   KILL-CHECK: ⏲ 2026-07-19 T+7 funnel checkpoint · ⏲ 2026-07-26 T+14 deadline
+# Packet-level (not per-DONE-row) because the kill clock is a product-level
+# fact — one clock per launch, never one per click. Rendered earliest-first
+# in the "Live / completed" section as a next-checkpoint indication; packets
+# without the line regenerate byte-identically to before. A token whose date
+# is not ISO-shaped is SKIPPED with a manual-review note (tolerant-parser
+# contract: never a hard error, the run still exits 0).
+TIMER = "\N{TIMER CLOCK}"  # ⏲ — the checkpoint marker
+KILLCHECK_RE = re.compile(r"^KILL-CHECK:\s*(.*)$")
+CHECKPOINT_DATE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\b\s*(.*)$")
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 # Conflict sections in the keyword map: "### C1 — ..."
 CONFLICT_RE = re.compile(r"^###\s*(C\d+)\s*[—-]\s*(.+?)\s*$")
@@ -71,6 +84,9 @@ class ClickGroup:
     blocked: bool
     clicks: list[dict] = field(default_factory=list)
     done: list[dict] = field(default_factory=list)  # {"what", "date"} rows
+    # {"date", "label"} rows from a §7 KILL-CHECK line, sorted earliest-first;
+    # rendered ONLY in the Live section (a kill clock only ticks once live).
+    checkpoints: list[dict] = field(default_factory=list)
 
 
 @dataclass
@@ -204,6 +220,35 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         for b in boxes
         if b.lstrip().startswith(FLAG) and "**Owner:**" in b and b not in done_set
     ]
+    # KILL-CHECK lines: optional packet-level kill-clock checkpoints.
+    # collect_items folds indented continuations, so a wrapped line parses
+    # whole; a ⏲ token whose date is malformed is skipped with a
+    # manual-review note (never a hard error), valid siblings still render.
+    checkpoints: list[dict] = []
+    for payload in collect_items(body, KILLCHECK_RE):
+        chunks = payload.split(TIMER)
+        if len(chunks) == 1:
+            result.manual.append(
+                (name, f"KILL-CHECK line carries no {TIMER} <ISO date> token")
+            )
+            continue
+        for chunk in chunks[1:]:
+            chunk = strip_markup(chunk.replace("\ufe0f", "")).strip(" ·")
+            match = CHECKPOINT_DATE_RE.match(chunk)
+            if not match:
+                result.manual.append(
+                    (
+                        name,
+                        f"KILL-CHECK {TIMER} token skipped — no leading ISO date "
+                        f"(YYYY-MM-DD): “{chunk[:60]}”",
+                    )
+                )
+                continue
+            checkpoints.append(
+                {"date": match.group(1), "label": match.group(2).strip(" ·—–-")}
+            )
+    checkpoints.sort(key=lambda c: (c["date"], c["label"]))
+
     if not steps and not owner_boxes and not done_rows:
         result.manual.append(
             (name, "§7 present but no OWNER-ACTION steps and no ⚑ Owner checkboxes parsed")
@@ -249,6 +294,7 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         title=title,
         where=f"`{DEFAULT_VETTING_DIR}/{name}` @ §7 checklist",
         blocked=blocked,
+        checkpoints=checkpoints,
     )
     for box in owner_boxes:
         text = box.lstrip()
@@ -444,6 +490,12 @@ def render(result: ParseResult, vetting_dir: str) -> str:
             out.append("")
             for row in group.done:
                 out.append(f"- [x] {row['what']} · **DONE:** {row['date']}")
+            # Kill-clock checkpoints (KILL-CHECK line): earliest-first, the
+            # first one is THE next look this live product needs.
+            for i, cp in enumerate(group.checkpoints):
+                head = "**Next checkpoint:**" if i == 0 else "then:"
+                label = f" — {cp['label']}" if cp["label"] else ""
+                out.append(f"- {TIMER} {head} {cp['date']}{label}")
             out.append("")
     return "\n".join(out)
 
@@ -487,6 +539,14 @@ def run(vetting_dir: str, keyword_map: str, output: str) -> int:
             f"owner-queue: live/completed {done_rows} DONE rows across "
             f"{len(result.live)} products (read-only; excluded from pending totals)"
         )
+        for group in sorted(result.live, key=lambda g: g.title.lower()):
+            if group.checkpoints:
+                nxt = group.checkpoints[0]
+                label = f" — {nxt['label']}" if nxt["label"] else ""
+                print(
+                    f"owner-queue:   {TIMER} [{group.title}] next checkpoint "
+                    f"{nxt['date']}{label} ({len(group.checkpoints)} armed)"
+                )
     for d_index, decision in enumerate(result.decisions, start=1):
         print(f"owner-queue:   D{d_index} [{decision.source}] default {strip_markup(decision.default)}")
     if result.manual:
