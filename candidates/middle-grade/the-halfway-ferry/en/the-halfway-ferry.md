@@ -433,3 +433,117 @@ The bell rang once more, uninvited. Along the rail every lamp bent flat as combe
 "There it is," said Captain Marl, quietly, from the wheel, cap in hand again. "Sixty years the old sorter's held him, and it means to settle him tonight, one way or the other way. Deckhand —" and the captain's no-particular-color eyes came down the deck to Wren, steady as a handed rope "— you found him. You count him. What does he have?"
 
 Wren stood by the open empty fare box with her notebook against her chest, and looked at Tam Rush, deck-boy of the *Harebell,* who owned a canvas jacket, a rung bell, a pride in a straight count, and sixty gray years of being just about to catch them — and the fog waited, and the seam of bright water under the door of the world stood a hand's width open, and did not widen, and did not close.
+
+# Chapter Nine — Stock-Taking
+
+Wren Tolliver had grown up over a shop, and there is a thing that shops know that nowhere else quite knows, and it is this: *everybody has stock. The trick is the counting of it.*
+
+She crossed the deck and sat down on the aft bench beside the boy the whole night was leaning on, and she opened the notebook to a fresh page, and she dated it, because the date was the first thing she could do for him and she meant to do him every single thing she could.
+
+"Tam Rush," she said. "We're going to take inventory."
+
+"I haven't anything," said Tam. He said it simply, without self-pity, a deck-boy reporting an empty hold. "That's the whole trouble, isn't it. I heard what the fares were, this morning. Excuses and secrets and dreams and luck. I've been standing on a jetty since before your mother was born, Wren Tolliver. Everything I had's been sixty years somewhere else. My kit sailed with the boat. My — " the smallest hitch, the first one " — my folk sailed with the boat. I've a jacket and a cold and half a bell-rope's worth of blister, and you can't pay a fog with a blister."
+
+"That," said Wren, "is what everyone says at the start of stocktaking. My mother says the first count of any shop is always *nothing, we're ruined,* and the second count is the truth. We're doing the second count. Sit up. Answer plainly."
+
+Behind her, unseen, Captain Marl leaned in the wheelhouse door and did not interrupt, and Tar sat on the fare box with his tail wrapped, watching the smallest shop in the world open its books; and the great iron wall of the Fogline waited, which was the one thing it knew best how to do.
+
+"Item," said Wren. "One canvas jacket, deck-boy's, sixty years old, still fits. That means something here. Things that stay true have weight — I watched an umbrella get heavier for forty years. Item: one rung bell. You rang the last bell ever rung on the Little Slake side, a full proper minute of it, alone, with your boat leaving. Nobody else in the history of the town has that. Item: one count. Forty souls counted aboard the *Harebell,* twice, counts agreeing, by a boy the captain trusted with the whole town's leaving." Her pen was flying now. "Item —"
+
+"Those aren't things I *have,*" said Tam. "Those are things I *did.*"
+
+"Same shelf," said Wren, and heard, behind her, the captain make a small sound like a swallowed word. "And item," she said, and here she slowed down, because the pen had gotten ahead of her and written it already, and she had to catch up to her own hand, and when she did her voice came out quiet: "Item. One waiting. Sixty years long. Never once set down."
+
+The lamps stood straight up.
+
+"You said it yourself," said Wren. "*They'd never sail without me. They'll have laid to just inside the Line. I'm just about to catch them.* You've held that, without putting it down, without once letting go of the handle, for sixty years, Tam. In the cold. In the gray. All by yourself on a condemned jetty. It's the biggest thing anybody's carried up this gangplank all day — it's bigger than the excuse and the secret and the dream and the hour of luck *put together* — and it's true, and it's yours, and I think —" she looked up from the page, and found she was fierce, and let herself be — "I think it's exactly the kind of thing the fog trades in. I think your fare is the waiting."
+
+Tam Rush went very still, the particular stillness of a boy on a jetty between one turn of his head and the next.
+
+"If I pay that," he said, at last, and his voice had gone down to the small cold place it kept for *sometimes.* "If I put it in the box. Then it's — done, isn't it. Paid means spent. It'd mean the *Harebell* sailed. Sixty years ago. Without me. It'd mean they didn't lay to inside the Line and wait, it'd mean nobody's — " and the fog all around the boat was utterly still, and every lamp was leaning, and Miss Vane's hand was pressed flat to her collarbone as if holding a sentence in " — it'd mean I *missed it,*" said Tam Rush, and there it was, out on the deck at last, sixty years old and dressed as a boy: the thing under the waiting. "I'd rather be cold," he said, barely, "than late."
+
+Wren looked down at her notebook, at *count kind* written in her own hand in the middle of the river with the fog listening.
+
+"Tam," she said. "When you count a boatload twice, and the counts agree — what does Captain Weck say the second count is for? You told me this morning. A count you won't say twice —"
+
+" — is a count you don't believe once," whispered Tam.
+
+"You believed the first count all this time," said Wren. "*They'd never sail without me.* You've said it sixty years. But you never said the second count, the checking one, out loud, with the fog listening. And the second count isn't the enemy of the first, Tam, it's the *making sure of it.* So make sure. Say the true count of that morning, all of it, yourself included, and see what the fog does with a squared account." She held out the notebook and the pen. "You're crew," she said. "Crew aren't passengers. You don't pay at the box like a passenger. Crew sign the log."
+
+From the wheelhouse door, Captain Marl spoke, and the captain's voice had the fold shaken out of it now, warm as the galley stove: "She has it right, deck-boy. Sixty years I've carried a blank line in my log and never known whose it was. Come sign your name where it's been waiting."
+
+# Chapter Ten — All Counted
+
+They did it properly, because Tam Rush had been raised aboard a working ferry and would not have survived doing it any other way.
+
+The log came out of the wheelhouse: a ledger with a green spine, older than the notice on the jetty, older than the chapel clock, its pages ruled for names. Captain Marl opened it flat on the fare box, and there — Wren saw it and her arms went to gooseflesh — halfway down a page dated sixty autumns back, between *Weck, Capt., the Harebell, 40 souls, last crossing* and the next day's business, ran one ruled line, empty, that every entry since had stepped around. Sixty years of ink, and not one word had ever sat on that line, the way nobody sits in a chair that everyone somehow knows is saved.
+
+"Stand at the rail, all," said Captain Marl. "This is a counting. First and second, gangway and fog, and the deck-boy of the *Harebell* has the call."
+
+Tam Rush stood at the fare box with the pen in his cold gray fingers, facing the iron wall, and called the roll of a morning sixty years gone. He called it from memory, and his memory of it was the freshest thing aboard, because he had been standing inside that morning all this time: forty names, the *Harebell*'s last manifest, and he gave each one its trade and its street the way a bell gives the hour — *Hollet the wheelwright and his four. The Misses Prynne, both, with the linnet in the cage. Weck, Captain, at the wheel. Rush, Margaret, ship's cook —* and here his voice went carefully, wonderfully steady, in the way of a boy being brave in front of his mother's name — *my mam. Forty aboard. That was the first count, and I made it at the gangway, and it was true.*
+
+"Say the second," said Captain Marl, quiet.
+
+"Second count," said Tam Rush, to the Fogline, out loud, with the fog listening. "Made this night, from the deck of the ferry with no name, by Tam Rush, deck-boy, who rang the bell." He took one breath, sixty years deep. "Forty aboard the *Harebell* — and one on the jetty. Forty-one souls, all told, at the last crossing of Little Slake. The counts don't agree." His voice cracked exactly once, on the next thing, and he said it anyway, and Wren decided in that moment that she would know this boy her whole life: "*The boat sailed. I missed it. I was ringing the bell, and it was worth ringing, and I missed my boat.* That's the true count. All told. All —"
+
+He stopped. Wren put her hand flat on the log beside his, the way you steady a page in wind.
+
+"— all counted," said Tam Rush, and signed the empty line.
+
+What happened then, Wren wrote three separate times in the notebook and crossed out twice, and the version she let stand was this:
+
+*The waiting went over the rail.*
+
+It rose off him like fog off a field when the sun finally attends to it — sixty years of it, gray and cold and faithfully carried, more of it than the boy it came off of, and for one moment it hung above the deck in the shape of everything it had been: a jetty, a bell-note, a boy turning round; and the Fogline leaned out and took it — not the way dry ground takes rain, this time, but the way a very old shopkeeper takes the last payment of a long account: carefully, both hands, with respect.
+
+And under the iron wall, the seam of bright water swung wide as a shop door on market day.
+
+Color came up the deck like a tide. Tam Rush stood at the fare box in a canvas jacket that was brown — plain, worn, honest brown — and his hands on the ledger were a boy's hands in November, chapped and pink and cold-nipped and altogether the colors of the living, and he looked down at them, and up at Wren, and laughed the way the twins had laughed at the gangway: helplessly, at the enormous safety of a thing finally told.
+
+"All counted," said the fog — in the water, in the lamp-flames, in the small bones of everyone's ears, and there was nothing in the sound of it of iron at all now; there was something in it, Wren would have sworn, of a bell. "*All counted. The account squares. The Line is open.*"
+
+"Wren Tolliver," said Captain Marl, at the wheel, in the drawer-voice, but the drawer had sixpence and supper in it now, "log your count."
+
+"Eight aboard!" called Wren, and her voice went out over the bright water like a wagtail. "Seven passengers, paid — and one crew, *signed!*"
+
+"Eight," said Tar, from the fare box, and put one black paw, briefly, on Tam Rush's sleeve, which from Tar was a knighthood.
+
+"Counts agree," said Captain Marl. "Hold on to your hats, all. Sixty years late is still tonight on this river."
+
+And the ferry with no name went through the door in the wall of the world with its lamps all burning upright, and every soul aboard felt the crossing the way you feel the first stair down in the dark — that lovely dreadful step onto something that is exactly, after all, where it should be —
+
+and the fog on the far side wasn't gray at all.
+
+# Chapter Eleven — Everywhere Else
+
+The far side of the Fogline was lit like the inside of a pearl, and the river braided.
+
+That was the only word Wren's notebook would accept for it: the one broad water divided ahead of them into channel after channel after channel, each between its own soft walls of shining, each with its own light down at the end the way a hallway has its own door, and there were more channels than she could count — she tried; Tar watched her try with open approval — and the ferry threaded them at a walking pace while Captain Marl called the stops.
+
+There was no calling them ahead of time. That was the thing to understand, the captain said, and Wren never afterward could make anyone at home understand it: the far bank *isn't anywhere in particular.* It is somewhere very particular indeed, one passenger at a time.
+
+"First stop!" called Captain Marl, and the ferry slid down a channel that smelled suddenly and exactly of wet slate roofs, and came alongside a small stone landing under a lit window, where a very old man stood leaning on a stick with his housekeeper holding an anxious lamp, and Mr. Ollery rose from his bench with the umbrella rolled and his heart in his good coat, and went down the gangplank forty years and no seconds late.
+
+They did not hear the excuse he didn't give. They heard, as the ferry backed away, the two old men begin to laugh, and the laugh followed them out of the channel like the smell of the bread.
+
+Miss Vane's landing was a school gate — not the shrieking kind — in the blue of an evening somewhere with hills, where a stout gray-haired woman was locking up a schoolhouse of her own, and turned at the sound of the engine, and put her hand over her mouth; and Miss Vane went down the plank with her attendance slips squared in her glove, upright as a Monday, ten years younger than too late.
+
+The twins' channel smelled of toffee from a quarter mile out, which everyone aboard agreed was the fog showing off. Their grandmother's cottage stood on a green bank with the door already open, and their grandmother came down to the landing at a pace unbecoming a grandmother, and the last that ferry heard of Iva and Pearl Tanner was the pair of them, mid-hug, beginning — helplessly, both at once — to tell her the secret ingredient, which they now safely and forever did not know.
+
+Mr. Dunnock was set down at an orchard landing where a young man in black stood alone by three empty hives, in the particular stillness of somebody starting over; the humming box went ashore awake. Mrs. Grebe's landing was a chapel porch full of christening guests who all turned at once, and her basket, Wren noticed as she helped it over the rail, smelled of nothing at all right up until the moment her feet touched the far stones, when the whole channel went warm with gold.
+
+And Old Nol stood up in the bow at a channel mouth that looked, of all of them, the most ordinary: a river lock, upcountry somewhere, lamplit, with the gates standing patiently open and a lock-keeper's cottage above it and washing on the line in the evening air. He put his cap on. He looked a long time.
+
+"Sixty years back," he said, to Wren, at the rail, "I stood on the everyday jetty and watched the *Harebell* go, and my best friend on her deck, and I was fourteen and too proud to pay what the crossing asked, and I've wondered every day since what my luck was for." He nodded down the shining channel at the little lock, at the cottage, at a door in the door-light where a figure had come out onto the step, shading her eyes at the sound of an engine sixty years overdue. "Now I know. It was for choosing the hour. Evening, girl. Mind the count."
+
+He went down the plank like a man arriving on time.
+
+Then the benches were empty, all of them, and the braided light stood quiet around the boat, and there was one channel left ahead — the widest one, the oldest-looking one, with a light down at its end that flickered, very slightly, in a rhythm Wren's ears knew before she did.
+
+A bell. Somebody down that channel was ringing a bell.
+
+Tam Rush came forward to the bow with his brown jacket buttoned, and stood beside her, and did not say anything at all, and his chapped living hands held the rail the way you hold the counter of a shop on the morning it finally, finally opens.
+
+"Deckhand," said Captain Marl, easing the wheel over, "call the stop."
+
+"It's not my — " Wren began, and then understood, and her eyes stung, and she called it in her wagtail voice down the whole bright length of the last channel: "*Harebell landing! All ashore that's sixty years going ashore!*"
