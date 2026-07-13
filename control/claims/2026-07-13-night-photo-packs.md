@@ -1,0 +1,1 @@
+- `claude/night-photo-packs` · **scope** — ORDER 008 PRODUCT #5: photo-packs assessment + pricing + listing copy + HARD-GATED §7 packet + OWNER-QUEUE regen + current-state row · candidates/photo-packs/ (read-only) + docs/launch/photo-packs/ + docs/publishing/vetting/photo-packs.md + docs/publishing/OWNER-QUEUE.md + docs/current-state.md + .sessions/ · 2026-07-13
