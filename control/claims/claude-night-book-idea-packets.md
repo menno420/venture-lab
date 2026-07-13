@@ -1,0 +1,1 @@
+- `claude/night-book-idea-packets` · **books: idea packets** — 5+ new vetting packets + keyword reservations · docs/publishing/vetting/**, docs/publishing/keyword-map.md, docs/publishing/OWNER-QUEUE.md · 2026-07-13
