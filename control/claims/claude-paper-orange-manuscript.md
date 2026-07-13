@@ -1,1 +1,0 @@
-- `claude/paper-orange-manuscript` · **books: paper-orange manuscript** — first full novella draft · candidates/adult-novels/the-paper-orange/** · 2026-07-13
