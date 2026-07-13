@@ -4,7 +4,7 @@
 
 *Young adult — boarding-school mystery*
 
-A complete short novel (~17,000 words).
+A complete short novel (~15,000 words).
 
 ---
 
