@@ -1,1 +1,0 @@
-- `claude/en-continuity-patches` · **scope** — EN continuity patches flagged by the NL passes (Weigh House flat→houseboat; Ultramarine sill retrieval line) + EN→NL propagation + NOTES seams RESOLVED · candidates/adult-novels/{the-weigh-house,ultramarine}/ · 2026-07-13
