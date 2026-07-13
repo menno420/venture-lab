@@ -316,3 +316,134 @@ Hattie Bourne read it. Outside, the church clock counted four and got it right.
 
 ⁂
 
+# Chapter Seven — What the Parcel Held
+
+The formal delivery of the last mail of Walter Finch took place on Monday afternoon, in the back room of the Little Dunnock post office, and was minuted, because Vera had spent her working life in a service that believed nothing had really happened until it was written down by somebody with neat handwriting.
+
+Present: Mr Martin Finch, executor, in a collar and tie that had clearly not expected to be needed again this side of a funeral. The Reverend H. Bourne, witness, with the parish minute-book open at a clean page. Mrs D. Pring, in the doorway, officially minding the counter, unofficially vibrating. And Mrs V. Cusworth, sub-postmistress, who set the parcel down in the middle of the table on a folded tea towel with the care of a woman landing a small aircraft, and signed her book, and said: "Mr Finch. It's yours."
+
+Martin looked at it for a long time. The bees on the stamps. The round old ink. *The Limekilns*, as if no one had ever sold anything, as if the last ten years were a clerical error that could be crossed through and initialled.
+
+"I know the hand," he said at last, very quietly. "You forget voices. You don't forget a hand." And he pulled the standing loop of the knot, the way it had been left there for someone to do, and the string came away live in one pull, and the paper opened along its folds like something glad to be asked.
+
+Inside was a jar, and a letter.
+
+The jar was a pound jar, filled to the shoulder, sealed with a waxed disc and a cotton cap tied with the same waxed string, and it lit the dim back room like a lamp. Marmalade the colour of a fire seen through a church window — deep amber going to garnet, the peel cut thick and even, suspended, every piece the same rounded flare. The label was written in the same round hand: *Seville & Chapel Bells. First. Porthgullow, July.* And beneath, small: *Class 41. You'd have had opinions about the third-place lemon curd.*
+
+Dilys made a noise from the doorway like a kettle taken off just in time.
+
+The letter was one page. Martin read it to himself first, all the way through, his thumb flat along the fold, and then he passed it to the vicar and said, "It should be a better voice than mine," and Hattie Bourne read it aloud into the minute-book quiet.
+
+*Dear Walter.*
+
+*Well. It took me ten years and it should have taken two, but the Sevilles down here are shy, and the bells took some finding away from home. First prize, and an old judge with a face like yours said "who taught you the cut?" and I said a beekeeper, and he said "thought so."*
+
+*So here is your jar, first of the winnings, as promised at your own tent flap in front of witnesses. I know where you are. I've always known where you are; Dilys used to say you could hear the Dunnock bells from the Limekilns garden when the wind lay right, so I have sent it where the bells are, and a promise doesn't mind about headstones.*
+
+*Your book is safe with me. It has been safe with me every day for ten years — recipes to the front, like you always said, and never you mind the back pages. I'm sorry I took it the way I did, at that hour, like a thief, but you had promised it to me since I was fifteen, and I knew if I asked anyone's leave I'd never get out of the village with it, and I couldn't stay, Walter. Not with the way they'd started looking at me by the Tuesday. Grief I could have carried. Being wondered about was heavier.*
+
+*I never touched your bee-money in the Lyle's tin, and I've minded about it all these years — you'd said such daft things about what it was for. Tell me it went somewhere good.*
+
+*The bells are rung. Eat it at one sitting, mind.*
+
+*Ruth Pascoe*
+*(you'd say: the Tanner girl)*
+
+The church clock went through a quarter-hour nobody counted.
+
+Martin Finch sat with his elbows on the table and his face in his hands, and when he finally spoke it was to the tea towel. "There was two thousand eight hundred pounds in the Lyle's tin," he said. "Golden syrup tin, back of the pantry, behind the preserving pan. I found it in the September, clearing the house." He looked up, and ten years came up with him. "What was I to think? Money gone from the show, money found in his pantry. I thought — God forgive me, I thought I was holding the proof. I couldn't hand it in without hanging his name for good, and I couldn't keep it. So I gave it away where the missing money was to have gone. The roof. A few hundred at a time, four years, no name on it. I thought I was paying his debt." His mouth crumpled, a big grey man at a small table. "I've spent ten years ashamed of him, and it was his *bee-money*. Saved for her. He was saving for her, and I gave it to a roof, and I sold his house angry."
+
+"You gave it," said Hattie Bourne, gently, "exactly where he'd have put it himself, the year the village needed it. There are worse ways to be wrong."
+
+Vera let the room settle, because rooms must. Then she said, "Mr Finch, one more thing, and I ask it as the person responsible for finding out who came through my shop door with a key on Saturday night. The tin proves your uncle wasn't spending stolen money. The letter proves Ruth Tanner wasn't either — she's spent ten years too poor in spirit to open a stamp drawer, hoarding honeybees. Which means the box went somewhere else altogether, and there's a line in that letter that tells us why my drawer was searched and that empty house was ransacked in October 2016 and this parcel has been wanted all week by everyone but its addressee." She turned the letter on the table so the line faced them, and laid her finger under it.
+
+*Never you mind the back pages.*
+
+"Recipes to the front," said the vicar slowly, "and in the back — his accounts. He was counting the gate that night into that book."
+
+"The last count anyone made of that money," said Vera, "has been sitting in Cornwall for ten years, in the one thing Ruth Tanner carried out under her arm. Somebody in this village has been afraid of the back pages since the week Walter died. It's time we read them."
+
+⁂
+
+# Chapter Eight — The Missing Page
+
+Prue Hollis came at closing on Tuesday, when the blind was half down, which is the hour confessions keep. She stood in the middle of the shop with her handbag held in both hands like a rail on a rough crossing, and said, "I'll not sleep another night this week, so you'd better hear it, and Dilys may as well stop polishing that scale, she's been polishing it five minutes."
+
+Vera turned the sign, and put the kettle on the ring in the back doorway, and let the shop become the room it became after hours, lamplit and off the record.
+
+"Three things," said Prue, to her handbag. "In order, and don't interrupt me or I'll lose my place, I've been rehearsing since Sunday." She breathed. "First. The scrapbooks. There's a page gone from the 2017 book and I took it. Week ago Monday, when word first went round about the parcel — I had the ladders cupboard open before the tearoom scones were out of the oven. It was the page with my first win on it. The programme page, and my entry card." Her chin came up with a sort of doomed dignity. "Because of what I'd written on the card. 'Dark Seville, treacle depth, thick bell cut.' In my own hand, the year after he died. Anyone who'd ever tasted his and read that card side by side —" She stopped. Started again, lower. "It's his marmalade, Mrs Cusworth. Near enough. I judged that girl's jar in 2016 and I gave it a second because I couldn't bear where the cup was going, and she left, and he died, and that autumn Ivy Peverill was clearing the show tent boxes and found his notes for the *demonstration* he never gave — the WI talk, written out plain, all but the bells — and she gave them to me, being preserves. And I told myself it was rescue. Heritage. And I've won nine years with a dead man's marmalade and it's tasted of nothing but getting caught."
+
+The kettle began, and Vera let it, because she had learned that from a woman she'd never met.
+
+"Second thing. That parcel was never any danger to you, Mrs Hollis," Vera said. "But you'll want to give the page back, and there's a better way to give the rest of it back than you've thought of yet. We'll come to it. Third thing?"
+
+Prue's knuckles whitened on the bag. "Saturday night. I wasn't sleeping — you'll gather I've not been sleeping — and I walked. Half past one, maybe, out along the green. And I want it understood I was walking *away* from this shop, whatever it looks like, I'd got no further in my mind than looking at it, like a fool, as if the building would tell me what to do." She swallowed. "And there was a man at your door. And I stood in under the chestnut with my heart going like a spin cycle, and I watched him let himself in. With a key, no fumbling, one motion, like a man coming home. No torch. He was inside eight, ten minutes — never a light — and he came out and *locked it behind him*, tidy as you please, and tried the handle after, the way you'd check your own shop. And he went up Vane Lane."
+
+"Could you swear to him?"
+
+"It was dark and I'll not perjure." A long pause, and then, in a voice with ten years folded into it: "But I'll tell you what I'll swear. A big man, bare-headed, walks from the heels, and he tried that handle after locking it. I've watched a man try a door handle exactly that way every market Wednesday for thirty years, across the street from my tearoom, shutting up the hardware."
+
+Dilys set the scale-cloth down at last.
+
+"You'll say it to Constable Draycott?" said Vera. "Not the guess — the guess is mine to carry. The facts. The key, the lock, the lane."
+
+"I'll say it," said Prue Hollis. "I've been the wrong kind of quiet for ten years. It doesn't agree with me."
+
+She took her tea, and the confession sat among the three of them and steamed, and it was Dilys — Dilys, who had not interrupted, an event without recorded precedent — who spoke next, in a small voice with the polish gone off it.
+
+"Since we're at it. I saw Ruth go, that morning. Two days after they found him. Seven o'clock, and me up with the post, of course, and she came out of the Limekilns gate with the book against her chest inside her coat, and she saw me seeing her." Dilys looked at her hands. "And I never said. Not when they started on her, not when it would have mattered — because to say what she carried, I'd have had to say she was in the house, and I could hear how the village would cook it. So I held my tongue for kindness and it curdled into the other thing, and she wrote to me — one postcard, that first Christmas, no address, Truro postmark, *'thank you for not,'* it said, just that — and I couldn't even answer it." She blew her nose with sudden fury on the scale-cloth. "Thirty years I've talked, Mrs Cusworth, wall to wall, and the one time it mattered I chose *silence*. You'd think one of us would have got it right."
+
+"One of us is about to," said Vera. "Both of you, drink up. I have a letter to write, and tomorrow the vicar's walking me through the 2016 minute-book, and by Friday" — she looked at the lamplit shop, the drawer, the scales, all of it suddenly an instrument — "this post office is going to do the thing it's actually for. It's going to deliver."
+
+The minute-book, Wednesday, in the vestry, said what she had known it would say, in fountain pen, in the tidy hand of a secretary long moved to Devon. *Extraordinary meeting, Tuesday 16 August 2016. The Chairman reported the loss of the Show cash box, contents uncounted, believed approx. £3,000. The Treasurer confirmed the box had not reached him, the late Mr Finch having retained it to complete the count. Resolved: that in view of the recent bereavement no police report be made and the matter be handled within the village (prop. Chair, sec. Cllr Aldous, carried with regret). Resolved: that the Show and roof funds bear the loss jointly.*
+
+"Contents uncounted," said Hattie Bourne, reading over her shoulder. "Believed approximately."
+
+"Approximately," Vera agreed. She had brought the index card from the exhibit drawer, and she laid it on the vestry table beside the minute-book, her own handwriting under the secretary's: *three thousand, one hundred and forty-seven pounds.* "That's the burr. That's what's been catching me since Friday. The whole village has said 'about three thousand' for ten years, in every telling — because the count died with the counter. There is no finished figure. There has never been a finished figure." She touched the card. "Except one man has one. To the pound. And he said it to me across my own counter, angry, the one time his temper got ahead of his tidiness."
+
+"It could be —" the vicar began, fairly, and stopped, and did the arithmetic of it, and sat down slowly in the choir stalls. "No. There's no innocent road to that number. The only place that figure has ever existed is wherever Walter wrote it down, and the hands he said it to."
+
+"'G.P. has one,'" said Vera. "Let's go and see what R.P. has."
+
+⁂
+
+# Chapter Nine — A Letter to Cornwall
+
+The letter took Vera three drafts, which for a woman who had once redirected 130 items an hour was a scandal, but there was no form for this one.
+
+The craft part was nothing; the craft part she could have done asleep. *Mrs Ruth Pascoe, winner, Class 41 (Preserves), care of the Honorary Secretary, Porthgullow & District Summer Show, Cornwall* — a show secretary would no more fail to forward a letter to a class winner than a vicar would lose a christening. It would find her in three days, four if the secretary kept hens. The hard part was the freight. What did you say, to a woman ten years gone, on behalf of a village that had never once said anything?
+
+In the end she kept it to one page, because Ruth Pascoe was a one-page woman.
+
+*Dear Mrs Pascoe — I am the postmistress at Little Dunnock, where your parcel arrived safe last Tuesday, was delivered Monday to Walter Finch's executor, his nephew Martin, and was opened with witnesses and read with more respect than I have seen a piece of mail read in thirty-one years of the trade, most of them spent in the Returned Letter Centre in Belfast, so I have seen mail read.*
+
+*The marmalade is magnificent. Mrs Pring says the colour alone would have taken a first here, "and she should know," she says to add, "she was silent once and is sorry for it, and you'll know which silence." The bee-money went to the church roof, every pound, by a road too honest and too sad to put in a letter; Martin will tell you himself, and asks that you let him.*
+
+*Now the postmistress's business. You wrote: never you mind the back pages. Mrs Pascoe, I must mind them. In the back pages of the book you carried is the finish of the count your Walter made on the night of the 2016 show — and on that count hangs the good name he was never given back, and yours, which this village owes you with ten years' interest. I am asking you to read me those pages, or bring them. There was never anything wrong in that book, or in your carrying of it. The wrong was all in a village that preferred wondering to asking, and the wondering stops now.*
+
+*The show is Saturday week. The tent could stand a jar of Seville & Chapel Bells entered under its own flag, if its maker were minded to come home and fly it.*
+
+She posted it Thursday with the honeybee stamp she had been keeping on the till since the parcel came — one of Ruth's own strip had ridden in spare under the string, the way counter-trained people always allowed for the surcharge that never came — and if that wasn't due process, it was due something.
+
+Then it was ten days of shop. Pensions and postal orders; the footpath letter, returned, refused, redirected; the show schedules going out and the entry cards coming in. Vera weighed and franked and said nothing whatever, while around her the village hummed at a new pitch, because Prue Hollis had given a statement to PC Draycott — facts only, key and lock and lane — and Gerald Pocock chaired the final show meeting with his usual sunlit competence and something new and effortful in it, like a man carrying a full glass across an uneven floor.
+
+One evening in the middle of it she sat at her kitchen table long after the egg was done, with a blank card in front of her and the pen in her hand, and wrote *Dear Ted* and stopped, the way she had stopped once a month for a year and a half. On the other side of the table, on his side, the tea towel still lay folded where the parcel had lived for a week. *You'd have liked this one,* she wrote at last. *A woman posted her whole heart to a dead man and it got there. It got there, Ted.* And then, because she was sixty-one and honest: *Mine to follow, by the slow post. The village suits me. The cat has your chair and I have let him keep it.* She did not sign it — you don't, on the unsendables — and she put it in the kitchen drawer with the others, delivered.
+
+Ruth Pascoe telephoned the shop on the second Thursday, at closing, from a call box, because of course a call box; the woman was a museum of the old service and Vera loved her sight unseen.
+
+"You're the one from Belfast." The voice was Cornwall on top and Little Dunnock all underneath, like a repainted sign. "Your letter found me Tuesday. I've been two days deciding whether to be angry."
+
+"And?"
+
+"I've decided to be angry at the right people, for the first time in ten years. It makes a change, I'll say that." A breath, down the wire, with a decade in it. "I've the book in front of me. You want the back."
+
+"I want the last written page."
+
+Paper, turning. The pips threatened; coins fell; the line steadied. And then Ruth Pascoe read, slowly, in the voice people use for handwriting they can hear: "'Show day. Gate and stalls counted twice, all agreed: three thousand, one hundred and forty-seven pounds exact. G.P. collected box 9.40 p.m. — receipt Monday.'" A pause. "And under it there's the start of Monday's page ruled up ready, with 'receipt' wrote at the top, waiting. It never got its tick, Mrs Cusworth. It's been waiting for its tick since I was twenty-three, and I never once read it, because it was the back pages, and the back pages were his."
+
+The shop was very quiet. Frank watched from the safe shelf. Through the window the green lay gold in the last sun: the chestnut, the war memorial, the hardware shop with its blinds down, all of it looking exactly like a village where nothing had ever happened.
+
+"Mrs Pascoe," said Vera. "How would you like to come home and finish your Walter's count?"
+
+⁂
+
