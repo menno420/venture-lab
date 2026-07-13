@@ -36,7 +36,7 @@
   kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
   ledger ⚑E NEGATIVE + pause/delist). Durable record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-- **Product catalog — 1 live + 3 click-queued + 1 hard-gated (2026-07-13
+- **Product catalog — 1 live + 3 click-queued + 2 hard-gated (2026-07-13
   night run, ORDER 008).** Live: SWTK $29 (above). Click-queued at the
   quality floor (built + priced + listing drafted + verified + sha
   recorded), publish clicks owner-gated in the derived
@@ -54,6 +54,16 @@
   [`publishing/vetting/photo-packs.md`](publishing/vetting/photo-packs.md);
   listing copy drafted in
   [`launch/photo-packs/`](launch/photo-packs/listing-copy.md).
+- **Ship-It Bundle ($59) — HARD-GATED on the ⚑B/⚑D component clicks.**
+  Gumroad bundle of membership-kit ($49) + template-packs ($19 PWYW), $59
+  vs $68 separate ([`candidates/BUNDLE-LISTING.md`](../candidates/BUNDLE-LISTING.md),
+  staleness fixed same slice). No new artifact by design — a bundle
+  references existing live products; the re-verified component sha256 pins
+  are the artifact (stage-6 N/A-with-reason per
+  [`products/TEMPLATE.md`](products/TEMPLATE.md)). Blocking-first §7 rows in
+  [`publishing/vetting/bundle-starter.md`](publishing/vetting/bundle-starter.md);
+  launch assets in [`launch/bundle-starter/`](launch/bundle-starter/owner-actions.md).
+  Field manual joins only in a v2 bundle after v1 shows signal.
 - **Book catalog — second revenue line, owner-gated.** The verified
   [publishing plan](publishing/PUBLISHING-PLAN.md) (PR #87) sets the order:
   Tier-1 cover-only titles first (The Slow Word, The Painted Stones, The
