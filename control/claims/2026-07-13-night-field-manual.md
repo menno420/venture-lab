@@ -1,0 +1,1 @@
+- `claude/night-field-manual` · **scope** — Agent Fleet Field Manual to publish-READY (floor 6/6, §7 packet + OWNER-QUEUE regen) · candidates/agent-fleet-field-manual/ + docs/launch/agent-fleet-field-manual/ + docs/publishing/ · 2026-07-13
