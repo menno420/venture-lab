@@ -10,12 +10,32 @@
 > makes each packet CLAIM its phrases at vetting time — the way
 > `control/claims/` claims work — so the catalog deliberately tiles the KDP
 > search space instead of piling onto the same shelf.
+>
+> **Measured basis (ORDER 011 / V057 (sim-lab `32ff5c3`)):** VERDICT 057
+> (approve) — the cannibalization theory above now carries a measured
+> 12-cell basis instead of a gesture, and the coordination cost
+> (CONFLICTS-before-ship, ⚑ OWNER gates, one-row-per-phrase discipline) is
+> priced as worth paying: at every nonzero registered same-catalog
+> dilution γ, tiling buys **6.5%–144.7%** catalog discovery traffic over
+> independent greedy picks (γ = 1/4 row: LOW +71.8%, MED +15.4%,
+> HIGH +6.5%) — sim-lab `sims/verdict-057-keyword-tiling/REPORT.md`.
+> C2-style KEEP BOTH stays the **argued exception, not the default**.
+> **γ = 0 boundary (rides every citation):** tiling pays IFF same-catalog
+> dilution is nonzero — at γ = 0 exactly the convention is dead weight or
+> worse (MED −37.8%, HIGH −31.5%); γ carries no live datapoint anywhere in
+> the fleet, so the C2 page-co-occurrence browse check (one owner session
+> once ≥ 2 titles are live, zero new tooling) ships as the pre-priced live
+> measurement regardless. **APPLICATION GUARD (pre-registered):** the
+> verdict conditions on this map's 14 × (2 + 7) first-claim shape @
+> `be6c75d` — a restructured claim discipline means re-run, not reuse.
 
 ## How to use this map
 
 - **Packets claim phrases here at vetting time** (CHECKLIST §6): before
   locking your 2 categories + 7 keywords, check this table; add one row per
-  keyword/category you take. First claim on `main` wins a collision.
+  keyword/category you take. First claim on `main` wins a collision
+  (convention ratified with a measured basis by VERDICT 057 — see the
+  header note; ORDER 011 / V057 (sim-lab `32ff5c3`)).
 - **One row per keyword** — no shared free-text blob; conflicts are resolved
   in the CONFLICTS section below **before a packet ships** (§7 owner gate).
 - **Files are truth:** each vetted title's rows below reproduce its packet §6
