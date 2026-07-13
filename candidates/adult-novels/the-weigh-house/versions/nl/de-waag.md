@@ -785,3 +785,135 @@ Sanne keek naar het zwarte water dat onder haar voeten voorbijging, vier graden 
 Ze bleef op de meerplaats zitten nadat Joke naar binnen was gegaan, alleen, met de man die haar door het ergste heen had getroost dat haar ooit was overkomen nu in haar hoofd precies daar staand waar ze hem niet meer kon ont-staan — boven haar man, in het donker, op het water, de gordel aansnoerend met de halve slag die hij haar lichaam had leren vertrouwen. Hij had in haar keuken gezeten toen Daans bloed nog geen week koud was en haar glas bijgevuld. Hij had het geweten. Hij had daar wetend gezeten, en was vriendelijk geweest, en de vriendelijkheid was echt geweest, dat was het ding waar ze haar handen niet omheen kreeg, de vriendelijkheid was echt geweest en hij had hem niets gekost, want hij had al besloten dat het water een dienst was en Daan was al betaald.
 
 Ze huilde niet. Ze was een of andere grens gepasseerd waar het huilen aan de andere kant van lag. Ze zat en liet de kou de naden vinden, geduldig, persoonlijk, en ze telde haar ademhalingen, en kon niet ophouden ze in drieën te tellen, en haatte, voor het eerst van haar leven, de man wiens stem haar dat liet doen.
+
+# Hoofdstuk elf — Druk
+
+De briefingruimte van het team had tl-buizen die zoemden op een toonhoogte die Sanne jaren geleden was opgehouden te horen en nu weer hoorde, achterin staand terwijl Bram het ochtendbord deed. De radiatoren stonden vol open en de ramen waren beslagen en iemand had een lachend gezicht in de condens getekend en half weer uitgeveegd. Natte uitrusting hing langs de achterwand op het beton te druipen. De ruimte rook naar koffie en rubber en mannen die sinds vijf uur op waren.
+
+Hij was er goed in. Hij was er altijd goed in geweest. Hij stond bij het whiteboard met een stift en zijn leesbril laag op zijn neus en schoof mannen en klussen door de week met het gemak van een man die het duizend keer had gedaan, en het team mocht hem, en Sanne keek toe hoe ze hem mochten en voelde iets kouds en waterpas neerdalen in haar borst dat ze, van een afstand, herkende als het gevoel dat ze kreeg boven aan een slechte duik, de laatste kalmte voor de afdaling. Tim zat op de tweede rij met zijn mok, lachend om iets, jong en open van gezicht en blij dat hij er was, en Sanne keek naar zijn achterhoofd en iets in haar werd behoedzaam.
+
+'Kessler,' zei Bram, zonder op te kijken van het bord. 'Jij bent deze week van het water.'
+
+Ze hield haar gezicht stil. 'Waarom.'
+
+'Bedrijfsgezondheid.' Hij deed de dop op de stift. Nu keek hij naar haar, over de bril, en zijn gezicht was precies het gezicht dat het altijd was geweest — het brede, vriendelijke, verweerde gezicht dat in haar keuken had gezeten en drie avonden niets had gezegd en het enige was geweest dat ze kon verdragen. 'Twee bergingen in veertien dagen, allebei zware, die van Maas en die daarvoor. Jij hebt deze maand meer dode mannen aan je handen gehad dan de meeste van deze jongens in een jaar zien, en een ervan was—' een pauze, fijnzinnig, vaderlijk '—dicht bij huis, dicht genoeg. De zaak-Maas heeft weer helemaal de vorm van de Amstel. Ik weet wat dat je kost, Sanne. Ik ga niet toestaan dat het meer kost.'
+
+Het was vlekkeloos. Sanne begreep, naar hem kijkend, dat het vlekkeloos was omdat het voor negentig procent waar was, en dat dit was hoe hij het allemaal had gedaan, jarenlang — de waarheid droeg de leugen zoals water een lichaam droeg: hem ophoudend, hem verbergend in het volle zicht. Hij maakte zich zorgen om haar. Dat was het ding. Hij maakte zich oprecht zorgen om haar, ze kon het zien, en hij haalde haar ook uit het water, van de zaak, weg van de plaatsen delict, op precies het moment dat ze naar hem toe was beginnen te bewegen, en hij deed het met een reden waar niemand in de ruimte tegenin kon gaan en die haar ondankbaar en ziek deed lijken als ze hem bevocht. De ruimte hoorde een leidinggevende die een rouwende duiker beschermde. Alleen zij hoorde het andere eronder, de tweede zin binnen in de eerste.
+
+'Ik ben in orde,' zei ze.
+
+'Dat ben je niet,' zei Bram zacht, 'en dat is geen tekortkoming, het is een feit, en mijn werk is feiten.' Hij draaide zich terug naar het bord. 'Tim, jij gaat met De Wit op de Amstelkanaal-survey. Kessler doet droge dienst. Logboekcontrole, onderhoud.' Een kleine pauze. 'Het gordellogboek moet trouwens nodig gedaan. Het is een rommel. Jij zou het gordellogboek kunnen doen.'
+
+De ruimte hoorde het niet. Sanne hoorde het. Ze keek naar zijn grijze achterhoofd en begreep dat hij haar vertelde dat hij wist dat ze in het logboek was geweest, en dat hij haar er nu bij daglicht in terugzette, bekeken, gesanctioneerd, waar alles wat ze vond iets werd dat haar was opgedragen te vinden en dat ze met haar eigen handen had aangeraakt, en waar hij haar het kon zien doen. Het was elegant. Vond ze niets, dan was ze vrijgepleit voor het kijken. Vond ze iets, dan had ze het zelf gecontamineerd, bij daglicht, op zijn instructie, zonder keten die een rechtbank zou houden. Hij had het ene harde document van het gebouw veranderd in iets wat ze niet kon gebruiken, en het laten klinken als lichte dienst voor een vrouw die een zware maand had gehad.
+
+'Prima,' zei ze weer. 'Ik doe het gordellogboek.'
+
+'Goed zo, meisje,' zei Bram, zoals hij het dertien jaar had gezegd, en het kwam nu op haar neer als een hand die zich sloot.
+
+De briefing brak op. Stoelen schraapten, mokken gingen de gootsteen in, de jongen liepen door naar de uitrustingskooi, ruziënd over het zoekraster, en Tim bleef in het voorbijgaan achterin bij haar staan, gemakkelijk en onbewaakt. 'Gaat het, Sanne? Je ziet grijs.' Ze zei hem dat het ging, dat ze een zware reeks had gehad, dat was alles. Hij knikte, geloofde haar onmiddellijk zoals hij iedereen geloofde, en raakte haar schouder aan — een jongensgebaar, vriendelijk, achteloos — en zei: 'Je zou weer eens een echte duik moeten maken, de spinnenwebben eraf blazen. Er is niks mis met jou dat het water niet oplost.' Toen was hij weg met de anderen, en zij stond daar met de zoemende tl-buizen en dacht dat hij de waarste en de gevaarlijkste zin had gezegd die iemand haar die hele week had gezegd, en geen idee had dat hij een van beide had gedaan.
+
+⁂
+
+Hij kwam haar aan het eind van de dag opzoeken in het magazijn.
+
+Ze stond aan de werkbank met de ringband open — nu echt bezig, de controle, want er was niets anders te doen wat er niet uitzag als het niet doen — en ze hoorde de deur en kende zijn gewicht op de vloer voordat ze zich omdraaide, en dwong zichzelf zich langzaam om te draaien. De roldeur was neer. Het tl-licht zoemde. Buiten was het allang donker en de basis was leeggelopen, de laatste auto's het terrein af, en ze was zich, op een manier waarop ze dat in dertien jaar in deze ruimte nog nooit was geweest, ervan bewust dat niemand precies wist waar ze was.
+
+'Je hebt de serienummers gevonden,' zei hij.
+
+Hij zei het vriendelijk. Hij had de deur achter zich dichtgedaan. Het magazijn had geen raam. Daar had ze ooit van gehouden.
+
+'Ja,' zei ze. Het andere leverde niets op.
+
+'Natuurlijk heb je dat. Jij was altijd de beste van ze in het lezen van iets.' Hij kwam tegenover haar aan de werkbank staan, grote handen plat op het hout, en keek neer op zijn eigen handschrift in het logboek, gordel 07, gordel 09, de kolommen van tien jaar. 'Daan zei dat altijd over je. Ziet wat er werkelijk staat, zei hij, niet wat ze verwacht. Daarom mag het water haar.' Hij glimlachte, en de glimlach bereikte zijn ogen, en dat was het ergste ervan, dat hij zijn ogen bereikte. 'Het water mag de meeste mensen niet. Het verdraagt ze. Het mocht Daan. Het mag jou.'
+
+'Bram,' zei ze.
+
+'Laat me één ding zeggen,' zei hij, nog steeds vriendelijk, nog steeds zacht, 'en dan ga ik en laat ik je werken. Over het water.' Hij richtte zich op. Hij deed het ding dat hij altijd deed voor een zware duik, het ding dat ze hem honderd keer had zien doen en geruststellend had gevonden: één keer zijn schouders rollen, zich in zijn eigen omvang zetten. 'Je weet hoe het daar beneden is. Jij weet het langer dan de meesten. Het is donker en het is koud en het is vier graden en de kleur van niets en je kunt je eigen hand niet zien, en het enige tussen jou en daar voorgoed beneden blijven is de lijn, en de persoon aan het andere eind van de lijn.' Hij keek haar aan, waterpas, warm, verschrikkelijk. 'Je moet de persoon aan je lijn volkomen vertrouwen. Absoluut. Want zij beslissen, Sanne. Wanneer jij op de bodem bent met een lichaam en zonder licht, is de persoon die jouw lijn houdt de enige op de wereld die beslist of jij bovenkomt. Dat is het hele vak. Dat is het hele ding. Vertrouwen aan de lijn.'
+
+Het tl-licht zoemde. Ze hield haar handen plat op de ringband zodat ze niets zouden doen. Ze telde, zwijgend, zonder het te willen. In en in en in.
+
+'Ik heb jouw lijn vaker gehouden dan wij tweeën kunnen tellen,' zei Bram zacht. 'Sinds je een bang meisje was op negen meter in de Amstel dat vergat hoe ademen moest. Drieën, zei ik. Weet je nog? Drieën. En je kwam boven.' Hij nam zijn jas van de haak bij de deur en schoot erin, groot en langzaam en zorgvuldig, de getrainde manier, de manier waarop Joke een man in een boot zonder licht had beschreven. 'Je bent altijd bovengekomen omdat ik aan je lijn zat. Ik zou willen dat je dat onthoudt. Wat het logboek ook zegt. Wat je ook denkt erin gelezen te hebben.' Hij deed de deur open naar het ganglicht, en één ogenblik was hij een gedaante ertegen, hem vullend. 'Rust wat. Je ziet eruit zoals je man eruitzag, die laatste week. Ik vond het niet prettig om het op hem te zien. Op jou vind ik het nog minder.'
+
+Hij ging. De deur zwaaide dicht. Het magazijn had geen raam, en Sanne stond erin en liet haar longen het langzaam doen, in en in en in en uit, en wilde de telling niet naar drieën laten gaan, en hij ging toch naar drieën, en ze greep de rand van de werkbank tot het ophield. Hij had haar verteld dat hij aan haar lijn zat. Hij had haar verteld dat hij ook aan Daans lijn had gezeten, die laatste week. Hij had beide dingen met dezelfde stem gezegd, de vriendelijke, en het aan haar gelaten uit te zoeken welke de waarschuwing was.
+
+Ze stond daar lang. Ze dacht aan hoeveel manieren er waren om een duiker te beëindigen die geen spoor achterlieten dat een lijkschouwer zou opschrijven — een lijn die op het verkeerde moment te kort liep, een kraan een kwartslag gedraaid die niemand gedraaid zag, een lichaam dat op de weg naar boven zwaarder werd dan het mocht. Ze kende ze allemaal. Hij had haar de meeste geleerd, verkleed als veiligheid, als de dingen waar je op lette, als de redenen waarom je je seiner absoluut vertrouwde. Elke regel die hij haar ooit had gegeven om in het water in leven te blijven was ook, andersom gelezen, een lijst van de manieren waarop een seiner je kon doden en het het water kon noemen. Ze had die lijst dertien jaar in haar lichaam gedragen en hem voor liefde aangezien. Het wás liefde. Dat was het deel dat in haar handen niet uit elkaar wilde.
+
+⁂
+
+Nadia belde om tien uur, en haar stem was verkeerd.
+
+'Ik ben bij Van Dijk op kantoor geroepen,' zei ze. Van Dijk was een commissaris, twee rangen hoger en onaantastbaar. 'Off the record, zegt hij. Vriendschappelijk, zegt hij. Vraagt hoe een Rotterdamse rechercheur zo ver van haar eigen wijk verzeild raakt, gravend in Amsterdamse vastgoeddossiers. Vraagt of ik heb overwogen dat de uitspraak-Maas gesloten is, dat de uitspraak-Kessler twee jaar geleden gesloten is door mensen die hun vak verstonden, en of het heropenen van oude verdrinkingen een goed gebruik is van een loopbaan die ergens heen zou kunnen als ze het niet deed.' Een harde adem door de lijn. 'Hij heeft geen één keer stop gezegd. Dat hoefde niet. Hij zei dat het zonde zou zijn. Hij noemde Aalvings naam tegen me, Sanne. Niet als verdachte. Als vriend van het korps. "Cornelis is een vriend van dit huis," zei hij. Een vriend van dit huis. Toen vroeg hij naar mijn dochter. Bij naam. Vroeg of ze het naar haar zin had op haar nieuwe school.'
+
+'Aalving zit binnen het korps,' zei Sanne.
+
+'Aalving zit binnen alles.' Nadia's stem daalde. 'Ik doe dit werk twintig jaar en ik ken het geluid van een waarschuwing die door een schoon kanaal naar beneden komt zonder vingerafdrukken erop. Dat was dit. Ik word van bovenaf weggewaarschuwd en jij wordt van opzij van het water gehaald, op dezelfde dag, Sanne. Dat is niet twee dingen. Dat is één ding met twee handen.' Een pauze. 'Ze weten dat we dichtbij zijn. Wat betekent dat we dichtbij zijn. En dat is precies wanneer het gevaarlijk wordt, want een machine als deze jaagt je niet weg tenzij wegjagen goedkoper is dan het andere, en zodra ze besluit dat het andere goedkoper is—'
+
+Ze maakte het niet af. Dat hoefde niet.
+
+Sanne stond aan haar eigen donkere raam boven de Kloveniersburgwal, het grootboek — Victors grootboek, de laptop en de veertig gevouwen bladzijden — in een drybag in de ballastbak van haar eigen bijboot geritst, de ene plek in haar leven waar niemand aan dacht om te zoeken omdat hij vol zat met de geur van het ding waar ze allemaal bang voor waren, en ze keek neer op het zwarte water waar een grijze boot zonder licht langzaam heen was gevaren en laag was teruggekomen, en begreep dat het net waarvan ze had gedacht dat ze het om Bram Verhoeven aan het dichttrekken was, zich de hele tijd om háár had dichtgetrokken. Hij had geweten dat ze in het logboek zat voordat ze het iemand vertelde. Hij had haar op droge dienst gezet en van het water gehaald in dezelfde adem waarmee hij zich zorgen maakte om haar gezondheid. Van Dijk had Nadia dezelfde dag ontboden. Ze reageerden niet op haar. Ze waren haar de hele weg vóór geweest, kijkend hoe ze door de gang liep naar de ene deur, hem voor haar openend, warm en geduldig, de persoon aan het andere eind van de lijn.
+
+'Nadia,' zei ze. 'Waar is Tim vanavond.'
+
+# Hoofdstuk twaalf — Het bod
+
+Het café aan de Zeedijk was te warm en rook naar frituur en oud bier, en Ruud Slootweg had het hoektafeltje genomen met zijn rug naar de muur als een man in een film, wat, dacht Sanne, precies het soort man was dat hij was — een die alles wat hij over dreiging wist had geleerd door te kijken hoe andere mensen haar bezaten. Buiten was de regen begonnen, het fijne, koude soort dat niet zozeer viel als wel hing, en het neon van de bar aan de overkant lag rood en groen over de natte kinderkopjes. Het was vroeg in de avond en de straat liep vol, toeristen en dealers en een man die gepofte noten verkocht, het hele luide, onverschillige leven van de Zeedijk dat doorging rond één klein tafeltje waar twee mensen op het punt stonden iets te beslissen.
+
+Hij stond op toen ze binnenkwam. Hij stond werkelijk op, en trok de stoel aan, en zijn pak was heel goed en zijn glimlach was heel goed en zijn ogen deden iets wat zijn mond niet deed.
+
+'Mevrouw Kessler,' zei hij. 'Dank dat u gekomen bent. Ik weet dat u niet wilde.'
+
+'Ik ben gekomen om het te horen,' zei Sanne. Ze ging niet zitten. 'Dus zeg het.'
+
+'Gaat u zitten. Alstublieft. Het is geen—' hij spreidde zijn handen, de innemende fikser, de stroman op papier van elf grachtenpanden en de doden die hun titels hadden geschoond '—het is geen dreigement. God, nee. Het is het tegendeel van een dreigement. Daarom heb ik het gevraagd. De anderen wilden iemand minder aangenaams sturen.' De glimlach flakkerde, en één seconde zag ze hoe bang hij was, onder het pak, een man die zijn naam had gezet onder dingen die veel groter waren dan hijzelf en zijn naam er nu niet meer af kreeg. 'Ik mag u. Dat is geen tekst. Daan was een serieuze man. U bent een serieuze vrouw. Serieuze mensen moeten kunnen praten.'
+
+Ze ging zitten. Omdat het grootboek in de drybag in de ballastbak lag en Tim sinds zes uur zijn telefoon niet opnam en Nadia ergens aan de andere kant van de stad te langzaam door kanalen bewoog die Aalving bezat, en omdat zitten haar een minuut kocht om het bange gezicht van deze zachte man te lezen. Er kwam een ober en ze wuifde hem weg en Slootweg bestelde een jenever die hij niet aanraakte.
+
+Ze had, voordat ze kwam, nagetrokken wat een man als Slootweg was. Nadia had het in een middag boven water: geen strafblad, geen reputatie, een bedrijfsadres dat een brievenbus in Sloterdijk was, een man die vrijwel geheel op papier bestond en wiens papier elf grachtenpanden waard was. In de wereld was hij niets — een geleasede auto, een gehuurde flat, een goede kleermaker. Op de aktes was hij een vermogen. Hij was de naad waar het schone geld het vuile raakte, en naden, wist Sanne, waren waar dingen scheurden. Ze was gekomen om te zien of hij wist dat hij een naad was. Kijkend hoe hij het viltje omdraaide, zag ze dat hij het wist, en dat het hem meer beangstigde dan zij deed.
+
+'Er is een bedrag,' zei Slootweg stil. 'Voor het huis. Uw woonboot, de ligplaats, alles, tegen een waardering waarmee u weg zou kunnen. Echt weg. Portugal, waar koude vrouwen ook heen gaan om op te houden koud te zijn. En een tweede bedrag, apart, voor—' hij koos het woord '—voor het ongemak. Voor alles wat de afgelopen twee jaar u hebben afgenomen. Het is veel geld, Sanne. Het is het soort geld dat iets afsluit.' Hij draaide een viltje om op de tafel, en nog eens, de handen van een nerveuze man. 'Het enige wat u doet, is ophouden. Haal de boot van de zaak, haal uzelf van het water, laat de uitspraak-Maas staan zoals de uitspraak-Kessler staat, en ga het warm hebben. Niemand hoeft iets aangedaan te worden. Dat is het hele bod. Niemand hoeft ook maar iets aangedaan te worden.'
+
+Sanne keek naar zijn handen die het viltje draaiden en dacht dat een man die je geld biedt om iets met rust te laten een man is die bang is voor wat er gebeurt als je het niet doet. Angst was het enige ware ding op tafel. Ze reikte erover.
+
+'En het grootboek,' zei Sanne.
+
+Zijn handen stopten. Dus het was waar; hij had niet geweten dat zij het had, en nu wist hij het, en ze keek toe hoe het laatste van de charme uit zijn gezicht wegliep en iets grijs en bangs achterliet.
+
+'U heeft—' begon hij.
+
+'Victor heeft een kopie gepost voordat jullie hem verdronken,' zei Sanne, vlak, waterpas, de onderwaterstem. 'C.A. en R.S., veertig bladzijden lang. Uw initialen, Ruud. Elf huizen. Dat is niet iets wat geld afsluit. Dat is iets wat ú afsluit.' Ze boog heel licht naar voren. 'U kwam hier om mij te kopen. U had moeten komen om ze te waarschuwen dat ik het ene ding al heb dat jullie allemaal beëindigt.'
+
+Slootweg was heel stil geworden. Eén ogenblik leek het cafélawaai zich van de tafel terug te trekken, de frituur en de toeristen en de regen, en er was alleen de man tegenover haar met zijn mond half open en het begrip dat in zijn gezicht omhoogkwam als water in een romp.
+
+'U begrijpt het niet,' zei hij, en zijn stem was tot bijna niets gedaald. 'U denkt dat u degene bent die de — nee. Nee. Luister naar me, want ik ben de aangename en er komt geen tweede aangename.' Hij bevochtigde zijn lippen. Zijn ogen gingen één keer naar de deur en terug. 'Het was nooit geld of niets. Geld was de aangename versie. Als u nee zegt tegen het geld, zijn ú het niet die ze—' Hij hield zichzelf in. Hij zag er, één seconde, oprecht ziek uit, een man die een groot aantal stille dingen met een pen had gedaan en zojuist had begrepen dat hij aan de rand zat van het ene ding dat hij zichzelf nooit had laten voorstellen. 'Waar is de jonge vanavond, Sanne. De junior. Heeft u hem gesproken.'
+
+De warmte van het café was opeens heel ver weg.
+
+'Tim,' zei ze.
+
+'Ik heb ze gezegd het niet te doen,' zei Slootweg, snel, laag, en het was het waarste wat hij had gezegd. 'Ik zei: ze neemt het geld wel, ik zei: geef haar het geld, ze is niet dom — maar de andere, die van het water, die doet geen geld. Die doet—' het woord wilde niet komen '—die doet drukmiddelen. En een drukmiddel is iemand om wie u geeft, op een plek waar u niet kunt komen zonder door hem heen te moeten.' Hij stond op, te snel, stootte het viltje op de grond, een bange man die vertrok voordat het ding dat hij in beweging had gezet arriveerde. Hij legde geld op tafel met een hand die niet vast was. 'Het spijt me. Werkelijk. Neem je telefoon op.'
+
+Hij was weg voordat zij stond, naar buiten de regen en het neon in, zijn goede pak in drie stappen donker over de schouders, en toen alleen nog de straat die hem verzwolg.
+
+Ze stond aan de tafel met het viltje op de grond en Tims naam die in haar rondging, en ze dwong zichzelf het ding te doen dat ze aan de oppervlakte deed voor een slechte afdaling — stoppen, de balans opmaken, de lucht tellen. Tim was om zes uur stilgevallen. Het was zeven geweest. Ze belde hem en het ging over naar de opgewekte voicemail die niet wist dat hij opgewekt was. Ze belde Nadia en kreeg haar bij de tweede keer overgaan en zei: Tim, ze hebben Tim, en Nadia zei een kort woord in Rotterdams en toen, strak en snel, dat ze een uur weg was en in beweging, dat elke snelle weg om te bewegen een weg was die door mensen liep die Aalving bezat, dat als Sanne op het schone kanaal wachtte, Tim een uitspraak zou zijn tegen de tijd dat het openging. Sanne wist dat al. Ze wist het sinds Slootwegs gezicht was veranderd. Ze stond in het warme café dat naar frituur rook en hoorde Nadia's ingesnoerde stem door de lijn komen van te ver weg en begreep dat wat er nu ging gebeuren, zou gebeuren voordat iemand eerlijks erbij kon.
+
+⁂
+
+Haar telefoon ging over in haar hand op de Zeedijk, in het natte neon, en het was Bram, en zijn stem was warm en langzaam en hij sloeg de bodem onder haar weg.
+
+'Sanne,' zei hij. 'Mooi. Luister, er is een situatie, ik heb mijn beste nodig en jij bent mijn beste, gezondheid of geen gezondheid. Jonge Tim is een solo in gegaan die hij niet had mogen doen — verdomde kinderen, denkt dat hij iets heeft gevonden op de Amstelkanaal-survey, is erin gegaan zonder buddy, en zijn boei staat maar hij antwoordt niet op zijn comms en hij is te lang beneden.' Een pauze, precies de juiste lengte, de pauze van een bezorgde leidinggevende. 'Ik heb de boot buiten. Ik ben ter plaatse. Ik heb een duiker in het water nodig en ik heb er een nodig die ik vertrouw aan het andere eind van de lijn, en er is niemand die ik vertrouw zoals jou. Hoe snel kun je aan de Amstel zijn?'
+
+Ze stond in het neon met de regen die nu harder begon te komen en begreep de hele vorm ervan in één keer, compleet, zoals je in de eerste halve meter begrijpt dat een slechte duik slecht is. Tim was de boei. Tim was daar beneden, of erger, op een plek die zij alleen kon bereiken door het water in te gaan — het vierdegradendonker in, de kleur van niets — aan een lijn gehouden door Bram Verhoeven. Hij vroeg haar niet Tim te redden. Hij vroeg haar af te dalen, in het donker, zonder ander licht dan het zijne, en het enige tussen haarzelf en daar voorgoed beneden blijven in handen te leggen van de man die voor de kost mannen in dat water legde. Hij had het volmaakt gebouwd. Hij had het zo gebouwd dat het ene wat ze niet kon doen weigeren was, want weigeren betekende Tim in de kou laten, en hij kende haar, hij had dertien jaar haar lijn gehouden, hij wist dat er geen versie van Sanne Kessler bestond die een duiker in het water liet.
+
+De persoon die jouw lijn houdt, is de enige op de wereld die beslist of jij bovenkomt.
+
+'Sanne?' zei Bram. Warm. Geduldig. Wachtend. 'Ben je er?'
+
+Ze dacht aan het grootboek in de drybag in de ballastbak, veilig, de ene kaart waarvan hij de reikwijdte niet helemaal kende. Ze dacht aan Nadia, ingesnoerd, bewegend door bezette kanalen, te ver en te langzaam om de Amstel op tijd te halen, van bovenaf weggewaarschuwd met de school van haar dochter bij naam genoemd door een schone lijn. Ze dacht aan Tim, trouwe Tim, vanochtend lachend op de tweede rij, die haar instructies had opgevolgd en de verkeerde warme stem had vertrouwd, nu beneden in de kou, verzwaard of wachtend, aas aan een lijn.
+
+Er was een versie hiervan waarin ze nee zei. Ze kon hem daar voelen, opzij, de verstandige, degene die Nadia haar zou zeggen te nemen — weiger, blijf droog, houd het grootboek, laat de machine zich afvragen waar haar drukmiddel was gebleven. In die versie ging Tim de kou in en bleef er en werd een derde zorgvuldige verdrinking, een jongen die een solo dook die hij niet had mogen doen, en de uitspraak zou schoon zijn en Bram zou hem tekenen en hij zou standhouden, en zij zou het grootboek hebben en haar leven en Tims naam op een steen. Ze keek recht naar die versie, in de regen, en zette hem neer. Het was niet dat ze dapper was. Het was dat ze al één keer boven een toegedekt gezicht had gestaan, wetend dat ze het water in had kunnen gaan en het niet had gedaan, en ze ging het geen tweede keer doen en in het erna ervan leven. Dat wist hij van haar. Dat was de val. De val was niet het water. De val was dat hij hem had gebouwd uit het ene ding in haar dat niet bang was voor het water.
+
+Ze dacht aan de halve slag. Ze dacht aan drieën.
+
+'Ik kom,' zei Sanne. 'Laat een stagefles voor me optuigen. Ik kom nu.'
+
+'Goed zo, meisje,' zei Bram, en de lijn ging dood, en Sanne stond in de regen op de Zeedijk met haar adem die al ging, zonder haar toestemming, in en in en in, in drieën, naar het water toe waarvan ze wist dat het een val was en de enige lijn op de wereld die Tim kon redden, gehouden door de hand die haar man had verdronken.
