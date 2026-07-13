@@ -1,0 +1,56 @@
+# RECIPE 4 — the advisory check that can NEVER turn red.
+#
+# PROVENANCE: adapted from a LIVE production job
+# (menno420/venture-lab .github/workflows/kit-tests.yml @ 838b46e,
+# `ledger-drift-advisory`). Purpose in an auto-merging fleet: you want
+# drift/hygiene signals in every PR's check list WITHOUT ever blocking
+# the merge path — an advisory that can red will eventually red for an
+# irrelevant reason at 3am and stall an unrelated auto-merge.
+#
+# THE DOUBLE GUARD (both, deliberately redundant):
+#   1. The script itself exits 0 on EVERY path — in-sync, drift found,
+#      skip, even parse failure. Its output is the signal; its exit
+#      code is constitutionally green.
+#   2. `continue-on-error: true` on the step — so even a crash in the
+#      interpreter or a missing file cannot red the check.
+# One guard is a promise; two is a property.
+#
+# THE COMPLEMENTARY RULE (from the same production repo's required
+# gate, substrate-gate.yml @ 4776045): this is the ONLY kind of check
+# allowed to use path filtering / conditional skipping freely. A
+# REQUIRED check must never `paths-ignore` — a required context that
+# never reports stays pending and blocks auto-merge forever. Advisory
+# checks have no such constraint because nothing waits on them.
+# NEVER make an advisory check required: a required advisory is a
+# contradiction that either blocks merges (if it reds) or gates nothing
+# (if it can't).
+name: advisory-checks
+on:
+  pull_request:
+    # Advisory checks MAY path-filter (required checks may not).
+    paths:
+      - "docs/**"
+      - "scripts/**"
+  push:
+    branches: [main]
+jobs:
+  drift-advisory:
+    # ADVISORY ONLY — never a required gate.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: drift advisory (exit-0 contract + continue-on-error)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Replace with your own advisory script. The contract it must
+          # honor: print one actionable line, exit 0 unconditionally.
+          # Production example: a ledger-drift script comparing the
+          # repo's "recently shipped" doc against the newest merged PR.
+          if [ -x scripts/check_drift.sh ]; then
+            scripts/check_drift.sh || echo "::warning::advisory script crashed — signal lost, merge path unaffected."
+          else
+            echo "advisory: no drift script installed — nothing to report."
+          fi
+          exit 0

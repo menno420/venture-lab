@@ -1,0 +1,99 @@
+# RECIPE 1 — the auto-merge ENABLER (arm native auto-merge at PR open).
+#
+# PROVENANCE: adapted from a LIVE production workflow
+# (menno420/venture-lab .github/workflows/auto-merge-enabler.yml @ 305646f)
+# that landed 13 agent PRs green on 2026-07-13 alone — e.g. PR #104
+# (merged 2026-07-13T00:56:20Z) and PR #128 (merged 2026-07-13T02:46:46Z),
+# both merged_by github-actions[bot]. The pattern: the workflow ARMS
+# GitHub-native auto-merge on agent PRs at open; GitHub itself performs
+# the merge the moment the REQUIRED check goes green. Arming is not
+# merging — a classifier/policy layer that blocks an agent's direct
+# merge call typically does not block the server-side arm+merge.
+#
+# INERT until two one-time repo settings exist (owner/admin UI):
+#   1. Settings -> General -> Pull Requests -> "Allow auto-merge" = ON.
+#   2. A ruleset/branch protection on the default branch REQUIRING your
+#      gate check (below: 'required-gate' — rename to yours).
+# With NO required check, arming merges a PR INSTANTLY — the
+# refuse-to-arm guard below counts required CONTEXTS and refuses on
+# zero rather than inverting the gate.
+#
+# CARVE-OUT: label `do-not-automerge` = never armed (job-level check +
+# a fresh API re-read to defeat the stale-payload label race: the event
+# payload snapshots labels at open time, but API-driven PR creation
+# often adds the label in a SECOND call right after create).
+name: auto-merge-enabler
+on:
+  pull_request:
+    # `synchronize` (every push to the PR head) re-arms: arming is
+    # idempotent and never merges anything itself — the merge stays
+    # gated by the required check. This narrows the green-behind
+    # stall: a fix-push or `git merge origin/<base>` re-arms on the
+    # up-to-date head.
+    types: [opened, reopened, ready_for_review, synchronize]
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: auto-merge-enabler-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+jobs:
+  enable-auto-merge:
+    # Scope the arm to your agents' branch namespace (here: claude/*).
+    # Never arm forks, drafts, or opted-out PRs.
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.draft == false &&
+      (startsWith(github.head_ref, 'claude/')) &&
+      !contains(github.event.pull_request.labels.*.name, 'do-not-automerge')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refuse to arm unless the base branch requires status CONTEXTS
+        id: rules
+        env:
+          GH_TOKEN: ${{ secrets.MERGE_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          # Count required check CONTEXTS, not rules: a
+          # required_status_checks RULE with an empty context list
+          # still lets an armed PR merge with nothing to wait for.
+          contexts="$(gh api "repos/$GITHUB_REPOSITORY/rules/branches/${{ github.base_ref }}" \
+            --jq '[.[] | select(.type == "required_status_checks")
+                   | .parameters.required_status_checks // [] | .[].context]')"
+          count="$(printf '%s' "$contexts" | python3 -c 'import json,sys; print(len(json.load(sys.stdin)))')"
+          echo "required contexts ($count): $contexts"
+          echo "required=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" = "0" ]; then
+            echo "::warning::the base branch requires no status-check CONTEXTS — arming would merge instantly. Refusing to arm; make your gate check required first."
+          fi
+      - name: Re-check the do-not-automerge label FRESH (stale-payload race guard)
+        id: label
+        if: steps.rules.outputs.required != '0'
+        env:
+          GH_TOKEN: ${{ secrets.MERGE_PAT || secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          # Wait a grace beat, then re-read labels from the API and
+          # refuse to arm if the label is present NOW.
+          sleep 15
+          labels="$(gh api "repos/$GITHUB_REPOSITORY/issues/$PR/labels" --jq '[.[].name] | join(",")')"
+          echo "labels on re-read: $labels"
+          case ",$labels," in
+            *,do-not-automerge,*)
+              echo "do-not-automerge present on re-read — refusing to arm."
+              echo "skip=1" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "skip=0" >> "$GITHUB_OUTPUT" ;;
+          esac
+      - name: Enable native auto-merge (squash)
+        if: steps.rules.outputs.required != '0' && steps.label.outputs.skip == '0'
+        env:
+          # Prefer a PAT so the eventual merge attributes to a real
+          # user; GITHUB_TOKEN is the fallback.
+          GH_TOKEN: ${{ secrets.MERGE_PAT || secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          if gh pr merge --auto --squash "$PR" --repo "$GITHUB_REPOSITORY"; then
+            echo "Auto-merge enabled for PR #$PR — it merges when the required check is green."
+          else
+            echo "::warning::Could not enable auto-merge for PR #$PR. Confirm: (1) 'Allow auto-merge' is ON, (2) the base branch requires your gate check, (3) the token has Pull requests + Contents write. On a repo shape where GitHub structurally refuses the arm, REST merge-on-green is the landing path instead — see recipes/merge-on-green.yml."
+          fi
