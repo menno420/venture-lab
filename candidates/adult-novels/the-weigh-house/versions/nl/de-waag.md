@@ -309,3 +309,191 @@ Sanne bleef. Ze dronk de slechte koffie op en keek hoe de Waag van grijs naar ee
 Ze had twee jaar dankbaar zitten wezen voor een snelle uitspraak. Ze zou niet nog eens dankbaar zijn.
 
 Ze draaide haar pols om en keek naar de twee vervagende nummers op haar huid, en ze telde haar ademhalingen in drieën, één twee drie, één twee drie, en dit keer hield de telling, vast als een hand aan een lijn, want voor het eerst sinds maart twee jaar geleden ging ze met opzet de lijn weer af, de kou in, naar de vorm toe die ze had geweigerd aan te raken — en iemand die ze elf jaar met haar leven had vertrouwd hield nog altijd, of hij het al wist of niet, het andere eind van haar touw vast.
+
+# Hoofdstuk vijf — De kamer
+
+Victor Maas had gewoond op de derde verdieping van een smal huis aan de Nieuwe Prinsengracht, boven aan een trap gebouwd voor mensen die minder bezaten dan hij. Sanne klom achter Nadia aan, één hand aan de touwleuning, de treden tellend uit gewoonte. Eenentwintig. Het gebouw rook naar andermans eten en oud vernis, en daaronder, vaag, de geur die elk oud Amsterdams huis in januari droeg — vochtige baksteen en de kou die door de fundering omhoogkwam uit het water beneden.
+
+Nadia had een sleutel van de huisbaas en een pasje dat haar langs de vragen bracht. Ze had Sanne gezegd als burger te komen, wat betekende: handen in de zakken en mond dicht, en Sanne had toegestemd omdat het alternatief thuiszitten was met de gordels in haar hoofd. Ze had niet goed geslapen. Ze had in een week niet goed geslapen, sinds de berging, sinds het lood uit de Kloveniersburgwal omhoog was gekomen met een lichaam dat verkeerd om lag ten opzichte van de zwaartekracht, en ze had geleerd het niet-slapen niet te bevechten. Je liet de vermoeidheid in je zitten als ballast. Je gebruikte hem om naar beneden te gaan.
+
+Het trappenhuis had op elke overloop een klein raam, dichtgeverfd, en door het laatste kon ze de gracht zien, vlak en bruin onder een lucht met de kleur van een natte steen. Ergens een trambel. Een fiets aan een hek geketend met drie andere, allemaal bepareld met het vocht van de ochtend. Gewone dinsdag. Er was een man gestorven en de stad had er niet voor stilgestaan, wat de gewoonte van de stad was en, op de meeste dagen, haar barmhartigheid.
+
+De deur ging open op orde.
+
+Dat was het eerste. Niet de armoede ervan, niet de kleinheid — de orde. Eén kamer met een keuken langs één wand, een bed strak opgemaakt, een bureau onder het raam dat uitkeek over de gracht. Boeken op hoogte gerangschikt. Een rij schoenen naast de deur, neuzen naar de muur, zoals je ze neerzet wanneer je misschien snel weg moet en niet wilt zoeken. Eén mok omgekeerd op een gevouwen doek naast de gootsteen, droog. Geen afwas die wachtte. Geen jas over een stoel gegooid. Sanne zag het allemaal en zei niets.
+
+'Hij woonde alleen,' zei Nadia. Het was geen vraag.
+
+'Hij woonde zorgvuldig.'
+
+Nadia trok handschoenen aan en gaf Sanne een paar. 'Je raakt niets aan. Maar als je het eerder ziet dan ik, zeg het me.'
+
+Sanne deed de handschoenen aan. Het latex was koud en rook naar de doos. Ze boog haar vingers erin zoals ze ze in natte handschoenen boog op de boot, een klein ritueel van je klaarmaken om met je handen te werken op een plek die je niet wilde hebben.
+
+De kamer vertelde haar dingen in de taal die ze kende. Een man die zijn schoenen bij de deur hield en zijn bed hard en zijn boeken in het gelid, was een man die angst beheerste door voorwerpen te beheersen. Ze had het zelf gedaan, het jaar na Daan. Je kon het water niet in de hand houden, dus hield je de la in de hand. Er zat een rookmelder op het plafond en een tweede, nieuwer, op ooghoogte in de muur geschroefd naast het bed, wat geen gewone huurder doet. Er lag een houten wig op de vloer bij de deur, het soort dat je eronder schopt om te maken dat hij niet opengaat. Hij was gebruikt. De verf op de deurrand was gehavend waar de wig beet — niet één keer, maar een bleke, bezorgde plek van havenen, weken ervan, maanden.
+
+'Hij was bang,' zei Sanne.
+
+'Mensen zijn voor een hoop dingen bang.'
+
+'Hij was bang voor de deur.'
+
+Nadia keek naar de wig, toen naar de deur, en schreef iets in haar notitieboekje. Ze had een manier om iets in ontvangst te nemen zonder ermee in te stemmen die Sanne had besloten te vertrouwen. Ze was een paar jaar jonger dan Sanne en droeg het licht, een vrouw die had geleerd van haar gezicht een gesloten la te maken, en alleen haar handen, snel en zuinig, verrieden dat ze daarachter hard aan het werk was.
+
+'Hoe lang woonde hij hier?' vroeg Sanne.
+
+'Elf maanden, zei de huisbaas. Een jaar vooruitbetaald, op de rekening, allemaal correct.' Nadia hurkte bij de deur, op gelijke hoogte met de wig, zonder hem aan te raken. 'Hield zich op zichzelf. Niemand kende hem. De buurman beneden dacht dat hij misschien leraar was.' Ze kwam overeind. 'Een man betaalt een jaar vooruit en schroeft een tweede rookmelder op ooghoogte in de muur en slijt zijn deurkozijn af met een houten wig, en niemand kent hem. Dat is geen privéman. Dat is een man in hiding die heeft besloten dat onderduiken eruitziet als privacy.'
+
+'Het werkt tot het niet meer werkt.'
+
+'Het werkt altijd tot het niet meer werkt.' Nadia zei het zonder gewicht, iets wat ze had geleerd en opgeborgen en alleen tevoorschijn haalde wanneer het paste, en het paste hier, in deze zorgvuldige kamer boven de koude gracht.
+
+Sanne nam de kamer in drieën. In. Vasthouden. Uit. Het was hoe ze een wrak las — niet alles tegelijk, daar verdronk je in, maar in afgemeten gangen, elke ademhaling één waar ding mee terug latend dragen. Eerste gang: de schoenen, de wig, de twee rookmelders. Tweede gang: de raamsloten, allemaal dicht, op de derde verdieping, boven een gracht. Derde gang: de afwezigheid. Geen foto's aan de muren. Geen kaarten op de plank. Geen bewijs dat er ooit iemand was binnengelaten.
+
+Op het bureau lag een laptop, dicht. Nadia opende hem met één vinger. Hij werd wakker op een inlogscherm en, toen ze nog twee keer een toets indrukte, op een melding in wit op zwart die betekende dat de schijf was gewist — niet verwijderd, gewist, het verschil tussen een brief weggooien en het huis platbranden waarin hij is geschreven.
+
+'Schoon,' zei Nadia. 'Professioneel. Er is hier iemand geweest.'
+
+'Of hij heeft het zelf gedaan.'
+
+'Of hij heeft het zelf gedaan.' Ze deed het deksel dicht. 'Hoe dan ook staat er niets op.'
+
+Sanne stond bij het raam. De gracht beneden was vlak en bruin en hield de huizen ondersteboven in zich, gevel na gevel, een tweede Amsterdam dat trilde als er een fiets langskwam en dan weer stilstond. Een meerkoet werkte zich langs de overkant, zonder haast. Ze dacht na over hoe een zorgvuldig man het ding beschermt dat hij bang is te verliezen. Niet op de machine die ze zullen meenemen. Ergens anders. Ergens doms en veiligs.
+
+'Hij stuurde dingen naar zichzelf op,' zei ze.
+
+Nadia draaide zich om. 'Wat?'
+
+'Daan deed het.' Ze hoorde haar eigen stem vlak worden zoals hij deed wanneer ze zijn naam zei. 'Niet — hetzelfde. Maar. Hij was ook een complianceman. Als hij iets vond dat hij niet aan een dossier toevertrouwde, mailde hij het naar zichzelf. Naar een adres dat niemand kende. Hij zei: papier verbrandt en servers worden gevorderd, maar iemands eigen postvak-uit is alleen maar ruis tot je weet dat je moet kijken.' Ze hield in. 'Hij zei een hoop van dat soort dingen.'
+
+Nadia keek nu met een ander gewicht naar haar. 'Je hebt me nooit verteld dat je man dit werk deed.'
+
+'Je hebt nooit gevraagd wat hij deed.'
+
+'Ik vraag het.'
+
+'Compliance. Fraude, vooral. Bij een notariskantoor.' Sanne hield haar ogen op het water. 'Hij is twee jaar geleden verdronken in de Amstel. Ze noemden het een duikongeval. Een recreatieve duik. Hij dook alleen, wat hij nooit deed, en zijn loodgordel zat verkeerd, wat nooit zo was.' Ze draaide zich van het raam af. 'Daarom sta ik met handschoenen aan in de flat van jouw moordslachtoffer. Dat moet je weten voor we verdergaan, zodat je kunt beslissen of ik nuttig ben of alleen maar kapot.'
+
+Nadia antwoordde even niet. Buiten beklaagde een meeuw zich ergens over en een andere antwoordde. Er voer een boot voorbij en het licht in de kamer verschoof, de weerkaatsing van de gracht die over het plafond trok en wegging.
+
+'Allebei kan waar zijn,' zei ze ten slotte. 'Laat me dat mailding zien.'
+
+⁂
+
+Het duurde een uur en het zat niet op de laptop. Het zat in Victors eigen hoofd, dat weg was, dus werkten ze terug vanuit de kamer.
+
+Ze werkten zoals Sanne een zoekraster afwerkte, methodisch, overlappend, niets overgeslagen omdat het er leeg uitzag. Nadia nam de laden en Sanne nam de planken, ruggen lezend, elk boek aan de bovenrand kantelend om te voelen of er iets plat achter lag. Niets. De boeken waren alleen boeken — Nederlandse geschiedenis, een reeks over de zeventiende eeuw, over de handel en de gilden, over de koopmansfamilies die deze grachten hadden gebouwd; een plank droge vakteksten, belastingrecht, vastgoedrecht, de notariële wet; en één klein, versleten bijbeltje, bootformaat, het soort dat je bewaart omdat een grootmoeder het je gaf en niet omdat je erin leest. Maar een zorgvuldig man, dacht ze, verstopt niets in een boek, want een boek is de eerste plek waarvan een zorgvuldig man weet dat ze er zullen kijken.
+
+De kamer werd kouder terwijl ze werkten, of zij werd kouder van het stilstaan erin, het januarivocht dat uit de muren omhoogkwam zoals het overal uit omhoogkwam in deze stad, gebouwd op water en geheide palen. Ze hield haar ademhaling gelijkmatig. Ze had in twee jaar geleerd dat een kamer waar een bang mens had gewoond de angst vasthield nadat hij weg was, zoals een wetsuit de vorm vasthoudt van de laatste duiker — je kon voelen waar een man zich tegen zijn eigen leven aan had gedrukt. Victor had zich in deze veertig vierkante meter gedrukt en een tweede alarm in de muur geschroefd en achter een gewigde deur geslapen, en het had hem niet gered, want het ding dat voor hem kwam, was niet door de deur gekomen. Het was door het water gekomen, hetzelfde als het voor Daan kwam, al wist ze dat toen nog niet, daar staand; ze voelde alleen de vastgehouden angst van de kamer en hield hem, één ogenblik, voor de hare.
+
+Nadia vond de telefoonrekening in een la, in drieën gevouwen, en daaronder een tweede rekening voor een webmaildienst waar Victor jaarlijks voor betaalde, contant, per voucher — een aanbieder in IJsland die aan geen enkel Nederlands bevel gehoorzaamde en daar precies mee adverteerde. Op het bonnetje stond een gebruikersnaam gedrukt. Er was nergens een wachtwoord, en Nadia zei dat wachtwoorden er nooit waren, en Sanne, kijkend naar de rij boeken op hoogte en de schoenen bij de deur, zei: probeer de boot.
+
+'Welke boot?'
+
+'Hij is opgegroeid op een boot. Kijk.' Sanne wees zonder aan te raken: een foto op de plank, aan één hoek omgekruld, de enige foto in de kamer, een jongen aan dek van een kleine kruiser, de hand van een vrouw op zijn schouder, een naam op de spiegel geschilderd achter hen. *Aaltje.* 'Een zorgvuldig man gebruikt het ene woord dat hij nooit zal vergeten en nergens zal opschrijven waar het iets betekent.'
+
+'Je zou verbaasd staan wat mensen opschrijven.'
+
+'Hij niet.' Sanne keek naar de schoenen, de wig, het hard opgemaakte bed. 'Niet een man die zo leefde.'
+
+Nadia typte het op haar eigen telefoon, in de login van de IJslandse aanbieder. Het kostte de naam van de boot en een jaartal dat Sanne schatte aan de leeftijd van de jongen en een derde poging met de twee aan elkaar, en toen vulde het scherm zich met een postvak, en het postvak was bijna leeg, want Victor was ook daar zorgvuldig geweest. Hij had gewist terwijl hij ging. Maar hij was een mens geweest, en mensen vergeten de conceptenmap, en in de conceptenmap stonden negen berichten die hij aan zichzelf had geschreven en nooit had verstuurd, want versturen laat een lijn na en opslaan niet.
+
+Nadia las ze staande en deelde een lange minuut niets, en Sanne liet haar, kijkend hoe het gezicht van de rechercheur het kleine werk deed van een professional die haar eigen gezicht niets laat doen. Ergens beneden sloeg een deur en gingen voeten naar beneden richting straat, een buurman die de kou in ging, een leven dat doorging boven het plafond van de dode man.
+
+'Adressen,' zei Nadia ten slotte. 'Het is een lijst adressen.'
+
+'Waarvan?'
+
+'Huizen.' Ze scrolde. 'Grachtenpanden. Dezelfde zes, keer op keer, in elk concept, met getallen ernaast. Twee getallen elk.' Ze draaide de telefoon zodat Sanne kon meekijken, en Sanne las de eerste regel en voelde iets in haar borst zich op een koudere stand zetten.
+
+Herengracht. Dan een bedrag. Dan, tussen haakjes, een tweede bedrag, minder dan de helft van het eerste.
+
+'Dat is een prijs,' zei Sanne.
+
+'Twee prijzen.'
+
+'Waar een huis voor is verkocht. En wat het waard is.' Ze wist niet hoe ze dat wist; ze wist het zoals je de vorm kent van iets waar je in het donker omheen hebt gecirkeld, zoals je weet dat er een muur voor je is in zwart water voordat je hand hem vindt. 'Daan gebruikte er hetzelfde woord voor. Hij tikte dan op de tafel. Hij zei: de hele truc is het gat. Alles zit in het gat.'
+
+Nadia keek naar haar, en toen naar de zes adressen, en toen nam ze een foto van het scherm en één van het bonnetje en één van de jongen op de boot, en ze zei, zacht, zoals je een deur dichtdoet bij een slapend kind:
+
+'Dan gaan we morgen in het gat staan.'
+
+# Hoofdstuk zes — De huizen
+
+Het eerste huis stond aan de Herengracht en het was prachtig en er woonde niemand.
+
+Dat wisten ze om tien uur 's ochtends. Nadia had de dienstauto drie bruggen verderop gezet en ze liepen, want een lopende vrouw is meubilair in deze stad en een geparkeerde auto is een vraag. De kou was in de nacht hard neergekomen, de eerste echte kou van het jaar, en de gracht was aan de randen gaan aanzetten waar het water stil tegen de steen lag, een dunne, grijze korst ijs die een waterhoen brak en opnieuw brak terwijl het at. Hun adem ging voor hen uit. Sanne had zich gekleed op stilstaan buiten, wat zijn eigen discipline was, gelaagd zoals ze zich laagde onder een droogpak, en nog vond de kou de naden.
+
+De gevel was een halsgevel, gerestaureerd, de hijsbalk bovenaan vers geolied en nutteloos, de ramen hoog en schoon en erachter niets — geen gordijnen, geen planten, geen jassen aan haken, geen enkel voorwerp dat zegt dat een leven heeft toegestemd hier plaats te vinden. Een koperen plaat naast de deur zei helemaal niets. De deurmat zat nog in het plastic.
+
+Sanne stond aan de overkant van het water en keek naar het huis zoals ze naar een wrak keek voordat ze ernaartoe afdaalde: het oppervlak lezend op wat de diepte verborg. Vers gevoegd metselwerk. Nieuw lood op het dak, nog blank op de vouwen. Een containervergunning aan de binnenkant van het glas op de begane grond geplakt, drie maanden verlopen, omkrullend op de hoeken. Iemand had heel veel geld uitgegeven om dit huis volmaakt te maken en was toen weggelopen en had het volmaakt en leeg achtergelaten.
+
+'Vorig jaar verkocht,' zei Nadia, aflezend van haar telefoon, uit het Kadaster. 'Voor vier komma één miljoen. Daarvóór, achttien maanden eerder, verkocht voor één komma negen. Tussendoor gerenoveerd, zullen ze zeggen.' Ze scrolde, haar duim liet kleine geestjes na op het koude glas. 'Vier maanden geleden weer verkocht. Vier komma vier. De koper is een vennootschap. De eigenaar van de vennootschap is een andere vennootschap.'
+
+'En Victors getal?'
+
+'Victors getal zegt dat het twee waard is.' Ze keek omhoog naar de gevel. 'Hij schreef de echte waarde ernaast. Elke keer. Echte waarde, geregistreerde waarde. De geregistreerde klimt de ladder op en de echte staat hier gewoon op de stoep een huis te zijn.'
+
+Sanne begreep het toen, helemaal, zoals kou een naad vindt: het huis was geen huis. Het was een kwitantie. Je kocht het met geld dat een geur had, je verkocht het aan jezelf via een vennootschap die je ook bezat, en elke keer dat het van hand wisselde, zei het papier dat het meer waard was, en het papier was getekend en gestempeld en waar in de enige zin die de wet interesseerde, en aan het eind had je vier miljoen schone euro's en een verhaal over een renovatie om ze te verklaren. Het huis hoefde nooit bewoond te worden. Erin wonen zou het alleen maar verslijten.
+
+'Zes van deze,' zei ze.
+
+'Zes die Victor vond. Waarschijnlijk meer die hij niet vond.'
+
+'Wiens geld?' vroeg Sanne. Ze keek nog steeds naar het huis, naar de containervergunning, naar het nieuwe lood, blank op de vouwen van het dak.
+
+'Dat is de hele vraag, hè.' Nadia stak haar telefoon weg, in een jas die van de dienst was en warm en ook niets prijsgaf. 'Geld dat niet kan zijn wat het is. Drugs, het meeste, in deze stad, al hoeft het niet. Het komt vuil van de straat en het kan geen bank in als wat het is, dus het moet iets anders worden. Een huis is goed. Een huis zit stil. Een huis heeft een verhaal dat mensen al geloven — het wordt meer waard, dat weet iedereen, niemand kijkt op als een grachtenpand verdubbelt. Je helpt het alleen op papier verdubbelen, en jij bezit het papier, en nu is je vuile twee miljoen een schone vier.' Ze keek omhoog naar de gevel. 'En het mooie is dat het huis niets hoeft te doen. Het staat hier maar en laat je over zich liegen.'
+
+'Daan noemde het strijken,' zei Sanne. 'Je haalt het vuile door iets respectabels genoeg om het glad te persen.' Ze had in twee jaar niet aan dat woord gedacht en het kwam heel omhoog, in zijn stem, en ze liet het komen en liet het gaan.
+
+Ze liepen de rest. De stad ging om hen heen zijn ochtend door — een bezorger met een steekwagen die de kinderkopjes vervloekte, twee schoolkinderen met z'n tweeën op één fiets, een vrouw die een stoep boende die niet geboend hoefde te worden omdat de stoep boenen was wat je deed. Gewoon. En door het gewone heen geregen, het ene na het andere, de lege volmaakte huizen, elk een ingehouden adem.
+
+⁂
+
+Het tweede stond aan de Keizersgracht en had steigers en twee Poolse mannen erop die niet naar hen keken, een kozijn schurend met het geduld van mannen die per uur betaald worden en niet per resultaat. Het derde, aan de Reguliersgracht, was al volmaakt en leeg en had een klein, smaakvol bordje in het raam, een naam in grijze kapitalen boven een telefoonnummer: *SLOOTWEG VASTGOED.* Het vierde had hetzelfde bordje. Het zesde ook.
+
+'Eén makelaar,' zei Nadia. 'Dezelfde naam op drie ervan.'
+
+'Die huizen verkoopt die niemand koopt om in te wonen.'
+
+'En ze heel goed verkoopt.'
+
+Slootweg. Sanne draaide de naam om. Hij zei haar niets, of bijna niets — een naam gewoon genoeg, een grachtengordelnaam — en toen kwam er iets kleins boven en ze hield het tegen het licht en kon het niet stil krijgen. Ze had hem eerder ergens gezien. Kortgeleden. Ze kon het niet plaatsen en dwong het niet; een halve herinnering forceren joeg hem alleen maar dieper. Ze liet hem los en liep door en vertrouwde erop dat hij vanzelf zou rijzen, zoals iets rijst wanneer het gewicht eraf gaat.
+
+Ze hielden hun pas gelijkmatig en hun stemmen laag, twee vrouwen die een stukje liepen, en Sanne logde elk huis zoals ze een duik logde — diepte, gevaar, uitgang. Waar de deuren zaten. Waar een auto kon wachten. Hoeveel ramen op het water uitkeken en achter hoeveel daarvan iemand stond, en dat was geen een. De grachten van de gordel waren het oudste geplande water van het land, drieënhalve eeuw geleden in ringen gegraven door mannen die geld begrepen zoals duikers lucht begrijpen, en de huizen erlangs waren over geld gegaan vanaf de eerste steen — brede gevels voor rijke mannen, smalle voor arme, de hele straat een grootboek dat je vanaf een boot kon lezen. Er was niets veranderd behalve de eeuw. De huizen vertelden je nog steeds wat ze waard waren. Alleen logen sommige nu. De Reguliersgracht was de mooiste van de grachten, die van de ansichtkaarten, zeven bruggen op een rij in de lengte als het licht goed stond, en vanochtend stond het licht niet goed, alleen het vlakke grijs van een lucht die nog niet had besloten te gaan sneeuwen. De bruggen weken erin terug, boog na boog, en eronder stonden de lege huizen in hun spiegelbeelden.
+
+Ze kwamen aan het eind terug langs de Reguliersgracht, langs het derde huis, en er stond nu een man op de stoep die er eerder niet had gestaan. Hij was de deur aan het afsluiten, of aan het openen, en hij deed het kleine menselijke ding van omkijken wie er langskwam, en toen deed hij iets groters, namelijk naar hen glimlachen alsof hij precies deze twee vrouwen zijn hele leven had verwacht.
+
+'U bewondert het huis,' zei hij, eerst in het Engels, toen, hen opnieuw lezend, in het Nederlands. 'Dat doet iedereen. Het zijn de verhoudingen. 1671. De breedte is het hele geheim — hoe breder de gevel, hoe rijker de man die hem bouwde. Deze heeft driehonderd jaar belasting betaald op zijn ijdelheid.' Hij kwam één tree naar beneden. Hij was misschien vijftig, zilver bij de slapen, een jas die had gekost wat Sanne in een maand verdiende en viel alsof hij gegroeid was in plaats van gemaakt. Hij droeg geen handschoenen in de kou, wat ze opmerkte, een man die zijn handen gezien wilde hebben, verzorgd, zonder haast. 'Ruud Slootweg. Bent u aan het kijken? Ik zie het altijd als iemand aan het kijken is.'
+
+'Gewoon aan het wandelen,' zei Nadia.
+
+'Niemand wandelt zomaar langs dit water. Ze wandelen ernaartoe.' Hij had een manier om je op te nemen in een grap die je niet had gemaakt. Zijn ogen gingen over Sanne, zonder haast, professioneel, zoals een man een kamer leest die hij gaat verkopen. 'U heeft iets directs. Rotterdam?'
+
+Nadia zei niets, wat een antwoord was.
+
+'Ik mag Rotterdam. Daar breken ze dingen af als ze ermee klaar zijn. Hier zijn we te sentimenteel. We bewaren het lijk en noemen het erfgoed.' Hij glimlachte om de scherpte eraf te halen, en er was een scherpte, en de glimlach haalde hem er niet af; hij kondigde alleen aan dat hij wist dat hij er was en had besloten hem toe te staan. 'Het huis is beschikbaar, als u binnen wilt kijken. Al waarschuw ik u: het is leeg. Mensen vinden dat teleurstellend. Ze willen een vuur in de haard. Ik zeg ze: een leeg huis is eerlijk. Het doet niet alsof het iemands thuis is.'
+
+Achter hem, door het hoge schone glas, kon Sanne de leegte zien die hij verkocht: kale vloerdelen bleek geschuurd, muren in het vlakke wit van een galerie tussen twee tentoonstellingen, een trap die omhoog draaide in grijs licht met niets bovenaan. Een prachtige doos. Een plek waar geld heen ging om van naam te veranderen.
+
+'Hoeveel?' vroeg Sanne. Het was het eerste wat ze zei.
+
+Hij draaide het volle gewicht van zichzelf naar haar toe, en het was warm, en het was een zoeklicht. 'Vierenhalf. Voor u zou ik een reden vinden waarom het minder was.' Een pauze, een ogenblik te lang vastgehouden om alleen charme te zijn. 'Duikt u?'
+
+Het water werd heel stil om Sanne heen. Ze bewoog niet. Ze had de roerloosheid van een duiker, aangeleerd door jaren hangen aan een lijn met niets te doen terwijl je lucht wegliep, en ze gebruikte hem nu, en het kostte haar iets om hem te gebruiken.
+
+'Uw handen,' zei hij, gebarend, gemakkelijk. 'De kleine littekens op de knokkels. Mijn broer zeilt. Zeilers en duikers hebben dezelfde handen — de zee blijft erop schrijven.' Hij stapte alweer omhoog, was alweer elders, zoals een man een gesprek verlaat waarvan hij heeft besloten dat hij het gewonnen heeft. 'Het is een kleine stad. Ieders handen zeggen iets. Ik hoop dat u vindt waar u naartoe wandelt.' Hij stak zijn sleutel in het slot. 'Het water is koud in deze tijd van het jaar. Zelfs voor mensen die van koud houden.'
+
+Hij ging naar binnen en deed de deur van het lege huis dicht, en door het hoge schone glas keken ze hoe hij geen licht aandeed, want daar was geen reden voor, want er woonde daar niemand en er zou ook nooit iemand wonen. Hij stak één keer de kale vloer over, zonder haast, een donkere gedaante die door de bleke kamer bewoog, en toen nam een deuropening hem op en was het huis weer leeg zoals het bedoeld was.
+
+Nadia liet een adem los die aansloeg tot damp en verwaaide. 'Hij had jou door.'
+
+'Hij had ons allebei door.' Sanne keek naar haar eigen knokkels, de kleine witte geschiedenis daar, de littekens die een wrakduiker verzamelt op staal en schelp, en dacht dat een man die voor de kost handen las de hare had gelezen en had besloten haar te vertellen dát hij ze gelezen had. Dat was geen charme. Charme was de verpakking. 'Hij wilde dat we wisten dat hij het wist. Dat is een boodschap.'
+
+'Aan wie?'
+
+'Aan wie hij belt zodra we weg zijn.'
+
+Ze liepen terug zoals ze gekomen waren, ook zonder haast, want nu haasten was hem antwoorden. De kou was dieper geworden terwijl ze stonden. Het ijs aan de rand van de gracht was een handbreedte gegroeid. Achter het glas stond het huis volmaakt, alleen verlicht door de grijze middag, de gracht ondersteboven in zijn ramen zoals ze allemaal deden, en Sanne dacht aan het gat — echte waarde, geregistreerde waarde — en aan een compliancemedewerker die zes adressen negen keer aan zichzelf had geschreven en toen met teamgordels was omgord en in de kou was gelaten, en ze begreep dat zij en Nadia zojuist, midden op een doordeweekse ochtend, recht naar de rand waren gelopen van hetzelfde gat waar Daan in was gevallen, en hadden geglimlacht naar de man die aan de overkant ervan stond.
+
+Op de hoek bleef ze staan en keek één keer om. De Reguliersgracht liep achter hen weg, brug na brug het grijs in, en elk huis eraan was iemands thuis behalve de huizen die van niemand waren, en van hier kon je niet zien welk welk was, en dat was de bedoeling, dat was altijd de bedoeling geweest.
