@@ -428,3 +428,71 @@ Gwen was already shaking her head, but slowly, the way you do at a thing that is
 Ash Carrow, of the Carrows on the chapel wall, took the brass key out from under his collar, sixty years overdue at the drawer it came from. "The map room," he said, "was fitted out by the Governors' Building Committee in 1961. My great-grandfather chaired it. There's a second door behind the map presses, through to the old muniment stair — it's on the committee drawings, I used to trace them when I was small." He weighed the key once. "Governors' fittings, governors' locks. Nobody has ever changed anything at this school that a Carrow paid for."
 
 "Founders' Day is in nine days," said Gwen Okafor, to nobody in particular, in the tone of a woman signing something. "The exhibition cases go into the reading room Friday. He'll want his answer before the collection goes on show, and we will want ours first." She stood, and straightened her cardigan, Special Collections again to the beads of her glasses chain. "Wednesday, then. Digitization day. I shall want that register back on my desk by eight, Miss Vane, and I have absolutely no idea what any of you do with your Thursdays."
+
+# Chapter 10 — The Map Room
+
+The muniment stair smelled of cold stone and mouse, and Ash's torch found the committee's 1961 handiwork exactly where the drawings promised: a plain oak door behind the map presses, its lock the same pattern as the grille's old one, because the Governors' Building Committee had bought its ironmongery in one job lot and never imagined a world that would need to know.
+
+The brass key turned like it had been waiting.
+
+They went in single file — Iris, Priya, Ash on the door — into the project workroom at eight on Wednesday evening, while below them the school was at prep and Gwen Okafor sat conspicuously at her desk in the reading room's camera-light, being the most documented librarian in England. That was her alibi and her orders were on the wall of all their heads: *touch nothing you can't restore, photograph everything, and be out by the quarter bell.*
+
+The map room had become a small museum of their own bequest. Trestle tables in rows. Foam cradles, snake weights, a photography stand, the auction house's grey archival boxes labelled in fine neat marker. V.9.34 lay in the third box Priya checked, snug in tissue, dull as ever: *Sermons Preached in the Chapel of Aldercote School, by Sundry Hands.* Bound — Iris's own eye caught it at once, and her throat went tight — bound beautifully. Modest cloth, but the squares true, the joints straight, the headbands sewn, not stuck. A seventeen-year-old had done this thirty years ago, working at night with her whole life coming down around her, and had not skimped the headbands.
+
+"Twenty minutes," said Ash from the door.
+
+The condition slip on the box said, in fine propelling-pencil capitals, *ANNOTATIONS THROUGHOUT — SCHOOLBOY INDEX HAND, LOW INTEREST. QUERY: RECENT DISTURBANCE?* — and Priya photographed that first, because the block capitals were becoming a hand they knew as well as Wren's. Then the book itself, page by penciled page, the camera clicking like a beetle while Iris read.
+
+Wren's cipher ran in the margins of a sermon on the text *thy word is a lamp unto my feet* — a column of tiny figures disguised, just as the Browne had been, as a reader's index. Page, line, word. Iris didn't dare decode on the spot; she called numbers low and steady and Priya shot them, and they were down the muniment stair with the box re-tissued and the quarter bell still swinging when it rang.
+
+In the nest, by torchlight, with Gwen arrived breathless from her alibi, they walked the numbers through the sermons one word at a time, and Marion Cray's last entry stood up out of a dead vicar's prose and spoke:
+
+*where · no · hand · may · mark · and · every · eye · passes · by · the · law · itself · is · the · hiding · place · the · frame · is · a · binding · open · the · back · board · and · keep · us · honest*
+
+Nobody said anything for a moment. Above their heads, through the floor, the library was one long lit room where, beside the door, in an oak frame two hundred years old, the founder's rule hung where it had hung since before anyone living: *Let no hand mark these books, upon pain of expulsion.* The most looked-at, least seen object in the school. In full view of the reading room, the issue desk, and the little red-eyed camera. The one wall at Aldercote that every eye passed and no hand would ever, ever dare touch.
+
+"She hid it behind the law," said Ash, half laughing, hushed. "She hid it *inside the rule they used to break her.* Under the camera. Outside the bequest — outside the whole valuation, he can catalogue nine cases till doomsday—"
+
+"The frame is a binding," Iris murmured. The purest professional admiration was running through her like current. "Oak boards, backing panel, probably sealed with paper tape like every Victorian framing job — that's a book, structurally, that's just a book with one page. You'd need a knife, twenty minutes, and a reason to be touching it." She looked up at the ceiling, at the invisible frame beyond it, at the little red eye beside it. "And no one has had a reason to touch it in thirty years."
+
+"Then we manufacture one," said Gwen Okafor slowly, "in the open, in the light, on the record — because the age of doing things quietly at this school is over; quietly is *his* country." She was watching Iris with an expression that had stopped being a librarian's. "Condition survey of library fixtures and historic fittings, prior to Founders' Day. Signed authorization, Special Collections. It is, after all" — the dry papery voice, one last time, pure Custos — "exactly what I would ask my mender to do."
+
+# Chapter 11 — The Price of Quiet
+
+Iris took the founder's rule off the wall at ten o'clock the next morning, in front of the camera, wearing cotton gloves, from a stepladder held by the duty prefect.
+
+It was the strangest quarter hour of her life. The reading room worked on around her — pens, whispers, the issue desk's stamp — while she laid the frame face down on baize, on the big table, with a printed survey form beside her and her heart going like a sewing machine. The backing panel was sealed with paper tape gone amber, slit once along the bottom edge — old slit, old re-glue; someone had been here before her, in some February when this room was thirty years younger. She lifted the panel.
+
+An oilcloth packet, flat as a pressed leaf, lay between the backing and the rule, tied with unbleached linen thread in a binder's knot her own fingers knew before her eyes did.
+
+She noted on the survey form, in her ordinary mender's hand, *backing disturbed; debris removed; resealed* — which was, she would think later, the only officially logged lie of the entire affair — and walked out of the library at eleven with the school's whole buried history flat against her ribs under her apron, past the little red camera, which recorded, as it had recorded thirty years of afternoons, precisely nothing that mattered.
+
+They opened the packet in the nest at four. Photocopies, eleven leaves, the bursary's fund ledger for 1991 through 1993, each page initialed *E.S.* in the corner in a young man's confident fountain ink; and clipped to them two more pages in Wren's rounded hand — a letter, addressed to the Chair of Governors, never sent, dated the fourth of March 1994, setting out in numbered paragraphs, with the page references keyed and the arithmetic shown twice, where the Fenwick Foundation's money had been going. And beneath the signature, in pencil, later, smaller, pressed hard:
+
+*If you are reading this, I didn't get to say it. So say it for me. It was never about the money. It was about which of us they could afford to disbelieve. — Wren.*
+
+Priya laid her own printouts beside the photocopies without a word: her five years of too-smooth summaries, the same species of wrongness, the same signature style of it, thirty years on. The proof and the pattern. Cannot be shouted down.
+
+Dr. Sim sent for Iris on Friday.
+
+Not to his office. To the map room, among the trestles and the grey boxes, at the hour when menders finished their shifts, and he was courteous in the way that Iris had learned, at Aldercote, ran deeper and colder than rudeness ever managed. There was a folder on the table between them. He was, he said, in an awkward position, and would value her help.
+
+The valuation's photography had turned up something distressing: recent graphite in the Verrall Bequest. Fresh marks — he opened the folder — among the historic soiling. Here, enlarged: a flyleaf, and on it, under an old question, one small word and one initial. *Yes. — I.* And here — he turned the page unhurriedly — a sample requested, quite routinely, from the menders' log at the issue desk, where a careful, distinctive shop-hand had signed itself in and out all term.
+
+"You have a gift, Miss Vane," said Dr. Sim. "Every specialist who has seen these books remarks on the annotations; it took our project to discover how *recent* some of them are. Now. Writing in the founder's books is the one offence this school has never once forgiven — you'll have read the frame by the door. Expulsion, and for a Fenwick Scholar the forfeiture of everything, and given your family's circumstances—" He let the sentence lie down by itself, like a trained dog. "But I find I'm not eager to end a promising career over one word. Girls have been destroyed here for less, you know. I've often thought it wrong." He aligned the folder's edge with the table's. "The scholarship review meets before the Board's autumn session, at which — between us — I expect the eleven Fenwick places to be restored in full. I would be glad to see your name safe on that list. What the review will want is simple: the register you borrowed returned to Ms. Okafor's desk, an end to certain out-of-hours reading, and the good sense — which I think you possess in rare measure — to understand that the past of this school is *catalogued*, now, by professionals, and needs no further amateur attention. Do we understand one another?"
+
+The wrongness of the room was that it was reasonable. That was the whole art of the man, Iris thought, sitting very still: he had stood in a study like this in 1994 and been reasonable at a seventeen-year-old until she signed away her life *in view of the family's circumstances*, and the school had thanked him for handling it so kindly. He didn't threaten. He arranged. He was arranging now, in his fine unvarying voice, and somewhere under her ribs, where the oilcloth packet had ridden, Iris felt the exact weight of what Marion Cray had been carrying down that corridor past Gwen's eyes: not fear. Arithmetic. Her mother's shop. The bus timetable on the workshop wall. Four scholarships next year, or eleven, and hers either way — all she had to do was become, quietly, permanently, a girl who couldn't read.
+
+"We understand one another," she said, "perfectly," and watched him hear only the words.
+
+She made it as far as the north bay before her hands started shaking, and that was where they found her at half past five, the whole quorum, because Priya had watched the map room door and texted the others from the one laptop that never touched the school's network, and no member shall ask why but all three of them came anyway. She told it plainly, the way Gwen had taught them all to tell things. The folder. The offer. The review.
+
+"You said yes," Ash said carefully.
+
+"I said we understood one another." Iris looked at her own hands until they chose to be still. "He's going to learn how true that was. But if we do this — when we do this — it isn't me being brave with your lives. His first move is expulsion papers with my name on them, and the second is Gwen's job, and I need to hear all of you say—"
+
+"Oh, shut *up*," said Priya, not unkindly, already opening the laptop. "Founders' Day. Talk about the seating."
+
+Gwen said nothing at all just then. But on Sunday she drove ninety minutes to a market town two counties over, to a narrow shop with *CRAY & DAUGHTERS — SECONDHAND & ANTIQUARIAN* over the window, and was gone a long time, and came back with her eyes bad and her spine like a lance, carrying Marion Cray's answer, which was four words long, written — in pencil — on the shop's own bookmark:
+
+*Save me a margin.*
