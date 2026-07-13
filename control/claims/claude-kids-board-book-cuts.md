@@ -1,0 +1,1 @@
+- `claude/kids-board-book-cuts` · **books: kids board-book versions** — toddler-length EN/NL/DE cuts · candidates/childrens-books/*/versions/** · 2026-07-13
