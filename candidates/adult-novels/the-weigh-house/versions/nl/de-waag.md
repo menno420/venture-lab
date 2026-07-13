@@ -609,3 +609,179 @@ Ze schreef in plaats daarvan, in haar eigen gelijkmatige hand onder de twee logs
 Ze fotografeerde de twee gordels naast elkaar, naar rechts verschoven, tamp van rechts naar links, de signatuur en zijn kopie, de flits die twee keer van het neopreen sloeg. Ze verzegelde Daans afdrukken terug in hun hoes, één voor één, zonder te kijken naar de delen ervan waarnaar ze zichzelf had getraind niet te kijken, en ze verzegelde Victors gordels in hun zakken en logde de zegels. Alles in orde. Alles waar het papier het kon houden.
 
 Ergens in het gebouw ging een deur open en kwamen laarzen door een gang, zonder haast, vertrouwd, een man die vroeg arriveerde zoals hij altijd deed, zoals hij altijd had gedaan, als eerste binnen, als laatste weg, degene die de controleurs controleerde. Ze kende het geluid van hem zoals ze het geluid van haar eigen uitrusting kende. Sanne deed het dossier dicht en pakte haar koude koffie en zette het gezicht op dat ze aan de lijn droeg, vlak en gereed en het water niets gevend, want van wie de hand ook was, hij zat nog op haar team, en hij was nog altijd, elke keer dat ze onderging, degene die het andere eind van haar touw vasthield.
+
+# Hoofdstuk negen — De post
+
+De sorteerhal in Sloterdijk rook naar heet rubber en papierstof, en de transportbanden hielden nooit op. Sanne stond aan de balie in haar burgerjas en keek toe hoe een vrouw die Agata heette de naam van Victor Maas door drie systemen haalde, terwijl de machines achter haar enveloppen het donker in voerden in een tempo dat tellen zinloos maakte. Het was het soort plek dat om vier uur 's nachts hetzelfde draaide als om twaalf uur 's middags, onverschillig voor weer, onverschillig voor de doden. Ergens voorbij de laaddeuren zat de januarikou over de rangeerterreinen, en binnen was alles warm plastic en het gezoem van banden, en Sanne hield haar handen in haar zakken en dwong zichzelf stil te staan.
+
+'Niets onder aangetekende post,' zei Agata. 'Niets vastgehouden. Weet u zeker dat het PostNL was?'
+
+'Ik weet niets zeker,' zei Sanne. 'Daarom ben ik hier.'
+
+Agata gaf haar een blik die niet onvriendelijk was, de blik van iemand die de hele dag te maken had met mensen die wilden dat een pakket meer betekende dan het deed. Toen ging ze terug naar het scherm. Haar nagels klikten op de toetsen. Achter haar reed een man in een hesje een kooi met grijze bakken voorbij en keek naar geen van beiden, en de bakken schommelden en kwamen tot rust, duizenden brieven op weg naar nergens waar Sanne ze kon volgen.
+
+Nadia leunde naast haar op de balie, geduldig op de manier waarop zij geduldig was, wat helemaal niet geduldig was maar heel stil. Ze was uit de stad komen rijden in de grijze Opel die naar andermans sigaretten rook, en ze had onderweg bijna niets gezegd, wat betekende dat ze hard nadacht over het ding dat ze allebei al wisten en geen van beiden hardop had gezegd. Dat de gordels teamuitgifte waren. Dat de hand die Victor had opgetuigd een hand was die het water kende en het korps kende en toegang had tot allebei. Het was een gedachte met een vorm waar je je niet naar wilde omdraaien, en dus hadden ze zwijgend langs de havenkranen gereden met de wissers aan, en Nadia had één sigaret gerookt met het raam op een kier en hem half opgerookt uitgedrukt.
+
+'Probeer poste restante,' zei Nadia.
+
+Agata typte. Het scherm wierp zijn bleke licht omhoog onder haar kin. 'Er staat een afhaalbericht bij het kantoor aan het Singel. Op naam van—' ze kneep haar ogen toe '—V. Maas. Elf dagen geleden binnengekomen. Niet afgehaald.'
+
+Elf dagen. Victor was tien dagen geleden de Kloveniersburgwal in gegaan. Hij had het ding, wat het ook was, gepost op de dag voor zijn dood, en toen was hij gestorven, en het had in een stalen la aan het Singel liggen wachten op een man die nooit meer kwam. Sanne maakte de rekensom twee keer en hij kwam beide keren hetzelfde uit, zoals rekensommen doen. Een man die weet dat hij misschien sterft, stuurt zichzelf niet per ongeluk iets toe. Hij stuurt het zichzelf toe omdat hij geen adres vertrouwt dat aan iemand anders toebehoort.
+
+'We moeten het ophalen,' zei Sanne.
+
+'Dan heeft u een legitimatie nodig die bij de naam past, of een vordering, of een nabestaande met bewijs.'
+
+Nadia had haar telefoon al in haar hand. 'De zus,' zei ze. 'Marije. Amstelveen.'
+
+⁂
+
+Marije Maas woonde in een benedenwoning met een kinderdriewieler in de gang en een etensgeur waar ze zich voor verontschuldigde alsof het een misdrijf was. Ze was jonger dan Victor was geweest, zachter in het gezicht, en ze had al gehuild — dat was duidelijk — en zichzelf weer in elkaar gezet voor de deurbel, en nu stond ze de deurpost vast te houden alsof de twee vrouwen op haar stoep haar ook dat konden afnemen.
+
+'Politie,' zei ze. 'Alweer.'
+
+'Niet dezelfde politie,' zei Nadia, wat waar was op een manier die Sanne nog maar net begon te begrijpen. 'Mogen we binnenkomen?'
+
+Ze zaten in een kleine voorkamer met te veel kussens. Een jongetje van een jaar of vier keek naar hen vanuit een deuropening, duim in de mond, tot zijn moeder hem wegstuurde met een blik. Er tikte een radiator onder het raam en er stond condens op het glas, en daarachter een binnenplaats met één kale boom en een trampoline bevlokt met natte bladeren. Sanne liet Nadia het woord doen. Zij was beter in de vorm ervan, het verzachten, de vragen die van opzij binnenkwamen. Sanne keek in plaats daarvan naar de handen van de zus. Je leerde meer van iemands handen dan van hun gezicht. Het gezicht werd beheerd. De handen vergaten het.
+
+'Victor heeft me een sleutel gestuurd,' zei Marije, toen ze er waren. 'Twee weken geleden. In een envelop, zonder brief. Ik dacht dat het een vergissing was. Hij deed zulke dingen toen we klein waren — stuurde me dingen, liet me raden.' Ze keek naar het raam. 'Ik dacht dat het een grap was die ik nog niet begreep.'
+
+'Heeft u hem,' zei Sanne. Het eerste wat ze zei.
+
+Marije ging de kamer uit. Ze hoorden een la, een keukenla aan het geluid te horen, het gerammel van kleine voorwerpen die een huis verzamelt — batterijen, touw, de sleutels van sloten die niet meer bestonden. Ze kwam terug met een platte sleutel aan een papieren label, het soort sleutel dat een muntkluisje opent. Op het label, in de kleine vierkante hand die Sanne op Victors compliancememo's had gezien, een nummer. 114.
+
+'Hij belde me de avond ervoor,' zei Marije. Ze keek naar de sleutel in Sannes handpalm en niet naar Sanne. 'Hij zei: als er iets gebeurt, moet je de sleutel aan een politieman geven die je vertrouwt. Niet zomaar een politieman. Een die je vertrouwt.' Ze lachte, één keer, zonder enige humor erin. 'Alsof ik politiemannen ken. Alsof er één vertrouwen iets is wat een mens kan regelen.'
+
+'Waar past hij op,' vroeg Nadia.
+
+'Centraal Station,' zei Marije. 'Hij zei: de bagagekluizen. De kluisjes aan de oostkant, de oude, niet de automaten.' Ze keek eindelijk op, eerst naar Nadia en toen, langer, naar Sanne. 'Bent u degene die ik vertrouw? Want ik weet niet hoe ik dat moet zien.'
+
+Sanne sloot haar hand om de sleutel. Hij was koud en werd langzaam warm tegen haar handpalm zoals alles dat werd. Ze overwoog de vrouw iets geruststellends te vertellen, en deed het niet, want Marije Maas was al geruststellende dingen verteld door mensen in jassen, en een van die dingen was geweest dat haar broer per ongeluk was verdronken.
+
+'Nee,' zei ze. 'Maar ik ben degene die gaat vinden wie dit heeft gedaan. Dat is niet hetzelfde. Het is misschien genoeg.'
+
+Marije keek haar lang aan. Toen knikte ze, langzaam, zoals mensen knikken wanneer ze hebben besloten op te houden met een antwoord nodig te hebben dat ze toch nooit zouden krijgen. Bij de deur pakte ze Sannes mouw, één keer, kort, en liet hem los. 'Hij was voorzichtig,' zei ze. 'Mijn broer. Hij was de voorzichtigste man die ik ooit heb gekend. Als hij bang was, moet u bang zijn.' Het was geen waarschuwing die ze hoefde te geven. Sanne nam hem toch aan, en droeg hem mee naar buiten de kou in, met de sleutel.
+
+⁂
+
+De bagagekluizen aan de oostpassage van het Centraal waren de oude rij, stalen deurtjes geverfd in de kleur van een zwembad, de meeste inmiddels van het elektronische soort maar een strook van de originelen nog aan de muur gebout, achter een pilaar waar het licht niet kwam. Het station raasde om hen heen, de vieruurdrukte, de vertrekborden die omklapten, ergens een straatmuzikant die iets met een accordeon deed, en niemand keek naar twee vrouwen in jassen bij een muur. Dat was het ding met het station. Het was het meest bekeken gebouw van de stad en de makkelijkste plek erin om onzichtbaar te zijn.
+
+114 zat op kniehoogte. Sanne hurkte. Nadia ging zo staan dat haar lichaam de zichtlijn vanaf de passage blokkeerde, achteloos, handen in haar jas, kijkend naar de stroom mensen en niet naar het deurtje. Ze had een manier van staan die las als wachten op een trein en in werkelijkheid een perimeter was.
+
+De sleutel draaide stroef en gaf toen mee. Binnenin een gewatteerde envelop, A4, zonder opschrift, drie keer over de naad afgeplakt zoals een voorzichtig man iets afplakt dat hij niet per ongeluk open wil maken. Hij was zwaarder dan papier. Sanne kende het gewicht voordat ze het helemaal voelde — een laptop, dun, of een plak print. Ze maakte hem daar niet open. Ze stak hem binnen haar jas tegen haar ribben en draaide het lege deurtje op slot en gaf de sleutel aan zichzelf terug, draaiend, en kwam overeind. Haar knieën klaagden. De kou trok nu overal in, in gewrichten waarvan ze niet had geweten dat ze ze had tot Daan stierf en het jaar verkeerd draaide.
+
+'Iets,' zei Nadia, zonder zich om te draaien.
+
+'Alles, misschien,' zei Sanne. 'Niet hier.'
+
+⁂
+
+Ze maakten hem open in de Opel in de P1-garage onder het station, portieren op slot, het beton dat boven hen neerdrukte en de ventilatie die ergens ver weg loeide. Hier beneden was de kou een andere kou, stil en chemisch, uitlaat en natte steen. Een autoalarm tjilpte twee verdiepingen lager en hield op. In de envelop zat een laptop, een oude zakelijke machine met een half weggekraste asset-sticker, en daaronder een geprinte spreadsheet, twee keer gevouwen, veertig bladzijden, en één vel gelinieerd papier vol met Victors vierkante hand.
+
+Nadia nam het papier. Sanne nam de spreadsheet en vouwde hem open over het stuur.
+
+Het waren, eerst, alleen kolommen. Adressen — grachtenpanden, de hele rol, Herengracht en Keizersgracht en de Kloveniersburgwal en straten die Sanne kende als muren boven water. Dan datums. Dan twee kolommen geld naast elkaar, en het verschil ertussen uitgerekend in een derde, en de derde kolom was degene die ertoe deed. Geregistreerde waarde. Echte waarde. Delta. Sommige delta's waren klein. De meeste niet. Eén huis aan de Herengracht toonde een delta van één komma één miljoen euro, wat betekende dat de akte het ene zei en de wereld het andere had betaald en dat de ruimte tussen de twee getallen schoon en gewassen de transactie uit was gelopen, toebehorend aan geen misdrijf dat iemand kon benoemen. Sanne liet een vingertop langs de kolom gaan en de bedragen bleven komen, bladzijde na bladzijde, tien jaar ervan, het stille rekenwerk van een stad die gekocht werd met geld dat gemaakt moest worden nooit te hebben bestaan.
+
+Boven aan de vierde kolom, initialen. C.A. bij de notariële regel, keer op keer, bladzijde na bladzijde. En in de kolom ernaast, de stroman, de koper op papier die nooit de koper was: R.S. R.S. R.S. Ruud Slootweg had zijn innemende naam onder elf grachtenpanden in vier jaar gezet en bezat, op papier, het vermogen van een klein land en, in de wereld, een geleasede BMW en een flat die hij huurde.
+
+'Aalving,' zei Sanne. 'Cornelis Aalving. De Notaris. Zijn kantoor tekent het, zijn waardering draagt het, en Slootweg staat voor de aankoop.' Ze hoorde haar eigen stem vlak en zorgvuldig worden, de stem die ze onder water in haar hoofd gebruikte, tellend. 'Dit is het. Dit is de hele machine op veertig bladzijden.'
+
+Nadia had niets gezegd. Sanne keek opzij. Nadia las het gelinieerde vel, Victors eigen woorden, en haar gezicht was ergens heen gegaan waar Sanne niet van hield.
+
+'Lees voor,' zei Sanne.
+
+Nadia las voor. '"Als u dit leest ben ik waarschijnlijk dood en zal het een ongeval genoemd worden. Het zal verdrinking genoemd worden. Het werd ook verdrinking genoemd bij de andere. Kessler."'
+
+De garage was heel stil. Sanne bewoog niet. De naam zat bij hen in de auto, haar eigen naam, de naam van haar dode man, in de hand van een vreemde, en ze maakte haar ademhaling langzaam en gelijkmatig en liet hem het andere niet doen, niet hier, nog niet.
+
+'Ga door,' zei ze.
+
+Nadia's kaak werkte. '"De waarderingen zijn het kleinste deel. Iedereen kan de waarderingen vinden als hij kijkt. Het deel dat niemand vindt, is dat de ongevallen geregisseerd worden. De bergingen worden geregisseerd. Als ze iemand in het water leggen, wordt het gedaan door iemand die beheerst wat er daarna gebeurt — het zoeken, het vinden, de uitspraak. Iemand van binnen. Ik heb de naam niet. Ik weet alleen dat het water geen ongeluk is. Het water is een dienst. Wie de bergingen leidt, leidt het doden. Vind die persoon en u heeft ze allemaal."'
+
+Nadia liet het vel zakken.
+
+Sanne keek naar de spreadsheet op haar schoot, naar C.A. en R.S. die over de bladzijden marcheerden, naar de één komma één miljoen euro die de dood van een man had gekocht en een valse uitspraak en twee jaar van een weduwe die geloofde dat haar man onvoorzichtig was geweest met de kou. Ze had het zelf geloofd. Ze had aan een graf gestaan en half geloofd dat Daan, die een grachtbodem beter las dan wie ook, de ene fout had gemaakt die het water niet vergaf. Ze had zich dat laten vertellen. Ze had, een tijdlang, nodig gehad dat haar iets verteld werd.
+
+Er was geen naam voor de man van binnen. Victor was gestorven zonder hem. Hij had geweten dat er een hand in het water zat en hij had niet lang genoeg geleefd om te leren van wie.
+
+Maar Sanne kende de vorm van de hand. Ze had zijn werk nu twee keer gezien, dezelfde belading, dezelfde zuinigheid, dezelfde kennis van precies hoe een lichaam ligt wanneer een zoekteam ervoor komt. Iemand die het zoeken beheerste. Iemand die de gordels uittekende. Iemand die het water tot ongeval verklaarde en het liet standhouden. De kennis was nog geen gedachte. Hij zat lager dan een gedachte, een druk achter het borstbeen, en ze hield hem daar.
+
+Ze vouwde de spreadsheet langs Victors zorgvuldige vouwen en stak hem terug tegen haar ribben, en de naam die niet op de bladzijde stond, begon, heel stil, zichzelf te schrijven ergens achter haar ogen, waar ze hem nog niet wilde lezen.
+
+'We hebben ze allemaal,' zei ze. 'Behalve degene die er het meest toe doet.'
+
+# Hoofdstuk tien — Wie overblijft
+
+Het magazijn op de teambasis rook naar neopreen en het roze ontsmettingsmiddel dat ze op de ademautomaten gebruikten, en het was de enige ruimte in het gebouw zonder raam, wat Sanne altijd prettig had gevonden en nu, om zeven uur 's ochtends er alleen staand, niet meer. Het tl-licht kwam op met een hapering en een koud gezoem. Buiten, voorbij de roldeur, had de lucht boven de haven de kleur van nat cement en zou die kleur houden tot drie uur, waarna hij, zonder ooit lichter te worden, zou beginnen donker te worden. Januari gaf je in deze stad ongeveer zes uur grijs en noemde het een dag.
+
+Ze was met opzet vroeg gekomen. Ze had het gordellogboek open op de werkbank, het fysieke, de ringband die ouder was dan het digitale systeem en die niemand de moeite had genomen af te schaffen omdat Bram van papier hield en Bram het magazijn leidde. Elke loodgordel van teamuitgifte droeg een serienummer in de gesp gestanst. Elke uitgifte was een regel in de ringband: gordelnummer, duiker, datum, klus. Het was het saaiste document van het gebouw. Het was, begreep Sanne nu, een bekentenis, als je het op de juiste manier las en wist waar je naar zocht.
+
+Ze wist waar ze naar zocht. Ze had de nacht doorgebracht met Victors spreadsheet en Victors brief en de herinnering aan twee lichamen, en ze had een lijst gemaakt, en de lijst was kort.
+
+Wie kon een berging van binnenuit regisseren? Geen junior. Een junior dook waar hem gezegd werd en tekende niets wat ertoe deed. Het moest iemand zijn die een telefoontje kon aannemen, een team te water kon laten, het zoeken kon leiden langs de lijn die hij koos, en aan de schouder van de leidinggevende kon staan wanneer de uitspraak werd geschreven — of hem zelf schreef. Iemand die de gordels uittekende en er een kon intekenen die nooit was teruggekomen, of hem in het papier kon verliezen, of vervangen. Iemand die het water zo goed kende dat hij een man erin kon leggen en tot op de meter wist waar hij zou zijn wanneer ze kwamen zoeken, want hij was degene die kwam zoeken. Iemand die de lijkschouwer bij de voornaam belde. Iemand die de jonge duikers ook bij zijn voornaam noemden, en het warm meenden.
+
+Dat waren drie mensen op het hele team. Toen waren het er twee, want Willemsen was in Groningen geweest de week dat Victor stierf, en het rooster bewees het, een detachering voor training, gestempeld en gedateerd en onmogelijk te vervalsen. Toen was het er één, want de tweede man, De Wit, was acht maanden geleden bij het team gekomen en had Daan Kessler nooit van zijn leven ontmoet, en wie dit had gedaan, had Daan gekend. Had Daan goed genoeg gekend dat Daan hem in vertrouwen nam. Victor was als vreemde van het water gestorven. Daan als vriend ervan. Dat was het scharnier. Dat was het ding dat de zaak veranderde van een gracht in een gang met één deur aan het eind.
+
+Dat liet de naam over boven aan het gordellogboek, de naam op de rug van de ringband in zijn eigen zorgvuldige kapitalen, de naam die gordel 07 en 09 had uitgetekend — de twee op Victor, ze had de serienummers om drie uur 's nachts met een zaklamp tegen de berginginventaris gelegd, twee keer, want de eerste keer had ze de zaklamp neergelegd en in haar keuken gestaan en zich niet kunnen bewegen.
+
+BRAM VERHOEVEN.
+
+⁂
+
+Ze wilde het niet. Ze wilde het minder dan ze ooit iets had gewild, en ze was een vrouw die met een kracht die haar bijna had gedood had gewild dat haar man nog leefde, dus ze kende de maat van het niet-willen.
+
+Bram had haar naast de kist gelopen op Daans begrafenis. Bram had daarna drie avonden achtereen in haar keuken gezeten, niets zeggend, groot en warm en aanwezig zijnd, haar glas bijvullend, de telefoon aannemend wanneer de telefoon te veel was, om twee uur 's nachts in haar keukendeuropening staand als een muur tussen haar en de rest ervan. Bram had haar geleerd een grachtbodem op de tast te lezen. Bram was degene geweest die haar, in het water, dertien jaar geleden, had gezegd: adem in drieën, Sanne, drieën, toen ze op negen meter in de Amstel in paniek raakte, en de telling had haar teruggebracht en ze had sindsdien elke duik in drieën geteld, elke, zodat zijn stem binnen in de meest basale functie van haar lichaam zat, in en in en in en uit, zijn stem, die haar leerde in leven te blijven.
+
+Ze stond in het raamloze magazijn met de ringband open op zijn handschrift en ze dacht: nee.
+
+Het was geen beredeneerd nee. Het was het nee van het lichaam, het dierlijke, hetzelfde woord dat ze had gezegd, staand boven Daans toegedekte gezicht, twee jaar geleden. Het veranderde niets. Dat had het nooit gedaan.
+
+En toen dacht ze aan de hand in het water. De zuinigheid ervan. De manier waarop de gordels op Victor precies zo hadden gezeten als ze op Daan hadden gezeten — niet zoals een handboek voorschreef, maar zoals een bepaalde man ze optuigde, hoog op de heupen, aangesnoerd met een halve slag waarvan hij haar ooit had verteld dat hij sneller was, zijn eigen trucje, zijn signatuur, hij had haar die halve slag zelf voorgedaan met zijn grote vingers, jaren geleden op een trainingssteiger, en gezegd: niemand anders doet het zo, dit is de Verhoeven-manier, en gelachen. Ze kon de lach horen. Dat was het ergste, staand in het magazijn — dat ze de lach kon horen en dat hij nog steeds, in haar lichaam, een goed geluid was.
+
+De halve slag had op Daan gezeten. Ze had hem twee jaar geleden gezien en niet begrepen. Ze had gedacht, als ze al iets had gedacht, dat Daan zichzelf zo had opgetuigd omdat hij het van Bram had geleerd, zoals zij. De halve slag had op Victor gezeten. Ze had hem drie dagen geleden zelf gefotografeerd, in de kou, en de foto gearchiveerd, en hem niet gezien tot nu.
+
+Niemand anders doet het zo.
+
+Sanne deed de ringband heel stil dicht, alsof het geluid iets wakker kon maken, en zette hem terug waar hij precies woonde, rug haaks op de plankrand, en veegde de werkbank af waar ze had geleund, en verliet het magazijn zoals ze het had aangetroffen, wat iets was dat ze kon omdat ze het had geleerd, begreep ze nu, van de man die er een loopbaan van had gemaakt het water te verlaten zoals hij het aantrof.
+
+⁂
+
+Ze vertelde het Nadia in de Opel, want er was geen ruimte in het gebouw die ze vertrouwde. Ze zaten in een laadhaven aan de Oostelijke Handelskade met de motor uit en de ramen die grijs aanliepen van hun adem. Ze vertelde het vlak, de gordels, de halve slag, het rooster, de drie-dan-twee-dan-één, en Nadia luisterde zonder te onderbreken en legde aan het eind beide handen op het stuur en keek door de voorruit naar de grijze gracht.
+
+'Je bent zeker,' zei Nadia. Geen uitdaging. Een deur die opengehouden werd, één laatste keer, voor het geval Sanne er terug doorheen wilde lopen.
+
+'Ik heb mijn lichaam leren ademen met zijn stem,' zei Sanne. 'Drieën. Ik tel al dertien jaar in drieën op elke duik. Ik heb in drieën geteld boven het lichaam van Victor.' Ze hoorde zichzelf en hield niet in. 'Ja. Ik ben zeker. Ik ben nooit ergens zo zeker van geweest dat ik minder wilde.'
+
+Nadia knikte langzaam. Ze zei niet dat het haar speet. Sanne was haar daar dankbaar voor; er waren genoeg mensen spijtig tegen haar geweest.
+
+'We hebben het patroon. We hebben geen bewijs dat een rechtbank aanneemt,' zei Nadia. 'De halve slag is getuigenis, geen bewijs. Elke verdediging haalt hem in een middag uit elkaar — duikers nemen elkaars gewoontes over, je hebt hem zelf van hem geleerd, dat zei je zelf. De serienummers leggen de gordels bij het team, niet bij hem persoonlijk. Hij zal zeggen dat ze waren uitgetekend en verloren, en het logboek is zijn eigen papier, hij kan het vanavond verbranden en wie zou het weten.' Ze dacht hardop, het Rotterdam in haar stem, bot en bruikbaar, de stem van iemand die schone zaken op papierwerk in elkaar had zien storten. 'We hebben hem nodig bij het water op een nacht dat hij er niet had moeten zijn. We hebben een lichaam nodig om naast de gordel te leggen. We hebben een vorm. Vormen veroordelen niet. We hebben een man nodig op een plek die hij niet kan verklaren.'
+
+⁂
+
+Joke was op haar dek toen Sanne in het laatste licht thuiskwam, de oude vrouw gewikkeld in een herenoverjas, ergens erin een kat, kijkend naar de Kloveniersburgwal zoals ze er elke avond naar keek, alsof de gracht haar een verklaring schuldig was en zij alle tijd die haar restte had om erop te wachten. De klokken van de Zuiderkerk kwamen over de daken, dun in de kou. Een rondvaartboot voer halfleeg voorbij, zijn glazen dak bepareld, de stem van de gids die naar buiten lekte in drie talen en geen ervan voor iemand.
+
+'Je lijkt op je man,' zei Joke, 'de week voordat hij niet meer langskwam.' Ze zei het zonder wreedheid. Ze zei alles zonder wreedheid en zonder zachtheid, een vrouw die de zachtheid had overleefd. 'Ga zitten. Je doet het niet, maar ga zitten.'
+
+Sanne ging op de rand van de aangrenzende meerplaats zitten, voeten boven het zwarte water, en was niet van plan iets te zeggen, en hoorde zichzelf zeggen: 'Joke. De nacht dat die man hier verderop in de gracht werd gevonden. Die compliance. Tien dagen geleden.' Ze hield haar stem gelijkmatig. 'Heb je die nacht iets op het water gezien.'
+
+Joke was zo lang stil dat Sanne dacht dat ze het niet had gehoord. De kat verlegde zich. Een tram ging over de brug en zijn licht zwaaide over hen heen en ging. Het water bewoog tegen de rompen, een klein, constant geluid waar Sanne jaren overheen had geslapen en dat ze niet meer hoorde, tot vanavond, nu ze alles hoorde.
+
+'Kleine boot,' zei Joke ten slotte. 'Zo'n platte aluminium, een buitenboordmotor, geen licht, wat niet mag, geen licht. Laat. Twee, drie uur 's nachts, ik slaap niet, ik heb niet veel meer nodig.' Ze trok de jas strakker. 'Grote man erin. Langzaam hierlangs en een uur later langzaam terug, en dieper in het water op de terugweg dan op de heenweg, wat me opviel, want mij valt op, dat is alles wat ik nog heb, opvallen.' Ze keek schuin naar Sanne. 'Jullie duikmensen hebben zo'n boot. Grijs. Ik heb hem overdag gezien, aan het werk. Ik dacht, om drie uur 's nachts: dat is raar, de duikmensen werken niet om drie uur.'
+
+'De man,' zei Sanne. Haar mond was droog geworden. 'Zou je—'
+
+'Groot,' zei Joke. 'Grijs haar, wat ervan over was, een baard. Voorzichtig zoals grote mannen voorzichtig zijn, die getrainde manier, niet onhandig. Hij kende de boot.' Ze haalde haar schouders op binnen de jas. 'Ik dacht niet dat het iets was. Ik dacht: iemand vist waar het niet mag.' Ze draaide haar oude gezicht nu helemaal naar Sanne, en iets erin had de vraag begrepen voordat Sanne het deed. 'Het is een iemand, hè. Geen iets. Je hebt de blik. Je man had de blik.'
+
+Dieper in het water op de terugweg dan op de heenweg. Een man die om drie uur uitvoer met niets en een uur later terugkwam met genoeg extra gewicht aan boord om de romp te laten zakken. Sanne wist wat zoveel woog. Ze had het opgetild, twee keer, van de bodem, het licht in.
+
+'Zou je het willen zeggen,' zei Sanne. 'Later. Tegen iemand die het opschrijft. Wat je hebt gezien.'
+
+Joke nam haar een tijdje op. 'Ik ben eenentachtig,' zei ze, 'en ik heb iedereen begraven die me bang kon maken. Ja. Ik zou het zeggen.' Ze draaide zich terug naar de gracht. 'Pak hem.'
+
+Sanne keek naar het zwarte water dat onder haar voeten voorbijging, vier graden nu, de kleur van niets, de kleur die het boven Daan had gehad en boven Victor, en ze dacht aan de halve slag en aan de grijze boot die dieper in het water terugkwam dan hij was gegaan en aan de stem binnen in haar eigen ademhaling, in en in en in.
+
+'Ja,' zei ze. 'Het is een iemand.'
+
+Ze bleef op de meerplaats zitten nadat Joke naar binnen was gegaan, alleen, met de man die haar door het ergste heen had getroost dat haar ooit was overkomen nu in haar hoofd precies daar staand waar ze hem niet meer kon ont-staan — boven haar man, in het donker, op het water, de gordel aansnoerend met de halve slag die hij haar lichaam had leren vertrouwen. Hij had in haar keuken gezeten toen Daans bloed nog geen week koud was en haar glas bijgevuld. Hij had het geweten. Hij had daar wetend gezeten, en was vriendelijk geweest, en de vriendelijkheid was echt geweest, dat was het ding waar ze haar handen niet omheen kreeg, de vriendelijkheid was echt geweest en hij had hem niets gekost, want hij had al besloten dat het water een dienst was en Daan was al betaald.
+
+Ze huilde niet. Ze was een of andere grens gepasseerd waar het huilen aan de andere kant van lag. Ze zat en liet de kou de naden vinden, geduldig, persoonlijk, en ze telde haar ademhalingen, en kon niet ophouden ze in drieën te tellen, en haatte, voor het eerst van haar leven, de man wiens stem haar dat liet doen.
