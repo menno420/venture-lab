@@ -1,1 +1,0 @@
-- `claude/night-kiln-manuscript` · **books: night-kiln manuscript** — first full novella draft · candidates/adult-novels/the-night-kiln/** · 2026-07-13
