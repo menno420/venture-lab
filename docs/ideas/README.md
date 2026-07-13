@@ -44,6 +44,12 @@ frontmatter keeps the score.
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
 
+- [Product ideation batch 2026-07-13 night](../products/ideas-2026-07-13-night.md) —
+  PRODUCTS-lane cohort doc (lives in `docs/products/`, frontmatter convention
+  not applicable), ORDER 011 item 1: 7 new concepts scored on the kill-rule
+  intake rubric after the cc-cost-lens intake KILL — 1 BUILD (AI Novella
+  Production Kit $29, 3.525 tight budget) · 2 PARK · 4 KILL. Next
+  destination: full `INTAKE.md` for the BUILD pick (Kill Rule 0).
 - [Product ideation batch 2026-07-13](../products/ideas-2026-07-13.md) —
   PRODUCTS-lane cohort doc (lives in `docs/products/`, so the frontmatter
   convention above does not apply to it): 9 new concepts scored on the
