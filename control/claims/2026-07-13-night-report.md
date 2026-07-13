@@ -1,1 +1,0 @@
-- `claude/night-report` · **ORDER 009 night report** — overwrite control/status.md heartbeat + append manager-addressed night report to control/outbox.md · control/status.md, control/outbox.md, control/claims/ · 2026-07-13
