@@ -1,0 +1,1 @@
+- `claude/order-003-stripe-path` · **ORDER 003 re-verification + ORDER 007 terminal ack** — verify D1a/D1b/D2/D3 already landed (PR #16 `912da3e`) live at HEAD, append ORDER 007 satisfied-note · .sessions/ + control/inbox.md · 2026-07-13
