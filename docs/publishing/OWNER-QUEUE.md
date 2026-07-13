@@ -120,6 +120,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($19 pay-what-you-want suggested (default); minimum owner's choice). · **DEFAULT:** **$19 pay-what-you-want suggested** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
+### Het trage woord — `docs/publishing/vetting/het-trage-woord.md` @ §7 checklist
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### Kill-Rule Intake Kit — `docs/publishing/vetting/kill-rule-intake-kit.md` @ §7 checklist
 
 - [ ] **WHAT:** storefront account + payout setup. · **DEFAULT:** executes its D-item above · **UNBLOCKS:** the next click in this sequence
@@ -201,6 +210,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** title picked (The Widow's Blue recommended); KDP title-availability recheck at upload. · **DEFAULT:** **The Widow's Blue recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### De papieren sinaasappel — `docs/publishing/vetting/de-papieren-sinaasappel.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### Photo Packs (Dutch Skies + Golden Hours) — `docs/publishing/vetting/photo-packs.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
