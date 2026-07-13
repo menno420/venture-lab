@@ -145,3 +145,37 @@ provenance: filed by the fleet manager — relocation of startup-prompt v3.1 F1 
 do: Re-verify and ⚑-escalate the open-PR dispositions each wake until terminal: PR #51 ("Add files via upload" — owner photo exposure, owner-only disposition; keep the ⚑ verbatim at queue TOP) and PR #57 (OWNER-LAUNCH-HOUR packet, label do-not-automerge, parked owner-merge). Neither is agent-mergeable; the seat keeps the asks fresh and verified.
 why: verified 2026-07-12: #51 OPEN since 2026-07-11T18:24Z; #57 OPEN with the do-not-automerge label.
 done-when: both PRs terminal, or their ⚑ rows verified fresh at every heartbeat.
+
+## ORDER 008 · 2026-07-13T00:46:54Z · status: new
+DIRECT ORDER — VENTURE LAB (owner, 2026-07-13, night run). Land this verbatim in your inbox
+(top-precedence owner turn), then execute all night.
+
+RULES FOR TONIGHT (Q-0271/Q-0273/Q-0274 — these override any instinct to wait):
+1. I am away until morning; that is the system's normal state. Silence = consent = done.
+   Never hold or re-confirm finished work.
+2. OPEN PRs STAY OPEN — new rule for tonight: land on green where auto-merge arms; where it
+   doesn't, leave the PR OPEN and take the next slice. No merge-chasing, no parking-and-
+   waiting. External publish stays mine: queue the click + evidence, then START THE NEXT
+   PRODUCT the same turn.
+3. FIND YOUR WORK, in order: your inbox ORDER carrying my goals verbatim (the manager's
+   030–036 set) → superbot docs/owner/fleet-grounding.md §6 → your shortlist/backlog →
+   your generative rung. An empty queue means GENERATE, never idle.
+4. NO STALLS UNDER ANY CIRCUMSTANCES: probe before declaring a wall (attempt once, verbatim
+   error); genuinely-owner-only item → six-field owner-queue entry → CONTINUE same turn;
+   pricing/feasibility uncertainty → SIM-REQUEST via outbox → CONTINUE.
+5. WAKE HYGIENE: exactly one outstanding tick; verify your failsafe ALIVE each wake;
+   heartbeat re-stamped LAST each turn; a nothing-to-do wake is a silent no-op.
+6. QUALITY FLOOR: publish-READY means built + priced + listing drafted + checkout/format
+   verified + sha recorded + click queued; honest nulls in every backtest.
+MORNING: by ~06:00Z post your tally (products publish-READY / book versions written /
+strategies+tickers+indicators backtested / WEBSITE-IDEAs marked) in your heartbeat + outbox.
+
+YOUR SEAT TONIGHT (both lanes, quantity is the thesis):
+1. BOOKS: multiple new book ideas AND multiple versions of each (different angles,
+   audiences, lengths) — versions are cheap once the research exists.
+2. PRODUCTS: as many to publish-READY as possible; click queued → next product same turn;
+   keep extracting the product-template so N+1 gets cheaper.
+3. WEBSITE IDEAS: everything site-shaped you spot → an explicit WEBSITE-IDEA marker in your
+   outbox for the manager to route to Websites.
+4. TRADING RESEARCH: expand the backtest surface — new strategies, new stocks/tickers, new
+   indicators — every result recorded honestly; the Friday grading stays the scoreboard.
