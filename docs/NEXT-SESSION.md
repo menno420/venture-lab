@@ -27,7 +27,7 @@
 
 ## Catalog snapshot (derived at HEAD `5944109`)
 
-**Products — 1 live + 9 publish-READY + 2 hard-gated:**
+**Products — 1 live + 10 publish-READY + 2 hard-gated:**
 
 - **LIVE: Stripe Webhook Test Kit $29** on Gumroad (launched 2026-07-12,
   measurement mode; buyer path verified end to end). Kill clocks armed:
@@ -41,7 +41,8 @@
   Field Manual $39 · Kill-Rule Intake Kit $15 · The False-Green Test Trap
   $15 · The Agent Merge-Wall Cookbook $19 · GitHub Webhook Test Kit $29 ·
   Owner-Click Queue Kit $19 · Multi-Agent Control-Plane Pack $29 (PR #164,
-  INTAKE-gated build).
+  INTAKE-gated build) · AI Novella Production Kit $29 (PR #169, INTAKE-gated
+  night build — the catalog's first writing-audience SKU).
 - **Hard-gated (not publish-ready):** Photo Packs — full-res originals are
   owner-held off-repo, the sellable zips are agent-unbuildable until handoff;
   Ship-It Bundle $59 — gated on its ⚑B/⚑D component publish clicks landing
@@ -52,7 +53,8 @@
 manuscripts · 5 YA · 1 middle-grade (The Halfway Ferry) · 9 trilingual
 picture-book title-lines · editions (27 board-book texts, 4 adult NL
 editions, 2 EN novella cuts, Ultramarine serial ×3, 5 large-print specs) ·
-31 vetting packets in [`publishing/vetting/`](publishing/vetting/).
+33 vetting packets (20 book + 13 product, at PR #169) in
+[`publishing/vetting/`](publishing/vetting/).
 
 **Trading:** R3 (3,468 configs) and R4 (6 pre-registered experiments) both
 complete with **0 promotions** — honest zeros; Friday grading is the
@@ -62,9 +64,10 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). At `5944109` it queues **18 decisions (D1–D18, each with a
-bolded default — "go with defaults" works) and 31 click-run publish
-sequences totalling 177 unchecked owner clicks** (6 sequences HARD-GATED
+hand-edit). After the 2026-07-13 night regen (PR #169) it queues **19
+decisions (D1–D19, each with a bolded default — "go with defaults" works)
+and 32 click-run publish sequences totalling 182 unchecked owner clicks**
+(6 sequences HARD-GATED
 behind a blocking D-item); §3 manual-review is empty; §4 lists the SWTK rows
 already DONE plus its ⏲ kill-clock checkpoints. These counts move with
 every queue regen — when in doubt, the generated file at HEAD wins over any

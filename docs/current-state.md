@@ -41,13 +41,14 @@
 
 - **Owner entry point: [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md).**
   GENERATED file (re-run `scripts/derive_owner_queue.py` after any packet
-  change; last re-derives: ORDER 010 verdicts PR #163 + MACP rows PR #164).
-  At HEAD `5944109` it queues **18 decisions (D1–D18, each with a bolded
-  default — "go with defaults" works) and 31 click-run publish sequences
-  totalling 177 unchecked owner clicks** (6 sequences hard-gated); §3
+  change; last re-derives: ORDER 010 verdicts PR #163 + MACP rows PR #164 +
+  AI Novella Production Kit rows, 2026-07-13 night slice PR #169).
+  After the PR #169 regen it queues **19 decisions (D1–D19, each with a
+  bolded default — "go with defaults" works) and 32 click-run publish
+  sequences totalling 182 unchecked owner clicks** (6 sequences hard-gated); §3
   manual-review is empty (every packet parsed clean); §4 lists the SWTK rows
   already DONE. The seat performed none of the queued actions.
-- **Products — 1 live + 9 publish-READY (click-queued) + 2 hard-gated
+- **Products — 1 live + 10 publish-READY (click-queued) + 2 hard-gated
   (2026-07-13).**
   - **Live:** Stripe Webhook Test Kit $29 on Gumroad (launched 2026-07-12;
     measurement mode). Kill clocks armed packet-side: **T+7 funnel checkpoint
@@ -61,14 +62,22 @@
     Kill-Rule Intake Kit $15 · The False-Green Test Trap $15 · The Agent
     Merge-Wall Cookbook $19 (night run #103–#136) · **GitHub Webhook Test
     Kit $29 (PR #147)** · **Owner-Click Queue Kit $19 (PR #153)** (day run) ·
-    **Multi-Agent Control-Plane Pack $29 (PR #164, INTAKE-gated build)**.
+    **Multi-Agent Control-Plane Pack $29 (PR #164, INTAKE-gated build)** ·
+    **AI Novella Production Kit $29 (PR #169, INTAKE-gated night build —
+    the catalog's first writing-audience SKU)**.
   - **Hard-gated (not publish-ready):** Photo packs — full-res originals are
     owner-held off-repo, sellable zips agent-unbuildable
     ([`publishing/vetting/photo-packs.md`](publishing/vetting/photo-packs.md));
     Ship-It Bundle $59 — gated on its ⚑B/⚑D component clicks
     ([`publishing/vetting/bundle-starter.md`](publishing/vetting/bundle-starter.md)).
-  - Remaining unpacketed candidate: `cc-cost-lens` (idea-only, low-confidence
-    per its own INTAKE).
+  - Remaining unpacketed candidate: none — `cc-cost-lens` was **KILLED at its
+    intake gate 2026-07-13** (Kill Rule 0/3; verdict + in-place
+    negative-ledger entry in `candidates/cc-cost-lens/INTAKE.md`
+    § "Verdict at gate: KILL (2026-07-13)"; PR #169). Fresh night ideation
+    batch on file:
+    [`products/ideas-2026-07-13-night.md`](products/ideas-2026-07-13-night.md)
+    (7 concepts, 1 BUILD / 2 PARK / 4 KILL; the BUILD shipped as the AI
+    Novella Production Kit above).
 - **Book catalog — honest tree count at `abf1f23`** (all publishing clicks
   owner-gated; vetting via [`publishing/CHECKLIST.md`](publishing/CHECKLIST.md),
   lane index [`publishing/`](publishing/README.md)):
@@ -89,7 +98,8 @@
     Trage Woord, De Waag, Weduwenblauw), **2 EN novella cuts** (Slow Word,
     Weigh House), **Ultramarine serial edition** (3 parts), **5 large-print
     EDITION-SPECs**.
-  - **Vetting packets: 31** in [`publishing/vetting/`](publishing/vetting/) —
+  - **Vetting packets: 33** (20 book + 13 product, at PR #169) in
+    [`publishing/vetting/`](publishing/vetting/) —
     incl. The Twelfth Cake, now unparked: PR #157 (died mid-turn at 0 words)
     was **resumed as PR #159 and MERGED at `3b159d9`** 2026-07-13T13:03:54Z —
     complete 15,995w manuscript on disk; heartbeat amendment recording the
