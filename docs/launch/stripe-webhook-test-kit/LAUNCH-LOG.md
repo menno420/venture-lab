@@ -166,6 +166,50 @@ kill clock at the two armed checkpoints — **2026-07-19 (T+7)** and **2026-07-2
 
 ---
 
+## Catalog-parity verification — 2026-07-13 night run (ORDER 008 PRODUCT #4)
+
+SWTK predates the packet-era pipeline (`docs/products/TEMPLATE.md`, PRs
+#106/#108/#110); this entry brings it to catalog parity WITHOUT queueing a
+duplicate click. All items executed 2026-07-13 ~01:36–01:38Z on branch
+`claude/night-swtk-packet`:
+
+- **Dist freshness (TEMPLATE.md stage-6 double rebuild):** committed
+  `dist/stripe-webhook-test-kit-v0.1.zip` sha256
+  `d3ac5f88620976c4dee15f70801eba5986faa47f4898a1a3bda4907336eeb0d8`
+  (19,872 B); `package.sh` run twice → both rebuilds byte-identical to the
+  committed zip (same sha, 3× identical, 01:36:52Z). Matches the 2026-07-11
+  non-author verification sha and the 19.4 KB size observed at the live
+  download.
+- **Test suite:** `python3 -m unittest test_http_realpath -v` from source →
+  `Ran 14 tests in 3.028s / OK` (01:37:03Z); re-run from the zip extracted
+  into a clean dir → `Ran 14 tests in 3.033s / OK` (01:37:19Z).
+- **Bundle inspection:** 10/10 expected files (README, GOTCHAS, swtk.py,
+  swtk.js, stub_handler.py, test suite, 3 fixtures + PROVENANCE), zero junk
+  entries, zero empty files; secret-pattern scan (sk_live/sk_test/whsec_/keys)
+  zero hits; every README-invoked command's file ships in the bundle, and
+  buyer-side `python3 swtk.py list` + `node swtk.js list` both executed clean
+  from the extracted copy (no pip/npm install — stdlib claim TRUE).
+- **Listing parity:** all four gotcha claims map to named executed tests
+  (null email → `test_checkout_fixture_has_null_top_level_email` /
+  `test_resolve_email_prefers_customer_details`; forged →
+  `test_forged_signature_rejected_by_correct_handler`; stale timestamp →
+  `test_stale_timestamp_rejected`; success_url lint → `test_lint_*`); price
+  $29 identical in `LISTING.md`, `publish-owner-action.md`, and the live page
+  (`price_cents 2900`).
+- **ARTIFACT sha line** pinned in
+  [`publish-owner-action.md`](publish-owner-action.md), whose stale
+  "QUEUED (2026-07-11)" header is flipped to **CLICKED — LIVE (2026-07-12)**.
+- **No §7 packet, deliberately:** `scripts/derive_owner_queue.py`'s grammar
+  parses §7 blocks into owner DECISIONS and click-run checkboxes only — every
+  `⚑ **Owner:**` checkbox becomes a queued click, and a §7 with neither lands
+  in the generated file's "Manual review" noise. There is no
+  already-live/RECORD disposition, so a packet would either queue a DUPLICATE
+  publish click for a live product or degrade the queue's "all inputs clean"
+  hygiene. The already-live record lives here and in the flipped click-script
+  instead.
+
+---
+
 *This log records the ⚑E launch event, the free gotcha-article publish (funnel
 top, LIVE 2026-07-12), and the owner's end-to-end **test purchase** (VERIFIED
 2026-07-12). The launch hour is **COMPLETE** — all four legs done — and the
