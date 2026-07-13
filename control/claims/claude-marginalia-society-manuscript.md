@@ -1,0 +1,1 @@
+- `claude/marginalia-society-manuscript` · **books: marginalia-society manuscript** — first full YA draft · candidates/ya-novels/the-marginalia-society/** · 2026-07-13
