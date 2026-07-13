@@ -41,12 +41,13 @@
 
 - **Owner entry point: [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md).**
   GENERATED file (re-run `scripts/derive_owner_queue.py` after any packet
-  change; last re-derive PR #150 + OCQK rows PR #153). At HEAD it queues
-  **19 decisions (D1–D19, each with a bolded default — "go with defaults"
-  works) and 30 click-run publish sequences totalling 171 unchecked owner
-  clicks**; §3 manual-review is empty (every packet parsed clean); §4 lists
-  the SWTK rows already DONE. The seat performed none of the queued actions.
-- **Products — 1 live + 8 publish-READY (click-queued) + 2 hard-gated
+  change; last re-derives: ORDER 010 verdicts PR #163 + MACP rows PR #164).
+  At HEAD `5944109` it queues **18 decisions (D1–D18, each with a bolded
+  default — "go with defaults" works) and 31 click-run publish sequences
+  totalling 177 unchecked owner clicks** (6 sequences hard-gated); §3
+  manual-review is empty (every packet parsed clean); §4 lists the SWTK rows
+  already DONE. The seat performed none of the queued actions.
+- **Products — 1 live + 9 publish-READY (click-queued) + 2 hard-gated
   (2026-07-13).**
   - **Live:** Stripe Webhook Test Kit $29 on Gumroad (launched 2026-07-12;
     measurement mode). Kill clocks armed packet-side: **T+7 funnel checkpoint
@@ -59,7 +60,8 @@
     Pack $19 PWYW (PR #108) · Agent Fleet Field Manual $39 (PR #110) ·
     Kill-Rule Intake Kit $15 · The False-Green Test Trap $15 · The Agent
     Merge-Wall Cookbook $19 (night run #103–#136) · **GitHub Webhook Test
-    Kit $29 (PR #147)** · **Owner-Click Queue Kit $19 (PR #153)** (day run).
+    Kit $29 (PR #147)** · **Owner-Click Queue Kit $19 (PR #153)** (day run) ·
+    **Multi-Agent Control-Plane Pack $29 (PR #164, INTAKE-gated build)**.
   - **Hard-gated (not publish-ready):** Photo packs — full-res originals are
     owner-held off-repo, sellable zips agent-unbuildable
     ([`publishing/vetting/photo-packs.md`](publishing/vetting/photo-packs.md));

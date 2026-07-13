@@ -2,8 +2,9 @@
 
 > **Status:** `reference`
 
-> Rewritten 2026-07-13 against HEAD `e252b46` (PR #163, ORDER 010 verdicts
-> applied). Cold-start brief for the next coordinator session. Read this
+> Rewritten 2026-07-13; counts re-derived at HEAD `5944109` (PR #165;
+> catalog last changed by PR #164, Multi-Agent Control-Plane Pack).
+> Cold-start brief for the next coordinator session. Read this
 > first, then [`current-state.md`](current-state.md) (the living ledger) and
 > [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md)
 > (latest retro: the 2026-07-13 night+day coordinator run).
@@ -14,7 +15,7 @@
 2. Read `control/inbox.md` at HEAD — MANAGER-written, append-only, **never
    edit it**. Orders stay `status: new` in that file by protocol; done-state
    lives in `control/status.md` — diff the inbox against status acks to see
-   what is unexecuted. As of `e252b46`: ORDERs 001–010 on file; ORDER 010
+   what is unexecuted. As of `5944109`: ORDERs 001–010 on file; ORDER 010
    (sim-lab pricing verdicts) is APPLIED + ACKed (PR #163).
 3. Read `control/status.md` — the 2026-07-13T13:44Z boot-refresh heartbeat is
    the source of truth for triggers and live ⚑ owner asks (copied below).
@@ -24,9 +25,9 @@
 6. Session card born-red as the FIRST commit; status/heartbeat writes last;
    timestamps from `date -u` (full rules: [`conventions.md`](conventions.md)).
 
-## Catalog snapshot (derived at HEAD `e252b46`)
+## Catalog snapshot (derived at HEAD `5944109`)
 
-**Products — 1 live + 8 publish-READY + 2 hard-gated:**
+**Products — 1 live + 9 publish-READY + 2 hard-gated:**
 
 - **LIVE: Stripe Webhook Test Kit $29** on Gumroad (launched 2026-07-12,
   measurement mode; buyer path verified end to end). Kill clocks armed:
@@ -39,7 +40,8 @@
   Boilerplate Kit $49 · Agent-Workflow Template Pack $19 PWYW · Agent Fleet
   Field Manual $39 · Kill-Rule Intake Kit $15 · The False-Green Test Trap
   $15 · The Agent Merge-Wall Cookbook $19 · GitHub Webhook Test Kit $29 ·
-  Owner-Click Queue Kit $19.
+  Owner-Click Queue Kit $19 · Multi-Agent Control-Plane Pack $29 (PR #164,
+  INTAKE-gated build).
 - **Hard-gated (not publish-ready):** Photo Packs — full-res originals are
   owner-held off-repo, the sellable zips are agent-unbuildable until handoff;
   Ship-It Bundle $59 — gated on its ⚑B/⚑D component publish clicks landing
@@ -60,13 +62,13 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). At `e252b46` it queues **17 decisions (D1–D17, each with a
-bolded default — "go with defaults" works) and 30 click-run publish
-sequences totalling 172 unchecked owner clicks** (6 sequences HARD-GATED
+hand-edit). At `5944109` it queues **18 decisions (D1–D18, each with a
+bolded default — "go with defaults" works) and 31 click-run publish
+sequences totalling 177 unchecked owner clicks** (6 sequences HARD-GATED
 behind a blocking D-item); §3 manual-review is empty; §4 lists the SWTK rows
-already DONE plus its ⏲ kill-clock checkpoints. Drift note:
-`current-state.md`'s dated snapshot still cites the pre-ORDER-010 counts
-(19 decisions / 171 clicks); the regenerated queue at HEAD wins.
+already DONE plus its ⏲ kill-clock checkpoints. These counts move with
+every queue regen — when in doubt, the generated file at HEAD wins over any
+prose copy (including this one).
 
 ## Triggers / wake (verbatim from the 2026-07-13T13:44Z heartbeat — never trust older docs for ids)
 
