@@ -269,6 +269,16 @@ absent distribution. Note also that this batch tops out at 3.525 —
 borderline-band territory; the #142 batch's two 3.60s were the better
 draws, and they are spent.
 
+*Verdict citation (ORDER 011 / V053 (sim-lab `32ff5c3`)):* this batch's
+sole-BUILD channel diversification satisfies VERDICT 053's (approve)
+reserve-one-untested-channel backstop — measured DIV − CON ≥ 1/100 in 9
+of 9 registered belief cells (sim-lab
+`sims/verdict-053-channel-concentration/REPORT.md`). Full ruling,
+application guard (conditions on 0 organic sales as of 2026-07-13; stales
+at the first incumbent organic sale) and independence boundary are
+recorded in the #142 batch doc's Kill-Rule-2 note
+([`ideas-2026-07-13.md`](ideas-2026-07-13.md)).
+
 **Next slice:** write full `INTAKE.md` (kill-rule fields binding, budget
 hard ≤60k tokens) for concept #1, then build to publish-READY on this
 branch — build only after intake per Kill Rule 0.
