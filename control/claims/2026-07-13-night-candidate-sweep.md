@@ -1,1 +1,0 @@
-- `claude/night-candidate-sweep` · **scope** — sweep 4 unpacketed candidates + drive kill-rule-intake-kit to publish-READY · candidates/kill-rule-intake-kit/ + docs/launch/kill-rule-intake-kit/ + docs/publishing/vetting/ + docs/current-state.md · 2026-07-13
