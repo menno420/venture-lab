@@ -6,8 +6,9 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Refreshed 2026-07-13 at session-ender close-out (HEAD `abf1f23`, PR #155).
-> Session retro: [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md).
+> Refreshed 2026-07-13 at the coordinator boot-refresh pass (HEAD `84d4bcb`,
+> PR #161). Latest session retro:
+> [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md).
 
 ## Stability baseline
 
@@ -69,10 +70,10 @@
 - **Book catalog — honest tree count at `abf1f23`** (all publishing clicks
   owner-gated; vetting via [`publishing/CHECKLIST.md`](publishing/CHECKLIST.md),
   lane index [`publishing/`](publishing/README.md)):
-  - **Adult novels: 9 titles, 10 complete EN manuscripts** (The Night Kiln
+  - **Adult novels: 10 titles, 11 complete EN manuscripts** (The Night Kiln
     Books 1+2; The Slow Word in 12 chapter files) — Glass Rectory, Marmalade
     Post, Night Kiln, Paper Orange, Salvage Orchard, Seed Catalogue
-    Courtship, Slow Word, Weigh House, Ultramarine.
+    Courtship, Slow Word, Twelfth Cake, Weigh House, Ultramarine.
   - **YA: 5 titles** — Hollowtide, The Last Good Frequency, The Marginalia
     Society, The Pepper Ledger, The Undertow.
   - **Middle-grade: 1 title** — The Halfway Ferry (15,173w, PR #155), first
@@ -87,10 +88,10 @@
     Weigh House), **Ultramarine serial edition** (3 parts), **5 large-print
     EDITION-SPECs**.
   - **Vetting packets: 31** in [`publishing/vetting/`](publishing/vetting/) —
-    incl. The Twelfth Cake, which parks at "no manuscript": **PR #157 closed
-    NOT merged 2026-07-13 at 0 words** (authoring session died mid-turn);
-    seam resume pointer in the PR #157 body, branch
-    `claude/twelfth-cake-manuscript` kept at `bc2013c`.
+    incl. The Twelfth Cake, now unparked: PR #157 (died mid-turn at 0 words)
+    was **resumed as PR #159 and MERGED at `3b159d9`** 2026-07-13T13:03:54Z —
+    complete 15,995w manuscript on disk; heartbeat amendment recording the
+    terminal state merged as PR #160 (squash `765e1f8`).
   - Early-stage: dream-series (book-1 chapters + bible), bababoefoe.
 - **Trading lane:** R3 (3,468 configs) and R4 (6 pre-registered experiments)
   both completed with **0 promotions** — see the R3/R4 results docs in the
@@ -99,8 +100,16 @@
 
 ## Recently shipped (newest first)
 
-(Merged work only, newest first. Day run 2026-07-13, #141–#156.)
+(Merged work only, newest first. Day run 2026-07-13, #141–#161.)
 
+- Q-0264 relay — ORDER 010 (four sim-lab pricing verdicts V037/V039/V040/V041)
+  appended to `control/inbox.md` (PR #161, squash `84d4bcb`).
+- Heartbeat amendment — #157 resumed as #159, MERGED; parked PRs: none
+  (PR #160, squash `765e1f8`).
+- The Twelfth Cake — complete manuscript, 15,995w, resume of #157 (PR #159,
+  squash `3b159d9`).
+- Session-ender close-out — retro, current-state refresh, walls bake,
+  heartbeat (PR #158, squash `4b14d0c`).
 - The Halfway Ferry — first complete MG manuscript, 15,173w (PR #155,
   squash `abf1f23`).
 - Owner-gate lint backport — strict §7 lint + advisory CI step (PR #156,
