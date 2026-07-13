@@ -203,7 +203,31 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($15 one-time (default per intake + precedent chain)). · **DEFAULT:** **$15 one-time** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
+### The Glass Rectory — `docs/publishing/vetting/the-glass-rectory.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### The Halfway Ferry — `docs/publishing/vetting/the-halfway-ferry.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized (incl. spot-art call). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($3.99 recommended). · **DEFAULT:** **$3.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### The Marginalia Society — `docs/publishing/vetting/the-marginalia-society.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($3.99 recommended). · **DEFAULT:** **$3.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### The Marmalade Post — `docs/publishing/vetting/the-marmalade-post.md` @ §7 checklist
 
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
@@ -235,12 +259,37 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($3.99 recommended, length-dependent). · **DEFAULT:** **$3.99 recommended, length-dependent** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### The Salvage Orchard — `docs/publishing/vetting/the-salvage-orchard.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### The Seed Catalogue Courtship — `docs/publishing/vetting/the-seed-catalogue-courtship.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload (both spellings). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($3.99 recommended). · **DEFAULT:** **$3.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### The Slow Word — `docs/publishing/vetting/the-slow-word.md` @ §7 checklist
 
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### The Twelfth Cake — `docs/publishing/vetting/the-twelfth-cake.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($3.99 recommended). · **DEFAULT:** **$3.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** launch-timing call (mid-November target per §3). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### The Weigh House — `docs/publishing/vetting/the-weigh-house.md` @ §7 checklist
