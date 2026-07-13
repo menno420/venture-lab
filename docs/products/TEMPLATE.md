@@ -18,12 +18,32 @@
 |---|-------|-----------------|--------------------------------------------|
 | 1 | **Idea** | `candidates/<product>/` README stub or `docs/ideas/` | One-paragraph thesis: who pays, for what pain, why an agent can build it in sessions. Conservative revenue line (Q-0259.4: expect 0–low sales absent distribution — write that down). |
 | 2 | **Build** | `candidates/<product>/` (code, README, QUICKSTART) | Runs with zero accounts (mock/demo mode with a LOUD banner — a buyer without keys must never see silent success); stdlib-only or a pinned, minimal dependency list; `.env.example` with placeholders, never values. |
-| 3 | **Tests** | `candidates/<product>/…/test_*.py` (shipped IN the bundle) | Real-path tests, not only synthetic: exercise the money-touching route at the HTTP layer against **vendored, source-verified fixtures** (+ `PROVENANCE.md`), signature/auth verification, and fail-closed misconfiguration cases. Verbatim `Ran N tests … OK` captured in the session card / PR. The "13 green tests trap": green synthetic tests cannot catch a wrong belief about what the real service sends. |
+| 3 | **Tests** | `candidates/<product>/…/test_*.py` (shipped IN the bundle) | Real-path tests, not only synthetic: exercise the money-touching route at the HTTP layer against **vendored, source-verified fixtures** (+ `PROVENANCE.md`), signature/auth verification, and fail-closed misconfiguration cases. Verbatim `Ran N tests … OK` captured in the session card / PR. The "13 green tests trap": green synthetic tests cannot catch a wrong belief about what the real service sends. **Zero-runtime products** (pure content: markdown packs, templates, manuscripts) record an explicit honest null instead — see "Honest-null clause" below. |
 | 4 | **Price** | The listing copy + owner click-script | One number with a cited precedent or comparable ($29 SWTK, $49 membership-kit); one-time unless there's a reason; recorded identically everywhere it appears. |
 | 5 | **Listing copy** | `docs/launch/<product>/` (`listing-copy.md` or `LISTING.md`, one-pager) | Storefront-field-shaped blocks (Title / Short ≤200 chars / Long / Bullets / FAQ) copyable as-is; claims match what the tests actually prove — including an explicit "what it does NOT do / not live-tested" honesty section; refund/license/support lines present (placeholder ok, marked owner-to-set). |
-| 6 | **Package + sha** | `candidates/<product>/dist/<name>-vX.Y.zip` + `package.sh` | Allow-list packaging script (never a blanket copy: exclude seller copy, runtime data, build cruft, the dist itself); **byte-reproducible** (fixed mtimes, sorted entries, `zip -X`) proven by double rebuild; full **sha256 recorded** in the launch doc (owner uploads exactly that artifact). **Checkout/format verification:** unzip into a clean dir, inspect (README, QUICKSTART with the mock-mode warning, no secrets/junk), and re-run the packaged tests from the extracted copy. |
+| 6 | **Package + sha** | `candidates/<product>/dist/<name>-vX.Y.zip` + `package.sh` | Allow-list packaging script (never a blanket copy: exclude seller copy, runtime data, build cruft, the dist itself); **byte-reproducible** (fixed mtimes, sorted entries, `zip -X`) proven by an **unconditional double rebuild pre-click**: run `package.sh` twice, `sha256sum` both outputs, and paste the matching pair verbatim before the click is queued — no product skips this, even a "trivial" one; full **sha256 recorded** in the launch doc (owner uploads exactly that artifact). **Checkout/format verification:** unzip into a clean dir, inspect (README, QUICKSTART with the mock-mode warning, no secrets/junk), and re-run the packaged tests from the extracted copy. |
 | 7 | **§7 click block** | `docs/publishing/vetting/<product>.md` | A packet whose `## 7. ⚑ OWNER-GATE` section matches `scripts/derive_owner_queue.py`'s grammar: H1 `# Title Vetting — <Name>`; numbered OWNER-ACTION steps (inline ⚑ + `**X** (default …)` for each open decision); `- [ ] ⚑ **Owner:** …` checkboxes for the clicks; a post-click seat step (record launch URL/price/timestamp à la the SWTK `LAUNCH-LOG.md`). Detail HOW in `docs/launch/<product>/owner-actions.md` (six-field WHAT/WHERE/HOW/WHY/UNBLOCKS/VERIFIED-WHEN grammar); the packet is the queue-parseable pointer. |
-| 8 | **OWNER-QUEUE regen** | `docs/publishing/OWNER-QUEUE.md` (GENERATED) | Run `python3 scripts/derive_owner_queue.py`; confirm stdout reports the packet parsed clean (never edit the generated file by hand). |
+| 8 | **OWNER-QUEUE regen** | `docs/publishing/OWNER-QUEUE.md` (GENERATED) | Run `python3 scripts/derive_owner_queue.py`; confirm stdout reports the packet parsed clean (never edit the generated file by hand). **Parallel branches:** regenerate from YOUR branch's packet set only; when two open PRs both regenerate this file they WILL conflict — whoever lands second merges `origin/main` into their branch and re-runs `derive_owner_queue.py` on the merged tree (the script derives from the union packet set, so the conflict resolves mechanically; never hand-merge the generated hunks). |
+
+## Honest-null clause (zero-runtime products)
+
+Some products have no executable surface — template packs, checklists,
+manuscripts, image packs. For these, stage 3's "run the tests" floor item is
+an **honest null**, recorded explicitly, never silently skipped and never
+faked with make-work tests:
+
+- The floor tally carries an explicit row: `- [x] Honest null — zero-runtime
+  product; no test suite exists or is warranted. Substitute executed instead
+  (below).`
+- The **artifact-side execution substitute** replaces the test run: unzip the
+  packaged artifact into a clean dir, enumerate its contents against the
+  listing's promised inventory (counts must match, verbatim `ls`/`find`
+  output captured), and render/lint every content file in whatever way its
+  format allows (e.g. a markdown syntax pass, a link check, a UTF-8 decode of
+  every file). The substitute must be an executed command with captured
+  output, held to the same TRUTH bar as a test run.
+- The listing's honesty section states the null in buyer-facing terms (what
+  was NOT machine-verified).
 
 ## Freeze / gate discipline
 
