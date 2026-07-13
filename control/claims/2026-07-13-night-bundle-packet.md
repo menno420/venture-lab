@@ -1,0 +1,1 @@
+- `claude/night-bundle-packet` · **scope** — \$59 Ship-It Bundle HARD-GATED §7 packet + launch dir + BUNDLE-LISTING staleness fix + queue regen + photo-samples CI follow-up · docs/launch/bundle-starter/ + docs/publishing/vetting/bundle-starter.md + docs/publishing/OWNER-QUEUE.md + candidates/BUNDLE-LISTING.md + .github/workflows/photo-samples-validate.yml · 2026-07-13
