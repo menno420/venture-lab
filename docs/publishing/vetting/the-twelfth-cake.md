@@ -70,7 +70,11 @@ crowded with non-fiction material. Logged in the plan's §7 row format:
 - [ ] Length class: **planned novella (~20k–30k words)** — the Victorian
       Christmas-book length (Dickens's own seasonal format); plan, not
       measurement; no manuscript exists. This is the packet's honest biggest
-      gap.
+      gap. **Amended 2026-07-13 (write-slice):** re-planned to ~15k–16k per
+      the write-brief's book-parity band; manuscript delivered at honest
+      `wc -w` 15,995 (`candidates/adult-novels/the-twelfth-cake/`); a future
+      expansion pass toward the original ~20k–30k Christmas-book length
+      remains possible and is recorded as possibility only.
 - [ ] Category comps: the seasonal-mystery/seasonal-fiction shelf reliably
       supports short books at full price — e.g. P.D. James, *The Mistletoe
       Murder and Other Stories*, a four-story Christmas collection published
