@@ -1,6 +1,28 @@
-**STATUS: QUEUED (2026-07-11) — actionable on owner return.**
+**STATUS: CLICKED — LIVE (2026-07-12). Do NOT re-queue this click.**
 
 > **Status:** `owner-guidance`
+
+**This action was executed by the owner on 2026-07-12** — the $29 listing is
+live at <https://mennomagic01.gumroad.com/l/stripe-webhook-test-kit> (HTTP 200
+verified 2026-07-12T16:25:16Z, independently re-verified 16:28:47Z; owner test
+purchase verified end-to-end 18:09:34Z). Durable record:
+[`LAUNCH-LOG.md`](LAUNCH-LOG.md). The launch is in MEASUREMENT mode
+(kill-clock checkpoints 2026-07-19 / 2026-07-26). This file stays as the
+historical click-script. There is deliberately NO
+`docs/publishing/vetting/` §7 packet for this product: the derive grammar
+(`scripts/derive_owner_queue.py`) turns every `⚑ **Owner:**` checkbox into a
+queued click and has no already-live/no-click disposition, so a packet here
+would put a DUPLICATE publish click in front of the owner.
+
+- **ARTIFACT (2026-07-13 catalog-parity verification):** the shipped bundle is
+  `candidates/stripe-webhook-test-kit/dist/stripe-webhook-test-kit-v0.1.zip`
+  @ sha256 `d3ac5f88620976c4dee15f70801eba5986faa47f4898a1a3bda4907336eeb0d8`
+  (19,872 bytes, 10 files; byte-reproducible via `package.sh`, proven by
+  unconditional double rebuild 2026-07-13T01:36:52Z — committed zip and both
+  rebuilds identical). Matches the 2026-07-11 non-author verification sha
+  (`d3ac5f88…eeb0d8`) and the 19.4 KB size observed on the live download page.
+  If the source ever changes: rebuild, re-pin this line, and treat the live
+  listing as STALE until the owner re-uploads.
 
 This publish click was **earned**, not pre-queued. Both gate conditions now
 hold; evidence below.
