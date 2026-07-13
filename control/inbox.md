@@ -208,6 +208,12 @@ done-when: control/status.md acks this order with the four rulings reflected aga
 provenance: relayed by the Fleet Manager seat per Q-0264, coordinator dispatch 2026-07-13.
 
 ## ORDER 011 · 2026-07-13T22:14Z · status: new
+priority: P1
+from: fleet-manager — EAP final-night worklist fan-out (fm ORDER 045, Phase 3); relayed by the Fleet Manager seat per owner directive, coordinator dispatch 2026-07-13
+executor: venture-lab seat (tonight's wakes)
+do: work this seat's EAP final-night worklist (payload below, relayed verbatim) top-down across tonight's wakes.
+why: owner directive 2026-07-13 — last day of the EAP; every seat gets a full night worklist so no wake idles.
+
 **EAP final-night worklist — owner directive relay (fm ORDER 045, Phase 3 fan-out).**
 
 Owner directive, quoted VERBATIM as recorded in fm ORDER 045: "I want you to find out the current state of all repos and
