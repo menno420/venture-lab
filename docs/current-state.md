@@ -23,6 +23,12 @@
 - **Ledger-drift advisory:** `python3 scripts/check_ledger_drift.py` nags
   (never gates) when this file's "Recently shipped" trails the newest merged
   PR — see [`docs/ledger-drift-checker.md`](ledger-drift-checker.md).
+- **Kill-clock advisory:** `python3 scripts/check_kill_clocks.py --today
+  "$(date -u +%F)"` prints per-live-product DUE/OVERDUE/upcoming lines from
+  the vetting packets' §7 `KILL-CHECK:` ⏲ tokens (imports
+  `derive_owner_queue.py`'s parser — no forked grammar; advisory, exits 0
+  always; origin PR #128's session-card 💡, landed with the 2026-07-13
+  night run's closing infra slice).
 
 ## In flight
 
@@ -32,9 +38,11 @@
   Webhook Test Kit is live on Gumroad (launched 2026-07-12); the launch hour
   is complete end to end (⚑A #74 · ⚑E #84 · article #85 · owner test purchase
   #86). Funnel: dev.to gotcha article → Gumroad listing. Checkpoints armed
-  coordinator-side: **T+7 funnel checkpoint 2026-07-19** and **T+14
-  kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
-  ledger ⚑E NEGATIVE + pause/delist). Durable record:
+  packet-side as a `KILL-CHECK:` line in the SWTK packet's §7 (PR #128,
+  rendered ⏲ in the derived owner queue; due-ness computed by
+  `scripts/check_kill_clocks.py`): **T+7 funnel checkpoint 2026-07-19** and
+  **T+14 kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound,
+  else ledger ⚑E NEGATIVE + pause/delist). Durable record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
 - **Product catalog — 1 live + 6 click-queued + 2 hard-gated (2026-07-13
   night run, ORDER 008).** Live: SWTK $29 (above). Click-queued at the
