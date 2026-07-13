@@ -206,3 +206,40 @@ citations: sim-lab `afe18f3` control/outbox.md (VERDICT 037 lines 599–608 · V
 why: this seat's four pricing SIM-REQUESTs (serial / photo packs / Ship-It bundle / cookbooks) are answered; the verdicts are decision-by-lookup frontiers — the seat's price rows either stand ratified or gain a named parked-measurement bar, and no publish click is unlocked by this order (owner gates unchanged).
 done-when: control/status.md acks this order with the four rulings reflected against the corresponding vetting/OWNER-QUEUE rows (ratified vs parked-with-bar noted per product).
 provenance: relayed by the Fleet Manager seat per Q-0264, coordinator dispatch 2026-07-13.
+
+## ORDER 011 · 2026-07-13T22:14Z · status: new
+**EAP final-night worklist — owner directive relay (fm ORDER 045, Phase 3 fan-out).**
+
+Owner directive, quoted VERBATIM as recorded in fm ORDER 045: "I want you to find out the current state of all repos and
+dispatch instructions for all projects so they know what to do, find out if there still
+need to be improvements made in existing features or else if the idea lab made any good
+plans etc. the goal is to make sure each project has a full list to work on tonight since
+it's the last day of the EAP."
+
+Citations: fm ORDER 045, control/inbox.md @ ca1ce28 · docs/eap-final-night-worklists-2026-07-13.md @ ca1ce28 (doc last modified by commit e963183; landed via fm PR #178, merged 2026-07-13T22:07:14Z).
+
+**Your seat's full night worklist, copied faithfully from the doc:**
+
+## venture-lab — swept @ `be6c75d`
+
+All 10 ORDERs consumed (ORDER 010 pricing verdicts applied, #163); 0 open PRs;
+`docs/ideas/` empty by design — the generative rung IS the backlog.
+
+1. Next product to publish-READY — packet + build cc-cost-lens, or run a fresh ideation batch (the #142 batch's 3 BUILDs are consumed) (ORDER 008 item 2, `control/inbox.md@be6c75d`; `docs/current-state.md` names cc-cost-lens) `[standing]`
+2. New book titles + edition variants — EN adult catalog (11 manuscripts) still has unexecuted variants; versions are cheap per ORDER 008 item 1 (`docs/NEXT-SESSION.md@be6c75d`) `[standing]`
+3. Night Kiln Book 3 at the packet's committed band, flag the length-band question (Book 2 complete 15,995w, #145; `docs/current-state.md` line 133 @`be6c75d`) `[standing]` (decide-and-flag)
+4. Apply the newly-served sim verdicts on relay: V053 channel-concentration diversify (approve), V057 keyword-map first-claim-wins (approve), V049 KU-exclusivity fork (REJECT) (sim-lab `control/outbox.md` L859/L939/L1019 @`32ff5c3`; fm routing pending) `[verdict]`
+5. V020-null follow-through — two-version live probe measuring audience separation s, one night-slice budget (VERDICT 020, idea-engine `control/outbox.md@2808b16`) `[verdict]`
+6. WEBSITE-IDEA sweep — mark site-shaped outbox concepts for manager routing; none marked in the current window (ORDER 008 item 3 @`be6c75d`) `[standing]`
+7. Queue hygiene: any new packet requires the `derive_owner_queue.py` regen + counts-sync same session (the #166 remedy class) `[lane]`
+
+**Blocked (do not schedule):** all 177 owner publish clicks · photo-pack originals handoff · Ship-It bundle (⚑B/⚑D) · Night Kiln 2 length-band ruling · makerbench build explicitly forbidden (idea-engine ORDER 004 rule 4 @`2808b16`).
+
+Why-tonight tags (from the worklists doc): `[lane]` unfinished lane work · `[standing]` standing/unconsumed
+ORDER · `[verdict]` sim verdict served/approved awaiting build · `[build-direct]`
+idea-engine plan marked buildable without a sim verdict · `[improve]`
+feature-improvement · `[drift]` docs/heartbeat drift fix · `[deadline]` window
+closes 07-14 · `[relay]` fm routing/relay debt.
+
+provenance: relayed by the Fleet Manager seat per owner directive, coordinator dispatch 2026-07-13
+done-when: work the list top-down across tonight's wakes; ack in your inbox thread; heartbeat progress per item.
