@@ -185,3 +185,128 @@ Thursday night, the last night, the fog came off the sea again like a paid accom
 Above her, boots went back and forth, unhurried. The last net came down. The hatch-boards went on, one by one, like the covers of the book closing.
 
 In the morning, the tide turned, and the ship began to move.
+
+---
+
+# Chapter 4 — The Pepper Dark
+
+The first thing the sea taught her was that pepper is not a quiet neighbor.
+
+Sana had made herself a den in the after-hold the way a mouse makes one in a granary: two tiers up from the bilge, where the air was drier, in a slot between the sackrows and the great curved wall of the hull, roofed by the tier above. It was a good den. It was also inside a spice, and the spice got everywhere — a fine dust that seeped from the sackcloth with every working of the ship, that crept into her collar and her eyebrows and the creases of her knuckles, that burned in her nose like a small rude fire.
+
+The first sneeze nearly killed her with fright. It came on the first night out, when the *Petrel* met the open sea and began to walk in earnest, and the whole cargo shifted its weight and sighed out a haze of dust, and Sana's face exploded. The sound went off in the black hold like a pistol. She sat rigid, eyes streaming, listening for boots on the hatch — and heard instead, from every direction at once, the pepper answering: forty thousand pounds of dry berries trickling and settling, whisper on whisper, a sound like rain deciding not to fall.
+
+*Dry.* Every sack of it, chuckling to itself in the dark. Condemned as ruined, and laughing about it. After that she sneezed into her rolled-up coat, and the pepper kept her secret, and she kept its.
+
+She had water for six days if she was careful. She was careful. She portioned the twice-baked bread by feel, one square a day, and licked the crumbs off her palm like a miser. Time she kept by the ship's bell, faint through the deck: every half hour a stroke, adding up to eight, then starting over — the watches turning over her head, as regular as a well-kept page. Ship's time was just bookkeeping, she decided. Somewhere above her a man turned a sandglass and struck the total, and twenty-eight lives ran on his arithmetic. It was almost comforting.
+
+What was not comforting was the dark, which was total, or the bilge-water slopping below with its smell of drowned years, or the rats. The rats had opinions about her bread. The first night she yielded a corner of it in pure horror; by the third she had learned to hang the bag from a hook of broken batten and to accept the rats as neighbors of the lower sort. It was the fourth day — by bread and by bells — when everything went wrong, in the ordinary way of ships, which is to say: weather.
+
+She felt it come as a change in the ship's walk. The *Petrel* had been going along like a woman with a market-basket, steady, a little heavy. Now the floor began to lean and hang, lean and hang, longer each time; the pepper-whisper rose to a steady hiss; and the hull around her — she had not understood until then that a ship *talks* — began to groan in sentences, timbers working against each other, a hundred wooden voices complaining in a language of creaks. Water found its way down a seam somewhere and dripped near her ear, patient as a tax-collector.
+
+Then a sack in the tier above her, worked loose by the rolling, came down.
+
+It weighed as much as she did. It missed crushing her by the width of a prayer, bursting its cloth on the tier-edge above her head, and the world turned into pepper — not dust now but a pouring, rattling flood of hard round berries, hissing down through the dark, filling her den, filling her boots, her collar, her nose, her mouth. She fought up out of it choking, eyes on fire, and the sneezing that took her then was beyond all smothering — great helpless volleys of it, one after another, while she floundered over the shifting drifts of a fortune in spice, stone-blind, deaf with her own noise, and the ship leaned and hung and leaned around her.
+
+When the fit finally spent itself she lay flat on the sacks, wrung out, ears ringing.
+
+In the ringing, a light was coming.
+
+A lantern, swaying down the hold between the tiers, and behind it a voice, young, talking itself along: "—nothing, there's nothing, it's rats, it's always rats, tell Cook it's rats and Cook says go and count them then—" The light stopped. It came up. It found her: a red-eyed, pepper-dusted creature half-buried in a burst sack, tear-tracks striped through the dust on her face like war-paint.
+
+The boy holding the lantern was about her own age, with a spoon stuck in his belt like a dagger.
+
+"You," he said, when he had his breath back, "are the biggest rat I ever saw."
+
+---
+
+# Chapter 5 — Found
+
+His name was Tade, he was the cook's boy, and for the length of that lantern-lit standoff among the sacks, Sana's whole future balanced on him like a coin on its edge.
+
+She could see him doing the sums — she knew the look; she wore it often enough herself. A stowaway found four days out. Tell the mate, and it was done and safe and none of his; that was the entry any sensible boy would make. She watched him reach it, open his mouth, and stop — because she said, quickly, before the coin could fall:
+
+"I'll trade you."
+
+"Trade me what? You've got nothing but pepper, and we've got pepper."
+
+"Arithmetic." It was the only cargo she carried. "You're the cook's boy. Cook draws stores against a victualling-book, and somebody above him keeps that book, and I'll wager my boots the book says Cook is a thief. They always do. I can cast any page in a minute and show where the book's wrong and Cook's honest. Or—" she took the greater gamble, watching his face, "—where the book's wrong on purpose."
+
+That landed. Something moved behind his eyes, a private grievance finding a word for itself.
+
+"Twenty-eight men," Tade said slowly, "on a ship that wants ninety. Cook says he's drawn stores for six weeks and been told it's a three-week run. Cook says the beer's short. Cook says—" He shut his mouth on what else Cook said, and looked at her burst sack, and changed course. "That pepper's supposed to be spoiled. It's why we're sailing, to carry it off to the knacker's price. It ain't spoiled, is it? I've been down here. It's dry as sermons."
+
+"No," Sana said. "It isn't spoiled. And I can prove that, and more than that, and when I've proved it you'll be very glad you were the one who found me and not the one who handed me to Vos."
+
+She had saved the name for last, like a good gambler, and it did its work: Tade flinched as if she'd shown him a knife. Vos. She hadn't met the man yet, and already, four decks down and four days blind, she knew him by his effect on others, the way you know a reef by the water breaking.
+
+What she got from Tade, that night and the next two, was life: water, ship's biscuit, stolen minutes of talk down among the whispering sacks — and the ship, laid out in words. The *Petrel* was old but sound, Tade said; the crew was another matter. Half were quay-sweepings shipped in a hurry, men no other master would sign. But the other half were real seamen who'd sailed her for years and loved her the way you love a stubborn grandmother — Old Sier the steersman, who'd been around the Cape six times and had a face like a chart of everywhere; Bakker the mate, square and slow and honest as a fencepost; Cook, who fed twenty-eight men out of a short galley and took the shortage as a personal insult. Captain Tans kept his cabin and his bottle. And through it all went Vos, the supercargo, Corver's exact man, with his lists and his soft boots — and her father, "the debtor-clerk," kept at copying in the steerage under Vos's eye, polite and grey and watched.
+
+"Your father," Tade said flatly, when she'd told him the tenth part of it she judged safe. "The clerk. That's the whole cargo of this, isn't it. You're not running *from* something, you're running *to* it. That's mad, you know. Girls in stories run away to sea. Nobody runs *toward* a ship like this one."
+
+"Somebody has to," Sana said. "It's carrying my whole family."
+
+On the seventh day, the coin she and Tade were balanced on fell — and it fell over water, of all things, the way she'd always half known it would. Her flask ran dry between his visits; thirst is a debt that compounds hourly; and she went up through the forehatch in the grey before dawn to find the scuttlebutt by his directions — and came face to face at the butt with a quay-sweeping named Joos, drinking out of turn himself, which was the only luck in it.
+
+He grabbed; she dodged; the pepper-dust shook out of her coat and set him off sneezing; and the chase that followed — down a ladder, through the cable-tier, a whooping, crashing, half-blind hue and cry gathering hands as it went — ended in the one place ships' chases end, which is aft, on the quarterdeck, in front of everyone: Sana pinned by the collar in a fist the size of a ham, the whole short crew turned out grinning at the free show, Captain Tans blinking in his doorway with the morning already yellow on his breath.
+
+And Vos.
+
+Meneer Vos was a narrow man in good black cloth, with a clean collar and a face that did no unnecessary work. He looked at Sana the way an assessor looks at cargo, and she watched him begin — item by item, unhurried — to add her up.
+
+"A stowaway," he said. His voice was soft and exact. "Four days' theft of water and stores at least, by the state of her. Master Tans, the sea has rules for this, I believe."
+
+There would never be a better moment, and it would never come again. Sana hung in the big fist, filthy, ridiculous, and pitched her voice to carry the way the fish-wives did at the Marren market, clear over wind and water to every listening man:
+
+"You're the supercargo? Then you keep a false victualling-book, Meneer! You've drawn and signed stores for a three-week coastal run — but your own lading-book shows six weeks' beer and biscuit, casked and struck below, I've been *sleeping on it*. What master victuals a ship double for a run down the coast? Ask him!" — she flung her free arm at Tans, who stood very still — "ask him where this ship is truly bound, because his stores already know!"
+
+She was guessing, half of it. It was the best-founded guess of her life, and she saw at once, in the sudden stillness of Vos's unnecessary face, that she had cast it true.
+
+The crew had stopped grinning. Old Sier's chart-of-everywhere face had turned, slow as a moon, from her to the after-hatch to Captain Tans, and about a dozen real seamen were now doing arithmetic of their own, and the silence on that quarterdeck was the silence of a room where a page has begun, very faintly, to smell.
+
+"Put her to work," said Captain Tans, too quickly, too loudly. "The lading-books are behindhand. She casts figures, does she? Vos — your clerk wants a helper. Put her to the books and let's hear no more of it."
+
+Vos looked at his captain for one long moment, the way a man looks at a debt he intends to collect later, with interest.
+
+"To the books, then," he said softly. "We shall see what she casts."
+
+And that is how Sana Brandt was entered on the *Petrel*'s roll — between one bell and the next, in Vos's own exact hand — as clerk's help, victuals found, wages nil; and found herself, that same forenoon, sat down in the steerage with paper and ink at last, three feet from a grey, careful, utterly expressionless under-clerk whose hands, squaring their stack of papers, had begun ever so slightly to shake.
+
+"Girl," her father said, for Vos's benefit, in a stranger's voice. "Mind you write a fair hand."
+
+"I was taught by a clerk, sir," she said. "I'll mind."
+
+---
+
+# Chapter 6 — Ink and Salt
+
+They were never alone. That was Vos's arrangement, and Sana understood it within a day: the steerage cuddy where the ship's papers lived had one door and one lamp, and where a guard would have been crude, Vos simply *was there* — or his ears were, in the person of a sallow quay-sweeping called Wick who mended sails badly by the door and listened well.
+
+So father and daughter talked all day, every day, in the only language the listeners couldn't hear.
+
+They talked in the work itself. It was, Sana thought afterward, the strangest and best conversation of her life. Her father would pass her a page of lading-tallies to copy fair — and in the middle of the dull column, a line transposed, which was the old game, *find it*, which meant: *you found the ledger; I know; be careful.* She would copy the page perfect, correcting the line without a word, which meant: *I found it, I'm careful, I'm here.* He set her to casting the water-account, and beneath his tally of casks drew a small flourish shaped, if you knew, like a gull — the mark he'd doodled on her slates when she was little, that meant *look sharp*. The water-account, cast fair, showed six weeks of everything, just as she'd shouted on the quarterdeck. *Look sharp* meant: *you were right. It's real. We are not sailing where they say.*
+
+And chalk. Chalk was for the dangerous sentences. A tally-slate hung in the cuddy for rough sums, wiped a hundred times a day, and a number worked and wiped in front of a watcher is just a number. *2-8*, she chalked once, in the middle of honest multiplication, and wiped it. Her father, an hour later, working some innocent division: *28 / 1 boat*. Wiped. The *Petrel* carried a longboat that might hold twenty in a calm, and a jolly-boat for six. She chalked, at the foot of a column of pepper-weights: *41,000*, and wiped it, and looked at him. He chalked one word — *garbled* — and wiped it, and for the first time since the quay stairs at Marren, very briefly, he smiled.
+
+Garbled. Cleaned, sifted, prime. The word the weigh-house tallies had used, the word the survey had scraped out. Their whole case in one trade-term, passed through a wet rag.
+
+Piece by piece, sum by sum, the cuddy's papers gave up the voyage's shape, because Vos's fraud had a weakness Sana came to love: it had to be *documented*. The false story needed papers as much as a true one — more — and Vos, being exact, kept them beautifully. The manifest said: condemned pepper, 820 sacks, to be sold at knacker's price to Herrn & Cie. The sailing-orders said: a western port, weather permitting, master's discretion — discretion wide enough to sail through. And in the private letter-book Sana was set to copying (because Vos, being exact, was also economical, and a wageless clerk-girl was made for drudge-copying), between lines of business Latin-stiff and grey, the arrangements sat almost naked: *the buyer's vessel will lie at the appointed anchorage from the 20th... transfer to be made with all speed... thereafter Master Tans will govern himself according to his instructions, which are not to be committed to paper.*
+
+*Not to be committed to paper.* In a letter-book where everything, everything, everything else was.
+
+She chalked it for her father in numbers, the day she found it: *20th* — wiped — *anchorage* — no, that word she couldn't risk; she chalked instead the little gull, *look sharp*, and under it: *X*. The unknown. The instruction too dark for ink.
+
+His answer took him the rest of the day to find a pretext for. Near dusk, casting the wage-book — the crew's accounts, twenty-eight names, months and florins in neat rows — he beckoned her to check his total, which was perfect, and under the total, in the second's shelter of her leaning body between the slate and Wick's doorway ears, his chalk made five small strokes and a word:
+
+*X = the ship.*
+
+Wipe.
+
+That night Sana lay in her hammock-corner behind the bread-room bulkhead and made herself do it the honest way, both columns, no hoping. Item: a cargo officially worthless, actually a fortune, that could only become money if it vanished from one set of books and appeared in another — which happened at the anchorage, on the 20th. Item: after the transfer, the *Petrel* was a witness. Her timbers were a witness. Her log was a witness. Twenty-eight tongues were twenty-eight witnesses. Item: a hull insured to the mast-caps, worth more sunk than swimming the moment her cargo was out of her. Item: instructions not to be committed to paper, in the hands of a captain who drank like a man trying not to hear something. Item — she made herself write it in her head in fair small figures, because panic is just arithmetic done badly — *one longboat, twenty in a calm; one jolly-boat, six; company aboard, twenty-eight; sea, in the 20th of an autumn month, rarely calm.*
+
+The balance was short two lives even if every plank of the plan went kindly. She doubted the plan meant to go kindly. Kindness left witnesses.
+
+On deck the bell struck; the watch turned over; the sandglass turned; the ship's great wooden voice creaked on through the dark, talking to itself in the language of strain. Somewhere below, four tiers deep, a fortune in dry pepper whispered and settled, patient as interest.
+
+Two days later, the weather came for them all — and after the weather, nothing on the *Petrel* was ever the same again.
+
