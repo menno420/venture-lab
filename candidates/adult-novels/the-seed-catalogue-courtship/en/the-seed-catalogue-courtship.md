@@ -10,13 +10,13 @@
 
 ---
 
-*The documents in this book — order forms, compliments slips, packet instructions, catalogue pages, one auctioneer's account, and letters — are presented in the order in which they were kept, which is not always the order in which they were sent. Marginalia are given where they survive. They mostly survive.*
+*The documents in this book — order forms, compliments slips, packet instructions, catalogue pages, one auctioneer's account, letters, and the other instruments of two firms that did their living on paper — are presented in the order in which they were kept, which is not always the order in which they were sent. Marginalia are given where they survive. They mostly survive.*
 
 ---
 
 # Part One — Catalogue Weather
 
-*[Printed notice, inside front cover of the Prowse & Daughters seed catalogue, one hundred and somethingth edition, January.]*
+*[Printed notice, inside front cover of the Prowse & Daughters seed catalogue, the ninety-somethingth and final edition, January.]*
 
 **TO OUR CUSTOMERS**
 
@@ -63,6 +63,27 @@ A question, if the firm permits questions from the margin. I have four acres ins
 With the compliments of Prowse & Daughters. Your order No. 4,117 was despatched this day, carriage paid. The overpayment of 40p has been placed in the tea fund, where it will do serious work.
 
 The firm does not advise on hypotheticals. — E.M.P.
+
+⁂
+
+*[Letter, from Mowbray & Kett, solicitors, Norwich, dated 22 January, to Miss E. M. Prowse. Extract, kept — for reasons the keeping must explain — with the rest of these papers.]*
+
+Dear Madam,
+
+We write further to our meeting of the 15th to confirm our instructions in the matter of the orderly winding-up of Prowse & Daughters (a firm), namely:
+
+(i) that trading shall continue for the current season and cease upon the despatch of the final orders, and in any event by the 31st December;
+(ii) that the tenancy of the land known as Dyke Field shall determine at Michaelmas by effluxion of time, no renewal being sought;
+(iii) that the premises known as The Granary shall be offered for sale with vacant possession, completion not before November;
+(iv) that the firm's stock, equipment, and effects shall be sold by public auction at a date to be fixed, we to instruct Whitlow & Deane;
+(v) that you shall secure alternative residential accommodation, the flat above the premises being included in the sale.
+
+We enclose for signature the enclosed authorities, and would remind you, respectfully, that an orderly winding-up is best begun early. Matters of this kind, in our experience, take longer than the parties expect, and are harder.
+
+We remain, Madam, your obedient servants,
+MOWBRAY & KETT
+
+*[In the margin, against item (v), in a round, disciplined hand:]* "Alternative residential accommodation." Forty years above the shop, and I am to be an authority, signed in duplicate. — *and against the final paragraph:* The first true sentence a solicitor has ever sent me. Harder than the parties expect. Kept for its honesty.
 
 ⁂
 
@@ -123,6 +144,20 @@ H. Tull
 
 ⁂
 
+*[Order form No. 4,126, enclosed with the above. All sweet peas: 'Saltmarsh Pink', 4 pkt; 'Granary Ruffle', 2 pkt; 'Dyke End Blue', 2 pkt; mixed old named sorts, the firm's selection, 4 pkt. In the margin:]*
+
+No apology, as promised. Twelve packets is not enthusiasm, it is obedience; I refer the firm to its own instruction of the 6th. A supplementary question, while the ink is out: who writes your entries? I have now read the catalogue a third time, cover to cover, in an evening it was bought to fill, and I closed it thinking what I have thought about exactly two structures in my life — that the maker's name ought to be on it somewhere, and is not.
+
+⁂
+
+*[Compliments slip, typed, despatched with order No. 4,126.]*
+
+With the compliments of Prowse & Daughters. Twelve packets of sweet peas despatched this day to one address, a quantity the firm last supplied to a rectory with a wedding coming. The firm makes no enquiry.
+
+As to the entries: the firm has always regarded prose as a loss-leader, and the author declines to be identified while stocks last. — E.M.P.
+
+⁂
+
 *[Letter, on the firm's letterhead, 3 March.]*
 
 Dear Mr Tull,
@@ -160,6 +195,24 @@ The wall and I would regard it as a settling of accounts. Between the firm and t
 
 ⁂
 
+*[Letter, received 26 March. Graph paper.]*
+
+Dear Miss Prowse,
+
+While your parcel is made up, a report you did not ask for and are owed. I wanted to know why Order No. 812 was never collected, and an engineer with a question and no employer is a dangerous quantity. I have spent two afternoons in the county record office and one in the churchyard, and here is the fate of Mr E. Speed, head gardener of Marchfield Court, who wrote a spiked, impatient hand and fed a regiment.
+
+1. Ernest Speed, born 1902, head gardener at the Court from 1929. The parish magazine of March 1940 — the record office has the run — carries his notice of the spring flower show, "postponed for the duration." His hand in the ledger and his hand on that notice are the same hand. Your grandfather would have recognised it across the counter.
+2. In May 1940 he went into the Royal Engineers. I will admit to you that I sat with that line longer than a stranger should: the man ordered sweet peas for the hall table in April and was throwing bridges over worse things by autumn. The order was never collected because the men who would have collected it were collected first.
+3. He survived. I am glad to report it and was gladder to find it. He did not come back — the Court was gone, the household dispersed — and he finished his working life as head gardener of a place in Kent, where the parish knew him, the churchwarden here tells me, as a man who judged their produce shows without mercy until 1971 and sent back the fee every year.
+4. He died in 1974. There is no stone here; his people were Kentish. But the vent I cleared in the north wall was his fire, the pea against my south wall is his pea, and the order he left open is closed. I went out and told the wall, Miss Prowse. You may make of that what you like. The record office made nothing of it at all.
+
+A garden, I begin to understand, is not land. It is a correspondence between everyone who has ever kept it, conducted at intervals of decades, in the only medium that survives us reliably: things still growing. Your firm has been the postal service of that correspondence for ninety years. I thought somebody ought to say so while the counter is still open.
+
+Yours faithfully,
+H. Tull
+
+⁂
+
 *[Seed packet, 'Saltmarsh Pink' sweet pea, the firm's standard printed instructions. Beneath the printing, handwritten additions in the letter-writing hand.]*
 
 **SALTMARSH PINK — SWEET PEA.** *Sow under glass in autumn or by March; soak seed overnight; plant out when a hand's depth of soil has lost its winter meanness. Cut without mercy. The more you take, the more it gives, in the manner of all generous things.*
@@ -170,9 +223,7 @@ The printed advice is my father's, and wrong in one particular: do not soak. Chi
 
 *And, cramped sideways up the edge of the packet:*
 
-These six packets are the 1940 making-up, refilled with living seed. The 1940 packets themselves I have kept back — the seed in them is long dead, and the firm does not sell dead promises. They are yours whenever you care to see them: they can be visited, like anything else one has loved and outlived.
-
-*[The word is there, in her hand, on the packet. It does not appear again in these papers.]*
+These six packets are the 1940 making-up, refilled with living seed. The 1940 packets themselves I have kept back — the seed in them is long dead, and the firm does not sell dead promises. They are yours whenever you care to see them: dead seed can still be visited, like anything else one has kept past keeping.
 
 ⁂
 
@@ -252,9 +303,40 @@ H. Tull
 
 ⁂
 
+*[Letter, received 7 June.]*
+
+Dear Miss Prowse,
+
+An event: I have been inspected. My daughter Janet came down from Aberdeen for the week — she is a structural engineer, which I mention so that you will understand the visit was conducted as a visit and also, unavoidably, as an audit of the works.
+
+Findings of the inspecting engineer, as delivered across five days:
+
+1. On arrival, at the gate: "Dad. You bought a wall."
+2. Day two, at the hot wall, hand flat on the brick, exactly where mine goes: nothing said. Engineers say nothing in a particular way when a structure has moved them; we are trained out of the vocabulary and never out of the response.
+3. Day three, wet, indoors: she took your catalogue off the bothy shelf to mock it and was not heard from for two hours. At supper she read the 'Moonglow' entry aloud in the tone we reserve for elegant load paths and said, "Who writes this?" I said the author declined to be identified while stocks lasted. She looked at me for a while. Structural engineers are also trained in reading deflection.
+4. Day four she found the general arrangement drawing gone from my plan chest and its dust-shadow left behind, and worked out where it must have been posted to, and said nothing again, in the other way.
+5. On the platform, departing: "The garden is sound, the gardener is better than he has been in three years, and whoever she is — don't botch it." I record the finding as received. I have never once botched a structure, Miss Prowse. The safety record does not, I am aware, transfer between disciplines.
+
+The glasshouse is found — a broken-backed veteran from a nursery clearance at Ledbury, sixty panes, wanted courage more than money. Re-glazing proceeds. The middle bed stays blank and the question stays drawn.
+
+Yours,
+H. Tull
+
+⁂
+
 *[Order form No. 4,141, received 15 June. The last order form H. Tull would ever submit to the firm, though nobody knew it then. Successional sowings: lettuce, kale for winter, green manures. In the margin:]*
 
 The firm's produce is cropping at Marchfield. The first peas were eaten on 11 June standing up, from the pod, in a manner Mr Speed would have sacked me for. It has occurred to me — the thought arrives daily at six o'clock, when a letter would — that the supplier of every growing thing inside this wall has never seen the garden. If the winding-up permits an inspection tour, the gardener would meet any train, in any month, at any notice. The spare room in the bothy has a bolt on the inside, a view of the hot wall, and no draughts; I re-hung the door myself and I certify the workmanship. The firm could inspect its continuity. The undersigned could stop describing swifts and simply point.
+
+⁂
+
+*[Seed packet, kale 'Fen Giant', despatched with order No. 4,141. The printed instructions, and beneath them, handwritten:]*
+
+**FEN GIANT — KALE.** *Sow June–July, plant out August a stride apart, and then do nothing, which gardeners find the hardest instruction on this list. Stands all winter, asks nothing, feeds everyone.*
+
+*Handwritten, below:*
+
+You are sowing this in June for a January you cannot picture yet: that is what winter kale is for, and the firm has always suspected it is what winter kale is *about*. When you cut it — take the middle leaves, leave the crown — it will be the coldest week of the year, the garden will look finished in the worst sense of the word, and there will be one thing standing five feet tall under the frost, still working. Every garden should contain one thing that did its believing back in June. — E.M.P.
 
 ⁂
 
@@ -274,6 +356,17 @@ Item three, since you have earned it and the barometer is looking smug: a bench 
 
 Yours sincerely,
 E. M. Prowse
+
+⁂
+
+*[Estate agent's particulars, Harker & Voss, Fakenham, June: "SEA VIEW, Chapel Lane, Saltmarsh St Peter — a well-presented detached bungalow of non-standard construction." Kept folded into the order pad, annotated throughout in the round hand, in pencil, in the manner of a woman correcting a proof.]*
+
+"Enjoying a sought-after position" — *between the chapel and the man who breeds lurchers.*
+"Sea View" — *it hasn't. The sea is four miles off and was last visible from this parish, per Dilys, during the flood of '53, when nobody enjoyed it.*
+"Benefiting from double glazing throughout" — *the windows do not open. I asked. The vendor looked proud.*
+"A low-maintenance garden to the rear, laid mainly to gravel" — *nine feet by eleven. A tablecloth, laid mainly to gravel.*
+"Offering scope for a purchaser to put their own stamp on the property" — *the firm's date stamps are Lot 40. I could put 1962 on it.*
+"Early viewing advised" — *early viewing conducted. It is a perfectly sensible house for a woman of sixty-one with no firm, no field, and no requirement to see the sea. I have made an offer. I record, for the file, that the kitchen windowsill takes a seed tray, two pots, or one cat, and that I measured it before I measured anything else, and that the agent watched me do it and had the wit to say nothing. Somebody has trained him. — E.M.P.*
 
 ⁂
 
@@ -326,6 +419,25 @@ You signed your last letter differently. I am an engineer, Miss Prowse: I notice
 Yours,
 H. Tull
 
+⁂
+
+*[Letter, on the firm's letterhead, 2 August. The last letter of the growing season proper; the last, as it fell out, before the schedules began.]*
+
+Dear Mr Tull,
+
+Your undertakings are accepted, entered, and — item 4 particularly — believed. I have read them three times, which you will recognise as my highest known unit of approval.
+
+Since you are to spend a winter in my sister's company, you had better be introduced properly; a shorthand key is a lock of hair, not a likeness. Marian was four years my elder and disliked people, or said she did. What she actually did was audit them. She would sit at the dyke end of the trial ground with her selection book while visitors talked at her, and she would rogue the conversation exactly as she rogued a seed row: without pity, keeping only what came true. Most people got a ruled line. The postman got seventeen years of silence and then, one June morning, a cutting of 'Saltmarsh Pink' for his wife, because he had never once left the gate open. That was Marian's entire theory of character: gates, kept shut or not kept shut.
+
+She would have audited you at length. The theodolite would have earned a mark; the interest calculation another; the undertakings, I think, a full entry. I will not pretend to know her verdict — breeders are cowards in exactly one respect, and sisters in one other. But I will say that in seven years I have not been able to imagine handing crosses 41 to 47 to any person, of any qualification, and last month I posted them to a man I have never met, registered, insured, and — here is the point — without hesitating. You may enter that in the record to the standard the firm may audit.
+
+The shop is quieter now. The last catalogue orders are nearly all filled; what is left is the long tail of goodbye. Old Canon Petherick came in on Tuesday for his runner beans as he has every year since my father's time, and when I told him they were his with the firm's compliments he stood at the counter and recited the collect for rogation days over the packet, which is the nearest this firm has come to a valuation it agreed with. I find I am glad of the quiet and glad of the tail. One should always be suspicious of a goodbye that can be got through quickly.
+
+Yours,
+Edith Prowse
+
+*PS — The firm's cat, Hessian — grey, catalogue-trained, sleeps in the returns tray — has begun supervising the packing cases. He suspects, and is right.*
+
 # Part Three — Lifting Season
 
 *[Letter, from Mowbray & Kett, solicitors, Norwich, dated 4 August, to Miss E. M. Prowse. Extract.]*
@@ -374,6 +486,86 @@ H. Tull
 
 ⁂
 
+*[Letter, on the firm's letterhead, 10 September.]*
+
+Dear Mr Tull,
+
+The auctioneers have been, and I will report it as you report walls, because your method turns out to be the only one that keeps the hand steady.
+
+1. Two of them: old Mr Whitlow, who buried his father the same month I buried mine and has never sent the firm an account in thirty years without a stamp collector's care over the stamps; and young Mr Deane, who is new, and kind, and knows the price of everything in the yard and the weight of nothing in it. This is not a complaint. It is what one hires an auctioneer for. The weight is my department, until the 14th of October, when it stops being anybody's.
+2. They lotted the shop in a morning. The counter took eleven words. I had thought I would mind the counter most, and I stood by while Mr Deane called it — oak, brass rule, scored, one initial carved small — and found I minded most that he called the E "a person unknown." Dilys, from the doorway, in the voice she keeps for mispriced fish: "The person is known." He wrote something down. I did not ask what.
+3. The herbarium was opened for condition. Marian's pressings, Mr Tull — thirty years of them, tissue after tissue, and her hand on every label, and the room went quiet the way your daughter goes quiet, both ways at once. Mr Whitlow put his glasses on, looked a long time at a sheet of 'Saltmarsh Pink' dated the year she died, and said, "We will describe this lot carefully," which from Whitlow is a eulogy.
+4. Completion on the Granary is set for early November. Sea View and I proceed. The windowsill has been measured; you have had the particulars of it. I am taking the cat, the kettle, my grandfather's ledger rule, and as little else as I can decently manage. Dilys says I am moving like a woman going into the witness protection. Dilys is not wrong. I should like to give evidence against the year, your acres excepted.
+
+Michaelmas at the month's end, and the Dyke Field lease with it. The last harvest is nearly in — but that deserves its own letter, when I can write it without the lotting chalk still on everything.
+
+Yours,
+Edith
+
+⁂
+
+*[Letter, received 18 September.]*
+
+Dear Miss Prowse,
+
+"The person is known." Mrs Pring has, in five words, produced the best condition report ever entered on a lot, and I hope Mr Deane had the sense to keep it in the description.
+
+Works report, so that you know where your envelopes will winter:
+
+1. The glasshouse is finished. Sixty panes, all holding, and on the 15th the first fire was lit in the propagating pit. A glasshouse coming warm at dusk, Miss Prowse, is a thing I would put against any bridge I ever signed: the light goes green-gold, the glass sweats like a runner, and the whole structure ticks as it takes up the heat, like applause remembering to be polite.
+2. Crosses 41 to 47 go under glass the first week of October, per undertaking, per M.'s notes, rogued without pity thereafter. The record book is ruled and headed. Your sister's shorthand key sits beside it in a frame, because working documents deserve frames more than finished ones do; ask any engineer what he keeps on the wall.
+3. I have been giving thought to distance. It is the engineer's oldest problem — how to act at two hundred miles without being seen to move; we solved it with drawings, deputies, and the post, and I find the old methods are all still in service. I mention this so that you will know the winter does not frighten me, whatever the 14th of October does. A correspondence that has carried what ours has carried this year is not a fair-weather structure. It is designed for load.
+
+The barometer is tapped, gently, and put back on its hook until the dinner.
+
+Yours,
+H. Tull
+
+⁂
+
+*[Letter, on the firm's letterhead, 28 September. Michaelmas week.]*
+
+Dear Mr Tull,
+
+The last harvest is in, and I have scrubbed the chalk off my hands, and here is the letter I owed the field.
+
+Seed harvest is not like other harvest; nobody paints it. It is small sacks and pillowcases, it is pods rattled into drums and umbels upended over sheets, it is dust in the throat and the smell of a dry year ending. We have always done it with the village — a pound a bag when I was a girl, and latterly no money at all, just the same six families who come because their grandmothers came, and the chapel urn, and Dilys calling the tally. This year all six families came, and four more that have never come, and the vicar, and the lurcher man, who is not a joiner, with his own pillowcase. Nobody said why. Everybody knew why. We threshed and winnowed for five days and did not talk about it, in the way of this county, which can conduct an entire funeral inside a conversation about the weather.
+
+And now it is done, the store is full — properly full, Mr Tull, floor to ceiling, every accession regenerated and racked and dated in my hand, nineteen hundred promises with their deadlines freshly renewed — for the first time in the firm's history and the last. My grandfather stocked it to sell. I have stocked it to stop. There is a species of housekeeping that only makes sense as an act of faith: one cleans a house before leaving it not for the next tenant's sake but because the house has earned the state it is left in. The store is left as the firm's mind was: in order, and open somewhere, on a dash.
+
+Dyke Field went back to the diocese on Friday. I walked the headland at the end and sat on Marian's bench, and the contractor who took off his cap in May was ploughing in the flower rows by four o'clock, which is the diocese's right and the ground's habit and I do not mean to write about it further, except to say that the sweet peas at the dyke end had set seed, and I had it in my pocket before the plough came, and it is in the store with the rest. Let the record show the firm's last collection was made at a walking pace, in a grey coat, slightly against the clock.
+
+Sixteen days to the sale. I find I can write that sentence now. Your paragraph about load was read at the right moment, which was Friday, on the bench.
+
+Yours,
+Edith
+
+⁂
+
+*[Letter, received at the Granary, 2 October, in a large careful hand on ruled paper, together with 74p in coins sellotaped to a card. Filed, docketed in the round hand: "Order No. 4,152. The last."]*
+
+Dear Seed People,
+
+My gran says you are closing down for ever. I have 74p. I would like pumpkin seeds for the biggest sort of pumpkin you have got, because I am going to grow one for the show next year even if the show is in a different village now. My gran says your seeds are the proper ones and the garden centre kind are anybody's guess. If 74p is not enough for the biggest sort please send the middle sort.
+
+Yours sincerely,
+William Herring (age 8, nearly 9)
+
+*[Copy of the reply, despatched with two packets and the coins returned, on the firm's letterhead:]*
+
+Dear Mr Herring,
+
+Your order — No. 4,152, and the last this firm will ever fill, an honour you have carried off without trying, which is the only way honours should be carried — is despatched herewith: the biggest sort, both packets, with the firm's compliments. Your 74p is returned. We have taken instead something worth more, which is the intelligence that the proper seeds will be in the ground next year, in a garden we know of, under management we trust.
+
+Sow in May, two seeds to a pot, and keep the stronger. Feed it shamelessly. When it wins, tell your gran the firm expects a photograph, care of the new address she will have by then, because grans of her sort always do.
+
+The middle sort is for the year after. There is always a year after, Mr Herring. That is the whole secret of the trade.
+
+Yours faithfully,
+E. M. Prowse (Miss), *for* Prowse & Daughters, Seedsmen since 1931 — closed, as of this order, with the books balanced and the last customer eight, nearly nine.
+
+⁂
+
 *[Sale catalogue, Whitlow & Deane, auctioneers: "PROWSE & DAUGHTERS, SEEDSMEN — CLOSING-DOWN SALE BY AUCTION, on the premises, The Granary, Saltmarsh St Peter, 14 October, 11 a.m. sharp." Extract of lots.]*
 
 Lot 38. The shop counter, oak, c. 1931, with brass yard rule let into the edge. Scored, ink-stained, one initial (E) carved small at the north end by a person unknown.
@@ -381,7 +573,23 @@ Lot 39. Seed-cleaning and winnowing machinery, various, working order.
 Lot 40. Brass letter scales, seed measures, the firm's date stamps 1931–present, and the tea fund tin (contents included).
 Lot 41. THE SEED STORE: approx. 1,900 accessions of vegetable and flower seed, the firm's own regenerated stock, racked, labelled, and viable, incl. the complete Prowse list. Sold as one lot. *Viewing strongly advised; no guarantee beyond the firm's own germination records, which, the auctioneers are bound to say, are better warranty than money.*
 Lot 42. The order ledgers, 1931–date, 14 vols.
-Lot 43. Breeder's notebooks, selection records, and herbarium of the late Miss Marian Prowse, together with sundry field diaries. *The auctioneers are instructed that this lot is sold with copyright reserved to the vendor.*
+Lot 43. Breeder's notebooks, selection records, and herbarium of the late Miss Marian Prowse, together with sundry field diaries. *The auctioneers are instructed that this lot is sold with copyright reserved to the vendor. The condition report notes one initial (E) carved at the north end of Lot 38: the person is known.*
+
+⁂
+
+*[Letter, on the firm's letterhead, 13 October. Short; the hand smaller than usual, and very level.]*
+
+Dear Mr Tull,
+
+Tomorrow at eleven, sharp — Whitlow has never been a minute late in his life and will not begin at his last sale here. The marquee is up in the yard. It is a good marquee. I priced the hire myself in June, in the spirit in which one chooses one's own hymns.
+
+I shall wear the grey coat, stand at the back where the counter can see me, and buy nothing, which Dilys says is the only dignified course and Dilys has buried two husbands and a business of her own, so I take her word on funerals.
+
+You will keep yours. I know it, I have plotted the curve. I only wished to write something tonight to the one address this year has taught me, and to say: whatever is in the room tomorrow, the best of the firm is not. The best of the firm is on a wall in Herefordshire, drawn to scale, growing.
+
+Goodnight, Mr Tull.
+
+Edith
 
 ⁂
 
@@ -393,7 +601,9 @@ It is done, and I will give you the day while my hand still remembers it, becaus
 
 It rained until ten, then thought better of it. They came from four counties — dealers with vans, neighbours with casseroles masquerading as sympathy, two old customers who shook my hand and could not speak, and Mrs Herring from the post office who bought the tea fund tin for eleven pounds and gave it straight back to me across the trestle, full. The machinery went to a museum trust, which is the right graveyard for it. The counter — I will write this quickly — the counter went for less than a decent spade, to a man who talked of "reclaimed character" and has, I'd stake the stamp money, never kept anything alive but a van. I carved that E when I was nine, Mr Tull, the year my grandfather told me the firm would be my sister's and mine if we were equal to it, and I put it at the north end where he wouldn't see, except that he saw everything, and said only: "Initials are a claim, girl. See you honour it."
 
-Lots 41 to 43 — the seed store, the books, Marian — went together, and went strangely. A telephone bidder, through an agent nobody knew, a Mr Coker, grey little man in the second row who bid like a metronome and never looked up. The room let it happen; the dealers wanted the brass, not the paper. Whoever it was took the whole mind of the firm for less than the machinery fetched. Dilys says a dealer will strip the ledgers for the postal history and pulp the rest. I have decided not to believe her, on no evidence whatever, because the alternative was sitting in the second row bidding like a metronome and I have to sleep at night.
+Lots 41 to 43 — the seed store, the books, Marian — went together, and went strangely: to an agent nobody knew, a Mr Coker, a grey little man in the second row who bid like a metronome, never once looked up, and declined, when Mr Deane pressed him, to name his principal on the day. The room let it happen; the dealers wanted the brass, not the paper. Whoever it was took the whole mind of the firm for less than the machinery fetched. Dilys says a dealer will strip the ledgers for the postal history and pulp the rest. I have decided not to believe her, on no evidence whatever, because a person must choose what to believe on the nights the evidence is out.
+
+One more thing happened, and I have saved it because it is the thing I am keeping. At the end, when the vans were loading, Mrs Herring's grandson William — my last customer, eight, nearly nine, the pumpkin magnate — walked the length of the yard in front of everybody, shook my hand like a chairman, and informed me that his seeds are counted weekly, kept in a tin under his bed against mice and sisters, and that he has drawn a plan of where the pumpkin is to go, with the shed moved on paper to give it the sun. Ninety years, Mr Tull, and the firm's final transaction on its own premises was a planting plan, reported in person, drawn to no scale whatever, with a structure relocated for the good of the crop. You will recognise the school of engineering. Whitlow saw it and did not call the next lot for a full half-minute, which in auctioneering is a state funeral.
 
 It is over, at any rate. Ninety years, four hours, thirty-one lots. I am no longer anybody's supplier.
 
@@ -418,7 +628,7 @@ So.
 
 ⁂
 
-*[Letter, dated 29 October. Typed, on the firm's letterhead — the first typed letter since the compliments slip in January.]*
+*[Letter, dated 29 October. Typed, on the firm's letterhead — the first typed communication since the compliments slips of the early spring.]*
 
 Dear Mr Tull,
 
@@ -444,13 +654,31 @@ You are owed a full account, and here it is, with nothing load-bearing left out.
 
 When your August letter told me the books and notebooks had been scheduled for disposal — no commercial value — I was frightened. That is the accurate word; an engineer is trained to report the accurate word. Lot 41 was nineteen hundred living accessions with a germination deadline; Lots 42 and 43 were your firm's mind and your sister's argument; and the room, as you yourself wrote, wanted the brass and not the paper. I saw one chance in three of a dealer, one in three of a pulper, one in three of an eccentric. I decided to be the eccentric. I instructed Coker because a known bidder drives prices against himself, and — write it plain, Tull — because you had asked me not to come, and an agent let me keep the letter of your asking while I broke what your asking was made of. I kept my word by its weakest member and let the rest of the structure fail. I have inspected enough failures to know that is how the worst ones always go: not the bolt, but the assumption behind the bolt.
 
-What I ought to have done was write to you in September and ask leave. I did not, and I will tell you the true reason, which does me no credit: I was afraid you would say no — that pride would rather see the mind of your firm skipped than rescued conspicuous­ly — and I decided my judgement of what you could bear was sounder than your right to decide it. That is the whole error, Miss Prowse. It has a long engineering pedigree and it has drowned better men than me.
+What I ought to have done was write to you in September and ask leave. I did not, and I will tell you the true reason, which does me no credit: I was afraid you would say no — that pride would rather see the mind of your firm skipped than rescued conspicuously — and I decided my judgement of what you could bear was sounder than your right to decide it. That is the whole error, Miss Prowse. It has a long engineering pedigree and it has drowned better men than me.
 
 What I want you to know is narrow, and it is this: I did not buy your firm. I am not a collector, and this was never acquisition. Every accession in Lot 41 is racked in the bothy at the humidity your own storage notes specify — I found the notes in Lot 42, which is the only use I have made of Lot 42. Nothing will be sold, shown, lent, or bragged of. Nothing is mine except the caretaking. It was bought so that it could not be bought, and it waits — all of it — on the only authority the garden recognises.
 
 I ask nothing, which is as well, since I appear to have taken the asking privileges out with the foundations. The file marked 4,117 is not closed. But it is yours, and so is the closing of it.
 
 H. Tull
+
+⁂
+
+*[Draft, unsent, undated — early November by its contents — found long afterwards folded into the back of the last order pad. The round hand, not level. Several beginnings, struck through but legible, as strikings-through in ink always are.]*
+
+~~Dear Mr Tull, The firm has received your account and finds~~
+
+~~Dear Mr Tull, You bought my sister.~~
+
+~~Dear Mr Tull, Do you know what I did on the evening of the sale? I wrote to you. Fifteen pages of the day, and the counter, and Mrs Herring's tin, and I signed it Edith, and I walked it to the pillar box in the dark because I could not wait for morning, because for the first time in my life there was a person to whom the day was not told until it was told to him. And nine days later the settlement came, and I stood in the kitchen of a bungalow called Sea View which hasn't, and learned that while I was writing you fifteen pages you already owned the~~
+
+~~What you cannot mend with mortar, Mr Tull, is~~
+
+Dear Mr Tull. Here is the truth at six o'clock, where the truth in this correspondence has always kept its office. I am not ashamed that you have the store, the books, and Marian. There is no one — there is no one — I would sooner. That is the wound, if you want it surveyed: that you did the one thing I would have chosen, in the one way I cannot forgive, and I am left holding both halves and they do not join. You kept your word by its weakest member. Your phrase. You will be finding it load-bearing for some time.
+
+I am not posting this. The pillar box has had enough of me.
+
+*[Unsigned.]*
 
 ⁂
 
@@ -470,6 +698,24 @@ H. Tull
 
 ⁂
 
+*[Letter, to H. Tull, The Walled Garden, Marchfield, dated 20 November. A third hand: broad-nibbed, downright, unacquainted with doubt.]*
+
+Mr Tull,
+
+You don't know me except as five words in an auction catalogue. Dilys Pring. Thirty-one years behind that counter alongside two Miss Prowses, and I'll thank you to read to the end before you decide this letter is interference. It is interference. Read to the end anyway.
+
+First, practical matters. Stop addressing the Granary. The new people send on what they remember to and burn what they don't, being minimalists. She is at Sea View, Chapel Lane, Saltmarsh St Peter, a bungalow with sealed windows and a gravel tablecloth, and if that address doesn't hurry you nothing will.
+
+Second, evidence, since I'm told you were an engineer and want load cases. I helped her move. I have seen the state of things. Your letters are opened, Mr Tull — read, docketed, and filed, in a woman whose filing I have watched for three decades, and on the dockets she has written "Unanswered." Not "Returned." Not "Closed." Unanswered — which in the filing system of Edith Mary Prowse is not a full stop, it is a dash, and you of all the men in England have been shown what that firm does with a dash. Item two: the plan of your garden travelled to Sea View in the cab of the van, flat on her knees, because she wouldn't trust it to the boxes. Item three: there is a sweet-pea packet on the kitchen windowsill — an old one, wartime old, 'Saltmarsh Pink', dead stock by my reckoning, the kind she'd never in ninety years have let leave the shop — propped against the glass where a photograph would go, and when I picked it up to dust she took it off me quicker than she took the sale particulars.
+
+Third, advice, and then I'm done. Don't send sentences. You are both of you too good at sentences; you'll fence all winter and call it correspondence. Send seed. Seed she cannot return, cannot file, and cannot leave on a windowsill without it meaning what a packet of seed has meant in that family for ninety years: somebody, somewhere, assuming she has a future. Then be patient. She was thirty years forgiving the counter for being sold and it went for forty-eight pounds. You cost considerably more.
+
+I'll deny this letter to my grave, which is some way off, my family being durable.
+
+D. Pring (Mrs)
+
+⁂
+
 *[Received at Sea View bungalow, Saltmarsh St Peter, 27 November: a seed packet, no letter enclosed. It is one of the firm's own packets — 'Saltmarsh Pink', the printed instructions, the father's wrong advice about soaking — refilled, resealed with a wafer, and annotated beneath the printing in the engineer's italic:]*
 
 Grown at Marchfield from the 1940 redemption; harvested August; germination tested at 96 per cent, which is to say the promise has been kept one more year and is herewith returned to its maker. The printed advice remains wrong. Chip, don't soak. Tell the seed the news.
@@ -482,7 +728,30 @@ A tablecloth garden will hold one wigwam of these. Nine feet by eleven is not no
 
 *[Postcard — a printed view of the Fens at evening — sent from Saltmarsh St Peter, 4 December. The letter-writing hand, small.]*
 
-Mr Tull — Receipt of one packet is acknowledged. The firm is dissolved and cannot invoice you for its own seed; you have contrived, again, the one order that defeats the system. Miss Prowse's position is more complicated and remains under audit. The packet is on the kitchen windowsill, where the audit can keep an eye on it. — E.M.P.
+Mr Tull — Receipt of one packet is acknowledged. The firm is dissolved and cannot invoice you for its own seed; you have contrived, again, the one order that defeats the system. Miss Prowse's position is more complicated and remains under audit. The packet is on the kitchen windowsill, beside an elder relation of 1940 vintage it appears to know, where the audit can keep an eye on the pair of them. — E.M.P.
+
+⁂
+
+*[Letter, dated 9 December. The engineer's italic, lighter on the paper than in November.]*
+
+Dear Miss Prowse,
+
+A postcard of the Fens at evening is under the glass of the plan chest, where drawings are put to be worked from. I make no larger claim for it than that. Working documents, as previously established, are the ones that get the frames.
+
+Caretaker's report, December:
+
+1. Regeneration list drawn up: the forty-one deadline accessions, plus nine I judge marginal against your germination columns. They have the east beds and the new glass between them; your firm's storage notes have been promoted from Lot 42 to the bothy table, where they are consulted like scripture and argued with like a colleague.
+2. The middle bed has its winter blanket of muck and leaf-mould and looks, Janet says by telephone, "suspiciously like a bed somebody is keeping." Somebody is.
+3. Under glass: crosses 41 to 47 stand at forty-four plants after the November roguing, and one of them — I report this in the flat voice I was trained in, and you will hear through it, because you hear through everything — one plant of cross 44, sown early against all advice in a pot by the propagating pit, where a foolish man could watch it on the bad evenings, has set a bud. In December. Forced, out of season, under glass, by heat and stubbornness and the general refusal of your sister's argument to wait for June. It may blast in the cold. Buds do. I mention it now only so that, whatever it does, it will have been mentioned — the firm taught me that: open orders are left open, in the ledger, in full view, until they are collected.
+4. An audit, once begun, is entitled to all the evidence. Report follows at Christmas, whatever there is to report.
+
+H. Tull
+
+⁂
+
+*[Received at Sea View, 15 December: a second packet, no letter. 'Marian's June' lettuce, the firm's own printing, refilled, annotated beneath in the engineer's italic:]*
+
+Grown at Marchfield from your February substitution — the fresh stock you sent because the firm would not sell three preventable disappointments. Harvested, tested, true. Sow a pinch in a seed tray on a windowsill in February and it will stand a north light: the variety was bred by a woman who expected things to manage. A tablecloth's corner in April is enough for the rest. She is named for June, Miss Prowse, and she has never once failed to arrive there.
 
 ⁂
 
@@ -493,7 +762,15 @@ Mr Tull — Receipt of one packet is acknowledged. The firm is dissolved and can
 
 *No. 31. PEA 'NORFOLK MORNING'.* The entry is quoted entire from the Prowse catalogue, to which this list is indebted for its education: "Up before the gardener and sweeter than he deserves; the pea this county's mornings were named after, or should have been." *Grown against the south wall; eaten standing up; Mr Speed's ghost notified and reconciled. Description by E.P., who has been wasting herself on parsnips, mornings, and the undersigned all year.*
 
-*No. 44. PARSNIP 'MOONGLOW'.* "Patient, unglamorous, and worth the wait — like most things in the Fens." *The first sentence of hers I ever read. I ordered the parsnip. I got the Fens, the firm, the wait, and the worth. Description by E.P. It was always by E.P. A man who has read one galley slip and seven months of letters does not need the initials confirmed, but he keeps the slip flattened between two cards, like a leaf.*
+*No. 40. CARROT 'DYKE FIELD SCARLET'.* "Colour of a postbox and as reliable; the carrot we judged all others against, and the others knew it." *Grown in the east beds over a cleared glasshouse footing, in Mr Speed's old ground. The others knew it here too. Description by E.P.*
+
+*No. 44. PARSNIP 'MOONGLOW'.* "Patient, unglamorous, and worth the wait — like most things in the Fens." *The first sentence of hers I ever read. I ordered the parsnip. I got the Fens, the firm, the wait, and the worth. Description by E.P. It was always by E.P. A man who has read one galley slip and a year of letters does not need the initials confirmed, but he keeps the slip flattened between two cards, like a leaf.*
+
+*No. 52. KALE 'FEN GIANT'.* "Stands all winter, asks nothing, feeds everyone; the variety this firm would wish to be remembered as." *It stands in the south quarter now, five feet and frost-silvered, and the firm is remembered as it wished. It did its believing back in June, per the packet, and so — the record may as well be complete — did the gardener. Description by E.P.*
+
+*No. 58. LEEK 'EZRA'S BANDSMAN'.* "Upright, unkillable, and faintly ridiculous, like the cornet section it was named for; Ezra Prowse played third cornet for forty years and the leek is his memorial, the band having declined the offer of a statue." *Grown here in ranks, as is only proper. The garden did not know the firm had jokes in it until this list taught me to read for them. It has jokes the way a wall has flues: built in, load-bearing, and warm when lit. Description by E.P.*
+
+*No. 88. SWEET PEA 'SALTMARSH PINK'.* "Salt-pink at the wing, pale at the standard, scent like the week before a holiday; raised here by the founder's wife, and never off this list since. Some varieties earn their keep in the ground. This one earns it everywhere." *Six packets of it waited eighty-five years at Saltmarsh for a garden that could not come to collect, and were redeemed, refilled, and flowered on a heated wall the summer past — Order No. 812, closed; Mr Speed, notified; the wall, warm. The list's whole method is in that transaction, and so is its maker's. Description by E.P., last two sentences excepted.*
 
 *UNNUMBERED. SWEET PEA, CROSS 44 (PROWSE, M., seventh cross, kept everything).* First flowered under glass at Marchfield in December, out of season and against advice, one truss forced because the gardener could not wait for June and formally declines to apologise. Pale at the standard. Salt-pink at the wing. Scent doubled — the glasshouse held it for three days, like news. It holds true, Miss Prowse. It is the one. Her note directs that it be named for someone who kept things alive without being thanked, and the garden therefore enters it, subject to the only authority it recognises, as sweet pea **'Edith Prowse'** — and will enter nothing, print nothing, and grow nothing further until the authority rules.
 
@@ -516,12 +793,14 @@ It is yours. The list, the wall, the bed, the question — every item, and the u
 **ORDER No. 1**
 
 *Name:* E. M. Prowse — *the initials are a claim; see below.*
-*Address:* at present, Sea View (it hasn't); from the 12th of January, see item 4.
+*Address:* at present, Sea View (it hasn't); from the 12th of January, the Walled Garden, Marchfield, which the undersigned has been able to find from her kitchen since July.
 
 | Qty | Item |
 |---|---|
 | 1 | Answer to Order No. 4,117, four seasons overdue, rendered in full and at last: sweet peas, item one, 'Edith Prowse' if the executor of Marian Prowse may be permitted the immodesty, and she finds she may. A hot wall, item two, with the fire lit in April, and my palm flat on the brick, and no engineering justification attempted by anybody. A bench, item three, facing west, at the hour the wall gives back its heat. Item four, a middle bed in June. Item five, margins. Wide ones, Mr Tull, and years of them. |
 | 1 | The gardener. Quantity one, condition as found, workmanship certified. The firm has inspected the failure and the making-good, and rules the structure sound — sounder, for knowing where it broke and how it was mended, which is all soundness ever is. The authority rules, while it is ruling: the name stands, the list may print, and the argument — she would have liked you, and she would never, ever have said so — is finished, and won. |
+| 1 | Cat, grey, catalogue-trained, answers to Hessian and to nothing else. Travels with the customer, in the guard's van, under formal protest. Requires a returns tray, a safe to sleep by, and advance notice of any minimalists. |
+| 6 pkt | Sweet pea 'Saltmarsh Pink', vintage 1940, contents dead, value beyond the reach of the trade. To be carried, not posted. The customer proposes they be planted in the corner of the middle bed on arrival — dead seed keeps no promise, but it has stood witness to one all year on a windowsill that faces no sea, and witnesses belong at the wedding of the evidence. |
 
 *Delivery instructions:* None. The customer collects. The 12.40 from Norwich, the 12th of January, changing at everywhere, arriving mid-afternoon, ridiculous in January, and entirely certain. Have the door open and the kettle insolent.
 
@@ -543,6 +822,32 @@ The middle bed knows what it was for. So, at very long last, does the gardener.
 
 ⁂
 
+*[Letter, to Mrs D. Pring, Saltmarsh St Peter, dated 14 January, postmarked Marchfield. The round hand, entirely level.]*
+
+Dear Dilys,
+
+Arrived. You will want the inspection report, and you have earned it, by means I am assured I know nothing about and a broad-nibbed hand I have only filed invoices in for thirty-one years.
+
+The 12.40 was met. He was on the platform forty minutes early — the stationmaster told me this, unprompted, while pretending to check a timetable, so Marchfield has a Dilys of its own and the two of you must never meet. We shook hands. I record that we shook hands, and that it lasted the length of the platform, walking, neither of us letting go, both of us discussing the weather, which was doing something or other; I have mislaid the notes.
+
+The gate was open. The wall is sound — I have now had this from the wall itself, which is warm, Dilys. He lit the furnace for my arrival. In January. Ninety feet of Georgian brick brought to blood heat for one woman's cold hands: the extravagance would have finished my grandfather, and I have decided it is the most sensible thing any man has done in my company. The garden is the drawing made true, bench and all. I sat on item three in my coat while the light went, and he stood by not offering his, having judged — correctly, the man judges load for a living — that I needed the cold and the west and the quiet more than the courtesy.
+
+In the glasshouse, on the staging, by the propagating pit: one truss of sweet pea, out of season, pale at the standard, salt-pink at the wing. The scent held in the glass like news, exactly as advertised. I stood in front of my sister's finished argument and I will not write what I did, except that he had a handkerchief ready, laundered and folded, in the manner of a man who plans for specified emergencies, and did not once look at his watch.
+
+The bothy has two rooms, as advertised, and the bolt is on the inside of the spare-room door, as advertised, and the workmanship is certified. The kettle is insolent. The cat has claimed the seed store, which he was always going to, there being a safe-sized absence in his arrangements; he sleeps against the racking, ninth accession from the door, and Henry has entered him in the day-book as "security, per Order No. 1, non-returnable."
+
+Henry. I have been putting off writing the name in a letter, the way one holds a new seed catalogue a moment before opening it, because the moment before is also worth having. There it is, at any rate: written. And since you will hear it from somebody's Dilys if not from me: Marchfield church has us down for the shortest day of the year to come — a whole growing season first, properly conducted, bolt on the inside of the spare-room door and the banns read to the wall; and then a wedding at the bottom of the year, when the light turns and the seed lists go to press. He says the date has sound engineering behind it — begin at the turn, build toward the light. I say the engineering is sentimental. We are both right, which appears to be the working method of the firm going forward.
+
+Come in June, when the middle bed flowers. Bring the tin.
+
+Edith
+
+*[Below, in the broad-nibbed hand, this letter being returned to Marchfield in the spring with the rest of Mrs Pring's file, "for the archive, since you two keep everything":]*
+
+About time. I claim no credit and will accept it all. The counter went to a barn in Lynn; the man rang me in March, wanting the history, having found the E. I told him: the person is known, and is at the following address, and answers letters. Some things want keeping open. — D.P.
+
+⁂
+
 *[Printed leaflet, the following January — set in type and machine-printed, some hundreds of copies, distributed by post to the former customers of a dissolved Norfolk firm. Kept, folded, in the back of the First Seed List, with the rest of these papers.]*
 
 **PROWSE & TULL, SEEDSMEN**
@@ -552,9 +857,9 @@ The former customers of Prowse & Daughters are advised that the Prowse list — 
 
 New this season, and offered for the first time anywhere: sweet pea **'EDITH PROWSE'** (Prowse, M., cross 44) — pale at the standard, salt-pink at the wing, scent doubled; raised at Saltmarsh St Peter, finished at Marchfield; named for someone who kept things alive without being thanked. She is thanked now, daily, at length, in writing where necessary. *Cut without mercy. The more you take, the more it gives, in the manner of all generous things.*
 
-The firms beg to record the amalgamation of their two houses, effected quietly at Marchfield church in the first week of January, the wall witnessing, the swifts regrettably absent but expected on or about the 26th of April, when the senior partner intends to record them, as is now the custom of the house, under germination.
+The firms beg to record the amalgamation of their two houses, effected quietly at Marchfield church on the shortest day of December last, the wall witnessing, one guest attending from Norfolk with a tin, the swifts regrettably absent but expected on or about the 26th of April, when the senior partner intends to record them, as is now the custom of the house, under germination.
 
-Orders by post. Visitors by appointment. The gardeners regret that they are frequently to be found on the bench at the dyke (hon.), facing west, refusing to work.
+Orders by post. Visitors by appointment. The seed store is guarded (grey, catalogue-trained, non-returnable). The gardeners regret that they are frequently to be found on the bench at the dyke (hon.), facing west, refusing to work, and acknowledge a standing debt to a correspondent in Norfolk who advised, at the correct moment, that seed cannot be returned.
 
 Margins are provided. The firm reads them. That is how it was founded.
 
