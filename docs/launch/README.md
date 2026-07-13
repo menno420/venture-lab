@@ -19,6 +19,11 @@ Zero-owner-click launch material for the sellable candidates. Everything here is
 - [README buy-section snippet](template-packs/readme-buy-snippet.md)
 - [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/template-packs.md)
 
+## Ship-It Bundle — $59 (HARD-GATED on ⚑B + ⚑D)
+- [Listing copy (refreshed from `candidates/BUNDLE-LISTING.md`, catalog parity)](bundle-starter/listing-copy.md)
+- [Owner bundle-creation click-script (HARD-GATED 2026-07-13)](bundle-starter/owner-actions.md)
+- [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/bundle-starter.md)
+
 ## Stripe Webhook Test Kit — $29
 - [**OWNER LAUNCH HOUR** — atomic ~1h runbook (⚑A + ⚑E + first-sale verification)](OWNER-LAUNCH-HOUR.md)
 - [One-pager](stripe-webhook-test-kit/one-pager.md)

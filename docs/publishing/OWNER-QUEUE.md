@@ -182,6 +182,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($5 fixed per pack (default); floor $3). · **DEFAULT:** **$5 fixed per pack** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URLs copied. · **UNBLOCKS:** the next click in this sequence
 
+### Ship-It Bundle (Membership Kit + Template Pack) — `docs/publishing/vetting/bundle-starter.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** execute the ⚑B membership-kit ($49) publish click — blocking: ⚑B membership-kit publish click must be executed first (a Gumroad bundle references existing live products; click queued PR #106, packet membership-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** execute the ⚑D template-packs ($19 PWYW) publish click — blocking: ⚑D template-packs publish click must be executed first (same live-referent rule; click queued PR #108, packet template-packs.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** create the Gumroad bundle of the two live products (New product → Bundle, both components selected). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** listing copy pasted from the refreshed bundle listing-copy. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($59 one-time fixed; $68-separate comparison cited in the copy). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + preview/test purchase delivering BOTH zips (sha256 spot-check against the §1 pins) + public bundle URL copied. · **UNBLOCKS:** the next click in this sequence
+
 ### The Painted Stones — `docs/publishing/vetting/the-painted-stones.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
 
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence

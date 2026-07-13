@@ -1,10 +1,18 @@
 # Bundle — Membership-Site Kit + Agent-Workflow Pack — Marketplace Listing
 
 > Ready-to-publish copy for a Gumroad / Lemon Squeezy **bundle** of both
-> candidates. One publish click by the owner ships it. Nothing here has been
-> published — the publish step is a queued ⚑ owner action (see ⚑B and ⚑D in
-> `docs/research/venture-ledger.md`). Sells the two individual products together
-> at a discount.
+> candidates. One publish click by the owner ships it — but the bundle is
+> **HARD-GATED**: a bundle references existing live products, and as of
+> 2026-07-13 the components are click-queued, not live. Catalog status: the
+> Stripe Webhook Test Kit ($29) IS live (owner test purchase verified, PR #86;
+> `docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md`) but is not part of this
+> bundle; the two components here are queued ⚑ owner clicks — ⚑B
+> membership-kit $49 (PR #106) and ⚑D template-packs $19 PWYW (PR #108) — in
+> the derived `docs/publishing/OWNER-QUEUE.md`. Bundle click-script:
+> `docs/launch/bundle-starter/owner-actions.md`; queue-parseable packet:
+> `docs/publishing/vetting/bundle-starter.md` (refreshed listing copy at
+> catalog parity: `docs/launch/bundle-starter/listing-copy.md`). Sells the two
+> individual products together at a discount.
 >
 > Individual listings this bundle combines:
 > - [`candidates/membership-kit/LISTING.md`](membership-kit/LISTING.md) — $49
