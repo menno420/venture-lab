@@ -597,3 +597,189 @@ Ropati lachte toen, een echte, met de tanden en al, en hij ging over in een hoes
 Verderop langs de weg, voorbij de kerk, schalde de lach van een meisje — helder, ongeduldig, negentien jaar oud. Lani, die weer met haar moeder over de studiebeurs in discussie was. De lach droeg tot in de fale en bleef tussen hen beiden hangen als een naam die wacht om geroepen te worden.
 
 Tuli keek naar het geluid toe. En ze voelde, eerder dan ze het zag, hoe de oude man zijn hoofd dezelfde kant op draaide, op hetzelfde ogenblik, de twee van hen uitgelijnd als schotels die op een bron zwenken — en geen van beiden zei iets, omdat geen van beiden dat hoefde, omdat ze allebei, in dezelfde ademtocht, bij het einde van de zin waren aangekomen.
+
+## Hoofdstuk 10 — De overdracht
+
+De advocaat van de Meridian Group kwam met de vlucht van woensdag, wat betekende dat het ze ernst was. Tuli keek hoe hij het hete platform op stapte in een linnen jasje dat zich onder de oksels al had overgegeven, en voelde iets wat ze niet verwacht had — kalmte.
+
+Marcus, naast haar bij het hek, voelde het ook en wantrouwde het. 'Je hebt een blik. Wat heb jij gevonden dat ik niet heb?'
+
+'Niets nieuws in de data. Ik heb de fout gevonden in hun hele benadering. Ze denken dat het observatorium een ding is dat je bezitten kunt.' Ze zei het bijna vertederd. 'Bergingsrechten, hardware, het intellectueel eigendom in de boodschap. Alles gebouwd op één aanname die iedereen in dat gevecht deelt — dat wie de *machine* houdt, de *ontdekking* houdt. Maar de machine ontvangt alleen maar. Het antwoord kan helemaal niet in een machine leven. Dus laat ze de schotels maar hebben. Laat ze vechten om veertig jaar roestend aluminium. Ik ga het eigenlijke ding ergens neerleggen waar hun advocaten het niet volgen kunnen.'
+
+Het kostte negen dagen, en het was niet schoon, en het was het beste werk van haar leven.
+
+Ze deed het niet zelf. Dat was het eerste dat ze zichzelf liet begrijpen, zittend in de raadsfale met Matua Ropati aan haar schouder en elf matai geschikt op de matten. Ze was een teruggekeerde dochter die een voorstel bracht aan mensen die haar geen ja verschuldigd waren, en de snelste manier om ze te verliezen was aankomen met het antwoord al geschreven — zoals elk schip dat ooit in de lagune had geankerd was aangekomen met de toekomst al beslist en alleen de handtekeningen nog op te halen.
+
+Dus bracht ze een vraag in plaats daarvan. Ze liet Ropati openen — eerst de fa‘alupega, een systeem dat zijn eigen integriteit afkondigt voordat het zaken doet. Toen legde ze het onopgesmukt uit, en liet hen vragen.
+
+De vragen waren niet de vragen die het Consortium gesteld zou hebben. Niemand vroeg wat het kostte of opbracht. Ze vroegen wiens naam erop zou staan, en wat er gebeurde met de visgrond voorbij de punt. Ze vroegen, scherp, of dit weer een manier was voor buitenstaanders om een vlag op Vaituga te planten en het partnerschap te noemen — en Tuli zei ja, precies dat kon het worden, en de enige verdediging was dat het land en de array en de boodschap alle drie aan de trust toebehoren, en de trust behoort het dorp toe en kan nooit worden verkocht, alleen gehouden. Ze had daarvoor het instrument meegebracht, van een kantoor in Suva dat trusts naar gewoonterecht voor land deed — eigendom dat geen eigenaar heeft, dat niet gekocht kan worden omdat er geen verkoper is, dat de gafa zelf langs naar beneden gaat.
+
+'U stelt voor,' zei Afioga Malaefou, de oudste van de matai, een vrouw met een stem als trage branding, 'dat wij de palagi-machine waar zij om vechten nemen alsof het een walvis op het rif is, en haar *aiga* maken. Familie. Onverkoopbaar. Zodat er, wanneer zij komen met hun papieren, geen hand is om te schudden.'
+
+'Ja,' zei Tuli. 'Er kan nooit een verkoper zijn. Het wordt als het rif zelf. Het rif bezit je niet. Het rif bezit jou een beetje, en jij onderhoudt het.'
+
+Het was niet unaniem en het was niet snel. Twee van de matai wilden het geld dat Meridian had voorgehouden, en ze hadden geen ongelijk dat ze het wilden. Maar toen stond Ropati op, met de fue, en hij voerde geen economie aan. Hij droeg de lijn van het huis voor, elf generaties terug tot de kano die de eerste landing maakte, en hield stil aan de levende rand ervan, bij de namen van de kinderen die nu in het dorp waren, en zei: *dit is het langste dat wij bezitten, en het is nog nooit te koop geweest, en het is het enige dat de oceaan ons nooit heeft afgenomen. Ik vraag jullie één vers toe te voegen. Laat de machine voor ons horen, maar laat de familie de belofte houden, zoals wij altijd beloften hebben gehouden, in onze monden en onze kinderen.* Toen hij ging zitten was de ruimte heel stil, en Malaefou zei: 'Sili.' Genoeg. Het is besloten.
+
+De ontmanteling werd, op papier, een overdracht, en de overdracht werd, in het gewoonterecht, een opneming. Het Fenua-observatorium werd eigendom van de Vaituga Sky Trust — een lichaam zonder aandeelhouders, zonder hoofdkantoor en zonder juridische fictie die de overnameman vinden kon, omdat het helemaal geen fictie was maar een dorp, vierhonderd mensen en een genealogie, die iets gemeenschappelijk hielden zoals ze het rif hielden.
+
+De advocaat sprak haar één keer, in de betonnen schaduw van het controlegebouw. Hij was hoffelijk en moe, geen slechte man, alleen een die heel ver had gevlogen om iets te kopen dat had opgehouden te koop te zijn terwijl hij in de lucht hing.
+
+'U begrijpt dat dit zal worden aangevochten,' zei hij. 'De nationale-veiligheidsinvalshoek is reëel; ze zullen aanvoeren dat de boodschap niet gelaten kan worden in de handen van een —' hij koos het woord met zorg '— een niet-statelijke actor.'
+
+'Laat ze,' zei Tuli. 'Ze zullen procederen tegen een genealogie. Een machine kun je rubriceren. Een harde schijf kun je in beslag nemen. Vertel mij eens hoe je een dwangbevel betekent aan een gezang dat leeft in de hoofden van vierhonderd mensen die het nog zullen voordragen wanneer de naam van uw firma een quizvraag is. U kwam de ontdekking kopen. Ze behoort toe aan iemand voor wie uw opdrachtgevers geen instrument hebben. Het spijt me dat u zo ver hebt gevlogen.'
+
+Hij keek haar een poos aan. 'Off the record. Gaat het werken? Duizend jaar.'
+
+'Ik weet het niet,' zei ze, en het was het waarste dat ze die week tegen wie dan ook zei. 'Maar het is het eerste plan dat ik ooit gemaakt heb dat een kans heeft, en het is niet het mijne, en daarom.'
+
+Lani vond haar bij de array op de negende avond, het licht dat goud en lang over de schotels ging. Het meisje had dagenlang aan de rand van dit alles gestaan — niets zeggend, alles ziend met die snelle ogen die het begin van geen enkele zin misten.
+
+'Ze zeggen,' begon Lani, en stokte, en begon opnieuw op de rechtstreekse manier van de jongen. 'Matua Ropati zegt dat het vers iemand nodig heeft om het te dragen. Iemand jongs, die de machine begrijpt *en* het gezang. Hij keek naar mij toen hij het zei. Jij ook. Iedereen kijkt steeds naar mij en dan weg alsof het onbeleefd is om te vragen.' Ze hief haar kin. 'Dus vraag ik het. Vragen jullie het mij?'
+
+Tuli wendde zich vierkant naar haar achternichtje, omdat het meisje de waarheid verdiende zonder de verzachting die de familie op dingen legde.
+
+'Nee,' zei ze. 'Ik vraag het je niet. Je hele leven zullen mensen proberen het voor je te beslissen — je moeder wil je thuis, de beurs wil je weg. In die rij ga ik niet staan. Ik vertel je dat het bestaat, dat je een van de ongeveer drie mensen in leven bent die het zouden kunnen dragen, en dat als jij vrijdag die beurs in Auckland aanneemt, ik *blij* zal zijn, en niemand gefaald heeft. Je bent niet het laatste redmiddel van het plan van een stervende vrouw. Je bent een meisje met een heel leven, en het leven is van jou.'
+
+Lani was stil. De schotels tikten terwijl ze afkoelden, het metaal dat de hitte van de dag losliet met kleine geluiden als een taal.
+
+'Maar als ik het *jou* vraag,' zei het meisje langzaam, 'dan leer je het me.'
+
+'Als jij het mij vraagt, leer ik je alles wat ik heb, zo snel als dit hart het toelaat, en ik weet niet hoe snel dat is.' Daarover zou ze evenmin liegen. 'Het zou betekenen dat je de beurs uitstelt, niet weggooit — Auckland houdt de plaats twee jaar vast; daar heb ik voor gezorgd. Maar het zou betekenen dat je blijft. Het is een groot ding om aan een negentienjarige te hangen, en ik haat het dat jij het bent, en er is niemand anders, en dat is niet jouw probleem om op te lossen.'
+
+Het meisje liep tussen de schotels door, het veld ervan in, de oren van de voorouders omhooggekanteld naar een hemel die nog tienduizend jaar niet zou weten of iemand geantwoord had. Lani stond daar lang, klein onder de grote witte schalen, en Tuli liet haar staan, en bewaarde de va, en drong de ruimte niet binnen waar een leven aan het keren was.
+
+Toen Lani terugkwam was haar gezicht veranderd. Niet verzacht — bezonken.
+
+'Mijn moeder denkt dat ik zou blijven omdat ik bang ben om te gaan,' zei ze. 'Ze zal mensen vertellen dat ik bang werd voor Auckland en het heb aangekleed als plicht. Dat is het enige dat me bijna in het vliegtuig had gezet. Haar ongelijk bewijzen — en dat is een stomme reden om te vertrekken. Weggaan om een ruzie te winnen.'
+
+'Dat is het,' beaamde Tuli. 'Even stom als blijven om er een te winnen.'
+
+'Dus ik doe geen van beide.' Lani zette zich recht. 'Ik blijf niet voor jou, en ik vertrek niet voor haar. Ik heb de boodschap gelezen die je ontcijferd hebt. *Is daar iemand bestendig genoeg om te antwoorden.*' Haar stem deed toen iets wat Tuli alleen bij de heel ouden had gehoord. 'Ik wil het antwoord zijn. Niet omdat jij doodgaat en niet omdat het verschuldigd is. Omdat ik het gelezen heb en het niet ongelezen kan maken en ik mijn leven nergens wil doorbrengen waar dit niet is. Dat is mijn reden. Jij krijgt hem niet, en mijn moeder ook niet.' Ze ademde uit. 'Ik vraag het jou. Leer het me.'
+
+Tuli merkte dat ze even niet spreken kon. Toen zei ze: 'Ja,' en het kwam er rauw uit, en het kon haar niet schelen.
+
+Ze begonnen de volgende ochtend, en de opleiding was een vreemde vlecht — een uur op de mat bij Ropati, dan een uur in de controlekamer met de polarimetrie, en de geest van het meisje bewoog tussen beide zonder naad, alsof gezang en code twee dialecten waren van het ene werk: iets nauwkeurig door de tijd dragen.
+
+En Tuli componeerde het antwoord, dat twee documenten was die er in werkelijkheid één waren. Het fysieke plan: de heringestelde uitzending, de polarisatiestappen, de onderhoudsintervallen die zich uitstrekten in een kolom van datums die onder aan de eeuw van de bladzijde af liep, elk een kleine daad van vertrouwen, gericht op een mens die nog niet geboren was. En het vers — de nieuwe regel van de gafa, in Ropati's zorgvuldige orator-Samoaans, dat de ster noemde en de vraag en de belofte van de familie, dat het onderhouden van de zender benoemde als een plicht die wordt doorgegeven als een titel, drie regels om te houden waar één zou falen.
+
+Ze maakte het af op een zondag en dacht: *dit is het enige dat ik gemaakt heb dat het geluid van mijn eigen naam zou kunnen overleven.* De gedachte joeg haar geen angst aan. Het was een soort vrede waar ze achtenvijftig jaar naar had gezocht.
+
+Marcus vond haar daar met beide documenten uitgespreid op de console, alles gebouwd en getest en één commando verwijderd.
+
+'Het is klaar,' zei hij. 'Je zou het eerste foneem vanavond kunnen zenden. God weet dat je hart niemand het voorjaar belooft.'
+
+'Nee,' zei Tuli, en ze glimlachte. 'Het is niet aan mij om het alleen te beginnen, in een kamer, 's nachts, als iets beschamends. Deze boodschap vraagt *is daar iemand die samen genoeg is om te antwoorden* — dat beantwoord je niet in je eentje in het donker. Er is een juist tij voor. Het springtij, wanneer de hele lagune in één keer ademt. De ouderen erbij, het gezang hardop gezongen zodat het eerste woord omhooggaat terwijl vierhonderd mensen weten waarom. Lani zendt het met mij. Ropati spreekt diezelfde avond het vers de gafa in, zodat de machine en de familie de belofte in hetzelfde uur beginnen.' Ze raakte de console licht aan, zoals je iets aanraakt dat je uitleent, niet houdt. 'Drie weken tot het tij. Ik ben van plan erbij te zijn.'
+
+Ze zei het als een plan, niet als een hoop, en Marcus, die het verschil kende, zei niets.
+
+## Hoofdstuk 11 — Het zenden
+
+Het tij kwam op zoals Fa‘amanu placht te zeggen dat de goede kwamen — zonder haast, zonder vragen, de rifplaat vullend tot het hele atol een beetje van de zeebodem leek op te tillen. Tuli had dit tij maanden geleden gekozen, op papier, in de taal van efemeriden en maantabellen. Nu keek ze hoe het aankwam in de taal die het altijd had gesproken, en begreep dat de twee talen nooit verschillend waren geweest.
+
+Ze kwamen te voet over de dam terwijl de zon oranje boven de lagune wegzakte, het hele dorp en de helft van wie het verlaten hadden, met matten en eten en kleine slapende kinderen over hun schouders. Tuli keek hoe de mensen omhoogstroomden naar de oren zoals water een strand op stroomt, en ze drukte haar hand plat tegen haar borstbeen waar de kwaal woonde, en ze bleef op haar benen. Marcus zette zijn schouder dicht bij de hare, zodat er, als ze leunde, iets zou zijn om op te leunen.
+
+Ropati stond aan de voet van de grootste schotel, en toen hij zijn sprekersstaf hief werd de menigte stil. Hij sprak eerst de fa‘alupega, de hoffelijke aanhef. Toen begon hij aan de gafa. Ze had hem nu vele malen gehoord en nog altijd ontroerde hij haar — het pure, ononderbroken reiken ervan, generatie die generatie bij de pols grijpt, dwars door het donker, hand over hand over hand terug naar een kano en een ster en een eerste landing op een leeg strand. Hij had negenhonderd jaar overgestoken op adem alleen en niets verloren dat ertoe deed.
+
+Ze had veertig jaar naar intelligentie in de hemel geluisterd, ervan overtuigd dat die zich zou aankondigen in wiskunde, in priemgetallen, in de schone koude universalia. En het universum had eindelijk tegen haar gesproken, en wat het gevraagd had was geen som. Het had gevraagd: is daar iemand bestendig genoeg om te antwoorden? En de enige technologie op haar hele planeet die daar eerlijk ja op kon zeggen stond vóór haar in een versleten rode lavalava, namen het donker in te zeggen, uit het hoofd.
+
+Toen Ropati het einde van de afdaling bereikte, hield hij niet op waar de gafa altijd had opgehouden. Hij pauzeerde, en hield de menigte in de pauze. En toen sprak hij het nieuwe vers.
+
+Het was kort. Ze hadden het met opzet kort gemaakt, omdat het leerbaar moest zijn, zegbaar door een moe kind aan het einde van een lange voordracht, honderd generaties lang, zonder fouten. Het noemde de oren. Het noemde de ster die het eerst gesproken had. Het noemde de vraag. En het noemde het antwoord dat het eiland had verkozen te geven met zijn eigen voortbestaan — dat ja, er was hier iemand, en die zou hier blijven, en die was begonnen dat te zeggen.
+
+Ze hoorde haar eigen naam erdoorheen gaan. Teuila, die luisterde. En dichtbij, in dezelfde ademtocht gehouden, Fa‘amanu, die haar dat leerde. Haar grootmoeder was dertig jaar dood en stond nu, in de mond van een oude man, in een vers dat de loods zou overleven en de schotels en mogelijk het atol zelf. Dat was wat de gafa deed. Daar was ze altijd voor geweest. Ze was een machine om de doden te laten blijven spreken, en zij had de hele hemel overgestoken om haar te vinden in de keel van haar eigen familie.
+
+Ze huilde, stil, zonder haar gezicht te bedekken. Marcus' hand lag op haar rug. Ze liet hem liggen.
+
+Toen was de wetenschap aan de beurt, en de beurt van de wetenschap was Lani.
+
+Het meisje kwam uit de controleloods met het logboek tegen haar borst — het leergebonden boek dat Tuli met de hand was gaan bijhouden, omdat een boodschap die tienduizend jaar moet oversteken hoort te beginnen in iets wat een hand kan vasthouden. Lani liep naar de voorkant van de menigte alsof ze water droeg dat ze bang was te morsen, en ze keek, als laatste, naar Tuli.
+
+'Leg het uit,' zei Tuli, zacht, alleen tegen haar. 'Zoals ik het je geleerd heb. Ze horen te weten wat we doen voordat we het doen.'
+
+Lani wendde zich naar de menigte. Haar stem trilde bij het begin en hield toen op met trillen, omdat ze dit koud kende, omdat Tuli had gezorgd dat ze het koud kende. Ze vertelde hun over de Metronoom, en het tragere ritme dat in zijn flitsen gevouwen zat, één kleine verandering per honderdtwaalf jaar. Ze vertelde dat het trage ritme geen ruis was. Het was een vraag, en wie hem ook gezonden had — de Tragen, die in eeuwen dachten zoals mensen in ademtochten — stelde hem al tienduizend jaar, en stelde hem nu nog.
+
+'Ze willen weten of er nog iemand zal zijn om het einde van de zin te horen,' zei Lani. 'Dat is alles. Dat is de hele vraag. Is daar iemand, lang genoeg, om te antwoorden.'
+
+Ze legde haar hand plat op het logboek.
+
+'Dus gaan we antwoorden. Niet vanavond. Vanavond is alleen de eerste klank ervan. Het antwoord duurt langer dan wij allemaal. Het duurt langer dan onze kleinkinderen. Wij zijn duizend jaar geleden begonnen te leren hoe je iets zo lang vasthoudt, toen de eersten van ons de zee overstaken en de namen bewaarden. Wij weten al hoe dit moet. Wij zijn de enigen die weten hoe dit moet. Vanavond richten we het alleen op de hemel.'
+
+Ergens achter in de menigte stelde een kind zijn moeder een vraag in een luide fluistering, en er was zacht gelach, en het brak niets.
+
+Toen kwam Ropati naar voren. Hij legde zijn hand op de behuizing van de zender en zegende hem — niet als een machine, maar zoals hij een kano zou zegenen voor een lange oversteek. Hij vroeg dat het woord heel zou uitgaan, en dat wie het zonden en wie het ontvingen nu gebonden zouden zijn in één genealogie, en Tuli dacht: ja. Dat is precies wat een boodschap is. Een hand, uitgestoken over een kloof die te groot is voor één leven. Ze had het haar hele loopbaan een signaal genoemd. Het was altijd een hand geweest.
+
+Het zenden zelf duurde bijna geen tijd, en dat had ze geweten, en het brak haar toch open.
+
+Lani zat aan de console. Tuli stond achter haar met één hand op de rugleuning van de stoel. De lock op de pulsar stond groen en hield, en het eerste foneem van het antwoord stond klaar in de wachtrij.
+
+'Doe jij het,' zei Tuli.
+
+Lani keek op. 'Het hoort jou te zijn. Alles hiervan was jij.'
+
+'Nee.' Tuli's stem was vast, en dat kostte haar iets. 'Als ik het ben, is het iets wat met mij eindigde. Het moet iets zijn wat met jou begon. Dat is het hele antwoord, Lani. Niet het woord. Het doorgeven ervan. Zend het.'
+
+Het meisje wendde zich terug naar de console. De menigte was weer stil geworden, ditmaal de echte stilte, de ingehouden stilte. Buiten op het rif had het tij zijn hoogste punt bereikt en stond het, het slappe ogenblik lang, tussen komen en gaan in.
+
+Lani drukte haar hand op de toets.
+
+Er was geen geluid. Er zou nooit een geluid zijn geweest. Ergens boven hen hield de grootste schotel doodstil op zijn lager en een gemoduleerde fluistering van vermogen verliet de feed en klom weg door de warme nachtlucht en toen hield de lucht op en was er alleen nog het gaan, het licht ervan al oud op het ogenblik dat het vertrok. De console logde het tijdstempel. Lani schreef het met de hand in het leren boek, in inkt, de eerste regel van het antwoord, in het zorgvuldige schrift van een negentienjarige.
+
+Dat was alles. De eerste klank van het antwoord was gezegd.
+
+Niemand juichte. In plaats daarvan begon het eiland, zacht, het nieuwe vers te zingen — de negen regels, de oren en de ster en de vraag en het ja — en de kinderen zongen het het luidst omdat ze trots waren dat ze het kenden, en Tuli stond midden in het geluid van haar eigen naam die werd gevouwen in een gezang dat nog gezongen zou worden wanneer de taal waarin het gezongen werd voorbij haar herkennen veranderd was.
+
+Ze zou het antwoord op het antwoord nooit horen. Achthonderd jaar heen, achthonderd terug, en dat was als ze antwoordden op het ogenblik dat ze het hoorden, wat ze niet zouden doen. Zij zou binnen een seizoen weg zijn. Ze zou een naam in het vers zijn voordat het antwoord de rand van het zonnestelsel had geklaard.
+
+En dit was geen tragedie. Dit was het punt. Een betekenis waarvan je het einde kon meemaken was te klein om aan de Tragen te sturen. Het enige antwoord dat groot genoeg voor hen was, was er een dat geen enkel mens kon bevatten — een dat gedragen moest worden, hand over hand, naam over naam, dood na dood na dood voorbij, en toch heel aankomen. Ze had haar leven lang bang mogen zijn voor eindigen. Het eiland had altijd al geweten dat eindigen niet het tegendeel van voortgaan was. Het was hoe voortgaan werd gedaan.
+
+De mensen zakten af naar de matten en het eten. Marcus bracht haar eindelijk een stoel en ze ging zitten, en ze merkte dat ze daar blij om was. Lani kwam bij Tuli's knie hurken zoals ze als klein meisje had gedaan, en geen van beiden zei iets, omdat alles gezegd was en nog duizend jaar gezegd zou blijven worden.
+
+Ze dacht: het is volbracht, en het is niet volbracht, en dat is nu hetzelfde.
+
+Het tij, buiten op het rif, keerde, en begon, zonder haast, te gaan.
+
+## Hoofdstuk 12 — Het antwoorden
+
+Lani was oud nu, en de oren draaiden nog.
+
+Ze werd de meeste ochtenden vóór de anderen wakker en liep de dam over naar Fenua terwijl de lagune nog de kleur had van de binnenkant van een schelp. Er waren nu veertien schotels in plaats van acht, maar het waren dezelfde oren, gekanteld naar dezelfde hemel, en het atol had ze gehouden zoals het atol alles hield dat het houden waard was — door, koppige generatie na koppige generatie, te weigeren los te laten.
+
+Zij was het meisje aan de console geweest. Ze had een aantal jaren geleden opgehouden dat nog helemaal te kunnen geloven. Daartussenin had een heel leven gelegen. Ze had na zichzelf drie hoeders opgeleid en er één begraven. Ze was getrouwd en weduwe geworden en had kinderen grootgebracht die kinderen hadden grootgebracht.
+
+De uitzending was nooit gestopt. Daar was ze het trotst op. Zestig jaar nu, en meer — gemeten niet in jaren maar in fonemen: ze waren over de helft van de elfde trage klank van het antwoord. Elf klanken. Een woord dat nog geen honderdste gezegd was. En het eiland had het signaal geen enkele keer laten vallen. Door stormen die het dak van de loods namen, door het jaar dat het water over het oude platform kwam, door de ruzies en de begrafenissen heen — het woord was uitgegaan, nacht na nacht, aangevuld door handen die de hand die het begon nooit hadden ontmoet.
+
+Dat was het antwoord. Ze had begrepen, toen ze Tuli het zag begrijpen, dat de inhoud van het antwoord er bijna niet toe deed. Het antwoord was het voortbestaan zelf. Ze verzonden geen boodschap. Ze waren er een geworden.
+
+De modulatie kwam in een nacht in het regenseizoen, en Lani zat niet eens aan de console toen ze kwam, wat haar naderhand juist voorkwam.
+
+Haar achterachterneefje Ioane maakte haar wakker. Hij was zeventien en de nieuwste hoeder, en hij kwam in het donker het pad naar haar huis op stormen met een tablet in zijn hand en zijn stem hoog en vreemd geworden.
+
+'De polarisatie,' zei hij. 'Matua Lani. De polarisatiehoek. Hij is — u moet komen. De instrumenten sloegen een uur geleden alarm en ik heb het drie keer gedraaid, ik heb het op elke manier gedraaid, wij zijn het niet, het is niet de apparatuur—'
+
+Ze reikte al naar haar stok.
+
+Ze namen de dam langzaam, omdat zij hem niet sneller nemen kon en omdat, dacht ze, sommige dingen niet toegerend horen te worden. De sterren stonden hard en schoon boven het zeewaartse rif, zoals ze hadden gestaan in de nacht dat het meisje haar hand op de toets drukte.
+
+De Metronoom flitste zoals hij altijd had geflitst. Onder het flitsen lag het trage ritme, de oeroude vraag die draaide en draaide. Dat was niet veranderd. Wat veranderd was, was het licht zelf — de hoek ervan, de kanteling van de polarisatie. De hoek was gaan bewegen.
+
+Hij bewoog in een patroon. Hij bewoog in *hun* patroon. De cadans van de verschuiving antwoordde op de cadans van het antwoord dat het eiland had zitten zenden. Niet de woorden — de woorden waren nog aan het klimmen, dwars door acht eeuwen donker. Dit was iets ouders. Dit was een verandering die de Metronoom zestienhonderd jaar geleden verlaten moest hebben, vóór de stichtingskano — een verandering die al die tijd onderweg was geweest terwijl het eiland leerde luisteren, terwijl Tuli geboren werd en leefde en stierf, terwijl het meisje oud groeide tot Lani.
+
+Ze hadden niet het woord van het eiland beantwoord. Dat konden ze niet hebben gedaan. Maar ze hadden dezelfde vraag beantwoord met dezelfde grammatica, over dezelfde kloof gereikt op dezelfde manier, zodat de twee reikingen, toen ze elkaar eindelijk midden in het donker ontmoetten, elkaar herkenden. Iemand daarbuiten was bestendig genoeg. Iemand daarbuiten had tienduizend jaar ja blijven zeggen, zoals het eiland het zestig jaar had gezegd, en de twee voortbestaans hadden elkaar herkend over de hele breedte van de nacht.
+
+Het antwoord was gehoord. Niet de woorden — het feit ervan. Het feit dat hier iemand was, en gebleven was, en geantwoord had. Dat was wat teruggekomen was. Dat was genoeg. Dat was alles.
+
+Ze zat lang aan de console voordat ze iets aanraakte. Ioane hing eromheen, verlangend dat de oude hoeder het woord zou zeggen zodat het echt zou zijn. Ze liet hem wachten. Ze keek naar de trage kanteling van het licht en liet zichzelf de omvang ervan voelen, en die was even groot als haar hele leven en groter.
+
+Ze dacht aan Tuli. De broze, standvastige vrouw die had gezegd: *als ik het ben, is het iets wat met mij eindigde; het moet iets zijn wat met jou begon.* Tuli was gestorven in het seizoen waarin ze gezegd had dat ze sterven zou, en ze was in vrede gestorven, wat Lani destijds niet helemaal had geloofd en nu volkomen begreep. Want hier was de vrede, zestig jaar later, stil kantelend over een scherm in het regenseizoensdonker: het ding dat Tuli begonnen was, was niet met haar geëindigd. Het was de nacht in gegaan en had zijn antwoord gevonden, en Tuli had geweten dat het dat zou doen zonder het ooit te hoeven zien, zoals je weet dat een naam die je aan de gafa hebt toegevoegd nog gesproken zal worden lang nadat de mond die hem toevoegde stil is geworden.
+
+Tuli stond in het vers. Fa‘amanu stond in het vers, die haar leerde luisteren. Ze waren nu voorouders, gevat in het gezang, uitgesproken telkens wanneer de gafa werd voorgedragen, en dat wilde zeggen: ze waren er nog, ze spraken nog, ze waren nog deel van het reiken-over. De doden verlieten de genealogie niet. Dat was alles waar de genealogie voor was.
+
+Buiten begon de hemel te grijzen langs de zeewaartse rand. De veertien schotels stonden bleek ertegen en, toen de bron boven de horizon kwam, draaiden ze, allemaal tegelijk, op hun trage motoren — de kleine dode ster achterna die het eerst gesproken had.
+
+Lani legde haar hand op het leren boek. Ze sloeg het open waar de vorige hoeder geschreven had, en ze nam de pen, en in een handschrift dat onvast was geworden van ouderdom maar zeker van wat het deed, schreef ze de datum, en de hoek, en wat de hoek betekende. *Het antwoord is gehoord,* schreef ze. *Ze zijn begonnen te antwoorden. Het woord hield stand.*
+
+Toen wendde ze zich tot Ioane, die zeventien was, in wiens handen zij het werk had gelegd, en ze zei het ding waarop ze haar hele leven had gewacht om oud genoeg te zijn het te zeggen.
+
+'Maak Ropati's kleindochter wakker,' zei ze. 'Zeg haar dat er een nieuwe regel is voor het vers. En zeg haar dat ze hem eerst aan de kinderen leert.'
+
+De jongen ging naar buiten, het grijzende licht in. Lani bleef nog een poos bij de oren, luisterend zoals het eiland altijd had geluisterd, en buiten op het rif keerde het tij, zonder haast, en kwam op.
