@@ -1,1 +1,0 @@
-- `claude/night-template-packs` · **scope** — template-packs to publish-READY per ORDER 008 quality floor (rebuild dist, listing, checkout verify, sha, §7 packet + OWNER-QUEUE regen) · candidates/template-packs/ + docs/launch/template-packs/ + docs/publishing/ · 2026-07-13
