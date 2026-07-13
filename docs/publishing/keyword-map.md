@@ -45,7 +45,10 @@
 *Edition-sharing note (C4):* **Het trage woord** (NL edition of The Slow
 Word, [`vetting/het-trage-woord.md`](vetting/het-trage-woord.md) §6) uses
 The Slow Word's two nodes above — same-title editions share browse nodes by
-design and add no duplicate category row.
+design and add no duplicate category row. **De Waag** (NL edition of The
+Weigh House, [`vetting/de-waag.md`](vetting/de-waag.md) §6) likewise uses
+The Weigh House's two nodes above (Police Procedurals + International
+Mystery & Crime).
 
 ### Keywords
 
@@ -93,6 +96,13 @@ design and add no duplicate category row.
 | `drukkerij verzet roman` | De papieren sinaasappel (NL — C4 namespace) |
 | `oorlogsweduwe roman Nederland` | De papieren sinaasappel (NL — C4 namespace) |
 | `bevrijding 1945 roman` | De papieren sinaasappel (NL — C4 namespace) |
+| `Amsterdamse misdaadroman` | De Waag (NL — C4 namespace, C3 modern-crime register) |
+| `Nederlandse politiethriller` | De Waag (NL — C4 namespace, C3 modern-crime register) |
+| `politieduiker thriller` | De Waag (NL — C4 namespace, C3 modern-crime register) |
+| `moord in de gracht roman` | De Waag (NL — C4 namespace, C3 modern-crime register) |
+| `witwassen grachtenpand thriller` | De Waag (NL — C4 namespace, C3 modern-crime register) |
+| `literaire thriller Amsterdam` | De Waag (NL — C4 namespace, C3 modern-crime register) |
+| `weduwe onderzoekt dood echtgenoot` | De Waag (NL — C4 namespace; Dutch mirror of the EN C2 watched adjacency — crime intent vs any future Ultramarine NL grief-literary phrase) |
 
 ## 2. CONFLICTS (resolved here before any packet ships)
 

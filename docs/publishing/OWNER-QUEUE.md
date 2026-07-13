@@ -127,6 +127,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($19 pay-what-you-want suggested (default); minimum owner's choice). · **DEFAULT:** **$19 pay-what-you-want suggested** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
+### De Waag — `docs/publishing/vetting/de-waag.md` @ §7 checklist
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### Het trage woord — `docs/publishing/vetting/het-trage-woord.md` @ §7 checklist
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
