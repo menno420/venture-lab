@@ -43,3 +43,10 @@ frontmatter keeps the score.
 ## Backlog
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
+
+- [Product ideation batch 2026-07-13](../products/ideas-2026-07-13.md) —
+  PRODUCTS-lane cohort doc (lives in `docs/products/`, so the frontmatter
+  convention above does not apply to it): 9 new concepts scored on the
+  kill-rule intake rubric — 3 BUILD (GitHub Webhook Test Kit $29,
+  Owner-Click Queue Kit $19, Multi-Agent Control-Plane Pack $29) · 2 PARK ·
+  4 KILL. Next destination: full `INTAKE.md` per BUILD pick (Kill Rule 0).
