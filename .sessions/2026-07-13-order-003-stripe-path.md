@@ -36,9 +36,15 @@ Live re-verification this slice (2026-07-13, HEAD `c99caa4`):
 
 Verdict: nothing to re-implement; all six ORDER 003 task items evidenced done. The ⚑B/⚑D click state is the coordinator's call (relay 2026-07-13: freeze STANDS) — untouched here.
 
-## Work log — ORDER 007 satisfied
+## Work log — ORDER 007 satisfied (ack recorded HERE; inbox write structurally impossible)
 
-Live via GitHub MCP 2026-07-13T00:49Z: PR #51 `state: closed`, `merged: false` (closed 2026-07-12T09:39:15Z); PR #57 `state: closed`, `merged: true` (2026-07-12T09:40:17Z, merged_by menno420, label `do-not-automerge`). done-when "both PRs terminal" MET. One-line satisfied-note appended to the ORDER 007 thread in `control/inbox.md` on explicit coordinator direction (a deliberate, flagged exception to the lane-never-writes-inbox rule in `control/README.md`; append-only, no prior text touched).
+Live via GitHub MCP 2026-07-13T00:49Z: PR #51 `state: closed`, `merged: false` (closed 2026-07-12T09:39:15Z); PR #57 `state: closed`, `merged: true` (2026-07-12T09:40:17Z, merged_by menno420, label `do-not-automerge`). done-when "both PRs terminal" MET.
+
+The coordinator-directed one-line satisfied-note on the ORDER 007 inbox thread was attempted twice and is FORBIDDEN by the substrate gate, which allows inbox appends to be well-formed `## ORDER` blocks ONLY:
+- mid-thread insert → `[inbox-not-append] control/inbox.md changed non-append vs the merge-base — the one-writer/append-only law (control/README.md) allows only additions at the end` (run 29216242073);
+- EOF note → `[inbox-order-grammar] malformed ORDER header '## ORDER 007 update · 2026-07-13T00:55Z · ACKED/SATISFIED' — expected `## ORDER <nnn> · <ISO8601> · status: <state>`` (run 29216279657), and non-ORDER appended content is likewise a finding (`bootstrap.py` ~2985–3040).
+
+Both attempts reverted forward — `control/inbox.md` in this PR is byte-identical to `origin/main`. Minting a pseudo-ORDER block to pass the grammar would be lane-authored manager content; declined. Per protocol (`control/README.md`, ORDER 005's own text) done-state lives in `control/status.md`, which is coordinator-owned and out of this slice's write scope — the ack rides THIS card + the worker report for the coordinator to fold into the next heartbeat.
 
 ## Guard recipe
 

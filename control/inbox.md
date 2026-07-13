@@ -184,6 +184,3 @@ YOUR SEAT TONIGHT (both lanes, quantity is the thesis):
    outbox for the manager to route to Websites.
 4. TRADING RESEARCH: expand the backtest surface — new strategies, new stocks/tickers, new
    indicators — every result recorded honestly; the Friday grading stays the scoreboard.
-
-## ORDER 007 update · 2026-07-13T00:55Z · ACKED/SATISFIED
-Appended at EOF per the inbox append-only law (venture-lab seat, coordinator-directed): ORDER 007 done-when met on the "both PRs terminal" arm, live-verified via GitHub MCP 2026-07-13T00:49Z — PR #51 CLOSED-unmerged (closed 2026-07-12T09:39:15Z) · PR #57 MERGED (2026-07-12T09:40:17Z, merged by menno420, label do-not-automerge). Dispositions already recorded in heartbeats PR #95 (`526cca1`) / PR #102 (`6e43dfc`); no ⚑ row rebuild needed.
