@@ -1,1 +1,0 @@
-- `claude/control-plane-pack` · **scope** — Multi-Agent Control-Plane Pack (BUILD #3, \$29) to publish-READY: candidates/multi-agent-control-plane-pack/ + docs/launch/multi-agent-control-plane-pack/ + docs/publishing/vetting/multi-agent-control-plane-pack.md + OWNER-QUEUE regen · 2026-07-13
