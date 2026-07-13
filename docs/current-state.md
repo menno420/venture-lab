@@ -36,14 +36,30 @@
   kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
   ledger ⚑E NEGATIVE + pause/delist). Durable record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-- **Product catalog — 1 live + 3 click-queued + 2 hard-gated (2026-07-13
+- **Product catalog — 1 live + 4 click-queued + 2 hard-gated (2026-07-13
   night run, ORDER 008).** Live: SWTK $29 (above). Click-queued at the
   quality floor (built + priced + listing drafted + verified + sha
   recorded), publish clicks owner-gated in the derived
   [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) (generator
   PR #101, DONE disposition PR #116): Membership-Site Boilerplate Kit $49
   (PR #106), Agent-Workflow Template Pack $19 PWYW (PR #108), Agent Fleet
-  Field Manual $39 (PR #110).
+  Field Manual $39 (PR #110), Kill-Rule Intake Kit $15
+  ([`publishing/vetting/kill-rule-intake-kit.md`](publishing/vetting/kill-rule-intake-kit.md),
+  PRODUCT #7 candidate sweep).
+- **Candidate sweep verdicts (2026-07-13 night run, PRODUCT #7 slice) —**
+  the four unpacketed candidates ranked by distance-to-READY, all four were
+  INTAKE.md-only at sweep time:
+  `kill-rule-intake-kit` — needs-build (light), source content committed
+  (rubric/intakes/ch.8) → **DRIVEN this slice, now click-queued at $15**;
+  `false-green-test-trap` — needs-build (medium): war story + fixtures
+  committed, but the ~15-page guide + runnable vendor-a-fixture script
+  must be authored and executed;
+  `merge-wall-cookbook` — needs-build (medium-heavy): PLATFORM-LIMITS
+  source committed, but recipes + runnable merge-on-green YAML need
+  authoring and its "CI-verified" claim can't be fully executed in-repo;
+  `cc-cost-lens` — furthest/idea-only: neither the free HTML tool nor the
+  $15 companion exists; intake itself brands it the low-confidence
+  distribution experiment (3.10, "realistically ~$0").
 - **Photo packs — HARD-GATED candidate, NOT publish-ready.**
   [`candidates/photo-packs/`](../candidates/photo-packs/INTAKE.md):
   registry + validator + 7 watermarked ≤2048px previews (dutch-skies,
