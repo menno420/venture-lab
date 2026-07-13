@@ -12,6 +12,16 @@ already-live products (SWTK was live with no way to appear in the queue):
 4. legacy tolerance: a CHECKED box WITHOUT the DONE marker still queues
    (both marks are required for the live disposition).
 
+Plus the packet-level `KILL-CHECK: ⏲ <ISO date> <label> [· ⏲ …]` line
+(kill-clock checkpoints for live products, rendered in the Live section):
+
+5. tokens parse and render earliest-first regardless of source order;
+6. a packet WITHOUT the line renders byte-identically to before (no ⏲);
+7. a malformed date is SKIPPED with a manual-review note (tolerant-parser
+   contract — never a hard error), valid sibling tokens still render;
+8. a KILL-CHECK line on a pending-only packet renders nothing (the kill
+   clock only ticks once live).
+
 Run: python3 -m unittest discover -s scripts -p "test_*.py" -v
      (or, from scripts/: python3 -m unittest test_derive_owner_queue -v)
 """
@@ -28,6 +38,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import derive_owner_queue as doq  # noqa: E402
 
 FLAG = doq.FLAG
+TIMER = doq.TIMER
 
 LEGACY_PACKET = f"""# Title Vetting — Legacy Widget
 
@@ -62,6 +73,35 @@ CHECKED_NO_DONE_PACKET = f"""# Title Vetting — Checked Legacy
 ## 7. {FLAG} OWNER-GATE — publish clicks
 
 - [x] {FLAG} **Owner:** the publish click (checked by hand, no DONE marker).
+"""
+
+# KILL-CHECK tokens deliberately OUT of date order — rendering must sort.
+KILLCHECK_PACKET = f"""# Title Vetting — Ticking Gadget
+
+## 7. {FLAG} OWNER-GATE — publish clicks (ALL EXECUTED — product live)
+
+- [x] {FLAG} **Owner:** the publish click at $29 — DONE 2026-07-12
+
+KILL-CHECK: {TIMER} 2026-07-26 T+14 kill-rule deadline ·
+  {TIMER} 2026-07-19 T+7 funnel checkpoint
+"""
+
+KILLCHECK_MALFORMED_PACKET = f"""# Title Vetting — Broken Clock
+
+## 7. {FLAG} OWNER-GATE — publish clicks (ALL EXECUTED — product live)
+
+- [x] {FLAG} **Owner:** the publish click at $9 — DONE 2026-07-12
+
+KILL-CHECK: {TIMER} 07/19/2026 T+7 checkpoint · {TIMER} 2026-07-26 T+14 deadline
+"""
+
+KILLCHECK_PENDING_PACKET = f"""# Title Vetting — Not Yet Live
+
+## 7. {FLAG} OWNER-GATE — publish clicks
+
+- [ ] {FLAG} **Owner:** the publish click at $5.
+
+KILL-CHECK: {TIMER} 2026-07-19 premature checkpoint
 """
 
 
@@ -117,6 +157,55 @@ class DeriveOwnerQueueDoneDisposition(unittest.TestCase):
         self.assertEqual(len(result.groups[0].clicks), 1)
         self.assertEqual(result.live, [])
         self.assertNotIn("Live / completed", output)
+
+    def test_killcheck_tokens_parse_and_render_earliest_first(self) -> None:
+        output, result = self._run({"ticking.md": KILLCHECK_PACKET})
+        self.assertEqual(len(result.live), 1)
+        cps = result.live[0].checkpoints
+        self.assertEqual(
+            cps,
+            [
+                {"date": "2026-07-19", "label": "T+7 funnel checkpoint"},
+                {"date": "2026-07-26", "label": "T+14 kill-rule deadline"},
+            ],
+        )
+        self.assertEqual(result.manual, [])
+        first = f"- {TIMER} **Next checkpoint:** 2026-07-19 — T+7 funnel checkpoint"
+        second = f"- {TIMER} then: 2026-07-26 — T+14 kill-rule deadline"
+        self.assertIn(first, output)
+        self.assertIn(second, output)
+        # Earliest-first: 07-19 renders BEFORE 07-26 despite source order.
+        self.assertLess(output.index(first), output.index(second))
+
+    def test_absent_token_renders_unchanged(self) -> None:
+        output, result = self._run({"live.md": LIVE_PACKET})
+        self.assertEqual(result.live[0].checkpoints, [])
+        self.assertNotIn(TIMER, output)
+        self.assertNotIn("Next checkpoint", output)
+
+    def test_malformed_date_skipped_with_manual_note(self) -> None:
+        # Tolerant-parser contract: a bad date is a manual-review note,
+        # never a hard error — and the valid sibling token still renders.
+        output, result = self._run({"broken.md": KILLCHECK_MALFORMED_PACKET})
+        self.assertEqual(len(result.manual), 1)
+        self.assertIn("KILL-CHECK", result.manual[0][1])
+        self.assertIn("07/19/2026", result.manual[0][1])
+        self.assertEqual(
+            result.live[0].checkpoints,
+            [{"date": "2026-07-26", "label": "T+14 deadline"}],
+        )
+        self.assertIn(
+            f"- {TIMER} **Next checkpoint:** 2026-07-26 — T+14 deadline", output
+        )
+
+    def test_killcheck_on_pending_packet_renders_nothing(self) -> None:
+        output, result = self._run({"pending.md": KILLCHECK_PENDING_PACKET})
+        self.assertEqual(result.live, [])
+        self.assertNotIn("Live / completed", output)
+        self.assertNotIn("Next checkpoint", output)
+        # The pending click still queues exactly as before.
+        self.assertEqual(len(result.groups), 1)
+        self.assertEqual(len(result.groups[0].clicks), 1)
 
     def test_pending_totals_unaffected_by_live_packet(self) -> None:
         _, legacy_only = self._run({"legacy.md": LEGACY_PACKET})

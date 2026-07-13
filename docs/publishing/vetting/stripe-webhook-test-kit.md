@@ -55,6 +55,10 @@ pin, catalog parity) landed via PRs #74 / #112.
 - [x] ⚑ **Owner:** end-to-end test purchase verified (owner buy, delivery
       confirmed 18:09:34Z) — DONE 2026-07-12
 
+KILL-CHECK: ⏲ 2026-07-19 T+7 funnel checkpoint ·
+  ⏲ 2026-07-26 T+14 kill-rule deadline (≥1 organic sale OR ≥1 qualified
+  inbound, else ledger ⚑E NEGATIVE + pause/delist per LAUNCH-LOG.md)
+
 ---
 
 **Verdict: LIVE — measurement mode.** The queue entry above is a record, not
