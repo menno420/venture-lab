@@ -1,1 +1,0 @@
-- `claude/night-merge-wall` · **scope** — drive candidates/merge-wall-cookbook/ to publish-READY (guide + runnable YAML recipes + package + launch assets + §7 packet + queue regen + current-state flip) · candidates/merge-wall-cookbook/ + docs/launch/merge-wall-cookbook/ + docs/publishing/ + docs/current-state.md · 2026-07-13
