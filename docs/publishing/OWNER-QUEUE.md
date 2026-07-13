@@ -9,28 +9,35 @@ The seat performed NONE of the actions below — every item is an owner click or
 
 ## 1. Decisions — pick the default or override
 
-### D1 — The Painted Stones — Illustration decision
+### D1 — Membership-Site Boilerplate Kit — Storefront pick
+
+- **WHAT:** ⚑ Storefront pick: Gumroad (default — simplest digital-product flow; the click-script's HOW is written against it) or Lemon Squeezy — owner's call; either works with the same zip + copy.
+- **WHERE:** `docs/publishing/vetting/membership-kit.md` @ §7, OWNER-ACTION step 2
+- **DEFAULT:** **Gumroad**
+- **UNBLOCKS:** the “Membership-Site Boilerplate Kit” publish sequence continuing past this pick
+
+### D2 — The Painted Stones — Illustration decision
 
 - **WHAT:** ⚑ Illustration decision (the gate): choose Commission (~$1,300–$5,200, 13 spreads + cover) / AI art (near-zero cost; KDP AI-generated disclosure required at publish; unsettled image IP) / Park. Seat recommends Park (C) — see §5. All art spend is owner- authorized; brief in §6a.
 - **WHERE:** `docs/publishing/vetting/the-painted-stones.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Seat recommends Park (C)**
 - **UNBLOCKS:** the entire remaining “The Painted Stones” click-run — hard gate, nothing below it proceeds
 
-### D2 — The Weigh House — Title + subtitle
+### D3 — The Weigh House — Title + subtitle
 
 - **WHAT:** Title + subtitle (⚑ the §1 owner choice): confirm The Weigh House with subtitle "An Amsterdam Crime Novel" (default; or "A Novel" / "A Novella" — owner's call), and run the KDP title-availability recheck at upload (§2 was None-but-inconclusive).
 - **WHERE:** `docs/publishing/vetting/the-weigh-house.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **"An Amsterdam Crime Novel"**
 - **UNBLOCKS:** the “The Weigh House” publish sequence continuing past this pick
 
-### D3 — Ultramarine — Title
+### D4 — Ultramarine — Title
 
 - **WHAT:** Title (⚑ the §2 owner choice — the packet's one open decision): pick The Widow's Blue — "A Novel of Delft, 1654" (recommended default; §2 evidence), or keep Ultramarine + subtitle (accepting Navarro/Lowry/Warhammer burial), or The Secret of Holland; then run the KDP title-availability recheck at upl…
 - **WHERE:** `docs/publishing/vetting/ultramarine.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **The Widow's Blue — "A Novel of Delft, 1654"**
 - **UNBLOCKS:** the “Ultramarine” publish sequence continuing past this pick
 
-### D4 — Keyword map C1 — Category Literary Fiction
+### D5 — Keyword map C1 — Category Literary Fiction
 
 - **WHAT:** Category Literary Fiction: The Slow Word vs Ultramarine (dispute) — proposed resolution: The Slow Word keeps Literary Fiction — it is that book's only non-SF node, so losing it would leave the title entirely inside genre-SF browse, which its register doesn't fit. Ultramarine swaps its second category to another Literature & Fiction node that matches a widow-grief Delft novel: proposed L…
 - **WHERE:** `docs/publishing/keyword-map.md` @ §2 C1
@@ -38,6 +45,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - **UNBLOCKS:** applying the resolution to the affected packet's §6 and the map's ownership rows (packets are edited only on this approval)
 
 ## 2. Click-run — mechanical publish clicks, paste-ready
+
+### Membership-Site Boilerplate Kit — `docs/publishing/vetting/membership-kit.md` @ §7 checklist
+
+- [ ] **WHAT:** storefront account + payout setup. · **DEFAULT:** executes its D-item above · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** storefront pick (Gumroad (default)) — or Lemon Squeezy. · **DEFAULT:** **Gumroad** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** zip uploaded + sha256 spot-check against §1. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** listing copy pasted; refund policy set. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($49 (default, one-time)). · **DEFAULT:** **$49** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
 ### The Slow Word — `docs/publishing/vetting/the-slow-word.md` @ §7 checklist
 

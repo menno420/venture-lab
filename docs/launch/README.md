@@ -2,13 +2,15 @@
 
 > **Status:** `reference`
 
-Zero-owner-click launch material for the two sellable candidates. Everything here is committed in-repo; nothing is published externally. Publish steps are owner-only click-scripts, marked FROZEN ❄️ until PR #16 (ORDER 003 real-Stripe-path fix) merges.
+Zero-owner-click launch material for the sellable candidates. Everything here is committed in-repo; nothing is published externally. Publish steps are owner-only click-scripts; each script carries its own freeze state (the ⚑B/⚑D ORDER 003 freeze was lifted by PR #22, 2026-07-11, after the real-path gate landed via PR #16).
 
 ## Membership-Site Boilerplate Kit — $49
 - [One-pager](membership-kit/one-pager.md)
 - [Listing copy](membership-kit/listing-copy.md)
-- [Owner publish click-script (FROZEN ❄️)](membership-kit/owner-actions.md)
+- [Owner publish click-script (UNFROZEN 2026-07-11)](membership-kit/owner-actions.md)
 - [README buy-section snippet](membership-kit/readme-buy-snippet.md)
+- [Queue-parseable §7 packet → derived owner queue](../publishing/vetting/membership-kit.md)
+- [Repeatable product path template](../products/TEMPLATE.md)
 
 ## Agent-Workflow Template Pack — $19 pay-what-you-want
 - [One-pager](template-packs/one-pager.md)
