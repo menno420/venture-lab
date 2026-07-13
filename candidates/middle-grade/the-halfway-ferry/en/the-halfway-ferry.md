@@ -164,6 +164,12 @@ Wren wrote *far bank not anywhere in particular* in her notebook, and found that
 
 Wren opened the notebook to a fresh page and dated it.
 
+"If she has no name," said Wren, because a stock book abhors a blank, "what do I put in my book?"
+
+"What everyone on a thousand banks puts," said the captain. "They call her the Halfway Ferry. Not her name — her *description.* Every crossing anyone ever makes has a near end and a far end and a middle, and the near end belongs to the leaver and the far end belongs to the arriver, and the middle — the halfway — belongs to nobody at all. Except us. Halfway is our whole route, deckhand. We pick people up at the near end of things and we set them down at the far end of things, but where we *live* is the in-between, and so does the fog, and that's why we get along, on the days we get along." The captain drank tea. "Write that down smaller than the rules. It's true, but it's not load-bearing till you're older."
+
+Wren wrote it down exactly the same size as the rules, on the principle that eleven is older than people think.
+
 "Rule one," said Captain Marl. "*Fares are never money.* Not ever. Not once. A crossing takes a person from where they are to where they're going, and no coin ever minted knows the way. A fare is something true and something the passenger can spare — barely. They pay it into the fare box or they pay it to the fog, and it had far better be the box. You will learn to see fares the way your mother sees a bad shilling. That takes about ten years, so begin tonight."
 
 *Fares are never money,* wrote Wren, and underlined *never*, and the ink went down willingly.
@@ -208,7 +214,11 @@ Then she said the thing that Wren turned over for years afterward, the way you t
 
 First light on the condemned jetty, and Little Slake had, in the overnight way of towns, decided the ferry could be seen after all.
 
-Wren came down the riverwall at half past too-early, in wool, with the notebook and a heel of bread and her heart going like the school gate in a gale, and found a queue.
+Wren came down the riverwall at half past too-early, in wool, with the notebook and her heart going like the school gate in a gale.
+
+Her mother came with her as far as the end of the good stones — which was itself a thing; her mother did not leave the shop unopened for the coal barge, the sexton, or weather — and stood looking at the ferry for a long moment with an expression Wren could not find in any of the shop's usual stock. Then she put a heel of bread in Wren's pocket, and straightened Wren's collar in the manner of a woman inspecting a splice she already knew was sound, and said, "The captain came by the shop last evening. We're square." And that was every word Wren got out of her on the subject, then or at supper, though the collar took three entire straightenings.
+
+At the jetty, Wren found a queue.
 
 It was a small queue, and it stood on the good stones short of the notice, in the particular manner of people who have each privately decided to be somewhere and are each startled to find they have company. Wren knew every face — that was Little Slake for you; strangers were a thing that happened to other towns — and she wrote them into the book as the gangplank went down, because writing things down was the job, or if it wasn't yet, she intended it to be.
 
@@ -240,9 +250,9 @@ Mrs. Grebe the baker was six, with a basket for a christening across the water, 
 
 And Old Nol was seven, the retired lock-keeper, who had said nothing in the queue and carried nothing at all. He stumped up the plank, put his face to the box, and paid — Wren wrote it exactly, because exactness was all she could hold onto by then — *one hour of his best luck, the hour to be chosen by the river.* The captain looked at him a long moment over that one.
 
-"You've ridden before," said Captain Marl.
+"You've stood at this box before," said Captain Marl.
 
-"Once," said Old Nol. "Boy and man, once." And he went and sat in the bow, facing the fog, holding his cap in both hands like the start of an apology.
+"Stood," said Old Nol. "Never paid. Boy and man — stood, once, and let a boat go." And he went and sat in the bow, facing the fog, holding his cap in both hands like the start of an apology.
 
 Wren stood at the head of the gangway and counted, out loud, by faces, the way she'd been told: Ollery under his umbrella, Miss Vane bolt upright, Iva, Pearl, Dunnock with the humming shoulder, Mrs. Grebe, Old Nol in the bow.
 
@@ -284,7 +294,7 @@ Wren looked. The wake went out behind them, white and orderly, and then — she 
 
 "It's reading us," she said.
 
-"It's *routing* us," said Captain Marl. "Reading came earlier. It read the fares at the box — that's what the box is for; the box is the fog's ear, or near enough. Seven fares, seven destinations, and none of those people going where they think. Ollery thinks he's going across the water to give back an umbrella. The fog heard a forty-year excuse paid in whole, and it will land him — you watch — somewhere a good deal more precise than *across the water.* The fog is many things, and I'll thank you not to list them aloud while we're inside it, but above everything it is a *sorter.* It takes what's paid and it finds the far bank that squares the account. Our work is only to keep the boat sound and the count true while it does it."
+"It's *routing* us," said Captain Marl. "Reading came earlier. It read the fares at the box — that's what the box is for; the box is the fog's ear, or near enough. Seven fares aboard, and not one of those people going quite where they think. Ollery thinks he's going across the water to give back an umbrella. The fog heard a forty-year excuse paid in whole, and it will land him — you watch — somewhere a good deal more precise than *across the water.* The fog is many things, and I'll thank you not to list them aloud while we're inside it, but above everything it is a *sorter.* It takes what's paid and it finds the far bank that squares the account. Our work is only to keep the boat sound and the count true while it does it."
 
 Wren stood in the wheelhouse door and watched the gray go by, and asked the question that had been sitting in her chest since the queue.
 
@@ -302,7 +312,7 @@ Only Old Nol was unchanged. He sat in the bow exactly as he had sat since Little
 
 "When the fog has us," Wren agreed. "It has us."
 
-"It has us," said Old Nol. He turned his cap over once, as if checking the luck hadn't spilled out of it early. "I was aboard a ferry on this river the last time a count came out wrong. Sixty years back, come autumn." He faced forward again, at the fog. "Count slow," he said. "Count kind. That's all. Count kind."
+"It has us," said Old Nol. He turned his cap over once, as if checking the luck hadn't spilled out of it early. "I stood on a jetty and watched the last count ever made on this river come out wrong. Sixty years back, come autumn. Nobody knew it was wrong for years and years, and then one day everybody did, all at once, and nobody ever said so out loud." He faced forward again, at the fog. "Count slow," he said. "Count kind. That's all. Count kind."
 
 Wren wrote it down — she could do nothing else with it — and went walking, calm-faced, to the stern and back.
 
@@ -418,9 +428,9 @@ The ferry came to the wall and stopped without being stopped — the engine drea
 
 Wren put her left hand flat on the cold brass lid of the fare box, and the box unlocked with a sound like a till at closing time, satisfied and final.
 
-What came out was the morning's queue, made visible. The fares rose from the box one at a time, each in its own kind of light, and went over the rail into the iron-dark wall, and the wall took each one the way the box had, the way dry ground takes rain: Mr. Ollery's excuse first, a beautiful complicated shimmer with weather in it and a dog that really existed, gone into the gray with all its polish on. Miss Vane's *it is too late,* a small black sentence that the fog swallowed whole, and served it right. The toffee secret, giggling even now. The flying dream, which tried, at the last, to fly, and did, and was allowed to be magnificent for the length of the deck before the wall received it like an old teacher. The gold smell of bread. And last, deliberate as its owner, one round untouched hour of a lock-keeper's best luck, which crossed the rail glowing like a sovereign — *fares are never money,* Wren thought, *but luck comes minted* — and was gone.
+What came out was the morning's queue, made visible. The fares rose from the box one at a time, each in its own kind of light, and went over the rail into the iron-dark wall, and the wall took each one the way the box had, the way dry ground takes rain: Mr. Ollery's excuse first, a beautiful complicated shimmer with weather in it and a dog that really existed, gone into the gray with all its polish on. Miss Vane's *it is too late,* a small black sentence that the fog swallowed whole, and served it right. The toffee secret, giggling even now, in two small lights close together — one for each twin's half of the swearing, for a secret sworn by two must be given up by two. The flying dream, which tried, at the last, to fly, and did, and was allowed to be magnificent for the length of the deck before the wall received it like an old teacher. The gold smell of bread. And last, deliberate as its owner, one round untouched hour of a lock-keeper's best luck, which crossed the rail glowing like a sovereign — *fares are never money,* Wren thought, *but luck comes minted* — and was gone.
 
-Six lights and a sentence and an hour. Seven fares.
+Five lights and a sentence and an hour. Seven fares, of seven passengers, counted twice.
 
 The seam of bright water under the wall began, by inches, to widen.
 
@@ -435,6 +445,12 @@ The bell rang once more, uninvited. Along the rail every lamp bent flat as combe
 Wren stood by the open empty fare box with her notebook against her chest, and looked at Tam Rush, deck-boy of the *Harebell,* who owned a canvas jacket, a rung bell, a pride in a straight count, and sixty gray years of being just about to catch them — and the fog waited, and the seam of bright water under the door of the world stood a hand's width open, and did not widen, and did not close.
 
 # Chapter Nine — Stock-Taking
+
+Waiting at the Fogline was not like waiting anywhere else, because the Fogline did not wait back. It *pressed.*
+
+It was gentle about it — the fog was never anything but gentle, which Wren came to understand was the most serious thing about it — but while the account stood unsquared, the gray began, very slowly, to lean aboard. It came over the rail like the tide coming over a step: first the aft lamp burned smaller, though its oil was good; then the red went quietly out of the ribbon on Mrs. Grebe's basket, leaving a ribbon-shaped politeness; then Wren looked down and saw the gray standing an inch deep over the toes of her own boots, patient as arithmetic, and understood, without anyone saying it, what sixty years of this had done to a boy who had no boat under him at all.
+
+"It's not cruel," said Captain Marl quietly, at her shoulder. "Mark that, deckhand, whatever tonight costs. It's a sorter with a bill outstanding, and it has all the time there is, and we do not. So go and do sums with our stowaway, and do them quick and do them kind, because the fog collects on silence, and it's been collecting on his for sixty years."
 
 Wren Tolliver had grown up over a shop, and there is a thing that shops know that nowhere else quite knows, and it is this: *everybody has stock. The trick is the counting of it.*
 
@@ -456,7 +472,7 @@ Behind her, unseen, Captain Marl leaned in the wheelhouse door and did not inter
 
 The lamps stood straight up.
 
-"You said it yourself," said Wren. "*They'd never sail without me. They'll have laid to just inside the Line. I'm just about to catch them.* You've held that, without putting it down, without once letting go of the handle, for sixty years, Tam. In the cold. In the gray. All by yourself on a condemned jetty. It's the biggest thing anybody's carried up this gangplank all day — it's bigger than the excuse and the secret and the dream and the hour of luck *put together* — and it's true, and it's yours, and I think —" she looked up from the page, and found she was fierce, and let herself be — "I think it's exactly the kind of thing the fog trades in. I think your fare is the waiting."
+"You said it yourself," said Wren. "*They'd never sail without me. They'll have laid to just inside the Line. I'm just about to catch them.* You've held that, without putting it down, without once letting go of the handle, for sixty years, Tam. In the cold. In the gray. All by yourself on a condemned jetty. It's the biggest thing anybody's brought aboard this boat all day — it's bigger than the excuse and the secret and the dream and the hour of luck *put together* — and it's true, and it's yours, and I think —" she looked up from the page, and found she was fierce, and let herself be — "I think it's exactly the kind of thing the fog trades in. I think your fare is the waiting."
 
 Tam Rush went very still, the particular stillness of a boy on a jetty between one turn of his head and the next.
 
@@ -596,6 +612,12 @@ Wren Tolliver's initials, in the log of the *Harebell,* on the far side of the f
 
 "Ledgers," said Captain Weck, blotting it, "are patient. That's all a ledger is, girl. Patience, ruled."
 
+And there was singing. It began the way the best singing begins, which is by accident: somebody at the toffee trestle started the old crossing-song of Little Slake — the ferrymen's one, the one that had crossed on the *Harebell* and been sung on first Tuesdays ever since, and that Wren's side of the water had lost so long ago that not even the sexton could hum it — and the whole landing took it up, verse by verse, forty souls and their sixty years of children, about the near bank and the far bank and the gray between that keeps the toll. Tam sang it standing on a bench, conducting with a toffee, and at the last verse the whole crowd stopped, all together, on purpose, and left a hole in the air where it went.
+
+"Last verse belongs to the deck-boy," said Captain Weck, to Wren, under the silence. "Always did. He's the one that stays till everything's counted, so he gets the end of the song."
+
+And Tam Rush sang the last verse of the crossing-song alone, sixty years late and note-perfect, and Wren wrote the whole of it phonetically in her notebook by lantern-light with her ears roaring, because somebody on the near bank ought to have it again, and she was, after all, on wages.
+
 And when the ferry with no name backed off the Overslake landing — engine dreaming, lamps upright, Tar aloofly permitting a dockside crowd of children to admire him — the whole town stood along the bright water to see them out of the channel, and Tam Rush stood at the front of it, between his mother and his captain, one hand raised, not waving: *holding,* the way you hold a thing you mean to keep; and the last Wren saw of him, before the pearl-light folded the channel closed, he had turned to look up at Captain Weck, and he was talking, both hands going, and Wren knew exactly what he was doing, because it was what she would have been doing.
 
 He was telling the story.
@@ -615,6 +637,10 @@ Wren had approximately four hundred, and an open notebook, and the sense — new
 Tar stopped washing.
 
 "That," said the cat, after a moment, "is not a low-rate question." He looked forward, at the wheelhouse, where the captain's gray shape stood easy against the pearl-light, and his voice did the thing voices do when they decide to hand you something breakable. "Here's what a cat will say for free. Fares are never money, and names are never free, and once — long before your town had a notice to hang — this boat's name was somebody's fare. Paid at that box. Taken clean off her bows, letter by letter, and over the rail, and the account it squared was —" the tail tightened round the feet "— large. She's run nameless since, and the captain's run with her, and if you want the rest of it, you'll want to be the kind of deckhand a captain tells things to on a slow crossing about four winters from now. I'd start," said Tar, resuming the ear, "by keeping the tea coming and the counts clean."
+
+"And are there others?" Wren asked. "Boats like her. On other rivers. Or on this one, further along."
+
+"There are other ferries," said Tar, in the voice of a cat closing a shop for the night. "There always are. Some of them you'd be glad to hail and one of them you'd best never race, and if the fog ever routes us within a bell of the *Tollgate,* you'll want to be standing next to the captain and saying nothing at all." The green eyes shut. "Four hundred questions, deckhand. Pace yourself. You've got winters."
 
 *Four winters,* wrote Wren, in the notebook, under a fresh heading she'd opened that had begun, already, to fill: *OWED TO ME BY THIS RIVER (patience, ruled).*
 
