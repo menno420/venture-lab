@@ -31,4 +31,4 @@ the master.
 
 | dir | angle | length (wc -w) | status |
 |-----|-------|----------------|--------|
-| `novella-cut/` | tight novella abridgement of the full text — same POV, same killer, clue chain preserved; secondary scenes cut | see its NOTES.md | complete |
+| `novella-cut/` | tight novella abridgement of the full text — same POV, same killer, clue chain preserved; secondary scenes cut | 18,984 (measured) | complete |
