@@ -36,6 +36,24 @@
   kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
   ledger ⚑E NEGATIVE + pause/delist). Durable record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
+- **Product catalog — 1 live + 3 click-queued + 1 hard-gated (2026-07-13
+  night run, ORDER 008).** Live: SWTK $29 (above). Click-queued at the
+  quality floor (built + priced + listing drafted + verified + sha
+  recorded), publish clicks owner-gated in the derived
+  [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) (generator
+  PR #101, DONE disposition PR #116): Membership-Site Boilerplate Kit $49
+  (PR #106), Agent-Workflow Template Pack $19 PWYW (PR #108), Agent Fleet
+  Field Manual $39 (PR #110).
+- **Photo packs — HARD-GATED candidate, NOT publish-ready.**
+  [`candidates/photo-packs/`](../candidates/photo-packs/INTAKE.md):
+  registry + validator + 7 watermarked ≤2048px previews (dutch-skies,
+  golden-hours) are in-repo and validator-green, but full-res originals are
+  owner-held OFF-repo (PACK-SPEC public-repo safety rule), so the sellable
+  zips cannot be agent-built. Build-then-publish owner sequence queued as
+  blocking §7 rows in
+  [`publishing/vetting/photo-packs.md`](publishing/vetting/photo-packs.md);
+  listing copy drafted in
+  [`launch/photo-packs/`](launch/photo-packs/listing-copy.md).
 - **Book catalog — second revenue line, owner-gated.** The verified
   [publishing plan](publishing/PUBLISHING-PLAN.md) (PR #87) sets the order:
   Tier-1 cover-only titles first (The Slow Word, The Painted Stones, The
