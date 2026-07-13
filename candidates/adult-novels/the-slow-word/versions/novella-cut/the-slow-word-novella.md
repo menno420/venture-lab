@@ -178,7 +178,7 @@ She thought: that has never once been done. Not cleanly. Every long record human
 
 The curve waited on the screen, patient, unmeasurable, real. To catch it she would need a record kept faithfully — without error — across centuries, longer than the radio era, longer than the telescope. She needed a thousand-year measurement made by people who had never heard of a pulsar, made and kept and passed on intact, so that she could lay it against her seventy years and finally see how big the wave was.
 
-Somewhere down the hill, faint under the reef's endless collapse, a single voice had begun to carry up on the night wind — old, unhurried, rising and falling in a shape she knew in her body before she knew it in her mind, a shape her grandmother's mouth had once made over a child who hadn't wanted to learn it. Matua Ropati, saying the names. Saying the line. Carrying a list of the dead back thirty generations without a page of writing, exactly as it had been carried before him, and before him, and before that.
+Somewhere down the hill, faint under the reef's endless collapse, a single voice had begun to carry up on the night wind — old, unhurried, rising and falling in a shape her grandmother's mouth had once made over a child who hadn't wanted to learn it. Matua Ropati, saying the names. Saying the line. Carrying a list of the dead back thirty generations without a page of writing, exactly as it had been carried before him, and before him, and before that.
 
 Tuli sat very still.
 
