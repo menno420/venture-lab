@@ -38,8 +38,9 @@ The two **FREE** chapters (01 and 02) are also published as standalone articles;
 - `chapters/` — the eleven source markdown chapters.
 - `templates/` — three runnable, copy-paste templates: a born-red session card, a six-field owner-action block, and a kill-rule intake skeleton.
 - `dist/agent-fleet-field-manual-v0.1.html` — the built single-file book.
+- `build.py` + `package.sh` — the stdlib-only build tooling, so the "rebuild it yourself" commands below work from this extracted bundle.
 
-The zip is byte-reproducible (pinned mtimes, sorted entries). It excludes the internal `INTAKE.md`, the build tooling (`build.py`, `package.sh`), and any nested zip.
+The zip is byte-reproducible (pinned mtimes, sorted entries). It excludes the internal `INTAKE.md` and any nested zip.
 
 ## Rebuild it yourself
 

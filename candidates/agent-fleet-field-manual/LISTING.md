@@ -1,7 +1,7 @@
 # Agent Fleet Field Manual — Marketplace Listing
 
 > Ready-to-publish copy for Gumroad / Lemon Squeezy. One publish click by the
-> owner ships it. Nothing here has been published — see the NOT-QUEUED
+> owner ships it. Nothing here has been published — see the QUEUED (2026-07-11)
 > owner-action in `docs/launch/agent-fleet-field-manual/publish-owner-action.md`.
 
 ---
