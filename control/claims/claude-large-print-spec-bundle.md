@@ -1,1 +1,0 @@
-- `claude/large-print-spec-bundle` · **books: large-print specs** — ultramarine + 3 YA edition specs · candidates/{adult-novels/ultramarine,ya-novels/*}/versions/large-print/** · 2026-07-13
