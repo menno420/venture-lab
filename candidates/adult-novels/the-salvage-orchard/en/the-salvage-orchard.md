@@ -131,3 +131,101 @@ On the last cold morning of April, Ash took the tin down, counted out the Kernel
 "Your line now too," Ash said. "Don't put it anywhere I'd think of."
 
 ⁂
+
+# Chapter Four — Soil You Argue With
+
+The city sent Iris Duplessis in the first week of May, and the yard's soil got there first.
+
+She came alone, on the streetcar, in the Reserve Office's idea of field clothes, carrying a tablet and a paper map — Ash noted the paper map and revised several assumptions — and she stopped just inside the west gate, where the lane ran between Tree One's truck and the wash-bay shed, and stood for a moment with the expression of a person whose file has failed to survive contact with its subject.
+
+"The aerial survey," she said, "has this parcel as scrub."
+
+"The aerial survey is from six years ago," said Ash. "We looked it up. Come in. Mind the hose."
+
+They had argued about this day at the assembly — whether to receive the assessor as an inspection or a siege — and Marisol had ended the argument by pointing out that a woman whose job was counting the city's slack was the one person guaranteed to understand a ledger. So they gave her the whole tour, and they gave it to her the way the Flats did everything, which was with the flaws out front.
+
+Marisol ran it, logbook in hand, and she began, deliberately, at the worst spot: the old fuel pad in the northeast corner, two acres of hardpan where the pumps and the wash-down drains had been, where the ground still came up rainbow-sheened after rain and nothing grew but a stand of oyster-mushroom beds in ranked straw bales, quietly eating forty years of diesel.
+
+"This," Marisol said, "is the part everyone asks about, so we start here. The answer is: no. We don't grow food in this ground, we won't grow food in this ground, and anyone who tells you fruit trees clean fuel oil out of a pad like this is selling something. The fungi crack the hydrocarbons — that's real, we relay the beds every spring and the ring shrinks a few meters a year — but this corner is a patient, not a field. Now come see what the rest of it actually is."
+
+The rest of it was the argument, and the argument was nine years long and written in berms. The yard's native soil was fill: cinder, brick dust, road scrapings, a century of Fleet Yard housekeeping, lead in the top layers along the old paint sheds — Marisol had mapped it foot by foot the first two years, four hundred jars on the shaker, and the map hung laminated in the wash bay with the frankness of a scar. Where the numbers were decent, the orchard planted in the ground. Where they weren't, the orchard planted *above* it: raised rows built up in windrows of leaf mold and stable manure and canal dredge, wood-chip lanes between them, the old asphalt left unbroken underneath as its own cap. Deep-rooted trees went in through cored holes with clean backfill. The lead itself they starved and smothered rather than chased — compost to bind it, bone meal, the pH held up near seven, because lead that can't dissolve is lead that stays put; digging it out would have meant trucking a neighborhood's poison to be some other neighborhood's problem.
+
+"And the fruit?" Iris asked, at the lead map. It was the right question and Marisol beamed at her like a student who'd found the trick step.
+
+"Cleaner than the soil, every year, every variety. Trees are stingy with lead — it binds in the roots and bark, barely moves to the fruit. We test anyway. Nine years of assays in that binder; worst sample we ever pulled was a fifth of the guidance line, and it was a root vegetable from a bed we closed the same week. Leafy greens and roots are where that risk lives, so the rule here is simple: this parcel grows *tree* fruit, bush fruit, and mushrooms on straw we bring in. The soil is not our friend. The soil is our neighbor. There's a difference, and the difference is called a protocol."
+
+Ash watched Iris Duplessis take notes and understood, with a sinking, respectful clarity, that every word was going into the file under both columns at once. Contaminated parcel, managed by amateurs — that was one reading. Eleven acres under active stewardship, mapped to the foot, with nine years of data — that was the other, and the October review would decide which sentence got the paper.
+
+They walked the swales last. April's rains had been kind, and the long shallow channels that stitched the yard on contour — dug by hand over three winters, the spoil built into the berms the currants grew on — were doing their quiet arithmetic, holding the week's water high in the ground where the roots could bank it instead of letting it race to the canal. Iris stopped at the outfall gate, where the overflow, when there was any, left the yard filtered and slow.
+
+"Our flood model has this whole reach as a liability," she said. "The canal backs up twice a decade. The staging depot we lost across town in April — that lot drowned in forty minutes." She looked back up the green lanes. "What did this parcel do that day?"
+
+"Drank," said Marisol. "We can show you the gauge marks."
+
+At the gate, leaving, Iris was honest with them, which all three of them would later agree had saved the whole year, though none of them knew it yet. "I want you to understand what you're arguing against," she said. "Not me. The ordinance gives reserve designation a scoring rubric: energy, flood, logistics, shelter. There is no food column. Not because anyone decided food doesn't matter — because the people who wrote it were rationing warehouse space at the time, and they wrote down the shortages they could see. Your orchard scores zero on that rubric, and my office's other candidate parcel does not. If you want October to go differently, don't bring me sentiment. Bring me a column the rubric is missing, and evidence I can defend to people who remember why we hoard."
+
+Ash held the gate. Politeness, and also they wanted the last word to be the yard's. Behind them the wind moved through eleven acres of new leaf, loud enough that Iris paused, one second, two, listening — and whatever she heard, she wrote nothing down, and Ash counted that a draw.
+
+"October," she said, and got back on the streetcar.
+
+That evening's work party ran late. Nobody had called one; forty people came anyway, the way a body sends blood where it's bruised. Nef and the twins wheelbarrowed compost till dark with the seventeen-year-old conviction that the review could be won by volume. Old Mo forked manure and pessimism in equal loads. And Marisol sat in the wash bay with the lead map and the flood gauge and her forty years of titrations, drafting on the back of an envelope the thing Iris had asked for and the ordinance had forgot — the missing column, the arithmetic of jars and shade and drunk floodwater — while Ash walked the rows in the last light, doing the other half of the assignment, the half nobody had said aloud: figuring out what an orchard could offer a frightened city that a warehouse never could, besides everything.
+
+⁂
+
+# Chapter Five — Graft by Graft
+
+May was the month the yard taught, because Ash finally let it.
+
+It started as case-building — Marisol's envelope had become a whiteboard, and one line of the whiteboard read *people who can run this parcel: 4 (bad number),* and under the Flats' pitiless custom of writing fears down, that number sat in public view until somebody did something about it. What somebody did, the somebody being Nef with Ash's tin-scarred blessing, was put a sign at the west gate: GRAFTING TAUGHT SATURDAYS. FREE. BRING A KNIFE IF YOU'VE GOT ONE. WE HAVE PLASTERS.
+
+Ash expected six neighbors. The first Saturday brought thirty-one people, and the second brought fifty, and they kept coming: allotment keepers from across the canal, a rooftop-orchard crew from the Heights with questions about wind, two line workers from the utility who kept apologizing for being from the utility, a woman of eighty who had grafted in another country and another century and corrected Ash's tongue-cut angle with two fingers and perfect justice, schoolkids, a priest, and — the third Saturday, in civilian clothes, having taken the streetcar on her own day off — Iris Duplessis, who stood at the back, botched four willow whips like everyone else, and left before Ash could decide what her being there meant.
+
+Teaching fifty strangers meant deciding, out loud, over and over, what was actually true. Ash heard themselves say things they hadn't known they knew. That the whole craft was one sentence — *line up the living layer, keep the air out, then wait* — and everything else was penmanship. That a graft wasn't a conquest of the rootstock but a negotiation with it, and the rootstock had the votes: your scion proposed, the roots disposed, and pretending otherwise cost you the tree. That you always cut more scions than you needed and always gave the spares away *cut side waxed,* because — a graft is a gift. Fifty people, saying it back, some of them writing it down. Ash got through the sentence fine the first eleven times. The twelfth time, to a girl about the age Ash had been at the brewery wall with their grandmother, their voice did something unexpected in the middle of it, and Nef materialized with the wax pot and talked loudly about parafilm until the moment had somewhere to go.
+
+The yard filled with practice wood. They top-worked the whole line of volunteer seedlings along the north fence as a teaching block — wolf apples nobody had ever named, each one now carrying two or three new varieties on cleft grafts, labeled in the handwriting of whoever had made the cut. It became the most looked-at row in the orchard. People came back Tuesdays to check on grafts the way you'd check on a hospital patient, and when a union took — when the buds on a stranger's first-ever scion broke green and the tiny leaves came out fists-first — the sound that went down the row was the sound the boathouse made at a wedding.
+
+The frost came on the eighteenth. A polar dip, the forecast flag going purple on the co-op board at four in the afternoon, three degrees of warning, the cherries in full bloom and the young grafts three weeks tender: the kind of night that, in the era the Flats were trying to prove was over, a farmer faced alone in the dark with smudge pots and prayer. What happened instead became Exhibit K in the October dossier, although what the dossier's dry line — *demonstrated mobilization capacity: 63 persons, <2 hours, night operations* — could not hold was the texture of it: the phone tree going off like a struck hive; the rooftop crew arriving from the Heights on cargo bikes with row cover in forty-meter bolts; Old Mo's stable blankets, smelling gloriously of horse, going tree by tree over the youngest block; barrels of canal water trundled between the rows to hold the day's heat; the twins running the wind machine they'd built from a decommissioned bus fan; someone's grandmother directing the covering of the teaching row like a woman evacuating a nursery, which, Ash supposed, watching their breath smoke under the work lights at two in the morning, she precisely was.
+
+They lost the earliest cherries on the low ground, a fifth of the crop, gone in one clear night — the ledger recorded it, because the Flats' case was going to be made of true numbers or not at all. They lost four hundred grafts' labor to cold, out of six thousand standing.
+
+They lost nothing else. Not one tree, not one teacher, not one Saturday. The following weekend attendance hit sixty, because word had gone around the city, faster than frost: something over in Millbrook Flats had faced a bad night, called for hands, and *had them* — and there were people all over Rende, a whole generation of them, who had spent the dark years learning that the neighbors coming was the difference between a hard season and a catastrophe, and who would ride a long way, it turned out, to be near a place that had turned that lesson into fruit.
+
+The last Saturday of May, packing the wax pots away, Nef held up her forty-first graft of the day for inspection — chip bud, seated true, wrapped like a jeweler had done it — and said, conversationally, "You know what I figured out? It's the same thing. What you do with the knife and what Hank does with the meetings. Two things that weren't going to survive apart, held together till they heal."
+
+Ash looked at her over the teaching row, sixty strangers' grafts breaking green on trees nobody had wanted, and made a sound that was not quite agreement and not quite a laugh.
+
+"What?" said Nef.
+
+"Nothing," said Ash. "My grandmother used to ambush me like that, is all. Put the wax away. Both of us have a meeting."
+
+⁂
+
+# Chapter Six — What the Land Is For
+
+The June assembly was the bad one. Every campaign has one, Hank said afterward; you hope to have it early, in-house, and about something real. The Flats got all three, and it started, as their worst arguments always did, with somebody trying to protect something.
+
+The proposal came from the Kettle Row households, submitted properly, two days in advance, in writing: *That for the duration of the review period, the yard be secured — gates locked outside work hours, visitor log at the west gate, teaching Saturdays suspended or moved off-site.* The reasoning was not stupid, and the proposers were not villains, and Ash, reading it pinned to the co-op board, felt its pull in their own chest like a familiar hand. The dossier was the neighborhood's one lever. Sixty strangers a week now walked the rows unsupervised. One arson, one vandal, one idiot with a saw — one bad actor out of a city of a hundred and forty thousand — and the evidence of nine years could be undone in a night, four months before the review. You lock the tin. You keep the wood cold and close. It was, Kettle Row argued, one growing season of caution against eleven acres, forever.
+
+The boathouse was full by six. The argument ran three hours, and it was the real argument, the one the yard had been hosting since before it was an orchard — *what is this land for* — now wearing its sharpest clothes.
+
+Because the case Kettle Row made was true. And the case against it was also true, and Marisol stood up at half past seven with the whiteboard numbers and made it coldly before she made it warmly. The dossier's strongest column was not tonnage. Rende did not lack calories; the ring farms fed it. What the rubric was missing, what Iris had all but drawn them a map to, was the thing no warehouse anywhere had ever put in a jar: *surge capacity in people.* Sixty-three neighbors in two hours on a frost night. Two hundred hands that now knew grafting, first-year orchard skills seeded into every ward of the city. A parcel that manufactured, measurably, the exact resource every resilience plan on earth lists first and provisions last — neighbors who show up. "Lock that gate," Marisol said, "and every number I've got stops growing on the day we most need it climbing. We would be pickling our best evidence in July to serve it in October."
+
+"And if we're burned in August?" said Kettle Row, and the room held its breath, because that was the whole thing, said out loud.
+
+It was Mrs. Okonjo — Mrs. Okonjo, of the block that had stood aside in March, the sell faction, the yard's most honest skeptic — who stood up then, seventy-eight years old, and took the room's breath the rest of the way. She had not come to praise the orchard, she said; her position on the compensation was on the minutes and it had not moved. But she had lived on this canal through the years everyone in the room was always so carefully not mentioning, and she wished to remind the assembly what had actually kept Millbrook Flats alive in them, because it had not been a fence. "Every hard thing we own survived by being *used* by more people, not fewer. The boathouse. The pump. The bridge watch. The only things we lost for good were the things somebody loved so much they locked them — because a locked thing has one keeper, and one keeper is one bad winter away from nobody. You want to know what this land is for?" She gestured, magnificently, in the direction of the whole arguing room. "It's for this. It's the one parcel in the Flats that turns strangers into people who've held our trees in their hands. Insure *that.* Don't strangle it."
+
+The consensus, when it came at nine-forty, was the Flats at their unglamorous best, and it gave Kettle Row most of what mattered while blocking the lock: a night steward rota (there were volunteers before Hank finished the sentence — the frost list, essentially, re-upping); the dossier duplicated weekly, one copy in the boathouse safe, one lodged with the notary on Bridge Street, so no single fire could eat the evidence; the propagation stock split, half the mother-block scions to be summer-budded onto the rooftop crew's stock in the Heights — the orchard's line, like Blessing Okafor's before it, kept safe not by a colder tin but by more roots in more ground. Gates open. Saturdays standing.
+
+Kettle Row stood aside, on the record, unpersuaded and unbullied, which was their right and the system working exactly as built.
+
+Ash walked home the long way with Nef, along the towpath, both of them wrung out. The canal was running June-low. Across the water the depot site — the Reserve Office's other candidate, the sensible one, the empty one — sat in its sodium lights, flat and fenced and mute.
+
+"Kettle Row wasn't wrong," Nef said at last. "That's what I hate about this year. Nobody's wrong. Iris isn't wrong. The ordinance isn't even wrong, it's just — half blind. It counts everything that comes in a container."
+
+"Mm," said Ash. "Old failure mode. My grandmother had a word for it — she'd point at a thing like that rubric, some system that measured all the wrong things sincerely, and say: *that's a tin.* A very good tin. Keeps its contents perfectly. And everything in it is dying at the exact speed of the clock, because tins can't grow, they can only defer." They watched the dark water. "Our whole case, when you boil the whiteboard down, is one sentence. We're going to walk into that hearing and tell a frightened city that a reserve can be a living thing. That you can bank slack in soil and people, not just in sheds. That's the column."
+
+"Will they buy it?"
+
+"They rebuilt a grid out of rooftops and neighbors once," Ash said. "Somewhere in that building is somebody who remembers how that felt. Probably filing the memory under the wrong column."
+
+⁂
