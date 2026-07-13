@@ -176,3 +176,143 @@ The third had been through her own mail centre four days ago.
 
 ⁂
 
+# Chapter Four — The Scrapbook
+
+The Little Dunnock Show kept its memory in the village hall, in a cupboard marked LADDERS, in fourteen scrapbooks bound in wallpaper offcuts, and Dilys Pring held the key to all of it, a fact she produced on Thursday morning with the modesty of a conjuror producing an egg.
+
+"Archivist," she said. "Unofficial. Well — nobody else would hoover in there."
+
+The hall smelled of floor polish and jumble sales past. They spread the 2016 book on the trestle under the window: photographs going matte with age, rosettes pressed flat as flowers, the show programme with its smudged mimeograph dignity, and — because the show had always been run by meticulous people — the entry cards, bundled year by year in rubber bands, each one filled out in the entrant's own hand. *Class 41, Preserves: citrus.* Vera slid the band off 2016 and went through them the way she had gone through pockets of the nation's lost mail for three decades: lightly, quickly, missing nothing.
+
+She did not need the name. The hand came off the card and hit her like a smell from childhood: round, patient, taught, the descenders finished with that same deliberate school-mistress curl. She laid the card beside the memory of the parcel and there was no space between them at all.
+
+*Entrant: R. Tanner, The Limekilns. Class 41. "Seville & Chapel Bells" (recipe W. Finch, by his kind teaching).*
+
+"She entered it herself that year," said Dilys softly, over her shoulder. "First time. Walter'd stood down from entering — said it was her turn. There was a to-do about it in the tent, some said it wasn't hers to enter." Her finger hovered over the card, not touching. "Second prize, they gave her. Everyone knew it was first-prize marmalade. The judge that year couldn't abide the idea of the cup going to a slip of a girl who'd got the recipe given her."
+
+"Who was the judge?"
+
+"Prue Hollis," said Dilys, and had the grace to look at her shoes.
+
+Vera turned the pages. The programme, 2016: *Class 41 to be judged 2 p.m. The committee thanks Mr W. Finch for forty years of sweetness and asks: Walter, what ARE the bells?* Laughter, printed and kept. And on the facing page, a photograph: a big man in his Sunday jacket, hands like a bag of tools, standing behind a trestle of jars with light coming through them, and beside him, laughing at something outside the frame, a young woman with her hair pinned up under a borrowed hat.
+
+"He used to say," Dilys went on, and her voice had gone somewhere ten years away, "'the first jar of hers that wins a first goes to me, and I'll eat it at one sitting.' Said it every year she wouldn't enter. It got to be a village saying, like. And she'd say, 'then I'd best never win, or where's your dinner the rest of the week, Walter Finch.'" Dilys stopped. In the quiet, the hall clock changed its mind about a minute. "That's who your parcel's from, isn't it. She won her first."
+
+"In Cornwall," said Vera. "This summer. And she posted him his jar, first-class, to a house that hasn't had his name on it for eight years — because a promise doesn't care." She looked at the entry card again. *By his kind teaching.* "Dilys. The string on that parcel is tied in a counter hitch with a standing loop. I was taught it in 1989 by a man in a brown coat who called it 'the proper way.' Who taught it here?"
+
+Dilys's face did the thing it did when two pieces of gossip met and married. "Mr Hedges," she said. "Postmaster forty years, your predecessor's predecessor. Tied every parcel over that counter like he was dressing a bride. And he taught his Saturday girls to do it, and made them practise on bricks." She sat down slowly on a stacking chair. "Ruth Tanner was his last Saturday girl. Sold stamps in your shop every Saturday of her growing up. Well, of course she was. Of course she was."
+
+Two of Vera's index-card lines joined themselves up with an almost audible click. *A woman who kept things.* Stamps from the drawer of a post office she'd loved; a knot from a dead postmaster's hands; a recipe from a dead beekeeper's book. Ruth Tanner had left Little Dunnock with her whole life under one arm, and had spent ten years posting none of it, until the summer a Cornish judging table finally gave her a flag to run up where nobody knew her name.
+
+The hall door went. Footsteps crossed the lobby, stopped at the LADDERS cupboard's open door, and became Prue Hollis, holding a cake tin like a shield.
+
+"Dilys. Mrs Cusworth." Her eyes went to the trestle, to the open 2016 book, to the loose entry cards, with the speed of a woman checking exits. "I was — the urn. For Saturday. I do the urn." Nobody had asked. She stood a moment longer, pink deepening, and her gaze snagged on the photograph of Walter and the laughing girl and could not get off it. "You want to be careful," she said, in a voice that came out smaller than she meant, "raking through all that. It wasn't a happy summer. People got hurt."
+
+"People are still getting hurt," said Vera mildly. "That's rather the point of raking."
+
+Prue left without the urn.
+
+Dilys watched the door shut. "She's been odd all week. Prue's not a bad woman, whatever her marmalade says about her lately —" and then stopped, appalled at herself, because gossip has rules and she had just broken the big one: never say the true thing.
+
+"Lately?"
+
+"Nine firsts running, since Walter went," said Dilys, very reluctantly, straightening the rubber bands. "And the first of the nine, the year after he died, folk did remark — her marmalade'd changed. Darker cut. Deeper. 'Treacle-y,' Mrs Aldous said." She put 2016 back on the shelf with both hands, gently, like a sleeping child. "Nobody said anything more. You don't, do you."
+
+"No," said Vera, looking at the shelf. "That's the whole trouble with this village. Nobody says anything more."
+
+She walked back to the shop through the sunshine with the arithmetic going by itself. Prue Hollis, judging in 2016, had kept a first prize off Ruth Tanner's jar. Prue Hollis, from 2017, had begun winning with a marmalade that tasted of another woman's teaching. And Prue Hollis was frightened of a parcel — because if Ruth Tanner's marmalade came home and got opened and *tasted*, ten years of rosettes came open with it.
+
+It was a real fear, and a real motive, and it was — Vera turned it over, weighed it, brought it down on the counter of her judgement — the wrong size. You might do a costume act on the telephone for the sake of nine rosettes; villages had burned for less. But the voice on Tuesday had not been Prue's, and there was still the other thing, the thing the vicar had handed her among the graves, the thing that predated every rosette: somebody, in October 2016, had searched an empty house drawer by drawer and taken nothing.
+
+Whatever that somebody wanted had been wanted for ten years. And it was not marmalade.
+
+⁂
+
+# Chapter Five — Official Channels
+
+The letter came Friday, hand-delivered, on the show committee's headed paper, and it was Gerald Pocock from the salutation down: warm, regretful, and armour-plated.
+
+*Dear Mrs Cusworth — At an extraordinary meeting of the Show Committee held Thursday evening, it was resolved (prop. G. Pocock, sec. Cllr Hollis, carried) that in view of the distress occasioned by the item currently held at the Post Office, the Committee formally requests that the item, bearing as it does a Show prize label and pertaining to a deceased Show officer, be released into the Committee's custody for appropriate disposition…*
+
+Vera read it twice, enjoyed *appropriate disposition* both times, and filed it in the drawer she was privately calling the exhibit drawer. A committee was a wall built by a man who could no longer do costume acts on the telephone. She noted, too, the seconder. Prue was on the council and on the committee, and frightened people make useful seconders.
+
+She spent her half-day closing on the bus to Maldenbury, six miles of hedges, to do the one piece of the protocol that was actually hers to do. Mail addressed to the dead is delivered, where it can be, to the executor. The executor of Walter John Finch, the probate index said, was Mr Martin Finch, nephew, of 14 Speedwell Close, Maldenbury — a pebble-dashed cul-de-sac house with a hard standing where a garden had been, and a man in it who opened the door the way people open bills.
+
+"You've come about the parcel." Martin Finch was sixtyish, grey as an envelope, with his uncle's big frame gone apologetic. "Half of Little Dunnock's telephoned me this week. I don't want it. Burn it, bury it, send it back where it came from."
+
+"There's nowhere back," said Vera. "No return address. That leaves you, Mr Finch. I can deliver it to you as executor, formally, and what happens after that is yours. I'd ask only that it's opened properly — recorded — because I believe there are people in Little Dunnock with a strong interest in it never being opened at all, and I've found that the best disinfectant for that kind of interest is a witness."
+
+He stood in his doorway and looked at her for a long moment, and she watched ten years of something move behind his face like weather.
+
+"You know what they did to my uncle's name," he said at last. "Forty years he rang the bells and kept their graves tidy, and they gave him one summer of dying and ten years of *thief*. Nobody ever said it to me, mind. They said it around me. Like water round a stone." His jaw worked. "I sold the house to be rid of the place. New people asked me, did I mind them changing the name. Mind? I'd have paid them."
+
+"And do you think he took it?"
+
+The question landed the way honest questions do, rudely. Martin Finch looked at his hard standing. "I think," he said, with enormous care, like a man carrying a full glass across a room, "that the dead can't bank money, Mrs Cusworth, and that box never turned up. And I'll tell you what I've never told a soul in that village: I've paid for the wondering same as everyone. Paid more." And then his mouth shut like a till, and no formal delivery could be arranged for less than Monday, and good afternoon.
+
+On the bus home she took out an index card and wrote: *M.F. — "paid more." Paid what? To whom?* — and beneath it, from the parish magazine she'd proofread her first month, a stray fact that had risen while Martin talked and now would not sit down: the St Botolph's roof appeal, launched 2015, stalled by the missing-box summer, and then completed, over four quiet years, by *donations from an anonymous well-wisher* the magazine had thanked in five separate issues. The village believed the anonymous well-wisher was Gerald Pocock, because the village believed all sound and generous things were Gerald Pocock. Gerald had never corrected them.
+
+The shop bell was going as she unlocked Saturday morning, and it was Gerald himself, third in a queue he immediately, graciously, sent ahead of him, so that when he reached the counter the shop was empty and he could lean on it with both forearms, the friend of everybody, and drop his voice to churchyard pitch.
+
+"You'll have had our letter."
+
+"I have. The answer's no, and it's the same no as Tuesday, with committee minutes attached. An item in the post stays in the post until it's delivered. It will be delivered Monday, to the executor, as the law provides."
+
+"To Martin." Something crossed the seed-catalogue face too fast to photograph. "Martin's a bitter man, Mrs Cusworth. He'll make it public. He'll enjoy it." He straightened up, and for the first time since she'd met him the warmth fell away and what was underneath was tired and hard, like ground in August. "You think I'm managing you. I'm keeping a lid on a pot that scalded this whole parish once already. You weren't here. Three thousand, one hundred and forty-seven pounds, and a dead man's name boiled with it, and I am not going to watch that summer happen to this village twice over a jam jar."
+
+He put his coins on the counter for his paper, exact, and left, and the bell swung the silence back in behind him.
+
+Vera stood quite still.
+
+Something in the sentence had a burr on it. She was sixty-one years old and she had learned to trust the burr the way sailors trust weather; some part of her below the counting part had caught a thread and pulled. She got out an index card and wrote the sentence down whole, word for word while it was warm — *three thousand, one hundred and forty-seven pounds* — and looked at it, and could not for the life of her see what was wrong with it, and filed it in the exhibit drawer anyway.
+
+Filing things you can't yet read: thirty-one years, and it had never once been wasted work.
+
+That night she took the parcel home in her shopping bag, wrapped in a tea towel, and set it on Ted's side of the kitchen table while she ate her egg. She had stopped being able to say quite why she'd started doing this — instinct was just paperwork you hadn't done yet — but the phone call had been Tuesday, and the letter Friday, and walls were going up all over the village, and the oldest rule of the returns hall ran: *when everyone wants a thing that belongs to no one, it sleeps where the law sleeps.*
+
+"Don't look at me like that," she told Frank, who had followed the parcel home. "You'd have done the same."
+
+⁂
+
+# Chapter Six — The Night Shop
+
+The telephone went at ten past six on Sunday morning, and it was Dilys, talking before Vera had the receiver to her ear.
+
+"— and I said she's not to be woken for less than fire or flood, and Ern says well it's the nearest thing to both, somebody's been in the post office."
+
+Somebody had. Vera walked down through a village still in its dressing gown — curtains twitching in Church Row like a run of semaphore — and found Ernie the milkman guarding her own front step with the solemnity of a man who would be telling this story for the rest of his natural life. The door stood shut and unmarked. Inside, the shop was a photograph of itself, except in the three places it wasn't: the flap of the counter was up, and behind the counter the long drawer under the scales — the deep one, with the brass label worn to a shine, PENDING — had been pulled out to its stops and gone through to the bare wood. The two cupboards below the pigeonholes stood open. Nothing else. Nothing broken. The till, untouched, with Saturday's float asleep inside it. The safe, untried. The stock of stamps, worth real money to any ordinary burglar, ignored.
+
+And no splinter, no scratch, no forced pane anywhere, because whoever it was had come in through the front door with a key, and — Vera checked the latch twice to be sure of the small cold fact of it — had conscientiously locked it again on the way out.
+
+PC Draycott drove over from Maldenbury by eight, young and pink and thorough, and established what there was to establish, which he summarised, notebook out, with the air of a man reading his own school report: entry by key, nothing taken, no witnesses come forward, nothing to go on. "You're sure nothing's missing, Mrs Cusworth? Only it's a funny sort of burglar."
+
+"It's a very precise sort," said Vera. "There's only one key besides mine, Constable, and I'm told it has hung on the board in the village hall cupboard since Mr Hedges's day — 'in case of flood.' The hall cupboard is opened by a hall key. And the hall keys belong to the parish council."
+
+Draycott wrote that down slowly, sensing committee, the natural predator of constables. "And what would anyone want," he asked, "out of an empty drawer?"
+
+"Whatever's been kept in it since 1962. It was the undeliverables drawer — dead letters, held parcels. Mr Hedges kept them under the scales; so did everyone after him. I moved all that to the back room in April when the counter was refitted." She looked at the drawer, pulled out patient and empty in the morning light, and felt the night rearrange itself into sense around it. "Our visitor knew this shop, Constable. Knew it well enough to go straight to the pending drawer in the dark — but only as it was. They knew everything about this post office except the last four months of it."
+
+Which unsealed nobody in Little Dunnock, where everyone over forty had known the shop under Hedges. But it shut a door all the same, and Vera shut it silently and with some relief: Ruth Tanner had not stood in this room since she was twenty-three, and the parcel-sender had no need to burgle her own parcel. Whoever came in the night was local, long-established, hall-keyed, and looking for a held item — and had gone away with empty hands because the held item was sitting on Ted's side of the kitchen table with a tea towel over it, being watched by a cat.
+
+The village managed its shock in the traditional way, by shopping. All morning — Vera opened at ten; it was that or hold the parish at bay with a broom — the bell went and went, and the same six sentences got said over the counter in different hats. It was travellers off the bypass. It was youths. It was (lowered voice) *to do with the parcel*, and wasn't it awful, and she'd want to be careful, a woman alone, and would she not be better handing the wretched thing to the committee after all and letting everyone sleep?
+
+That last sentence arrived four times in three hours, in four mouths, with one grammar. Vera sold stamps and counted.
+
+Prue Hollis did not come in. Prue Hollis, who had found a reason to pass the counter every day that week, on the one morning the village had a real thing to discuss, stayed away — and the tearoom stayed shut past noon, which had not happened, Dilys reported flatly, since the Queen died. When it finally opened, Mrs Aldous had it from the Tremletts that Prue looked as if she hadn't slept a wink.
+
+At four, when the shop was empty, the Reverend Hattie Bourne came in, bought nothing, leaned on the counter, and said: "Well?"
+
+"One question," said Vera. "You did the funeral eulogy research once, you'll know. When the show was over each year — the cash box. What was the routine, the *actual* one, hands to hands?"
+
+"Walter counted, in the tent, after teardown. The treasurer took the box home overnight and banked it in Maldenbury on the Monday. Decades of it."
+
+"So on the ordinary Saturday, the last pair of hands on that box before the bank's was never Walter's at all. It was the treasurer's." Vera folded her arms on the counter. "Everyone tells me the story of 2016 the same way: Walter stayed late to count, Walter died, box gone. The whole village standing at one end of the evening, looking down it the wrong way. Nobody's ever once said out loud who the treasurer was, because he's spent ten years being the man who *held the village together* instead." She turned the day's last index card around so the vicar could read it. On it was one line: *Who had it last?*
+
+Hattie Bourne read it. Outside, the church clock counted four and got it right.
+
+"Gerald," she said. "Gerald Pocock was treasurer. Gerald's been treasurer since before I came." She sat down on the customer chair, which wheezed. "But he reported the box never reached him. That Walter kept it back that night to finish the count."
+
+"And the only witness to that arrangement had the good manners to die by morning," said Vera. "It's a story with one door, and the door shut behind it. Ten years shut. And then last Tuesday a parcel came from the one person alive who might have carried something of Walter's out of that house — his book, vicar, his one book, counts in the back — and by Sunday somebody with a parish key is going through my pending drawer in the dark." She took the card back. "I'd been asking the wrong question along with everyone else. It was never *who wants the marmalade*. It's who has spent ten years afraid of the post."
+
+⁂
+
