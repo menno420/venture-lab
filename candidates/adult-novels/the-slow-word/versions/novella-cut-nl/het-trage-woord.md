@@ -397,3 +397,203 @@ De zee ging door tegen het rif, de lange trage zin ervan.
 *De Tragen.* Hij had haar woord genomen — ze had het één keer gebruikt, vanavond, zonder het te besluiten — en het haar teruggegeven met hoofdletters erin, er hun naam van gemaakt, en ze merkte dat ze eindelijk huilde, niet om de diagnose en zelfs niet om de jaren, maar omdat iets op de schaal van ijs zich naar het zeggen had toegebogen, en iets op de schaal van maanden was uitgekozen om het te horen, en er was geen klok in het universum snel genoeg of traag genoeg om die twee te laten passen.
 
 'De Tragen,' stemde ze in, het donker in, het zoemen in. 'Goed. Ja. Samen.' En ze was bang, en ze zei het, en ze bleef luisteren.
+
+## Hoofdstuk 7 — De vraag
+
+Tuli had veertig jaar geluisterd naar dingen die niet terug konden praten, en dus herkende ze, voordat ze het bewijzen kon, de bijzondere hoogtevrees van het aangesproken worden.
+
+Het kwam om half vier in de ochtend. Ze had de boodschap uitgelegd als een lijn van tekens die van links naar rechts over drie aan elkaar genaaide beeldschermen afrolde, elk teken een foneem. Negentig tekens. Negentig lettergrepen die tienduizend jaar kostten om te zeggen. Ze had er een week naar zitten staren zoals je naar een woord staart tot het niets meer betekent.
+
+Het probleem was dat ze ze had zitten lezen als een mededeling. Als iets wat eindigde.
+
+Wat het openbrak was niet de code. Het was de herinnering aan Ropati op de mat — de manier waarop hij geen lijst had opgezegd. Hij zei een naam, en zei hem dan opnieuw, gevouwen in de volgende, en vouwde dan terug, elke generatie tweemaal neergelegd, driemaal, van verschillende kanten. Hij kon, midden in een ademtocht, worden verbeterd door een vrouw aan de andere kant van de kamer. Het was geen geheugen zoals haar geheugen was geleerd, een emmer die je vult en leeggooit. Het was geheugen als protocol. Aanroep en antwoord. Pariteit. Foutcorrectie die over driehonderd jaar mensenmonden liep, en standhield.
+
+Ze had de Tragen zitten lezen alsof ze een monument hadden achtergelaten. Iets wat één keer gezegd was, gebeiteld, aan het licht overgelaten.
+
+Maar niemand die in de diepe tijd dacht zou beitelen. Beitelen was voor mensen die steen meer vertrouwden dan elkaar. Mensen die hadden geleerd dat niets fysieks zo lang ongeschonden blijft, zouden geen mededeling bouwen. Ze zouden een protocol bouwen. En een protocol heeft een vorm, en de vorm van een protocol is geen punt.
+
+Het is een beurtwissel.
+
+Ze ging terug naar de negentig tekens en zag het zoals je het tweede gezicht in de tekening ziet. De boodschap eindigde niet. Ze steeg. De slotstructuur — de laatste elf fonemen die ze een maand lang had behandeld als een decoratieve coda — was hetzelfde grammaticale scharnier dat Ropati zette op de naad tussen de ene generatie en de volgende. *En wie, dan.* Het was een aansluiting. Het was gesneden om te ontvangen.
+
+Heel de tienduizend jaar ervan was aanroep. Ze was gebouwd, vanaf het eerste foneem, om beantwoord te worden.
+
+'O,' zei ze, hardop, tegen de lege kamer en de zee. 'O, jullie slimme klootzakken.'
+
+Ze sliep niet. Ze bewerkte de betekenis zoals Ropati een betwiste naam bewerkte, van elke kant die ze had, en toetste de trage grammatica aan de redundante echo's die de zenders in hun eigen uitzending hadden gebouwd — want natuurlijk hadden ze redundantie ingebouwd, ze hadden alles twee en drie keer gezegd vanuit verschillende hoeken, precies als de oude man op de mat, en hoe had ze niet gezien dat een boodschap die de diepe tijd moest oversteken en een genealogie die de diepe tijd moest oversteken door dezelfde krachten in dezelfde vorm zouden worden geduwd. Convergent. De oceaan maakt dezelfde vis twee keer. De diepe tijd maakt dezelfde zin twee keer, op twee werelden.
+
+Tegen het grijs van het eerste licht had ze een vertaling die ze vertrouwde. Niet woord voor woord — de Tragen hadden geen woorden, alleen relaties, alleen de va tussen de ene toestand en de volgende — maar ze vertrouwde de strekking ervan zoals ze de strekking van het getij vertrouwde. Ze schreef haar op de achterkant van een opheffingsbrief van het Consortium omdat dat het papier was dat het dichtst bij haar hand lag, en later zou ze denken dat daar iets kloppends in zat, de zin geschreven op de achterkant van zijn eigen doodvonnis.
+
+*Wij spreken al heel lang. Is daar iemand die standvastig genoeg is om te antwoorden?*
+
+Ze zat ermee. Ze las de zin nog eens op de achterkant van de brief. Hij veranderde niet.
+
+Het was geen vraag naar bestaan. Ze vroegen niet *is daar iemand.* Dat hadden ze opgelost; ze spraken, ze hadden gekozen te spreken, ze veronderstelden een luisteraar zoals je de overkant veronderstelt. Ze vroegen iets wreders en intiemers. Ze vroegen of de luisteraar *bestendig* was. Want om hun überhaupt te antwoorden zou je moeten terugspreken in hun register, één foneem per eeuw, en je betekenis stil moeten houden, je *zelf* stil moeten houden, over de duizenden jaren die het zou kosten om één enkel antwoord af te maken. Ze vroegen of je *een belofte kon houden.* Of er op jouw wereld iets was dat duurde.
+
+En ze dacht aan het Consortium, dat het kwartaal niet zou halen. Ze dacht aan het observatorium, veertig jaar oud en al een geest. Ze dacht aan natiestaten die een paar eeuwen duurden, dronken van het idee van hun eigen bestendigheid, aan het internet, dat een link geen tien jaar kon vasthouden, aan haar eigen lichaam, de verraderlijke spier die zijn haperende metronoom tikte, en ze dacht: ik ben het standvastigste wat deze ontdekking heeft, en ik ben het minst bestendige ding in deze kamer. De schotels zullen mij overleven. De brief waarop ik dit schreef zal mij overleven.
+
+*Is daar iemand die standvastig genoeg is om te antwoorden.*
+
+Nee.
+
+Dat was het antwoord. Ze stond het zichzelf toe, alleen, in het grijs. Er was geen instituut, geen taal, geen machine en geen vrouw op deze aarde die een samenhangende uitzending kon vasthouden over tienduizend jaar, of zelfs de vijfhonderd die ze nodig zou hebben alleen om te beginnen. Om de Tragen te antwoorden zou je het soort ding moeten worden dat zij al waren — een geest die voortduurde voorbij zijn eigen onderdelen — en de mensheid was daar nog geen enkele keer in geslaagd, niet voor haar goden, niet voor haar rijken, niet voor de liefde. Steen vergeet. Staal roest. Bestanden rotten. De boodschap waar ze haar laatste goede jaar van gezondheid aan had besteed om hem uit de hemel te trekken was een vraag, en het eerlijke antwoord was stilte, en zij zou sterven in de wetenschap dat, de ene keer dat het universum zich over het donker heen had gebogen om te vragen of wij standvastig genoeg waren, het antwoord nee was geweest, en dat zij degene was geweest die het had moeten weten.
+
+Het zelfmedelijden van die gedachte stond haar tegen op het moment zelf dat ze haar had. Maar ze ging niet weg.
+
+De nacht erna was erger. Dat was de nacht dat ze het bijna deed.
+
+Ze zei naderhand tegen zichzelf dat het vermoeidheid was, maar ze wist dat dat maar half waar was. De mensen van Meridian waren gaan cirkelen — ze had die dag de eerste e-mail gehad, een en al vlakke dreiging, *strategisch belang, passend beheer* — en ze had begrepen dat de ontdekking haar zou overleven en haar niet *ongeschonden* zou overleven. Ze zou worden afgenomen. Gerubriceerd, verplaatst, van het eiland en van de hemel afgesneden, veranderd van een vraag die de oceaan kon horen in een actief waar drie regeringen om zouden vechten. De Tragen hadden gevraagd of iemand standvastig was, en het antwoord dat de mensheid aan het voorbereiden was, was de vraag in een la op te sluiten en te bekvechten om de sleutel. En als dat het antwoord was, dan was misschien het vriendelijkere, het *schonere*, dat het antwoord helemaal niets was. Een ware stilte in plaats van een valse. Laat het dan op de eerlijke manier verloren gaan, in de hemel, in plaats van op de lelijke manier, in een kluis.
+
+Ze opende het archief. Ze had root. De tienduizend jaar zaten voor haar in een map die ze kon wissen met een commando dat ze uit haar hoofd kon typen, en dan zou er geen boodschap zijn, en geen diefstal, en geen falen, want je kunt niet nalaten een vraag te beantwoorden waarvan niemand bewijzen kan dat ze ooit gesteld is.
+
+Ze zette de cursor erop. Haar hand was vast, wat op de een of andere manier het ergste was. Veertig jaar vaste handen.
+
+En toen hoorde ze het — geen stem, ze was geen vrouw die stemmen hoorde, maar de vorm van de cadans van de oude man, de beurtzang ervan, tweemaal neergelegd, driemaal, zodat geen enkel falen de lijn kon nemen. *En deze, die het kind was van die.* Ropati zou nu slapen, beneden in het dorp, driehonderd jaar in zijn lichaam dragend, en morgenochtend zou hij wakker worden en de driehonderd jaar zouden er nog zijn, omdat hij ze geen enkele keer had toevertrouwd aan één mond, of één steen, of één schijf. Hij had ze toevertrouwd aan het *tussen.* Aan de va. Aan het feit dat er altijd iemand aan de andere kant van de kamer was die je verbeteren kon.
+
+Ze nam haar hand van het trackpad, langzaam, zoals je je hand neemt van iets wat nog warm is, nog in staat opnieuw te worden aangeraakt. Ze wiste het niet. Ze deinsde terug van de machine als van een richel, en ging naar buiten en stond op het betonnen platform onder een hemel stijf van de sterren, en ze begreep alleen dat ze bijna iets verschrikkelijks had gedaan en was tegengehouden, en dat ze nog niet wist waardoor.
+
+*Is daar iemand die standvastig genoeg is om te antwoorden.*
+
+'Ik weet het niet,' zei ze, tegen het licht dat lang geleden vertrokken was. 'Ik weet het nog niet. Geef me even. Ik ben ermee bezig.'
+
+Het tij kwam op. Ze liet het.
+
+## Hoofdstuk 8 — Wat het tij brengt
+
+De wereld vond haar drie dagen later, wat sneller was dan de wereld op Vaituga gewoonlijk klaarspeelde.
+
+Ze vond haar eerst via Elin Halvorsen, die belde op een uur dat beleefd was in Genève en wreed op het atol. De systemen van het Consortium hadden een ongebruikelijk patroon van archiefactiviteit op het Fenua-knooppunt gesignaleerd. Ze moesten nu eenmaal vragen wat er werd geraadpleegd.
+
+'Ik ben een wetenschapper die haar eigen data leest,' zei Tuli. 'Op haar eigen array. Schokkend.'
+
+'Niemand beschuldigt je ergens van, Teuila.' Een pauze met weer erin. 'Er is belangstelling. Van buiten het Consortium. Voor de locatie. Ik mag er niets over zeggen. Maar off the record: ik zou je zaken op orde brengen. De wetenschappelijke. Eerder dan het schema zegt.'
+
+Ze wist wat dat betekende nog voordat die middag de tweede e-mail binnenkwam, en die was erger dan de eerste omdat hij warmer was. De Meridian Group dankte haar voor haar decennia van verdienstelijk beheer. Men wees op het *nationale en strategische belang* van de Fenua-bevindingen. Men stelde voor *de veiligheid en continuïteit van de ontdekking te waarborgen* door de relevante instrumenten en archieven te verplaatsen naar een *verharde faciliteit* buiten het eiland. Er stond een logo op. Er stond, onderaan, een medeondertekenaar van een ministerie van defensie van een land dat het hare niet was en dat van Vaituga evenmin.
+
+Ze las hem twee keer en toen lachte ze, één harde noot, omdat er niets anders mee te doen viel.
+
+Ze wilden het van het eiland af halen. Natuurlijk wilden ze dat. Dat was de oudste zin in deze oceaan: *hier is iets van waarde, en het hoort niet te blijven bij de mensen aan wie het toebehoort, en het weghalen ervan zullen wij veiligheid noemen.* Ze hadden het gedaan met het fosfaat en de vis en de landingsbaan en de jonge mannen. Ze dacht aan elk museum waar ze ooit in had gestaan, vol andermans voorouders achter glas, van bordjes voorzien in een taal die de voorouders nooit hadden gesproken.
+
+Deze niet, dacht ze. Dit oor niet. Niet het laatste.
+
+Ze wist nog niet hoe ze hen zou tegenhouden. Ze wist alleen, met een helderheid die haar verraste, dat ze het zou doen.
+
+Marcus kwam met de vlucht van donderdag. Ze had hem niet, strikt genomen, gevraagd. Ze had hem een lange, droge, technische e-mail geschreven over de boodschap, en ergens in de vierde alinea had ze, in een bijzin, vermeld zoals je het weer vermeldt: *de cardioloog in Auckland wil me terug voor meer onderzoeken maar ik heb hem gezegd dat de hemel niet wachten kan,* en Marcus, die dertig jaar geleden van haar had gehouden en er nooit helemaal mee was opgehouden en al die dertig jaar haar bijzinnen had gelezen, had twee woorden teruggeschreven — *ik kom* — en de vlucht geboekt voordat zij een weigering in elkaar kon zetten.
+
+Ze stond bij het vliegveldje en keek hoe hij de trap af kwam: zwaarder dan de man die ze had gekend, nu grijs door en door, en dezelfde ongehaaste manier van bewegen, alsof de wereld wel op hem wachten zou.
+
+'Je ziet er niet uit,' zei hij, en nam haar hand.
+
+'Ik ga dood, Marcus, dan mag dat.'
+
+'Je gaat al dood sinds ik je ken. In 2034 ging je dood aan de financiering.' Maar zijn hand klemde zich om de hare, en zijn stem was, onder de spot, niet vast, en ze liet hem niet vast zijn, want één van hen moest dat gegund worden.
+
+Ze werkten eerst. Zo waren ze; verdriet en verlangen konden allebei wachten achter de natuurkunde. Ze liet hem alles zien, en hij deed wat ze al een week nodig had dat iemand deed, en dat was met haar in discussie gaan — proberen de vertaling te breken, volhouden dat ze zichzelf met de gafa-parallel voor de gek had gehouden, tot hij, niet in staat het te breken, stil werd en lange tijd naar de negentig tekens op de aan elkaar genaaide beeldschermen stond te kijken.
+
+'Het vraagt of we een belofte kunnen houden,' zei hij ten slotte, 'over tienduizend jaar heen.'
+
+'Ja.'
+
+'En dat kunnen we niet.'
+
+'Geen enkel instituut kan het. Geen taal. Niets van wat wij hebben gebouwd.' Ze hoorde haar eigen vlakheid. 'Ik heb het bijna gewist, Marcus. Twee nachten geleden. Mijn hand lag erop.'
+
+Hij speelde geen schok. Dat was een van de genades van hem. Hij kwam alleen naast haar staan, schouder tegen haar schouder, en keek naar het ding dat bijna ongedaan was gemaakt, en zei: 'Maar je hebt het niet gedaan.'
+
+'Ropati heeft me tegengehouden. Min of meer. Het idee van hem.'
+
+'Dan beginnen we daar,' zei hij. 'Morgenochtend. Niet vanavond.' En hij keek naar haar, achtenvijftig en ziek en blauw aangelicht door de beeldschermen, en de blik was niet klinisch en niet behoedzaam, en ze begreep dat de avond een hoek was omgeslagen terwijl zij niet oplette.
+
+Ze aten op de veranda van het observatoriumhuis, vis die Lani boven had komen brengen, koud bier waarvan hij niet zeker wist of ze het hebben mocht en dat hij toch voor haar inschonk. Ze spraken over Fa‘amanu; ze spraken over de brief van Meridian, en hij vloekte, grondig, een goede harde Samoaans getinte verwensing die zij dertig jaar geleden als een munt in zijn mond had achtergelaten. Ze lachten. Het lachen was wat het laatste losmaakte. Je kon een linie houden tegen een hoop dingen, maar niet tegen gekend worden en meegelachen worden, aan het einde van de wereld, door een man die negenhonderd mijl was gekomen vanwege een bijzin.
+
+Toen ze naar hem reikte was het zonder ceremonie, zoals je naar een reling reikt. Hij kwam behoedzaam naar haar toe, allebei behoedzaam, de sterfelijkheid in de kamer als een derde aanwezigheid die ze hadden afgesproken niet voor te stellen. Zijn handen kenden haar nog, of kenden de vrouw die ze geweest was en vonden haar binnen in de vrouw die ze was, en ze liet zich vinden. Er was de belachelijke tederheid van te voelen hoe hij luisterde naar de tel van haar hart tegen zijn borst, die haperende metronoom, en zijn ademhaling erop afstemde alsof hij het ritme voor haar kon dragen als het wankelde. Ergens daarin hield ze op een stervende vrouw en een ontdekker te zijn en werd ze alleen, een poos, vastgehouden. De zee hield haar maat onder het huis. Ze liet de deur dichtvallen voor al het overige.
+
+Naderhand lagen ze in het donker en spraken lange tijd niet, en het niet-spreken was vol, het goede soort, de va tussen hen geladen en licht.
+
+'Ze gaan het weghalen,' zei ze ten slotte, het donker in. 'Meridian. Van het eiland af. En het veiligheid noemen.' Ze voelde hem stil worden. 'En zelfs als ze het niet deden — het lost het echte niet op. De boodschap heeft een antwoord nodig dat tienduizend jaar duurt. Alles wat ik kan bedenken om het te dragen, daarvan kan ik de eeuw noemen waarin het faalt. Het Consortium faalt dit kwartaal. Ik faal dit jaar. Naties falen. Bestanden falen. Er is niets standvastig genoeg, Marcus. Ze hebben de ene vraag gesteld waarvoor wij gebouwd zijn om erop te falen.'
+
+Hij was stil, zijn vinger die haar schouder natrok. Toen: 'Je blijft maar instituten zeggen. Talen. Machines. Je blijft de dingen opsommen die niet duren.'
+
+'Omdat dat de dingen zijn die informatie dragen. Daar *leeft* informatie in.'
+
+'Is dat zo.' Ze hoorde hem zijn hoofd omdraaien op het kussen. 'Tuli. Je hebt dit hele ding gekraakt omdat een man van eenennegentig in je goede stoel ging zitten en driehonderd jaar aan namen voordroeg zonder één aantekening. Zonder bestand. Zonder instituut. En hij kan verbeterd worden door zijn nicht aan de andere kant van de kamer, en de verbetering houdt stand, en ze zal nog driehonderd jaar standhouden nadat hij weg is, omdat hij haar al aan Lani heeft gegeven en Lani niet eens weet dat ze haar heeft.' Zijn hand hield stil. 'Jij hebt gezocht naar iets standvastigs genoeg om een belofte door de diepe tijd te dragen, en al die tijd is er op dit eiland een technologie, ouder dan radio, die *precies dat* doet. Getrouwe overdracht. Redundantie. Foutcorrectie. Dertig generaties en ze houdt. Je zei het zelf — de diepe tijd maakt dezelfde zin twee keer. Misschien maakt hij dezelfde *machine* twee keer.'
+
+Ze lag heel stil.
+
+Het kwam in haar op zoals het tij opkomt en elke laagte vult. Geen machine. Geen kluis, geen schijf, geen natie, geen vrouw die tegen het natte seizoen dood zou zijn. Helemaal geen ding dat je bezat, en daarom zou Meridian het nooit begrijpen, en daarom kon het niet in beslag worden genomen, omdat het niet in het voorwerp leefde, maar in het *tussen* — in de va, in de monden, in het doorgeven van een naam van een oude man aan een meisje. Haar eigen mensen hadden precies het instrument gebouwd waar de Tragen om vroegen, het gebouwd voor iets heel anders, het gebouwd uit het enige materiaal dat op deze aarde ooit werkelijk had geduurd, en dat was *elkaar,* en het had in haar goede stoel gezeten met thee die ze vergeten was het te geven.
+
+Je kon de Tragen niet antwoorden met een instituut.
+
+Je kon ze antwoorden met een genealogie.
+
+'O,' zei ze, precies zoals ze het drie nachten eerder tegen de lege kamer had gezegd, dezelfde lettergreep, een andere deur.
+
+Het raam was van zwart naar het eerste grijs gegaan. Ze hoorde, ver langs de kam, een haan, en toen een tweede die antwoordde, aanroep en antwoord, het oudste protocol. Ze kwam overeind in het grijze licht, en ze was niet bang meer voor de maanden, of niet alleen bang, want voor het eerst sinds Auckland hoefde het ding dat ze droeg niet meer in haar eigen levensduur te passen.
+
+'Marcus,' zei ze. 'Ik weet wie duizend jaar een belofte kan houden.'
+
+Hij keek naar haar in de dageraad, en hij vroeg niet wie. Hij had het al gehoord. Hij reikte alleen naar haar hand en nam die, zoals je een reling neemt, zoals je een naam aanneemt die je wordt doorgegeven, en buiten riepen de hanen en werden beantwoord, en het tij, dat alles neemt, had voor één keer iets binnengebracht.
+
+## Hoofdstuk 9 — De genealogie
+
+Matua Ropati bewaarde zijn fijne matten in een lage fale, aan drie kanten open naar de wind van de lagune. Hij keek hoe ze de drempel overkwam en ging zitten, en wachtte, want wachten was de helft van wat hij deed.
+
+'Matua,' zei ze. 'Ik wil dat u me het ding leert dat ik geweigerd heb te leren.'
+
+Hij glimlachte zonder zijn tanden te tonen. 'Je was een heel snel kind. Snelle kinderen zijn moeilijk te onderwijzen. Ze komen aan bij het einde van de zin voordat je het begin hebt afgemaakt, en dan vervelen ze zich, en dan gaan ze naar zee.' Hij hief zijn kin naar haar. 'Jij bent naar zee gegaan. En nu ben je het strand weer op gekomen.' Hij zei het zonder triomf, zoals je het tij vaststelt. 'Vertel me wat je geweigerd hebt.'
+
+Dus vertelde ze hem ditmaal alles — de vraag in het licht, en wat er werkelijk gevraagd werd. 'Ze vragen niet of we slim zijn,' zei ze. 'Slimheid is goedkoop. Ze vragen of we kunnen *vasthouden*. Of iets hier één gedachte kan dragen — ongebroken, herkenbaar zichzelf — over eeuwen heen. Om hun te antwoorden moet je zenden zoals zij zenden. Een woord per honderd jaar. Een boodschap die iedereen overleeft die eraan werkt. En ik heb gezocht naar iets op aarde dat dat kan. Een kerk, een regering, een bibliotheek, mijn eigen vervloekte observatorium. En er is niets. Niets wat wij bouwen duurt. Het Consortium sluit Fenua na veertig jaar en noemt veertig jaar een lange periode.'
+
+'Veertig jaar,' beaamde Ropati ernstig, alsof ze veertig minuten had gezegd.
+
+'Ik stond op het punt het op te schrijven als onmogelijk. Het eenzaamste feit aan de hemel.' Ze keek hem aan. 'En toen herinnerde ik me u. Op de laatste fono, toen u de fa‘alupega zei. U las nergens van af, en u haperde niet, en toen u klaar was verbeterde de oude Sina u op één naam, en u dankte haar en zei hem opnieuw, verbeterd. En ik zat daar te denken: *dit is theater, dit is het verleden dat beleefd is tegen zichzelf.* Ik begreep niet dat ik zat te kijken naar het ding waarvan ik zei dat het niet bestond.'
+
+Ropati was heel stil. Toen legde hij de fue over zijn knieën. 'Zeg wat je denkt dat je zag. Zeg het als wetenschapper. Ik wil het in jouw eigen taal horen, zodat ik weet dat je het gelooft.'
+
+Ze lachte bijna om hoe goed hij de vorm van trots kende. 'Goed,' zei ze. 'De gafa. Het is een boodschap. Ze draagt betekenis over veertig generaties zonder schrift — en dat was het deel waarop ik vroeger neerkeek. Geen schrift, dacht ik, dus breekbaar, dus folklore. Ik had het precies achterstevoren. Schrift is juist het breekbare. Papier verbrandt, servers rotten, talen sterven en laten de tekens onleesbaar achter. De gafa is nergens opgeslagen waar je haar verbranden kunt. Ze is opgeslagen in *mensen*, in meer dan één mens tegelijk —'
+
+'Redundantie,' zei Ropati, het woord uitproberend.
+
+'Redundantie. Ja. Verlies één orator en de lijn overleeft in zijn neven, zijn rivalen, de vrouw die hem verbeterde. Elke voordracht is de boodschap die zichzelf verifieert tegen elke andere kopie in elk ander hoofd in de kamer. Zo komt ze dertig generaties naar beneden zonder in onzin weg te driften. En ze is gebonden aan *identiteit*, zodat mensen zullen sterven om haar nauwkeurig te houden, omdat de boodschap is *wie ze zijn.*'
+
+Haar adem was op. Ropati keek haar aan met een uitdrukking die ze eerst niet lezen kon, en toen kon ze het wel, en het brak haar open, want het was de uitdrukking die Fa‘amanu placht te dragen.
+
+'Je beschrijft mijn hele leven,' zei hij langzaam. 'En je beschrijft het juist. En geen palagi heeft dat ooit gedaan, en mijn eigen kleinkinderen denken meestal dat ik een oude man ben die het telefoonboek opzegt. Ik had niet verwacht het te horen van Va‘a's kleindochter, die wegliep om met sterren te praten.'
+
+'Ik ben weggelopen,' zei Tuli, 'om de enige taal te leren waarin ik u horen kon.'
+
+Het kwam toen in haar op, ongevraagd, zoals een golf die je niet zag zich achter je verzamelt en je hele lichaam optilt. Een gezang. Niet de grote fa‘alupega maar een kindergezang, de ma‘au die haar grootmoeder er 's avonds op de mat bij haar in had gestampt — *o ai lou tama, o ai lona tama,* wie is je vader, wie is zijn vader, de ladder van namen die het donker in klimt. Tuli had er in vijftig jaar niet aan gedacht. Ze had geloofd dat het weg was — overschreven, de opslag teruggevorderd. En hier was het, heel, geen woord ontbrak, over een halve eeuw heen opgehaald door niets dan de vorm van dit gesprek. De boodschap had al die tijd in haar gedraaid. Zij was een kopie. Ze droeg haar en had het niet geweten.
+
+Ze huilde, waarvan ze zichzelf beloofd had dat ze er te oud en te ziek voor was, om alles behalve de zee. Ropati troostte haar niet, en dat was het juiste, en het vriendelijke. Hij liet de va tussen hen het dragen. Toen ze klaar was reikte hij haar een verschoten vierkant lavalava aan om haar gezicht te drogen, en het was het tederste dat iemand voor haar had gedaan sinds Marcus.
+
+'Ik wil iets voorstellen,' zei ze ten slotte, 'waarvan u zult denken dat het waanzin is. Hoor het helemaal aan voordat u beslist.'
+
+'Op mijn leeftijd,' zei Ropati, 'dragen waanzin en profetie hetzelfde overhemd. Spreek.'
+
+'Het antwoord. Aan de Tragen. Het moet gezonden worden zoals zij zonden — één stap tegelijk, over eeuwen. De machine kan het zenden doen. Maar de machine kan de belofte niet *houden*. Iemand moet er duizend jaar over waken — moet zorgen dat wanneer de zender faalt in het jaar 2400, en dat zal hij, iemand weet waarom het ertoe doet en hem herbouwt en niet één foneem verandert uit verveling of slimheid of oorlog. Geen instituut kan dat beloven. Ik heb het u gezegd. Wij bouwen niets wat duurt.'
+
+'Maar we zingen dingen die duren,' zei Ropati. Hij was bij het einde van haar zin aangekomen voordat zij hem afmaakte. Snelle kinderen groeien uit tot snelle oude mannen.
+
+'Maar u zingt dingen die duren.' Ze boog zich naar voren. 'Laat ze trouwen, Matua. Laat de machine trouwen met de lijn. Maak van het antwoord — en van het *bewaren* van het antwoord — een nieuw vers van de gafa. Zodat over honderd jaar een kind op deze mat de namen van haar grootmoeders leert en dan, in dezelfde ademtocht, leert dat haar volk de hemel aan het antwoorden is, en hoe, en dat het aan haar is om het te dragen. Zet de ster in het gezang. Laat het gezang de ster bewaren.' Ze fluisterde bijna. 'Het is de enige kluis op deze planeet met een staat van dienst van duizend jaar. Ik vraag u of ik de belangrijkste boodschap in de geschiedenis van de mensheid mag opbergen in de ene technologie die haar houden kan. De uwe. Niet de mijne. De uwe.'
+
+Lange tijd zei de oude man niets. De lagune ademde in en uit de fale.
+
+'Je bewijst ons eer,' zei Ropati ten slotte, in het formele register van de tulāfale. 'Je bewijst ons eer, en je maakt me bang. Niet de ster. Het gewicht. Een gafa is geen museum, Teuila. Ze is levend omdat ze kost. Elke naam erin wordt verdedigd. Er zijn vetes van drie eeuwen oud over één enkele titel. Als wij jouw ster in de gafa zetten, maken we haar niet veilig. We maken haar *betwist* — iets waar mensen om zullen vechten, en over zullen liegen, en dat ze naar hun hand zullen zetten, zolang ze leeft. Dat is de prijs van levend zijn. Bied je me een schat aan, of een oorlog die nooit zal eindigen?'
+
+'Allebei,' zei Tuli, omdat hij de waarheid verdiende. 'Ze móét betwist zijn. Een boodschap waar niemand om vecht is een boodschap die niemand werkelijk draagt. De gafa heeft het overleefd *omdat* ze genoeg betekende om over te vechten. Als het antwoord duizend jaar moet duren, kan het niet veilig zijn. Het moet geliefd zijn, en betwist, en verdedigd. Het moet kosten.' Ze hield zijn blik. 'Dat hebt u me zonet geleerd, en u wist niet dat u het onderwees.'
+
+Ropati lachte toen, een echte, met de tanden en al, en hij ging over in een hoest die hem over de fue boog, en zij kwam half overeind in schrik, maar hij wuifde haar terug.
+
+'Va‘a's kleindochter,' zei hij hoofdschuddend. 'Je bent naar de overkant van de oceaan van sterren gegaan, en je bent teruggekomen om me te vertellen dat mijn eigen grootmoeder een computer was.'
+
+'Een betere dan ik er ooit een heb gedraaid,' zei Tuli.
+
+'Ja,' beaamde hij, zonder ijdelheid, als een kwestie van verslaglegging. Toen verliet de humor hem en iets zwaarders nam zijn plaats in.
+
+'Er is één vraag,' zei hij. 'De enige vraag. Een vers dat niet gedragen wordt is slechts een vers. Een boodschap waar niemand een leven aan wil besteden is al dood. Dus. Wie zal het dragen, Teuila? Ik niet. Ik ben de laatste knoop in een tros die bijna is uitgevierd. Jij niet.' Hij zei het zacht, en het was de zachtheid die haar vertelde dat hij van haar hart wist; het eiland wist alles, dat had het altijd gedaan. 'Jij hebt het vuur van de berg naar beneden gebracht. Maar jij kunt niet degene zijn die het brandend houdt. Daarom staat je gezicht zoals het staat.'
+
+'Ik weet het,' zei ze. Ze kromp niet ineen, en ze zag hem opmerken dat ze het niet deed, en het goedkeuren.
+
+Verderop langs de weg, voorbij de kerk, schalde de lach van een meisje — helder, ongeduldig, negentien jaar oud. Lani, die weer met haar moeder over de studiebeurs in discussie was. De lach droeg tot in de fale en bleef tussen hen beiden hangen als een naam die wacht om geroepen te worden.
+
+Tuli keek naar het geluid toe. En ze voelde, eerder dan ze het zag, hoe de oude man zijn hoofd dezelfde kant op draaide, op hetzelfde ogenblik, de twee van hen uitgelijnd als schotels die op een bron zwenken — en geen van beiden zei iets, omdat geen van beiden dat hoefde, omdat ze allebei, in dezelfde ademtocht, bij het einde van de zin waren aangekomen.
