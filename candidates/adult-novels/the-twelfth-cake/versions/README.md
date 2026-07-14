@@ -27,3 +27,4 @@ master.
 | dir | angle | length (wc -w) | status |
 |-----|-------|----------------|--------|
 | `large-print/` | large-print paperback production spec (6×9, 16pt+, page estimate, KDP cost/royalty math) — spec only, no new manuscript | 15,995 (EN source, measured) | spec complete |
+| `nl/` | complete Dutch (NL) edition — *De Driekoningentaart*; all 12 chapters, warm hearth register and Driekoningen (not Kerstmis) festive vocabulary per DECISIONS fences, invented names unchanged | 16,897 (measured) | complete |

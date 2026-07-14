@@ -27,3 +27,4 @@ master.
 | dir | angle | length (wc -w) | status |
 |-----|-------|----------------|--------|
 | `large-print/` | large-print paperback production spec (6×9, 16pt+, page estimate, KDP cost/royalty math) — spec only, no new manuscript | 15,117 (EN source, measured) | spec complete |
+| `nl/` | complete Dutch (NL) edition — *De glazen pastorie*; all 12 chapters, classic-ghost-story register preserved, invented proper nouns (Wythershaw, Aldergate, Scarhead) carried over unchanged | 15,573 (measured) | complete |
