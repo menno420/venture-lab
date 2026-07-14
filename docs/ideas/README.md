@@ -44,6 +44,13 @@ frontmatter keeps the score.
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
 
+- [Adult title ideation batch 2026-07-14 night](2026-07-14-adult-title-concepts.md) —
+  BOOKS-lane cohort doc (ORDER 008 item 1 / ORDER 011 item 2 generative
+  rung): 5 new adult-novella concepts scored on six 1–5 axes — strongest
+  (The Sweetwater Sea, 28/30) WRITTEN this session at 15,243 words
+  (PR #182); concepts 2–5 are the next write-session's menu. Next
+  destination: vetting packet for The Sweetwater Sea, then concept 2 (The
+  Wire Garden) in rank order.
 - [Product ideation batch 2026-07-13 night](../products/ideas-2026-07-13-night.md) —
   PRODUCTS-lane cohort doc (lives in `docs/products/`, frontmatter convention
   not applicable), ORDER 011 item 1: 7 new concepts scored on the kill-rule

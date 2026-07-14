@@ -26,4 +26,5 @@ NEVER edits the master.
 
 | dir | angle | length (wc -w) | status |
 |-----|-------|----------------|--------|
+| `nl/` | complete literary Dutch (NL) edition, *Liefde in de kantlijn* — full 4-part epistolary parity (52 document blocks), see `nl/NOTES.md` | 15,633 (measured; EN source 15,133) | complete |
 | `large-print/` | large-print paperback production spec (6×9, 16pt+, epistolary document-header treatment, page estimate, KDP cost/royalty math) — spec only, no new manuscript | 15,133 (EN source, measured) | spec complete |
