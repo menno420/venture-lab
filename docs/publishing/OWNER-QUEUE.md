@@ -422,6 +422,12 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** AI-generated content disclosure ticked at publish time, if and only if the §5 decision chose AI art. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click itself + KDP Select enrollment choice (ebook edition, if shipped). · **UNBLOCKS:** the next click in this sequence
 
+### V020 Probe: audience-separation s (Paper Orange EN ↔ NL) — `docs/publishing/vetting/v020-probe-audience-separation.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** publish click A — The Paper Orange (EN) per its packet §7 sequence. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** publish click B — De papieren sinaasappel (NL) per its packet §7 sequence, within 48 h of click A (inherits that packet's blocking native-speaker proofread gate). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** measurement export at T0+15 — the §4 list (orders, KENP/KENPC, per-marketplace splits, no-ads confirmation) for both ASINs, handed to the seat. · **UNBLOCKS:** the next click in this sequence
+
 ## 3. Manual review — packets the parser could not read reliably
 
 *(none — every input parsed clean)*

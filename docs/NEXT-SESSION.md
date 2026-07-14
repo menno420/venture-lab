@@ -53,8 +53,10 @@
 manuscripts · 5 YA · 1 middle-grade (The Halfway Ferry) · 9 trilingual
 picture-book title-lines · editions (27 board-book texts, 4 adult NL
 editions, 2 EN novella cuts, Ultramarine serial ×3, 5 large-print specs) ·
-33 vetting packets (20 book + 13 product, at PR #169) in
-[`publishing/vetting/`](publishing/vetting/).
+34 vetting packets (20 book + 13 product + 1 pre-registered probe
+protocol, at PR #179) in [`publishing/vetting/`](publishing/vetting/) —
+the probe: V020 audience-separation, Paper Orange EN ↔ NL
+([`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md)).
 
 **Trading:** R3 (3,468 configs) and R4 (6 pre-registered experiments) both
 complete with **0 promotions** — honest zeros; Friday grading is the
@@ -64,11 +66,12 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). After the 2026-07-13 night regen (PR #169) it queues **19
+hand-edit). After the 2026-07-14 night regen (PR #179 — the V020
+audience-separation probe packet added; 35/35 inputs clean) it queues **19
 decisions (D1–D19, each with a bolded default — "go with defaults" works)
-and 32 click-run publish sequences totalling 182 unchecked owner clicks**
-(6 sequences HARD-GATED
-behind a blocking D-item); §3 manual-review is empty; §4 lists the SWTK rows
+and 33 click-run publish sequences totalling 185 unchecked owner clicks**
+(7 sequences HARD-GATED
+behind a blocking row); §3 manual-review is empty; §4 lists the SWTK rows
 already DONE plus its ⏲ kill-clock checkpoints. These counts move with
 every queue regen — when in doubt, the generated file at HEAD wins over any
 prose copy (including this one).
