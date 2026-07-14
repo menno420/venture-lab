@@ -175,6 +175,13 @@ of it. NOTE the sequencing difference from the other NL edition: the EN
 manuscript landed after the packet, PR #122 — graduation is a separate
 follow-up), but THIS Dutch listing does not depend on the EN listing being
 live: the Dutch market is this book's native market and can lead.
+**V020 probe pairing note (2026-07-14):** this edition is version B of the
+pre-registered audience-separation probe
+([`v020-probe-audience-separation.md`](v020-probe-audience-separation.md))
+— if the owner runs the probe, this sequence and the EN edition's
+([`the-paper-orange.md`](the-paper-orange.md)) must go live within 48 h of
+each other and no ads may run for the 14-day window; the probe adds NO
+extra clicks to this sequence (the proofread gate below stands unchanged).
 
 **OWNER-ACTION — Publish "De papieren sinaasappel" (Een roman over de
 Hongerwinter)**
