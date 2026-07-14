@@ -61,8 +61,8 @@
 | Children's Books → Growing Up & Facts of Life → **Friendship** | The Painted Stones | [`vetting/the-painted-stones.md`](vetting/the-painted-stones.md) §6 |
 | Historical Fiction → **World War II** | De papieren sinaasappel (NL edition of The Paper Orange, first claimant) **+ The Paper Orange (EN edition — SHARED since its graduation 2026-07-13, per C4)** | [`vetting/de-papieren-sinaasappel.md`](vetting/de-papieren-sinaasappel.md) §6 + [`vetting/the-paper-orange.md`](vetting/the-paper-orange.md) §6 |
 | Literature & Fiction → **War & Military** | De papieren sinaasappel (NL edition, first claimant) **+ The Paper Orange (EN edition — SHARED since graduation 2026-07-13, per C4)** | [`vetting/de-papieren-sinaasappel.md`](vetting/de-papieren-sinaasappel.md) §6 + [`vetting/the-paper-orange.md`](vetting/the-paper-orange.md) §6 |
-| Science Fiction & Fantasy → Fantasy → **Cozy Fantasy** (fallback Fantasy → Contemporary) | De Nachtoven (NL edition of The Night Kiln, first claimant — EN packet concept-stage, shares at graduation per C4) **+ De Morgendeur (Night Kiln Book Two NL — SHARED 2026-07-14 per the §3 series rule: series shares the shelf, deliberate co-location; separate listing, no duplicate row)** | [`vetting/de-nachtoven.md`](vetting/de-nachtoven.md) §6 + [`vetting/de-morgendeur.md`](vetting/de-morgendeur.md) §6 |
-| Literature & Fiction → Genre Fiction → **Magical Realism** | De Nachtoven (NL edition, first claimant — EN shares at graduation per C4) **+ De Morgendeur (Book Two NL — SHARED 2026-07-14, series rule as above)** | [`vetting/de-nachtoven.md`](vetting/de-nachtoven.md) §6 + [`vetting/de-morgendeur.md`](vetting/de-morgendeur.md) §6 |
+| Science Fiction & Fantasy → Fantasy → **Cozy Fantasy** (fallback Fantasy → Contemporary) | De Nachtoven (NL edition of The Night Kiln, first claimant — EN packet concept-stage, shares at graduation per C4) **+ De Morgendeur (Night Kiln Book Two NL — SHARED 2026-07-14 per the §3 series rule: series shares the shelf, deliberate co-location; separate listing, no duplicate row)** **+ De Oogstslag (Night Kiln Book Three NL — SHARED 2026-07-14 per the §3 series rule; separate listing, no duplicate row)** | [`vetting/de-nachtoven.md`](vetting/de-nachtoven.md) §6 + [`vetting/de-morgendeur.md`](vetting/de-morgendeur.md) §6 + [`vetting/de-oogstslag.md`](vetting/de-oogstslag.md) §6 |
+| Literature & Fiction → Genre Fiction → **Magical Realism** | De Nachtoven (NL edition, first claimant — EN shares at graduation per C4) **+ De Morgendeur (Book Two NL — SHARED 2026-07-14, series rule as above)** **+ De Oogstslag (Night Kiln Book Three NL — SHARED 2026-07-14 per the §3 series rule; separate listing, no duplicate row)** | [`vetting/de-nachtoven.md`](vetting/de-nachtoven.md) §6 + [`vetting/de-morgendeur.md`](vetting/de-morgendeur.md) §6 + [`vetting/de-oogstslag.md`](vetting/de-oogstslag.md) §6 |
 | Mystery, Thriller & Suspense → Mystery → Cozy → **Amateur Sleuths** | De Marmeladepost (NL edition of The Marmalade Post, first claimant — EN packet concept-stage, shares at graduation per C4) | [`vetting/de-marmeladepost.md`](vetting/de-marmeladepost.md) §6 |
 | Mystery, Thriller & Suspense → Mystery → **Women Sleuths** | De Marmeladepost (NL edition, first claimant — EN shares at graduation per C4) | [`vetting/de-marmeladepost.md`](vetting/de-marmeladepost.md) §6 |
 | Literature & Fiction → Genre Fiction → **Ghosts** | De glazen pastorie (NL edition of The Glass Rectory, first claimant — EN packet concept-stage, shares at graduation per C4) | [`vetting/de-glazen-pastorie.md`](vetting/de-glazen-pastorie.md) §6 |
@@ -73,8 +73,8 @@
 | Literature & Fiction → Genre Fiction → **Urban Life** | De geborgen boomgaard (NL edition, first claimant — EN shares at graduation per C4) | [`vetting/de-geborgen-boomgaard.md`](vetting/de-geborgen-boomgaard.md) §6 |
 | Romance → **Clean & Wholesome** | Liefde in de kantlijn (NL edition of The Seed Catalogue Courtship, first claimant — EN packet concept-stage, shares at graduation per C4; the catalog's first Romance-storefront claim) | [`vetting/liefde-in-de-kantlijn.md`](vetting/liefde-in-de-kantlijn.md) §6 |
 | Romance → **Later in Life** | Liefde in de kantlijn (NL edition, first claimant — EN shares at graduation per C4) | [`vetting/liefde-in-de-kantlijn.md`](vetting/liefde-in-de-kantlijn.md) §6 |
-| Literature & Fiction → Genre Fiction → **Sea Stories** | The Sweetwater Sea (manuscript-backed, claimed 2026-07-14 — no prior §3 reservation) | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 |
-| Literature & Fiction → **Small Town & Rural** | The Sweetwater Sea | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 |
+| Literature & Fiction → Genre Fiction → **Sea Stories** | The Sweetwater Sea (manuscript-backed, claimed 2026-07-14 — no prior §3 reservation) **+ De zoete zee (NL edition — SHARED 2026-07-14 per C4: same-title editions share browse nodes; separate listing, no duplicate row)** | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 + [`vetting/de-zoete-zee.md`](vetting/de-zoete-zee.md) §6 |
+| Literature & Fiction → **Small Town & Rural** | The Sweetwater Sea **+ De zoete zee (NL edition — SHARED 2026-07-14 per C4: same-title editions share browse nodes; separate listing, no duplicate row)** | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 + [`vetting/de-zoete-zee.md`](vetting/de-zoete-zee.md) §6 |
 
 *Edition-sharing note (C4):* **Het trage woord** (NL edition of The Slow
 Word, [`vetting/het-trage-woord.md`](vetting/het-trage-woord.md) §6) uses
@@ -103,7 +103,16 @@ de kantlijn* (PR #183) claim their concept-stage EN titles' nodes first —
 Book Two NL, PR #185) is a separate listing that SHARES De Nachtoven's two
 nodes per the §3 series rule ("series shares the niche") extended to browse
 nodes — deliberate co-location, per-book keywords differentiated, no
-duplicate category row beyond the shared-owner annotation above.
+duplicate category row beyond the shared-owner annotation above. **The
+2026-07-14 night-final slice adds one of each case:** *De zoete zee* (NL
+edition of The Sweetwater Sea,
+[`vetting/de-zoete-zee.md`](vetting/de-zoete-zee.md) §6) uses The
+Sweetwater Sea's two nodes above — the straight C4 case (EN claimed first
+at its manuscript-backed vetting; the NL edition shares) — and *De
+Oogstslag* (Night Kiln Book Three NL,
+[`vetting/de-oogstslag.md`](vetting/de-oogstslag.md) §6) is the map's
+second SERIES node-sharing, riding De Nachtoven's two nodes per the same
+§3 series rule.
 
 ### Keywords
 
@@ -228,6 +237,20 @@ duplicate category row beyond the shared-owner annotation above.
 | `father and son fishing novel` | The Sweetwater Sea |
 | `interwar Holland novella` | The Sweetwater Sea (C3 interwar register; `Holland` stem vs Paper Orange's `Liberation of Holland fiction` — same watched adjacency as above) |
 | `historical fiction about fishermen` | The Sweetwater Sea |
+| `Zuiderzee roman` | De zoete zee (NL — C4 namespace, C3 interwar Zuiderzee-closure register; Dutch mirror of the EN edition's `Zuiderzee novel` — different query language per C4) |
+| `Afsluitdijk historische roman` | De zoete zee (NL — C4 namespace, C3 interwar register; bare `historische roman` stem vs Weduwenblauw/De Driekoningentaart rows — watched adjacency in the C2 pattern, disjoint era intent) |
+| `Wieringen vissersroman` | De zoete zee (NL — C4 namespace, C3 interwar register) |
+| `historische novelle interbellum` | De zoete zee (NL — C4 namespace, C3 interwar register; bare `novelle` stem shared catalog-wide — watched adjacency only) |
+| `ansjovisvisserij roman` | De zoete zee (NL — C4 namespace, C3 interwar register) |
+| `vader en zoon vissersroman` | De zoete zee (NL — C4 namespace; Dutch mirror of the EN edition's `father and son fishing novel`) |
+| `roman over de Zuiderzeewerken` | De zoete zee (NL — C4 namespace, C3 interwar register) |
+| `cozy fantasy trilogie` | De Oogstslag (NL — C4 namespace; all seven Oogstslag rows are NEW phrases — Book Three is a separate listing and re-claims none of De Nachtoven's or De Morgendeur's fourteen) |
+| `roeiwedstrijd roman` | De Oogstslag (NL — C4 namespace; `roeiwedstrijd` stem unclaimed catalog-wide) |
+| `sfeervolle herfst fantasy` | De Oogstslag (NL — C4 namespace; `sfeervolle` stem vs De glazen pastorie's `sfeervolle stille horror` — disjoint intent, cozy fantasy vs quiet horror; watched adjacency in the C2 pattern, not a conflict) |
+| `fantasy novelle over geheugenverlies` | De Oogstslag (NL — C4 namespace; `fantasy novelle` stem vs De Nachtoven/De Morgendeur rows — DELIBERATE series adjacency: the three books share the buyer by design; full phrases distinct, one row each) |
+| `hartverwarmend verhaal over ouder worden` | De Oogstslag (NL — C4 namespace; `hartverwarmend` stem vs De Nachtoven's `hartverwarmende fantasy voor volwassenen` — same deliberate series adjacency) |
+| `magisch ambacht dorpsverhaal` | De Oogstslag (NL — C4 namespace; `magisch` stem vs De Nachtoven, `dorpsverhaal` stem vs De Morgendeur's `gezellige fantasy dorpsverhaal` — same deliberate series adjacency; full phrase distinct) |
+| `oogstfeest fantasy verhaal` | De Oogstslag (NL — C4 namespace; harvest-festival niche, unclaimed; no folk-dark stems — Hollowtide's reserved register untouched) |
 
 ## 2. CONFLICTS (resolved here before any packet ships)
 
@@ -355,7 +378,7 @@ checked against this map at that time.
 | ~~The Paper Orange~~ — **GRADUATED 2026-07-13** ([packet](vetting/the-paper-orange.md)) | ~~Adult WWII-occupation Netherlands literary-historical — Hunger Winter register~~ | **Reservation retired — the map's first §3→§1 graduation.** The manuscript landed (PR #122, measured 15,811 words) and the packet graduated 2026-07-13: its 7 EN keywords are now full §1 ownership rows and the EN edition shares the NL edition's two WWII browse nodes per C4. The WWII-occupation era-register is now recorded as C3's third register (owned by The Paper Orange), so nothing niche-blocking is lost by retiring this row. |
 | The Night Kiln (concept, [packet](vetting/the-night-kiln.md)) | Adult cozy fantasy — low-stakes magical-craft comfort read | The catalog's first adult fantasy shelf; deliberately the OPPOSITE register from Hollowtide's reserved YA seasonal/folk DARK fantasy (comfort vs dread). Kiln→kill autocorrect drift noted in packet §1. Concept-stage; ownership rows at graduation — its NL edition *De Nachtoven* ([packet](vetting/de-nachtoven.md), 2026-07-14) claimed the browse nodes + NL C4 keyword rows in §1 first per C4. |
 | The Morning Door (The Night Kiln, Book 2; [manuscript](../../candidates/adult-novels/the-night-kiln/en/the-morning-door.md)) | Adult cozy fantasy — Night Kiln series register (memory-craft comfort read, Book 2) | Shares The Night Kiln's reserved niche above (series shares the niche; per-book keywords differentiate at vetting time, per the Comet Biscuit series rule). "Door" stem is NOT Lantern Door's kids bedtime/magical-door niche — adult shelf, disjoint intent. Manuscript-backed; ownership rows at graduation — its NL edition *De Morgendeur* ([packet](vetting/de-morgendeur.md), 2026-07-14) claimed 7 new NL C4 keyword rows in §1 and SHARES De Nachtoven's two browse nodes per the series rule (per-book keywords differentiate: none of Book One's seven NL phrases re-claimed). |
-| The Harvest Rows (The Night Kiln, Book 3; [manuscript](../../candidates/adult-novels/the-night-kiln/en/the-harvest-rows.md)) | Adult cozy fantasy — Night Kiln series register (memory-craft comfort read, Book 3) | Shares The Night Kiln's reserved niche above (series shares the niche; per-book keywords differentiate at vetting time, per the Comet Biscuit series rule). "Harvest" stem sits on the adult cozy-fantasy shelf only — no contact with the kids cluster or the C3 registers. Manuscript-backed; ownership rows at graduation. |
+| The Harvest Rows (The Night Kiln, Book 3; [manuscript](../../candidates/adult-novels/the-night-kiln/en/the-harvest-rows.md)) | Adult cozy fantasy — Night Kiln series register (memory-craft comfort read, Book 3) | Shares The Night Kiln's reserved niche above (series shares the niche; per-book keywords differentiate at vetting time, per the Comet Biscuit series rule). "Harvest" stem sits on the adult cozy-fantasy shelf only — no contact with the kids cluster or the C3 registers. Manuscript-backed; ownership rows at graduation — its NL edition *De Oogstslag* ([packet](vetting/de-oogstslag.md), 2026-07-14) claimed 7 new NL C4 keyword rows in §1 and SHARES De Nachtoven's two browse nodes per the series rule (per-book keywords differentiate: none of Book One's or Book Two's fourteen NL phrases re-claimed). |
 | The Pepper Ledger (concept, [packet](vetting/the-pepper-ledger.md)) | YA age-of-sail / spice-route maritime adventure (17th-century era) | Reuses Ultramarine's 17th-century research base in a different lane per the C3 rule: drafts ZERO Netherlands-branded phrases (no Dutch/Golden Age/Delft/Amsterdam stems) — maritime-adventure register only; Ultramarine's Golden-Age-historical register untouched. Concept-stage; ownership rows at graduation. |
 | The Marginalia Society (concept, [packet](vetting/the-marginalia-society.md)) | YA dark academia / boarding-school secret-society mystery | Teen & YA mystery shelf — distinct from Painted Stones' Children's Mysteries & Detectives node, and non-supernatural (no overlap with Hollowtide's folk-fantasy dark). Concept-stage; ownership rows at graduation. |
 | The Windmill Mouse (concept, [packet](vetting/the-windmill-mouse.md)) | Kids windmill / miller-mouse little-helper picture book (daytime competence register) | Netherlands-flavored at the KIDS register only — outside both C3 adult registers. NO "old Amsterdam" phrasing (1965 song adjacency, packet §2 differentiator) and NO "bedtime" phrasing (Lantern Door/Pippa own the night shelf). Concept-stage; ownership rows at graduation. |

@@ -8,10 +8,13 @@
 > created under ORDER 011 item 2 in the same night run.
 
 Alternate cuts/angles/formats/languages of the series live here, one
-subdirectory per version **per manuscript** — the title carries two complete
-EN novellas (Book One `../en/the-night-kiln.md`, **15,999 words** measured;
-Book Two *The Morning Door* `../en/the-morning-door.md`, **15,995 words**
-measured by `wc -w`). The EN masters stay the canonical texts; a version
+subdirectory per version **per manuscript** — the title carries three
+complete EN novellas (Book One `../en/the-night-kiln.md`, **15,999 words**
+measured; Book Two *The Morning Door* `../en/the-morning-door.md`,
+**15,995 words** measured; Book Three *The Harvest Rows*
+`../en/the-harvest-rows.md`, **23,334 words** measured by `wc -w`) and
+three complete NL editions (`nl/`, `nl-book-2/`, `nl-book-3/` — rows
+below). The EN masters stay the canonical texts; a version
 NEVER edits a master.
 
 ## Convention
@@ -41,3 +44,4 @@ NEVER edits a master.
 | `large-print-book-2/` | Book Two (*The Morning Door*) large-print spec, same format for series parity; specs the manuscript AS WRITTEN — ⚑ length-band question untouched | 15,995 (EN source, measured) | spec complete |
 | `nl/` | Dutch (NL) edition of Book One — complete literary translation, title *De Nachtoven*; all 12 chapters, series-safe naming for Book Two | 16,840 (measured) | complete |
 | `nl-book-2/` | Dutch (NL) edition of Book Two — complete literary translation, title *De Morgendeur* (pre-named in `nl/` NOTES + De Nachtoven packet §7); all 12 chapters, Book One's series glossary inherited unchanged; translates the manuscript AS WRITTEN — ⚑ length-band question untouched | 16,730 (measured) | complete |
+| `nl-book-3/` | Dutch (NL) edition of Book Three (*The Harvest Rows*, `../en/the-harvest-rows.md`, 23,334 words measured) — complete literary translation, title *De Oogstslag* (derived + collision-scanned this slice, ⚑ owner ratification queued — no pre-naming existed; see `../DECISIONS.md` 2026-07-14); all 12 chapters, Books One–Two series glossary inherited unchanged; translates the manuscript AS WRITTEN at its committed band — ⚑ Book-Two length-band question untouched | 24,655 (measured) | complete |

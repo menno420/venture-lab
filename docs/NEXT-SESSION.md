@@ -53,15 +53,18 @@
 2026-07-14, night NL-completion PR #184): 11 adult titles / 13 complete EN
 manuscripts (The Sweetwater Sea added PR #182) · 5 YA · 1 middle-grade
 (The Halfway Ferry) · 9 trilingual
-picture-book title-lines · editions (27 board-book texts, **11 adult NL
-editions** — the NL catalog line completed 2026-07-14 by PRs #183/#184/#185:
-Liefde in de kantlijn, De geborgen boomgaard, De Morgendeur — 2 EN novella
+picture-book title-lines · editions (27 board-book texts, **13 adult NL
+editions — the NL catalog is 13/13 complete** as of 2026-07-14: PRs
+#183/#184/#185 (Liefde in de kantlijn, De geborgen boomgaard, De
+Morgendeur) plus the night-final pair De zoete zee + De Oogstslag PR
+#186 — 2 EN novella
 cuts, Ultramarine serial ×3, 13 large-print specs) ·
-42 vetting packets (28 book + 13 product + 1 pre-registered probe
-protocol, at PR #184 — the four NL-edition packets De Nachtoven / De
+44 vetting packets (30 book + 13 product + 1 pre-registered probe
+protocol, at PR #186 — the four NL-edition packets De Nachtoven / De
 Marmeladepost / De glazen pastorie / De Driekoningentaart added
 2026-07-14 PR #180; De geborgen boomgaard / Liefde in de kantlijn / De
-Morgendeur / The Sweetwater Sea added 2026-07-14 night PR #184) in
+Morgendeur / The Sweetwater Sea added 2026-07-14 night PR #184; De zoete
+zee / De Oogstslag added 2026-07-14 night-final PR #186) in
 [`publishing/vetting/`](publishing/vetting/) —
 the probe: V020 audience-separation, Paper Orange EN ↔ NL
 ([`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md)).
@@ -74,13 +77,13 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). After the 2026-07-14 night NL-completion regen (PR #184 — the
-De geborgen boomgaard / Liefde in de kantlijn / De Morgendeur / The
-Sweetwater Sea packets added on top of PR #180's four; 43/43 inputs
+hand-edit). After the 2026-07-14 night-final regen (PR #186 — the De
+zoete zee / De Oogstslag packets added on top of PR #184's four and PR
+#180's four; 45/45 inputs
 clean) it queues **19
 decisions (D1–D19, each with a bolded default — "go with defaults" works)
-and 41 click-run publish sequences totalling 241 unchecked owner clicks**
-(14 sequences HARD-GATED
+and 43 click-run publish sequences totalling 256 unchecked owner clicks**
+(16 sequences HARD-GATED
 behind a blocking row); §3 manual-review is empty; §4 lists the SWTK rows
 already DONE plus its ⏲ kill-clock checkpoints. These counts move with
 every queue regen — when in doubt, the generated file at HEAD wins over any
