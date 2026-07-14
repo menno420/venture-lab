@@ -432,6 +432,17 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### De Oogstslag — `docs/publishing/vetting/de-oogstslag.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** length-band ruling on Book Two (standing queued question — blocking for the EN sequencing this listing sits behind). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** De Nachtoven and De Morgendeur (NL Books One–Two) published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** NL title ratified (De Oogstslag, seat-derived pick, decide-and-flag — alternatives on record). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, series-matched). · **DEFAULT:** **€4.99 recommended, series-matched** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### De papieren sinaasappel — `docs/publishing/vetting/de-papieren-sinaasappel.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
 
 - [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
@@ -439,6 +450,16 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### De zoete zee — `docs/publishing/vetting/de-zoete-zee.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** NL title ratified with the §2 collision findings in view (Kok / Duyns; subtitle mandatory). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended). · **DEFAULT:** **€4.99 recommended** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### Liefde in de kantlijn — `docs/publishing/vetting/liefde-in-de-kantlijn.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)

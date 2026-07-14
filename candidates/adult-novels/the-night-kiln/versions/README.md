@@ -8,10 +8,13 @@
 > created under ORDER 011 item 2 in the same night run.
 
 Alternate cuts/angles/formats/languages of the series live here, one
-subdirectory per version **per manuscript** — the title carries two complete
-EN novellas (Book One `../en/the-night-kiln.md`, **15,999 words** measured;
-Book Two *The Morning Door* `../en/the-morning-door.md`, **15,995 words**
-measured by `wc -w`). The EN masters stay the canonical texts; a version
+subdirectory per version **per manuscript** — the title carries three
+complete EN novellas (Book One `../en/the-night-kiln.md`, **15,999 words**
+measured; Book Two *The Morning Door* `../en/the-morning-door.md`,
+**15,995 words** measured; Book Three *The Harvest Rows*
+`../en/the-harvest-rows.md`, **23,334 words** measured by `wc -w`) and
+three complete NL editions (`nl/`, `nl-book-2/`, `nl-book-3/` — rows
+below). The EN masters stay the canonical texts; a version
 NEVER edits a master.
 
 ## Convention

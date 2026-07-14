@@ -46,11 +46,12 @@
   probe packet PR #179 + the four NL-edition packets, 2026-07-14 night
   slice PR #180 + the NL-completion batch's four packets — De geborgen
   boomgaard / Liefde in de kantlijn / De Morgendeur / The Sweetwater Sea —
-  2026-07-14 night, PR #184).
-  After the PR #184 regen it queues **19 decisions (D1–D19, each with a
-  bolded default — "go with defaults" works) and 41 click-run publish
-  sequences totalling 241 unchecked owner clicks** (14 sequences hard-gated);
-  §3 manual-review is empty (every input parsed clean, 43/43); §4 lists the
+  2026-07-14 night, PR #184 + the night-final pair — De zoete zee /
+  De Oogstslag — 2026-07-14 night, PR #186).
+  After the PR #186 regen it queues **19 decisions (D1–D19, each with a
+  bolded default — "go with defaults" works) and 43 click-run publish
+  sequences totalling 256 unchecked owner clicks** (16 sequences hard-gated);
+  §3 manual-review is empty (every input parsed clean, 45/45); §4 lists the
   SWTK rows already DONE. The seat performed none of the queued actions.
 - **Products — 1 live + 10 publish-READY (click-queued) + 2 hard-gated
   (2026-07-13).**
@@ -100,24 +101,27 @@
     Star Pirates, The Lantern Door, The Puddle Museum, The Windmill Mouse,
     Tummel — plus concepts/ and adaptations/ dirs.
   - **Editions: 27 board-book texts** (7 title-lines × EN/NL/DE; Comet
-    Biscuit ×3 books), **11 adult NL editions** (De Papieren Sinaasappel,
+    Biscuit ×3 books), **13 adult NL editions — the NL catalog is 13/13
+    complete** (De Papieren Sinaasappel,
     Het Trage Woord, De Waag, Weduwenblauw, and the 2026-07-14 night wave:
     De Nachtoven 16,840w, De Marmeladepost 15,637w, De glazen pastorie
     15,573w, De Driekoningentaart 16,897w — PRs #175–#178 — plus the
     NL-completion trio Liefde in de kantlijn 15,633w PR #183, De geborgen
-    boomgaard 15,750w PR #184, De Morgendeur 16,730w PR #185; the
+    boomgaard 15,750w PR #184, De Morgendeur 16,730w PR #185, and the
+    night-final pair De zoete zee 15,467w + De Oogstslag 24,655w PR #186; the
     2026-07-13 "4 adult NL editions" line here had gone stale — count
     re-derived from the `versions/nl*` + `novella-cut-nl` dirs), **2 EN
     novella cuts** (Slow Word, Weigh House), **Ultramarine serial edition**
     (3 parts), **13 large-print EDITION-SPECs** (5 + the 8-title bundle,
     PR #172).
-  - **Vetting packets: 42** (28 book + 13 product + 1 pre-registered probe
+  - **Vetting packets: 44** (30 book + 13 product + 1 pre-registered probe
     protocol — the V020 audience-separation probe, Paper Orange EN ↔ NL,
     [`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md),
     PR #179; the four NL-edition packets De Nachtoven / De Marmeladepost /
     De glazen pastorie / De Driekoningentaart added 2026-07-14, PR #180;
     De geborgen boomgaard / Liefde in de kantlijn / De Morgendeur / The
-    Sweetwater Sea added 2026-07-14 night, PR #184)
+    Sweetwater Sea added 2026-07-14 night, PR #184; De zoete zee /
+    De Oogstslag added 2026-07-14 night-final, PR #186)
     in [`publishing/vetting/`](publishing/vetting/) —
     incl. The Twelfth Cake, now unparked: PR #157 (died mid-turn at 0 words)
     was **resumed as PR #159 and MERGED at `3b159d9`** 2026-07-13T13:03:54Z —
