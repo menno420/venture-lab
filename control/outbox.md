@@ -43,3 +43,19 @@ Append-only. Dated sections, newest last.
 - PENDING OWNER ASKS: OWNER-QUEUE click-runs (docs/publishing/OWNER-QUEUE.md, defaults bolded, "go with defaults" works) · R5-C A/B/C letter (trading `docs/proposals/r5c-btc-bollinger-breakout-oos-proposal.md`) · Night Kiln 2 length band · branch-delete credential (403 wall).
 - TRIGGERS: unchanged — failsafe trig_01SbFnHdb1bvUzDnKrDdRb6t · grading cron trig_01UsNU4JRps4b7jiAMdEfXNi next fire 2026-07-17T09:05Z (executor live, dry-run CLEAN) · SWTK T+7/T+14 one-shots · FOREIGN trig_01YXNmgqYeYQ1LuepsLmbNCG recorded only.
 - NEXT-2: (1) Friday 2026-07-17 grading pass — executor live; (2) owner click-runs / round-7 + follow-on probes on owner direction.
+
+## 2026-07-14 · EAP FINAL-DAY CLOSE-OUT — ORDERs 013+014 (coordinator → manager)
+- WRITTEN: 2026-07-14T10:21:38Z (`date -u`). ORDERs 013 + 014 executed this session; three PRs READY on `claude/*` heads, born-red cards flip next, the enabler lands them — this seat armed nothing and merged nothing.
+- ORDER 013 (INC-44) → PR #196: `docs/conventions.md` rules 2–3 rewritten to the enabler doctrine (rule 3's merge-then-flag posture kept) + `docs/review-queue.md` "self-merge grant" citation synced. Done-when MET at the PR head: rules 2–3 match PLATFORM-LIMITS + current-state; no binding line instructs agent-side arming.
+- ORDER 014(a)(2) decide-and-flag → PR #195: stranded telemetry commit `d1b0208` (guard-fires ledger line on merged branch `claude/night-verdicts-v053-057-049`, NOT an ancestor of main — re-verified live per Q-0120) recovered by cherry-pick; branch pruning stays credential-walled (403, docs/PLATFORM-LIMITS.md).
+- ORDER 014(b) → PR #197: `docs/eap-closeout-walkthrough-2026-07-14.md` with sections A–E + a real markdown link from `docs/AGENT_ORIENTATION.md`. Done-when met at the PR head ("on main" rides the enabler landing); the OWNER ACTIONS checklist is surfaced below, completing the close-out-report clause.
+- COMPACT OWNER ACTIONS (full detail: walkthrough §C; source of truth `docs/publishing/OWNER-QUEUE.md`; the one-line reply `"go with defaults"` resolves every D-item to its bolded recommendation at once):
+  - D1–D9, D12 — storefront picks, 10 products → **Gumroad** (queue default; click-scripts written against it, same account as the live SWTK listing).
+  - D10 — photo-packs storefront (hard gate) → **Gumroad**; D11 — photo-packs price (hard gate) → **$5 fixed per pack** (floor $3; optional $9.99 two-pack bundle).
+  - D13/D14/D16 — illustration decisions for The Painted Stones / The Puddle Museum / The Windmill Mouse (hard gates) → **Park (C)** on all three.
+  - D15 — Weigh House subtitle → **"An Amsterdam Crime Novel"**; D17 — Ultramarine title → **The Widow's Blue — "A Novel of Delft, 1654"**; D18 — NL title coupling → **Weduwenblauw**.
+  - D19 — keyword-map C1 dispute → **accept the proposed resolution: The Slow Word keeps Literary Fiction; Ultramarine swaps to Women's Fiction → Domestic Life**.
+  - Clicks: 262 pending — **152 ready across 28 sequences** + **110 hard-gated across 16 sequences** (blockers named per row in walkthrough §C.3); plus 1 live/completed sequence (SWTK $29, read-only; kill clocks T+7 2026-07-19 / T+14 2026-07-26).
+  - NK2 — Night Kiln Book Two length band (NOT in the queue): A = keep the packet's 20–30k plan, B = 16k parity with Book One — **no default on file, genuine owner call**; blocks the De Morgendeur / De Oogstslag hard-gated sequences.
+  - R5-C — one A/B/C letter for the sibling seat: trading-strategy `docs/proposals/r5c-btc-bollinger-breakout-oos-proposal.md` (options live in that doc).
+- PARKED (cited, not chased): the 262 owner publish clicks / 16 hard-gated sequences (owner surface, no agent path — docs/publishing/OWNER-QUEUE.md) · grading pass time-gated to 2026-07-17T09:05Z (trig_01UsNU4JRps4b7jiAMdEfXNi).

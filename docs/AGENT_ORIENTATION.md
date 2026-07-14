@@ -46,7 +46,11 @@ The planted doc set (this router reaches every live doc — keep it that way):
 `docs/audits/2026-07-13-fleet-cleanup-audit.md` (external fleet-wide
 cleanup/audit pass, EAP final night) ·
 `docs/audits/eap-project-audit-2026-07-14.md` (this seat's definitive EAP
-project audit: measured usage, walls, friction, fixes, wishlist) — plus the root
+project audit: measured usage, walls, friction, fixes, wishlist) ·
+[EAP close-out walkthrough + owner actions](eap-closeout-walkthrough-2026-07-14.md)
+(`docs/eap-closeout-walkthrough-2026-07-14.md`, ORDER 014(b): what shipped,
+verify commands, the full OWNER ACTIONS checklist, 5-minute tour, handoff
+notes) — plus the root
 `CONSTITUTION.md` (the working agreement) and `.session-journal.md`.
 
 Recurring action? **`docs/SKILLS.md`** — the skill index — names every
