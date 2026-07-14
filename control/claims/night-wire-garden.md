@@ -1,0 +1,1 @@
+- `claude/night-wire-garden` · **The Wire Garden write-slice** — concept #2 manuscript + DECISIONS + shortlist-doc marking · candidates/adult-novels/the-wire-garden/** + docs/ideas/2026-07-14-adult-title-concepts.md · 2026-07-14
