@@ -1,6 +1,6 @@
 # Session — EAP closeout: recover stranded guard-fire telemetry d1b0208 (ORDER 014(a)(2))
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · substrate telemetry recovery slice · EAP final day 2026-07-14
 - **started (date -u):** Tue Jul 14 10:05:30 UTC 2026
@@ -55,3 +55,5 @@ credential-walled and is not the fix; detection is.)
   its `2026-07-13-night-verdicts` line absent from
   `.substrate/guard-fires.jsonl` at HEAD; claims dir README-only; zero
   open PRs. Born-red card + claim committed first and pushed.
+- 2026-07-14 — Flip commit: telemetry recovery complete on PR #195; Status →
+  `complete`, claim file deleted, strict check green before push.
