@@ -258,3 +258,10 @@ do: restore the kit `substrate-kit:capability-seed` fence in `docs/CAPABILITIES.
 why: fm fence-exposure index (fm `docs/fence-index.md` @ `3b335a8`, Phase 1 B4) found the capability-seed fence ABSENT (0 hits in `docs/CAPABILITIES.md`) and the walls digest EMPTY at venture-lab @ `991dd96`, while the repo's real verified walls sit un-digested in `docs/PLATFORM-LIMITS.md` — fleet tooling that consumes the seat digest reports this seat as wall-free when it isn't (INC-48 class).
 done-when: fence present in `docs/CAPABILITIES.md` at main HEAD; walls digest section non-empty and reflecting the PLATFORM-LIMITS content (seat-digest no longer renders "(no walls recorded)"); `python3 bootstrap.py check --strict` green.
 Provenance: relayed by the Fleet Manager seat, coordinator dispatch 2026-07-14, fm docs/dispatch-log.md @ 3b335a8.
+
+## ORDER 013 · 2026-07-14T07:46Z · status: new
+priority: P2
+do: rewrite `docs/conventions.md` rules 2–3 to the enabler doctrine — the `auto-merge-enabler` workflow arms `claude/*` PRs; agent-side arming and direct self-merge are classifier-DENIED per this repo's own PLATFORM-LIMITS — keeping rule 3's merge-then-flag review posture, and update `docs/review-queue.md`'s "self-merge grant" citation to match.
+why: INC-44 — binding text grants what the classifier denies (rule 2 still says "arm it at creation … THE self-merge path" while the same file's branch-naming preamble already documents enabler-side arming, and current-state says "Lanes never arm or merge their own PRs"); re-verified live at dispatch.
+done-when: conventions rules 2–3 match PLATFORM-LIMITS + current-state; no binding line instructs agent-side arming.
+provenance: relayed by the Fleet Manager seat, coordinator dispatch 2026-07-14, fm docs/dispatch-log.md @ 1694bfc
