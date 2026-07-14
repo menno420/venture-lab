@@ -1,13 +1,13 @@
 # Session — Night new adult title: concepts + strongest as complete novella
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · BOOKS-lane night session · night run 2026-07-14
 - **session:** Generative rung of ORDER 008 item 1 / ORDER 011 item 2: new adult title concepts + strongest written as complete novella.
 - **applied:** `candidates/adult-novels/the-sweetwater-sea/{en/the-sweetwater-sea.md,DECISIONS.md}` + `docs/ideas/2026-07-14-adult-title-concepts.md` (+ README backlog link) + this card + claim
 - **verify:** `python3 bootstrap.py check --strict`
 - **started:** 2026-07-14T01:34Z
-- **closed:** (in progress)
+- **closed:** 2026-07-14T02:10Z
 
 ## ⟲ Previous-session review
 previous-session review: `.sessions/2026-07-14-night-nl-packets.md` (the
@@ -99,7 +99,7 @@ batches.
 ## Work log
 - 2026-07-14T01:34Z — Branch `claude/night-new-title` from origin/main
   (`d93aee5`). Claims scan clean (README only). Born-red card + claim file
-  committed as the first commit (`e308cb8` at 01:35:06Z) and pushed; READY
+  committed as the first commit (`e308c8b` at 01:35:06Z) and pushed; READY
   PR #182 opened; enabler bot armed squash auto-merge (left in place,
   untouched by this seat).
 - 2026-07-14T01:49Z–02:02Z — Manuscript committed in 3-chapter chunks per
@@ -107,16 +107,16 @@ batches.
   ch. 1–3), `5271759` (01:52:35Z, ch. 4–6), `d40bc91` (01:55:22Z,
   ch. 7–9), `4308f8d` (02:02:33Z, ch. 10–12 + DECISIONS.md). Honest
   post-final-commit count: `wc -w` = 15243.
-- 2026-07-14T02:12Z — Shortlist doc
+- 2026-07-14T02:09Z — Shortlist doc
   `docs/ideas/2026-07-14-adult-title-concepts.md` written (badge `ideas`,
   frontmatter per the ideas README, reachability link added to the README
   backlog); card previous-session review / idea / outcome sections
   completed; ONE night-progress heartbeat line appended to
-  `control/status.md`; committed together and pushed.
-- 2026-07-14T02:12Z — `python3 bootstrap.py check --strict` run: expected
-  result is green except this card's own by-design born-red hold
-  (in-progress badge + open claim), which is the flip's job.
-- 2026-07-14T02:15Z — Flip commit: Status badge → `complete`, `closed:`
+  `control/status.md`; committed together (`ac54762` at 02:09:52Z).
+- 2026-07-14T02:10Z — `python3 bootstrap.py check --strict` on `ac54762`:
+  the ONLY findings were this card's own by-design born-red hold
+  (in-progress badge + open claim) — everything else green pre-flip.
+- 2026-07-14T02:10Z — Flip commit: Status badge → `complete`, `closed:`
   timestamp set, `control/claims/night-new-title.md` deleted, same
   commit. `python3 bootstrap.py check --strict` fully green at flip;
   pushed. PR #182 left to the enabler's armed squash auto-merge.
