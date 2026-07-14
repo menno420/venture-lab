@@ -81,8 +81,8 @@
 - **Book catalog — honest tree count at `abf1f23`** (all publishing clicks
   owner-gated; vetting via [`publishing/CHECKLIST.md`](publishing/CHECKLIST.md),
   lane index [`publishing/`](publishing/README.md)):
-  - **Adult novels: 10 titles, 11 complete EN manuscripts** (The Night Kiln
-    Books 1+2; The Slow Word in 12 chapter files) — Glass Rectory, Marmalade
+  - **Adult novels: 10 titles, 12 complete EN manuscripts** (The Night Kiln
+    Books 1–3; The Slow Word in 12 chapter files) — Glass Rectory, Marmalade
     Post, Night Kiln, Paper Orange, Salvage Orchard, Seed Catalogue
     Courtship, Slow Word, Twelfth Cake, Weigh House, Ultramarine.
   - **YA: 5 titles** — Hollowtide, The Last Good Frequency, The Marginalia
@@ -140,6 +140,8 @@
 - GitHub Webhook Test Kit v0.1 $29 publish-READY (PR #147, squash `44d2a5e`).
 - Paper Orange packet graduation + Ultramarine serial continuity patch
   (PR #146, squash `847b636`).
+- The Night Kiln, Book 3 (*The Harvest Rows*) — complete novella, 23,334w
+  (PR #174).
 - The Night Kiln, Book 2 (*The Morning Door*) — complete novella, 15,995w
   (PR #145, squash `8220b84`).
 - Night report 2026-07-13, ORDER 009 (PR #144, squash `58cdb14`).
