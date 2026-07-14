@@ -64,13 +64,15 @@ Kids titles cannot publish without interior art. Three options — this is a rea
 
 Six fields each. Originally the three cover-only Tier-1 titles with the cleanest discoverability; the Painted Stones block below is **withdrawn** by the 2026-07-12 re-tier (§2).
 
+> **VERDICT 049 — KU-exclusivity fork: REJECTED (ORDER 011 / V049 (sim-lab `32ff5c3`)).** The sim rejected the blanket-enrollment default this section carries: measured, KU enrollment beats wide ONLY where the 35% band makes sales cheap (72/72 cells at $0.99) and essentially never at this plan's own Tier-1 price (4/72 at $4.99, 0/72 at $6.99; W = 101/288 ≈ 0.3507 < 2/5, stability-reproduced). Per the verdict's pre-registered REJECT consequence, verbatim-faithful: (1) the blanket "KDP Select: **Yes**" in the field-6 rows below is **STRUCK as a recommendation posture** — enrollment becomes a **per-title decision gated on the verdict's committed b\* crossover table** (sim-lab `sims/verdict-049-ku-exclusivity/` results.json — a $0.99 launch tier clears at every swept b, $2.99 needs the title's real b to clear its row, $4.99/$6.99 essentially never clear under the pinned mixture); (2) enrollment stays an **explicit OWNER action, never an agent action, on every outcome**; (3) a re-drawn judgment line re-reads the committed 288-cell table, never re-runs; (4) the cheapest LIVE probe stays named: **90 days of KDP dashboard data on ONE enrolled title** (orders vs KENP pages read → the real b and per-borrow page income at zero new tooling); (5) the ORDER 010 price rows (V037/V039/V040/V041) sit downstream — their vetting-packet rows inherit the per-title gate, not the struck blanket. The field-6 row text below is kept verbatim as the historical proposal; do **not** re-open the blanket default without re-running against the committed table.
+
 **OWNER-ACTION — Publish "The Slow Word"**
 1. **KDP account:** owner logs into (or creates) the KDP account; complete tax/bank interview first or royalties hold.
 2. **Cover:** commission or design a single ebook cover (no interior art needed); 1600×2560px min.
 3. **Format:** reflowable ebook (.epub / Word); English-first.
 4. **Price:** $4.99 (70% tier; ≈ $3.49/sale).
 5. **Categories/keywords:** two literary-fiction categories + 7 keywords; avoid the crowded generic terms.
-6. **KDP Select (KU):** **Yes** — enroll (90-day exclusive). A standalone literary title is exactly the case where KU page-reads offset weak standalone discoverability. Reversible after 90 days.
+6. **KDP Select (KU):** **Yes** — enroll (90-day exclusive). A standalone literary title is exactly the case where KU page-reads offset weak standalone discoverability. Reversible after 90 days. *Struck as a blanket default — per-title owner decision per the V049 REJECT note above (ORDER 011 / V049 (sim-lab `32ff5c3`)).*
 
 **OWNER-ACTION — Publish "The Painted Stones" — WITHDRAWN (re-tier, 2026-07-12).** This block was written against the wrong category: the manuscript is a 13-spread kids picture book (EN 565 words measured — §2 re-tier), not a $4.99 reflowable-ebook adult standalone (picture books are fixed-layout print-first, not reflowable). The corrected kids-path owner queue — print-first $12.99 paperback, gated on the §3 illustration money-decision — lives in [`docs/publishing/vetting/the-painted-stones.md`](vetting/the-painted-stones.md) §7 @ `7fc4054` (PR #93), which supersedes this block.
 
@@ -80,7 +82,7 @@ Six fields each. Originally the three cover-only Tier-1 titles with the cleanest
 3. **Format:** reflowable ebook, English-first. **Add subtitle "A Novella"** — the bare word "Lull" is near-unsearchable.
 4. **Price:** $3.99 (novella length; still 70% tier).
 5. **Categories/keywords:** literary fiction + "novella" + "short reads" keywords.
-6. **KDP Select (KU):** **Yes** — novellas earn best in KU via page-reads.
+6. **KDP Select (KU):** **Yes** — novellas earn best in KU via page-reads. *Struck as a blanket default — per-title owner decision per the V049 REJECT note above (ORDER 011 / V049 (sim-lab `32ff5c3`)).*
 
 ## 5. Translation strategy
 
