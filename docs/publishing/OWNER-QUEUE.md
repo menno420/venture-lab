@@ -328,6 +328,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### The Sweetwater Sea — `docs/publishing/vetting/the-sweetwater-sea.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title ratified with the epithet-drift finding in view (subtitle mandatory). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### The Twelfth Cake — `docs/publishing/vetting/the-twelfth-cake.md` @ §7 checklist
 
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
@@ -372,6 +381,16 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€3.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€3.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### De geborgen boomgaard — `docs/publishing/vetting/de-geborgen-boomgaard.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** NL title ratified (De geborgen boomgaard). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title — pronoun strategy + craft register). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### De glazen pastorie — `docs/publishing/vetting/de-glazen-pastorie.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
@@ -392,6 +411,17 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€3.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€3.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### De Morgendeur — `docs/publishing/vetting/de-morgendeur.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** length-band ruling on Book Two (standing queued question — blocking for the EN edition this listing sequences behind). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** De Nachtoven (NL Book One) published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** NL title ratified (De Morgendeur, series-aware pick, pre-named). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, series-matched). · **DEFAULT:** **€4.99 recommended, series-matched** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### De Nachtoven — `docs/publishing/vetting/de-nachtoven.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
@@ -409,6 +439,16 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### Liefde in de kantlijn — `docs/publishing/vetting/liefde-in-de-kantlijn.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** NL title ratified (Liefde in de kantlijn — a free retitle, not a translation; reasoning in NOTES.md). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title — period-commercial registers). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€3.99 recommended, band-floor logic inherited not NL-re-derived). · **DEFAULT:** **€3.99 recommended, band-floor logic inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### Photo Packs (Dutch Skies + Golden Hours) — `docs/publishing/vetting/photo-packs.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
