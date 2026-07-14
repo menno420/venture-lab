@@ -1,1 +1,0 @@
-- `claude/eap-closeout-walkthrough-014b` · **ORDER 014(b) walkthrough + close-out** — author `docs/eap-closeout-walkthrough-2026-07-14.md` + AGENT_ORIENTATION link · expected files: `docs/eap-closeout-walkthrough-2026-07-14.md`, `docs/AGENT_ORIENTATION.md`, `.sessions/`, this claim · 2026-07-14

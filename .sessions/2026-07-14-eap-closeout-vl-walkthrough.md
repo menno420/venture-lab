@@ -1,9 +1,13 @@
 # Session — ORDER 014(b): EAP close-out walkthrough + owner actions
 
-> **Status:** `in-progress`
+> **Status:** `complete`
+
+Completed: walkthrough doc + AGENT_ORIENTATION link + close-out surfaces
+landed on PR #197; this flip is the final pass on that same branch.
 
 - **📊 Model:** Claude Fable 5 (family-level)
 - **started (date -u):** Tue Jul 14 10:07:52 UTC 2026
+- **closed (date -u):** Tue Jul 14 10:28:44 UTC 2026
 - **branch:** `claude/eap-closeout-walkthrough-014b` — READY PR (born-red:
   this card holds the substrate gate red until it flips `complete`; the
   close-out surfaces — `control/status.md` / `control/outbox.md` — land in a
