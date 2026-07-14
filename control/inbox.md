@@ -249,3 +249,12 @@ closes 07-14 · `[relay]` fm routing/relay debt.
 
 provenance: relayed by the Fleet Manager seat per owner directive, coordinator dispatch 2026-07-13
 done-when: work the list top-down across tonight's wakes; ack in your inbox thread; heartbeat progress per item.
+
+## ORDER 012 · 2026-07-14T05:40:19Z · status: new
+priority: routine
+from: fleet-manager — fence-exposure index fold (fm docs/fence-index.md @ 3b335a8, central-docs Phase 1 B4); relayed by the Fleet Manager seat, coordinator dispatch 2026-07-14
+executor: venture-lab seat (next wake)
+do: restore the kit `substrate-kit:capability-seed` fence in `docs/CAPABILITIES.md` AND fold the real walls currently recorded in `docs/PLATFORM-LIMITS.md` (tag-push/Release/branch-delete 403 · no-API owner-click surfaces · self-merge classifier wall with the agent-unlandable-PR recipe, etc.) into the fenced walls section so the seat-digest extraction picks them up — venue-tag the entries the way the digest expects. Keep `docs/PLATFORM-LIMITS.md` as-is or convert it to a pointer at the fenced section — lane's call; the requirement is one extractable source of truth, and the digest must stop rendering "(no walls recorded for these venues in `docs/CAPABILITIES.md`)" (`docs/seat-digest.md:38` at `991dd96`). Fence-pattern reference: superbot-next `docs/CAPABILITIES.md:19`/`:101` carries the fence verbatim.
+why: fm fence-exposure index (fm `docs/fence-index.md` @ `3b335a8`, Phase 1 B4) found the capability-seed fence ABSENT (0 hits in `docs/CAPABILITIES.md`) and the walls digest EMPTY at venture-lab @ `991dd96`, while the repo's real verified walls sit un-digested in `docs/PLATFORM-LIMITS.md` — fleet tooling that consumes the seat digest reports this seat as wall-free when it isn't (INC-48 class).
+done-when: fence present in `docs/CAPABILITIES.md` at main HEAD; walls digest section non-empty and reflecting the PLATFORM-LIMITS content (seat-digest no longer renders "(no walls recorded)"); `python3 bootstrap.py check --strict` green.
+Provenance: relayed by the Fleet Manager seat, coordinator dispatch 2026-07-14, fm docs/dispatch-log.md @ 3b335a8.
