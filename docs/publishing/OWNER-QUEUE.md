@@ -354,6 +354,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### The Wire Garden — `docs/publishing/vetting/the-wire-garden.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title ratified with the exact-title collision in view (subtitle mandatory; retitle option declined by this packet, overridable here). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### Ultramarine — `docs/publishing/vetting/ultramarine.md` @ §7 checklist
 
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence

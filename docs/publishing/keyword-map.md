@@ -75,6 +75,8 @@
 | Romance → **Later in Life** | Liefde in de kantlijn (NL edition, first claimant — EN shares at graduation per C4) | [`vetting/liefde-in-de-kantlijn.md`](vetting/liefde-in-de-kantlijn.md) §6 |
 | Literature & Fiction → Genre Fiction → **Sea Stories** | The Sweetwater Sea (manuscript-backed, claimed 2026-07-14 — no prior §3 reservation) **+ De zoete zee (NL edition — SHARED 2026-07-14 per C4: same-title editions share browse nodes; separate listing, no duplicate row)** | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 + [`vetting/de-zoete-zee.md`](vetting/de-zoete-zee.md) §6 |
 | Literature & Fiction → **Small Town & Rural** | The Sweetwater Sea **+ De zoete zee (NL edition — SHARED 2026-07-14 per C4: same-title editions share browse nodes; separate listing, no duplicate row)** | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 + [`vetting/de-zoete-zee.md`](vetting/de-zoete-zee.md) §6 |
+| Literature & Fiction → Genre Fiction → Historical Fiction → **World War I** (era sub-node; parent node is Ultramarine's — Paper Orange WWII / Driekoningentaart Victorian sub-node precedent; sibling of Paper Orange's World War II sub-node) | The Wire Garden (manuscript-backed, claimed 2026-07-14 — no prior §3 reservation) | [`vetting/the-wire-garden.md`](vetting/the-wire-garden.md) §6 |
+| Literature & Fiction → Genre Fiction → **Animals** (exact node name re-verified against the live browse tree at upload) | The Wire Garden (manuscript-backed, claimed 2026-07-14) | [`vetting/the-wire-garden.md`](vetting/the-wire-garden.md) §6 |
 
 *Edition-sharing note (C4):* **Het trage woord** (NL edition of The Slow
 Word, [`vetting/het-trage-woord.md`](vetting/het-trage-woord.md) §6) uses
@@ -251,6 +253,13 @@ second SERIES node-sharing, riding De Nachtoven's two nodes per the same
 | `hartverwarmend verhaal over ouder worden` | De Oogstslag (NL — C4 namespace; `hartverwarmend` stem vs De Nachtoven's `hartverwarmende fantasy voor volwassenen` — same deliberate series adjacency) |
 | `magisch ambacht dorpsverhaal` | De Oogstslag (NL — C4 namespace; `magisch` stem vs De Nachtoven, `dorpsverhaal` stem vs De Morgendeur's `gezellige fantasy dorpsverhaal` — same deliberate series adjacency; full phrase distinct) |
 | `oogstfeest fantasy verhaal` | De Oogstslag (NL — C4 namespace; harvest-festival niche, unclaimed; no folk-dark stems — Hollowtide's reserved register untouched) |
+| `Dodendraad novel` | The Wire Garden (C3 WWI neutral-border/Dodendraad register) |
+| `Wire of Death WWI story` | The Wire Garden (C3 WWI register — "Wire of Death" is the standing English name for the Dodendraad) |
+| `beekeeper historical novel` | The Wire Garden (`beekeeper`/`bee` stems unclaimed catalog-wide) |
+| `WWI Dutch Belgian border novel` | The Wire Garden (C3 WWI register; bare `Dutch` stem vs Weigh House / Ultramarine / Paper Orange / Sweetwater rows — watched adjacency in the C2 pattern, disjoint war and intent) |
+| `First World War neutral Netherlands fiction` | The Wire Garden (C3 WWI register; `Netherlands` stem vs Paper Orange's `WWII Netherlands fiction` and Sweetwater's `1930s Netherlands historical novel` — watched adjacency, disjoint era intent: WWI neutrality vs WWII occupation vs interwar public works) |
+| `electric fence Great War novella` | The Wire Garden (C3 WWI register; `fence`/`Great War` stems unclaimed) |
+| `smuggled letters wartime story` | The Wire Garden (C3 WWI register; `wartime` stem vs Paper Orange's rows — watched adjacency, disjoint war; `letters` stem watched vs The Seed Catalogue Courtship's §3 novel-in-letters reservation — smuggled-correspondence intent vs epistolary-romance intent, disjoint; no widow stems drafted, deliberately — the C2 widow cluster already carries three titles) |
 
 ## 2. CONFLICTS (resolved here before any packet ships)
 
@@ -313,14 +322,23 @@ today, recorded as the standing rule:
   per this rule's own procedure; disjointness from the WWII register
   pre-checked in the title's DECISIONS.md: no occupation, war, Amsterdam,
   or 1940s stems).
+- **The Wire Garden owns WWI neutral-border / Dodendraad phrases**
+  (`Dodendraad novel`, `Wire of Death WWI story`, `electric fence Great
+  War novella`, 1915–1918) — the FIFTH Netherlands era-register, claimed
+  at its manuscript-backed vetting (2026-07-14, negotiated here per this
+  rule's own procedure; disjointness pre-checked in the title's
+  DECISIONS.md by era AND valence: neutrality/witness at a watched
+  border vs Paper Orange's occupation/survival under it — different war,
+  different decade, different search phrases by construction).
 
 **Ownership rule:** Netherlands-flavored phrases are allocated by GENRE ERA
 — contemporary-crime register → Weigh House; 17th-century-historical
 register → Ultramarine; WWII-occupation register → The Paper Orange (EN;
 its NL edition De papieren sinaasappel holds the same register in the C4
-Dutch namespace); interwar Zuiderzee-closure register → The Sweetwater Sea.
+Dutch namespace); interwar Zuiderzee-closure register → The Sweetwater Sea;
+WWI neutral-border/Dodendraad register → The Wire Garden.
 Any future Dutch-set title must pick phrases outside all
-four registers or negotiate a row here first. No conflict today; rule
+five registers or negotiate a row here first. No conflict today; rule
 recorded to prevent one.
 
 ### C4 — Dutch-LANGUAGE editions: separate keyword namespace, shared browse nodes (standing rule)
