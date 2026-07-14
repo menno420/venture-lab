@@ -1,6 +1,6 @@
 # Session — EAP audit §8 attribution fix (follow-up, 2026-07-14)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** fable-5 · audit follow-up session
 - **started (date -u):** Tue Jul 14 09:07:07 UTC 2026
@@ -45,3 +45,12 @@ fleet-convention.)
   for echoes of the same doubt (none found, left unchanged).
 - Close-out: heartbeat line in `control/status.md`, then flip this card's
   Status badge to `complete` as the deliberate LAST step.
+
+## Outcome
+
+Delivered via PR #193: §8 correction paragraph rewritten with the four
+verified repo-qualified attributions (TS #111 `d498018`, #121 `c60183f`,
+#109 `3c628e4`, #100 `08ddbd4`; verbatim titles in the doc), the
+repo-qualifier ambiguity finding retained, §11 checked and left unchanged
+(no echo). Heartbeat appended to `control/status.md`; claim
+`control/claims/eap-audit-s8-fix.md` released in this flip commit.
