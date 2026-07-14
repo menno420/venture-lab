@@ -1,0 +1,1 @@
+- `claude/eap-closeout-conventions-013` · **ORDER 013 conventions rules 2–3 rewrite** — enabler-doctrine rewrite of `docs/conventions.md` rules 2–3 + `docs/review-queue.md` citation sync (INC-44) · `docs/conventions.md`, `docs/review-queue.md` · 2026-07-14
