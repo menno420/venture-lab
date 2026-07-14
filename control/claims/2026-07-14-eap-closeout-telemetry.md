@@ -1,0 +1,1 @@
+- `claude/eap-closeout-telemetry-014a` · **ORDER 014(a)(2) cherry-pick d1b0208** — recover the stranded guard-fire telemetry line (branch `claude/night-verdicts-v053-057-049`) onto main · `.substrate/guard-fires.jsonl` + this claim + `.sessions/2026-07-14-eap-closeout-vl-telemetry.md` · 2026-07-14
