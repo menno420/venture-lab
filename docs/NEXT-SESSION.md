@@ -50,8 +50,10 @@
 
 **Books** (all publish clicks owner-gated; details + tree counts in
 [`current-state.md`](current-state.md); counts below re-derived by grep
-2026-07-14, night NL-completion PR #184): 11 adult titles / 13 complete EN
-manuscripts (The Sweetwater Sea added PR #182) · 5 YA · 1 middle-grade
+2026-07-14, night NL-completion PR #184 + the Wire Garden close-out): 12
+adult titles / 14 complete EN
+manuscripts (The Sweetwater Sea added PR #182; The Wire Garden added
+PR #187, 15,900w) · 5 YA · 1 middle-grade
 (The Halfway Ferry) · 9 trilingual
 picture-book title-lines · editions (27 board-book texts, **13 adult NL
 editions — the NL catalog is 13/13 complete** as of 2026-07-14: PRs
@@ -59,12 +61,13 @@ editions — the NL catalog is 13/13 complete** as of 2026-07-14: PRs
 Morgendeur) plus the night-final pair De zoete zee + De Oogstslag PR
 #186 — 2 EN novella
 cuts, Ultramarine serial ×3, 13 large-print specs) ·
-44 vetting packets (30 book + 13 product + 1 pre-registered probe
-protocol, at PR #186 — the four NL-edition packets De Nachtoven / De
+45 vetting packets (31 book + 13 product + 1 pre-registered probe
+protocol — the four NL-edition packets De Nachtoven / De
 Marmeladepost / De glazen pastorie / De Driekoningentaart added
 2026-07-14 PR #180; De geborgen boomgaard / Liefde in de kantlijn / De
 Morgendeur / The Sweetwater Sea added 2026-07-14 night PR #184; De zoete
-zee / De Oogstslag added 2026-07-14 night-final PR #186) in
+zee / De Oogstslag added 2026-07-14 night-final PR #186; The Wire Garden
+EN packet added 2026-07-14 night close-out) in
 [`publishing/vetting/`](publishing/vetting/) —
 the probe: V020 audience-separation, Paper Orange EN ↔ NL
 ([`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md)).
@@ -77,12 +80,12 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). After the 2026-07-14 night-final regen (PR #186 — the De
-zoete zee / De Oogstslag packets added on top of PR #184's four and PR
-#180's four; 45/45 inputs
+hand-edit). After the 2026-07-14 night close-out regen (the Wire Garden
+packet added on top of PR #186's two, PR #184's four and PR
+#180's four; 46/46 inputs
 clean) it queues **19
 decisions (D1–D19, each with a bolded default — "go with defaults" works)
-and 43 click-run publish sequences totalling 256 unchecked owner clicks**
+and 44 click-run publish sequences totalling 262 unchecked owner clicks**
 (16 sequences HARD-GATED
 behind a blocking row); §3 manual-review is empty; §4 lists the SWTK rows
 already DONE plus its ⏲ kill-clock checkpoints. These counts move with

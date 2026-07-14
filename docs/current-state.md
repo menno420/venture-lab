@@ -47,11 +47,12 @@
   slice PR #180 + the NL-completion batch's four packets — De geborgen
   boomgaard / Liefde in de kantlijn / De Morgendeur / The Sweetwater Sea —
   2026-07-14 night, PR #184 + the night-final pair — De zoete zee /
-  De Oogstslag — 2026-07-14 night, PR #186).
-  After the PR #186 regen it queues **19 decisions (D1–D19, each with a
-  bolded default — "go with defaults" works) and 43 click-run publish
-  sequences totalling 256 unchecked owner clicks** (16 sequences hard-gated);
-  §3 manual-review is empty (every input parsed clean, 45/45); §4 lists the
+  De Oogstslag — 2026-07-14 night, PR #186 + The Wire Garden EN packet,
+  2026-07-14 night close-out).
+  After the Wire Garden regen it queues **19 decisions (D1–D19, each with a
+  bolded default — "go with defaults" works) and 44 click-run publish
+  sequences totalling 262 unchecked owner clicks** (16 sequences hard-gated);
+  §3 manual-review is empty (every input parsed clean, 46/46); §4 lists the
   SWTK rows already DONE. The seat performed none of the queued actions.
 - **Products — 1 live + 10 publish-READY (click-queued) + 2 hard-gated
   (2026-07-13).**
@@ -87,11 +88,11 @@
   NL-completion, PR #184)** (all publishing clicks
   owner-gated; vetting via [`publishing/CHECKLIST.md`](publishing/CHECKLIST.md),
   lane index [`publishing/`](publishing/README.md)):
-  - **Adult novels: 11 titles, 13 complete EN manuscripts** (The Night Kiln
+  - **Adult novels: 12 titles, 14 complete EN manuscripts** (The Night Kiln
     Books 1–3; The Slow Word in 12 chapter files) — Glass Rectory, Marmalade
     Post, Night Kiln, Paper Orange, Salvage Orchard, Seed Catalogue
     Courtship, Slow Word, Sweetwater Sea (PR #182, 15,243w), Twelfth Cake,
-    Weigh House, Ultramarine.
+    Weigh House, Wire Garden (PR #187, 15,900w), Ultramarine.
   - **YA: 5 titles** — Hollowtide, The Last Good Frequency, The Marginalia
     Society, The Pepper Ledger, The Undertow.
   - **Middle-grade: 1 title** — The Halfway Ferry (15,173w, PR #155), first
@@ -114,14 +115,15 @@
     novella cuts** (Slow Word, Weigh House), **Ultramarine serial edition**
     (3 parts), **13 large-print EDITION-SPECs** (5 + the 8-title bundle,
     PR #172).
-  - **Vetting packets: 44** (30 book + 13 product + 1 pre-registered probe
+  - **Vetting packets: 45** (31 book + 13 product + 1 pre-registered probe
     protocol — the V020 audience-separation probe, Paper Orange EN ↔ NL,
     [`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md),
     PR #179; the four NL-edition packets De Nachtoven / De Marmeladepost /
     De glazen pastorie / De Driekoningentaart added 2026-07-14, PR #180;
     De geborgen boomgaard / Liefde in de kantlijn / De Morgendeur / The
     Sweetwater Sea added 2026-07-14 night, PR #184; De zoete zee /
-    De Oogstslag added 2026-07-14 night-final, PR #186)
+    De Oogstslag added 2026-07-14 night-final, PR #186; The Wire Garden
+    EN packet added 2026-07-14 night close-out)
     in [`publishing/vetting/`](publishing/vetting/) —
     incl. The Twelfth Cake, now unparked: PR #157 (died mid-turn at 0 words)
     was **resumed as PR #159 and MERGED at `3b159d9`** 2026-07-13T13:03:54Z —
