@@ -43,12 +43,13 @@
   GENERATED file (re-run `scripts/derive_owner_queue.py` after any packet
   change; last re-derives: ORDER 010 verdicts PR #163 + MACP rows PR #164 +
   AI Novella Production Kit rows PR #169 + the V020 audience-separation
-  probe packet, 2026-07-14 night slice PR #179).
-  After the PR #179 regen it queues **19 decisions (D1–D19, each with a
-  bolded default — "go with defaults" works) and 33 click-run publish
-  sequences totalling 185 unchecked owner clicks** (7 sequences hard-gated); §3
-  manual-review is empty (every input parsed clean, 35/35); §4 lists the SWTK
-  rows already DONE. The seat performed none of the queued actions.
+  probe packet PR #179 + the four NL-edition packets, 2026-07-14 night
+  slice PR #180).
+  After the PR #180 regen it queues **19 decisions (D1–D19, each with a
+  bolded default — "go with defaults" works) and 37 click-run publish
+  sequences totalling 213 unchecked owner clicks** (11 sequences hard-gated);
+  §3 manual-review is empty (every input parsed clean, 39/39); §4 lists the
+  SWTK rows already DONE. The seat performed none of the queued actions.
 - **Products — 1 live + 10 publish-READY (click-queued) + 2 hard-gated
   (2026-07-13).**
   - **Live:** Stripe Webhook Test Kit $29 on Gumroad (launched 2026-07-12;
@@ -99,10 +100,12 @@
     Trage Woord, De Waag, Weduwenblauw), **2 EN novella cuts** (Slow Word,
     Weigh House), **Ultramarine serial edition** (3 parts), **5 large-print
     EDITION-SPECs**.
-  - **Vetting packets: 34** (20 book + 13 product + 1 pre-registered probe
+  - **Vetting packets: 38** (24 book + 13 product + 1 pre-registered probe
     protocol — the V020 audience-separation probe, Paper Orange EN ↔ NL,
     [`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md),
-    PR #179) in [`publishing/vetting/`](publishing/vetting/) —
+    PR #179; the four NL-edition packets De Nachtoven / De Marmeladepost /
+    De glazen pastorie / De Driekoningentaart added 2026-07-14, PR #180)
+    in [`publishing/vetting/`](publishing/vetting/) —
     incl. The Twelfth Cake, now unparked: PR #157 (died mid-turn at 0 words)
     was **resumed as PR #159 and MERGED at `3b159d9`** 2026-07-13T13:03:54Z —
     complete 15,995w manuscript on disk; heartbeat amendment recording the

@@ -52,9 +52,17 @@ surfaced. Nearby entities, logged in the plan's §7 row format:
 
 ## 3. Market verification
 
-- [ ] Length class: **planned novella (~20k–30k words)** — plan, not
-      measurement; no manuscript exists. Cozy fantasy is novella-friendly
-      (the subgenre's flagship grew from serialized comfort reads).
+- [x] Length class (UN-STALED 2026-07-14 — this line previously said "no
+      manuscript exists"): **three complete manuscripts now exist on
+      `main`**, measured `wc -w`: Book 1 *The Night Kiln* **15,999**
+      (`candidates/adult-novels/the-night-kiln/en/the-night-kiln.md`),
+      Book 2 *The Morning Door* **15,995** (PR #145), Book 3 *The Harvest
+      Rows* **23,334** (PR #174, at the packet's committed ~20k–30k band).
+      Books 1–2 sit below the packet's planned band — that length-band
+      question is already ⚑ owner-queued (series `DECISIONS.md`; heartbeat
+      ⚑ ask "Night Kiln 2 length band") and is referenced here, not
+      re-decided. Cozy fantasy is novella-friendly (the subgenre's
+      flagship grew from serialized comfort reads).
 - [ ] Category comps: adult novella ebook band **$3.99–$5.99** inherited
       from the plan's verified §1 table
       ([sources cited there, accessed 2026-07-12](../PUBLISHING-PLAN.md#1-verified-price-points-per-category)).
@@ -86,7 +94,10 @@ surfaced. Nearby entities, logged in the plan's §7 row format:
       single luminous mug on the doorstep — the subgenre's signature
       warm-light-in-dark-frame look, no character art needed.
 - [ ] Illustrated: n/a — no ⚑ illustration money-decision.
-- [ ] True length: **unconfirmed — manuscript does not exist**; flagged.
+- [x] True length: **confirmed — measured, not planned** (un-staled
+      2026-07-14; this line previously said the manuscript did not
+      exist): Book 1 15,999w / Book 2 15,995w (PR #145) / Book 3 23,334w
+      (PR #174), verbatim `wc -w` on the merged files at `main`.
 
 ## 6. Listing copy (provisional — concept stage, nothing published)
 
@@ -120,8 +131,9 @@ surfaced. Nearby entities, logged in the plan's §7 row format:
 ## 7. ⚑ OWNER-GATE — publish clicks (queued, never automated)
 
 Seat output = this queued OWNER-ACTION block; the seat performed **none** of
-it. Concept-stage: the sequence is additionally gated on a manuscript
-existing (write-slice first — seat work, not an owner click).
+it. The manuscript gate this intro used to carry is RELEASED (Books 1–3
+complete on `main` — §3, un-staled 2026-07-14); the remaining seat-side
+prerequisite is the packet's graduation pass, not an owner click.
 
 **OWNER-ACTION — Publish "The Night Kiln" (A Cozy Fantasy Novella)**
 1. **KDP account:** owner logs into (or creates) KDP; tax/bank interview
@@ -148,6 +160,10 @@ existing (write-slice first — seat work, not an owner click).
 
 ---
 
-**Verdict: concept vetted — PARKS at "no manuscript" (§3/§5).** Clean title,
-Low collision, hot shelf with a cited demand signal; blocking step is the
-write-slice, honestly flagged.
+**Verdict: concept vetted — the "no manuscript" park (§3/§5) RELEASED
+2026-07-14:** three complete manuscripts on `main` (15,999w / 15,995w PR
+#145 / 23,334w PR #174). Clean title, Low collision, hot shelf with a
+cited demand signal. Remaining blocking step is the packet's own
+graduation pass (listing copy from the finished text + keyword-map
+ownership rows), a seat follow-up — plus the ⚑ owner-queued Book-2
+length-band ruling, referenced in §3 and not altered here.
