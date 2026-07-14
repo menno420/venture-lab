@@ -16,41 +16,96 @@ env tokens exist) and stall on imagined walls — burning owner attention as
 hand reminders. This ledger makes capability knowledge durable across
 sessions: one session's discovery is every later session's starting fact.
 
+<!-- substrate-kit:capability-seed BEGIN — kit-owned, refreshed at upgrade. Append your findings BELOW the fence (## Append log), never inside it. -->
+
+## Posture decision rule — establish your venue first
+
+- **Owner-live session:** assume NO special limitations apply — act and merge
+  directly (superbot Q-0269).
+- **Autonomous / routine-fired seat:** pre-route around every known stall
+  class recorded below; park only on a REAL denial, never preemptively
+  (superbot Q-0270 boot triad: model · venue · ability envelope).
+
+Venue tokens (every entry names where it was verified): `owner-live` ·
+`autonomous-project` · `routine-fired` · `subagent` · `any`. Capabilities are
+**venue-scoped, not global** — the same operation can work owner-live, be
+org-refused on a cross-session binding, and prompt-stall in a plain-started
+seat while never prompting in a Routine-spawned one (fleet night review,
+2026-07-12). A flat CAN/CANNOT ledger is wrong somewhere by construction.
+
 ## THE DISCOVERY RULE
 
 Before declaring anything impossible, and before assuming a tool or
 credential is missing:
 
-1. **Check this file** — the capability or wall may already be recorded.
-   Verified walls with exact error text also live in
-   [`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md) — **probing a documented wall
-   twice is a bug.**
+1. **Check this file** — the capability or wall may already be recorded for
+   your venue.
 2. **Check the environment** — `printenv` / list the available tools BEFORE
    assuming no credentials exist (provisioned env tokens are routinely
-   forgotten, not absent):
-   ```bash
-   printenv | grep -iE 'token|key|railway|discord'   # presence only, never values
-   ```
-3. **Attempt once** — try the operation and capture the **exact** error text
-   verbatim, not paraphrased; a guessed wall and a verified wall are different
-   facts.
+   forgotten, not absent).
+3. **Attempt once** — try the operation and capture the **exact** error text;
+   a guessed wall and a verified wall are different facts.
 4. **Append the finding same session** — capability or wall, dated, with the
-   evidence (exact error, or proof it worked) and the workaround if one was
-   found. An unrecorded discovery is re-paid by every future session.
+   venue token, the evidence (exact error, or proof it worked) and the
+   workaround if one was found. An unrecorded discovery is re-paid by every
+   future session.
+5. **Staleness — re-verify what you build on**: an entry older than the
+   staleness window (config `cadence.staleness_days`, default 14) that your
+   work depends on is a **claim, not a fact** — re-verify it with one cheap
+   attempt and append the result. Re-verifications APPEND, never edit: a
+   refuted wall can self-resolve platform-side, and a ledger with no
+   freshness data is confidently stale — worse than ignorant.
 
 ## Capabilities — verified working
 
-Short summary bullets, then the recipes sessions most often forget.
-
-- **Media is readable**: a video is never "unviewable" — extract frames and
-  read the images; same idea for audio (transcribe) and PDFs (render pages).
-  Try the recipe before reporting a format wall.
-- **Provisioned credentials**: the environment often carries tokens/keys as
-  env vars — `printenv` first; a missing-looking credential is usually a
-  missing *look*.
-- **Release cutting despite the tag wall**: `workflow_dispatch` on the
-  release workflow (with a version input) creates the tag in-Actions —
+- `any` · **Media is readable**: a video is never "unviewable" — extract
+  frames (`ffmpeg -i in.mp4 -vf fps=1 frame_%04d.png`) and read the images;
+  same idea for audio (transcribe) and PDFs (render pages). Try the recipe
+  before reporting a format wall. — LAST-VERIFIED: 2026-07-10
+- `any` · **Provisioned credentials**: the environment often carries
+  tokens/keys as env vars — `printenv` first; a missing-looking credential is
+  usually a missing *look*. — LAST-VERIFIED: 2026-07-10
+- `any` · **Release cutting despite the tag wall**: `workflow_dispatch` on
+  the release workflow (with a version input) creates the tag in-Actions —
   proven repeatedly fleet-wide after direct tag pushes 403'd.
+  — LAST-VERIFIED: 2026-07-12
+
+## Walls — verified blocked (use the workaround; don't rediscover)
+
+- `any` · **Tag push / release create via git**: HTTP 403 from the
+  environment's git proxy → use the workflow_dispatch release path.
+  — LAST-VERIFIED: 2026-07-12
+- `any` · **Branch deletion**: 403 on every path (git push `:branch` and
+  API) → owner deletes by hand / enables "Automatically delete head
+  branches". — LAST-VERIFIED: 2026-07-10
+- `any` · **`api.github.com` direct HTTP**: blocked → GitHub access is
+  MCP-tools-only. — LAST-VERIFIED: 2026-07-10
+- `any` · **Environment / Project creation**: owner-click actions in the
+  console — queue them as structured owner asks, never wait silently.
+  Routine/schedule creation is NO LONGER a blanket wall: `create_trigger`
+  arms routines agent-side (proven 2026-07-11); the console-only knobs
+  (model class, branch-push, auto-fix PRs) remain owner-only.
+  — LAST-VERIFIED: 2026-07-11
+- `subagent` · **Self-merge classifier**: sessions can be refused merging
+  owner-gated PRs while their other capabilities work — and the boundary
+  differs by venue (a child session was refused where a coordinator was
+  not). Record which venue hit which boundary. — LAST-VERIFIED: 2026-07-10
+- `any` · **GraphQL API quota**: tight — batch queries and prefer the
+  REST-backed MCP tools for bulk reads. — LAST-VERIFIED: 2026-07-10
+- `routine-fired` · **Silent prompt-stalls**: a permission prompt in an
+  unattended seat is a silent stall, and grant boundaries differ by venue —
+  the same tool call can be pre-granted in a Routine-spawned seat and prompt
+  in a plain-started one. Pre-route around recorded stall classes; verify
+  grants per venue, never globally. — LAST-VERIFIED: 2026-07-12
+
+<!-- substrate-kit:capability-seed END -->
+
+## Local recipes — verified working (consumer-owned, venture-lab)
+
+Kept below the kit fence on purpose (the fence is kit-owned and refreshes at
+upgrade). Verbatim error texts for the walls in the append log are archived
+in [`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md) — the evidence appendix, not a
+second source of truth. **Probing a documented wall twice is a bug.**
 
 ### View video / audio files (.mp4, .webm, .mov, .mp3, …)
 Sessions claim they can't view an .mp4. They CAN:
@@ -84,11 +139,11 @@ first commit via the **Contents API** (`create_or_update_file` / `push_files`)
 — that creates `main`, and normal git works from then on. (Fleet playbook R13;
 this repo was bootstrapped exactly this way, 2026-07-09.)
 
-### Arm auto-merge while checks are pending
-GitHub refuses to arm auto-merge on an already-green PR — arm it **at PR
-creation, in the checks-pending window** (`enable_pr_auto_merge`). This is the
-sanctioned merge path; see the self-merge wall in
-[`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md). (Fleet playbook R5/R12.)
+### Land a PR (the venture-lab way)
+Open the PR READY (never draft) on a `claude/*` head and leave it green —
+the installed auto-merge enabler (PR #59) lands it. Do NOT self-merge or arm
+auto-merge from an agent seat: see the self-merge classifier wall in the
+append log. (Fleet playbook R5/R12; conventions rule 2.)
 
 ### Run any repo's own checkers locally
 Clone (or fetch) the repo and run its own gates — `bootstrap.py check
@@ -132,33 +187,44 @@ workstream became impossible. Recipe: for concurrent builders touching the
 working tree, pass `isolation:'worktree'` so each gets its own checkout; only
 read-only parallel workers are safe in a shared clone.
 
-## Walls — verified blocked (use the workaround; don't rediscover)
-
-Exact error text for these lives in
-[`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md) — probing a documented wall twice
-is a bug.
-
-- **Tag push / release create via git**: HTTP 403 from the environment's git
-  proxy → use the workflow_dispatch release path.
-- **Branch deletion**: 403 on every path (git push `:branch` and API) →
-  owner deletes by hand / enables "Automatically delete head branches".
-- **`api.github.com` direct HTTP**: blocked → GitHub access is MCP-tools-only.
-- **Environment / routine / Project creation**: owner-click actions in the
-  console — queue them under `⚑ needs-owner`, never wait silently.
-- **Self-merge classifier**: sessions can be refused merging owner-gated PRs
-  while their other capabilities work — and the boundary differs by session
-  kind (a child session was refused where a coordinator was not). Record
-  which kind of session hit which boundary.
-- **GraphQL API quota**: tight — batch queries and prefer the REST-backed
-  MCP tools for bulk reads.
-
 ## Append log — newest first
 
-Format: `- YYYY-MM-DD · capability|wall · finding · evidence · workaround`.
+Format: `- YYYY-MM-DD · capability|wall · <venue> · finding · evidence · workaround`
+(venue ∈ `owner-live` · `autonomous-project` · `routine-fired` · `subagent` ·
+`any`; older five-field lines without a venue token stay valid — read them
+as venue `any`.)
 
-(Hand-filled by sessions, per the discovery rule. Seed walls/capabilities
-above came from the fleet's lived 2026-07 findings; local ones go here.)
+(Hand-filled by sessions, per the discovery rule. Seed rows above are
+kit-owned — they refresh at upgrade between the fence markers; local
+findings go here, below the fence.)
 
+- 2026-07-14 · wall · autonomous-project · self-merge and auto-merge-arm of
+  own PRs are classifier-denied in agent seats → a green `clean` PR is
+  agent-unlandable; recipe: leave it READY + green on a `claude/*` head —
+  the auto-merge enabler lands it (else one owner click) · evidence: denials
+  on PRs #9/#15/#55 verbatim ([Self-Approval] / [Merge Without Review];
+  relayed coordinator context is never genuine authorization), archived in
+  `docs/PLATFORM-LIMITS.md`; substrate-gate IS a required check since PR #55
+  · workaround: enabler-lands `claude/*` heads (installed PR #59); a
+  non-`claude/*` head parks for a non-author merge.
+- 2026-07-14 · wall · any · direct push to `main` refused by repo ruleset ·
+  evidence: verbatim at seed (2026-07-09): `422 Repository rule violations
+  found — Changes must be made through a pull request.` (archived in
+  `docs/PLATFORM-LIMITS.md`) · workaround: land everything via PR,
+  forward-only git — no force-push, no amending pushed history.
+- 2026-07-14 · wall · any · remote branch deletion re-verified DENIED at the
+  credential layer, and there is no MCP branch-delete surface · evidence:
+  2026-07-13, `git push origin --delete <branch>` → `error: RPC failed;
+  HTTP 403 curl 22 The requested URL returned error: 403` (reads work over
+  the same credential) · workaround: owner click — grant branch-delete scope
+  or enable "Automatically delete head branches"; do NOT re-probe.
+- 2026-07-14 · wall · any · no-API owner-click surfaces: claude.ai
+  environments/Projects and the console-only Routine knobs, plus GitHub repo
+  settings/rulesets, have no agent API surface · evidence:
+  `docs/PLATFORM-LIMITS.md` fold (ORDER 012; carried from the fleet
+  capability manifest at seed 2026-07-09) · workaround: queue click-level
+  owner asks under ⚑ needs-owner (WHAT/WHERE/HOW/WHY/UNBLOCKS), never wait
+  silently.
 - 2026-07-11 · capability · the two split ledgers (`docs/CAPABILITIES.md` +
   `docs/capabilities.md`, a case collision) merged into this one file at the
   kit-canonical uppercase path · evidence: `bootstrap.py:2727`

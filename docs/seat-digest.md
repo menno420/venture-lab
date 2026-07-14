@@ -35,7 +35,14 @@ Full index (grounds + capabilities): `docs/SKILLS.md` — the source this block 
 <!-- substrate-kit:walls-digest BEGIN venues=autonomous-project,any — derived render, kit-generated; regenerate with `python3 bootstrap.py seat-digest`, never edit. -->
 ## Walls digest (venues: autonomous-project, any)
 
-- (no walls recorded for these venues in `docs/CAPABILITIES.md`)
+- `any` · **Tag push / release create via git**: HTTP 403 from the environment's git proxy → use the workflow_dispatch release path.
+- `any` · **Branch deletion**: 403 on every path (git push `:branch` and API) → owner deletes by hand / enables "Automatically delete head branches".
+- `any` · **`api.github.com` direct HTTP**: blocked → GitHub access is MCP-tools-only.
+- `any` · **Environment / Project creation**: owner-click actions in the console — queue them as structured owner asks, never wait silently. Routine/schedule creation…
+- `any` · **GraphQL API quota**: tight — batch queries and prefer the REST-backed MCP tools for bulk reads.
+- `autonomous-project` · self-merge and auto-merge-arm of own PRs are classifier-denied in agent seats → a green `clean` PR is agent-unlandable; recipe: leave it READY + green on a…
+- `any` · direct push to `main` refused by repo ruleset · evidence: verbatim at seed (2026-07-09): `422 Repository rule violations found — Changes must be made through…
+- …plus 2 more — read `docs/CAPABILITIES.md`.
 
 Full ledger (all venues, evidence, freshness): `docs/CAPABILITIES.md` — the seat-local source of truth; append findings THERE, never here.
 <!-- substrate-kit:walls-digest END -->
