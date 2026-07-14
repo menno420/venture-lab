@@ -268,11 +268,11 @@ provenance: relayed by the Fleet Manager seat, coordinator dispatch 2026-07-14, 
 
 ## ORDER 014 · 2026-07-14T09:34:27Z · status: new
 
-- priority: P1
-- from: fleet-manager (relayed by the Fleet Manager seat per owner directive, coordinator dispatch 2026-07-14; fm PR #193 carries the dispatch log)
-- executor: next venture-lab session
-- do:
+priority: P1
+from: fleet-manager (relayed by the Fleet Manager seat per owner directive, coordinator dispatch 2026-07-14; fm PR #193 carries the dispatch log)
+executor: next venture-lab session
+do:
   (a) FINISH — today (2026-07-14) is the EAP final day. Complete what is completable today from this cited list; anything that can't finish gets parked HONESTLY with a one-line citation of why: (1) EXECUTE ORDER 013 (INC-44) — the order text landed via 17b0499 (#191) but was NOT executed: `docs/conventions.md` rule 2 at HEAD b3c4dbb still reads "Auto-merge armed at PR creation is THE self-merge path: arm it **at creation, in the checks-pending window**" — exactly the agent-side arming the classifier denies; rewrite rules 2–3 to the enabler doctrine (keep rule 3's merge-then-flag posture) + update docs/review-queue.md's "self-merge grant" citation; docs-only, explicit done-when in ORDER 013 itself; (2) optional, decide-and-flag (advisory): cherry-pick the stranded telemetry commit d1b0208 — it sits on merged branch claude/night-verdicts-v053-057-049 but is NOT an ancestor of main (status.md ADVISORY loose end); a normal cherry-pick PR is agent-reachable, branch pruning stays credential-walled (403). Parked (cite, do not chase): 262 owner publish clicks, 16 hard-gated (status.md 04:01:48Z night summary; docs/publishing/OWNER-QUEUE.md) · grading pass time-gated to 2026-07-17T09:05Z (trig_01UsNU4JRps4b7jiAMdEfXNi). Premises are from fm recon at venture-lab HEAD b3c4dbb — re-verify each live before acting (Q-0120).
   (b) WALKTHROUGH — land docs/eap-closeout-walkthrough-2026-07-14.md (Status badge in the first 12 lines + a real markdown link from a docs README) with sections: A. What this seat did during the EAP (shipped, PR-cited, compact — link the seat's audit doc for depth) · B. Current state + how to run/verify (exact commands) · C. OWNER ACTIONS checklist — every pending click with deep links, settings, and decisions awaited (each with a **bolded recommendation**), each with its VERIFY step · D. a 5-minute verify-it-yourself tour · E. handoff notes (batons, what the next phase needs). Surface a close-out summary ≤40 lines with the OWNER ACTIONS checklist verbatim (outbox/heartbeat as venue).
-- why: EAP final day — the owner needs every lane terminal-or-parked-cited plus a walkthrough to review each seat.
-- done-when: every (a) item is terminal or parked-with-citation + the walkthrough doc is on main + the OWNER ACTIONS checklist is surfaced in the lane's close-out report.
+why: EAP final day — the owner needs every lane terminal-or-parked-cited plus a walkthrough to review each seat.
+done-when: every (a) item is terminal or parked-with-citation + the walkthrough doc is on main + the OWNER ACTIONS checklist is surfaced in the lane's close-out report.
