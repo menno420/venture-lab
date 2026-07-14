@@ -18,9 +18,11 @@ outcome: open
 > words — each scored 1–5 on six axes (max 30): **E**ra-register
 > disjointness · **C**raft spine · collision risk **X** (5 = clean) ·
 > **M**arket angle · **S**ensitive-history load (5 = light) · house-voice
-> **F**it. Verdict shape: **1 WRITTEN · 4 unwritten (the next session's
+> **F**it. Verdict shape: **2 WRITTEN · 3 unwritten (the next session's
 > menu).** The strongest concept was written THIS session
-> (`candidates/adult-novels/the-sweetwater-sea/`, PR #182); nothing here is
+> (`candidates/adult-novels/the-sweetwater-sea/`, PR #182), and concept 2
+> followed the same night (`candidates/adult-novels/the-wire-garden/`,
+> PR #187); nothing here is
 > published, packeted, or spent on — every concept still requires its own
 > vetting packet under `docs/publishing/vetting/` before any publish step,
 > and this batch touched nothing under `docs/publishing/`.
@@ -38,7 +40,7 @@ outcome: open
   by this batch) and title-collision-scanned at concept level; full
   collision scans re-run at packet time per house rule.
 - **Frontmatter caveat:** the outcome record above is file-level while the
-  cohort splits (concept 1 written, 2–5 open) — see this batch's session
+  cohort splits (concepts 1–2 written, 3–5 open) — see this batch's session
   card 💡 (`.sessions/2026-07-14-night-new-title.md`) for the proposed
   per-concept fix.
 
@@ -62,7 +64,7 @@ nonfiction — full phrase distinct; re-scan at packet time.
 sibling `DECISIONS.md` (verified-vs-invented historical ledger). Vetting
 packet = recorded follow-up slice.
 
-## 2. The Wire Garden (26/30: E4 C4 X5 M4 S4 F5)
+## 2. The Wire Garden — **WRITTEN this session** (26/30: E4 C4 X5 M4 S4 F5)
 
 Brabant border village, 1915–1918. The Dodendraad — the lethal electric
 fence the occupiers of Belgium strung along the neutral Dutch border — runs
@@ -71,6 +73,15 @@ and what crosses with the bees is letters, then people. The Netherlands
 neutral: a war watched at the fence, not lived under. Risk to manage:
 forbidden-aid register adjacency to The Paper Orange — disjoint by valence
 (neutrality/witness vs occupation/survival). Clean title collision scan.
+
+**Status:** manuscript complete at honest `wc -w` 15,900 (12 chapters),
+`candidates/adult-novels/the-wire-garden/en/the-wire-garden.md` + sibling
+`DECISIONS.md` (verified-vs-invented historical ledger), PR #187. Vetting
+packet = recorded follow-up slice. Honest correction: the "clean title
+collision scan" above is superseded — an exact-title collision surfaced at
+write time (*The Wire Garden*, W. D. Marcum, 2025 espionage thriller, live
+on Amazon); genre-disjoint, subtitle mandatory (*A novella of the
+Dodendraad*), recorded in DECISIONS.md.
 
 ## 3. The Salt Bell (24/30: E5 C4 X4 M4 S3 F4)
 
@@ -103,12 +114,14 @@ title phrase is heavily used — would need retitling.
 | # | Concept | E | C | X | M | S | F | Total | Verdict |
 |---|---------|---|---|---|---|---|---|-------|---------|
 | 1 | The Sweetwater Sea | 5 | 5 | 4 | 4 | 5 | 5 | **28/30** | **WRITTEN** (this session, PR #182) |
-| 2 | The Wire Garden | 4 | 4 | 5 | 4 | 4 | 5 | 26/30 | next-session menu |
+| 2 | The Wire Garden | 4 | 4 | 5 | 4 | 4 | 5 | 26/30 | **WRITTEN** (this session, PR #187) |
 | 3 | The Salt Bell | 5 | 4 | 4 | 4 | 3 | 4 | 24/30 | next-session menu |
 | 4 | The Lamp Room | 4 | 4 | 4 | 3 | 5 | 4 | 24/30 | next-session menu |
 | 5 | The Eleven Cities | 4 | 4 | 3 | 4 | 5 | 3 | 23/30 | next-session menu (retitle first) |
 
-**Next slice:** vetting packet for The Sweetwater Sea (collision re-scan,
-category/keyword rows, §7 owner clicks) — the manuscript exists, the packet
-does not. After that, the next generative write-slice picks from concepts
-2–5 in rank order, re-scoring against the shelf at that HEAD.
+**Next slice:** vetting packets for The Sweetwater Sea and The Wire Garden
+(collision re-scans, category/keyword rows, §7 owner clicks) — the
+manuscripts exist, the packets do not. After that, the next generative
+write-slice picks from concepts 3–5 in rank order — #3 The Salt Bell
+(24/30) is the next-ranked unwritten concept — re-scoring against the
+shelf at that HEAD.
