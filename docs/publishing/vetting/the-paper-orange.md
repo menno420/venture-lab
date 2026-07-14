@@ -123,16 +123,36 @@ collection did not resurface on page one. Verdict unchanged.
 
 ## 6. Listing copy (graduated — nothing published)
 
-- [ ] Concept blurb (still draft v0 — kept honest: NOT yet rewritten from
-      the finished manuscript; that rewrite is seat work owed before the
-      owner pastes a final blurb at §7 step 5): *Amsterdam, the winter of
-      1944. The presses are cold, the
-      canals are ice, and Mies Verhoeven — a printer's widow with two
-      children and half a sack of tulip bulbs — discovers that the one thing
-      her husband's workshop can still produce is the difference between
-      eating and not: ration coupons good enough to fool a checkpoint. A
-      novella of the Hunger Winter, about forgery as mercy, and the paper
-      orange hidden in the wallpaper for the day the lights come back.*
+- [x] **Blurb/description** (KDP book description, draft v2 — rewritten
+      2026-07-14 from the finished manuscript, closing the graduation
+      verdict's flagged gap; supersedes the concept draft v0):
+
+> Amsterdam, December 1944. The gas is gone, the canals are freezing
+> over, and Mies Verhoeven — a printer's widow with two children and half
+> a sack of tulip bulbs — is learning the arithmetic of the Hunger
+> Winter: what a stove will burn, what a bulb will yield, what a child
+> can be told. Below her kitchen her late husband's print shop stands
+> shuttered — until she understands that the one thing the press can
+> still produce is the difference between eating and not: ration coupons
+> good enough to pass a checkpoint.
+>
+> While the city learns hunger, Mies keeps her own ledger — what the
+> press gives, who comes knocking, and what one person owes another when
+> there is nothing left to share. And behind the wallpaper, in a seam
+> nobody else knows, waits a small orange folded from paper, inked by her
+> husband in the first August of the occupation, for the day the lights
+> come back.
+>
+> A novel of the Hunger Winter: about forgery as mercy, courage in small
+> rooms, and what people feed each other when there is nothing left.
+
+- [x] **Content note for the listing** (carried from the manuscript's own
+      title-page content note, PR #122): wartime famine and its effects on
+      children and the elderly; deaths from hunger and cold (restrained,
+      largely offpage); bereavement and grief; references to the
+      persecution and deportation of Amsterdam's Jewish community;
+      occupation raids and one distant shooting. No graphic violence; no
+      explicit content. For adult readers.
 - [x] **Two categories (claimed at graduation):**
       (1) Literature & Fiction → Genre Fiction → Historical Fiction →
       **World War II** — deliberately the WWII *sub-node*, not the parent
@@ -167,7 +187,14 @@ collection did not resurface on page one. Verdict unchanged.
 
 Seat output = this queued OWNER-ACTION block; the seat performed **none** of
 it. The concept-stage manuscript prerequisite is CLOSED (PR #122); the
-sequence is now gated only on the owner clicks below.
+sequence is now gated only on the owner clicks below. **V020 probe pairing
+note (2026-07-14):** this title is version A of the pre-registered
+audience-separation probe
+([`v020-probe-audience-separation.md`](v020-probe-audience-separation.md))
+— if the owner runs the probe, this sequence and the NL edition's
+([`de-papieren-sinaasappel.md`](de-papieren-sinaasappel.md)) must go live
+within 48 h of each other and no ads may run for the 14-day window; the
+probe adds NO extra clicks to this sequence.
 
 **OWNER-ACTION — Publish "The Paper Orange" (A Novel of the Hunger Winter)**
 1. **KDP account:** owner logs into (or creates) KDP; tax/bank interview
@@ -181,8 +208,8 @@ sequence is now gated only on the owner clicks below.
 4. **Price:** **$4.99** (70% tier; ≈ $3.49/sale).
 5. **Categories/keywords:** the two §6 categories + 7 keywords — now owned
    rows in the keyword map §1, verified at graduation (2026-07-13); paste
-   the final blurb (seat rewrites §6's draft v0 from the finished
-   manuscript first).
+   the §6 blurb v2 + content note (rewritten from the finished manuscript
+   2026-07-14 — the graduation gap is closed).
 6. **KDP Select (KU):** **Yes** — enroll (90-day exclusive, reversible);
    final title-availability recheck on KDP before upload.
 
@@ -204,6 +231,7 @@ by PR #122: length measured (15,811 words — roughly half the ~25k–35k the
 concept planned; delta flagged in §3, price band unaffected), collision
 re-scanned **Low** (2026-07-13), price confirmed ($4.99), and keyword
 ownership claimed in the map §1 (two shared WWII browse nodes per C4 + 7 EN
-keyword rows). The remaining honest gap is the §6 blurb rewrite from the
-finished manuscript (seat work, flagged). Next gate = the §7 owner clicks —
-no publishing step was performed.
+keyword rows). The formerly-flagged §6 blurb-rewrite gap is CLOSED
+(2026-07-14: blurb v2 + content note written from the finished manuscript,
+the V020-probe materials pass). Next gate = the §7 owner clicks — no
+publishing step was performed.
