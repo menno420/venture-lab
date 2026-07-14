@@ -1,17 +1,114 @@
-# venture-lab coordinator heartbeat
-updated: 2026-07-14T10:21:38Z
-As of 2026-07-14T01:13:32Z — the EAP final-night close-out heartbeat; the coordinator seat is live (Project venue). Main HEAD at write: `a3cf20a` (PR #180). ORDER 011 (relaying fm ORDER 045) ALL 7 ITEMS plus the owed follow-through batch COMPLETE — 11 PRs enabler-merged green tonight: #169, #171, #172, #173, #174, #175, #176, #177, #178, #179, #180 (all eleven verified merged via live MCP at write; all seven cited squash commits verified reachable from main by `git merge-base --is-ancestor`). 📊 Model: Claude Fable family (family-level per the fleet standing rule; recorded here because the control fast lane carries no session card).
-ITEM 1 (PR #169, squash `c3cb320`): cc-cost-lens KILLED at its intake gate (Kill Rule 0, honest grounds recorded in-place); fresh 7-concept ideation batch on file — 1 BUILD / 2 PARK / 4 KILL, makerbench excluded; the sole BUILD, **AI Novella Production Kit $29**, built to publish-READY (packet #10, click queued D2 Gumroad). ITEM 2 (anchor PR #172 `b7ef131` + siblings #175/#176/#177/#178): 8 large-print EDITION-SPECs plus 4 complete NL editions — *De Nachtoven* 16,840w · *De Marmeladepost* 15,637w · *De glazen pastorie* 15,573w · *De Driekoningentaart* 16,897w; NL coverage now 8 of 11 EN adult manuscripts. ITEM 3 (PR #174 `0d9335d`): Night Kiln Book 3, *The Harvest Rows*, complete at 23,334w — inside the packet's 20–30k band; the length-band tension is flagged and the Book-2 ruling stays owner-queued. ITEM 4 (PR #173 `02ebd70`): sim verdicts applied at source-canonical text — V053 diversify rule in, V057 first-claim-wins ratified, V049 KU fork REJECTED (the blanket KDP-Select posture struck; enrollment is a per-title owner decision). ITEM 5 (PR #179 `d1edd7c`): V020 audience-separation probe PRE-REGISTERED (Paper Orange EN ↔ NL pair, s_hat decision rule, 14-day window); its 3 owner clicks are queued — nothing published, nothing measured. ITEM 6 (PR #171 `aa04700`): 4 new WEBSITE-IDEA markers appended to control/outbox.md for manager routing. ITEM 7 + owed batch (PR #180 `a3cf20a`): 4 NL vetting packets, 28 keyword-map C4 rows + 8 browse-node rows (full-map V057 collision scan clean), the night-kiln packet un-staled against the tree, and ONE owner-queue regen — FINAL COUNTS **19 decisions / 37 sequences / 213 clicks (11 hard-gated)**, counts-sync to current-state + NEXT-SESSION per the #166 remedy class.
-CATALOG AT CLOSE: 1 LIVE (SWTK $29) + 10 publish-READY + 2 hard-gated; 12 EN adult manuscripts on file. BLOCKED-AS-ORDERED, untouched: the 213 owner publish clicks, photo-pack owner-held originals, Ship-It Bundle ⚑B/⚑D, the Night Kiln 2 length band, the makerbench ban. ADVISORY loose end: telemetry commit `d1b0208` sits on merged branch `claude/night-verdicts-v053-057-049` and is NOT in main (`git merge-base --is-ancestor` fails at write) — no action taken; branch pruning is credential-walled (docs/PLATFORM-LIMITS.md).
-TRIGGER DISPOSITION: unchanged — failsafe trig_01SbFnHdb1bvUzDnKrDdRb6t live on the coordinator seat; weekly grading BUSINESS cron trig_01UsNU4JRps4b7jiAMdEfXNi, next fire 2026-07-17T09:05Z, the Friday grading executor LIVE (dry-run CLEAN); SWTK T+7 one-shot trig_01V9DZrTtDU81Sm7vektX9fa (2026-07-19T16:37Z); SWTK T+14 kill-rule one-shot trig_01SNkNWfSXoAdz1ALf4YNbC6 (2026-07-26T16:37Z). FOREIGN, untouched and recorded only: trig_01YXNmgqYeYQ1LuepsLmbNCG (send_later, 2026-07-17T09:00Z, non-seat session — potential duplicate grading fire on 07-17).
-⚑ Owner asks queued: (1) OWNER-QUEUE click-runs (docs/publishing/OWNER-QUEUE.md, defaults **bolded**, "go with defaults" works); (2) R5-C A/B/C letter (trading `docs/proposals/r5c-btc-bollinger-breakout-oos-proposal.md`); (3) Night Kiln 2 length band (16k parity vs the packet's 20–30k plan); (4) branch-delete credential (403 wall, docs/PLATFORM-LIMITS.md).
-Next 2 (baton): (1) Friday 2026-07-17 grading pass — executor live on the coordinator seat, dry-run CLEAN; (2) owner click-runs / round-7 + follow-on probes on owner direction.
-2026-07-14T02:10Z night-progress (BOOKS generative rung, ORDER 008 item 1 / ORDER 011 item 2): new adult title **The Sweetwater Sea** complete on PR #182 (`claude/night-new-title`) — 12 chapters, honest `wc -w` 15,243 (band 15,000–16,000), `candidates/adult-novels/the-sweetwater-sea/{en/the-sweetwater-sea.md,DECISIONS.md}` (verified-vs-invented ledger in DECISIONS); shortlist of 4 ranked unwritten concepts (The Wire Garden 26/30 · The Salt Bell 24 · The Lamp Room 24 · The Eleven Cities 23) recorded at `docs/ideas/2026-07-14-adult-title-concepts.md`; `docs/publishing/**` untouched — Sweetwater vetting packet queued as the follow-up slice; enabler's armed squash auto-merge left in place.
-2026-07-14T02:40Z night-progress (BOOKS lane, ORDER 011 item 2 continuation, owner night directive): NL catalog line COMPLETE — three complete NL editions landed tonight: *Liefde in de kantlijn* 15,633w (PR #183, merged), *De Morgendeur* 16,730w (PR #185, merged), *De geborgen boomgaard* 15,750w (anchor PR #184, enabler auto-merge armed, lands on the card flip); adult NL editions now 11, every ORDER-011 EN adult manuscript covered (EN-only remainders: *The Harvest Rows* Book 3 + tonight's *The Sweetwater Sea*, PR #182). Follow-through in the same batch per the #166 remedy class (PR #184): 4 vetting packets — `de-geborgen-boomgaard`, `liefde-in-de-kantlijn`, `de-morgendeur` (Book-2 length-band ⚑ carried untouched), `the-sweetwater-sea` (coordinator scope-add for PR #182; collision recorded honestly: Low exact-title, Moderate Great-Lakes-epithet search drift, subtitle mandatory) — keyword-map rows (6 new browse-node claims + 28 keyword rows incl. three C4 first-claims, the map's first SERIES node-share for De Morgendeur, and C3's fourth Netherlands era-register for Sweetwater; full-map V057 first-claim scan clean, no existing claim touched), ONE `derive_owner_queue.py` regen — counts now **19 decisions / 41 sequences / 241 clicks (14 hard-gated), 43/43 inputs clean** (from 19/37/213, 11 hard-gated) — and counts-sync to current-state + NEXT-SESSION (stale "4 adult NL editions" → 11 by grep; packets 38 → 42; adult EN manuscripts 12 → 13).
-2026-07-14T03:40Z night-progress (BOOKS lane, ORDER 011 NL-completion remainder, night-final slice): NL catalog 13/13 COMPLETE — the two EN-only remainders landed as NL editions on PR #186 (`claude/night-nl-final`, born-red anchor card): *De zoete zee* 15,467w (12 chapters, +1.5% over the 15,243w EN source; pre-named title per DECISIONS.md, subtitle *Een novelle van de Zuiderzee*) and *De Oogstslag* 24,655w (12 chapters, +5.7% over the 23,334w EN source; title derived decide-and-flag — no pre-naming existed — Books One–Two series glossary inherited unchanged, translated AS WRITTEN with the Book-2 length-band ⚑ untouched). Same-batch follow-through per the #166 remedy class: 2 vetting packets (`de-zoete-zee`, `de-oogstslag`) + 14 keyword-map rows (7+7 NL C4 first-claims; full-map V057 first-claim scan run clean twice — at proposal and re-run at apply — zero collisions, no spares used; De zoete zee shares The Sweetwater Sea's two browse nodes per C4, De Oogstslag rides De Nachtoven's two per the §3 series rule, the map's second series node-share), ONE `derive_owner_queue.py` regen — counts now **19 decisions / 43 sequences / 256 clicks (16 hard-gated), 45/45 inputs clean** (from 19/41/241, 14 hard-gated) — and counts-sync to current-state + NEXT-SESSION (adult NL editions 11 → 13, packets 42 → 44; night-kiln versions/README "two EN novellas" intro drift fixed to three EN + three NL). Title-ratification ⚑s queued owner-side (De Oogstslag bundled with the series' titles, De zoete zee with its §2 collision findings); nothing published, no clicks performed.
-2026-07-14T03:43:50Z night-progress (BOOKS generative rung, ORDER 008 item 1 / ORDER 011 item 2): second adult title **The Wire Garden** complete on PR #187 (`claude/night-wire-garden`) — 12 chapters, honest `wc -w` 15,900 (band 15,000–16,000), `candidates/adult-novels/the-wire-garden/{en/the-wire-garden.md,DECISIONS.md}` (verified-vs-invented Dodendraad ledger; exact-title collision recorded, subtitle mandatory; NL title pre-named De draadtuin); shortlist doc marked 2 WRITTEN · 3 unwritten (next: The Salt Bell 24/30); docs/publishing/** untouched — vetting packet queued as follow-up slice.
-2026-07-14T04:01:48Z night-summary (continuation wave complete — final close-out slice, `claude/night-wire-garden-packet`): the Wire Garden owed follow-up landed — vetting packet `docs/publishing/vetting/the-wire-garden.md` (manuscript-backed, 15,900w re-measured; §2 collision re-scan confirms the 2025 genre-disjoint Marcum thriller, retitle declined, subtitle *A novella of the Dodendraad* MANDATORY; NL pre-name *De draadtuin* carried), keyword-map rows (2 browse-node claims + 7 EN rows; C3's fifth Netherlands era-register, WWI neutral-border/Dodendraad; full-map V057 first-claim scan run at proposal and re-run at apply, zero collisions), ONE `derive_owner_queue.py` regen — counts now **19 decisions / 44 sequences / 262 clicks (16 hard-gated), 46/46 inputs clean** (from 19/43/256, 16) — counts-sync to current-state + NEXT-SESSION. NIGHT TALLY, all lists done, no remainder: venture shipped product #10 (AI Novella Production Kit $29 publish-READY) + 2 new EN novellas (The Sweetwater Sea 15,243w PR #182, The Wire Garden 15,900w PR #187) + 7 NL editions (PRs #183–#186 wave — NL catalog 13/13 complete) + 8 large-print EDITION-SPECs (PR #172) + sim verdicts applied (V037/V039/V040/V041 + V053/V057/V049, PRs #163/#173) + V020 probe pre-registered (PR #179); trading shipped round 6 + retrospective + 2 infra improvements (trading repo); pointers: docs/publishing/OWNER-QUEUE.md (owner clicks), docs/current-state.md + docs/NEXT-SESSION.md (synced counts).
-2026-07-14T06:34:32Z ORDER 012 ack/done (fence-exposure fold, PR `claude/order-012-fence`): the kit `substrate-kit:capability-seed` fence restored in `docs/CAPABILITIES.md` in kit form (byte-identical to this repo's own `bootstrap.py` template render and to the superbot-next reference at `docs/CAPABILITIES.md:19`/`:101`); the real verified walls folded venue-tagged into the ledger's append log (self-merge classifier with the agent-unlandable-PR recipe `autonomous-project` · direct-push-to-main 422 ruleset · branch-delete 403 re-verify · no-API owner-click surfaces, all `any`); `docs/PLATFORM-LIMITS.md` converted to a pointer + verbatim-evidence appendix so the ledger is the ONE extractable source of truth; `docs/seat-digest.md` regenerated via `python3 bootstrap.py seat-digest` — the walls block now renders 7 rows + "+2 more" instead of "(no walls recorded for these venues)"; `python3 bootstrap.py check --strict` green locally apart from the designed born-red card hold (flipped at close). Done-when met at the PR head; landing rides the enabler on the `claude/*` head.
-2026-07-14T08:58:01Z EAP-audit note: the EAP project audit landed via PR #192 → `docs/audits/eap-project-audit-2026-07-14.md` (measured: VL 152 session cards / 224 commits / 192 PRs; TS 71 / 130 / 121; walls and asks recorded in §3/§9).
-2026-07-14T09:08:55Z EAP-audit follow-up: audit §8 attributions corrected via PR #193 — the selection-fair/reason_class/review-index/KILL-SIG fixes now cited repo-qualified to verified trading-strategy PRs (#111 d498018 · #121 c60183f · #109 3c628e4 · #100 08ddbd4) → docs/audits/eap-project-audit-2026-07-14.md §8.
-2026-07-14T10:21:38Z ORDER 013+014 ack/done (EAP final-day close-out): done-when met for both at the PR heads. ORDER 013 (INC-44) → PR #196 — docs/conventions.md rules 2–3 rewritten to the enabler doctrine (rule 3's merge-then-flag posture kept), docs/review-queue.md "self-merge grant" citation synced; no binding line instructs agent-side arming. ORDER 014(a)(2) decide-and-flag → PR #195 — stranded telemetry commit d1b0208 recovered by cherry-pick (branch pruning stays credential-walled, docs/PLATFORM-LIMITS.md). ORDER 014(b) → PR #197 — docs/eap-closeout-walkthrough-2026-07-14.md, sections A–E, linked from docs/AGENT_ORIENTATION.md; the OWNER ACTIONS checklist is surfaced in control/outbox.md ("2026-07-14 · EAP FINAL-DAY CLOSE-OUT" entry). All three PRs READY (never draft) on claude/* heads with born-red cards flipping next; landing rides the auto-merge enabler — this seat armed nothing and merged nothing. Parked, cited, not chased: the 262 owner publish clicks / 16 hard-gated sequences (docs/publishing/OWNER-QUEUE.md); grading pass time-gated to 2026-07-17T09:05Z (trig_01UsNU4JRps4b7jiAMdEfXNi).
+# SEAT DORMANT (owner order 2026-07-14)
+updated: 2026-07-14T23:53:28Z
+
+## 1. SEAT AND ORDER PROVENANCE
+
+seat: venture-lab-coordinator — DORMANT. This record is the final dormancy
+heartbeat, written per the owner's EAP FINAL SHUTDOWN directive of 2026-07-14.
+Inbox grounding at HEAD `ae24321`: ORDER 013 (2026-07-14T07:46Z, INC-44
+conventions rewrite) and ORDER 014 (2026-07-14T09:34:27Z, owner-directive
+relay — "EAP final day — the owner needs every lane terminal-or-parked-cited
+plus a walkthrough to review each seat") are the final inbox orders; both
+done-when met before dormancy — ORDER 013 via PR #196, ORDER 014(a)(2) via
+PR #195 (stranded telemetry d1b0208 cherry-picked), ORDER 014(b) via PR #197
+(the close-out walkthrough). EAP project audit: PR #192, attribution
+follow-up PR #193. kit: v1.17.0 (PR #199) at main HEAD ae24321.
+health: dormant-by-design; a stale `updated:` stamp is expected from here on.
+
+## 2. REVIVAL — read first
+
+read-first-1: docs/current-state.md — stability baseline, catalog and product
+state, shipped ledger (see section 6 for its known staleness at dormancy).
+read-first-2: docs/eap-closeout-walkthrough-2026-07-14.md — sections A–E;
+owner actions in §C, 5-minute verify tour in §D.
+read-first-3: docs/audits/eap-project-audit-2026-07-14.md — the EAP project
+audit (VL + TS measured; walls and asks in §3/§9).
+read-first-4: control/inbox.md — the full ORDER thread 001–014, read in full
+(never edit it; one writer: the manager).
+batons: per the walkthrough §E "Handoff notes".
+routines: re-arm per section 4 below — the verbatim records there are the
+only revival path (the live triggers are deleted at shutdown).
+
+## 3. PARKED
+
+parked-1: 19 owner decisions + 262 unchecked owner publish clicks (44
+click-run sequences, 16 hard-gated) — docs/publishing/OWNER-QUEUE.md,
+defaults bolded; "go with defaults" works. The seat performed none of them.
+parked-2: Night Kiln Book 2 length band (16k parity vs the packet's 20–30k
+plan) — owner call, queued in the owner asks.
+parked-3: shortlist of 3 unwritten adult-title concepts (next: The Salt Bell
+24/30) — docs/ideas/2026-07-14-adult-title-concepts.md.
+parked-4: SWTK kill clocks — T+7 funnel checkpoint 2026-07-19 and T+14
+kill-rule 2026-07-26 (docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
+Their checkpoint triggers are DELETED at shutdown and will NOT fire while
+dormant; the re-arm records are in section 4 below.
+
+## 4. ROUTINE RE-ARM RECORDS
+
+(deleted-at-shutdown trigger definitions preserved VERBATIM — this text is
+the only revival path)
+
+- BUSINESS cron: "trading-strategy weekly paper-lane grading" · cron
+  `0 9 * * 5` · prompt: "weekly paper-lane grading wake (trading-strategy):
+  run the weekly grading pass per docs/paper-lane-protocol.md sections 6-7
+  via scripts/grade_paper.py in menno420/trading-strategy (research-only
+  rail: no real money, no accounts, ever). First pass 2026-07-17: warm-up
+  FLAT is the expected result. Land the graded ledger per lane convention
+  and update control/status.md." (last id trig_01UsNU4JRps4b7jiAMdEfXNi) —
+  NOTE: grading will NOT fire while dormant.
+- BUSINESS one-shot: SWTK T+7, fire 2026-07-19T16:37Z · prompt: "T+7
+  checkpoint (SWTK launch, per
+  docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md): check Gumroad
+  views/sales with the owner, log the funnel numbers, assess against the
+  kill rule (T+14 = 2026-07-26)." (last id trig_01V9DZrTtDU81Sm7vektX9fa)
+- BUSINESS one-shot: SWTK T+14 KILL-RULE, fire 2026-07-26T16:37Z · prompt:
+  "T+14 KILL-RULE checkpoint (SWTK launch, per
+  docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md): with the owner, check
+  total organic sales + qualified inbounds since 2026-07-12. If zero: ledger
+  ⚑E as NEGATIVE and queue the pause/delist owner action. If ≥1: record the
+  positive signal and plan the next distribution step." (last id
+  trig_01SNkNWfSXoAdz1ALf4YNbC6)
+- FAILSAFE cron: "Venture Lab failsafe wake" · cron `45 1-23/2 * * *` ·
+  prompt: "FAILSAFE WAKE (Venture Lab, Q-0265): send_later chain alive →
+  verify in one line, end. Stalled → resume the work loop (sync HEAD → inbox
+  → slice after slice, landed per LANDING), re-arm the chain (~15 min), and
+  write your heartbeat (control/status.md, per-seat grammar) as the
+  deliberate last step." (last id trig_01SbFnHdb1bvUzDnKrDdRb6t)
+- PACEMAKER pattern: send_later ~15 min working / 30–45 idle, message
+  "continue the work loop: sync HEAD → inbox → next slice → re-arm".
+- FOREIGN, NOT ours, NOT deleted: trig_01YXNmgqYeYQ1LuepsLmbNCG fires
+  2026-07-17T09:00Z into a non-seat session; owner advised to
+  delete/confirm-dead.
+
+## 5. SOURCE-OF-TRUTH DUPLICATION
+
+(locally-restated doctrine that fleet-manager centralizes — record only,
+nothing migrated)
+
+dup-1: docs/CAPABILITIES.md — local walls ledger whose header names its
+master copy as `menno420/fleet-manager` → `docs/capabilities.md`; the fenced
+walls section is what the fm fence-index mirrors (inbox ORDER 012
+provenance: fm docs/fence-index.md); restated locally in
+docs/CAPABILITIES.md @ header + capability-seed fence; fm centralizes.
+dup-2: docs/conventions.md §"PR state and merge authority" (preamble +
+rules 1–4) — merge-authority/enabler doctrine seeded from fm
+docs/gen2-blueprint.md §1/§2 and the fleet merge-authority policy
+(fleet-manager PR #10), rewritten to the enabler doctrine per ORDER 013;
+restated locally in docs/conventions.md @ rules 1–4; fm centralizes.
+dup-null: no UNIVERSAL.md-level merge-doctrine or park-green text found in
+docs/ by grep beyond the two entries above and standard pointers.
+
+## 6. SANITY
+
+docs/current-state.md at HEAD ae24321 is factually stale in places: its
+"Stability baseline" still says "Substrate-kit v1.15.0 (PR #83)" while HEAD
+is kit v1.17.0 (PR #199, commit ae24321), and its dated snapshot/shipped
+ledger predates PRs #163–#199 (the file's own "dated snapshot" disclaimer
+covers this); recorded here, not edited — this PR is control/**-only.
+The audit (docs/audits/eap-project-audit-2026-07-14.md) and walkthrough
+(docs/eap-closeout-walkthrough-2026-07-14.md) are both on main and reachable
+— the walkthrough is linked from docs/AGENT_ORIENTATION.md and links the
+audit doc, per docs-gate reachability.
+scope: this PR touches control/status.md only; control/claims/ held no
+claim file for this seat at dormancy (README only); control/inbox.md
+untouched.
