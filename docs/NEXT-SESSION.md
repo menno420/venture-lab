@@ -53,8 +53,10 @@
 manuscripts · 5 YA · 1 middle-grade (The Halfway Ferry) · 9 trilingual
 picture-book title-lines · editions (27 board-book texts, 4 adult NL
 editions, 2 EN novella cuts, Ultramarine serial ×3, 5 large-print specs) ·
-34 vetting packets (20 book + 13 product + 1 pre-registered probe
-protocol, at PR #179) in [`publishing/vetting/`](publishing/vetting/) —
+38 vetting packets (24 book + 13 product + 1 pre-registered probe
+protocol, at PR #180 — the four NL-edition packets De Nachtoven / De
+Marmeladepost / De glazen pastorie / De Driekoningentaart added
+2026-07-14) in [`publishing/vetting/`](publishing/vetting/) —
 the probe: V020 audience-separation, Paper Orange EN ↔ NL
 ([`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md)).
 
@@ -66,11 +68,12 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). After the 2026-07-14 night regen (PR #179 — the V020
-audience-separation probe packet added; 35/35 inputs clean) it queues **19
+hand-edit). After the 2026-07-14 night regen (PR #180 — the four
+NL-edition packets added on top of PR #179's probe packet; 39/39 inputs
+clean) it queues **19
 decisions (D1–D19, each with a bolded default — "go with defaults" works)
-and 33 click-run publish sequences totalling 185 unchecked owner clicks**
-(7 sequences HARD-GATED
+and 37 click-run publish sequences totalling 213 unchecked owner clicks**
+(11 sequences HARD-GATED
 behind a blocking row); §3 manual-review is empty; §4 lists the SWTK rows
 already DONE plus its ⏲ kill-clock checkpoints. These counts move with
 every queue regen — when in doubt, the generated file at HEAD wins over any
