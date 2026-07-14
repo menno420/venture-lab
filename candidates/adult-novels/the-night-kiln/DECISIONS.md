@@ -1,5 +1,18 @@
 # Decisions — The Night Kiln
 
+## Book 3 — The Harvest Rows (2026-07-14, night run)
+
+Book 3 of the series (`en/the-harvest-rows.md`), written under ORDER 011 item 3 (owner night run 2026-07-13/14), paying the book-3 hook planted in book 2's closing pages (the dunted race-dish, "a harvest story"). Complete standalone novella, honest `wc -w` = **23,334** (includes front matter and chapter headings), 12 chapters, THE END.
+
+- **⚑ Length-band flag (2026-07-14)** — Book 3 is written at the packet's committed band (~20k–30k, honest wc -w 23,334) per ORDER 011 item 3, while the Book-2 length-band question (16k parity vs the packet band) remains owner-queued and unruled — no new owner-queue item added. The series now sits 15,999 / 15,995 / 23,334 pending the owner's ruling. The standing rule above ("series-internal length parity beats packet-band conformance until the owner decides") was superseded for Book 3 by the explicit ORDER; recorded as tension, not resolved.
+- **Vessel** — The dunted race-dish off the private shelf (planted book 1 ch. 8's museum, hooked at book 2's close): Griet's fifty-year-old rowing race, cracked at her laugh, banked twelve years against the fiftieth harvest. One fired vessel per book holds: book 1 the keystone, book 2 the jar, book 3 the dish.
+- **The third temper** — The mend: a fire held dead level from sundown to sunrise at the autumn equinox under the harvest moon — neither starved (midwinter moon-dark, takes) nor fed (midsummer full moon, gives back) — so neither the old telling in the ware nor the fresh telling in the carrier speaks over the other. Completes keep/take/give/mend across the seasonal poles. New catechism line, byte-exact, first drafted ch. 8 and canonized ch. 12: "And what breaks, told together, it can mend."
+- **Structure/register** — Same POV/tense/structure as books 1–2: close third on Edda, past tense, 12 chapters, aphoristic chapter openings, byte-identical rule-sentence opening; cozy contract kept. Reveal held to ch. 12: the race's true finish (Griet won by half a length; "I'll have the one who was watching") is withheld through ch. 11 — ch. 6 stops the telling at the laugh, ch. 11's opening shows only Edda's face changing.
+- **Griet border held** — No cure, no fire touching living memory-loss: the mended dish buys one clear evening at Harvest Home, explicitly narrated as not a cure ("the tide still went out"); it goes home as a second lamp beside the porridge bowl.
+- **Seam** — Ground glaze of the dish's own batch (shard-pile wasters), Ler river sand, and the ash of the crab-oar Wim caught the race on — kept fifty years in the ferry-house rafters, burned for the seam. Proved first on the Askews' cracked naming bowl per the lesser-freight law.
+- **Book-4 hook planted** — Ilsabet's first pot on the private shelf: "What did Grams Ilsabet keep in her own first pot?" / "Wash your hands. That's a winter story."
+- **Production/metering** — Drafted single night session, two sequential writer passes (ch. 1–6, ch. 7–12) committed in chunks; no parallel workers.
+
 ## Book 2 — The Morning Door (2026-07-13, day run)
 
 Book 2 of the series (`en/the-morning-door.md`), written under the BOOKS-lane day run 2026-07-13, continuing the book-2 hook planted in book 1's closing pages (the Stonebeck letter; the un-firing of Widow Sorrel's jar as the spine). One fired vessel per book: book 1 the keystone, book 2 the jar itself, re-fired from a shutting into a keeping; book-3 hook planted (the dunted race-dish, "a harvest story").
