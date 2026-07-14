@@ -27,3 +27,4 @@ master.
 | dir | angle | length (wc -w) | status |
 |-----|-------|----------------|--------|
 | `large-print/` | large-print paperback production spec (6×9, 16pt+, page estimate, KDP cost/royalty math) — spec only, no new manuscript | 15,045 (EN source, measured) | spec complete |
+| `nl/` | complete Dutch (NL) edition — *De geborgen boomgaard*, all 12 chapters, literary translation + NOTES (title collision scan, glossary incl. they/them → hen/hun strategy) | 15,750 (measured) | manuscript complete; NL vetting packet owed |
