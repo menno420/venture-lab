@@ -40,3 +40,4 @@ NEVER edits a master.
 | `large-print/` | Book One large-print paperback production spec (6×9, 16pt+, page estimate, KDP cost/royalty math) — spec only, no new manuscript | 15,999 (EN source, measured) | spec complete |
 | `large-print-book-2/` | Book Two (*The Morning Door*) large-print spec, same format for series parity; specs the manuscript AS WRITTEN — ⚑ length-band question untouched | 15,995 (EN source, measured) | spec complete |
 | `nl/` | Dutch (NL) edition of Book One — complete literary translation, title *De Nachtoven*; all 12 chapters, series-safe naming for Book Two | 16,840 (measured) | complete |
+| `nl-book-2/` | Dutch (NL) edition of Book Two — complete literary translation, title *De Morgendeur* (pre-named in `nl/` NOTES + De Nachtoven packet §7); all 12 chapters, Book One's series glossary inherited unchanged; translates the manuscript AS WRITTEN — ⚑ length-band question untouched | 16,730 (measured) | complete |
