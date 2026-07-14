@@ -1,0 +1,3 @@
+# Claim — night NL-packet follow-through batch
+
+- `claude/night-nl-packets` · **NL vetting packets + keyword rows + night-kiln unstale + queue regen** — the four owed NL vetting packets (De Nachtoven #175, De Marmeladepost #176, De glazen pastorie #177, De Driekoningentaart #178) + their keyword-map C4 rows + un-staling `docs/publishing/vetting/the-night-kiln.md` §3/§5 + one `derive_owner_queue.py` regen with counts-sync · expected files: `docs/publishing/vetting/*.md`, `docs/publishing/keyword-map.md`, `docs/publishing/OWNER-QUEUE.md`, `docs/current-state.md`, `docs/NEXT-SESSION.md` · 2026-07-14
