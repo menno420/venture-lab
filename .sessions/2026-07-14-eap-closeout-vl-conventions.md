@@ -1,6 +1,6 @@
 # Session — EAP closeout: ORDER 013 conventions rules 2–3 → enabler doctrine
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Fable 5 · docs-only ORDER 013 slice · EAP final day 2026-07-14
 - **started (date -u):** Tue Jul 14 10:05:04 UTC 2026
@@ -27,6 +27,8 @@
   premise re-verified at HEAD (rule 2 verbatim unchanged since recon).
   Claim `control/claims/2026-07-14-eap-closeout-conventions.md` + this
   born-red card committed first and pushed.
+- 2026-07-14 — Flip commit: ORDER 013 rewrite complete on PR #196; Status →
+  `complete`, claim file deleted, strict check green before push.
 
 ## ⟲ Previous-session review
 
