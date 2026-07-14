@@ -1,6 +1,6 @@
 # Session — Night run: NL-catalog completion — the last three NL editions (ORDER 011 item 2 remainder, owner 2026-07-14 night directive)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Fable · worker slices · ORDER 011 item 2 remainder (NL completion, night run)
 - **started (date -u):** Tue Jul 14 UTC 2026 (night slice)
