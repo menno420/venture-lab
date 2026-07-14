@@ -7,7 +7,7 @@
     "soft_target_sessions": 50
   },
   "graduation_proposed": false,
-  "kit_version": "1.15.0",
+  "kit_version": "1.16.0",
   "last_compaction_session": 0,
   "mode": "guided",
   "mode_history": [
@@ -20,15 +20,15 @@
   "open_questions": [],
   "planted_doc_hashes": {
     ".session-journal.md": "52f63681897adff1e0d81e9e525afa96d89548a6b7b761893e47badad4dd5e11",
-    "CONSTITUTION.md": "1223ec2547f004fe9de6cc6b7454361bae7fe7d20f7b7ac92ff7e8e26c2e32f3",
-    "control/claims/README.md": "f4fc04445e8e21e6e96a7dcf17bbd3ac81dcbc4f7ab88fb07ab596f8d8d7acdc",
+    "CONSTITUTION.md": "3e46c59253668b7598b1b75b81d9ef1be47392e841ceb786585ddcc741e9463d",
+    "control/claims/README.md": "249098d7f0885ff1ce9cd81539c5c522483ecbd525ec5c5ecafbc72b9f0ed2dc",
     "docs/AGENT_ORIENTATION.md": "1e8e541d16d68e3ad5b59991864b7cf45ed0e13eb3fb609ddc6eb9e0cd6b26c3",
     "docs/CAPABILITIES.md": "aae23723826a644e721304dfc395107c5d66e65d6edcf5814b915397bb9716ca",
-    "docs/ROUTINES.md": "bb82225d3ec9de7772ff81b430c3a3d83cf0e7efdde21a74989e0ce8b7b19b04",
-    "docs/SKILLS.md": "5dd4f748a3b106642a0b38eb481845598aa69d31069514bedcd7333e14361b6d",
+    "docs/ROUTINES.md": "53ce15a2e6fb7453713f945179d120863a65eba2b7cfcdf00c8ef3a5a39ed669",
+    "docs/SKILLS.md": "842493a9b151ca3cc442b83fc472e3844339ed5b76905186bad5ac41887d6493",
     "docs/ai-project-workflow.md": "b8b8d352ee46796c5557a36f2a187577bdd3b65e57a85c5a508cf2790b660e7b",
     "docs/architecture.md": "13f31e0f593d9d7a2558598599839a012a20a4290b2c891828288946ab9eb8a9",
-    "docs/collaboration-model.md": "538ccbdc6a2fa8ea81e94aa330560135d8be6747e756af621cd15fa423bf179e",
+    "docs/collaboration-model.md": "454bdc777d96438ed10d21f5f137e14da02bc663237bfa0b1dce84af846adee8",
     "docs/current-state.md": "f4ca3ef6afd461abbf78f5bbab5a96afce578f62357c4423c3ce25a3d0835d51",
     "docs/decisions.md": "377727b60577819a6def480b799ba8a755819083d2380acc702cd189950a4f4b",
     "docs/helper-policy.md": "69f377eed96ade7abfedaec18918f181423d2dc78a57b4632f3a3b26d322045b",
@@ -36,6 +36,7 @@
     "docs/owner-profile.md": "e1fdc9c85fc2476036fdd34cdd119380ebb0632a1506ee62ccc94019eddad1e7",
     "docs/ownership.md": "86cb49bc0d84e206d14f049ddd27a195e887fbcf4fb81b1a258ab62fd179c106",
     "docs/question-router.md": "9255eccfd75f1ae8daca9267bce7030db6b907ae179b307da9dd6486eb27c41c",
+    "docs/reading-path.md": "bafcd02c3a2b26b2f467a836efc768079004c3710f26b25253e09c3148b5f3c8",
     "docs/repo-navigation-map.md": "7dad1b245aeeb06278673437d56c950423c5ae8331d13e18be2b82910314bafc",
     "docs/runtime_contracts.md": "2bed6ae08cf18dd1571022127de3f8f419794c5046bfdb8934f1ccd00cab65c4",
     "docs/seat-digest.md": "15d1b761efb01440c54228d6b513e6c4ee569d9e3f8198ba0f8e84b11a110280",
@@ -71,6 +72,21 @@
       "question_id": "Q-011",
       "source": "user",
       "value": "flag under needs-owner in control/status.md"
+    },
+    "fleet_dark_repos": {
+      "question_id": "Q-016",
+      "source": "user",
+      "value": "all fleet siblings are public-readable EXCEPT pokemon-mod-lab (private \u2014 auth wall; never read it, never guess about its contents). Canonical readable-roster: fleet-manager docs/roster.md (generated)."
+    },
+    "fleet_siblings": {
+      "question_id": "Q-015",
+      "source": "user",
+      "value": "do NOT hand-maintain a sibling roster here \u2014 the hand-kept fleet manifest proved stale on every measured axis and was retired (superbot docs/eap/fleet-manifest.md, superseded 2026-07-11). Canonical sibling map = fleet-manager docs/roster.md (generated each manager wake): one row per lane with heartbeat age, phase, orders, kit version, wake triggers, and repo@HEAD evidence. Per-sibling truth files: control/status.md (heartbeat) and docs/current-state.md in that sibling`s tree; sibling trees win over any snapshot. Key lanes as of 2026-07-14: substrate-kit (kit source) \u00b7 fleet-manager (coordinator; docs/roster.md + control/status.md) \u00b7 superbot (hub) \u00b7 superbot-next \u00b7 websites \u00b7 trading-strategy \u00b7 superbot-games \u00b7 superbot-idle \u00b7 superbot-mineverse \u00b7 gba-homebrew \u00b7 idea-engine \u00b7 sim-lab \u00b7 product-forge \u00b7 pokemon-mod-lab (private)."
+    },
+    "fleet_status_command": {
+      "question_id": "Q-014",
+      "source": "user",
+      "value": "curl -sL https://raw.githubusercontent.com/menno420/fleet-manager/main/docs/roster.md \u2014 the fleet-manager GENERATED roster (regenerated \u2264~2h; lane heartbeats at ls-remote-verified HEADs + live trigger registry). If its generated-at stamp is >24h stale, fall back to the lane heartbeats directly (each sibling repo`s control/status.md)."
     },
     "integration_mode": {
       "question_id": "Q-001",
@@ -127,6 +143,9 @@
     "architecture_layers": "filled",
     "doc_roots": "filled",
     "drift_resolution": "filled",
+    "fleet_dark_repos": "filled",
+    "fleet_siblings": "filled",
+    "fleet_status_command": "filled",
     "integration_mode": "filled",
     "mutation_seam": "filled",
     "new_area_ownership": "filled",
