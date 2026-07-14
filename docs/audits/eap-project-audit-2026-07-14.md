@@ -359,22 +359,28 @@ One line + citation each; all THIS seat's own engineering:
 - **CAPABILITIES case-collision merge** — 2026-07-11
   (`.sessions/2026-07-11-capabilities-case-collision.md`).
 
-**Correction vs. the tasking.** The directive attributed "selection-fair gate
-(PR #111), reason_class (PR #121), review index (#121), KILL-SIG
-(#100/#109)" to venture-lab. **Verified false for venture-lab:** its PRs #100
-/#109/#111/#121 are book/keyword-map PRs (verbatim titles: #100
-"Keyword/category allocation map for the 14-title catalog…", #109 "Books:
-Ultramarine serialized 3-part edition…", #111 "Books: The Slow Word —
-novella cut…", #121 "Books: new kids manuscripts — The Windmill Mouse +
-The Puddle Museum…"), and the terms selection-fair/reason_class/KILL-SIG
-appear nowhere in venture-lab's tree or history. The mechanisms themselves
-live in the trading lane's research methodology (KILL-SIG class and the
-standing selection-fair gate:
-`docs/research-program-retrospective.md@d857e50` §methodology;
-`docs/selection-fair-gate.md` exists at TS main), and trading PR **#121** did
-land the §7 review index (`experiments/paper/reviews.md`, `c60183f`) — but
-the introducing PR numbers for the gate and KILL-SIG were not independently
-verified this audit, so they are not claimed under the directive's numbers.
+**Correction vs. the tasking (resolved 2026-07-14 follow-up).** The
+directive cited "selection-fair gate (PR #111), reason_class (PR #121),
+review index (#121), KILL-SIG (#100/#109)" without a repo qualifier;
+venture-lab's own #100/#109/#111/#121 are book/keyword-map PRs, so the
+numbers could not be claimed for this repo — that ambiguity finding stands.
+The numbers are **trading-strategy** PRs, now verified against the TS tree
+(`origin/main` ancestry + touched files) and GitHub (all four merged):
+
+- **trading-strategy #111** @ `d498018` — "Selection-fair replay standing
+  gate for dev-lane verdicts (round 6+)": adds
+  `src/trading_lab/selection_gate.py`, `docs/selection-fair-gate.md`,
+  `tests/test_selection_gate.py`.
+- **trading-strategy #121** @ `c60183f` — "Night research-infra:
+  reason_class taxonomy on selection-gate results + idempotent paper-lane
+  review index": `reason_class` field in `selection_gate.py` plus the §7
+  review index `experiments/paper/reviews.md`.
+- **trading-strategy #109** @ `3c628e4` — "review: KILL-SIG verdict-class
+  proposal (PR #91 card) — ACCEPT, ratifying the already-merged R4-A
+  adoption; no code change" (session-card review only).
+- **trading-strategy #100** @ `08ddbd4` — "research: R4-A KILL-SIG verdict
+  class + retroactive round-3 re-grade": the KILL-SIG implementation
+  (`trading_lab.promotion.classify_verdict`).
 
 ## 9. Top 5 remaining pains (ranked)
 
