@@ -198,6 +198,35 @@ as venue `any`.)
 kit-owned — they refresh at upgrade between the fence markers; local
 findings go here, below the fence.)
 
+- 2026-07-15 · capability · autonomous-project · **`add_repo` (EAP extension
+  feature, ORDER 015 test mandate) WORKS from an agent seat** — the
+  claude-code-remote MCP `list_repos` enumerated 20 owner repos
+  (fleet-manager among them, `can_push: true`), and
+  `add_repo {owner: menno420, repo: fleet-manager}` returned
+  `"status":"appended"`, `"workspace":"/workspace/fleet-manager"`, message
+  "Repo `menno420/fleet-manager` added" · evidence: cross-repo READ then
+  verified via github MCP `get_file_contents` on fleet-manager
+  `docs/owner-queue.md` — "successfully downloaded text file (SHA:
+  258179f18427d850739095f587046c54b7dcf982)" at repo HEAD `c356f66` ·
+  workaround: none needed; fleet-manager access held READ-ONLY per the
+  standing fleet-read authorization (no writes performed).
+- 2026-07-15 · wall · autonomous-project · **overview panel (ORDER 015):
+  seat-side unverifiable; owner-side feature** — no tool or surface
+  resembling an overview/panel/dashboard is exposed to this seat ·
+  evidence: ToolSearch query "overview panel dashboard" → "No matching
+  deferred tools found" (one attempt, per the discovery rule) · workaround:
+  owner verifies from the claude.ai console; do not re-probe seat-side.
+- 2026-07-15 · capability · autonomous-project · **coordinator-comms
+  inventory (ORDER 015; names only, none invoked)** — NO `mcp__webagent__*`
+  tools exist in this seat (ToolSearch "+webagent" → "No matching deferred
+  tools found"); cross-session claude-code-remote MCP tools PRESENT:
+  `send_message`, `list_events`, `send_later`, `create_trigger`,
+  `update_trigger`, `delete_trigger`, `fire_trigger`, `list_triggers`,
+  `list_environments`, `list_repos`, `add_repo`, `register_repo_root`,
+  `subscribe_pr_activity`, `unsubscribe_pr_activity`; harness-level
+  deferred tools also present: `SendMessage` (teammate messaging),
+  `Monitor` · evidence: ToolSearch enumeration this session, 2026-07-15 ·
+  workaround: n/a — inventory finding.
 - 2026-07-14 · wall · autonomous-project · self-merge and auto-merge-arm of
   own PRs are classifier-denied in agent seats → a green `clean` PR is
   agent-unlandable; recipe: leave it READY + green on a `claude/*` head —

@@ -6,8 +6,8 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Refreshed 2026-07-13 at the coordinator boot-refresh pass (HEAD `84d4bcb`,
-> PR #161). Latest session retro:
+> Refreshed 2026-07-15 at the ORDER 015 reboot pass (main HEAD `9ed6a35`,
+> facts re-verified from the repo). Latest session retro:
 > [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md).
 
 ## Stability baseline
@@ -21,7 +21,8 @@
   (PR #74): HTTP 200 against a real Stripe-issued webhook signing secret,
   forged and stale-timestamp events rejected HTTP 400, real-path suite 14/14
   green. Buyer path verified end to end by the owner's test purchase (PR #86).
-- **Substrate-kit v1.15.0** (PR #83) — `python3 bootstrap.py check --strict`
+- **Substrate-kit v1.17.0** (PR #199; `.substrate/state.json`
+  `kit_version: 1.17.0`) — `python3 bootstrap.py check --strict`
   is the pre-push gate; claims convention per
   [`control/claims/README.md`](../control/claims/README.md).
 - **Ledger-drift advisory:** `python3 scripts/check_ledger_drift.py` nags
@@ -34,6 +35,19 @@
   always; ⏲ column PR #128, advisory script PR #133).
 - **Owner-gate lint:** `python3 scripts/lint_owner_gates.py` strict-lints
   packet §7 OWNER-GATE blocks; advisory CI step (PR #156).
+
+## State as of 2026-07-15 (reboot snapshot)
+
+- **Rebooted 2026-07-15 on the v3.6 prompt.** The 2026-07-14 dormancy record
+  (`control/status.md`, PR #200) is **superseded** per ORDER 015
+  (`control/inbox.md`; EAP-extension note landed PR #201): the EAP is
+  **extended through 2026-07-21** (Anthropic mail 2026-07-14, metadata
+  reference only).
+- **Routines re-armed** — the live trigger ids are recorded in
+  `control/status.md` (§4 holds the verbatim definitions).
+- **Publish queue pointer unchanged:**
+  [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) remains the owner
+  entry point; no queued click was performed at reboot.
 
 ## State as of 2026-07-13 (session-ender snapshot)
 
