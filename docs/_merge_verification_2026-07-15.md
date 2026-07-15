@@ -1,5 +1,7 @@
 # Merge-on-green verification probe (2026-07-15)
 
+> **Status:** `historical`
+
 This file is a merge-automation verification probe for a fleet-wide audit session on
 2026-07-15. It is a plain, inert content-only addition (no `.github/workflows/**`
 changes) intended to confirm that ordinary code/doc PRs in this repo land on green
