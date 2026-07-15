@@ -1,5 +1,5 @@
 # Venture Lab — coordinator heartbeat
-Updated: Wed Jul 15 04:01:46 UTC 2026
+updated: 2026-07-15T04:01:46Z
 
 **Rebooted 2026-07-15** on the owner's v3.6 reboot prompt (the per-seat go per ORDER 015). The 2026-07-14 dormancy is superseded; EAP extended through 2026-07-21. Predecessor dormancy record: control/status.md @ commit 9ed6a35.
 
