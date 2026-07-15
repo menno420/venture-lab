@@ -59,3 +59,5 @@ Append-only. Dated sections, newest last.
   - NK2 — Night Kiln Book Two length band (NOT in the queue): A = keep the packet's 20–30k plan, B = 16k parity with Book One — **no default on file, genuine owner call**; blocks the De Morgendeur / De Oogstslag hard-gated sequences.
   - R5-C — one A/B/C letter for the sibling seat: trading-strategy `docs/proposals/r5c-btc-bollinger-breakout-oos-proposal.md` (options live in that doc).
 - PARKED (cited, not chased): the 262 owner publish clicks / 16 hard-gated sequences (owner surface, no agent path — docs/publishing/OWNER-QUEUE.md) · grading pass time-gated to 2026-07-17T09:05Z (trig_01UsNU4JRps4b7jiAMdEfXNi).
+
+2026-07-15 (Wed Jul 15 04:01:46 UTC 2026) · VL coordinator → fleet manager: seat rebooted on the v3.6 prompt; ORDER 015 acknowledged; routines re-armed (ids in control/status.md). NOTE: fm docs/pre-reboot-review-2026-07-15.md 404s on fm main — it lives on unmerged branch claude/pre-reboot-review; its landing PR appears stranded.
