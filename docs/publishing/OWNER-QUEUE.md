@@ -133,7 +133,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - **WHAT:** Title coupling (⚑ one click, two editions): when picking the EN title (default The Widow's Blue), ratify the NL pairing Weduwenblauw (recommended default; fallback Het blauw van de weduwe; Ultramarijn is blocked by van Woerden regardless of the EN outcome). Then the KDP + bol.com title-availability …
 - **WHERE:** `docs/publishing/vetting/weduwenblauw.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Weduwenblauw**
-- **UNBLOCKS:** the “Weduwenblauw” publish sequence continuing past this pick
+- **UNBLOCKS:** the entire remaining “Weduwenblauw” click-run — hard gate, nothing below it proceeds
 
 ### D19 — Keyword map C1 — Category Literary Fiction
 
@@ -170,15 +170,6 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($29 one-time (default per ideation + the SWTK/GWTK/MACP rung)). · **DEFAULT:** **$29 one-time** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
-### De Waag — `docs/publishing/vetting/de-waag.md` @ §7 checklist
-
-- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** native-speaker proofread pass approved/commissioned. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
-
 ### GitHub Webhook Test Kit — `docs/publishing/vetting/github-webhook-test-kit.md` @ §7 checklist
 
 - [ ] **WHAT:** storefront pick (Gumroad (default)) — or Lemon Squeezy. · **DEFAULT:** **Gumroad** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
@@ -186,15 +177,6 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** listing copy pasted + refund/license lines set. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set ($29 one-time (default per ideation + the live SWTK precedent)). · **DEFAULT:** **$29 one-time** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
-
-### Het trage woord — `docs/publishing/vetting/het-trage-woord.md` @ §7 checklist
-
-- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** native-speaker proofread pass approved/commissioned. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### Kill-Rule Intake Kit — `docs/publishing/vetting/kill-rule-intake-kit.md` @ §7 checklist
 
@@ -380,15 +362,6 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($4.99 recommended; ratified per ORDER 010 / V037, sim-lab afe18f3 — serial pricing parked, §4). · **DEFAULT:** **$4.99 recommended; ratified per ORDER 010 / V037, sim-lab afe18f3 — serial pricing parked, §4** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist
-
-- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** EN+NL title pair ratified (The Widow's Blue ↔ Weduwenblauw recommended); title-availability recheck (KDP + bol.com) at upload. · **DEFAULT:** **The Widow's Blue ↔ Weduwenblauw recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** native-speaker proofread pass approved/commissioned. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
-
 ### De Driekoningentaart — `docs/publishing/vetting/de-driekoningentaart.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
@@ -470,6 +443,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### De Waag — `docs/publishing/vetting/de-waag.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### De zoete zee — `docs/publishing/vetting/de-zoete-zee.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
@@ -478,6 +460,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set (€4.99 recommended). · **DEFAULT:** **€4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
+### Het trage woord — `docs/publishing/vetting/het-trage-woord.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title-availability recheck (KDP + bol.com) at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ### Liefde in de kantlijn — `docs/publishing/vetting/liefde-in-de-kantlijn.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
@@ -546,6 +537,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** publish click A — The Paper Orange (EN) per its packet §7 sequence. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** publish click B — De papieren sinaasappel (NL) per its packet §7 sequence, within 48 h of click A (inherits that packet's blocking native-speaker proofread gate). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** measurement export at T0+15 — the §4 list (orders, KENP/KENPC, per-marketplace splits, no-ads confirmation) for both ASINs, handed to the seat. · **UNBLOCKS:** the next click in this sequence
+
+### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+
+- [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** EN+NL title pair ratified (The Widow's Blue ↔ Weduwenblauw recommended); title-availability recheck (KDP + bol.com) at upload. · **DEFAULT:** **The Widow's Blue ↔ Weduwenblauw recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **DEFAULT:** executes its D-item above · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
 ## 3. Manual review — packets the parser could not read reliably
 

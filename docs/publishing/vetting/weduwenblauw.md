@@ -255,7 +255,8 @@ EN edition itself carries the ⚑ title pick this packet is coupled to.
 - [ ] ⚑ **Owner:** EN+NL title pair ratified (The Widow's Blue ↔
       Weduwenblauw recommended); title-availability recheck (KDP +
       bol.com) at upload.
-- [ ] ⚑ **Owner:** native-speaker proofread pass approved/commissioned.
+- [ ] ⚑ **Owner:** native-speaker proofread pass approved/commissioned
+      (blocking quality gate for this title).
 - [ ] ⚑ **Owner:** cover type-swap approved / any incremental spend
       authorized.
 - [ ] ⚑ **Owner:** price set (€4.99 recommended, band inherited not
