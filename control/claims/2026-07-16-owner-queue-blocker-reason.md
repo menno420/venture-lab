@@ -1,0 +1,1 @@
+- `claude/owner-queue-blocker-reason` · **fix hard-gated blocker-reason rendering in derive_owner_queue.py + regen OWNER-QUEUE.md** · scripts/derive_owner_queue.py, scripts/test_derive_owner_queue.py, docs/publishing/OWNER-QUEUE.md · 2026-07-16
