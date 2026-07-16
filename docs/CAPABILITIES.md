@@ -198,6 +198,26 @@ as venue `any`.)
 kit-owned — they refresh at upgrade between the fence markers; local
 findings go here, below the fence.)
 
+- 2026-07-16 · capability · autonomous-project · **Dutch `nl_NL` hunspell
+  spellcheck WORKS from the agent seat** — a real hunspell dictionary
+  spellcheck of Dutch text runs end-to-end with zero provisioning, correcting
+  the prior PRE-QA assumption that it was unavailable · evidence:
+  `pip install spylls` → **0.1.7**, exit 0 (pure-Python hunspell engine);
+  OpenTaal / LibreOffice `nl_NL` hunspell **v2.20.21 (2021-07-03), 180,715
+  stems** fetched with
+  `curl -sSL --cacert /root/.ccr/ca-bundle.crt https://raw.githubusercontent.com/LibreOffice/dictionaries/master/nl_NL/nl_NL.{dic,aff}`
+  → both **HTTP 200** (dic 2,488,246 B, aff 46,557 B; `.aff` header
+  self-identifies the OpenTaal 2021-07-03 2.20.21 source); `pip install
+  pyspellchecker` → 0.9.0, exit 0, kept as a frequency-dict fallback (not
+  needed). First use: the §6 candidate-misspelling sections in this PR
+  (`claude/nl-spellcheck`) across the four NL adult manuscripts (61,982 tokens,
+  2 genuine candidates surfaced). · workaround: none needed for spylls + the
+  proxy `curl` fetch — but the **system hunspell is WALLED** (no `hunspell`
+  CLI — `which hunspell` exit 1; no `/usr/share/hunspell` or `/usr/share/myspell`
+  dictionary; only the `libhunspell-1.7-0` shared library is present), so route
+  through spylls + the fetched `.dic`/`.aff`, never the CLI. Mechanical-only: a
+  candidate list, NOT a proofread — it does NOT clear the ⚑ Owner
+  native-speaker proofread gate.
 - 2026-07-15 · capability · autonomous-project · **`add_repo` (EAP extension
   feature, ORDER 015 test mandate) WORKS from an agent seat** — the
   claude-code-remote MCP `list_repos` enumerated 20 owner repos
