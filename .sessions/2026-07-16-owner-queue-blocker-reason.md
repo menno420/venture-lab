@@ -1,6 +1,6 @@
 # Session — owner-queue blocker-reason fix (hard-gated sequences show their REAL blocking row)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Opus · medium · runtime bugfix (owner-queue generator)
 - **started (date -u):** Thu Jul 16 15:43:37 UTC 2026
@@ -42,12 +42,49 @@
 
 ## Results (as landed)
 
-[[fill: results as landed at flip]]
+- **`scripts/derive_owner_queue.py`** (commit `59a5425`): added
+  `blocking_row` / `blocking_is_ditem` to `ClickGroup`; at parse time
+  captured the first pending owner click whose text carries "blocking" (the
+  same signal that sets `blocked`) and whether it links to a same-packet
+  D-item; `render()` now emits `HARD-GATED — blocking row: <clipped 80c>`
+  for the non-D-item case and keeps the legacy
+  `(a D-item above blocks this sequence)` wording only as a fallback when
+  the blocking row genuinely IS a D-item.
+- **`scripts/test_derive_owner_queue.py`** (same commit): +2 cases — a
+  proofread-gated sequence asserts the real blocking-row text renders and
+  the phantom-D-item wording is gone; a D-item-linked blocking row asserts
+  the D-item wording is retained. `Ran 11 tests … OK`.
+- **`docs/publishing/OWNER-QUEUE.md`** regenerated from the script (never
+  hand-edited): exactly 13 hard-gated suffix lines corrected (12 NL
+  editions with the proofread/length-band/originals/prerequisite blocker +
+  the V020 probe); the 3 illustration-gated books (Painted Stones, Puddle
+  Museum, Windmill Mouse) correctly unchanged. No other drift.
+- **Gates:** `scripts/lint_owner_gates.py` → `OK — 46 input(s) clean`;
+  `python3 bootstrap.py check --strict` green except this card's own
+  designed born-red HOLD (now cleared by this flip); guard-fire telemetry
+  delta committed with the fix per convention, not reverted.
+- **Landed as PR #210**, ⚑ Self-initiated (all ORDER 011/014 items
+  terminal). Claim `control/claims/2026-07-16-owner-queue-blocker-reason.md`
+  left in place for coordinator prune per the ledger's close convention.
 
 ## ⟲ Previous-session review
 
-[[fill: previous-session review — 2026-07-16 state-restamp / main-verify session, PR #209]]
+previous-session review: `.sessions/2026-07-16-main-verify-workflow.md`
+(PR #209 lineage / state-restamp session) — its central facts held under
+re-verification this wake: main HEAD at boot was its merged descendant
+`95e1846`, the inbox still ends at ORDER 015 with no unexecuted `new`
+order, and its heartbeat's ⚑ owner carry (`OWNER-QUEUE.md`, 16 hard-gated
+sequences) matched the file this slice audited — the "16 hard-gated" count
+it recorded is exactly the set whose blocker reason this slice corrected.
 
 ## 💡 Session idea
 
-[[fill: one genuine session idea at flip]]
+💡 **The HARD-GATED suffix now cites a blocking row but not WHERE to click
+it — link it.** Each corrected suffix names the real blocking row's text,
+but the owner still has to eyeball-match it against the checklist below to
+find the box to tick. Cheap next slice: have `render()` tag the blocking
+click in-place (e.g. a `◀ THIS is the gate` marker on the matching
+`- [ ]` line, keyed off the same first-"blocking" index already computed),
+so the suffix and the actionable row are visually coupled. Deduped against
+prior `.sessions/*.md` 💡 lines: those cover advisory-step visibility and
+unattended scheduled-run monitoring, not intra-sequence gate anchoring.
