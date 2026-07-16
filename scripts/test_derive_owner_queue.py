@@ -104,6 +104,36 @@ KILLCHECK_PENDING_PACKET = f"""# Title Vetting — Not Yet Live
 KILL-CHECK: {TIMER} 2026-07-19 premature checkpoint
 """
 
+# A hard-gated NL edition: the ONLY thing setting `blocked` is the word
+# "blocking" inside the proofread checkbox — there is NO D-item in this packet.
+# The HARD-GATED suffix must name that proofread row, not a phantom D-item.
+PROOFREAD_GATED_PACKET = f"""# Title Vetting — De Testtaart
+
+## 7. {FLAG} OWNER-GATE — publish clicks
+
+- [ ] {FLAG} **Owner:** EN edition published first (sequencing dependency).
+- [ ] {FLAG} **Owner:** native-speaker proofread pass approved/commissioned
+      (blocking quality gate for this title).
+- [ ] {FLAG} **Owner:** the publish click + KDP Select enrollment.
+"""
+
+# A hard-gated group whose blocking row genuinely IS a D-item: a numbered
+# OWNER-ACTION step carries an inline flag (making it a decision), and the
+# blocking owner checkbox shares its keyword ("illustration") — so `linked`
+# is true and the legacy "a D-item above blocks this sequence" wording stays.
+DITEM_GATED_PACKET = f"""# Title Vetting — Test Stones
+
+## 7. {FLAG} OWNER-GATE — publish clicks
+
+**OWNER-ACTION — Publish "Test Stones"**
+1. {FLAG} **Illustration decision (default recommend Park):** Commission / AI / Park.
+
+- [ ] {FLAG} **Owner:** KDP account + tax/bank interview.
+- [ ] {FLAG} **Owner:** illustration money-decision — Commission / AI / Park.
+      Blocking: nothing below proceeds without it.
+- [ ] {FLAG} **Owner:** the publish click itself.
+"""
+
 
 class DeriveOwnerQueueDoneDisposition(unittest.TestCase):
     def _run(self, packets: dict[str, str]) -> tuple[str, doq.ParseResult]:
@@ -206,6 +236,34 @@ class DeriveOwnerQueueDoneDisposition(unittest.TestCase):
         # The pending click still queues exactly as before.
         self.assertEqual(len(result.groups), 1)
         self.assertEqual(len(result.groups[0].clicks), 1)
+
+    def test_proofread_gated_sequence_names_real_blocking_row(self) -> None:
+        # The blocker is a per-title proofread quality gate, NOT a D-item.
+        # The HARD-GATED suffix must name that row and must NOT claim a D-item.
+        output, result = self._run({"de-testtaart.md": PROOFREAD_GATED_PACKET})
+        self.assertEqual(len(result.groups), 1)
+        group = result.groups[0]
+        self.assertTrue(group.blocked)
+        self.assertFalse(group.blocking_is_ditem)
+        self.assertIn("native-speaker proofread pass", group.blocking_row)
+        self.assertIn(
+            "**HARD-GATED** — blocking row: native-speaker proofread pass", output
+        )
+        # The phantom-D-item wording must be gone for this sequence.
+        self.assertNotIn("(a D-item above blocks this sequence)", output)
+
+    def test_ditem_gated_sequence_keeps_ditem_wording(self) -> None:
+        # When the blocking row genuinely links to a same-packet D-item, the
+        # original "a D-item above blocks this sequence" wording is retained.
+        output, result = self._run({"test-stones.md": DITEM_GATED_PACKET})
+        self.assertEqual(len(result.groups), 1)
+        group = result.groups[0]
+        self.assertTrue(group.blocked)
+        self.assertTrue(group.blocking_is_ditem)
+        self.assertIn(
+            "**HARD-GATED** (a D-item above blocks this sequence)", output
+        )
+        self.assertNotIn("blocking row:", output)
 
     def test_pending_totals_unaffected_by_live_packet(self) -> None:
         _, legacy_only = self._run({"legacy.md": LEGACY_PACKET})

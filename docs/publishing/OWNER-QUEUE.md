@@ -380,7 +380,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De Driekoningentaart — `docs/publishing/vetting/de-driekoningentaart.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De Driekoningentaart — `docs/publishing/vetting/de-driekoningentaart.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified (De Driekoningentaart + mandatory subtitle). · **UNBLOCKS:** the next click in this sequence
@@ -390,7 +390,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€3.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€3.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De geborgen boomgaard — `docs/publishing/vetting/de-geborgen-boomgaard.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De geborgen boomgaard — `docs/publishing/vetting/de-geborgen-boomgaard.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified (De geborgen boomgaard). · **UNBLOCKS:** the next click in this sequence
@@ -400,7 +400,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De glazen pastorie — `docs/publishing/vetting/de-glazen-pastorie.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De glazen pastorie — `docs/publishing/vetting/de-glazen-pastorie.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified (De glazen pastorie). · **UNBLOCKS:** the next click in this sequence
@@ -410,7 +410,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De Marmeladepost — `docs/publishing/vetting/de-marmeladepost.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De Marmeladepost — `docs/publishing/vetting/de-marmeladepost.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified (De Marmeladepost + series tag). · **UNBLOCKS:** the next click in this sequence
@@ -420,7 +420,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€3.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€3.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De Morgendeur — `docs/publishing/vetting/de-morgendeur.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De Morgendeur — `docs/publishing/vetting/de-morgendeur.md` @ §7 checklist — **HARD-GATED** — blocking row: length-band ruling on Book Two (standing queued question — blocking for the EN e…
 
 - [ ] **WHAT:** length-band ruling on Book Two (standing queued question — blocking for the EN edition this listing sequences behind). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** De Nachtoven (NL Book One) published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
@@ -431,7 +431,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, series-matched). · **DEFAULT:** **€4.99 recommended, series-matched** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De Nachtoven — `docs/publishing/vetting/de-nachtoven.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De Nachtoven — `docs/publishing/vetting/de-nachtoven.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified (De Nachtoven, series-aware pick). · **UNBLOCKS:** the next click in this sequence
@@ -441,7 +441,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De Oogstslag — `docs/publishing/vetting/de-oogstslag.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De Oogstslag — `docs/publishing/vetting/de-oogstslag.md` @ §7 checklist — **HARD-GATED** — blocking row: length-band ruling on Book Two (standing queued question — blocking for the EN s…
 
 - [ ] **WHAT:** length-band ruling on Book Two (standing queued question — blocking for the EN sequencing this listing sits behind). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** De Nachtoven and De Morgendeur (NL Books One–Two) published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
@@ -452,7 +452,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, series-matched). · **DEFAULT:** **€4.99 recommended, series-matched** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De papieren sinaasappel — `docs/publishing/vetting/de-papieren-sinaasappel.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De papieren sinaasappel — `docs/publishing/vetting/de-papieren-sinaasappel.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
@@ -461,7 +461,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### De zoete zee — `docs/publishing/vetting/de-zoete-zee.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### De zoete zee — `docs/publishing/vetting/de-zoete-zee.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified with the §2 collision findings in view (Kok / Duyns; subtitle mandatory). · **UNBLOCKS:** the next click in this sequence
@@ -471,7 +471,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€4.99 recommended). · **DEFAULT:** **€4.99 recommended** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### Liefde in de kantlijn — `docs/publishing/vetting/liefde-in-de-kantlijn.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### Liefde in de kantlijn — `docs/publishing/vetting/liefde-in-de-kantlijn.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** NL title ratified (Liefde in de kantlijn — a free retitle, not a translation; reasoning in NOTES.md). · **UNBLOCKS:** the next click in this sequence
@@ -481,7 +481,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set (€3.99 recommended, band-floor logic inherited not NL-re-derived). · **DEFAULT:** **€3.99 recommended, band-floor logic inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
-### Photo Packs (Dutch Skies + Golden Hours) — `docs/publishing/vetting/photo-packs.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### Photo Packs (Dutch Skies + Golden Hours) — `docs/publishing/vetting/photo-packs.md` @ §7 checklist — **HARD-GATED** — blocking row: hand off full-res originals via a private channel — blocking: full-res originals…
 
 - [ ] **WHAT:** hand off full-res originals via a private channel — blocking: full-res originals are owner-held off-repo (PACK-SPEC public-repo safety rule); the sellable artifact cannot be built, hashed, or verified until this lands. Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** licensing/curation pass on the originals (people / logos / property per PACK-SPEC) — blocking: owner homework, not agent-checkable. · **UNBLOCKS:** the next click in this sequence
@@ -493,7 +493,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** optional two-pack bundle created ($9.99 (recommended default); ruled band $9.09–$10 — ORDER 010 / V039, sim-lab afe18f3). · **DEFAULT:** **$9.99** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URLs copied. · **UNBLOCKS:** the next click in this sequence
 
-### Ship-It Bundle (Membership Kit + Template Pack) — `docs/publishing/vetting/bundle-starter.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### Ship-It Bundle (Membership Kit + Template Pack) — `docs/publishing/vetting/bundle-starter.md` @ §7 checklist — **HARD-GATED** — blocking row: execute the ⚑B membership-kit ($49) publish click — blocking: ⚑B membership-kit…
 
 - [ ] **WHAT:** execute the ⚑B membership-kit ($49) publish click — blocking: ⚑B membership-kit publish click must be executed first (a Gumroad bundle references existing live products; click queued PR #106, packet membership-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** execute the ⚑D template-packs ($19 PWYW) publish click — blocking: ⚑D template-packs publish click must be executed first (same live-referent rule; click queued PR #108, packet template-packs.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
@@ -532,7 +532,7 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** AI-generated content disclosure ticked at publish time, if and only if the §5 decision chose AI art. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click itself + KDP Select enrollment choice (ebook edition, if shipped). · **UNBLOCKS:** the next click in this sequence
 
-### V020 Probe: audience-separation s (Paper Orange EN ↔ NL) — `docs/publishing/vetting/v020-probe-audience-separation.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### V020 Probe: audience-separation s (Paper Orange EN ↔ NL) — `docs/publishing/vetting/v020-probe-audience-separation.md` @ §7 checklist — **HARD-GATED** — blocking row: publish click B — De papieren sinaasappel (NL) per its packet §7 sequence, withi…
 
 - [ ] **WHAT:** publish click A — The Paper Orange (EN) per its packet §7 sequence. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** publish click B — De papieren sinaasappel (NL) per its packet §7 sequence, within 48 h of click A (inherits that packet's blocking native-speaker proofread gate). · **UNBLOCKS:** the next click in this sequence
