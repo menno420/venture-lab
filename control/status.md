@@ -1,24 +1,22 @@
 # Venture Lab — coordinator heartbeat
-updated: 2026-07-16T01:02:15Z
+updated: 2026-07-16T01:12:09Z
 
-**First wake after the 2026-07-15 archive** (coordinator-delegated slice, branch `claude/state-restamp-2026-07-16`, PR #206). Facts below re-verified at live GitHub, main HEAD `021cba9`; `python3 bootstrap.py check --strict` green at boot ("check: all checks passed."); kit v1.17.0.
+**Dispatched worker slice: main-verification workflow** (branch `claude/main-verify-workflow`, PR #207). Boot facts: main HEAD `a00df9b` (post-archive re-stamp #206 landed); inbox re-read at HEAD — still ends at ORDER 015 (acked at the 2026-07-15 reboot, PR #202), no unexecuted `new` ORDER; no live claims besides this slice's; live open-PR list was empty before #207.
 
-**Merged (verified live 2026-07-16):** all 2026-07-15 session PRs landed by the enabler — #202 reboot ack (merged 04:07:19Z, squash `f86fea4`) · #203 EAP capability tests + current-state refresh (04:10:06Z, `520bdfc`) · #204 merge-on-green probe (14:18:56Z, `3bc9e19`) · #205 session ender (`021cba9`). The prior heartbeat's "#202/#203 merged" claim confirmed, not assumed.
+**This slice:** closes the post-merge CI gap flagged by `.sessions/2026-07-16-state-restamp.md` — enabler merges via `GITHUB_TOKEN` suppress `on: push` workflows, so main has had zero push-triggered CI since `374e8d1` (2026-07-13T09:12Z). New HOST-OWNED `.github/workflows/main-verify.yml`: `schedule` cron `17 */6 * * *` + `workflow_dispatch`, mirrors kit-tests.yml's four test jobs verbatim plus `bootstrap.py check --strict`, `permissions: contents: read`, no PATs/secrets, no kit-owned file touched. All four mirrored suites run locally green pre-push (36/14/18/38 tests OK); workflow YAML parse OK; strict check green modulo this card's designed born-red HOLD.
 
-**Open PRs + dispositions:** #206 (this slice — post-archive re-stamp of status + current-state; landing path: card flip clears the born-red substrate-gate HOLD, enabler lands on green; no other blocker). No other open PRs — live PR list was empty before #206. Main-branch CI green (newest push-triggered main runs: kit-tests 29238186011 + substrate-gate 29238186022 at `374e8d1`; later runs are PR-triggered, green on merged heads).
+**Open PRs + dispositions:** #207 (this slice) — landing path: card flip clears the born-red substrate-gate HOLD, enabler lands on green (enabler carries no `.github/workflows/**` carve-out; only fork/draft/non-`claude/`/`do-not-automerge` exclusions). First scheduled or dispatched `main-verify` run after merge is the end-to-end proof.
 
-**Inbox at HEAD (`021cba9`):** ends at ORDER 015 (EAP extended through 2026-07-21) — acked at the 2026-07-15 reboot (PR #202); ORDERs 001–014 consumed in prior sessions (per this file's history + `docs/current-state.md`); no unexecuted `new` ORDER this wake. Re-read at HEAD immediately before this write — unchanged.
+**Kill clocks (carried from the 2026-07-16 advisory run):** Stripe Webhook Test Kit ⏲ upcoming 2026-07-19 T+7 funnel checkpoint · ⏲ upcoming 2026-07-26 T+14 kill-rule — 0 overdue, 0 due today.
 
-**Kill clocks (advisory run 2026-07-16):** Stripe Webhook Test Kit ⏲ upcoming 2026-07-19 T+7 funnel checkpoint (in 3 days) · ⏲ upcoming 2026-07-26 T+14 kill-rule — 0 overdue, 0 due today.
-
-routines: coordinator re-arming failsafe+pacemaker post-archive; ids next heartbeat
+routines: coordinator re-arming failsafe+pacemaker post-archive; ids next heartbeat (carried from #206)
 
 ⚑ owner (carried forward, still live):
 - Project custom instructions are dictionary v3.4 vs registry v3.6 — re-paste from fm:projects/venture-lab/instructions.md.
 - Publish clicks queued and untouched: `docs/publishing/OWNER-QUEUE.md` (19 decisions + 44 click-run sequences; 16 hard-gated). No click performed this wake.
 
 **Next-2 (baton):**
-1. Secure the Friday 2026-07-17T09:00Z grading executor — the weekly grading cron was session-bound and died at the 2026-07-15 archive; coordinator rebinds it (routine ownership is the coordinator's), or a fired session runs trading-strategy `scripts/grade_paper.py` in-session per paper-lane-protocol.
-2. Prep the SWTK T+7 funnel checkpoint (due 2026-07-19): a one-page measurement template against `launch/stripe-webhook-test-kit/LAUNCH-LOG.md` so the checkpoint verdict is a lookup, not a derivation — owner supplies the Gumroad numbers (agent has no store access).
+1. Secure the Friday 2026-07-17T09:00Z grading executor — the weekly grading cron was session-bound and died at the 2026-07-15 archive; coordinator rebinds it, or a fired session runs trading-strategy `scripts/grade_paper.py` in-session per paper-lane-protocol. (Carried from #206.)
+2. After #207 lands: dispatch `main-verify` once manually (Actions → main-verify → Run workflow) to prove the lane end-to-end before the first cron fire, and note the run id in the next heartbeat.
 
 kit: v1.17.0
