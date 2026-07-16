@@ -1,0 +1,1 @@
+- `claude/main-verify-workflow` · **add scheduled main-verification workflow** · .github/workflows/main-verify.yml · 2026-07-16
