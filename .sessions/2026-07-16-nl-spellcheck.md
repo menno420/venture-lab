@@ -1,6 +1,6 @@
 # Session — nl_NL hunspell spellcheck pass over the 4 NL manuscripts (capability probe + §6 per PRE-QA note)
 
-> **Status:** in-progress
+> **Status:** complete
 
 - **📊 Model:** Claude Opus · high · discovery/build
 - **started (date -u):** Thu Jul 16 17:42:16 UTC 2026
