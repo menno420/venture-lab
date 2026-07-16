@@ -15,3 +15,7 @@ PR #215 (HEAD 98f81d3) ran the nl_NL spellcheck pass and honestly declared the a
 
 ## Work log
 - Born-red skeleton: claim + card + PR opened (this commit holds substrate-gate red until the completion flip).
+- Generated 38 proposals via 4 parallel category workers (Product 12 · Publishing 9 · Revenue 8 · Ops 9); assembled into `docs/ideas/2026-07-17-overnight-menu.md` and linked from `docs/ideas/README.md`.
+- Recorded the owner's overnight order verbatim in the menu doc header. Did NOT write `control/inbox.md` (MANAGER-WRITTEN-ONLY per control/README.md + conventions) — flagged in the PR body + status.md.
+- Hygiene: pruned 3 stale claim files (merged #213/#214/#215); added a staleness banner to `docs/NEXT-SESSION.md`.
+- Heartbeat restamped in `control/status.md`; all session claims released at flip.

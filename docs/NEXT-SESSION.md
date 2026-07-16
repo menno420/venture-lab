@@ -9,6 +9,8 @@
 > [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md)
 > (latest retro: the 2026-07-13 night+day coordinator run).
 
+> ⚠ **Stale counts:** the catalog numbers below are stamped at PR #165 (2026-07-13) and predate ~50 merged PRs (main is at PR #215+). Treat `docs/current-state.md` (refreshed 2026-07-16) as the fresher ledger and re-derive before trusting any count here.
+
 ## Boot ritual
 
 1. Land on `origin/main` HEAD (`git fetch origin main && git reset --hard origin/main`).
