@@ -50,10 +50,12 @@
 
 **Books** (all publish clicks owner-gated; details + tree counts in
 [`current-state.md`](current-state.md); counts below re-derived by grep
-2026-07-14, night NL-completion PR #184 + the Wire Garden close-out): 12
-adult titles / 14 complete EN
+2026-07-14, night NL-completion PR #184 + the Wire Garden close-out +
+The Salt Bell 2026-07-16 PR #211): 13
+adult titles / 15 complete EN
 manuscripts (The Sweetwater Sea added PR #182; The Wire Garden added
-PR #187, 15,900w) · 5 YA · 1 middle-grade
+PR #187, 15,900w; The Salt Bell added PR #211, 15,212w — concept #3,
+owner-click-ready in one slice) · 5 YA · 1 middle-grade
 (The Halfway Ferry) · 9 trilingual
 picture-book title-lines · editions (27 board-book texts, **13 adult NL
 editions — the NL catalog is 13/13 complete** as of 2026-07-14: PRs
@@ -61,13 +63,14 @@ editions — the NL catalog is 13/13 complete** as of 2026-07-14: PRs
 Morgendeur) plus the night-final pair De zoete zee + De Oogstslag PR
 #186 — 2 EN novella
 cuts, Ultramarine serial ×3, 13 large-print specs) ·
-45 vetting packets (31 book + 13 product + 1 pre-registered probe
+46 vetting packets (32 book + 13 product + 1 pre-registered probe
 protocol — the four NL-edition packets De Nachtoven / De
 Marmeladepost / De glazen pastorie / De Driekoningentaart added
 2026-07-14 PR #180; De geborgen boomgaard / Liefde in de kantlijn / De
 Morgendeur / The Sweetwater Sea added 2026-07-14 night PR #184; De zoete
 zee / De Oogstslag added 2026-07-14 night-final PR #186; The Wire Garden
-EN packet added 2026-07-14 night close-out) in
+EN packet added 2026-07-14 night close-out; The Salt Bell EN packet added
+2026-07-16 PR #211) in
 [`publishing/vetting/`](publishing/vetting/) —
 the probe: V020 audience-separation, Paper Orange EN ↔ NL
 ([`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md)).
@@ -80,14 +83,14 @@ scoreboard.
 
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) — GENERATED file
 (re-run `scripts/derive_owner_queue.py` after any packet change; never
-hand-edit). After the 2026-07-14 night close-out regen (the Wire Garden
-packet added on top of PR #186's two, PR #184's four and PR
-#180's four; 46/46 inputs
+hand-edit). After the 2026-07-16 Salt Bell regen (the Salt Bell packet
+added on top of the Wire Garden close-out; 47/47 inputs
 clean) it queues **19
 decisions (D1–D19, each with a bolded default — "go with defaults" works)
-and 44 click-run publish sequences totalling 262 unchecked owner clicks**
+and 45 click-run publish sequences totalling 268 unchecked owner clicks**
 (16 sequences HARD-GATED
-behind a blocking row); §3 manual-review is empty; §4 lists the SWTK rows
+behind a blocking row; The Salt Bell is the 45th sequence, unblocked — 6
+clicks); §3 manual-review is empty; §4 lists the SWTK rows
 already DONE plus its ⏲ kill-clock checkpoints. These counts move with
 every queue regen — when in doubt, the generated file at HEAD wins over any
 prose copy (including this one).

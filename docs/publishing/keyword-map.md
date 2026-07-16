@@ -77,6 +77,8 @@
 | Literature & Fiction → **Small Town & Rural** | The Sweetwater Sea **+ De zoete zee (NL edition — SHARED 2026-07-14 per C4: same-title editions share browse nodes; separate listing, no duplicate row)** | [`vetting/the-sweetwater-sea.md`](vetting/the-sweetwater-sea.md) §6 + [`vetting/de-zoete-zee.md`](vetting/de-zoete-zee.md) §6 |
 | Literature & Fiction → Genre Fiction → Historical Fiction → **World War I** (era sub-node; parent node is Ultramarine's — Paper Orange WWII / Driekoningentaart Victorian sub-node precedent; sibling of Paper Orange's World War II sub-node) | The Wire Garden (manuscript-backed, claimed 2026-07-14 — no prior §3 reservation) | [`vetting/the-wire-garden.md`](vetting/the-wire-garden.md) §6 |
 | Literature & Fiction → Genre Fiction → **Animals** (exact node name re-verified against the live browse tree at upload) | The Wire Garden (manuscript-backed, claimed 2026-07-14) | [`vetting/the-wire-garden.md`](vetting/the-wire-garden.md) §6 |
+| Literature & Fiction → Genre Fiction → Historical Fiction → **20th Century** (era sub-node; parent Historical Fiction node is Ultramarine's — the Paper Orange WWII / Wire Garden WWI / Driekoningentaart Victorian sub-node precedent; 1953 is postwar, hence the general 20th-Century era node, not a war sub-node) | The Salt Bell (manuscript-backed, claimed 2026-07-16 — no prior §3 reservation) | [`vetting/the-salt-bell.md`](vetting/the-salt-bell.md) §6 |
+| Literature & Fiction → Genre Fiction → **Disaster** (exact node name re-verified against the live browse tree at upload; owner picks a genuinely unclaimed second node at upload if the Disaster node is absent — Small Town & Rural is The Sweetwater Sea's and is NOT to be co-claimed) | The Salt Bell (manuscript-backed, claimed 2026-07-16) | [`vetting/the-salt-bell.md`](vetting/the-salt-bell.md) §6 |
 
 *Edition-sharing note (C4):* **Het trage woord** (NL edition of The Slow
 Word, [`vetting/het-trage-woord.md`](vetting/het-trage-woord.md) §6) uses
@@ -260,6 +262,13 @@ second SERIES node-sharing, riding De Nachtoven's two nodes per the same
 | `First World War neutral Netherlands fiction` | The Wire Garden (C3 WWI register; `Netherlands` stem vs Paper Orange's `WWII Netherlands fiction` and Sweetwater's `1930s Netherlands historical novel` — watched adjacency, disjoint era intent: WWI neutrality vs WWII occupation vs interwar public works) |
 | `electric fence Great War novella` | The Wire Garden (C3 WWI register; `fence`/`Great War` stems unclaimed) |
 | `smuggled letters wartime story` | The Wire Garden (C3 WWI register; `wartime` stem vs Paper Orange's rows — watched adjacency, disjoint war; `letters` stem watched vs The Seed Catalogue Courtship's §3 novel-in-letters reservation — smuggled-correspondence intent vs epistolary-romance intent, disjoint; no widow stems drafted, deliberately — the C2 widow cluster already carries three titles) |
+| `1953 North Sea flood novel` | The Salt Bell (C3 postwar 1953-flood/Zeeland-Watersnood register) |
+| `Zeeland flood historical fiction` | The Salt Bell (C3 1953-flood register; bare `historical fiction` stem shared catalog-wide — watched adjacency, disjoint era intent) |
+| `Watersnoodramp novel` | The Salt Bell (C3 1953-flood register — "Watersnoodramp" is the standing Dutch name for the disaster, used here in the EN listing for the reader who searches it) |
+| `Dutch flood disaster novella` | The Salt Bell (C3 1953-flood register; bare `Dutch` stem vs Weigh House / Ultramarine / Paper Orange / Sweetwater / Wire Garden rows — watched adjacency in the C2 pattern, disjoint era and event) |
+| `Delta Works historical novel` | The Salt Bell (C3 1953-flood register; the Delta Works are the disaster's real aftermath — `Delta`/`sea defence` stems unclaimed catalog-wide) |
+| `oyster village Zeeland story` | The Salt Bell (C3 1953-flood register; oyster/village intent watched vs The Sweetwater Sea's `Dutch fishing village story` and `historical fiction about fishermen` — disjoint trade and intent per the C2 pattern: oyster culture / 1953 disaster vs. anchovy salting / 1927–32 enclosure; the nearest in-catalog adjacency, deliberately phrased to stay clear of it) |
+| `church bell ringer historical fiction` | The Salt Bell (`bell ringer`/`carillon`/`sexton` stems unclaimed catalog-wide) |
 
 ## 2. CONFLICTS (resolved here before any packet ships)
 
@@ -330,15 +339,29 @@ today, recorded as the standing rule:
   DECISIONS.md by era AND valence: neutrality/witness at a watched
   border vs Paper Orange's occupation/survival under it — different war,
   different decade, different search phrases by construction).
+- **The Salt Bell owns postwar 1953-flood / Zeeland-Watersnood phrases**
+  (`1953 North Sea flood novel`, `Zeeland flood historical fiction`,
+  `Watersnoodramp novel`, `Delta Works historical novel`, 1953) — the
+  SIXTH Netherlands era-register, claimed at its manuscript-backed vetting
+  (2026-07-16, negotiated here per this rule's own procedure; disjointness
+  pre-checked in the title's DECISIONS.md: a 1953 coastal-disaster novel
+  shares no occupation, war, Golden-Age, or interwar-engineering stems).
+  Nearest in-catalog adjacency is The Sweetwater Sea (both Dutch
+  water-and-a-drowned-trade novellas) — held disjoint by decade
+  (1953 vs 1927–32), event (flood disaster vs slow enclosure), and trade
+  (oyster culture vs anchovy salting); the Salt Bell's oyster/village
+  phrasing is deliberately steered clear of Sweetwater's fishing-village
+  rows.
 
 **Ownership rule:** Netherlands-flavored phrases are allocated by GENRE ERA
 — contemporary-crime register → Weigh House; 17th-century-historical
 register → Ultramarine; WWII-occupation register → The Paper Orange (EN;
 its NL edition De papieren sinaasappel holds the same register in the C4
 Dutch namespace); interwar Zuiderzee-closure register → The Sweetwater Sea;
-WWI neutral-border/Dodendraad register → The Wire Garden.
+WWI neutral-border/Dodendraad register → The Wire Garden; postwar
+1953-flood/Zeeland-Watersnood register → The Salt Bell.
 Any future Dutch-set title must pick phrases outside all
-five registers or negotiate a row here first. No conflict today; rule
+six registers or negotiate a row here first. No conflict today; rule
 recorded to prevent one.
 
 ### C4 — Dutch-LANGUAGE editions: separate keyword namespace, shared browse nodes (standing rule)

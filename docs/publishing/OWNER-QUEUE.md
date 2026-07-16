@@ -304,6 +304,15 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($3.99 recommended, length-dependent). · **DEFAULT:** **$3.99 recommended, length-dependent** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### The Salt Bell — `docs/publishing/vetting/the-salt-bell.md` @ §7 checklist
+
+- [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** title ratified with the §2 finding and the sensitive-history posture in view (subtitle mandatory; content note + author's note ship with the book). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** KDP title-availability recheck at upload. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** cover approved / any art spend authorized. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($4.99 recommended). · **DEFAULT:** **$4.99 recommended** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
+
 ### The Salvage Orchard — `docs/publishing/vetting/the-salvage-orchard.md` @ §7 checklist
 
 - [ ] **WHAT:** KDP account + tax/bank interview. · **UNBLOCKS:** the next click in this sequence
