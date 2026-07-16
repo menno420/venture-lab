@@ -6,8 +6,8 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Refreshed 2026-07-15 at the ORDER 015 reboot pass (main HEAD `9ed6a35`,
-> facts re-verified from the repo). Latest session retro:
+> Refreshed 2026-07-16 at the post-archive re-stamp (main HEAD `021cba9`,
+> facts re-verified at live GitHub; PR #206). Latest session retro:
 > [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md).
 
 ## Stability baseline
@@ -35,6 +35,30 @@
   always; ⏲ column PR #128, advisory script PR #133).
 - **Owner-gate lint:** `python3 scripts/lint_owner_gates.py` strict-lints
   packet §7 OWNER-GATE blocks; advisory CI step (PR #156).
+
+## State as of 2026-07-16 (post-archive snapshot)
+
+- **The 2026-07-15 coordinator session is archived.** Its ender heartbeat +
+  claim release landed as PR #205 (main HEAD `021cba9`); all four
+  2026-07-15 session PRs — #202 (reboot ack), #203 (EAP capability tests +
+  current-state refresh), #204 (merge-on-green verification probe), #205
+  (ender) — verified MERGED at live GitHub 2026-07-16, each landed by the
+  enabler (`github-actions[bot]`).
+- **0 open PRs** at the 2026-07-16 re-stamp (live GitHub, PR list empty).
+  Main-branch CI green (newest push-triggered runs: kit-tests 29238186011 +
+  substrate-gate 29238186022 at `374e8d1`; all later runs are PR-triggered
+  and green on merged heads).
+- **Routines:** the 2026-07-15 §4 trigger table died with the archived
+  session (`control/status.md` is now the ender record; the grading cron was
+  session-bound). The coordinator is re-arming failsafe + pacemaker
+  post-archive — live ids will appear in the next `control/status.md`
+  heartbeat.
+- **Kill clocks (advisory run 2026-07-16):** Stripe Webhook Test Kit ⏲ T+7
+  funnel checkpoint 2026-07-19 (in 3 days) · T+14 kill-rule 2026-07-26 —
+  0 overdue, 0 due today.
+- **Inbox at HEAD ends at ORDER 015** (acked at the reboot, PR #202); no
+  unexecuted `new` ORDER. Owner publish clicks remain queued and untouched
+  in [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md).
 
 ## State as of 2026-07-15 (reboot snapshot)
 
@@ -151,8 +175,29 @@
 
 ## Recently shipped (newest first)
 
-(Merged work only, newest first. Day run 2026-07-13, #141–#161.)
+(Merged work only, newest first.)
 
+- Session ender 2026-07-15 — final heartbeat + claim release (PR #205,
+  squash `021cba9`).
+- Merge-on-green verification probe doc (PR #204, squash `3bc9e19`).
+- EAP capability findings (add_repo / overview panel / coordinator-comms
+  inventory) + current-state refresh (PR #203, squash `520bdfc`).
+- Reboot ack: heartbeat + ORDER 015 acknowledgment (PR #202, squash
+  `f86fea4`).
+- EAP-extension note (ORDER 015) — extended through 2026-07-21, dormancy
+  superseded (PR #201, squash `9ed6a35`).
+- Final dormancy record — EAP shutdown 2026-07-14, superseded by ORDER 015
+  (PR #200, squash `2b949be`).
+- Kit upgrade v1.16.0 → v1.17.0 (PR #199, squash `ae24321`).
+- Kit upgrade v1.15.0 → v1.16.0 (PR #198, squash `f9e8bfd`).
+- EAP close-out walkthrough + owner actions, ORDER 014b (PR #197, squash
+  `d9c1fdd`).
+- Conventions rules 2–3 → enabler doctrine, ORDER 013/INC-44 (PR #196,
+  squash `38382d2`).
+- Stranded guard-fire telemetry recovered, ORDER 014a (PR #195, squash
+  `4f2bd21`).
+- Earlier 2026-07-13/14 history (#141–#194): night+day runs — see git log
+  and prior snapshots of this file.
 - Q-0264 relay — ORDER 010 (four sim-lab pricing verdicts V037/V039/V040/V041)
   appended to `control/inbox.md` (PR #161, squash `84d4bcb`).
 - Heartbeat amendment — #157 resumed as #159, MERGED; parked PRs: none
