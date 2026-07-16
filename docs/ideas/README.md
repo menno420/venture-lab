@@ -44,6 +44,7 @@ frontmatter keeps the score.
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
 
+- [Overnight planning menu 2026-07-17](2026-07-17-overnight-menu.md) — owner-ordered veto-ready menu (2026-07-16 night autonomous run): 38 distinct proposals across product (P-1…P-12), publishing pipeline (PUB-1…PUB-9), revenue (REV-1…REV-8), ops (OPS-1…OPS-9), each with pitch · S/M/L · risk/reversibility · unblocks. Owner vetoes line-by-line; survivors become claimed slices. State: captured.
 - [Adult title ideation batch 2026-07-14 night](2026-07-14-adult-title-concepts.md) —
   BOOKS-lane cohort doc (ORDER 008 item 1 / ORDER 011 item 2 generative
   rung): 5 new adult-novella concepts scored on six 1–5 axes — strongest
