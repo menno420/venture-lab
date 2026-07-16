@@ -117,6 +117,21 @@ PROOFREAD_GATED_PACKET = f"""# Title Vetting — De Testtaart
 - [ ] {FLAG} **Owner:** the publish click + KDP Select enrollment.
 """
 
+# A hard-gated NL edition whose proofread checkbox OMITS the literal
+# "blocking" keyword — exactly the owner-queue understatement bug this slice
+# fixes. Detection must hard-gate it on the native-speaker proofread-pass
+# signal ALONE, and the ordinary ⚑ Owner publish-click / cover / price rows
+# must NOT be mis-flagged as gates.
+PROOFREAD_NO_KEYWORD_PACKET = f"""# Title Vetting — De Ongemarkeerde
+
+## 7. {FLAG} OWNER-GATE — publish clicks
+
+- [ ] {FLAG} **Owner:** EN edition published first (sequencing dependency).
+- [ ] {FLAG} **Owner:** native-speaker proofread pass approved/commissioned.
+- [ ] {FLAG} **Owner:** cover type-swap approved / any incremental spend.
+- [ ] {FLAG} **Owner:** the publish click + KDP Select enrollment.
+"""
+
 # A hard-gated group whose blocking row genuinely IS a D-item: a numbered
 # OWNER-ACTION step carries an inline flag (making it a decision), and the
 # blocking owner checkbox shares its keyword ("illustration") — so `linked`
@@ -251,6 +266,41 @@ class DeriveOwnerQueueDoneDisposition(unittest.TestCase):
         )
         # The phantom-D-item wording must be gone for this sequence.
         self.assertNotIn("(a D-item above blocks this sequence)", output)
+
+    def test_proofread_gate_without_blocking_keyword_is_hard_gated(self) -> None:
+        # The understatement bug: a proofread checkbox that OMITS the literal
+        # "blocking" word must still hard-gate the sequence — an NL edition
+        # must never be shown click-ready while it still needs the blocking
+        # native-speaker proofread pass.
+        output, result = self._run(
+            {"de-ongemarkeerde.md": PROOFREAD_NO_KEYWORD_PACKET}
+        )
+        self.assertEqual(len(result.groups), 1)
+        group = result.groups[0]
+        self.assertTrue(group.blocked)  # hard-gated despite no "blocking" word
+        self.assertFalse(group.blocking_is_ditem)
+        self.assertIn("native-speaker proofread pass", group.blocking_row)
+        self.assertIn(
+            "**HARD-GATED** — blocking row: native-speaker proofread pass", output
+        )
+        # Regression: ordinary ⚑ Owner rows are NOT treated as blocking gates,
+        # so detection stays scoped to the proofread/quality-gate row.
+        self.assertFalse(
+            doq.is_blocking_box("the publish click + KDP Select enrollment.")
+        )
+        self.assertFalse(
+            doq.is_blocking_box("cover type-swap approved / any incremental spend.")
+        )
+        self.assertFalse(doq.is_blocking_box("EN edition published first."))
+        self.assertFalse(
+            doq.is_blocking_box("NL title ratified (De Nachtoven, series-aware pick).")
+        )
+        # ...and the proofread row itself IS a blocking gate on the phrase alone.
+        self.assertTrue(
+            doq.is_blocking_box(
+                "native-speaker proofread pass approved/commissioned."
+            )
+        )
 
     def test_ditem_gated_sequence_keeps_ditem_wording(self) -> None:
         # When the blocking row genuinely links to a same-packet D-item, the

@@ -191,7 +191,8 @@ it. The Dutch edition's clicks are naturally bundled AFTER the EN edition's
    final title-availability recheck (KDP + bol.com) before upload.
 
 - [ ] ⚑ **Owner:** EN edition published first (sequencing dependency).
-- [ ] ⚑ **Owner:** native-speaker proofread pass approved/commissioned.
+- [ ] ⚑ **Owner:** native-speaker proofread pass approved/commissioned
+      (blocking quality gate for this title).
 - [ ] ⚑ **Owner:** title-availability recheck (KDP + bol.com) at upload.
 - [ ] ⚑ **Owner:** cover type-swap approved / any incremental spend
       authorized.

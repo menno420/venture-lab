@@ -89,7 +89,10 @@
   2026-07-14 night close-out + The Salt Bell EN packet, 2026-07-16).
   After the Salt Bell regen it queues **19 decisions (D1–D19, each with a
   bolded default — "go with defaults" works) and 45 click-run publish
-  sequences totalling 268 unchecked owner clicks** (16 sequences hard-gated;
+  sequences totalling 268 unchecked owner clicks** (19 sequences hard-gated
+  after the proofread-gate detection fix — De Waag, Het trage woord, and
+  Weduwenblauw now correctly gated on their blocking native-speaker
+  proofread pass, up from 16;
   The Salt Bell is the 45th sequence, unblocked — 6 clicks); §3
   manual-review is empty (every input parsed clean, 47/47); §4 lists the
   SWTK rows already DONE. The seat performed none of the queued actions.

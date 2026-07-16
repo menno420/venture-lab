@@ -65,6 +65,30 @@ CHECKPOINT_DATE_RE = re.compile(r"^(\d{4}-\d{2}-\d{2})\b\s*(.*)$")
 BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 # Conflict sections in the keyword map: "### C1 — ..."
 CONFLICT_RE = re.compile(r"^###\s*(C\d+)\s*[—-]\s*(.+?)\s*$")
+# A native-speaker proofread pass is an INHERENTLY BLOCKING owner quality
+# gate: an NL edition must never publish un-proofread. Most packets spell
+# that out in the checkbox ("… (blocking quality gate for this title)"), so
+# the literal-"blocking" test below already catches them; but a few packets
+# omit the keyword and read only "native-speaker proofread pass
+# approved/commissioned." — those were wrongly rendered as NOT hard-gated,
+# telling the owner they were click-ready to publish. This pattern hard-gates
+# them on the proofread-pass signal alone. Scoped tightly to the proofread
+# row so ordinary ⚑ Owner rows (title ratify, cover, price, the publish
+# click) are never mis-flagged as hard-gated.
+PROOFREAD_GATE_RE = re.compile(r"native-speaker\s+proofread\s+pass", re.IGNORECASE)
+
+
+def is_blocking_box(text: str) -> bool:
+    """True when an owner checkbox names a genuine blocking gate.
+
+    Two signals, either sufficient: (1) the literal word "blocking" — the
+    packets' explicit marker for a hard gate (a length-band ruling, an
+    originals handoff, a prerequisite publish click, or a proofread row that
+    already carries the "(blocking quality gate …)" continuation); and (2) a
+    native-speaker proofread pass, which is inherently blocking for an NL
+    edition even when the packet omits the literal "blocking" keyword.
+    """
+    return "blocking" in text.lower() or bool(PROOFREAD_GATE_RE.search(text))
 
 
 @dataclass
@@ -88,10 +112,11 @@ class ClickGroup:
     # rendered ONLY in the Live section (a kill clock only ticks once live).
     checkpoints: list[dict] = field(default_factory=list)
     # For a hard-gated group: the cleaned text of the FIRST owner checkbox
-    # carrying "blocking" (the row that actually sets `blocked`), and whether
-    # that row links to a same-packet D-item. The HARD-GATED suffix names this
-    # real blocking row; the legacy "a D-item above blocks this sequence"
-    # wording is kept ONLY when the blocking row genuinely IS a D-item.
+    # that reads as a blocking gate (`is_blocking_box` — the row that actually
+    # sets `blocked`), and whether that row links to a same-packet D-item. The
+    # HARD-GATED suffix names this real blocking row; the legacy "a D-item
+    # above blocks this sequence" wording is kept ONLY when the blocking row
+    # genuinely IS a D-item.
     blocking_row: str = ""
     blocking_is_ditem: bool = False
 
@@ -262,7 +287,7 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         )
         return
 
-    blocked = any("blocking" in b.lower() for b in owner_boxes)
+    blocked = any(is_blocking_box(b) for b in owner_boxes)
 
     # DECISIONS: numbered OWNER-ACTION steps that carry an inline ⚑ —
     # the packets' own convention for "this step is an open owner choice".
@@ -311,13 +336,14 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         linked = bool(decision_keys & lead_keywords(clean))
         default = extract_default(box) or ""
         group.clicks.append({"what": clean, "default": default, "linked": linked})
-    # The actual blocker: the first pending owner click whose text carries
-    # "blocking" — the same signal that set `blocked` above. Its cleaned text
-    # (and whether it links to a same-packet D-item) drives the HARD-GATED
-    # suffix, so the owner reads WHY the sequence is gated, not a phantom
-    # D-item reference that may not exist.
+    # The actual blocker: the first pending owner click that reads as a
+    # blocking gate (`is_blocking_box` — the same signal that set `blocked`
+    # above, i.e. the literal "blocking" word OR a native-speaker proofread
+    # pass). Its cleaned text (and whether it links to a same-packet D-item)
+    # drives the HARD-GATED suffix, so the owner reads WHY the sequence is
+    # gated, not a phantom D-item reference that may not exist.
     for click in group.clicks:
-        if "blocking" in click["what"].lower():
+        if is_blocking_box(click["what"]):
             group.blocking_row = click["what"]
             group.blocking_is_ditem = click["linked"]
             break

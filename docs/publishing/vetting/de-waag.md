@@ -203,7 +203,8 @@ edition's (shared cover composition, shared account/tax setup).
    final title-availability recheck (KDP + bol.com) before upload.
 
 - [ ] ⚑ **Owner:** EN edition published first (sequencing dependency).
-- [ ] ⚑ **Owner:** native-speaker proofread pass approved/commissioned.
+- [ ] ⚑ **Owner:** native-speaker proofread pass approved/commissioned
+      (blocking quality gate for this title).
 - [ ] ⚑ **Owner:** title-availability recheck (KDP + bol.com) at upload.
 - [ ] ⚑ **Owner:** cover type-swap approved / any incremental spend
       authorized.
