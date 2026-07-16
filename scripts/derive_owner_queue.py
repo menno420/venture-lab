@@ -87,6 +87,13 @@ class ClickGroup:
     # {"date", "label"} rows from a §7 KILL-CHECK line, sorted earliest-first;
     # rendered ONLY in the Live section (a kill clock only ticks once live).
     checkpoints: list[dict] = field(default_factory=list)
+    # For a hard-gated group: the cleaned text of the FIRST owner checkbox
+    # carrying "blocking" (the row that actually sets `blocked`), and whether
+    # that row links to a same-packet D-item. The HARD-GATED suffix names this
+    # real blocking row; the legacy "a D-item above blocks this sequence"
+    # wording is kept ONLY when the blocking row genuinely IS a D-item.
+    blocking_row: str = ""
+    blocking_is_ditem: bool = False
 
 
 @dataclass
@@ -304,6 +311,16 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         linked = bool(decision_keys & lead_keywords(clean))
         default = extract_default(box) or ""
         group.clicks.append({"what": clean, "default": default, "linked": linked})
+    # The actual blocker: the first pending owner click whose text carries
+    # "blocking" — the same signal that set `blocked` above. Its cleaned text
+    # (and whether it links to a same-packet D-item) drives the HARD-GATED
+    # suffix, so the owner reads WHY the sequence is gated, not a phantom
+    # D-item reference that may not exist.
+    for click in group.clicks:
+        if "blocking" in click["what"].lower():
+            group.blocking_row = click["what"]
+            group.blocking_is_ditem = click["linked"]
+            break
     for box in done_rows:
         text = box.lstrip()
         text = text[len(FLAG) :].lstrip()
@@ -444,7 +461,19 @@ def render(result: ParseResult, vetting_dir: str) -> str:
     # Unblocked sequences first, hard-gated ones last; alphabetical within.
     ordered = sorted(result.groups, key=lambda g: (g.blocked, g.title.lower()))
     for group in ordered:
-        gate = " — **HARD-GATED** (a D-item above blocks this sequence)" if group.blocked else ""
+        if not group.blocked:
+            gate = ""
+        elif group.blocking_row and not group.blocking_is_ditem:
+            # Name the real blocking row (clipped) — most hard gates are a
+            # per-title quality/proofread gate or a prerequisite, not a D-item.
+            clip = group.blocking_row
+            if len(clip) > 80:
+                clip = clip[:80].rstrip() + "…"
+            gate = f" — **HARD-GATED** — blocking row: {clip}"
+        else:
+            # The blocking row genuinely links to a D-item above (or, defensively,
+            # no blocking row was captured) — keep the original wording.
+            gate = " — **HARD-GATED** (a D-item above blocks this sequence)"
         out.append(f"### {group.title} — {group.where}{gate}")
         out.append("")
         for click in group.clicks:
