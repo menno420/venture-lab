@@ -4,9 +4,9 @@
 > does **NOT** substitute for or clear the §7 native-speaker proofread gate —
 > owner sign-off still required. Consistency-based static analysis of the actual
 > manuscript (`de-zoete-zee.md`) cross-read against `NOTES.md`; candidate spots
-> only, no judgment of idiom or register quality. **hunspell nl_NL is not
-> installed here, so NO spellcheck pass was run** — no candidate-misspelling
-> list, only the consistency checks below.
+> only, no judgment of idiom or register quality. A mechanical **hunspell nl_NL
+> spellcheck pass was subsequently run — see §6** for the candidate-misspelling
+> list; §§1–5 below are the consistency checks.
 
 Line numbers are 1-based in `de-zoete-zee.md`; one line ≈ one paragraph. This is
 the lowest-expansion NL edition in the catalog (**+1.5%**), so the seams are
@@ -70,3 +70,47 @@ lowest of the four titles carrying a PRE-QA note.
 *Zoete zee* / A. Kok on the shelf). That is a market/title-ratify owner gate in
 the packet, **not** a mechanical proofread item, and is **not** addressed or
 cleared here — noted only so it isn't mistaken for something this pass covered.
+
+---
+
+## 6. Mechanical spellcheck pass — nl_NL hunspell (candidate misspellings)
+
+> **Header.** Tool: **spylls 0.1.7** (pure-Python hunspell engine). Dictionary:
+> **OpenTaal / LibreOffice `nl_NL` hunspell v2.20.21 (2021-07-03)**, 180,715
+> stems, from `raw.githubusercontent.com/LibreOffice/dictionaries/master/nl_NL/`.
+> Run date: **2026-07-16 (UTC)**. Manuscript: `de-zoete-zee.md`.
+> **Total tokens checked: 15,430. Total unique flags: 91. Genuine candidates
+> after filtering: 0.** This section adds the spellcheck pass the §Preamble
+> explicitly deferred ("hunspell nl_NL is not installed here, so NO spellcheck
+> pass was run").
+>
+> **DISCLAIMER (unchanged).** Mechanical flags are *candidates*, not a quality
+> attestation, and do **not** clear the §7 native-speaker proofread gate. hunspell
+> nl_NL does no free compounding, so it flags every valid novel compound; the
+> period fishery/waterworks register (§1) is exactly this class and is filtered,
+> not corrected.
+
+### 6a. Genuine candidate misspellings (ranked)
+
+**None found.** The residual flags are dominated by the period
+fishery/waterworks register that §1 already inventoried and by valid nautical
+compounds/derivations. Every one reviewed on context reads as a real or
+transparently-formed Dutch term (e.g. `afvieren` = to pay out a rope, `bijgewarpt`
+= warped alongside, `geklank` = clanging, `moeringen` = moorings, `landmaken` =
+land-reclaiming, `te-veelheid` = excess-ness). No typo-shaped token survived.
+
+### 6b. Excluded tally (auditable — see `categorize.py`)
+
+Of 91 unique flags:
+
+| Bucket | unique | occ | basis |
+|--------|-------:|----:|-------|
+| Proper nouns (names / places) | 16 | 53 | `NOTES.md` name & place lists (Trijn, Vlieter, Wieringer(s), Makkumer, Rotgans, Snoek, Sint-Anthonis, Vliekant, Vollenhoofse, Waddenman, MUZ, WR, …) |
+| Documented craft/glossary coinages | 23 | 37 | `NOTES.md` glossary + §1 craft-neologism inventory (zouting, boekstaving, steunwet, Zuiderzeesteunwet, besomming, boeten, meitrek, kipkarren, kopbanken, steenstorters, telloon, spoeltobbe, netvallen, moeringen, ansjoviszouter, dakpannenrood, …) |
+| Abbreviations / non-lexical | 2 | 2 | `MUZ`, `WR` (also proper-ish; counted once) |
+| Emphatic acute-accent forms | 0 | 0 | — |
+| Casing artifact (`Eén` = sentence-initial `één`) | 1 | 3 | dict has `één`; only the capitalized accented form fails |
+| Valid productive compounds/derivations (dict gap) | 49 | 52 | transparent Dutch/nautical compounds the dict lacks (afvieren, bijgewarpt, gekettingd, geklank, groenruggig, halfverdronken, houtklovend, kerkjas, mastbok, meslemmet, paaizanden, terugroeiend, uitgemiddeld, zoutkoninkrijk, …) — reviewed, none typo-shaped |
+
+**Net: 91 flags → 0 genuine candidate misspellings.** The +1.5% tightest-seam
+edition also produced the fewest raw flags, as expected for a narration-heavy text.

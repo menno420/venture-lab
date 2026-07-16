@@ -4,9 +4,9 @@
 > does **NOT** substitute for or clear the §7 native-speaker proofread gate —
 > owner sign-off still required. Consistency-based static analysis of the actual
 > manuscript (`liefde-in-de-kantlijn.md`) cross-read against `NOTES.md`;
-> candidate spots only, no judgment of idiom or register quality. **hunspell
-> nl_NL is not installed here, so NO spellcheck pass was run** — no
-> candidate-misspelling list, only the consistency checks below.
+> candidate spots only, no judgment of idiom or register quality. A mechanical
+> **hunspell nl_NL spellcheck pass was subsequently run — see §6** for the
+> candidate-misspelling list; §§1–5 below are the consistency checks.
 
 The book is **epistolary**, so `NOTES.md` names its real work as *"register per
 correspondent."* That axis is a native-ear judgment an AI cannot make — but the
@@ -85,3 +85,41 @@ Densest paragraphs, compare against `../../en/the-seed-catalogue-courtship.md`:
 (169)**, **line 608 (168)**, **line 238 (153)**. The +3.3% is mid-band; if each
 carries the EN beats, the expansion is faithful. An AI can only point to where;
 the native pass judges padding vs faithful expansion.
+
+---
+
+## 6. Mechanical spellcheck pass — nl_NL hunspell (candidate misspellings)
+
+> **Header.** Tool: **spylls 0.1.7** (pure-Python hunspell engine). Dictionary:
+> **OpenTaal / LibreOffice `nl_NL` hunspell v2.20.21 (2021-07-03)**, 180,715
+> stems, from `raw.githubusercontent.com/LibreOffice/dictionaries/master/nl_NL/`.
+> Run date: **2026-07-16 (UTC)**. Manuscript: `liefde-in-de-kantlijn.md`.
+> **Total tokens checked: 15,262. Total unique flags: 116. Genuine candidates
+> after filtering: 0.** Supersedes the preamble "no spellcheck pass was run" note.
+>
+> **DISCLAIMER (unchanged).** Mechanical flags are *candidates*, not a quality
+> attestation, and do **not** clear the §7 native-speaker proofread gate. hunspell
+> nl_NL does no free compounding, so it flags every valid novel compound; those
+> are filtered below.
+
+### 6a. Genuine candidate misspellings (ranked)
+
+**None found.** Every residual flag resolves to a proper noun, a documented
+seed-trade/commercial coinage, a period abbreviation, or a valid transparent
+Dutch compound/derivation the dictionary simply lacks. No typo-shaped token
+survived review. (This is the cleanest of the four manuscripts.)
+
+### 6b. Excluded tally (auditable — see `categorize.py`)
+
+Of 116 unique flags:
+
+| Bucket | unique | occ | basis |
+|--------|-------:|----:|-------|
+| Proper nouns (names / places) | 38 | 222 | `NOTES.md` glossary + names (Prowse, Marchfield, Saltmarsh, Dilys, Deane, Whitlow, Herring, Herefordshire, Pring, Coker, Norwich, Fakenham, Mowbray & Kett, cultivar names 'Maanglans'/'Veenreus'/'Norfolkse Morgen', …) |
+| Documented craft/glossary coinages | 14 | 29 | `NOTES.md` glossary (kantlijn, bestelformulier, kiemkracht, accessies, zaadmagazijn, catalogusvast, zoutroze, hamerprijs, ingenieurscursief, veredelaarster, stenosleutel, …) |
+| Abbreviations / roman numerals (non-lexical) | 9 | 36 | `nr`, `mej`, `mevr`, `incl`, `ca`, `Ontv`, `ii`, `iii`, `iv` |
+| Emphatic acute-accent forms (valid klemtoon) | 1 | 1 | `hád` — strip accent → known word |
+| Casing artifact (`Eén` = sentence-initial `één`) | 1 | 2 | dict has `één`; only the capitalized accented form fails |
+| Valid productive compounds/derivations (dict gap) | 53 | 81 | transparent Dutch compounds the dict lacks (middenbed, tuinmanshuis, oostbedden, theekas, retourbak, herbeglaasd, herbeglazing, herbinden, herfstzaai, hervulling, verpulper, wanmachines, mooiweerconstructie, zilverberijpt, …) — reviewed, none typo-shaped |
+
+**Net: 116 flags → 0 genuine candidate misspellings.**

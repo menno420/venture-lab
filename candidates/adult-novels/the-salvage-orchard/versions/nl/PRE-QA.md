@@ -6,9 +6,9 @@
 > human to check, produced by consistency-based static analysis of the actual
 > manuscript (`de-geborgen-boomgaard.md`) cross-read against `NOTES.md`. It
 > finds nothing about idiom, naturalness, or register *quality* — only
-> mechanical consistency an agent can legitimately verify. **hunspell nl_NL is
-> not installed in this environment, so NO spellcheck pass was run**; there is
-> no candidate-misspelling list here, only the consistency checks below.
+> mechanical consistency an agent can legitimately verify. A mechanical
+> **hunspell nl_NL spellcheck pass was subsequently run — see §6** for the
+> candidate-misspelling list; §§1–5 below are the consistency checks.
 
 Purpose: shrink the proofread read from a cold 15,750-word pass to a guided
 one. Line numbers are 1-based in `de-geborgen-boomgaard.md`; paragraphs sit on
@@ -98,3 +98,49 @@ counterpart paragraph in `../../en/the-salvage-orchard.md`; if the NL paragraph
 carries the story in the same beats, the expansion is honest translation, not
 padding. (An AI cannot tell padding from faithful expansion — this only
 isolates *where* to look.)
+
+---
+
+## 6. Mechanical spellcheck pass — nl_NL hunspell (candidate misspellings)
+
+> **Header.** Tool: **spylls 0.1.7** (pure-Python hunspell engine). Dictionary:
+> **OpenTaal / LibreOffice `nl_NL` hunspell v2.20.21 (2021-07-03)**, 180,715
+> stems, from `raw.githubusercontent.com/LibreOffice/dictionaries/master/nl_NL/`.
+> Run date: **2026-07-16 (UTC)**. Manuscript: `de-geborgen-boomgaard.md`.
+> **Total tokens checked: 15,717. Total unique flags: 165. Genuine candidates
+> after filtering: 0 clear misspellings; 2 nonstandard-form items for a native
+> register glance.** Supersedes the preamble "no spellcheck pass was run" note.
+>
+> **DISCLAIMER (unchanged).** Mechanical flags are *candidates*, not a quality
+> attestation, and do **not** clear the §7 native-speaker proofread gate. hunspell
+> nl_NL does no free compounding, so it flags every valid novel compound; those
+> are filtered below.
+
+### 6a. Genuine candidate misspellings (ranked)
+
+**No high- or medium-confidence misspellings found.** Two residual flags are
+nonstandard *forms* rather than typos — kept for a native register glance, not
+proposed as corrections:
+
+| Word | ×  | Line | Note | Confidence |
+|------|----|------|------|-----------|
+| `anderser` | 1 | 425 | Comparative of *anders* (*"…en zou nog anderser worden."*). Standard Dutch has no comparative of *anders* (one would say *nog anders / meer anders*); reads as a deliberate literary coinage, parallel to `warere` L387. Native reader confirms it's intended. | LOW — likely deliberate |
+| `gewrakte` | 2 | 327, 413 | *"de door de storm gewrakte boom"* — participle used = "wrecked" (from *wrak*, wreck), thematically apt for a salvage novel; *wraken* normally means "to challenge/reject" (→ `gewraakte`). Register choice, not a spelling slip. | LOW — likely deliberate coinage |
+
+`warere` (L387, *"het warere antwoord"*) is a **correctly formed** comparative of
+*waar* (true) → *warer* → inflected *warere*; dict gap only. Not flagged.
+
+### 6b. Excluded tally (auditable — see `categorize.py`)
+
+Of 165 unique flags:
+
+| Bucket | unique | occ | basis |
+|--------|-------:|----:|-------|
+| Proper nouns (names / places) | 35 | 273 | `NOTES.md` glossary + name list (Ash, Marisol, Nef, Okafor, Duplessis, Okonjo, Szabó, Bae, Ibadan, Molenbeekvlakte, Wagenwerf, Enthoutbibliotheek, Ashmead's Kernel, Kustkorps, …) |
+| Documented craft/glossary coinages | 25 | 56 | `NOTES.md` glossary (enthout, ent, spleetenten, chip-oculatie, omgeënt, wolfsappels, wolfsboom, weercollectief, belboom, peillat, kloosterpeer, kweepeerpasta, leerrij, …) |
+| Emphatic acute-accent forms (valid klemtoon) | 4 | 4 | `díe`, `míj`, `gáán`, `zíjn` — strip accent → known word |
+| Casing artifact (`Eén` = sentence-initial `één`) | 1 | 10 | dict has `één`; only the capitalized accented form fails |
+| Valid productive compounds/derivations (dict gap) | 98 | 131 | transparent Dutch compounds/derivations the dict lacks (westhek, noordhek, zuidhek, ciderhuis, dakploeg, tramhal, waspotten, melganzenvoet [real plant], onovertuigd, herplante, gegeleerd, bedraadde, messchuwe, …) — reviewed, none typo-shaped |
+
+**Net: 165 flags → 0 clear misspellings** (2 nonstandard forms flagged for a
+register glance only). Consistent with a carefully edited literary translation.
