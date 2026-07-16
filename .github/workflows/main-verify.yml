@@ -1,0 +1,73 @@
+# HOST-OWNED main-verification lane (companion to kit-tests; kit-owned
+# files are never hand-edited — this is the separate host file their
+# headers call for).
+# Purpose: close the post-merge CI gap on main. The auto-merge enabler
+# performs squash merges with GITHUB_TOKEN (github-actions[bot]), and
+# GitHub suppresses `on: push` workflows for events created by that
+# token — so merged squashes produce ZERO push-triggered CI on main
+# (newest push-triggered main run before this workflow: 374e8d1,
+# 2026-07-13T09:12Z). Scheduled workflows always run on the default
+# branch, so every run here re-verifies main HEAD regardless of how
+# the merge was performed. No PATs, no secrets, read-only permissions.
+# Jobs mirror kit-tests.yml's test steps verbatim, plus the repo's own
+# strict substrate gate.
+name: main-verify
+on:
+  schedule:
+    - cron: '17 */6 * * *'  # every 6h, offset from top-of-hour load
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  membership-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: membership-kit server tests (unit + ORDER 003 real-path HTTP + SupabaseStore)
+        working-directory: candidates/membership-kit/server
+        run: python3 -m unittest test_membership test_http_realpath test_supabase_store -v
+  stripe-webhook-test-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: stripe-webhook-test-kit real-path HTTP tests
+        working-directory: candidates/stripe-webhook-test-kit
+        run: python3 -m unittest test_http_realpath -v
+  github-webhook-test-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: github-webhook-test-kit real-path HTTP tests
+        working-directory: candidates/github-webhook-test-kit
+        run: python3 -m unittest test_http_realpath -v
+  owner-click-queue-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: owner-click-queue-kit parse/derive/lint tests
+        working-directory: candidates/owner-click-queue-kit
+        run: python3 -m unittest test_ocq -v
+  substrate-strict-check:
+    # The repo's own hygiene gate, run against main HEAD. On a plain
+    # scheduled checkout there is no PR context and no card in any
+    # diff, so this is the same strict pass every session runs
+    # pre-push (stdlib-only, system python3 — no setup needed).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: substrate strict check (bootstrap.py check --strict)
+        run: python3 bootstrap.py check --strict
