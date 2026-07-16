@@ -280,3 +280,7 @@ C3 interwar register with zero contact with the other three Netherlands
 registers; browse nodes shared with the EN edition per C4. The honest
 gaps — NL comps not formally pulled, band inherited, proofread pending —
 are explicit §7 rows, not skipped.
+
+---
+
+**Pre-QA (machine pre-annotation — does NOT clear the gate above).** A mechanical pre-annotation checklist for the §7 native-speaker proofread pass — coined-term / craft-register consistency, word-count expansion seams, and mechanical nits, each cited by manuscript location — is at [`PRE-QA.md`](../../../candidates/adult-novels/the-sweetwater-sea/versions/nl/PRE-QA.md). It is AI-produced pre-annotation, **not** a native proofread, and does **not** change the ⚑ Owner proofread checkbox state above; it only shrinks the owner's read from cold to guided.

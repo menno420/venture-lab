@@ -334,6 +334,19 @@ def parse_packet(path: Path, result: ParseResult) -> None:
         text = text.replace("**Owner:**", "", 1).strip()
         clean = strip_markup(text)
         linked = bool(decision_keys & lead_keywords(clean))
+        # A native-speaker proofread pass is an INDEPENDENT quality gate — it
+        # never "executes a D-item decision above". Loose keyword overlap must
+        # not tag it as D-item-linked: the normalised "…(blocking quality gate
+        # for this title)" continuation shares the generic word "title" with a
+        # "Title coupling" ⚑ decision (Weduwenblauw), which otherwise mis-reads
+        # its HARD-GATED suffix as "a D-item above blocks this sequence" instead
+        # of naming the real proofread row (same owner-misleading-wording class
+        # as #210/#213). Genuine D-item links — e.g. the illustration-book
+        # "illustration money-decision" blocking row, or a title-ratify click
+        # that executes a "Title + subtitle" decision — are NOT proofread gates,
+        # so they keep their correct D-item wording.
+        if PROOFREAD_GATE_RE.search(clean):
+            linked = False
         default = extract_default(box) or ""
         group.clicks.append({"what": clean, "default": default, "linked": linked})
     # The actual blocker: the first pending owner click that reads as a

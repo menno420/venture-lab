@@ -149,6 +149,26 @@ DITEM_GATED_PACKET = f"""# Title Vetting — Test Stones
 - [ ] {FLAG} **Owner:** the publish click itself.
 """
 
+# The Weduwenblauw shape: a proofread blocking row whose normalised
+# "(blocking quality gate for this title)" continuation shares the generic
+# word "title" with a "Title coupling" ⚑ OWNER-ACTION decision above. Loose
+# keyword overlap must NOT tag the proofread gate as executing that D-item — a
+# native-speaker proofread pass is an independent quality gate. The HARD-GATED
+# suffix must NAME the proofread row, not read "a D-item above blocks this
+# sequence" (the owner-misleading-wording bug this slice fixes).
+PROOFREAD_TITLE_OVERLAP_PACKET = f"""# Title Vetting — De Weduwentest
+
+## 7. {FLAG} OWNER-GATE — publish clicks
+
+**OWNER-ACTION — Publish "De Weduwentest"**
+1. {FLAG} **Title coupling (default recommend the paired NL title):** ratify EN+NL together.
+
+- [ ] {FLAG} **Owner:** EN+NL title pair ratified (recommended); recheck at upload.
+- [ ] {FLAG} **Owner:** native-speaker proofread pass approved/commissioned
+      (blocking quality gate for this title).
+- [ ] {FLAG} **Owner:** the publish click itself.
+"""
+
 
 class DeriveOwnerQueueDoneDisposition(unittest.TestCase):
     def _run(self, packets: dict[str, str]) -> tuple[str, doq.ParseResult]:
@@ -314,6 +334,37 @@ class DeriveOwnerQueueDoneDisposition(unittest.TestCase):
             "**HARD-GATED** (a D-item above blocks this sequence)", output
         )
         self.assertNotIn("blocking row:", output)
+
+    def test_proofread_gate_with_title_overlap_names_proofread_row(self) -> None:
+        # Weduwenblauw regression: the proofread blocking row's "…for this
+        # title" continuation keyword-overlaps a "Title coupling" ⚑ decision,
+        # but a proofread pass is NEVER a D-item execution. The suffix must
+        # name the proofread row, NOT the phantom-D-item wording, and the
+        # proofread click must NOT carry "executes its D-item above".
+        output, result = self._run(
+            {"weduwentest.md": PROOFREAD_TITLE_OVERLAP_PACKET}
+        )
+        self.assertEqual(len(result.groups), 1)
+        group = result.groups[0]
+        self.assertTrue(group.blocked)
+        self.assertFalse(group.blocking_is_ditem)
+        self.assertIn("native-speaker proofread pass", group.blocking_row)
+        self.assertIn(
+            "**HARD-GATED** — blocking row: native-speaker proofread pass", output
+        )
+        self.assertNotIn("(a D-item above blocks this sequence)", output)
+        # The genuine title-ratify click DOES still execute its D-item...
+        self.assertIn("title pair ratified", output)
+        title_line = next(
+            l for l in output.splitlines() if "title pair ratified" in l
+        )
+        self.assertIn("executes its D-item above", title_line)
+        # ...but the proofread click must NOT.
+        proof_line = next(
+            l for l in output.splitlines() if "native-speaker proofread pass" in l
+            and l.lstrip().startswith("- [ ]")
+        )
+        self.assertNotIn("executes its D-item above", proof_line)
 
     def test_pending_totals_unaffected_by_live_packet(self) -> None:
         _, legacy_only = self._run({"legacy.md": LEGACY_PACKET})
