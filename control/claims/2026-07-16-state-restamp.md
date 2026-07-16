@@ -1,0 +1,1 @@
+- `claude/state-restamp-2026-07-16` · **scope** — post-archive re-stamp of `control/status.md` + `docs/current-state.md` against live GitHub (PRs #202–#205 verified merged; 0 open PRs to disposition) · 2026-07-16
