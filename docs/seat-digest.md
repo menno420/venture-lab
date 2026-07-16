@@ -18,16 +18,19 @@ each block ends with a pointer to the full source doc.
 <!-- substrate-kit:skills-digest BEGIN — derived render, kit-generated; regenerate with `python3 bootstrap.py seat-digest`, never edit. -->
 ## Skills digest
 
-- `session-close` — Land the session — claim, born-red card first, READY PR, batched work, close-out docs, flip complete last; never…
-- `upgrade-distribution` — Roll a kit release out to one adopter repo — download, sha256 three-way, banked rollback, carve-out scan, born-red PR,…
-- `release` — Cut + publish a substrate-kit release — version bump PR, workflow_dispatch publish, three-way asset verification,…
-- `intake` — Turn a fragmented owner ask into main ideas, a restated fuller picture, a skill-index map, and structured-choice owner…
-- `quality-gate` — Run the project's full verification before pushing and report what must be fixed.
-- `review` — Review the branch diff against the binding contracts; comment with a verdict and fixes, no edits.
+- `session-close` — Land the session — claim, born-red card first, READY PR, batched work,…
+- `upgrade-distribution` — Roll a kit release out to one adopter repo — download, sha256 three-way,…
+- `release` — Cut + publish a substrate-kit release — version bump PR, workflow_dispatch…
+- `intake` — Turn a fragmented owner ask into main ideas, a restated fuller picture, a…
+- `chase-references` — Resolve every reference in the ask before acting — inventory, resolve or…
+- `prep-owner-steps` — Hand the owner finished steps, not directions — deep links, paste-ready…
+- `rationalize` — The checkpoint at natural pauses — should this action also be executed? does…
+- `quality-gate` — Run the project's full verification before pushing and report what must be…
+- `review` — Review the branch diff against the binding contracts; comment with a verdict…
 - `repo-health` — Audit doc + session-log hygiene (bootstrap check) and summarize drift.
-- `deep-research` — Fan out web research, adversarially verify sources, and synthesize a cited report.
+- `deep-research` — Fan out web research, adversarially verify sources, and synthesize a cited…
 - `question` — Answer a direct question concisely from memory and source; make no changes.
-- `analysis` — Read-only deep-dive: investigate and report findings without changing anything.
+- `analysis` — Read-only deep-dive: investigate and report findings without changing…
 
 Full index (grounds + capabilities): `docs/SKILLS.md` — the source this block derives from.
 <!-- substrate-kit:skills-digest END -->
@@ -40,9 +43,9 @@ Full index (grounds + capabilities): `docs/SKILLS.md` — the source this block 
 - `any` · **`api.github.com` direct HTTP**: blocked → GitHub access is MCP-tools-only.
 - `any` · **Environment / Project creation**: owner-click actions in the console — queue them as structured owner asks, never wait silently. Routine/schedule creation…
 - `any` · **GraphQL API quota**: tight — batch queries and prefer the REST-backed MCP tools for bulk reads.
+- `autonomous-project` · **overview panel (ORDER 015): seat-side unverifiable; owner-side feature** — no tool or surface resembling an overview/panel/dashboard is exposed to this seat…
 - `autonomous-project` · self-merge and auto-merge-arm of own PRs are classifier-denied in agent seats → a green `clean` PR is agent-unlandable; recipe: leave it READY + green on a…
-- `any` · direct push to `main` refused by repo ruleset · evidence: verbatim at seed (2026-07-09): `422 Repository rule violations found — Changes must be made through…
-- …plus 2 more — read `docs/CAPABILITIES.md`.
+- …plus 3 more — read `docs/CAPABILITIES.md`.
 
 Full ledger (all venues, evidence, freshness): `docs/CAPABILITIES.md` — the seat-local source of truth; append findings THERE, never here.
 <!-- substrate-kit:walls-digest END -->
@@ -70,7 +73,7 @@ block — a consumer's byte-match drift guard compares against exactly them.
    capabilities and walls; sessions append verified findings there.
 2. **This file** — a derived render of that ledger (walls) and the kit's
    `SKILLS` list (skills). Regenerated, never edited; never a copy of record.
-3. **fleet-manager `docs/capabilities.md`** — the fleet aggregation point;
+3. **fleet-manager `docs/CAPABILITIES.md`** — the fleet aggregation point;
    cross-repo findings are consolidated there by the manager.
 
 No third authored copy is ever minted (grounded-skills plan §4.2e). A prompt
