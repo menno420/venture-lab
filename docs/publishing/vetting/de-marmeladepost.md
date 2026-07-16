@@ -227,3 +227,7 @@ misspelling drift absorbed for free by the Dutch spelling); length
 measured; the honest gaps — NL comps not pulled, band inherited,
 proofread pending — are explicit §7 rows, not skipped. First NL entry on
 the catalog's cozy-mystery shelf.
+
+---
+
+**Pre-QA (machine pre-annotation — does NOT clear the gate above).** A mechanical pre-annotation checklist for the §7 native-speaker proofread pass — coined-term / craft-register consistency, word-count expansion seams, and mechanical nits, each cited by manuscript location — is at [`PRE-QA.md`](../../../candidates/adult-novels/the-marmalade-post/versions/nl/PRE-QA.md). It is AI-produced pre-annotation, **not** a native proofread, and does **not** change the ⚑ Owner proofread checkbox state above; it only shrinks the owner's read from cold to guided.

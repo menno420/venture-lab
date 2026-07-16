@@ -538,11 +538,11 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** publish click B — De papieren sinaasappel (NL) per its packet §7 sequence, within 48 h of click A (inherits that packet's blocking native-speaker proofread gate). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** measurement export at T0+15 — the §4 list (orders, KENP/KENPC, per-marketplace splits, no-ads confirmation) for both ASINs, handed to the seat. · **UNBLOCKS:** the next click in this sequence
 
-### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist — **HARD-GATED** (a D-item above blocks this sequence)
+### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** EN+NL title pair ratified (The Widow's Blue ↔ Weduwenblauw recommended); title-availability recheck (KDP + bol.com) at upload. · **DEFAULT:** **The Widow's Blue ↔ Weduwenblauw recommended** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
-- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **DEFAULT:** executes its D-item above · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** native-speaker proofread pass approved/commissioned (blocking quality gate for this title). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** cover type-swap approved / any incremental spend authorized. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set (€4.99 recommended, band inherited not NL-re-derived). · **DEFAULT:** **€4.99 recommended, band inherited not NL-re-derived** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence

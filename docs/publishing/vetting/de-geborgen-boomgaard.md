@@ -232,3 +232,7 @@ title, double meaning working for the book); length measured; the honest
 gaps — NL comps not pulled, no established NL solarpunk shelf, band
 inherited, proofread pending with extra pronoun-consistency weight — are
 explicit §7 rows, not skipped.
+
+---
+
+**Pre-QA (machine pre-annotation — does NOT clear the gate above).** A mechanical pre-annotation checklist for the §7 native-speaker proofread pass — coined-term / craft-register consistency, word-count expansion seams, and mechanical nits, each cited by manuscript location — is at [`PRE-QA.md`](../../../candidates/adult-novels/the-salvage-orchard/versions/nl/PRE-QA.md). It is AI-produced pre-annotation, **not** a native proofread, and does **not** change the ⚑ Owner proofread checkbox state above; it only shrinks the owner's read from cold to guided.
