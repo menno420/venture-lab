@@ -1,0 +1,1 @@
+- `claude/overnight-menu` · **overnight planning menu + owner-order record + heartbeat restamp** — veto-ready proposal menu into docs/ideas/, record owner overnight order in card+status (inbox is manager-only), honest heartbeat restamp · 2026-07-17
