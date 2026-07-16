@@ -1,5 +1,5 @@
 # Venture Lab — coordinator heartbeat
-updated: Thu Jul 16 22:09:11 UTC 2026
+updated: 2026-07-16T22:09:11Z
 
 **Slice this wake (overnight autonomous, owner order 2026-07-16 night):** the agent-executable backlog stayed DRY (net-new inventory paused since #215 pending owner-only decisions), so per the owner's live overnight order this session ran PLANNING MODE and landed a veto-ready menu of 38 distinct proposals at `docs/ideas/2026-07-17-overnight-menu.md` (Product P-1…P-12 · Publishing PUB-1…PUB-9 · Revenue REV-1…REV-8 · Ops OPS-1…OPS-9), each carrying a 2-3 line pitch · S/M/L effort · risk/reversibility · what-it-unblocks. Quantity is deliberate — the owner vetoes line-by-line in the morning. Two small reversible hygiene fixes rode the same PR: pruned 3 stale claim files for merged PRs #213/#214/#215, and added a staleness banner to `docs/NEXT-SESSION.md` (its catalog counts are stamped at PR #165 / 2026-07-13 and predate ~50 merged PRs; `docs/current-state.md`, refreshed 2026-07-16, is the fresher ledger). No net-new inventory, no publish click, no gate ticked, no owner checkbox touched.
 

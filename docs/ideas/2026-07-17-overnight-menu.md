@@ -9,7 +9,7 @@ outcome: open
 
 # Overnight planning menu — 2026-07-17 (veto-ready)
 
-> **Status:** `veto-ready menu` — quantity is deliberate. Skim the whole list and
+> **Status:** `ideas` — veto-ready menu; quantity is deliberate. Skim the whole list and
 > VETO what you don't want; your veto is the filter. Nothing here is built except
 > the small hygiene fixes that shipped with this PR. All M/L items are plans only.
 
