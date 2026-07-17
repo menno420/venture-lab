@@ -29,3 +29,4 @@ master — fixes propagate EN → NL, never the reverse.
 |-----|-------|----------------|--------|
 | `nl/` | complete literary Dutch (NL) edition, *De papieren sinaasappel* — see `nl/NOTES.md` and `docs/publishing/vetting/de-papieren-sinaasappel.md` | 16,203 (measured; EN source 15,811) | complete |
 | `large-print/` | EN large-print paperback production spec (6×9, 16pt+, page estimate, KDP cost/royalty math) — spec only, no new manuscript | 15,811 (EN source, measured) | spec complete |
+| `audio/` | EN audiobook/narration production spec (script order, Dutch pronunciation guide, per-chapter `wc -w` runtime @~150 wpm, tone/voice notes) — spec only, no recording | 15,811 (EN source, measured) | spec complete |
