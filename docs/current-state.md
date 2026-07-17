@@ -6,10 +6,11 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-17 for the fresh-start cleanup (main HEAD `2348575`, latest
-> merged PR #216; facts re-verified at live GitHub). This restamp REPLACES the
-> earlier EAP-era snapshots (archive/reboot narratives, kill-clock console
-> dates) — those described a timeline that no longer governs.
+> Restamped 2026-07-17 for the fresh-start cleanup (main HEAD `16cec26`, latest
+> merged PR #217 — the coordinator seat close-out; facts re-verified at live
+> GitHub). This restamp REPLACES the earlier EAP-era snapshots (archive/reboot
+> narratives, kill-clock console dates) — those described a timeline that no
+> longer governs.
 
 ## Platform wind-down (read first)
 
@@ -32,8 +33,10 @@
 
 ## What is true now (2026-07-17)
 
-- **0 open PRs** (verified live). No frozen/draft work is parked in this repo.
-- **main HEAD `2348575`, latest merged PR #216** — the overnight planning menu:
+- **main HEAD `16cec26`, latest merged PR #217** — the coordinator seat
+  close-out heartbeat (`control/status.md`). Aside from this cleanup PR, no
+  other work is in flight.
+- **main HEAD `2348575`, PR #216** — the overnight planning menu:
   a veto-ready set of **38 proposals** at
   [`ideas/2026-07-17-overnight-menu.md`](ideas/2026-07-17-overnight-menu.md)
   (Product P-1…P-12 · Publishing PUB-1…PUB-9 · Revenue REV-1…REV-8 ·
@@ -110,6 +113,7 @@ when a precise count is needed.)
 
 (Merged work only, newest first.)
 
+- Coordinator seat close-out heartbeat (PR #217, squash `16cec26`).
 - Overnight planning menu — 38 veto-ready proposals + owner-order record +
   hygiene + heartbeat restamp (PR #216, squash `2348575`).
 - nl_NL hunspell spellcheck pass over the 4 NL manuscripts + capability

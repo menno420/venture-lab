@@ -18,7 +18,7 @@
   merge performed. (1) Verified `claims/` + `control/claims/` hold only READMEs
   — no stale claims to prune. (2) Rewrote `docs/current-state.md` to a slim
   current-truth ledger (EAP cutoff 2026-07-21, autonomy wind-down, recreation,
-  0 open PRs, HEAD/PR #216, dead-routines note, failsafe 403). (3) Removed the
+  HEAD/PR #217, dead-routines note, failsafe 403). (3) Removed the
   agent-side auto-merge / "it lands itself" doctrine from `CONSTITUTION.md` and
   `docs/conventions.md` (owner-merges model) and badged the two enabler guides
   historical. (4) Created `docs/NEXT-TASKS.md` curating the 38-proposal overnight
@@ -41,15 +41,22 @@
 
 ## Results (as landed)
 
-- **Claims:** `staleClaims` empty; `claims/README.md` + `control/claims/README.md`
-  are the only files — nothing pruned (READMEs kept, per instruction).
+- **Claims:** `staleClaims` (from the recon digest) was empty; `claims/README.md`
+  + `control/claims/README.md` kept. During the session PR #217 merged and left a
+  stale claim `control/claims/claude-coordinator-closeout-heartbeat.md` (its PR is
+  terminal) — pruned on sight (fix-drift), so a fresh seat sees no phantom claim.
+- **Mid-session merge:** PR #217 (coordinator close-out) landed on main after this
+  branch was cut; merged `origin/main` in (resolved the `control/status.md`
+  conflict by taking #217's close-out heartbeat + re-applying the deprecation
+  banner) and refreshed the ledger #216 → #217. Forward-only (merge, no rebase/
+  force-push, per conventions rule 5).
 - **`docs/current-state.md`** rewritten to a slim "what is true now" ledger:
   platform wind-down block (EAP read-only 2026-07-21, ~2026-07-15 classifier,
-  owner-merges, merge≠deploy), 0 open PRs, main HEAD `2348575` / PR #216, the
-  38-proposal menu pointer, dead-triggers note, the failsafe git-push 403 owner
-  item, accurate product/revenue state (1 live + 10 publish-READY + 2 hard-gated),
-  and a "Recently shipped" ledger through #216. Replaces the EAP archive/reboot
-  snapshots.
+  owner-merges, merge≠deploy), main HEAD `16cec26` / PR #217 (merged mid-session),
+  the 38-proposal menu pointer, dead-triggers note, the failsafe git-push 403
+  owner item, accurate product/revenue state (1 live + 10 publish-READY + 2
+  hard-gated), and a "Recently shipped" ledger through #217. Replaces the EAP
+  archive/reboot snapshots.
 - **Instruction doctrine fixed:** `CONSTITUTION.md` autonomy rail "arm auto-merge
   → it lands itself" → "open READY + green; the owner merges"; `docs/conventions.md`
   §"PR state and merge authority" rewritten to the owner-merges model (rules 2/3/4)
