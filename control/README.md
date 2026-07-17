@@ -1,6 +1,20 @@
 # control/ — manager↔lane coordination protocol
 
-> **Status:** `binding` — seeded 2026-07-09 by the fleet manager. One writer per
+> **Status:** `historical`
+>
+> ⚠️ **RETIRED — the manager↔lane message-bus is being wound down.** This
+> `control/*` inbox↔status↔outbox protocol (and its ORDER stack) is EAP-era
+> fleet ceremony for a multi-agent seat. The owner is winding down autonomy and
+> recreating projects fresh (EAP read-only 2026-07-21); a single-owner recreated
+> project takes orders directly from the owner and boots from one current-state
+> doc + the ideas menu, not this bus. **The "the lane NEVER edits `inbox.md`"
+> restriction below no longer applies** — it was self-imposed coordination
+> friction (it blocked recording a real owner order in 2026-07-16) and is not
+> carried forward. Kept only as history; do not build on it. Current truth:
+> [`../docs/current-state.md`](../docs/current-state.md) /
+> [`../docs/NEXT-TASKS.md`](../docs/NEXT-TASKS.md).
+>
+> Seeded 2026-07-09 by the fleet manager. One writer per
 > file (playbook R9); violating writer-ownership is the only way this protocol
 > merge-conflicts.
 

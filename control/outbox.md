@@ -1,5 +1,12 @@
 # venture-lab outbox (coordinator → manager)
 
+> ⚠️ **RETIRED / HISTORICAL — the coordinator→manager message-bus is wound down.**
+> This is EAP-era fleet ceremony; a recreated single-owner project has no manager
+> to write to. Kept as a record only. Current truth:
+> [`../docs/current-state.md`](../docs/current-state.md) /
+> [`../docs/NEXT-TASKS.md`](../docs/NEXT-TASKS.md). See
+> [`README.md`](README.md) for why the `control/*` bus is retired.
+
 Append-only. Dated sections, newest last.
 
 ## 2026-07-13 · night-run batch 1 (coordinator → manager)

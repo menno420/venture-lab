@@ -1,6 +1,12 @@
 # Auto-merge enabler — owner action (turn the canonical landing path live)
 
-> **Status:** `owner-guidance`
+> **Status:** `historical`
+>
+> ⚠️ **RETIRING — the auto-merge apparatus is being wound down.** Agent seats no
+> longer arm/self-merge (classifier-denied ~2026-07-15); the owner merges green
+> PRs. Kept for reference only; the enabler workflow is slated for retirement at
+> relaunch. See [`../conventions.md`](../conventions.md) /
+> [`../current-state.md`](../current-state.md).
 
 The substrate-kit auto-merge enabler workflow is now wired at
 `.github/workflows/auto-merge-enabler.yml` (byte-identical to the kit-owned

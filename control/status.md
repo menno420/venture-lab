@@ -1,6 +1,14 @@
 # Venture Lab — coordinator heartbeat
 updated: 2026-07-17T12:07:07Z
 
+> ⚠️ **RETIRED / HISTORICAL heartbeat.** The `control/*` manager↔lane message-bus
+> is being wound down (EAP read-only 2026-07-21; projects recreated fresh). This
+> is the last coordinator heartbeat, kept as history; a recreated seat reads
+> [`../docs/current-state.md`](../docs/current-state.md) and
+> [`../docs/NEXT-TASKS.md`](../docs/NEXT-TASKS.md) instead. See
+> [`README.md`](README.md) for why the bus is retired. (Trigger state below is
+> stale — no routines are armed.)
+
 **Coordinator seat close-out (this wake):** the coordinator seat ends
 2026-07-17 (`date -u` 2026-07-17T12:07:07Z); its work loop ran across
 2026-07-16/17. This is the terminal heartbeat — neutral facts + pointers only,

@@ -1,6 +1,13 @@
 # EAP close-out walkthrough — venture-lab seat, 2026-07-14
 
-> **Status:** `owner-guidance`
+> **Status:** `historical`
+>
+> ⚠️ **DEPRECATED / HISTORICAL — do not act on this file.** It is the 2026-07-14
+> end-of-EAP close-out surface; its counts and owner-click totals are stale and
+> its EAP timeline no longer governs (EAP goes read-only 2026-07-21; projects
+> are being recreated fresh). For the current owner surface use
+> [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) and
+> [`current-state.md`](current-state.md) / [`NEXT-TASKS.md`](NEXT-TASKS.md).
 >
 > ORDER 014(b) deliverable (`control/inbox.md` @ `37e3c05`): the owner's
 > end-of-EAP review surface for this seat. Five sections: what shipped (A),

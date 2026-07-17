@@ -6,253 +6,137 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Refreshed 2026-07-16 at the post-archive re-stamp (main HEAD `021cba9`,
-> facts re-verified at live GitHub; PR #206). Latest session retro:
-> [`retro/2026-07-13-coordinator-session.md`](retro/2026-07-13-coordinator-session.md).
+> Restamped 2026-07-17 for the fresh-start cleanup (main HEAD `16cec26`, latest
+> merged PR #217 — the coordinator seat close-out; facts re-verified at live
+> GitHub). This restamp REPLACES the earlier EAP-era snapshots (archive/reboot
+> narratives, kill-clock console dates) — those described a timeline that no
+> longer governs.
+
+## Platform wind-down (read first)
+
+- **The Claude Code Projects EAP goes read-only on 2026-07-21.** After that the
+  autonomous Project seats and scheduled routines can no longer write. The owner
+  is **winding down the autonomy apparatus** and **recreating some projects
+  fresh** — so this repo is being left clean enough that a fresh seat boots from
+  the repo alone, with no EAP/fleet ceremony to reconstruct.
+- **~2026-07-15 merge classifier change.** Agent seats are DENIED from arming
+  auto-merge or self-merging their own (or a sibling's) PR
+  (**[Self-Approval]** / **[Merge Without Review]**). The landing model going
+  forward is simple: **an agent opens a PR READY and leaves it green; the owner
+  merges.** Do not depend on any server-side "it lands itself" automation — the
+  `auto-merge-enabler` workflow is slated for retirement in the wind-down
+  (tracked as an OPS relaunch item in [`NEXT-TASKS.md`](NEXT-TASKS.md)).
+- **Merging is NOT deploying here.** venture-lab hosts no running service; a
+  merge only updates docs/code on `main`. The sellables are stdlib-only Python a
+  buyer self-hosts. "Publishing" is a manual **owner** action (upload a dist zip
+  to Gumroad, post the listing) — never a deploy.
+
+## What is true now (2026-07-17)
+
+- **main HEAD `16cec26`, latest merged PR #217** — the coordinator seat
+  close-out heartbeat (`control/status.md`). Aside from this cleanup PR, no
+  other work is in flight.
+- **main HEAD `2348575`, PR #216** — the overnight planning menu:
+  a veto-ready set of **38 proposals** at
+  [`ideas/2026-07-17-overnight-menu.md`](ideas/2026-07-17-overnight-menu.md)
+  (Product P-1…P-12 · Publishing PUB-1…PUB-9 · Revenue REV-1…REV-8 ·
+  Ops OPS-1…OPS-9). It is the standing next-task backlog; the curated,
+  owner-actionable digest of it (plus the go-live owner steps) is
+  [`NEXT-TASKS.md`](NEXT-TASKS.md).
+- **Routines / triggers: none live, none re-armed.** The EAP-era session-bound
+  triggers (grading cron, failsafe, pacemaker) died with their archived
+  sessions. Any concrete trigger id still printed in an older doc
+  (`NEXT-SESSION.md`, prior snapshots) is DEAD — do not trust it. Re-arming is a
+  deliberate owner action post-relaunch, not an in-repo fact. Doctrine (kept for
+  reference, now dormant): [`ROUTINES.md`](ROUTINES.md).
+- **⚑ Owner item — failsafe seat write-wall (carried).** The persistent failsafe
+  wake session (pinned-research env) has NO write access to venture-lab:
+  `git push` returns **403, "access to this repository is not enabled for this
+  session"**. It can observe but not land. Owner action: enable venture-lab write
+  for that seat, or accept observe-only. (Per-seat token wall, not repo-wide — the
+  coordinator seat pushed/landed normally through #216.)
+
+## Products & revenue (2026-07-17)
+
+Every publish/spend step is **owner-gated** — the entry point is
+[`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) (generated; re-run
+`scripts/derive_owner_queue.py` after any packet change). At the last regen it
+queues **19 decisions (D1–D19, each with a bolded default) + 45 publish
+sequences (19 hard-gated) = 268 unchecked owner clicks.** The seat performed
+none of them.
+
+- **1 LIVE product — Stripe Webhook Test Kit $29** on Gumroad (launched
+  2026-07-12, measurement mode). Kill clock: **T+7 funnel checkpoint 2026-07-19,
+  T+14 kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
+  pause/delist). 0 organic sales to date — distribution is the binding
+  constraint. Record:
+  [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
+- **10 publish-READY SKUs** (built + priced + listing drafted + verified;
+  publish clicks owner-gated): Membership-Site Boilerplate Kit $49 ·
+  Agent-Workflow Template Pack $19 PWYW · Agent Fleet Field Manual $39 ·
+  Kill-Rule Intake Kit $15 · The False-Green Test Trap $15 · The Agent
+  Merge-Wall Cookbook $19 · GitHub Webhook Test Kit $29 · Owner-Click Queue Kit
+  $19 · Multi-Agent Control-Plane Pack $29 · AI Novella Production Kit $29.
+- **2 hard-gated (not publish-ready):** Photo Packs (full-res originals owner-held
+  off-repo) · Ship-It Bundle $59 (gated on component clicks).
+- **Go-live owner steps** for the products that need keys before real money can
+  flow (Membership kit's Stripe/Supabase/Discord env, the SWTK kill-clock call,
+  the publish clicks) are written as finished steps in
+  [`NEXT-TASKS.md`](NEXT-TASKS.md).
+
+## Book catalog (honest pointer)
+
+Large and mostly complete: ~15 EN adult manuscripts, **13/13 NL adult editions**,
+5 YA, 1 MG, 9 trilingual children's title-lines (27 board-book texts), plus
+serial / large-print / novella-cut editions. **The single binding lever is the
+owner-only native-speaker proofread pass** on the ready NL editions — an AI
+cannot clear it (19 OWNER-QUEUE rows are hard-gated on it). Vetting via
+[`publishing/CHECKLIST.md`](publishing/CHECKLIST.md); lane index
+[`publishing/`](publishing/README.md). (Per-title counts are not re-enumerated
+here to avoid a recurring drift class — re-derive from the `candidates/` tree
+when a precise count is needed.)
 
 ## Stability baseline
 
-- **Canonical landing path proven and in daily use:** born-red session card →
-  READY (non-draft) `claude/`-headed PR → CI green (kit-tests +
-  substrate-gate) → the auto-merge enabler self-lands it (installed PR #59;
-  ≈90 PRs landed this way across the 2026-07-13 night+day runs). Lanes never
-  arm or merge their own PRs.
-- **Stripe Webhook Test Kit v0.1 — verified product.** ⚑A live verification
-  (PR #74): HTTP 200 against a real Stripe-issued webhook signing secret,
-  forged and stale-timestamp events rejected HTTP 400, real-path suite 14/14
-  green. Buyer path verified end to end by the owner's test purchase (PR #86).
-- **Substrate-kit v1.17.0** (PR #199; `.substrate/state.json`
-  `kit_version: 1.17.0`) — `python3 bootstrap.py check --strict`
-  is the pre-push gate; claims convention per
+- **Landing path (current):** born-red session card → READY (non-draft)
+  `claude/`-headed PR → CI green (`kit-tests` + `substrate-gate`) → **owner
+  merges**. Agent seats never arm or self-merge (classifier-denied since
+  ~2026-07-15).
+- **Substrate-kit** adopted; `python3 bootstrap.py check --strict` is the
+  pre-push gate; claims convention per
   [`control/claims/README.md`](../control/claims/README.md).
-- **Ledger-drift advisory:** `python3 scripts/check_ledger_drift.py` nags
-  (never gates) when this file's "Recently shipped" trails the newest merged
-  PR — see [`docs/ledger-drift-checker.md`](ledger-drift-checker.md).
-- **Kill-clock advisory:** `python3 scripts/check_kill_clocks.py --today
-  "$(date -u +%F)"` prints per-live-product DUE/OVERDUE/upcoming lines from
-  the vetting packets' §7 `KILL-CHECK:` ⏲ tokens (imports
-  `derive_owner_queue.py`'s parser — no forked grammar; advisory, exits 0
-  always; ⏲ column PR #128, advisory script PR #133).
-- **Owner-gate lint:** `python3 scripts/lint_owner_gates.py` strict-lints
-  packet §7 OWNER-GATE blocks; advisory CI step (PR #156).
-
-## State as of 2026-07-16 (post-archive snapshot)
-
-- **The 2026-07-15 coordinator session is archived.** Its ender heartbeat +
-  claim release landed as PR #205 (main HEAD `021cba9`); all four
-  2026-07-15 session PRs — #202 (reboot ack), #203 (EAP capability tests +
-  current-state refresh), #204 (merge-on-green verification probe), #205
-  (ender) — verified MERGED at live GitHub 2026-07-16, each landed by the
-  enabler (`github-actions[bot]`).
-- **0 open PRs** at the 2026-07-16 re-stamp (live GitHub, PR list empty).
-  Main-branch CI green (newest push-triggered runs: kit-tests 29238186011 +
-  substrate-gate 29238186022 at `374e8d1`; all later runs are PR-triggered
-  and green on merged heads).
-- **Routines:** the 2026-07-15 §4 trigger table died with the archived
-  session (`control/status.md` is now the ender record; the grading cron was
-  session-bound). The coordinator is re-arming failsafe + pacemaker
-  post-archive — live ids will appear in the next `control/status.md`
-  heartbeat.
-- **Kill clocks (advisory run 2026-07-16):** Stripe Webhook Test Kit ⏲ T+7
-  funnel checkpoint 2026-07-19 (in 3 days) · T+14 kill-rule 2026-07-26 —
-  0 overdue, 0 due today.
-- **Inbox at HEAD ends at ORDER 015** (acked at the reboot, PR #202); no
-  unexecuted `new` ORDER. Owner publish clicks remain queued and untouched
-  in [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md).
-
-## State as of 2026-07-15 (reboot snapshot)
-
-- **Rebooted 2026-07-15 on the v3.6 prompt.** The 2026-07-14 dormancy record
-  (`control/status.md`, PR #200) is **superseded** per ORDER 015
-  (`control/inbox.md`; EAP-extension note landed PR #201): the EAP is
-  **extended through 2026-07-21** (Anthropic mail 2026-07-14, metadata
-  reference only).
-- **Routines re-armed** — the live trigger ids are recorded in
-  `control/status.md` (§4 holds the verbatim definitions).
-- **Publish queue pointer unchanged:**
-  [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) remains the owner
-  entry point; no queued click was performed at reboot.
-
-## State as of 2026-07-13 (session-ender snapshot)
-
-(Verify against live source control — this section is a dated snapshot.)
-
-- **Owner entry point: [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md).**
-  GENERATED file (re-run `scripts/derive_owner_queue.py` after any packet
-  change; last re-derives: ORDER 010 verdicts PR #163 + MACP rows PR #164 +
-  AI Novella Production Kit rows PR #169 + the V020 audience-separation
-  probe packet PR #179 + the four NL-edition packets, 2026-07-14 night
-  slice PR #180 + the NL-completion batch's four packets — De geborgen
-  boomgaard / Liefde in de kantlijn / De Morgendeur / The Sweetwater Sea —
-  2026-07-14 night, PR #184 + the night-final pair — De zoete zee /
-  De Oogstslag — 2026-07-14 night, PR #186 + The Wire Garden EN packet,
-  2026-07-14 night close-out + The Salt Bell EN packet, 2026-07-16).
-  After the Salt Bell regen it queues **19 decisions (D1–D19, each with a
-  bolded default — "go with defaults" works) and 45 click-run publish
-  sequences totalling 268 unchecked owner clicks** (19 sequences hard-gated
-  after the proofread-gate detection fix — De Waag, Het trage woord, and
-  Weduwenblauw now correctly gated on their blocking native-speaker
-  proofread pass, up from 16;
-  The Salt Bell is the 45th sequence, unblocked — 6 clicks); §3
-  manual-review is empty (every input parsed clean, 47/47); §4 lists the
-  SWTK rows already DONE. The seat performed none of the queued actions.
-- **Products — 1 live + 10 publish-READY (click-queued) + 2 hard-gated
-  (2026-07-13).**
-  - **Live:** Stripe Webhook Test Kit $29 on Gumroad (launched 2026-07-12;
-    measurement mode). Kill clocks armed packet-side: **T+7 funnel checkpoint
-    2026-07-19, T+14 kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified
-    inbound, else ledger ⚑E NEGATIVE + pause/delist). Durable record:
-    [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-  - **Publish-READY at the quality floor** (built + priced + listing drafted
-    + verified + sha recorded; publish clicks owner-gated in the queue):
-    Membership-Site Boilerplate Kit $49 (PR #106) · Agent-Workflow Template
-    Pack $19 PWYW (PR #108) · Agent Fleet Field Manual $39 (PR #110) ·
-    Kill-Rule Intake Kit $15 · The False-Green Test Trap $15 · The Agent
-    Merge-Wall Cookbook $19 (night run #103–#136) · **GitHub Webhook Test
-    Kit $29 (PR #147)** · **Owner-Click Queue Kit $19 (PR #153)** (day run) ·
-    **Multi-Agent Control-Plane Pack $29 (PR #164, INTAKE-gated build)** ·
-    **AI Novella Production Kit $29 (PR #169, INTAKE-gated night build —
-    the catalog's first writing-audience SKU)**.
-  - **Hard-gated (not publish-ready):** Photo packs — full-res originals are
-    owner-held off-repo, sellable zips agent-unbuildable
-    ([`publishing/vetting/photo-packs.md`](publishing/vetting/photo-packs.md));
-    Ship-It Bundle $59 — gated on its ⚑B/⚑D component clicks
-    ([`publishing/vetting/bundle-starter.md`](publishing/vetting/bundle-starter.md)).
-  - Remaining unpacketed candidate: none — `cc-cost-lens` was **KILLED at its
-    intake gate 2026-07-13** (Kill Rule 0/3; verdict + in-place
-    negative-ledger entry in `candidates/cc-cost-lens/INTAKE.md`
-    § "Verdict at gate: KILL (2026-07-13)"; PR #169). Fresh night ideation
-    batch on file:
-    [`products/ideas-2026-07-13-night.md`](products/ideas-2026-07-13-night.md)
-    (7 concepts, 1 BUILD / 2 PARK / 4 KILL; the BUILD shipped as the AI
-    Novella Production Kit above).
-- **Book catalog — honest tree count, re-derived by grep 2026-07-14 (night
-  NL-completion, PR #184)** (all publishing clicks
-  owner-gated; vetting via [`publishing/CHECKLIST.md`](publishing/CHECKLIST.md),
-  lane index [`publishing/`](publishing/README.md)):
-  - **Adult novels: 13 titles, 15 complete EN manuscripts** (The Night Kiln
-    Books 1–3; The Slow Word in 12 chapter files) — Glass Rectory, Marmalade
-    Post, Night Kiln, Paper Orange, Salt Bell (PR #211, 15,212w — concept #3,
-    owner-click-ready in one slice), Salvage Orchard, Seed Catalogue
-    Courtship, Slow Word, Sweetwater Sea (PR #182, 15,243w), Twelfth Cake,
-    Weigh House, Wire Garden (PR #187, 15,900w), Ultramarine.
-  - **YA: 5 titles** — Hollowtide, The Last Good Frequency, The Marginalia
-    Society, The Pepper Ledger, The Undertow.
-  - **Middle-grade: 1 title** — The Halfway Ferry (15,173w, PR #155), first
-    MG entry, series CANON.md on file.
-  - **Children's picture books: 9 trilingual title-lines (EN/NL/DE)** —
-    Bram the Yak, Comet Biscuit (3-book series), Dormouse, Painted Stones,
-    Star Pirates, The Lantern Door, The Puddle Museum, The Windmill Mouse,
-    Tummel — plus concepts/ and adaptations/ dirs.
-  - **Editions: 27 board-book texts** (7 title-lines × EN/NL/DE; Comet
-    Biscuit ×3 books), **13 adult NL editions — the NL catalog is 13/13
-    complete** (De Papieren Sinaasappel,
-    Het Trage Woord, De Waag, Weduwenblauw, and the 2026-07-14 night wave:
-    De Nachtoven 16,840w, De Marmeladepost 15,637w, De glazen pastorie
-    15,573w, De Driekoningentaart 16,897w — PRs #175–#178 — plus the
-    NL-completion trio Liefde in de kantlijn 15,633w PR #183, De geborgen
-    boomgaard 15,750w PR #184, De Morgendeur 16,730w PR #185, and the
-    night-final pair De zoete zee 15,467w + De Oogstslag 24,655w PR #186; the
-    2026-07-13 "4 adult NL editions" line here had gone stale — count
-    re-derived from the `versions/nl*` + `novella-cut-nl` dirs), **2 EN
-    novella cuts** (Slow Word, Weigh House), **Ultramarine serial edition**
-    (3 parts), **13 large-print EDITION-SPECs** (5 + the 8-title bundle,
-    PR #172).
-  - **Vetting packets: 46** (32 book + 13 product + 1 pre-registered probe
-    protocol — the V020 audience-separation probe, Paper Orange EN ↔ NL,
-    [`publishing/vetting/v020-probe-audience-separation.md`](publishing/vetting/v020-probe-audience-separation.md),
-    PR #179; the four NL-edition packets De Nachtoven / De Marmeladepost /
-    De glazen pastorie / De Driekoningentaart added 2026-07-14, PR #180;
-    De geborgen boomgaard / Liefde in de kantlijn / De Morgendeur / The
-    Sweetwater Sea added 2026-07-14 night, PR #184; De zoete zee /
-    De Oogstslag added 2026-07-14 night-final, PR #186; The Wire Garden
-    EN packet added 2026-07-14 night close-out; The Salt Bell EN packet
-    added 2026-07-16, PR #211 — owner-click-ready in one slice)
-    in [`publishing/vetting/`](publishing/vetting/) —
-    incl. The Twelfth Cake, now unparked: PR #157 (died mid-turn at 0 words)
-    was **resumed as PR #159 and MERGED at `3b159d9`** 2026-07-13T13:03:54Z —
-    complete 15,995w manuscript on disk; heartbeat amendment recording the
-    terminal state merged as PR #160 (squash `765e1f8`).
-  - Early-stage: dream-series (book-1 chapters + bible), bababoefoe.
-- **Trading lane:** R3 (3,468 configs) and R4 (6 pre-registered experiments)
-  both completed with **0 promotions** — see the R3/R4 results docs in the
-  trading repo; night/day tallies in `control/status.md` + the outbox night
-  report (venture PR #144).
+- **Advisory checks (never gate):** `scripts/check_ledger_drift.py` (ledger vs
+  newest merged PR — [`docs/ledger-drift-checker.md`](ledger-drift-checker.md)),
+  `scripts/check_kill_clocks.py`, `scripts/lint_owner_gates.py`.
 
 ## Recently shipped (newest first)
 
 (Merged work only, newest first.)
 
+- Coordinator seat close-out heartbeat (PR #217, squash `16cec26`).
+- Overnight planning menu — 38 veto-ready proposals + owner-order record +
+  hygiene + heartbeat restamp (PR #216, squash `2348575`).
+- nl_NL hunspell spellcheck pass over the 4 NL manuscripts + capability
+  discovery (PR #215, squash `98f81d3`).
+- Pre-QA notes + length-band prep — shrink the owner's cold NL proofread read
+  (PR #214, squash `973fb05`).
+- OWNER-QUEUE: recognise the ⚑ native-speaker proofread gate as HARD-GATED
+  (16 → 19; PR #213, squash `9473e5f`).
+- Owner-queue / current-state fixes (#210–#212) and the seat-digest generator
+  (#209) — see git log.
+- The Salt Bell EN packet — owner-click-ready in one slice (PR #211).
 - Session ender 2026-07-15 — final heartbeat + claim release (PR #205,
   squash `021cba9`).
-- Merge-on-green verification probe doc (PR #204, squash `3bc9e19`).
-- EAP capability findings (add_repo / overview panel / coordinator-comms
-  inventory) + current-state refresh (PR #203, squash `520bdfc`).
-- Reboot ack: heartbeat + ORDER 015 acknowledgment (PR #202, squash
-  `f86fea4`).
-- EAP-extension note (ORDER 015) — extended through 2026-07-21, dormancy
-  superseded (PR #201, squash `9ed6a35`).
-- Final dormancy record — EAP shutdown 2026-07-14, superseded by ORDER 015
-  (PR #200, squash `2b949be`).
-- Kit upgrade v1.16.0 → v1.17.0 (PR #199, squash `ae24321`).
-- Kit upgrade v1.15.0 → v1.16.0 (PR #198, squash `f9e8bfd`).
-- EAP close-out walkthrough + owner actions, ORDER 014b (PR #197, squash
-  `d9c1fdd`).
-- Conventions rules 2–3 → enabler doctrine, ORDER 013/INC-44 (PR #196,
-  squash `38382d2`).
-- Stranded guard-fire telemetry recovered, ORDER 014a (PR #195, squash
-  `4f2bd21`).
-- Earlier 2026-07-13/14 history (#141–#194): night+day runs — see git log
+- Earlier history (#141–#204): 2026-07-13/14/15 night+day runs — see git log
   and prior snapshots of this file.
-- Q-0264 relay — ORDER 010 (four sim-lab pricing verdicts V037/V039/V040/V041)
-  appended to `control/inbox.md` (PR #161, squash `84d4bcb`).
-- Heartbeat amendment — #157 resumed as #159, MERGED; parked PRs: none
-  (PR #160, squash `765e1f8`).
-- The Twelfth Cake — complete manuscript, 15,995w, resume of #157 (PR #159,
-  squash `3b159d9`).
-- Session-ender close-out — retro, current-state refresh, walls bake,
-  heartbeat (PR #158, squash `4b14d0c`).
-- The Halfway Ferry — first complete MG manuscript, 15,173w (PR #155,
-  squash `abf1f23`).
-- Owner-gate lint backport — strict §7 lint + advisory CI step (PR #156,
-  squash `0f0b6d2`).
-- Claims prune: night-report + round2-idea-packets (PR #154, squash `557b744`).
-- The Seed Catalogue Courtship — complete manuscript, 15,133w (PR #152,
-  squash `32a8332`).
-- The Salvage Orchard — complete manuscript, 15,045w (PR #151, squash
-  `b1eddbf`).
-- Owner-Click Queue Kit v0.1 $19 publish-READY (PR #153, squash `e3dfab8`).
-- OWNER-QUEUE re-derive on the merged packet union (PR #150, squash `6ecc460`).
-- The Marmalade Post — complete manuscript, 15,040w (PR #149, squash
-  `f15e9f1`).
-- The Glass Rectory — complete manuscript, 15,117w (PR #148, squash
-  `ca7f120`).
-- GitHub Webhook Test Kit v0.1 $29 publish-READY (PR #147, squash `44d2a5e`).
-- Paper Orange packet graduation + Ultramarine serial continuity patch
-  (PR #146, squash `847b636`).
-- The Night Kiln, Book 3 (*The Harvest Rows*) — complete novella, 23,334w
-  (PR #174).
-- The Night Kiln, Book 2 (*The Morning Door*) — complete novella, 15,995w
-  (PR #145, squash `8220b84`).
-- Night report 2026-07-13, ORDER 009 (PR #144, squash `58cdb14`).
-- Round-2 book concepts — five new vetting packets (PR #143, squash
-  `fa8cbf2`).
-- Products ideation batch — 9 concepts rubric-scored, 3 BUILD / 2 PARK /
-  4 KILL (PR #142, squash `49fcf1e`).
-- **Night run 2026-07-12T22:30Z→morning (#96–#141):** ORDER 008 night run
-  #103–#136 (6 products publish-READY, night book slices, kill-clock ⏲
-  column #128 + advisory #133), morning tally #137, board-book cuts #138,
-  claim prune #139, wind-down heartbeat #140, ORDER 009 landing #141.
-  Earlier history: see git log and prior snapshots of this file.
 
 ## Review rhythm
 
-post-merge review — merge-then-flag in [`docs/review-queue.md`](review-queue.md),
-veto=revert.
+Post-merge review — merge-then-flag in
+[`docs/review-queue.md`](review-queue.md), veto = revert.
 
 ## Self-review protocol
 
-Standing retro questions (answer by ID each session that hits notable friction):
-[`docs/retro/QUESTIONS.md`](retro/QUESTIONS.md).
-Session retros live in [`docs/retro/`](retro/) — latest:
-[2026-07-13 coordinator session](retro/2026-07-13-coordinator-session.md).
+Standing retro questions:
+[`docs/retro/QUESTIONS.md`](retro/QUESTIONS.md). Session retros live in
+[`docs/retro/`](retro/).
