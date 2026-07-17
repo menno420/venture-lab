@@ -1,0 +1,3 @@
+# Claim — The Paper Orange audiobook EDITION-SPEC
+
+- `claude/paper-orange-audio-spec-2026-07-17` · **add candidates/adult-novels/the-paper-orange/versions/audio/EDITION-SPEC.md** — new gate-free audiobook/narration EDITION-SPEC for the flagship title (script order, Dutch pronunciation guide, per-chapter `wc -w` runtime at ~150 wpm, tone/voice notes, owner-gated NOT-included section); spec only, no recording, no spend · candidates/adult-novels/the-paper-orange/versions/audio/EDITION-SPEC.md, candidates/adult-novels/the-paper-orange/versions/README.md, .sessions/2026-07-17-paper-orange-audio-spec.md · order 016 · 2026-07-17
