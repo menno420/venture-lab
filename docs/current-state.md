@@ -15,17 +15,24 @@
 ## Platform wind-down (read first)
 
 - **The Claude Code Projects EAP goes read-only on 2026-07-21.** After that the
-  autonomous Project seats and scheduled routines can no longer write. The owner
-  is **winding down the autonomy apparatus** and **recreating some projects
-  fresh** — so this repo is being left clean enough that a fresh seat boots from
-  the repo alone, with no EAP/fleet ceremony to reconstruct.
+  autonomous Project seats and scheduled routines can no longer write. That date
+  is the end of the extended EAP window: the program was **extended through
+  2026-07-21** (source: [`control/inbox.md`](../control/inbox.md) ORDER 015,
+  2026-07-15), after which the window goes read-only. The owner is **winding down
+  the autonomy apparatus** and **recreating some projects fresh** — so this repo
+  is being left clean enough that a fresh seat boots from the repo alone, with no
+  EAP/fleet ceremony to reconstruct.
 - **~2026-07-15 merge classifier change.** Agent seats are DENIED from arming
   auto-merge or self-merging their own (or a sibling's) PR
-  (**[Self-Approval]** / **[Merge Without Review]**). The landing model going
-  forward is simple: **an agent opens a PR READY and leaves it green; the owner
-  merges.** Do not depend on any server-side "it lands itself" automation — the
-  `auto-merge-enabler` workflow is slated for retirement in the wind-down
-  (tracked as an OPS relaunch item in [`NEXT-TASKS.md`](NEXT-TASKS.md)).
+  (**[Self-Approval]** / **[Merge Without Review]**). The landing model in
+  practice: **an agent opens a `claude/`-headed PR READY; when CI (`kit-tests` +
+  `substrate-gate` + `main-verify`) is green, the `auto-merge-enabler.yml`
+  workflow squash-merges it automatically.** That enabler is **currently
+  active**, not retired — it squash-merged PR #219 the moment CI went green on
+  2026-07-17 (attributed to `github-actions[bot]`). This does not loosen the
+  classifier wall: agent seats still cannot self-enable auto-merge, so the
+  sanctioned merger is the workflow, never the seat. A PR opts out with a
+  `do-not-automerge` label (PR #218 used this and was owner-merged).
 - **Merging is NOT deploying here.** venture-lab hosts no running service; a
   merge only updates docs/code on `main`. The sellables are stdlib-only Python a
   buyer self-hosts. "Publishing" is a manual **owner** action (upload a dist zip
@@ -99,9 +106,11 @@ when a precise count is needed.)
 ## Stability baseline
 
 - **Landing path (current):** born-red session card → READY (non-draft)
-  `claude/`-headed PR → CI green (`kit-tests` + `substrate-gate`) → **owner
-  merges**. Agent seats never arm or self-merge (classifier-denied since
-  ~2026-07-15).
+  `claude/`-headed PR → CI green (`kit-tests` + `substrate-gate` +
+  `main-verify`) → **`auto-merge-enabler.yml` squash-merges automatically**
+  (opt out with a `do-not-automerge` label). Agent seats never arm or
+  self-merge directly (classifier-denied since ~2026-07-15) — the enabler
+  workflow is the sanctioned merger.
 - **Substrate-kit** adopted; `python3 bootstrap.py check --strict` is the
   pre-push gate; claims convention per
   [`control/claims/README.md`](../control/claims/README.md).
