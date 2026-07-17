@@ -283,3 +283,16 @@ do: EAP EXTENDED through 2026-07-21 (Anthropic mail, Diana Liu, 2026-07-14T23:07
 why: the seat's dormancy record predates the extension; without this note a rebooted session would treat dormancy as current
 done-when: seat acknowledges on its first rebooted wake
 provenance: relayed by the Fleet Manager coordinator on live owner directives, 2026-07-15
+
+## ORDER 016 · 2026-07-17T22:42:23Z · status: new
+priority: P1
+from: coordinator — live owner turn landed on coordinator dispatch
+executor: venture-lab seat (overnight wakes)
+do: execute the owner's live overnight-work order, quoted VERBATIM below, across tonight's wakes.
+
+"I'm going to sleep now, proceed to work on both your repos as much as you can, improve or create new books, come up with new things to sell, work on the trading strategies etc, thank you."
+
+notes: unlocks the previously owner-gated build backlog for overnight autonomous content/product creation in venture-lab; publish/spend/external-account actions remain owner-only six-field queue items; the trading lane stays RESEARCH-ONLY.
+why: top-precedence live owner turn (owner live in coordinator chat 2026-07-17T22:39Z) authorizing overnight autonomous build work across both repos.
+done-when: overnight autonomous build work proceeds per the order across tonight's wakes; publish/spend/external gates unchanged.
+provenance: owner live in coordinator chat 2026-07-17T22:39Z; landed on coordinator dispatch.
