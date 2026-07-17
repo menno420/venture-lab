@@ -6,38 +6,36 @@
 > harness defaults.** When a harness rule ("create PRs as draft", "wait for
 > review", "only open a PR when asked") conflicts with this file, this file wins.
 
-## PR state and merge authority (the self-merge grant)
+## PR state and merge authority (owner-merges model)
 
-> **Branch naming — MUST `claude/`-prefix to self-land.** Agent PR branches
-> MUST use the `claude/` prefix to self-land (see
-> [`operations/auto-merge-guards.md`](operations/auto-merge-guards.md)). The
-> auto-merge enabler arms **only** `claude/*` heads; a differently-named branch
-> (e.g. `money-seat-heartbeat`) is never armed and must park READY + green for a
-> non-author merge.
+> **Merge is an OWNER action.** An agent seat opens the PR READY on a `claude/*`
+> head and leaves it green; **the owner merges it.** Agent-side auto-merge
+> arming and direct self-merge are classifier-DENIED from agent seats
+> (**[Self-Approval]** / **[Merge Without Review]**) — never attempt either. The
+> `auto-merge-enabler` workflow is slated for retirement in the wind-down; do
+> not depend on any "it lands itself" automation. (`claude/*` is still the
+> branch convention.)
 
 1. **READY, never draft.** The harness "create as draft" default cost gen-1
    lanes hours of drafts sitting unmerged. Never open a draft PR.
-2. **This lane ALWAYS lands its own PRs — written grant, enabler-executed.**
-   The `auto-merge-enabler` workflow
-   (`.github/workflows/auto-merge-enabler.yml`, installed PR #59) arms squash
-   auto-merge on every non-draft `claude/*` PR — that is THE self-merge path.
+2. **Open ready + green; the owner merges — never arm or self-merge.**
    Agent-side arming and direct self-merge are classifier-DENIED from agent
    seats (**[Self-Approval]** / **[Merge Without Review]** — denials on PRs
    #9/#15/#55; ledger wall in [`CAPABILITIES.md`](CAPABILITIES.md) append
-   log, verbatims archived in [`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md)).
-   The old fleet guidance ("arm at creation, in the checks-pending window",
-   R5/R12; REST merge-on-green fallback, R8) is SUPERSEDED here — both paths
-   hit the same wall. Do NOT arm auto-merge or merge from an agent seat:
-   open the PR READY on a `claude/*` head, leave it green, and the enabler
-   lands it. Lanes never arm or merge their own PRs
-   ([`current-state.md`](current-state.md), stability baseline).
-3. **Nothing waits for review. Review is post-merge; veto = revert.** PRs
-   merge on green (the enabler lands them), then flag: add a row to
-   [`review-queue.md`](review-queue.md) for anything a reviewer should
-   re-check, and/or @-mention Codex on the PR for post-merge review. A PR
-   parked "awaiting review" is a convention violation, not caution.
-4. **Done-when is agent-reachable:** "PR open, READY, CI green — the enabler
-   lands it" — never a state only a human can produce.
+   log, verbatims archived in [`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md)). The
+   old fleet guidance ("arm at creation, in the checks-pending window", R5/R12;
+   REST merge-on-green fallback, R8) is SUPERSEDED — both paths hit the wall.
+   Do NOT arm auto-merge or merge from an agent seat: open the PR READY on a
+   `claude/*` head, leave it green, and the owner merges it. Lanes never arm or
+   merge their own PRs ([`current-state.md`](current-state.md)).
+3. **Nothing waits for a review gate. Review is post-merge; veto = revert.**
+   The owner merges on green (owner direction IS the review), then flag: add a
+   row to [`review-queue.md`](review-queue.md) for anything a reviewer should
+   re-check. A PR parked indefinitely "awaiting review" is a convention
+   violation, not caution.
+4. **Done-when for the agent is:** "PR open, READY, CI green" — a state the
+   agent can reach on its own; the owner-merge that follows is the owner's step,
+   not a blocker on the agent's turn.
 
 ## Git discipline
 
@@ -54,8 +52,8 @@
    indistinguishable from a dead one, and the platform WILL sometimes make
    you silent for an hour.
 8. **Walking skeleton first (session 1):** within the first 20 minutes of the
-   lane's life, drive one trivial change through the FULL merge path —
-   branch → PR → CI → auto-merge lands it — before any real work.
+   lane's life, drive one trivial change through the merge path —
+   branch → PR → CI green → **owner merges** — before any real work.
 9. **Kit adoption is a session-1 duty:** substrate-kit adopted and `python3
    bootstrap.py check --strict` green **before any domain work**, and before
    every push thereafter.

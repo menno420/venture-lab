@@ -1,6 +1,14 @@
 # NEXT SESSION — venture-lab resume brief
 
-> **Status:** `reference`
+> **Status:** `historical`
+>
+> ⚠️ **DEPRECATED — do not boot from this file.** It is an EAP-era cold-start
+> brief (2026-07-13). Its catalog counts are ~50 PRs stale AND its "Triggers /
+> wake" block lists concrete trigger ids as live — those triggers are DEAD
+> (session-bound, died with their archived sessions). The autonomy apparatus is
+> being wound down (EAP read-only 2026-07-21; projects recreated fresh). Boot
+> from [`current-state.md`](current-state.md) and [`NEXT-TASKS.md`](NEXT-TASKS.md)
+> instead; kept only as history.
 
 > Rewritten 2026-07-13; counts re-derived at HEAD `5944109` (PR #165;
 > catalog last changed by PR #164, Multi-Agent Control-Plane Pack).

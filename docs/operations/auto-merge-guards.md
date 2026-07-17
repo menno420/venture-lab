@@ -1,9 +1,17 @@
 # Auto-merge enabler — guards & the self-landing path
 
-> **Status:** `reference` — the canonical landing path is **verified live** in
-> `menno420/venture-lab` and has self-landed a real PR. This doc explains what
-> the enabler does, the guards that make arming safe, which branches it arms,
-> and the fallback for when GitHub structurally refuses the arm.
+> **Status:** `historical`
+>
+> ⚠️ **RETIRING — do not build on the self-landing path.** Agent seats are
+> classifier-DENIED from arming auto-merge or self-merging (~2026-07-15), and the
+> owner is winding down the autonomy apparatus (EAP read-only 2026-07-21). The
+> current model is: an agent opens a PR READY + green and **the owner merges**;
+> the `auto-merge-enabler.yml` workflow is slated for retirement. Kept for
+> reference only. See [`../conventions.md`](../conventions.md) §
+> "PR state and merge authority" and [`../current-state.md`](../current-state.md).
+>
+> This doc explains what the enabler did, the guards that made arming safe,
+> which branches it armed, and the fallback for when GitHub refused the arm.
 
 > **Branch-naming rule (read this first):** agent PR branches **MUST** use the
 > `claude/` prefix to self-land. The enabler arms **only** heads matching
