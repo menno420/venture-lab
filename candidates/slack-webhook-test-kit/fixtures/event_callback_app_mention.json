@@ -1,0 +1,27 @@
+{
+    "token": "ZZ2Wtvb7fk1uJy8Q4d9zg7X",
+    "team_id": "T061EG9R6",
+    "api_app_id": "A0MDYCDME",
+    "event": {
+        "type": "app_mention",
+        "user": "U061F7AUR",
+        "text": "<@U0LAN0Z> what is the weather in London?",
+        "ts": "1515449522.000016",
+        "channel": "C0LAN2Q65",
+        "event_ts": "1515449522000016"
+    },
+    "type": "event_callback",
+    "event_id": "Ev0LAN670R",
+    "event_time": 1515449522,
+    "authorizations": [
+        {
+            "enterprise_id": null,
+            "team_id": "T061EG9R6",
+            "user_id": "U0LAN0Z",
+            "is_bot": true,
+            "is_enterprise_install": false
+        }
+    ],
+    "is_ext_shared_channel": false,
+    "event_context": "4-eyJldCI6ImFwcF9tZW50aW9uIn0"
+}

@@ -46,6 +46,16 @@ jobs:
       - name: github-webhook-test-kit real-path HTTP tests
         working-directory: candidates/github-webhook-test-kit
         run: python3 -m unittest test_http_realpath -v
+  slack-webhook-test-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: slack-webhook-test-kit real-path HTTP tests
+        working-directory: candidates/slack-webhook-test-kit
+        run: python3 -m unittest test_http_realpath -v
   owner-click-queue-kit-tests:
     runs-on: ubuntu-latest
     steps:
