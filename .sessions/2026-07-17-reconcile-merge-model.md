@@ -1,8 +1,8 @@
 # Session — reconcile merge-model + cutoff-source in current-state
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · docs-only
 - **started (date -u):** Fri Jul 17 20:05:07 UTC 2026
 - **branch:** `claude/reconcile-merge-model-2026-07-17` (PR TBD)
 - **base:** `main@389ab6e`
@@ -23,8 +23,15 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 Have `main-verify.yml` assert `docs/current-state.md`'s stated merge-model
+matches the actually-enabled workflows (fail if the doc says "owner-merge" while
+`auto-merge-enabler.yml` is active) — turns model-vs-reality drift into a CI
+signal.
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: `.sessions/2026-07-17-restamp-current-state.md`
+(PR #219) — it correctly restamped the HEAD field and proved land-on-green live,
+but its heartbeat described the path as "awaiting owner merge," which #219's own
+auto-merge immediately contradicted; this slice corrects that framing at the
+source doc.
