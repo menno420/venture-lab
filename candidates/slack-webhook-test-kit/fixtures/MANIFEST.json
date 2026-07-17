@@ -1,0 +1,7 @@
+{
+  "_comment": "Fixture stem -> Content-Type header a real Slack request of that shape carries. Events API deliveries (url_verification, event_callback) are application/json; slash commands and interactivity are application/x-www-form-urlencoded (interactivity nests the JSON in a `payload=` field). The signature always covers the RAW request body as sent (see ../GOTCHAS.md #2), so fixtures are stored as the exact raw body bytes.",
+  "url_verification": "application/json",
+  "event_callback_app_mention": "application/json",
+  "slash_command": "application/x-www-form-urlencoded",
+  "interactive_block_actions": "application/x-www-form-urlencoded"
+}
