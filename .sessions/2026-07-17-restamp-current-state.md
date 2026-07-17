@@ -1,8 +1,8 @@
 # Session — restamp current-state HEAD drift (#217 → #218)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · docs-only restamp
 - **started (date -u):** Fri Jul 17 19:49:20 UTC 2026
 - **branch:** `claude/restamp-current-state-2026-07-17` (PR TBD)
 - **base:** `main@9edfcba`
@@ -15,8 +15,16 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 Add a machine-checkable `LAST-VERIFIED-HEAD: <sha>` stamp near the top of
+`docs/current-state.md` that `main-verify.yml` asserts equals
+`git rev-parse origin/main` at merge time — so header-HEAD drift (exactly this
+#217→#218 lag) fails CI instead of rotting silently.
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: `.sessions/2026-07-17-coordinator-closeout-heartbeat.md`
+(#217) — it correctly declared the `control/*` bus retired and wrote a terminal
+neutral heartbeat, but left `docs/current-state.md`'s header pointing at its own
+PR #217, which went stale the same day when #218 landed. The manual HEAD-stamp
+field is exactly the kind of hand-maintained value that rots — motivating today's
+fix plus the CI-stamp idea above.
