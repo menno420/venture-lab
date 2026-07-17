@@ -1,0 +1,3 @@
+# Claim — Auto-Merge Enabler Cookbook $19 build
+
+- `claude/auto-merge-enabler-cookbook-2026-07-17` · **build candidates/auto-merge-enabler-cookbook + launch/vetting + OWNER-QUEUE regen** — new sellable ($19) to owner-click-ready, a guide-shaped cookbook distilling this repo's LIVE merge-on-green enabler workflow (the ENABLE mechanism; distinct from merge-wall-cookbook's conflict-avoidance angle) · candidates/auto-merge-enabler-cookbook/, docs/launch/auto-merge-enabler-cookbook/, docs/publishing/vetting/auto-merge-enabler-cookbook.md, docs/publishing/OWNER-QUEUE.md, .sessions/2026-07-17-auto-merge-enabler-cookbook.md · order 016 · 2026-07-17
