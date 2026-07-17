@@ -1,0 +1,1 @@
+- `claude/coordinator-closeout-heartbeat` · **coordinator seat close-out heartbeat — overwrite control/status.md, born-red card, seat release** · control/status.md, .sessions/, control/claims/ · 2026-07-17
