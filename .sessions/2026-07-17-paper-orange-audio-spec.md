@@ -1,10 +1,10 @@
 # Session — The Paper Orange audiobook/narration EDITION-SPEC (gate-free format reach)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · edition-spec (content)
 - **started (date -u):** Fri Jul 17 23:28:45 UTC 2026
-- **branch:** `claude/paper-orange-audio-spec-2026-07-17` (PR TBD)
+- **branch:** `claude/paper-orange-audio-spec-2026-07-17` (PR #225)
 - **base:** `main@5f85816`
 - **purpose:** add a new **gate-free format edition** to the flagship title
   *The Paper Orange* — an **audiobook / narration-ready EDITION-SPEC** a
@@ -37,8 +37,32 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 This spec's shape — identity → narration script order → pronunciation guide
+→ per-chapter `wc -w` runtime @ a stated wpm → tone/voice notes → owner-gate →
+provenance footer — is **title-agnostic**. Lift the non-story scaffolding into
+a reusable **`versions/audio/EDITION-SPEC.template.md`** (or a
+`scripts/new_audio_spec.py` that stubs the per-chapter runtime table straight
+from `csplit` + `wc -w`), and every EN catalog title inherits a
+narrator-ready audiobook spec for the cost of one grep-and-fill: the runtime
+table and the pronunciation guide are the only genuinely per-title parts, and
+both are mechanical to derive. Same "versions are cheap once the research
+exists" economics the large-print bundle proved — a whole gate-free format
+tier across the catalog, each spec landing red→green as its own tiny PR, with
+recording/hire/distribution still parked at the single owner ⚑ gate. The
+audio tier pairs naturally with the existing large-print tier: one print
+accessibility format, one audio accessibility format, both spec-only, both
+inheriting the same owner-gate.
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: `.sessions/2026-07-17-auto-merge-enabler-cookbook.md`
+(PR #224, slice-2 of ORDER 016) — a clean N+1 build of the proven
+guide-shaped cookbook scaffold that did the honest thing twice over: it was
+**verified-by-production** (its subject IS this repo's live enabler workflow,
+so it cited `file@sha` + real squash-merge event IDs rather than a synthetic
+test), and it named its own commercial risk out loud (narrow shared
+agent-builder audience) and turned it into the "CI/CD for Agent Fleets" bundle
+💡 instead of hiding it. Its regenerate-don't-hand-edit instinct for
+OWNER-QUEUE.md is the same anti-drift principle that told THIS slice to add no
+queue row at all — editions aren't a publish surface, so inventing one would
+have been the drift the enabler card warns against.
