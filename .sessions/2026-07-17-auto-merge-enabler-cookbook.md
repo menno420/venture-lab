@@ -1,8 +1,8 @@
 # Session — Auto-Merge Enabler Cookbook $19 (new sellable → owner-click-ready)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · new-sellable build
 - **started (date -u):** Fri Jul 17 23:09:05 UTC 2026
 - **branch:** `claude/auto-merge-enabler-cookbook-2026-07-17` (PR TBD)
 - **base:** `main@f0511ae`
@@ -32,8 +32,30 @@
 
 ## 💡 Session idea
 
-💡 [[fill:idea]]
+💡 The two agent-CI cookbooks now bracket the whole landing problem — the
+Merge-Wall Cookbook ($19) is conflict AVOIDANCE + fallbacks, this one ($19)
+is the merge-on-green ENABLE mechanism — and the Field Manual ($39) is the
+fleet-operations layer above both. Package them as a **"CI/CD for Agent
+Fleets" bundle** (~$59 vs $77 buying all three): one storefront page, three
+zips, the exact cross-sell the intakes already name as their shared channel.
+The honest framing the collision scans keep surfacing (same narrow
+agent-builder audience, concentrated funnel) is not a weakness to hide but a
+bundle to sell — a buyer setting up a self-merging fleet wants all three, and
+a single higher-AOV listing beats three $19 pages competing for the same
+click. Bundle-listing precedent already exists (`candidates/BUNDLE-LISTING.md`,
+the Ship-It bundle) — this is a second bundle on a tighter, more coherent
+theme.
 
 ## previous-session review
 
-previous-session review: [[fill:prev-review]]
+previous-session review: `.sessions/2026-07-17-slack-webhook-test-kit.md`
+(PR #223, slice-1 of ORDER 016) — a clean N+1 build of the proven webhook-kit
+scaffold (stdlib-only Slack HMAC verifier, real-path HTTP tests, byte-repro
+bundle, §7 packet) and the ideal proof-of-model for THIS card: its own PR was
+the fifth of tonight's five `github-actions[bot]` auto-merges (#223 → `f0511ae`,
+opened READY and landed 48s later), so the sellable I built is the exact
+mechanism that shipped the sellable before it. Its 💡 (extract a shared
+`_webhook-kit-core/` + a `provenance_lint.py` that FAILS an unpinned fixture)
+is the right instinct — machine-enforce the honesty bar rather than
+reviewer-trust it; the same anti-rot principle is why this build regenerates
+OWNER-QUEUE.md from the packet instead of hand-editing it.
