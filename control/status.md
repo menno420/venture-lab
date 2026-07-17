@@ -1,87 +1,61 @@
-# Venture Lab — coordinator heartbeat
-updated: 2026-07-17T12:07:07Z
+# Venture Lab — failsafe-wake heartbeat
+updated: 2026-07-17T19:49:20Z
 
 > ⚠️ **RETIRED / HISTORICAL heartbeat.** The `control/*` manager↔lane message-bus
-> is being wound down (EAP read-only 2026-07-21; projects recreated fresh). This
-> is the last coordinator heartbeat, kept as history; a recreated seat reads
+> stays wound down (EAP read-only 2026-07-21; projects recreated fresh). This
+> file is kept as history only; a recreated seat reads
 > [`../docs/current-state.md`](../docs/current-state.md) and
 > [`../docs/NEXT-TASKS.md`](../docs/NEXT-TASKS.md) instead. See
-> [`README.md`](README.md) for why the bus is retired. (Trigger state below is
-> stale — no routines are armed.)
+> [`README.md`](README.md) for why the bus is retired. (Any trigger state in
+> older heartbeats is stale — no routines are armed.)
 
-**Coordinator seat close-out (this wake):** the coordinator seat ends
-2026-07-17 (`date -u` 2026-07-17T12:07:07Z); its work loop ran across
-2026-07-16/17. This is the terminal heartbeat — neutral facts + pointers only,
-overwritten LAST behind a born-red card. No net-new inventory was manufactured,
-no publish click performed, no gate ticked, no owner checkbox touched, no new
-routine armed. `control/inbox.md` is untouched (MANAGER-WRITTEN-ONLY per
-`control/README.md` + `docs/conventions.md`); only this file carries the lane's
-record. Landing vehicle: PR #217 (READY, base main, head
-`claude/coordinator-closeout-heartbeat`) carrying a born-red session card
-`.sessions/2026-07-17-coordinator-closeout-heartbeat.md` that holds the
-substrate-gate red until this closing flip; the seat did not arm auto-merge or
-self-merge — the enabler lands it on green.
+**Failsafe wake (this pass):** a 2026-07-17 failsafe wake synced `main` to
+`9edfcba` (PR #218, the fresh-start cleanup). Boot was clean at that HEAD. The
+pass performed no publish, no spend, no owner checkbox, no gate change — a
+docs-only drift fix plus this neutral baton. The durable status lives in
+`../docs/current-state.md`; this file is a pointer, not the source of truth.
 
-**Boot facts (synced at HEAD):** main HEAD at boot `2348575` (PR #216);
-`git fetch origin && git reset --hard origin/main` clean; inbox re-read at HEAD
-— ends at ORDER 015, acked at the 2026-07-15 reboot, no unexecuted `new` ORDER,
-`control/inbox.md` untouched this wake. `python3 bootstrap.py check --strict`
-green at base HEAD; the born-red card's `in-progress` badge is the only thing
-holding this branch red.
+**Open PR (the one in flight):** the drift-fix PR restamping
+`docs/current-state.md` — its header had lagged at main HEAD `16cec26` / PR #217
+(the coordinator seat close-out) after PR #218 (`9edfcba`) merged; the restamp
+points it at the actual current HEAD `9edfcba` / PR #218. Head branch
+`claude/restamp-current-state-2026-07-17`, base `main`.
+- **Blocker:** awaiting owner merge (owner-merge model; agent seats are
+  classifier-denied from self-merge, `[Self-Approval]` / `[Merge Without
+  Review]` since ~2026-07-15).
+- **Landing path:** owner merges after CI is green (`kit-tests` +
+  `substrate-gate` + `main-verify`). This seat does not merge or arm auto-merge.
 
-**Session record — #210–#216 merged on green via the enabler (confirmed in
-main history, git ancestry):** #210 `acdbf2d` · #211 `17990a5` · #212 `d1ecd18`
-· #213 `9473e5f` · #214 `973fb05` · #215 `98f81d3` · #216 `2348575`. Each
-squash-merged (committer `GitHub`), consistent with the auto-merge enabler
-landing path (`docs/conventions.md` §2). Note for the record: an inbound
-close-out brief cited #216 as `92fd037` — that SHA is NOT in main history; the
-real #216 merge is `2348575` (verified `git merge-base --is-ancestor`). Every
-SHA above verified IN-MAIN.
+**⚑ Owner — leftover remote branch to delete:** an empty remote branch
+`probe/push-access-check-2026-07-17` remains from a push-access probe and could
+**not** be deleted from this seat — remote-branch deletion returns 403 (the
+remote-branch-delete wall documented in
+[`../docs/PLATFORM-LIMITS.md`](../docs/PLATFORM-LIMITS.md)). Owner action:
+delete `probe/push-access-check-2026-07-17` owner-side.
 
-**Lane state (owner-gated, no lane-clearable lever):** the agent-executable
-backlog remains DRY — net-new inventory paused since #215 pending owner-only
-decisions. The veto-ready menu at `docs/ideas/2026-07-17-overnight-menu.md`
-(**38** proposals — Product `P-1…P-12` · Publishing `PUB-1…PUB-9` · Revenue
-`REV-1…REV-8` · Ops `OPS-1…OPS-9`, each carrying a pitch · S/M/L effort ·
-risk/reversibility · what-it-unblocks) exists at HEAD and awaits the owner's
-line-by-line veto. Backlog is owner-gated: native-speaker proofread per title,
-publish clicks, and length-band ratify are all owner-only bars an AI cannot
-clear. Owner entry point for clicks unchanged:
-`docs/publishing/OWNER-QUEUE.md`.
+**Routine disposition (neutral):** NO routines were armed this pass, and none
+should be armed. Re-arming is a deliberate owner action post-relaunch, gated on
+a per-seat owner go (ORDER 015 acked at the 2026-07-15 reboot;
+`../docs/current-state.md` "Routines / triggers: none live, none re-armed").
+Any concrete trigger id printed in an older doc is DEAD — do not trust it.
 
-**Routine disposition (neutral):** this coordinator armed no new routines;
-observed-active wake triggers from prior heartbeats remain armed as the
-successor bridge. The persistent backstop seat remains observe-only — venture-
-lab write is not enabled for that session (`git push` 403, "access to this
-repository is not enabled for this session"); it observes but cannot land, and
-the ⚑ owner-queue ask stands.
-
-**Kill clocks (carried):** Stripe Webhook Test Kit ⏲ 2026-07-19 T+7 funnel
-checkpoint · ⏲ 2026-07-26 T+14 kill-rule — 0 overdue, 0 due today.
-
-⚑ owner (carried):
+**⚑ Owner (carried, unchanged):**
 - **Failsafe/backstop seat write-wall:** venture-lab write is not enabled for
   the persistent backstop session (`git push` 403); the backstop is
-  observe-only until enabled. Owner-queue: enable venture-lab write for that
-  seat, or accept observe-only.
-- Overnight veto-ready menu for the morning skim:
-  `docs/ideas/2026-07-17-overnight-menu.md` (38 proposals; veto line-by-line).
-- Publish clicks queued and untouched: `docs/publishing/OWNER-QUEUE.md` — none
-  performed this wake.
-- Binding lever: the owner-only native-speaker proofread pass on the ready NL
-  editions (the four closest titles carry a mechanical `PRE-QA.md` under
-  `candidates/adult-novels/*/versions/nl/PRE-QA.md`, #214).
-- Length-band ruling awaiting a one-word ratify:
-  `candidates/adult-novels/the-night-kiln/LENGTH-BAND-PREP.md` (De Morgendeur /
-  De Oogstslag).
+  observe-only until enabled. Owner-queue: enable venture-lab write, or accept
+  observe-only. (Per-seat token wall — normal `claude/*` seats push and land.)
+- **Publish clicks / go-live steps** stay owner-gated and untouched — the entry
+  point is `../docs/publishing/OWNER-QUEUE.md`; the curated owner steps are in
+  `../docs/NEXT-TASKS.md`.
+- **Binding lever:** the owner-only native-speaker proofread pass on the ready
+  NL editions — an AI cannot clear it.
 
 **Next-2 (baton):**
-1. Owner vetoes the menu (`docs/ideas/2026-07-17-overnight-menu.md`) →
-   surviving proposals become claimed slices and get built.
-2. Proofread/publish items ship on the owner's clicks — mechanical checklists
-   for the four closest NL editions live at
-   `candidates/adult-novels/*/versions/nl/PRE-QA.md` (#214); publish sequences
-   in `docs/publishing/OWNER-QUEUE.md`. No net-new inventory is manufactured
-   until an owner decision opens a lane.
+1. Owner merges the drift-fix PR once green, then deletes the leftover
+   `probe/push-access-check-2026-07-17` remote branch (403 blocks the seat).
+2. Owner works `../docs/NEXT-TASKS.md` — veto the 38-proposal menu
+   (`../docs/ideas/2026-07-17-overnight-menu.md`) and take the go-live steps
+   (SWTK kill-clock, membership-kit env, publish wave). No net-new inventory is
+   manufactured until an owner decision opens a lane.
 
 kit: v1.17.0
