@@ -6,8 +6,8 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-17 for the fresh-start cleanup (main HEAD `16cec26`, latest
-> merged PR #217 — the coordinator seat close-out; facts re-verified at live
+> Restamped 2026-07-17 for the fresh-start cleanup (main HEAD `9edfcba`, latest
+> merged PR #218 — the fresh-start cleanup itself; facts re-verified at live
 > GitHub). This restamp REPLACES the earlier EAP-era snapshots (archive/reboot
 > narratives, kill-clock console dates) — those described a timeline that no
 > longer governs.
@@ -33,9 +33,9 @@
 
 ## What is true now (2026-07-17)
 
-- **main HEAD `16cec26`, latest merged PR #217** — the coordinator seat
-  close-out heartbeat (`control/status.md`). Aside from this cleanup PR, no
-  other work is in flight.
+- **main HEAD `9edfcba`, latest merged PR #218** — the fresh-start cleanup
+  (`docs/current-state.md` ledger rewrite + `NEXT-TASKS.md`). Aside from this
+  restamp PR, no other work is in flight.
 - **main HEAD `2348575`, PR #216** — the overnight planning menu:
   a veto-ready set of **38 proposals** at
   [`ideas/2026-07-17-overnight-menu.md`](ideas/2026-07-17-overnight-menu.md)
