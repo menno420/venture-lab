@@ -1,10 +1,10 @@
 # Session — The Night Kiln EN omnibus/box-set EDITION-SPEC (gate-free higher-AOV listing)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · edition-spec (content)
 - **started (date -u):** Fri Jul 17 23:42:15 UTC 2026
-- **branch:** `claude/night-kiln-omnibus-spec-2026-07-17` (PR TBD)
+- **branch:** `claude/night-kiln-omnibus-spec-2026-07-17` (PR #226)
 - **base:** `main@94e9769`
 - **purpose:** add a new **gate-free single-volume omnibus / box-set edition**
   of the already-complete, already-verified EN *Night Kiln* trilogy — a
@@ -46,8 +46,34 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 This spec is recombination-only and its scaffolding is **series-agnostic** —
+identity (with the Book-One-vs-series title-collision fix) → reading order →
+unified front matter (single title/copyright/consolidated content note) →
+combined-TOC-derived-from-`grep '^# Chapter'` → planted-hook continuity note →
+honest summed `wc -w` → trade page/trim estimate → owner-gate → per-`file@sha`
+provenance footer. Lift it into a reusable **`versions/omnibus/EDITION-SPEC.template.md`**
+(or a `scripts/new_omnibus_spec.py` that stubs the combined TOC and the summed
+word-count block straight from the component masters' `# Chapter` lines + `wc
+-w`), and **any completed trilogy/series in the catalog** inherits a
+box-set edition for the cost of one grep-and-fill — the only genuinely
+per-series parts are the proposed title and the continuity chain, both cheap to
+write once the books exist. This is the third gate-free format tier now proven
+off the SAME masters (large-print = print accessibility, audio = audio
+accessibility, omnibus = higher-AOV bundling), so the three templates together
+turn "the books are done" into a whole gate-free product shelf, each edition
+landing red→green as its own tiny PR with cover/ISBN/publish parked at the one
+owner ⚑ gate.
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: `.sessions/2026-07-17-paper-orange-audio-spec.md`
+(PR #225, slice-3 of ORDER 016) — the exemplar this slice mirrored: a
+recombination-adjacent edition spec off a finished master that did the honest
+things right (per-chapter `csplit`+`wc -w` runtime that sums *exactly* to the
+whole-file count; a grep-verified pronunciation guide that omits terms the text
+doesn't use; an explicit owner-gate + `file@sha` provenance footer) and
+correctly added **no** OWNER-QUEUE row because editions aren't a publish
+surface. Its 💡 — a title-agnostic `versions/audio/EDITION-SPEC.template.md` —
+is the same "templatize the gate-free tier" instinct this card's omnibus 💡
+extends to the third format; adopting one shared template-generator across all
+three edition types is the natural next consolidation.
