@@ -1,7 +1,7 @@
 # Title Vetting — Webhook Verifier Bundle (Stripe + GitHub + Slack + Shopify)
 
-> **Status:** `plan` — **HARD-GATED: blocked until the GitHub (D5), Slack
-> (D14), and Shopify (D13) component publish clicks are executed. NO ungated
+> **Status:** `plan` — **HARD-GATED: blocked until the GitHub (D6), Slack
+> (D20), and Shopify (D19) component publish clicks are executed. NO ungated
 > bundle click is queued.**
 >
 > Bundle packet mirroring the [Ship-It Bundle](bundle-starter.md) precedent —
@@ -124,8 +124,8 @@ construction. HOW detail:
 [`owner-actions.md`](../../launch/webhook-verifier-bundle/owner-actions.md).
 
 **OWNER-ACTION — Create "Webhook Verifier Bundle" at $79 from the four live kits**
-1. **Component clicks first (blocking):** execute the GitHub (D5), Slack (D14),
-   and Shopify (D13) webhook-kit publish clicks (their own §7 packets) — all
+1. **Component clicks first (blocking):** execute the GitHub (D6), Slack (D20),
+   and Shopify (D19) webhook-kit publish clicks (their own §7 packets) — all
    four kits must be LIVE before any bundle step exists. (Stripe is already
    live, DONE 2026-07-12.)
 2. **Bundle creation:** same Gumroad account → New product → **Bundle** →
@@ -141,17 +141,17 @@ construction. HOW detail:
 
 - [ ] ⚑ **Owner:** execute the GitHub Webhook Test Kit ($29) publish click —
       blocking: the GitHub kit publish click must be executed first (a Gumroad
-      bundle references existing live products; queued OWNER-QUEUE D5, packet
+      bundle references existing live products; queued OWNER-QUEUE D6, packet
       `github-webhook-test-kit.md` §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the Slack Webhook Test Kit ($29) publish click —
       blocking: the Slack kit publish click must be executed first (same
-      live-referent rule; queued OWNER-QUEUE D14, packet
+      live-referent rule; queued OWNER-QUEUE D20, packet
       `slack-webhook-test-kit.md` §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the Shopify Webhook Test Kit ($29) publish click —
       blocking: the Shopify kit publish click must be executed first (same
-      live-referent rule; queued OWNER-QUEUE D13, packet
+      live-referent rule; queued OWNER-QUEUE D19, packet
       `shopify-webhook-test-kit.md` §7). Nothing below proceeds. (Stripe is
-      already live — DONE 2026-07-12 — so it carries no blocking row here.)
+      already live since 2026-07-12 — so it carries no blocking row here.)
 - [ ] ⚑ **Owner:** create the Gumroad bundle of the four live kits (New product
       → Bundle, all four components selected, or the single reproducible zip).
 - [ ] ⚑ **Owner:** listing copy pasted from the bundle listing-copy.
@@ -167,8 +167,8 @@ construction. HOW detail:
 
 ---
 
-**Verdict: NOT actionable yet — HARD-GATED on the GitHub (D5) / Slack (D14) /
-Shopify (D13) component clicks, by design; publish-ready the moment all four
+**Verdict: NOT actionable yet — HARD-GATED on the GitHub (D6) / Slack (D20) /
+Shopify (D19) component clicks, by design; publish-ready the moment all four
 kits are live.** Everything agent-doable is done and evidenced: a real,
 byte-reproducible assembly zip (double-rebuild sha256 `28f61d8a…f26c8`) with an
 8-test assembly check wired into CI, listing copy at parity, price cited ($79 vs

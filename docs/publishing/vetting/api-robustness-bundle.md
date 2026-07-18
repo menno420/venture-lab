@@ -1,7 +1,7 @@
 # Title Vetting — API Robustness Bundle (Idempotency + Rate-Limit + Pagination + JWT Auth)
 
-> **Status:** `plan` — **HARD-GATED: blocked until the Idempotency (D6), JWT
-> Auth (D7), Pagination (D13), and Rate-Limit (D16) component publish clicks are
+> **Status:** `plan` — **HARD-GATED: blocked until the Idempotency (D7), JWT
+> Auth (D9), Pagination (D15), and Rate-Limit (D18) component publish clicks are
 > executed. NO ungated bundle click is queued.**
 >
 > Bundle packet mirroring the [Webhook Verifier Bundle](webhook-verifier-bundle.md)
@@ -132,8 +132,8 @@ from this packet by construction. HOW detail:
 [`owner-actions.md`](../../launch/api-robustness-bundle/owner-actions.md).
 
 **OWNER-ACTION — Create "API Robustness Bundle" at $79 from the four live kits**
-1. **Component clicks first (blocking):** execute the Idempotency (D6), JWT Auth
-   (D7), Pagination (D13), and Rate-Limit (D16) test-kit publish clicks (their
+1. **Component clicks first (blocking):** execute the Idempotency (D7), JWT Auth
+   (D9), Pagination (D15), and Rate-Limit (D18) test-kit publish clicks (their
    own §7 packets) — all four kits must be LIVE before any bundle step exists.
 2. **Bundle creation:** same Gumroad account → New product → **Bundle** →
    name = "API Robustness Bundle — Idempotency + Rate-Limit + Pagination + JWT
@@ -148,19 +148,19 @@ from this packet by construction. HOW detail:
 
 - [ ] ⚑ **Owner:** execute the Idempotency Key Test Kit ($29) publish click —
       blocking: the Idempotency kit publish click must be executed first (a
-      Gumroad bundle references existing live products; queued OWNER-QUEUE D6,
+      Gumroad bundle references existing live products; queued OWNER-QUEUE D7,
       packet `idempotency-key-test-kit.md` §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the JWT Auth Test Kit ($29) publish click —
       blocking: the JWT Auth kit publish click must be executed first (same
-      live-referent rule; queued OWNER-QUEUE D7, packet `jwt-auth-test-kit.md`
+      live-referent rule; queued OWNER-QUEUE D9, packet `jwt-auth-test-kit.md`
       §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the Pagination Test Kit ($29) publish click —
       blocking: the Pagination kit publish click must be executed first (same
-      live-referent rule; queued OWNER-QUEUE D13, packet `pagination-test-kit.md`
+      live-referent rule; queued OWNER-QUEUE D15, packet `pagination-test-kit.md`
       §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the Rate-Limit Test Kit ($29) publish click —
       blocking: the Rate-Limit kit publish click must be executed first (same
-      live-referent rule; queued OWNER-QUEUE D16, packet `rate-limit-test-kit.md`
+      live-referent rule; queued OWNER-QUEUE D18, packet `rate-limit-test-kit.md`
       §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** create the Gumroad bundle of the four live kits (New product
       → Bundle, all four components selected, or the single reproducible zip).
@@ -177,8 +177,8 @@ from this packet by construction. HOW detail:
 
 ---
 
-**Verdict: NOT actionable yet — HARD-GATED on the Idempotency (D6) / JWT (D7) /
-Pagination (D13) / Rate-Limit (D16) component clicks, by design; publish-ready
+**Verdict: NOT actionable yet — HARD-GATED on the Idempotency (D7) / JWT (D9) /
+Pagination (D15) / Rate-Limit (D18) component clicks, by design; publish-ready
 the moment all four kits are live.** Everything agent-doable is done and
 evidenced: a real, byte-reproducible assembly zip (double-rebuild sha256
 `6be74b6d…b560c`) with an 8-test assembly check wired into CI, listing copy at

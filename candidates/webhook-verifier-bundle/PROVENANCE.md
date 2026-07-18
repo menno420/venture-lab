@@ -13,9 +13,9 @@ Verified against the committed component dists on branch
 | Kit | Price | Status | Artifact | sha256 |
 |-----|-------|--------|----------|--------|
 | Stripe Webhook Test Kit | $29 | **LIVE** (Gumroad, PR #86; `docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md`) | `stripe-webhook-test-kit-v0.1.zip` | `d3ac5f88620976c4dee15f70801eba5986faa47f4898a1a3bda4907336eeb0d8` |
-| GitHub Webhook Test Kit | $29 | queued — OWNER-QUEUE **D5** | `github-webhook-test-kit-v0.1.zip` | `e17b08bac25b047942281c00eb0047ae592d6bda790284aade7b6cf58dcbf6a9` |
-| Slack Webhook Test Kit | $29 | queued — OWNER-QUEUE **D14** | `slack-webhook-test-kit-v0.1.zip` | `9ea865735de0402a534f872f816c8cc1eea68fcecfb114b3a1499114abd755e8` |
-| Shopify Webhook Test Kit | $29 | queued — OWNER-QUEUE **D13** | `shopify-webhook-test-kit-v0.1.zip` | `8ff06e534187170e3d9622e72f43b7587b7e4f5e63feee4ad3917fd211ee0423` |
+| GitHub Webhook Test Kit | $29 | queued — OWNER-QUEUE **D6** | `github-webhook-test-kit-v0.1.zip` | `e17b08bac25b047942281c00eb0047ae592d6bda790284aade7b6cf58dcbf6a9` |
+| Slack Webhook Test Kit | $29 | queued — OWNER-QUEUE **D20** | `slack-webhook-test-kit-v0.1.zip` | `9ea865735de0402a534f872f816c8cc1eea68fcecfb114b3a1499114abd755e8` |
+| Shopify Webhook Test Kit | $29 | queued — OWNER-QUEUE **D19** | `shopify-webhook-test-kit-v0.1.zip` | `8ff06e534187170e3d9622e72f43b7587b7e4f5e63feee4ad3917fd211ee0423` |
 
 These four sha256 values are the machine-checked source of truth — they are
 duplicated in [`MANIFEST.json`](MANIFEST.json) and asserted by

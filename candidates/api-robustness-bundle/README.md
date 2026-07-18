@@ -95,7 +95,7 @@ pagination, or JWT verification *for* you.
   kit's own published buyer zip, pinned by sha256 in `MANIFEST.json`. If a kit
   is later revised, the bundle is re-cut against the new pin.
 - **None of the four kits is live today** — all four are queued owner publish
-  clicks (Idempotency D6 / JWT Auth D7 / Pagination D13 / Rate-Limit D16 in the
+  clicks (Idempotency D7 / JWT Auth D9 / Pagination D15 / Rate-Limit D18 in the
   OWNER-QUEUE). This bundle is a storefront **discount SKU** over the four kits;
   on Gumroad it can only be created once all four component products are
   published (see the owner gate in the vetting packet). The download works
