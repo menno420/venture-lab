@@ -1,3 +1,0 @@
-# Claim — Storefront catalog + positioning/comparison asset
-
-- `claude/storefront-catalog-2026-07-18` · **add docs/launch/CATALOG.md storefront positioning + comparison asset** — a NEW cross-SKU launch asset (not a new SKU): one storefront-facing catalog with a comparison table, per-SKU positioning + DIY-alternative buy-vs-build angle, a bundles & cross-sell map, and an advisory recommended publish order, across the 14 software/guide/writing SKUs + the 2 bundles. Complements the existing per-SKU listing copy; does NOT rewrite it. No new publish surface: NO §7 vetting packet, NO OWNER-QUEUE regen. No publish/spend/accounts performed · docs/launch/CATALOG.md, docs/launch/README.md, .sessions/2026-07-18-storefront-catalog.md · order 016 · 2026-07-18
