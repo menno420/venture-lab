@@ -1,0 +1,3 @@
+# Claim — Rate-Limit Test Kit $29 build
+
+- `claude/rate-limit-test-kit-2026-07-18` · **build candidates/rate-limit-test-kit + launch/vetting + OWNER-QUEUE regen** — new sellable ($29) to owner-click-ready, a different problem class from the Stripe/GitHub/Slack/Shopify webhook signature kits and the idempotency kit (throttling / rate-limit correctness — 429 + Retry-After + RateLimit-* headers + window reset, not signature verification or dedup) · candidates/rate-limit-test-kit/, docs/launch/rate-limit-test-kit/, docs/publishing/vetting/rate-limit-test-kit.md, docs/publishing/OWNER-QUEUE.md, .github/workflows/kit-tests.yml, docs/launch/CATALOG.md, .sessions/2026-07-18-rate-limit-test-kit.md · order 016 · 2026-07-18
