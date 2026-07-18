@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T23:40:00Z
+updated: 2026-07-18T23:42:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -157,6 +157,28 @@ chat). This seat is released; the `control/*` bus stays retired.
   markdown-only, reversible; no OWNER-QUEUE row (a playbook is not a publish
   surface). Posting stays an owner paste-and-post (OWNER-ACTION) — the seat
   performed no publish/spend/account action.
+
+**In flight (later seat, 2026-07-18 — distribution-first, no new SKU) — LM-1:**
+- PR #250 (`claude/lm-1-membership-lead-magnet`) adds a FREE top-of-funnel
+  discovery asset for the **membership / boilerplate cluster** (the last uncovered
+  cluster after PR #243 gave the dev/webhook + API-robustness cluster its magnet
+  and PR #246 gave the agent-ops / fleet cluster its own) — NOT a new sellable.
+  New `docs/launch/membership-lead-magnet.md`, a dev.to/Hashnode/Show-HN-ready
+  article titled "The seven things every paid-membership site gets wrong about
+  Stripe webhooks and access control," teaching seven real membership/Stripe
+  failure modes (unverified webhook grants, double-grant on retry, instant revoke
+  with no grace period, boolean access vs. derived subscription state, revocation
+  riding on a single droppable webhook, out-of-order re-grants, keying membership
+  off the email), each as The failure. / Why it bites in production. / The fix.,
+  with a soft honest footer funnelling to the Ship-It Bundle then the
+  Membership-Site Boilerplate Kit + Stripe Webhook Test Kit then The False-Green
+  Test Trap. Built from `docs/launch/DISTRIBUTION-PLAYBOOK.md` (PR #249). Channel
+  drafts already in `docs/launch/distribution-drafts.md` are cross-referenced, NOT
+  duplicated (one-writer discipline); one Cross-product index link added in
+  `docs/launch/README.md` so the docs-gate reaches the article. Docs/markdown-only,
+  reversible; no OWNER-QUEUE row (a free article is not a publish surface).
+  Posting stays an owner paste-and-post (OWNER-ACTION) — the seat performed no
+  publish/spend/account action.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
