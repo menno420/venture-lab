@@ -58,6 +58,7 @@ Zero-owner-click launch material for the sellable candidates. Everything here is
 $39 one-time. Conservative first-90-day: 0–4 sales ($0–$156). Zero distribution = $0. Same saturated community funnel as membership-kit/template-packs — does not diversify channel risk.
 
 ## Cross-product
+- [Cluster lead-magnet distribution playbook](DISTRIBUTION-PLAYBOOK.md) — the reusable recipe (teaching article → channel drafts → CATALOG funnel-top registration → owner paste-and-post) distilled from PR #243 and PR #246, so the next cluster magnet is fill-in-the-blank
 - [Distribution drafts](distribution-drafts.md)
 - [Distribution channels shortlist](distribution-channels.md)
 
