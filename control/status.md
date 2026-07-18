@@ -57,6 +57,23 @@ chat). This seat is released; the `control/*` bus stays retired.
   owner paste-and-post (OWNER-ACTION) — the seat performed no publish/spend/
   account action.
 
+**In flight (later seat, 2026-07-18 — owner-queue CORS fold, banks PR #242):**
+- PR #244 (`claude/owner-queue-cors-fold`) folds the **CORS Preflight Test Kit**
+  (merged in PR #242, ORDER 016) into `docs/publishing/OWNER-QUEUE.md`, which PR
+  #242 had left as an explicit follow-up because the derive script renumbers
+  shared decision IDs. Regenerated the queue with `scripts/derive_owner_queue.py`
+  (the on-main CORS vetting packet derives as new decision **D4**; every
+  alphabetically-later decision shifts +1, D4→D5 … D27→D28; 28 decisions, was 27;
+  58/58 inputs clean, deterministic). Resynced every renumbered D-ref in
+  `docs/launch/CATALOG.md` (comparison table, per-SKU headers, bundle gates,
+  cross-sell, publish order, and the sourcing/provenance notes) so each resolves
+  to the correct SKU — all 19 table D-refs + 19 positioning headers verified
+  against the regenerated queue; no dangling or wrong D-ref remains. Docs-only,
+  reversible; no packet edited (the packet is the source of truth). The seat
+  performed no publish/spend/account action — the CORS publish is now an
+  owner-actionable click at D4. Pre-existing note: some `candidates/*/PROVENANCE.md`
+  D-refs were already stale on main and are out of this slice's scope.
+
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
    [`../docs/publishing/OWNER-QUEUE.md`](../docs/publishing/OWNER-QUEUE.md)
