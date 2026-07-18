@@ -1,0 +1,23 @@
+{
+    "id": 954637921,
+    "name": "Example Store",
+    "email": "owner@example.test",
+    "domain": "example-store.com",
+    "myshopify_domain": "example-store.myshopify.com",
+    "province": "Ontario",
+    "country": "CA",
+    "country_code": "CA",
+    "country_name": "Canada",
+    "city": "Ottawa",
+    "zip": "K2P0V6",
+    "phone": "",
+    "currency": "USD",
+    "money_format": "${{amount}}",
+    "money_with_currency_format": "${{amount}} USD",
+    "iana_timezone": "America/Toronto",
+    "plan_name": "partner_test",
+    "plan_display_name": "Developer Preview",
+    "shop_owner": "Jon Doe",
+    "created_at": "2025-01-01T00:00:00-05:00",
+    "updated_at": "2026-07-17T12:34:56-04:00"
+}
