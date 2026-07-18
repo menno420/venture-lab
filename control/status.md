@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T23:49:24Z
+updated: 2026-07-18T23:55:53Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -217,6 +217,25 @@ chat). This seat is released; the `control/*` bus stays retired.
   `docs/launch/README.md` so the docs-gate reaches it. Pairs with the upcoming
   MISC-3 live-SKU kill-clock decision packet. Docs/markdown-only, reversible; no
   live change, no listing edit, no OWNER-QUEUE row — the seat performed no
+  publish/spend/account action.
+
+**In flight (later seat, 2026-07-18 — decision packet, no new SKU) — MISC-3:**
+- PR #253 (`claude/misc-3-kill-clock-packet`) adds a single decision doc,
+  `docs/launch/kill-clock-decision-packet.md` — a pre-written **keep / iterate /
+  delist** decision packet for the live Stripe Webhook Test Kit ($29)'s **T+14
+  kill-clock call (2026-07-26)**, so the owner's decision is a two-minute read,
+  not a cold re-derivation. It carries the kill rule **quoted verbatim** from
+  `docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md` (signal = ≥1 organic sale
+  OR ≥1 qualified inbound by 2026-07-26, else ledger ⚑E NEGATIVE + pause/delist),
+  the exact evidence to check before deciding (pointing at the DIST-3 funnel
+  diagnostic's traffic-vs-copy-vs-price hypotheses, #252), each option with its
+  concrete consequences, and an owner-only action checklist. Consumes, does NOT
+  duplicate, `docs/launch/funnel-diagnostic.md` (#252). No invented metrics —
+  Gumroad views/sales are owner-dashboard-only, so unmeasured data is marked "not
+  measured (owner-dashboard-only)", never guessed. One Cross-product index link
+  added in `docs/launch/README.md` so the docs-gate reaches it. The decision is
+  owner-only, never auto-executed. Docs/markdown-only, reversible; no live change,
+  no listing edit, no price change, no OWNER-QUEUE row — the seat performed no
   publish/spend/account action.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
