@@ -59,6 +59,7 @@ $39 one-time. Conservative first-90-day: 0–4 sales ($0–$156). Zero distribut
 
 ## Cross-product
 - [Cluster lead-magnet distribution playbook](DISTRIBUTION-PLAYBOOK.md) — the reusable recipe (teaching article → channel drafts → CATALOG funnel-top registration → owner paste-and-post) distilled from PR #243 and PR #246, so the next cluster magnet is fill-in-the-blank
+- [Membership/boilerplate cluster lead magnet](membership-lead-magnet.md) — free top-of-funnel teaching article ("The seven things every paid-membership site gets wrong about Stripe webhooks and access control"), funnelling soft-and-honest to the Ship-It Bundle → Membership Kit + Stripe Webhook Test Kit → The False-Green Test Trap; channel drafts live in `distribution-drafts.md`
 - [Distribution drafts](distribution-drafts.md)
 - [Distribution channels shortlist](distribution-channels.md)
 
