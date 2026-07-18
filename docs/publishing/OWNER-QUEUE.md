@@ -468,6 +468,17 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** price set ($4.99 recommended; ratified per ORDER 010 / V037, sim-lab afe18f3 — serial pricing parked, §4). · **DEFAULT:** **$4.99 recommended; ratified per ORDER 010 / V037, sim-lab afe18f3 — serial pricing parked, §4** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + KDP Select enrollment. · **UNBLOCKS:** the next click in this sequence
 
+### API Robustness Bundle (Idempotency + Rate-Limit + Pagination + JWT Auth) — `docs/publishing/vetting/api-robustness-bundle.md` @ §7 checklist — **HARD-GATED** — blocking row: execute the Idempotency Key Test Kit ($29) publish click — blocking: the Idempot…
+
+- [ ] **WHAT:** execute the Idempotency Key Test Kit ($29) publish click — blocking: the Idempotency kit publish click must be executed first (a Gumroad bundle references existing live products; queued OWNER-QUEUE D6, packet idempotency-key-test-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** execute the JWT Auth Test Kit ($29) publish click — blocking: the JWT Auth kit publish click must be executed first (same live-referent rule; queued OWNER-QUEUE D7, packet jwt-auth-test-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** execute the Pagination Test Kit ($29) publish click — blocking: the Pagination kit publish click must be executed first (same live-referent rule; queued OWNER-QUEUE D13, packet pagination-test-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** execute the Rate-Limit Test Kit ($29) publish click — blocking: the Rate-Limit kit publish click must be executed first (same live-referent rule; queued OWNER-QUEUE D16, packet rate-limit-test-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** create the Gumroad bundle of the four live kits (New product → Bundle, all four components selected, or the single reproducible zip). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** listing copy pasted from the bundle listing-copy. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($79 one-time fixed — §3; $116-separate comparison cited in the copy, never the sale price). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + preview/test purchase delivering all four zips (sha256 spot-check against the §1 pins) + public bundle URL copied. · **UNBLOCKS:** the next click in this sequence
+
 ### De Driekoningentaart — `docs/publishing/vetting/de-driekoningentaart.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
