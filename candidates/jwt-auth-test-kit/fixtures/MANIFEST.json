@@ -1,0 +1,21 @@
+{
+  "_comment": "Fixture stem -> the request shape of a JWT-protected endpoint the harness fires tokens at: the protected path, the auth header + scheme, the expected audience/issuer the verifier enforces, and the subject to mint into the valid token. A JWT-auth test is about VERIFIER SECURITY (which tokens are accepted/rejected), not the response body shape, so the bundled fixtures are REQUEST/CLAIM TEMPLATES: hs256_bearer matches the bundled correct/naive stubs (the default), and hs256_no_claims shows an endpoint that does not enforce aud/iss (so the audience-enforced / issuer-enforced properties SKIP rather than fail). The signing secret and the RSA public-key blob are TEST material shipped in this directory (clearly labelled, never a real secret) — see PROVENANCE.md. To test your own API, edit expected_aud/expected_iss/path to match and pass --secret (and --pubkey) on the command line.",
+  "hs256_bearer": {
+    "path": "/protected",
+    "auth_header": "Authorization",
+    "auth_scheme": "Bearer",
+    "expected_aud": "jatk-demo-api",
+    "expected_iss": "jatk-demo-issuer",
+    "subject": "jatk-demo-user-001",
+    "note": "primary — matches the bundled stubs (HS256 Bearer, aud + iss enforced)"
+  },
+  "hs256_no_claims": {
+    "path": "/protected",
+    "auth_header": "Authorization",
+    "auth_scheme": "Bearer",
+    "expected_aud": "",
+    "expected_iss": "",
+    "subject": "jatk-demo-user-001",
+    "note": "an endpoint that does NOT enforce aud/iss — the audience/issuer properties SKIP (not fail)"
+  }
+}
