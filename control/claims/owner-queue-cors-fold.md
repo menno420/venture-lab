@@ -1,0 +1,1 @@
+- `claude/owner-queue-cors-fold` · **Fold CORS SKU into OWNER-QUEUE + resync CATALOG D-refs** · docs/publishing/, docs/launch/ · 2026-07-18
