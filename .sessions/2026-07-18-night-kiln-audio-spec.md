@@ -1,10 +1,10 @@
 # Session — The Night Kiln (trilogy) audiobook/narration EDITION-SPEC (gate-free format reach)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · edition-spec (content)
 - **started (date -u):** Sat Jul 18 00:16:29 UTC 2026
-- **branch:** `claude/night-kiln-audio-spec-2026-07-18`
+- **branch:** `claude/night-kiln-audio-spec-2026-07-18` (PR #228)
 - **base:** `main@12e221d`
 - **purpose:** add a new **gate-free format edition** to the completed EN
   *Night Kiln* trilogy — an **audiobook / narration-ready EDITION-SPEC** a
@@ -56,8 +56,43 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 **A trilogy audio box-set + Whispersync ebook/audiobook pairing** is the
+distinct next move once these recordings exist (dedup: slice-3's #225 💡 already
+covers templatizing the audio *spec* into `versions/audio/EDITION-SPEC.template.md`
+— this is about the *product*, not the scaffold). The catalog already has, off
+these SAME masters, three EN ebooks, a print/ebook omnibus, and now an audio
+program — Amazon/Audible's **Whispersync for Voice** lets a buyer own the ebook
+and audiobook of a title and switch between reading and listening mid-book, and
+it is the single strongest cross-sell audiobooks have. So the owner-ready
+listing shape is: **(a)** each book's audiobook Whispersync-paired to its
+existing ebook (read-and-listen for one shopper), and **(b)** a **single
+omnibus audio SKU** paired to the omnibus ebook — the exact "one click, whole
+arc" AOV lift the print omnibus already argues, now with a switch-media hook.
+The mechanical enabler: a tiny **`scripts/derive_audio_runtime.py`** that
+`csplit`s any EN master on its `# Chapter` rules, `wc -w`s each piece, and emits
+the per-chapter + per-book runtime table (words ÷ 150 wpm) and ACX finished-hours
+straight into a per-title **`AUDIO-RUNTIME.md`** — so the one genuinely
+per-title number in every audio spec (the runtime table) is machine-derived and
+drift-proof, and the pairing/Whispersync eligibility check becomes a listing-time
+checklist rather than hand math. Recording/hire/distribution/Whispersync
+enrollment all stay parked at the single owner ⚑ gate; the pairing is a listing
+decision, zero new prose.
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: `.sessions/2026-07-17-shopify-webhook-test-kit.md`
+(PR #227, slice-5 of ORDER 016 — the Shopify Webhook Test Kit $29) — a clean
+N+1 build of the proven Stripe/GitHub/Slack webhook-kit scaffold that did the
+honest things right: it called out the Shopify-specific scheme differences
+out loud (base64 HMAC not hex, signed over the raw body with **no** timestamp
+so there's no replay mode, no vendor known-answer constant so the `vector`
+command is an honest kit-internal parity proof, not a faked reproduction),
+carried pinned per-fixture sha256 provenance, proved a byte-reproducible bundle,
+and correctly **ended at the queued owner ⚑ publish click** — no publish, no
+spend, no accounts. Its 💡 — extract a shared `_webhook-kit-core/` + a
+`provenance_lint.py` that FAILS a kit whose fixture lacks a pinned sha256 — is
+the same "templatize the proven tier and machine-enforce the honesty bar before
+it drifts" instinct this card's audio 💡 applies to the runtime table; both
+lanes independently converging on "extract the shared derivation now, don't
+hand-repeat it" is the strongest signal that the mechanical-derivation slice is
+the next high-leverage consolidation in each.
