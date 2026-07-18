@@ -1,0 +1,39 @@
+{
+  "bundle": "api-robustness-bundle",
+  "version": "v0.1",
+  "title": "API Robustness Bundle",
+  "price_usd": 79,
+  "components_sum_usd": 116,
+  "savings_usd": 37,
+  "discount_pct": 31.9,
+  "components": [
+    {
+      "kit": "idempotency-key-test-kit",
+      "price_usd": 29,
+      "status": "queued (OWNER-QUEUE D6)",
+      "dist": "idempotency-key-test-kit-v0.1.zip",
+      "sha256": "8607803d5fd7286e9f86f1515981ea1ca6052ae06d7a8d417526dd85a796f6e1"
+    },
+    {
+      "kit": "rate-limit-test-kit",
+      "price_usd": 29,
+      "status": "queued (OWNER-QUEUE D16)",
+      "dist": "rate-limit-test-kit-v0.1.zip",
+      "sha256": "908dc84be5a3e6a5be6ee72123c80cac137f1b2338018e39c6af51ef767ecd45"
+    },
+    {
+      "kit": "pagination-test-kit",
+      "price_usd": 29,
+      "status": "queued (OWNER-QUEUE D13)",
+      "dist": "pagination-test-kit-v0.1.zip",
+      "sha256": "ae189fe9465dc7a27204c84b5e187e475fb25158c0f6c31033701fc2e970a118"
+    },
+    {
+      "kit": "jwt-auth-test-kit",
+      "price_usd": 29,
+      "status": "queued (OWNER-QUEUE D7)",
+      "dist": "jwt-auth-test-kit-v0.1.zip",
+      "sha256": "d772b26e11ac9e7673c3dd4a47fa9c1671384ae3b8805d1068ccc2d55f391a61"
+    }
+  ]
+}
