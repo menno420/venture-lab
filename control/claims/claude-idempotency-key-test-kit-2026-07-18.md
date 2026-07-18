@@ -1,0 +1,3 @@
+# Claim — Idempotency Key Test Kit $29 build
+
+- `claude/idempotency-key-test-kit-2026-07-18` · **build candidates/idempotency-key-test-kit + launch/vetting + OWNER-QUEUE regen** — new NON-webhook sellable ($29) to owner-click-ready, a different problem class from the Stripe/GitHub/Slack/Shopify webhook signature kits (dedup / safe-retry, not signature verification) · candidates/idempotency-key-test-kit/, docs/launch/idempotency-key-test-kit/, docs/publishing/vetting/idempotency-key-test-kit.md, docs/publishing/OWNER-QUEUE.md, .github/workflows/kit-tests.yml, docs/launch/CATALOG.md, .sessions/2026-07-18-idempotency-key-test-kit.md · order 016 · 2026-07-18

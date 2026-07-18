@@ -1,0 +1,7 @@
+{
+  "amount": 2000,
+  "currency": "usd",
+  "source": "tok_ikt_demo_visa",
+  "description": "IKT demo charge — safe-retry test payload",
+  "metadata": {"order_ref": "ikt-demo-0001"}
+}

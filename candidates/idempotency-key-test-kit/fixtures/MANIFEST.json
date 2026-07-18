@@ -1,0 +1,6 @@
+{
+  "_comment": "Fixture stem -> the HTTP method, path, and Content-Type a real idempotent request of this shape carries. These are REQUEST payloads (POST bodies), not webhook deliveries: the Idempotency-Key travels in the request header the client sends, and the endpoint keys its store on (METHOD, PATH, Idempotency-Key). charge_basic is the primary payload; charge_mismatch is a DIFFERENT body on the SAME endpoint used to test the same-key-different-body conflict; order_create targets a second endpoint to demonstrate per-endpoint key scoping. Bodies are docs-derived (Stripe's charge/idempotency docs shapes), never wire-captured — see PROVENANCE.md.",
+  "charge_basic": {"method": "POST", "path": "/charges", "content_type": "application/json", "note": "primary charge payload (safe-retry / replay / concurrency)"},
+  "charge_mismatch": {"method": "POST", "path": "/charges", "content_type": "application/json", "note": "DIFFERENT body, same endpoint — the same-key mismatch conflict case"},
+  "order_create": {"method": "POST", "path": "/orders", "content_type": "application/json", "note": "second endpoint — demonstrates per-endpoint key scoping"}
+}
