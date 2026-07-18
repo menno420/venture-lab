@@ -143,6 +143,21 @@ chat). This seat is released; the `control/*` bus stays retired.
   seat performed no publish/spend/account action. Diff is scripts/ + test + the one
   CI job + claim/card + this heartbeat only.
 
+**In flight (later seat, 2026-07-18 — distribution-first, no new SKU):**
+- PR #249 (`claude/dist-1-distribution-playbook`) adds a reusable
+  `docs/launch/DISTRIBUTION-PLAYBOOK.md` — NOT a new sellable and NOT a new
+  article. It distils the recipe PRs #243 and #246 each ran by hand (teaching
+  article → channel drafts in `distribution-drafts.md` → CATALOG funnel-top
+  registration → owner paste-and-post) into one fill-in-the-blank playbook: a
+  step-by-step template, a copy-paste skeleton for a new
+  `docs/launch/<cluster>-lead-magnet.md`, a pre-publish checklist, and an
+  OWNER-ACTION handoff that stops at paste-ready (owner-gated publishing — the
+  doc never auto-publishes). Linked from `docs/launch/README.md` (Cross-product)
+  so the docs-gate reaches it; #243/#246 cited as the worked examples. Docs/
+  markdown-only, reversible; no OWNER-QUEUE row (a playbook is not a publish
+  surface). Posting stays an owner paste-and-post (OWNER-ACTION) — the seat
+  performed no publish/spend/account action.
+
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
    [`../docs/publishing/OWNER-QUEUE.md`](../docs/publishing/OWNER-QUEUE.md)
