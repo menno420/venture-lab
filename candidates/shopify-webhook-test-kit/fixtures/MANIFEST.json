@@ -1,0 +1,6 @@
+{
+  "_comment": "Fixture stem -> the Content-Type header and the X-Shopify-Topic a real Shopify webhook of that shape carries. Shopify delivers webhooks as application/json; the topic (e.g. orders/create) travels in the X-Shopify-Topic header, NOT in the body. The X-Shopify-Hmac-Sha256 signature always covers the RAW request body bytes as sent (see ../GOTCHAS.md #1), so fixtures are stored as the exact raw body bytes and the kit needs this manifest to fire each fixture with the topic header Shopify would attach.",
+  "orders_create": {"content_type": "application/json", "topic": "orders/create"},
+  "products_update": {"content_type": "application/json", "topic": "products/update"},
+  "app_uninstalled": {"content_type": "application/json", "topic": "app/uninstalled"}
+}
