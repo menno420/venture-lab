@@ -15,7 +15,7 @@
 
 ## What's in the catalog
 
-Eighteen self-hosted, stdlib-first products across four lanes, plus two bundles:
+Eighteen self-hosted, stdlib-first products across four lanes, plus three bundles:
 
 - **Developer tools** — webhook signature-verifier test kits (Stripe, GitHub,
   Slack, Shopify), the idempotency / safe-retry test kit, the rate-limit /
@@ -28,7 +28,8 @@ Eighteen self-hosted, stdlib-first products across four lanes, plus two bundles:
   (false-green testing, the two merge-wall/auto-merge landing paths, kill-rule
   intake), each cited to real commits.
 - **Writing kits** — the AI novella production method.
-- **Bundles** — Ship-It (product + process) and the Webhook Verifier four-pack.
+- **Bundles** — Ship-It (product + process), the Webhook Verifier four-pack
+  (inbound-edge), and the API Robustness four-pack (own-endpoint).
 
 Out of scope here (separate lanes, each hard-gated on owner-only work): the
 Photo Packs and the KDP book catalog — see
@@ -58,6 +59,7 @@ Photo Packs and the KDP book catalog — see
 | AI Novella Production Kit | $29 one-time | Writing kit | READY | D2 |
 | Ship-It Bundle | $59 one-time | Bundle | **HARD-GATED** on D9 + D19 publishes | — (derives no decision) |
 | Webhook Verifier Bundle | $79 one-time | Bundle | **HARD-GATED** on D5 + D18 + D17 publishes (Stripe already LIVE) | — (derives no decision) |
+| API Robustness Bundle | $79 one-time | Bundle | **HARD-GATED** on D6 + D7 + D13 + D16 publishes | — (derives no decision) |
 
 Status legend: **LIVE** = published and buyable now · **READY** = built, priced,
 listing drafted, verified — one owner publish click from live · **HARD-GATED** =
@@ -426,7 +428,7 @@ JWT verifier security, not signatures, dedup, throttling, or pagination.
 
 ## Bundles & cross-sell map
 
-Two bundles roll singles into a discounted anchor. Both are **hard-gated**: a
+Three bundles roll singles into a discounted anchor. All are **hard-gated**: a
 storefront bundle references its component products as *existing live listings*,
 so it cannot be created until those components are published.
 
@@ -448,9 +450,24 @@ so it cannot be created until those components are published.
 - **Gate:** the GitHub (D5), Slack (D18), and Shopify (D17) publish clicks
   (Stripe is already LIVE).
 
+**API Robustness Bundle — $79** ([listing](api-robustness-bundle/listing-copy.md) ·
+[packet](../publishing/vetting/api-robustness-bundle.md))
+- **Rolls up:** Idempotency Key + Rate-Limit + Pagination + JWT Auth Test Kits
+  ($29 each).
+- **Discount math:** $116 separately → **$79** = **$37 off (~32%)**.
+- **Angle:** all four own-endpoint robustness kits for the developer hardening
+  more than one property — exactly-once retries, correct throttling, result-set
+  integrity, auth-bypass resistance — one download, three fewer checkouts. The
+  own-endpoint sibling of the Webhook Verifier Bundle (inbound edge); same price,
+  no shared components.
+- **Gate:** the Idempotency (D6), JWT Auth (D7), Pagination (D13), and Rate-Limit
+  (D16) publish clicks (none is live yet).
+
 **Cross-sell clusters (for storefront "you may also like"):**
 - **Webhook cluster:** any webhook kit → the other three → Webhook Verifier
   Bundle → The False-Green Test Trap (the discipline behind them).
+- **API-robustness cluster:** Idempotency ↔ Rate-Limit ↔ Pagination ↔ JWT Auth
+  Test Kit → API Robustness Bundle → The False-Green Test Trap.
 - **Membership cluster:** Membership Kit → Stripe Webhook Test Kit → Ship-It
   Bundle (+ Template Pack).
 - **Agent-ops cluster:** Template Pack ↔ Owner-Click Queue Kit ↔ Multi-Agent
@@ -478,8 +495,10 @@ so it cannot be created until those components are published.
    the same dev-tool buyer and Gumroad account as the webhook kits (four rungs of
    API robustness: safe retries + correct throttling + correct pagination + a secure
    JWT verifier — the last the highest-severity, an auth-bypass tier), so publish all
-   four in the same visit; none gates the Webhook Verifier Bundle (that's the four
-   signature kits), they're just the next high-intent dev-tool clicks.
+   four in the same visit; they don't gate the Webhook Verifier Bundle (that's the
+   four signature kits) but they DO unlock the **API Robustness Bundle** (this
+   own-endpoint four-pack). One extra click after all four turns them into a $79
+   anchor, exactly as step 1→2 does for the webhook four-pack.
 4. **Membership-Site Boilerplate Kit (D9) + Agent-Workflow Template Pack (D19)** —
    the highest-price single plus its natural pair; unlocks the Ship-It Bundle.
 5. **Ship-It Bundle** — once step 4 is done.
