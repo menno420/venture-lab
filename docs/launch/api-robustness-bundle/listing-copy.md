@@ -7,8 +7,8 @@
 > $29 each). **HARD-GATED:** a Gumroad bundle references its component products
 > as existing live products — it cannot be created until the not-yet-published
 > component kits are live. None of the four is live yet; the gate is on the
-> Idempotency ($29, OWNER-QUEUE **D6**), JWT Auth ($29, **D7**), Pagination
-> ($29, **D13**), and Rate-Limit ($29, **D16**) publish clicks. The buyer
+> Idempotency ($29, OWNER-QUEUE **D7**), JWT Auth ($29, **D9**), Pagination
+> ($29, **D15**), and Rate-Limit ($29, **D18**) publish clicks. The buyer
 > artifact is the bundle zip (`api-robustness-bundle-v0.1.zip`, sha256
 > `6be74b6d78a77180a133fd09c31c452baaea77497cd8db63461b9ee43dfb560c`) which
 > contains the four component buyer zips verbatim; per-component pins are in the

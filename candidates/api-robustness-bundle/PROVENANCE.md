@@ -12,10 +12,10 @@ Verified against the committed component dists on branch
 
 | Kit | Price | Status | Artifact | sha256 |
 |-----|-------|--------|----------|--------|
-| Idempotency Key Test Kit | $29 | queued — OWNER-QUEUE **D6** | `idempotency-key-test-kit-v0.1.zip` | `8607803d5fd7286e9f86f1515981ea1ca6052ae06d7a8d417526dd85a796f6e1` |
-| Rate-Limit Test Kit | $29 | queued — OWNER-QUEUE **D16** | `rate-limit-test-kit-v0.1.zip` | `908dc84be5a3e6a5be6ee72123c80cac137f1b2338018e39c6af51ef767ecd45` |
-| Pagination Test Kit | $29 | queued — OWNER-QUEUE **D13** | `pagination-test-kit-v0.1.zip` | `ae189fe9465dc7a27204c84b5e187e475fb25158c0f6c31033701fc2e970a118` |
-| JWT Auth Test Kit | $29 | queued — OWNER-QUEUE **D7** | `jwt-auth-test-kit-v0.1.zip` | `d772b26e11ac9e7673c3dd4a47fa9c1671384ae3b8805d1068ccc2d55f391a61` |
+| Idempotency Key Test Kit | $29 | queued — OWNER-QUEUE **D7** | `idempotency-key-test-kit-v0.1.zip` | `8607803d5fd7286e9f86f1515981ea1ca6052ae06d7a8d417526dd85a796f6e1` |
+| Rate-Limit Test Kit | $29 | queued — OWNER-QUEUE **D18** | `rate-limit-test-kit-v0.1.zip` | `908dc84be5a3e6a5be6ee72123c80cac137f1b2338018e39c6af51ef767ecd45` |
+| Pagination Test Kit | $29 | queued — OWNER-QUEUE **D15** | `pagination-test-kit-v0.1.zip` | `ae189fe9465dc7a27204c84b5e187e475fb25158c0f6c31033701fc2e970a118` |
+| JWT Auth Test Kit | $29 | queued — OWNER-QUEUE **D9** | `jwt-auth-test-kit-v0.1.zip` | `d772b26e11ac9e7673c3dd4a47fa9c1671384ae3b8805d1068ccc2d55f391a61` |
 
 These four sha256 values are the machine-checked source of truth — they are
 duplicated in [`MANIFEST.json`](MANIFEST.json) and asserted by

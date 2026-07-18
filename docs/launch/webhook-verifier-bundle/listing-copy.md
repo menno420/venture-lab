@@ -6,8 +6,8 @@
 > kits (Stripe + GitHub + Slack + Shopify, $29 each). **HARD-GATED:** a Gumroad
 > bundle references its component products as existing live products — it cannot
 > be created until the not-yet-published component kits are live. Stripe is
-> already LIVE; the gate is on the GitHub ($29, OWNER-QUEUE **D5**), Slack ($29,
-> **D14**), and Shopify ($29, **D13**) publish clicks. The buyer artifact is the
+> already LIVE; the gate is on the GitHub ($29, OWNER-QUEUE **D6**), Slack ($29,
+> **D20**), and Shopify ($29, **D19**) publish clicks. The buyer artifact is the
 > bundle zip (`webhook-verifier-bundle-v0.1.zip`, sha256
 > `28f61d8a33309310640375581ff7a6d2f1320bc03bdecbbc1c08c83d5aaf26c8`) which
 > contains the four component buyer zips verbatim; per-component pins are in the

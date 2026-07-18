@@ -5,8 +5,8 @@
 > **HARD-GATED (2026-07-18):** a Gumroad bundle is assembled FROM existing live
 > products — it cannot be created while its component kits are unpublished. Of
 > the four components only the **Stripe Webhook Test Kit** ($29) is LIVE; the
-> **GitHub** ($29, OWNER-QUEUE **D5**), **Slack** ($29, **D14**), and
-> **Shopify** ($29, **D13**) kits are queued publish clicks in
+> **GitHub** ($29, OWNER-QUEUE **D6**), **Slack** ($29, **D20**), and
+> **Shopify** ($29, **D19**) kits are queued publish clicks in
 > [`OWNER-QUEUE.md`](../../publishing/OWNER-QUEUE.md). Those three publish clicks
 > must be executed FIRST. Nothing below the blocking rows in the
 > [§7 packet](../../publishing/vetting/webhook-verifier-bundle.md) proceeds until
@@ -29,7 +29,7 @@
   manufactured anchor. **Never price at $116** (zero discount voids the bundle).
 - The seat performed NONE of the steps below — every step is an owner click.
 
-### ⚑ — Create the "Webhook Verifier Bundle" at $79 · HARD-GATED on GitHub (D5) + Slack (D14) + Shopify (D13)
+### ⚑ — Create the "Webhook Verifier Bundle" at $79 · HARD-GATED on GitHub (D6) + Slack (D20) + Shopify (D19)
 
 - **WHAT:** Create a Gumroad **bundle** priced **$79** (one-time, fixed)
   combining the four live component kits — Stripe / GitHub / Slack / Shopify
@@ -43,7 +43,7 @@
   [`MANIFEST.json`](../../../candidates/webhook-verifier-bundle/MANIFEST.json)).
 - **WHERE:** gumroad.com → *Products* → *New product* → *Bundle*, signed into
   the same account that published the four component kits.
-- **HOW:** 1) Execute the GitHub (D5), Slack (D14), and Shopify (D13) publish
+- **HOW:** 1) Execute the GitHub (D6), Slack (D20), and Shopify (D19) publish
   clicks first — their own click-scripts; blocking. (Stripe is already live.)
   2) Sign in to the same Gumroad account. 3) New product → **Bundle**.
   4) Name = "Webhook Verifier Bundle — Stripe + GitHub + Slack + Shopify Test
@@ -74,7 +74,7 @@ Sources this click-script binds to (file@sha at authoring, base `main@ae36afb`):
   pricing ($29 ×4 = $116 → $79, $37 off).
 - `candidates/webhook-verifier-bundle/PROVENANCE.md` — pricing math + artifact
   pins.
-- `docs/publishing/OWNER-QUEUE.md` — GitHub D5 / Slack D14 / Shopify D13 publish
+- `docs/publishing/OWNER-QUEUE.md` — GitHub D6 / Slack D20 / Shopify D19 publish
   decisions (Stripe live, DONE 2026-07-12).
 - `docs/launch/bundle-starter/owner-actions.md` — the Ship-It Bundle hard-gate
   precedent this mirrors.

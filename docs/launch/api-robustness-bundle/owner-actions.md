@@ -5,8 +5,8 @@
 > **HARD-GATED (2026-07-18):** a Gumroad bundle is assembled FROM existing live
 > products — it cannot be created while its component kits are unpublished. None
 > of the four components is LIVE: the **Idempotency Key** ($29, OWNER-QUEUE
-> **D6**), **JWT Auth** ($29, **D7**), **Pagination** ($29, **D13**), and
-> **Rate-Limit** ($29, **D16**) kits are queued publish clicks in
+> **D7**), **JWT Auth** ($29, **D9**), **Pagination** ($29, **D15**), and
+> **Rate-Limit** ($29, **D18**) kits are queued publish clicks in
 > [`OWNER-QUEUE.md`](../../publishing/OWNER-QUEUE.md). All four publish clicks
 > must be executed FIRST. Nothing below the blocking rows in the
 > [§7 packet](../../publishing/vetting/api-robustness-bundle.md) proceeds until
@@ -30,7 +30,7 @@
   exactly — two four-kit SKUs at one price, not two ad-hoc anchors.
 - The seat performed NONE of the steps below — every step is an owner click.
 
-### ⚑ — Create the "API Robustness Bundle" at $79 · HARD-GATED on Idempotency (D6) + JWT (D7) + Pagination (D13) + Rate-Limit (D16)
+### ⚑ — Create the "API Robustness Bundle" at $79 · HARD-GATED on Idempotency (D7) + JWT (D9) + Pagination (D15) + Rate-Limit (D18)
 
 - **WHAT:** Create a Gumroad **bundle** priced **$79** (one-time, fixed)
   combining the four live component kits — Idempotency Key / Rate-Limit /
@@ -44,8 +44,8 @@
   [`MANIFEST.json`](../../../candidates/api-robustness-bundle/MANIFEST.json)).
 - **WHERE:** gumroad.com → *Products* → *New product* → *Bundle*, signed into
   the same account that published the four component kits.
-- **HOW:** 1) Execute the Idempotency (D6), JWT Auth (D7), Pagination (D13), and
-  Rate-Limit (D16) publish clicks first — their own click-scripts; all four
+- **HOW:** 1) Execute the Idempotency (D7), JWT Auth (D9), Pagination (D15), and
+  Rate-Limit (D18) publish clicks first — their own click-scripts; all four
   blocking. 2) Sign in to the same Gumroad account. 3) New product → **Bundle**.
   4) Name = "API Robustness Bundle — Idempotency + Rate-Limit + Pagination + JWT
   Auth Test Kits". 5) Select the four live kits as the bundle contents (or
@@ -75,7 +75,7 @@ Sources this click-script binds to (file@sha at authoring, base `main@2fb86bf`):
   pricing ($29 ×4 = $116 → $79, $37 off).
 - `candidates/api-robustness-bundle/PROVENANCE.md` — pricing math + artifact
   pins.
-- `docs/publishing/OWNER-QUEUE.md` — Idempotency D6 / JWT D7 / Pagination D13 /
-  Rate-Limit D16 publish decisions (none live).
+- `docs/publishing/OWNER-QUEUE.md` — Idempotency D7 / JWT D9 / Pagination D15 /
+  Rate-Limit D18 publish decisions (none live).
 - `docs/launch/webhook-verifier-bundle/owner-actions.md` — the Webhook Verifier
   Bundle hard-gate precedent this mirrors.
