@@ -48,6 +48,7 @@ Photo Packs and the KDP book catalog — see
 | Rate-Limit Test Kit | $29 one-time | Dev tool · rate-limit / throttling | READY | D17 |
 | Pagination Test Kit | $29 one-time | Dev tool · pagination / result-set integrity | READY | D14 |
 | JWT Auth Test Kit | $29 one-time | Dev tool · JWT auth / verifier security | READY | D8 |
+| CORS Preflight Test Kit | $29 one-time | Dev tool · CORS / browser cross-origin | READY | new (regen queue) |
 | Membership-Site Boilerplate Kit | $49 one-time | Dev tool · starter | READY | D10 |
 | Agent-Workflow Template Pack | $19 pay-what-you-want | Agent-ops · templates | READY | D20 |
 | Owner-Click Queue Kit | $19 one-time | Agent-ops · tool | READY | D13 |
@@ -277,6 +278,42 @@ JWT verifier security, not signatures, dedup, throttling, or pagination.
 - **Cross-sell:** Idempotency Key Test Kit (safe-retry) · Rate-Limit Test Kit
   (throttling) · Pagination Test Kit (result-set integrity) · any webhook kit · The
   False-Green Test Trap.
+
+### Developer tools — CORS / browser cross-origin
+
+The browser-facing edge of API robustness — where the idempotency, rate-limit,
+pagination, and JWT kits test server-internal contracts, this tests the
+cross-origin contract a browser enforces. Same kit shape (stdlib harness +
+docs-derived request templates + a correct/broken reference pair + byte-reproducible
+bundle), a sixth problem class: CORS correctness, not signatures, dedup, throttling,
+pagination, or token security.
+
+**CORS Preflight Test Kit — $29 · READY (queue decision pending owner-queue regen)**
+([listing](cors-preflight-test-kit/listing-copy.md) ·
+[packet](../publishing/vetting/cors-preflight-test-kit.md))
+- **Who it's for:** developers with a browser front-end talking to a separate API
+  origin who need to prove their CORS is neither broken in the browser nor wide
+  open (front-end and back-end devs alike — the widest audience in the family).
+- **The problem:** the preflight `OPTIONS` 404s because the framework doesn't answer
+  it; `Access-Control-Allow-Origin` is missing (the #1 CORS error) or echoed without
+  `Vary: Origin` (cache poisoning); the preflight sets Allow-Origin but forgets
+  `Access-Control-Allow-Methods`/`-Allow-Headers`, so the authenticated JSON POST is
+  blocked; `Access-Control-Allow-Headers: *` silently doesn't cover `Authorization`;
+  `Access-Control-Allow-Origin: *` is paired with credentials (browser-rejected); or
+  the server reflects **any** origin (open CORS — any site reads authenticated
+  responses). None show up in `curl` or a same-origin unit test.
+- **Buy vs DIY:** vs. reading the WHATWG Fetch standard / MDN and hoping your config
+  matches. The kit fires the exact cross-origin preflight + request a browser would
+  and proves six properties (preflight ok status, Allow-Origin + Vary, Allow-Methods,
+  Allow-Headers incl. the `*`-excludes-Authorization footgun, credentials-vs-`*`, and
+  an open-reflection guard) — including the two footguns almost everyone hits — and
+  ships a correct/naive reference pair that proves the checks catch a broken config.
+  Honest: it tests server-emitted CORS headers at the HTTP layer, does NOT drive a
+  real browser, and does NOT cover Private Network Access; `preflight-status` and
+  `credentials` honestly don't distinguish the correct config from the naive one.
+- **Cross-sell:** JWT Auth Test Kit (verifier security) · Idempotency Key Test Kit
+  (safe-retry) · Rate-Limit Test Kit (throttling) · Pagination Test Kit (result-set
+  integrity) · any webhook kit.
 
 ### Developer tools — starter
 

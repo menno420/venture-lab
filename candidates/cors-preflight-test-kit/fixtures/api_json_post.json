@@ -1,0 +1,6 @@
+{
+  "_note": "An authenticated JSON POST the harness replays against your endpoint to exercise a CORS preflight. The browser sends a preflight OPTIONS first because the request is non-simple (Content-Type: application/json + an Authorization header). This file documents the request BODY shape and carries a clearly-fake demo marker; the CORS check is about the Origin and the preflight response, not the body.",
+  "action": "cptk-demo-create",
+  "client_ref": "cptk_demo_client_0001",
+  "note": "CPTK-DEMO-01 — illustrative, not a real record"
+}

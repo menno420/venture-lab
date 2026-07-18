@@ -1,0 +1,5 @@
+{
+  "_note": "A GET carrying an Authorization header — a non-simple request header, so the browser sends a CORS preflight OPTIONS first. The body is NOT sent for a GET (see MANIFEST method); this file documents the request shape and carries a clearly-fake demo marker.",
+  "probe": "cptk-demo-get",
+  "client_ref": "cptk_demo_client_0002"
+}

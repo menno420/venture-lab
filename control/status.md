@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T20:34:00Z
+updated: 2026-07-18T21:20:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -28,6 +28,18 @@ chat). This seat is released; the `control/*` bus stays retired.
 - `#229`/`#230` were other-session PRs (owner doctrine correction + pycache
   cleanup), not this seat.
 - Pointer: trading-strategy `#141`–`#151` landed in its own repo.
+
+**In flight (later seat, 2026-07-18, ORDER 016 — new sellable):**
+- PR #242 (`claude/cors-preflight-test-kit`) adds a NEW dev-tool SKU — **CORS
+  Preflight Test Kit $29** — at `candidates/cors-preflight-test-kit/` (stdlib-only
+  `cptk.py`+`cptk.js` harness, correct/naive reference stubs, 37-test HTTP
+  real-path suite, byte-reproducible bundle). Vetting packet at
+  `docs/publishing/vetting/cors-preflight-test-kit.md`, launch assets at
+  `docs/launch/cors-preflight-test-kit/`, CATALOG row added, and a
+  `cors-preflight-test-kit-tests` CI job. Publish stays owner-queued (§7 of the
+  packet); the seat performed no publish/spend/account action. OWNER-QUEUE.md was
+  NOT regenerated in this PR (it renumbers shared decision IDs) — running
+  `scripts/derive_owner_queue.py` to fold this packet in is a follow-up.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
