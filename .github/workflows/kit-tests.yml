@@ -66,6 +66,16 @@ jobs:
       - name: shopify-webhook-test-kit real-path HTTP tests
         working-directory: candidates/shopify-webhook-test-kit
         run: python3 -m unittest test_http_realpath -v
+  webhook-verifier-bundle-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: webhook-verifier-bundle assembly/inventory check (manifest + pinned component shas + built zip)
+        working-directory: candidates/webhook-verifier-bundle
+        run: python3 -m unittest test_bundle -v
   owner-click-queue-kit-tests:
     runs-on: ubuntu-latest
     steps:
