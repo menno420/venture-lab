@@ -1,0 +1,5 @@
+{
+  "_comment": "Fixture stem -> the HTTP method, path, and Content-Type the harness replays in a burst against your endpoint. A rate-limit test is about the request COUNT within a window, not the body shape, so the bundled fixtures are representative REQUEST TEMPLATES: api_ping is a cheap GET probe (the default — body is not sent on a GET), api_write is a POST body for exercising a write-side limiter. The path is the endpoint you want to throttle-test; override --fixture or edit MANIFEST to point at your own route. Bodies are docs-derived (illustrative shapes with clearly-fake demo markers), never wire-captured — see PROVENANCE.md.",
+  "api_ping": {"method": "GET", "path": "/api/ping", "content_type": "application/json", "note": "primary — a cheap GET probe fired in a burst (default fixture)"},
+  "api_write": {"method": "POST", "path": "/api/items", "content_type": "application/json", "note": "a write-side POST burst — for limiters that scope by method/route"}
+}

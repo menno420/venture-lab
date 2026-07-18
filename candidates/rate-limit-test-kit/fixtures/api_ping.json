@@ -1,0 +1,5 @@
+{
+  "_note": "A cheap GET probe the harness replays in a burst to exercise a limiter. The body is NOT sent for a GET request (see MANIFEST method); this file documents the request shape and carries a clearly-fake demo marker.",
+  "probe": "rltk-demo-ping",
+  "client_ref": "rltk_demo_client_0001"
+}

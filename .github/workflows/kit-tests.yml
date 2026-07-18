@@ -76,6 +76,16 @@ jobs:
       - name: idempotency-key-test-kit real-path HTTP tests
         working-directory: candidates/idempotency-key-test-kit
         run: python3 -m unittest test_http_realpath -v
+  rate-limit-test-kit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: rate-limit-test-kit real-path HTTP tests
+        working-directory: candidates/rate-limit-test-kit
+        run: python3 -m unittest test_http_realpath -v
   webhook-verifier-bundle-tests:
     runs-on: ubuntu-latest
     steps:

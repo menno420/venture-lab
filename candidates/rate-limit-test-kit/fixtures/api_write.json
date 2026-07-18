@@ -1,0 +1,5 @@
+{
+  "item": {"sku": "RLTK-DEMO-01", "quantity": 1},
+  "client_ref": "rltk_demo_client_0001",
+  "note": "rltk demo write payload — POSTed in a burst to exercise a write-side limiter"
+}
