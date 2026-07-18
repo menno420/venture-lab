@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T22:22:10Z
+updated: 2026-07-18T23:10:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -90,6 +90,25 @@ chat). This seat is released; the `control/*` bus stays retired.
   on the UNCHECKED Shopify owner box (no owner action falsely marked done).
   Docs-only, reversible; the seat performed no publish/spend/account action. The
   `candidates/*/PROVENANCE.md` staleness noted above is resolved by this PR.
+
+**In flight (later seat, 2026-07-18 — distribution-first, no new SKU):**
+- PR #246 (`claude/agent-ops-lead-magnet`) adds a FREE top-of-funnel discovery
+  asset for the **agent-ops / fleet cluster** (the next uncovered cluster after
+  PR #243 gave the dev/webhook + API-robustness cluster its lead magnet) — NOT a
+  new sellable. New `docs/launch/agent-ops-lead-magnet.md` (a dev.to/Hashnode/
+  Show-HN-ready article teaching six real fleet-operating failures: "tests pass"
+  when the check never ran the code, work that self-certifies done, parallel
+  sessions colliding on shared state, the green PR that can't self-merge, the
+  ungated spend/publish, and the beautifully-built undiscoverable artifact — each
+  with its mechanical gate; soft honest funnel — Agent Fleet Field Manual umbrella
+  first, then the supporting SKUs mapped to each failure). Agent-ops-cluster
+  channel drafts appended to `docs/launch/distribution-drafts.md` (existing
+  sections untouched); the article registered as the agent-ops-cluster funnel-top
+  asset in `docs/launch/CATALOG.md` (dev-cluster funnel-top row format). Docs/
+  markdown-only, reversible; no OWNER-QUEUE row (a free article is not a publish
+  surface). Posting stays an owner paste-and-post (OWNER-ACTION) — the seat
+  performed no publish/spend/account action. Distribution-first justification for
+  the cluster pick is in the PR body.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per

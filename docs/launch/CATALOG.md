@@ -534,6 +534,20 @@ so it cannot be created until those components are published.
   / r/webdev / dev.to) live in
   [`distribution-drafts.md`](distribution-drafts.md). Free, not a priced SKU —
   no OWNER-QUEUE row; posting is an owner paste-and-post (OWNER-ACTION).
+- **Agent-ops-cluster funnel-top (free discovery asset):** the free lead-magnet
+  article [`agent-ops-lead-magnet.md`](agent-ops-lead-magnet.md) — teaches the
+  shared pain of the whole agent-ops / fleet cluster (a fleet that overstates
+  "tests pass"/"done", parallel sessions colliding on shared state, the green PR
+  that can't self-merge, the ungated spend/publish, and the beautifully-built but
+  undiscoverable artifact) and funnels umbrella-first (Agent Fleet Field Manual)
+  → the supporting SKUs mapped to the failure each fixes (Multi-Agent
+  Control-Plane Pack, Owner-Click Queue Kit, the Merge-Wall + Auto-Merge Enabler
+  cookbooks, Agent-Workflow Template Pack, Kill-Rule Intake Kit) → The False-Green
+  Test Trap. It is the top-of-funnel for the agent-ops cluster the way
+  `api-robustness-lead-magnet.md` is for the dev cluster; channel drafts (Show HN
+  / r/ExperiencedDevs / r/LLMDevs / dev.to) live in
+  [`distribution-drafts.md`](distribution-drafts.md). Free, not a priced SKU — no
+  OWNER-QUEUE row; posting is an owner paste-and-post (OWNER-ACTION).
 - **Webhook cluster:** any webhook kit → the other three → Webhook Verifier
   Bundle → The False-Green Test Trap (the discipline behind them).
 - **API-robustness cluster:** Idempotency ↔ Rate-Limit ↔ Pagination ↔ JWT Auth
