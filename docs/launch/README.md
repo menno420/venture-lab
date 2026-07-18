@@ -60,6 +60,7 @@ $39 one-time. Conservative first-90-day: 0–4 sales ($0–$156). Zero distribut
 ## Cross-product
 - [Cluster lead-magnet distribution playbook](DISTRIBUTION-PLAYBOOK.md) — the reusable recipe (teaching article → channel drafts → CATALOG funnel-top registration → owner paste-and-post) distilled from PR #243 and PR #246, so the next cluster magnet is fill-in-the-blank
 - [Membership/boilerplate cluster lead magnet](membership-lead-magnet.md) — free top-of-funnel teaching article ("The seven things every paid-membership site gets wrong about Stripe webhooks and access control"), funnelling soft-and-honest to the Ship-It Bundle → Membership Kit + Stripe Webhook Test Kit → The False-Green Test Trap; channel drafts live in `distribution-drafts.md`
+- [AI-Novella / writing-tools cluster lead magnet](ai-novella-lead-magnet.md) — free top-of-funnel teaching article ("How to run an AI-assisted novella production line without shipping slop"), teaching the honest craft-and-QA discipline (length bands, structure passes, the anti-slop repair loop, the promise manifest, CANON continuity, dead-session recovery, the publish gate) and funnelling soft-and-honest to the AI Novella Production Kit
 - [Distribution drafts](distribution-drafts.md)
 - [Distribution channels shortlist](distribution-channels.md)
 
