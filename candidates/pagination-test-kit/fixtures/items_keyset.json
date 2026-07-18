@@ -1,0 +1,9 @@
+{
+  "_note": "A representative page response the harness traverses. The bundled correct/naive stubs serve rows of exactly this shape from a 12-row demo dataset ordered by (created_at, id). Bodies are docs-derived illustrative shapes with clearly-fake demo markers (pgtk_demo_*) — never a real record or wire capture. The harness reads item ids from `items[].id` and the next page from `next_cursor`.",
+  "items": [
+    {"id": "a1", "created_at": 100, "name": "alpha", "client_ref": "pgtk_demo_row_0001"},
+    {"id": "a2", "created_at": 100, "name": "alkaline", "client_ref": "pgtk_demo_row_0002"},
+    {"id": "b1", "created_at": 105, "name": "bravo", "client_ref": "pgtk_demo_row_0003"}
+  ],
+  "next_cursor": "PGTK-DEMO-OPAQUE-CURSOR-01"
+}
