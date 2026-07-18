@@ -1,0 +1,23 @@
+{
+  "_comment": "Fixture stem -> the request/response shape of a paginated collection the harness traverses: the collection path, the query-param names for the page size and the cursor, the response fields that carry the item list and the next cursor, and the row fields for the id and the sort key. A pagination test is about RESULT-SET INTEGRITY across pages, not the body shape, so the bundled fixtures are representative REQUEST/RESPONSE TEMPLATES: items_keyset matches the bundled correct/naive stubs (the default), and items_pagetoken shows a differently-named API (page_token/data/next_page_token) you would adapt to your own endpoint. The row bodies are docs-derived (illustrative shapes with clearly-fake demo markers), never wire-captured — see PROVENANCE.md.",
+  "items_keyset": {
+    "path": "/items",
+    "limit_param": "limit",
+    "cursor_param": "cursor",
+    "items_field": "items",
+    "next_cursor_field": "next_cursor",
+    "id_field": "id",
+    "sort_field": "created_at",
+    "note": "primary — matches the bundled stubs (keyset on (created_at, id), opaque signed cursor)"
+  },
+  "items_pagetoken": {
+    "path": "/v1/records",
+    "limit_param": "page_size",
+    "cursor_param": "page_token",
+    "items_field": "data",
+    "next_cursor_field": "next_page_token",
+    "id_field": "id",
+    "sort_field": "created_at",
+    "note": "a differently-named cursor API (page_size/page_token/data/next_page_token) — adapt to your own endpoint"
+  }
+}
