@@ -44,6 +44,7 @@ frontmatter keeps the score.
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
 
+- [Next-wave product roadmap 2026-07-18](2026-07-18-next-wave-roadmap.md) — a ranked pipeline of the next ~10 SKU/product candidates scored by value · buildability (which evidence class, agent-completable?) · owner-gates, each with a scaffold to copy. Retires the overnight-menu items already BUILT (Slack/Shopify/Auto-Merge/Idempotency kits + the webhook bundle) and re-stocks so no future session hits a false "backlog dry" line; optimizes for owner-click-ready-without-owner-gate first (the API-robustness kits), then high-value gated work. State: captured.
 - [Overnight planning menu 2026-07-17](2026-07-17-overnight-menu.md) — owner-ordered veto-ready menu (2026-07-16 night autonomous run): 38 distinct proposals across product (P-1…P-12), publishing pipeline (PUB-1…PUB-9), revenue (REV-1…REV-8), ops (OPS-1…OPS-9), each with pitch · S/M/L · risk/reversibility · unblocks. Owner vetoes line-by-line; survivors become claimed slices. State: captured.
 - [Adult title ideation batch 2026-07-14 night](2026-07-14-adult-title-concepts.md) —
   BOOKS-lane cohort doc (ORDER 008 item 1 / ORDER 011 item 2 generative
