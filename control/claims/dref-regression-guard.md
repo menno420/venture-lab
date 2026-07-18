@@ -1,0 +1,1 @@
+- `claude/dref-regression-guard` · **Add check_catalog_drefs.py guard + test — machine-catch OWNER-QUEUE renumber mispointing (the #245 class)** · scripts/, test · 2026-07-18

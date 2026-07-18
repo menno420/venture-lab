@@ -156,6 +156,27 @@ jobs:
       - name: owner-click-queue-kit parse/derive/lint tests
         working-directory: candidates/owner-click-queue-kit
         run: python3 -m unittest test_ocq -v
+  catalog-dref-guard:
+    # REQUIRED gate. Machine-catches the OWNER-QUEUE renumber-mispoint class
+    # (PR #244 renumbered decision IDs and the bundle/catalog D-ref
+    # cross-references silently mispointed; bootstrap --strict is semantic-blind
+    # to cross-refs, so #244 shipped green and #245 hand-resynced). The checker
+    # builds the live D-ID → SKU map from OWNER-QUEUE.md §1 and asserts every
+    # allowlisted live cross-ref resolves + points at the right SKU; the unittest
+    # adds a catch-case fixture proving the guard fires. Stdlib-only, system
+    # python3. Contract + allowlist/exclusion scoping: the
+    # scripts/check_catalog_drefs.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: catalog D-ref guard (checker on the live tree)
+        run: python3 scripts/check_catalog_drefs.py
+      - name: catalog D-ref guard tests (pass-case on the tree + mispoint catch-case)
+        working-directory: scripts
+        run: python3 -m unittest test_check_catalog_drefs -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated
