@@ -41,28 +41,28 @@ Photo Packs and the KDP book catalog — see
 | Product | Price | Category | Publish status | Queue decision |
 |---|---|---|---|---|
 | Stripe Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | **LIVE** (Gumroad, since 2026-07-12) | — (live; no pending decision) |
-| GitHub Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D5 |
-| Slack Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D19 |
-| Shopify Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D18 |
-| Idempotency Key Test Kit | $29 one-time | Dev tool · idempotency / safe-retry | READY | D6 |
-| Rate-Limit Test Kit | $29 one-time | Dev tool · rate-limit / throttling | READY | D17 |
-| Pagination Test Kit | $29 one-time | Dev tool · pagination / result-set integrity | READY | D14 |
-| JWT Auth Test Kit | $29 one-time | Dev tool · JWT auth / verifier security | READY | D8 |
-| CORS Preflight Test Kit | $29 one-time | Dev tool · CORS / browser cross-origin | READY | new (regen queue) |
-| Membership-Site Boilerplate Kit | $49 one-time | Dev tool · starter | READY | D10 |
-| Agent-Workflow Template Pack | $19 pay-what-you-want | Agent-ops · templates | READY | D20 |
-| Owner-Click Queue Kit | $19 one-time | Agent-ops · tool | READY | D13 |
-| Multi-Agent Control-Plane Pack | $29 one-time | Agent-ops · tool | READY | D12 |
+| GitHub Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D6 |
+| Slack Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D20 |
+| Shopify Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D19 |
+| Idempotency Key Test Kit | $29 one-time | Dev tool · idempotency / safe-retry | READY | D7 |
+| Rate-Limit Test Kit | $29 one-time | Dev tool · rate-limit / throttling | READY | D18 |
+| Pagination Test Kit | $29 one-time | Dev tool · pagination / result-set integrity | READY | D15 |
+| JWT Auth Test Kit | $29 one-time | Dev tool · JWT auth / verifier security | READY | D9 |
+| CORS Preflight Test Kit | $29 one-time | Dev tool · CORS / browser cross-origin | READY | D4 |
+| Membership-Site Boilerplate Kit | $49 one-time | Dev tool · starter | READY | D11 |
+| Agent-Workflow Template Pack | $19 pay-what-you-want | Agent-ops · templates | READY | D21 |
+| Owner-Click Queue Kit | $19 one-time | Agent-ops · tool | READY | D14 |
+| Multi-Agent Control-Plane Pack | $29 one-time | Agent-ops · tool | READY | D13 |
 | Agent Fleet Field Manual | $39 one-time | Guide | READY | D1 |
-| The False-Green Test Trap | $15 one-time | Guide + tool | READY | D4 |
-| The Agent Merge-Wall Cookbook | $19 one-time | Guide | READY | D11 |
+| The False-Green Test Trap | $15 one-time | Guide + tool | READY | D5 |
+| The Agent Merge-Wall Cookbook | $19 one-time | Guide | READY | D12 |
 | The Auto-Merge Enabler Cookbook | $19 one-time | Guide | READY | D3 |
-| The Idempotency & Retry Cookbook | $19 one-time | Guide | READY | D7 |
-| Kill-Rule Intake Kit | $15 one-time | Guide + templates | READY | D9 |
+| The Idempotency & Retry Cookbook | $19 one-time | Guide | READY | D8 |
+| Kill-Rule Intake Kit | $15 one-time | Guide + templates | READY | D10 |
 | AI Novella Production Kit | $29 one-time | Writing kit | READY | D2 |
-| Ship-It Bundle | $59 one-time | Bundle | **HARD-GATED** on D10 + D20 publishes | — (derives no decision) |
-| Webhook Verifier Bundle | $79 one-time | Bundle | **HARD-GATED** on D5 + D19 + D18 publishes (Stripe already LIVE) | — (derives no decision) |
-| API Robustness Bundle | $79 one-time | Bundle | **HARD-GATED** on D6 + D8 + D14 + D17 publishes | — (derives no decision) |
+| Ship-It Bundle | $59 one-time | Bundle | **HARD-GATED** on D11 + D21 publishes | — (derives no decision) |
+| Webhook Verifier Bundle | $79 one-time | Bundle | **HARD-GATED** on D6 + D20 + D19 publishes (Stripe already LIVE) | — (derives no decision) |
+| API Robustness Bundle | $79 one-time | Bundle | **HARD-GATED** on D7 + D9 + D15 + D18 publishes | — (derives no decision) |
 
 Status legend: **LIVE** = published and buyable now · **READY** = built, priced,
 listing drafted, verified — one owner publish click from live · **HARD-GATED** =
@@ -72,21 +72,21 @@ created until those components are published.
 > Note on sourcing: [`../current-state.md`](../current-state.md) was last
 > restamped 2026-07-17 and names "10 publish-READY SKUs"; the Slack, Shopify,
 > Auto-Merge Enabler, Idempotency Key Test Kit, Rate-Limit Test Kit, Pagination
-> Test Kit, and JWT Auth Test Kit packets landed after that stamp, so the counts
-> and decision numbers in this catalog follow the regenerated
-> [`../publishing/OWNER-QUEUE.md`](../publishing/OWNER-QUEUE.md), which is the
-> authoritative queue. The most recent insert: **The Idempotency & Retry
-> Cookbook** was added 2026-07-18 as a new decision **D7** (its packet
-> `idempotency-retry-cookbook.md` sorts by filename between
-> `idempotency-key-test-kit` and `jwt-auth-test-kit`), which shifted every
-> alphabetically-later decision up by one: JWT Auth D7→D8, Kill-Rule D8→D9,
-> Membership D9→D10, Merge-Wall D10→D11, Multi-Agent D11→D12, Owner-Click Queue
-> D12→D13, Pagination D13→D14, Photo Packs D14/D15→D15/D16, Rate-Limit D16→D17,
-> Shopify D17→D18, Slack D18→D19, Template Pack D19→D20, and the book/keyword
-> decisions D20–D26→D21–D27. The numbers in this catalog reflect the post-insert
-> queue. (Earlier the same day the JWT Auth Test Kit had itself inserted at what
-> was then D7; the Idempotency & Retry Cookbook now takes D7 and JWT is D8. The
-> Pagination Test Kit is D14 and the Rate-Limit Test Kit is D17.)
+> Test Kit, JWT Auth Test Kit, and CORS Preflight Test Kit packets landed after
+> that stamp, so the counts and decision numbers in this catalog follow the
+> regenerated [`../publishing/OWNER-QUEUE.md`](../publishing/OWNER-QUEUE.md),
+> which is the authoritative queue. The most recent insert: the **CORS Preflight
+> Test Kit** was folded in 2026-07-18 as a new decision **D4** (its packet
+> `cors-preflight-test-kit.md` sorts by filename between
+> `auto-merge-enabler-cookbook` and `false-green-test-trap`), which shifted every
+> alphabetically-later decision up by one: False-Green D4→D5, GitHub D5→D6,
+> Idempotency Key D6→D7, Idempotency & Retry Cookbook D7→D8, JWT Auth D8→D9,
+> Kill-Rule D9→D10, Membership D10→D11, Merge-Wall D11→D12, Multi-Agent D12→D13,
+> Owner-Click Queue D13→D14, Pagination D14→D15, Photo Packs D15/D16→D16/D17,
+> Rate-Limit D17→D18, Shopify D18→D19, Slack D19→D20, Template Pack D20→D21, and
+> the book/keyword decisions D21–D27→D22–D28. The numbers in this catalog reflect
+> the post-insert queue. (The Idempotency & Retry Cookbook is now D8, the
+> Pagination Test Kit is D15, and the Rate-Limit Test Kit is D18.)
 
 ---
 
@@ -117,7 +117,7 @@ scheme and the failing cases already written.
   first sale. The kit vendors the real shape and lints the `success_url` trap.
 - **Cross-sell:** Webhook Verifier Bundle · The False-Green Test Trap.
 
-**GitHub Webhook Test Kit — $29 · READY (D5)**
+**GitHub Webhook Test Kit — $29 · READY (D6)**
 ([listing](github-webhook-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/github-webhook-test-kit.md))
 - **Who it's for:** developers building a GitHub App / webhook receiver.
@@ -129,7 +129,7 @@ scheme and the failing cases already written.
   and full header set.
 - **Cross-sell:** Webhook Verifier Bundle · The False-Green Test Trap.
 
-**Slack Webhook Test Kit — $29 · READY (D19)**
+**Slack Webhook Test Kit — $29 · READY (D20)**
 ([listing](slack-webhook-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/slack-webhook-test-kit.md))
 - **Who it's for:** developers building a Slack app / Events API endpoint.
@@ -142,7 +142,7 @@ scheme and the failing cases already written.
   `v0:{timestamp}:{body}` basestring locally.
 - **Cross-sell:** Webhook Verifier Bundle · The False-Green Test Trap.
 
-**Shopify Webhook Test Kit — $29 · READY (D18)**
+**Shopify Webhook Test Kit — $29 · READY (D19)**
 ([listing](shopify-webhook-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/shopify-webhook-test-kit.md))
 - **Who it's for:** developers building a Shopify app / webhook receiver.
@@ -163,7 +163,7 @@ contract of the writes your service sends *out*. Same kit shape (stdlib harness 
 docs-derived fixtures + a correct/broken reference pair + byte-reproducible
 bundle), different problem class — dedup, not signatures.
 
-**Idempotency Key Test Kit — $29 · READY (D6)**
+**Idempotency Key Test Kit — $29 · READY (D7)**
 ([listing](idempotency-key-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/idempotency-key-test-kit.md))
 - **Who it's for:** developers building a `POST` endpoint (charges, orders,
@@ -189,7 +189,7 @@ kit's safe-retry half. Same kit shape (stdlib harness + docs-derived templates +
 a correct/broken reference pair + byte-reproducible bundle), a third problem
 class: throttling correctness, not signatures and not dedup.
 
-**Rate-Limit Test Kit — $29 · READY (D17)**
+**Rate-Limit Test Kit — $29 · READY (D18)**
 ([listing](rate-limit-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/rate-limit-test-kit.md))
 - **Who it's for:** developers who hand-rolled a rate limiter (or middleware) on
@@ -219,7 +219,7 @@ kit's safe-retry half and the rate-limit kit's throttling half. Same kit shape
 byte-reproducible bundle), a fourth problem class: pagination correctness, not
 signatures, not dedup, and not throttling.
 
-**Pagination Test Kit — $29 · READY (D14)**
+**Pagination Test Kit — $29 · READY (D15)**
 ([listing](pagination-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/pagination-test-kit.md))
 - **Who it's for:** developers who hand-rolled pagination (or an offset-based
@@ -253,7 +253,7 @@ incident** (auth bypass). Same kit shape (stdlib harness + docs-derived fixtures
 a correct/broken reference pair + byte-reproducible bundle), a fifth problem class:
 JWT verifier security, not signatures, dedup, throttling, or pagination.
 
-**JWT Auth Test Kit — $29 · READY (D8)**
+**JWT Auth Test Kit — $29 · READY (D9)**
 ([listing](jwt-auth-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/jwt-auth-test-kit.md))
 - **Who it's for:** developers who hand-rolled JWT verification (or wired a JWT
@@ -288,7 +288,7 @@ docs-derived request templates + a correct/broken reference pair + byte-reproduc
 bundle), a sixth problem class: CORS correctness, not signatures, dedup, throttling,
 pagination, or token security.
 
-**CORS Preflight Test Kit — $29 · READY (queue decision pending owner-queue regen)**
+**CORS Preflight Test Kit — $29 · READY (D4)**
 ([listing](cors-preflight-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/cors-preflight-test-kit.md))
 - **Who it's for:** developers with a browser front-end talking to a separate API
@@ -317,7 +317,7 @@ pagination, or token security.
 
 ### Developer tools — starter
 
-**Membership-Site Boilerplate Kit — $49 · READY (D10)**
+**Membership-Site Boilerplate Kit — $49 · READY (D11)**
 ([listing](membership-kit/listing-copy.md) ·
 [packet](../publishing/vetting/membership-kit.md))
 - **Who it's for:** indie builders / solo founders standing up a paid-membership
@@ -336,7 +336,7 @@ pagination, or token security.
 
 ### Agent-ops tools & templates
 
-**Agent-Workflow Template Pack — $19 PWYW · READY (D20)**
+**Agent-Workflow Template Pack — $19 PWYW · READY (D21)**
 ([listing](template-packs/listing-copy.md) ·
 [packet](../publishing/vetting/template-packs.md))
 - **Who it's for:** teams / solo devs running Claude Code or other agent sessions.
@@ -349,7 +349,7 @@ pagination, or token security.
 - **Cross-sell:** Ship-It Bundle · Multi-Agent Control-Plane Pack · Owner-Click
   Queue Kit.
 
-**Owner-Click Queue Kit — $19 · READY (D13)**
+**Owner-Click Queue Kit — $19 · READY (D14)**
 ([listing](owner-click-queue-kit/listing-copy.md) ·
 [packet](../publishing/vetting/owner-click-queue-kit.md))
 - **Who it's for:** operators running autonomous coding agents who must keep
@@ -363,7 +363,7 @@ pagination, or token security.
   click-runs second. (This repo's own OWNER-QUEUE is built with it.)
 - **Cross-sell:** Multi-Agent Control-Plane Pack · Agent-Workflow Template Pack.
 
-**Multi-Agent Control-Plane Pack — $29 · READY (D12)**
+**Multi-Agent Control-Plane Pack — $29 · READY (D13)**
 ([listing](multi-agent-control-plane-pack/listing-copy.md) ·
 [packet](../publishing/vetting/multi-agent-control-plane-pack.md))
 - **Who it's for:** operators running 2+ concurrent agent sessions on one repo.
@@ -394,7 +394,7 @@ pagination, or token security.
 - **Cross-sell:** the whole agent-ops lane; strongest with Multi-Agent
   Control-Plane Pack and the merge-wall guides.
 
-**The False-Green Test Trap — $15 · READY (D4)**
+**The False-Green Test Trap — $15 · READY (D5)**
 ([listing](false-green-test-trap/listing-copy.md) ·
 [packet](../publishing/vetting/false-green-test-trap.md))
 - **Who it's for:** any developer who ships webhook/integration code and has
@@ -409,7 +409,7 @@ pagination, or token security.
 - **Cross-sell:** any webhook kit · Webhook Verifier Bundle · Agent Fleet Field
   Manual.
 
-**The Agent Merge-Wall Cookbook — $19 · READY (D11)**
+**The Agent Merge-Wall Cookbook — $19 · READY (D12)**
 ([listing](merge-wall-cookbook/listing-copy.md) ·
 [packet](../publishing/vetting/merge-wall-cookbook.md))
 - **Who it's for:** operators whose agent fleets open their own PRs and can't land
@@ -436,7 +436,7 @@ pagination, or token security.
 - **Cross-sell:** The Agent Merge-Wall Cookbook (breadth companion) · Multi-Agent
   Control-Plane Pack.
 
-**The Idempotency & Retry Cookbook — $19 · READY (D7)**
+**The Idempotency & Retry Cookbook — $19 · READY (D8)**
 ([listing](idempotency-retry-cookbook/listing-copy.md) ·
 [packet](../publishing/vetting/idempotency-retry-cookbook.md))
 - **Who it's for:** developers who call APIs that charge money, create orders, or
@@ -450,12 +450,12 @@ pagination, or token security.
   Retry-After, consumer dedup — across 8 cited chapters + 4 stdlib recipes with a
   **26-test self-test** (offline + in CI). Every chapter has a Sources footer you
   can audit.
-- **Cross-sell (teach ↔ test):** the Idempotency Key Test Kit (D6) and the
-  Rate-Limit Test Kit (D17) — this cookbook TEACHES the patterns those kits TEST
+- **Cross-sell (teach ↔ test):** the Idempotency Key Test Kit (D7) and the
+  Rate-Limit Test Kit (D18) — this cookbook TEACHES the patterns those kits TEST
   against your own endpoint; a client that retries on 429 is exactly the one that
   needs idempotent writes.
 
-**Kill-Rule Intake Kit — $15 · READY (D9)**
+**Kill-Rule Intake Kit — $15 · READY (D10)**
 ([listing](kill-rule-intake-kit/listing-copy.md) ·
 [packet](../publishing/vetting/kill-rule-intake-kit.md))
 - **Who it's for:** indie builders / solo founders with an idea backlog and no
@@ -499,7 +499,7 @@ so it cannot be created until those components are published.
 - **Discount math:** $68 separately → **$59** = **$9 off (~13%)**.
 - **Angle:** the tested product layer plus the agent discipline that built it —
   product + process in one purchase.
-- **Gate:** the Membership (D10) and Template Pack (D20) publish clicks.
+- **Gate:** the Membership (D11) and Template Pack (D21) publish clicks.
 
 **Webhook Verifier Bundle — $79** ([listing](webhook-verifier-bundle/listing-copy.md) ·
 [packet](../publishing/vetting/webhook-verifier-bundle.md))
@@ -507,7 +507,7 @@ so it cannot be created until those components are published.
 - **Discount math:** $116 separately → **$79** = **$37 off (~32%)**.
 - **Angle:** all four verifier kits for the developer wiring more than one
   provider — one download, three fewer checkouts.
-- **Gate:** the GitHub (D5), Slack (D19), and Shopify (D18) publish clicks
+- **Gate:** the GitHub (D6), Slack (D20), and Shopify (D19) publish clicks
   (Stripe is already LIVE).
 
 **API Robustness Bundle — $79** ([listing](api-robustness-bundle/listing-copy.md) ·
@@ -520,8 +520,8 @@ so it cannot be created until those components are published.
   integrity, auth-bypass resistance — one download, three fewer checkouts. The
   own-endpoint sibling of the Webhook Verifier Bundle (inbound edge); same price,
   no shared components.
-- **Gate:** the Idempotency (D6), JWT Auth (D8), Pagination (D14), and Rate-Limit
-  (D17) publish clicks (none is live yet).
+- **Gate:** the Idempotency (D7), JWT Auth (D9), Pagination (D15), and Rate-Limit
+  (D18) publish clicks (none is live yet).
 
 **Cross-sell clusters (for storefront "you may also like"):**
 - **Dev-cluster funnel-top (free discovery asset):** the free lead-magnet
@@ -555,13 +555,13 @@ so it cannot be created until those components are published.
 > Sequencing rationale: ride the one existing LIVE listing's account/precedent,
 > lead with the highest-intent developer buyers, and unlock the bundles early.
 
-1. **The three remaining webhook kits — GitHub (D5), Slack (D19), Shopify (D18).**
+1. **The three remaining webhook kits — GitHub (D6), Slack (D20), Shopify (D19).**
    Same Gumroad account and flow as the live Stripe kit, same buyer, lowest
    friction, and they unlock the Webhook Verifier Bundle. Highest leverage per
    click.
 2. **Webhook Verifier Bundle** — once step 1 is done, one extra click turns four
    singles into a $79 anchor.
-3. **Idempotency Key Test Kit (D6) + Rate-Limit Test Kit (D17) + Pagination Test Kit (D14) + JWT Auth Test Kit (D8)** —
+3. **Idempotency Key Test Kit (D7) + Rate-Limit Test Kit (D18) + Pagination Test Kit (D15) + JWT Auth Test Kit (D9)** —
    the same dev-tool buyer and Gumroad account as the webhook kits (four rungs of
    API robustness: safe retries + correct throttling + correct pagination + a secure
    JWT verifier — the last the highest-severity, an auth-bypass tier), so publish all
@@ -569,13 +569,13 @@ so it cannot be created until those components are published.
    four signature kits) but they DO unlock the **API Robustness Bundle** (this
    own-endpoint four-pack). One extra click after all four turns them into a $79
    anchor, exactly as step 1→2 does for the webhook four-pack.
-4. **Membership-Site Boilerplate Kit (D10) + Agent-Workflow Template Pack (D20)** —
+4. **Membership-Site Boilerplate Kit (D11) + Agent-Workflow Template Pack (D21)** —
    the highest-price single plus its natural pair; unlocks the Ship-It Bundle.
 5. **Ship-It Bundle** — once step 4 is done.
 6. **The agent-ops guides & tools** — Agent Fleet Field Manual (D1), The Agent
-   Merge-Wall Cookbook (D11), The Auto-Merge Enabler Cookbook (D3), Owner-Click
-   Queue Kit (D13), Multi-Agent Control-Plane Pack (D12), Kill-Rule Intake Kit
-   (D9), The False-Green Test Trap (D4). Lower-friction content SKUs; publish as
+   Merge-Wall Cookbook (D12), The Auto-Merge Enabler Cookbook (D3), Owner-Click
+   Queue Kit (D14), Multi-Agent Control-Plane Pack (D13), Kill-Rule Intake Kit
+   (D10), The False-Green Test Trap (D5). Lower-friction content SKUs; publish as
    time allows.
 7. **AI Novella Production Kit (D2)** — a distinct writing audience; publish under
    the writing-category note flagged in D2.
@@ -594,9 +594,9 @@ catalog size, is the binding constraint; see
 Derived, not invented — no fabricated metrics or testimonials. Sources as of
 `main@aee9a08`:
 
-- Prices, publish status, queue decision numbers (D1–D27) —
+- Prices, publish status, queue decision numbers (D1–D28) —
   `docs/publishing/OWNER-QUEUE.md` (generated queue; decision numbers reflect the
-  2026-07-18 Idempotency & Retry Cookbook insert at D7, which shifted every
+  2026-07-18 CORS Preflight Test Kit insert at D4, which shifted every
   alphabetically-later decision up by one — see the sourcing note under the
   comparison table).
 - LIVE-SKU fact + kill clock + lane scope —
