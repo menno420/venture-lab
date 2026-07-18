@@ -1,8 +1,8 @@
 # Session — CORS Preflight Test Kit $29 (new sellable → owner-click-ready)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill: family-level model · effort · task-class at flip]]
+- **📊 Model:** opus-4.8 · high · feature build
 - **started (date -u):** Sat Jul 18 21:09 UTC 2026
 - **branch:** `claude/cors-preflight-test-kit`
 - **base:** `main@4137691`
@@ -48,14 +48,60 @@
   and does NOT cover Private Network Access (`Access-Control-Allow-Private-Network`);
   fixtures are docs-derived request templates, not live captures. Born-red card holds
   the substrate-gate red until the deliberate completion flip.
-- **local verify:** [[fill: unittest pass line + test count + bootstrap check EXIT at flip]]
-- **bundle sha256:** [[fill: dist zip sha256 + byte count at flip]]
-- **final commits:** [[fill: commit list at flip]]
+- **local verify:** `python3 -m unittest test_http_realpath -v` → `Ran 37 tests ... OK`
+  (green from source AND from the extracted zip in a clean dir); `node cptk.js demo`
+  → correct config all-6-pass, naive config flagged on 4; `python3 bootstrap.py
+  check --strict` → **EXIT 0** (advisories only — no hard finding; reachability
+  clean after the CATALOG link).
+- **bundle sha256:** `5c754e4432385d8c3b3f892a5ff572ddcf0e13cb0e07ee0dad522705be0b6c29`
+  (35,779 bytes, 13 content files; byte-reproducible via `package.sh` —
+  unconditional double rebuild produced the identical sha).
+- **final commits:** `c2d20e3` (claim + born-red card) → `a001329` (SKU payload:
+  harness ×2 + stubs + 37-test suite + docs + bundle + CI job + CATALOG row) →
+  `1b28a52` (status heartbeat) → this flip commit (born-red → complete). Note: the
+  payload/heartbeat commits first landed on a sibling worker's branch after a
+  shared-worktree branch switch and were cherry-picked back onto this branch; the
+  sibling branch `claude/api-robustness-lead-magnet` still carries copies (flagged
+  to the coordinator — no force-push).
 
 ## 💡 Session idea
 
-💡 [[fill: one genuine idea at flip]]
+💡 **CORS is the one API-robustness kit whose failure a browser can *demonstrate* —
+so it's the family's natural free lead magnet: ship a tiny static HTML page (one
+`fetch()` + a textarea for the user's endpoint URL and origin) that runs the same
+six checks the CLI does, live, in the visitor's own browser, and prints the exact
+PASS/FAIL lines.** Every other kit needs a terminal to show its value; CORS is the
+only one where the pain (a real red `blocked by CORS policy` console error, or a
+green "your API reflects any origin — here's the exploit") reproduces in a browser
+tab with zero install. That page IS the distribution: it's the interactive demo the
+dev.to gotcha article embeds, the thing that ranks for "test my cors" / "cors
+checker", and the top-of-funnel that sells not just this $29 kit but the whole
+API-robustness line by proving the catalog's checks are real. Two honest caveats to
+respect if built: (a) a browser page can only run the checks the browser itself
+permits (it can't set a forbidden `Origin` header — the browser sets that from the
+page's own origin — so the hosted checker tests CORS *from the checker's origin*,
+which is a genuine and useful signal but narrower than the CLI's arbitrary
+`--origin`/`--bad-origin`; say so plainly, and keep the full CLI as the paid
+product); (b) it must stay a pure client-side page (no proxy backend) or it stops
+being "runs in your browser" and becomes a service to run. This is the same
+"free-tool-as-lead-magnet → paid-kit" play the sibling worker's
+`api-robustness-lead-magnet` claim gestures at — CORS is the single best kit to
+anchor it on, because its check is the only one that survives being run from a
+sandboxed browser tab.
 
 ## previous-session review
 
-previous-session review: [[fill: pointer + one-line remark on the prior session card at flip]]
+previous-session review: `.sessions/2026-07-18-jwt-auth-test-kit.md` (PR for the JWT
+Auth Test Kit, the fifth API-robustness kit). Strong and the cleanest template to
+mirror: its correct/naive stub pair is the load-bearing value proof and its card is
+exemplary about naming what the kit does NOT rest on (the explicit no-RS256-signature-math
+boundary). This CORS kit inherited that discipline — the honesty burden here was
+scoping (server-emitted headers at the HTTP layer, NOT a real browser, NOT Private
+Network Access), and the two-non-signal honesty (`preflight-status` + `credentials`
+don't distinguish the stubs). One nit that recurs across all six sibling cards
+(idempotency #233, rate-limit #236, pagination #237, jwt): every one flags the
+`_api-hardening-core` extraction as overdue, and every one records the same
+off-taxonomy `📊 Model:` payload the check advisories nag about (`claude-opus-4-8
+family` / `high effort` / freeform task-class) — this card deliberately files the
+taught form (`opus-4.8 · high · feature build`) so it lands clean in the PL-004
+dataset instead of adding a seventh drift row.
