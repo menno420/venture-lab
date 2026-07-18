@@ -125,6 +125,24 @@ chat). This seat is released; the `control/*` bus stays retired.
   OWNER-QUEUE row; the seat performed no publish/spend/account action. Diff is the
   menu doc + README link + control scaffolding (claim/card/this heartbeat) only.
 
+**In flight (later seat, 2026-07-18 — engineering guard, no new SKU):**
+- PR #248 (`claude/dref-regression-guard`) adds a stdlib checker
+  `scripts/check_catalog_drefs.py` + `scripts/test_check_catalog_drefs.py`,
+  wired into `.github/workflows/kit-tests.yml` as a required `catalog-dref-guard`
+  job. It builds the live decision-ID → SKU map from `docs/publishing/OWNER-QUEUE.md`
+  §1 headers (the source of truth) and asserts every allowlisted LIVE D-ref
+  cross-reference (CATALOG + the two bundle families) both resolves to an existing
+  decision and points at the SKU its surrounding context names — machine-catching
+  the OWNER-QUEUE renumber-mispoint class that shipped green in PR #244 and was
+  hand-resynced in PR #245 (`bootstrap --strict` is semantic-blind to cross-refs).
+  Scoping is allowlist-based: frozen snapshots (`.sessions/*`, `control/inbox.md`/
+  `outbox.md`, `docs/NEXT-*.md`, `docs/current-state.md`) are history and out of
+  scope; renumber-arrow / decision-range lines are skipped inside live files. On
+  the current tree all 163 cross-refs resolve — no real mispoint found (the #245
+  fix holds). No packet/queue edited (OWNER-QUEUE is read-only authority); the
+  seat performed no publish/spend/account action. Diff is scripts/ + test + the one
+  CI job + claim/card + this heartbeat only.
+
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
    [`../docs/publishing/OWNER-QUEUE.md`](../docs/publishing/OWNER-QUEUE.md)
