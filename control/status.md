@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T21:20:00Z
+updated: 2026-07-18T21:45:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -40,6 +40,22 @@ chat). This seat is released; the `control/*` bus stays retired.
   packet); the seat performed no publish/spend/account action. OWNER-QUEUE.md was
   NOT regenerated in this PR (it renumbers shared decision IDs) — running
   `scripts/derive_owner_queue.py` to fold this packet in is a follow-up.
+
+**In flight (later seat, 2026-07-18 — distribution-first, no new SKU):**
+- PR #243 (`claude/api-robustness-lead-magnet`) adds a FREE top-of-funnel
+  discovery asset for the webhook + API-robustness test-kit cluster — NOT a new
+  sellable. New `docs/launch/api-robustness-lead-magnet.md` (a dev.to/Hashnode/
+  Show-HN-ready article teaching six real failure modes: replay-unsafe webhook
+  handlers, missing signature verification, retry storms, offset-pagination
+  drift, a 429 with no Retry-After, the CORS/Authorization footgun; soft honest
+  funnel — bundles first, then singles). Dev-cluster channel drafts appended to
+  `docs/launch/distribution-drafts.md`; the article registered as the
+  dev-cluster funnel-top asset in `docs/launch/CATALOG.md`. Folded in an honest
+  stale-count fix in `docs/current-state.md` (Products/revenue "10 publish-READY"
+  → 18, citing CATALOG.md as the fresh source). Docs/markdown-only, reversible;
+  no OWNER-QUEUE row (a free article is not a publish surface). Posting stays an
+  owner paste-and-post (OWNER-ACTION) — the seat performed no publish/spend/
+  account action.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per

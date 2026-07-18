@@ -81,12 +81,13 @@ none of them.
   pause/delist). 0 organic sales to date — distribution is the binding
   constraint. Record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-- **10 publish-READY SKUs** (built + priced + listing drafted + verified;
-  publish clicks owner-gated): Membership-Site Boilerplate Kit $49 ·
-  Agent-Workflow Template Pack $19 PWYW · Agent Fleet Field Manual $39 ·
-  Kill-Rule Intake Kit $15 · The False-Green Test Trap $15 · The Agent
-  Merge-Wall Cookbook $19 · GitHub Webhook Test Kit $29 · Owner-Click Queue Kit
-  $19 · Multi-Agent Control-Plane Pack $29 · AI Novella Production Kit $29.
+- **18 publish-READY SKUs** (built + priced + listing drafted + verified;
+  publish clicks owner-gated) — per [`launch/CATALOG.md`](launch/CATALOG.md), the
+  fresh authoritative storefront view (1 LIVE + 18 READY + 3 hard-gated bundles);
+  the full per-SKU list, prices, and queue-decision numbers live there. This
+  supersedes the "10 READY" this 2026-07-17 restamp named, which predated the
+  Slack/Shopify/Auto-Merge-Enabler/Idempotency-Key/Rate-Limit/Pagination/JWT-Auth
+  kits and the Idempotency & Retry Cookbook that landed after the stamp.
 - **2 hard-gated (not publish-ready):** Photo Packs (full-res originals owner-held
   off-repo) · Ship-It Bundle $59 (gated on component clicks).
 - **Go-live owner steps** for the products that need keys before real money can

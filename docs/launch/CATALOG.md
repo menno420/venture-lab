@@ -524,6 +524,16 @@ so it cannot be created until those components are published.
   (D17) publish clicks (none is live yet).
 
 **Cross-sell clusters (for storefront "you may also like"):**
+- **Dev-cluster funnel-top (free discovery asset):** the free lead-magnet
+  article [`api-robustness-lead-magnet.md`](api-robustness-lead-magnet.md) —
+  teaches the shared pain of both dev clusters (replay-unsafe webhook handlers,
+  forged events, retry storms, offset-pagination drift, a 429 with no
+  Retry-After, the CORS/Authorization footgun) and funnels bundles-first (Webhook
+  Verifier + API Robustness) → singles → The False-Green Test Trap. It is the
+  top-of-funnel each kit's intake names; channel drafts (Show HN / r/programming
+  / r/webdev / dev.to) live in
+  [`distribution-drafts.md`](distribution-drafts.md). Free, not a priced SKU —
+  no OWNER-QUEUE row; posting is an owner paste-and-post (OWNER-ACTION).
 - **Webhook cluster:** any webhook kit → the other three → Webhook Verifier
   Bundle → The False-Green Test Trap (the discipline behind them).
 - **API-robustness cluster:** Idempotency ↔ Rate-Limit ↔ Pagination ↔ JWT Auth
