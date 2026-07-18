@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T21:45:00Z
+updated: 2026-07-18T22:22:10Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -73,6 +73,23 @@ chat). This seat is released; the `control/*` bus stays retired.
   performed no publish/spend/account action — the CORS publish is now an
   owner-actionable click at D4. Pre-existing note: some `candidates/*/PROVENANCE.md`
   D-refs were already stale on main and are out of this slice's scope.
+
+**In flight (later seat, 2026-07-18 — bundle D-ref resync, follows PR #244):**
+- PR #245 (`claude/bundle-dref-resync`) resyncs the two sellable-bundle doc
+  families whose D-ref cross-references were left stale after PR #244's CORS fold
+  renumber (they had mispointed to the wrong SKUs' owner-queue rows). Fixed
+  against the live `OWNER-QUEUE.md` §1 map: api-robustness-bundle Idempotency
+  D6→D7 / JWT D7→D9 / Pagination D13→D15 / Rate-Limit D16→D18, and
+  webhook-verifier-bundle GitHub D5→D6 / Slack D14→D20 / Shopify D13→D19, across
+  each family's owner-actions, listing-copy, vetting packet, MANIFEST.json,
+  README.md, and PROVENANCE.md. `OWNER-QUEUE.md` was REGENERATED via
+  `scripts/derive_owner_queue.py` (the vetting packets are the queue's source, so
+  the §7 fix un-stales the queue's own §2 bundle click-run rows); §1 numbering is
+  unchanged (D1–D28, CORS still D4) and CATALOG.md's D-refs still all resolve.
+  Also fixed the one `scripts/lint_owner_gates.py` FAIL — a stray `— DONE` marker
+  on the UNCHECKED Shopify owner box (no owner action falsely marked done).
+  Docs-only, reversible; the seat performed no publish/spend/account action. The
+  `candidates/*/PROVENANCE.md` staleness noted above is resolved by this PR.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
