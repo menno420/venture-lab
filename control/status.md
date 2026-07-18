@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T23:42:00Z
+updated: 2026-07-18T23:39:10Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -179,6 +179,27 @@ chat). This seat is released; the `control/*` bus stays retired.
   reversible; no OWNER-QUEUE row (a free article is not a publish surface).
   Posting stays an owner paste-and-post (OWNER-ACTION) — the seat performed no
   publish/spend/account action.
+
+**In flight (later seat, 2026-07-18 — distribution-first, no new SKU) — LM-2:**
+- PR #251 (`claude/lm-2-ai-novella-lead-magnet`) adds a FREE top-of-funnel
+  discovery asset for the **AI-Novella / writing-tools cluster** (the last fully
+  uncovered cluster — no funnel-top article and no channel drafts existed for it,
+  after PR #243/#246/#250 covered the dev, agent-ops, and membership clusters) —
+  NOT a new sellable. New `docs/launch/ai-novella-lead-magnet.md`, a
+  dev.to/Hashnode/Medium/Show-HN-ready article titled "How to run an AI-assisted
+  novella production line without shipping slop," teaching seven real craft-and-QA
+  failure modes (no declared length band, no structure pass, infinite-rewrite
+  editing vs. one aimed repair pass, no mechanical promise-manifest check,
+  continuity drift with canon only in the last session, unrecoverable crashed
+  sessions, and shipping "a draft exists" as "publishable"), each as The failure.
+  / Why it bites. / The fix., with a soft honest footer funnelling to the AI
+  Novella Production Kit ($29, READY, D2). Built from
+  `docs/launch/DISTRIBUTION-PLAYBOOK.md` (PR #249). One Cross-product index link
+  added in `docs/launch/README.md` so the docs-gate reaches the article; the
+  cluster had no existing channel drafts, so this slice ships the funnel-top
+  article only. Docs/markdown-only, reversible; no OWNER-QUEUE row (a free article
+  is not a publish surface). Posting stays an owner paste-and-post (OWNER-ACTION) —
+  the seat performed no publish/spend/account action.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
