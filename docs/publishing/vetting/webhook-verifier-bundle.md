@@ -142,19 +142,16 @@ construction. HOW detail:
 - [ ] ⚑ **Owner:** execute the GitHub Webhook Test Kit ($29) publish click —
       blocking: the GitHub kit publish click must be executed first (a Gumroad
       bundle references existing live products; queued OWNER-QUEUE D5, packet
-      [github-webhook-test-kit.md](github-webhook-test-kit.md) §7). Nothing below
-      proceeds.
+      `github-webhook-test-kit.md` §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the Slack Webhook Test Kit ($29) publish click —
       blocking: the Slack kit publish click must be executed first (same
       live-referent rule; queued OWNER-QUEUE D14, packet
-      [slack-webhook-test-kit.md](slack-webhook-test-kit.md) §7). Nothing below
-      proceeds.
+      `slack-webhook-test-kit.md` §7). Nothing below proceeds.
 - [ ] ⚑ **Owner:** execute the Shopify Webhook Test Kit ($29) publish click —
       blocking: the Shopify kit publish click must be executed first (same
       live-referent rule; queued OWNER-QUEUE D13, packet
-      [shopify-webhook-test-kit.md](shopify-webhook-test-kit.md) §7). Nothing
-      below proceeds. (Stripe is already live — DONE 2026-07-12 — so it carries
-      no blocking row here.)
+      `shopify-webhook-test-kit.md` §7). Nothing below proceeds. (Stripe is
+      already live — DONE 2026-07-12 — so it carries no blocking row here.)
 - [ ] ⚑ **Owner:** create the Gumroad bundle of the four live kits (New product
       → Bundle, all four components selected, or the single reproducible zip).
 - [ ] ⚑ **Owner:** listing copy pasted from the bundle listing-copy.
