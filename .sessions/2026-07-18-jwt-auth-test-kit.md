@@ -1,8 +1,8 @@
 # Session — JWT Auth Test Kit $29 (new sellable → owner-click-ready)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model]]
+- **📊 Model:** claude-opus-4-8 family · high effort · new-sellable build
 - **started (date -u):** Sat Jul 18 18:49 UTC 2026
 - **branch:** `claude/jwt-auth-test-kit-2026-07-18`
 - **base:** `main@1b19e71`
@@ -51,8 +51,55 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 **The catalog now has FIVE dev-tool kits that test a buyer's OWN endpoint —
+idempotency (safe-retry), rate-limit (throttling), pagination (result-set
+integrity), JWT auth (verifier security), and the four webhook kits (inbound edge).
+Ship an "API Robustness Bundle" AND extract `candidates/_api-hardening-core/` before
+the kits calcify into five copies of the same code.** Two concrete moves: (1) an
+**API Robustness Bundle** — the four own-endpoint kits (idempotency + rate-limit +
+pagination + JWT, $29 each = $116) at a ~$89 anchor ($27 off, ~23%) — the exact
+bundle-discount play the Webhook Verifier four-pack makes, and the cross-sell is
+native: a developer hardening one API needs safe retries AND correct throttling AND
+correct pagination AND a verifier that can't be bypassed. Because JWT is the
+*security-incident* tier (auth bypass, not a correctness bug), it also anchors a
+higher-WTP framing — an "API **Security** Bundle" that leads with the auth kit and
+folds in the webhook signature verifiers, a plausibly $99+ pairing. (2) The
+mechanical enabler now flagged by FIVE independent cards (Shopify #227, the bundle
+#231, idempotency #233, rate-limit #236, pagination #237): extract
+`candidates/_api-hardening-core/` — the byte-reproducible allow-list `package.sh`,
+the correct-stub + naive-stub HTTP test scaffold, the `fire`/`is_2xx`/verdict pair,
+the `Spec`/fixture indirection, and the PROVENANCE discipline (a pinned per-fixture
+sha256 + a cited source per fact) — plus a `provenance_lint.py` that FAILS any kit
+whose fixture lacks a pinned sha256 or a cited source, so kit N+1
+(optimistic-concurrency/ETag? conditional-request `If-Match`/`304`? CORS
+preflight?) is a scheme-and-fixtures diff, not a re-implementation, and the honesty
+bar is machine-enforced. This build stretched the shared shape a FIFTH way — from
+stateful dedup through timing/windows and ordered-set integrity to
+**auth-bypass/token-forgery** (attack-token minting: alg:none, algorithm-confusion
+over the public-key bytes, exp/nbf/aud/iss) — without breaking it, the strongest
+signal yet that the core should be pulled before it hardens into five copies of the
+same bugs. One honest cross-kit lesson JWT surfaced: the auth kit's failure mode is
+a security incident, so its listing must be *more* conservative about scope than the
+correctness siblings — hence the explicit stdlib-only / no-RS256-signature-math
+boundary, which the shared core's `provenance_lint.py` should be able to assert
+(no property may claim coverage its shipped code doesn't exercise).
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: `.sessions/2026-07-18-pagination-test-kit.md` (PR #237, the
+R2 Pagination Test Kit — the fourth API-robustness kit, result-set integrity). Strong
+and honest, and the cleanest template to mirror yet: the correct/naive stub pair is
+the load-bearing value proof (correct passes all six; naive flagged on
+stability-under-mutation / page-size / cursor-tamper and honestly NOT on
+traversal/ordering/terminal), and the card is exemplary about naming what it does
+NOT rest on — it states up front that there is no single RFC for cursor pagination at
+all, sourcing to the keyset-vs-offset literature + named vendor docs rather than
+overclaiming a standard. This JWT kit inherited that discipline and pushed it
+further: JWT *does* have hard standards (RFC 7519/7515/8725), so the honesty burden
+moved from "no standard exists" to "the standard exists but our stdlib scope covers
+only part of it" — hence the explicit no-RS256-signature-math boundary. One nit the
+pagination card itself flagged and this kit acted on: it noted the shared harness
+should keep timing-based checks opt-in so the fast kits stay fast; JWT has no windowed
+waits (fixed ±1h exp/nbf offsets), so its 47-test suite runs without paying real
+wall-clock — the right side of that lesson, and another data point for the
+`_api-hardening-core` extraction the pagination card also called for.
