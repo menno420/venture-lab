@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T23:10:00Z
+updated: 2026-07-18T23:40:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -109,6 +109,21 @@ chat). This seat is released; the `control/*` bus stays retired.
   surface). Posting stays an owner paste-and-post (OWNER-ACTION) — the seat
   performed no publish/spend/account action. Distribution-first justification for
   the cluster pick is in the PR body.
+
+**In flight (later seat, 2026-07-18 — planning-only, owner morning deliverable):**
+- PR #247 (`claude/veto-ready-menu`) adds a single planning doc,
+  `docs/ideas/2026-07-18-veto-ready-menu.md` — the owner-morning veto-ready menu
+  for the 2026-07-18 overnight directive ("plan excessively… my veto is the
+  filter, don't pre-filter to a few safe picks"). ~55 distinct venture proposals
+  across seven areas (new SKUs · bundles · lead magnets · engineering leverage ·
+  distribution/ops · book/writing path · misc), each with pitch · S/M/L ·
+  risk/reversibility · what-it-unblocks · owner-gate status. REFERENCES and
+  EXTENDS the next-wave roadmap (R1–R10, marking R1–R4/R7 shipped) and the
+  overnight menu (P/PUB/REV/OPS) rather than duplicating them; linked into
+  `docs/ideas/README.md` per the conveyor convention. Scoped to venture (trading
+  planning is a separate repo/PR). Planning-only — no SKU, no publish surface, no
+  OWNER-QUEUE row; the seat performed no publish/spend/account action. Diff is the
+  menu doc + README link + control scaffolding (claim/card/this heartbeat) only.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
