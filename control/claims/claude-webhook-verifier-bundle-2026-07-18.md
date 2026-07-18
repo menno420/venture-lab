@@ -1,0 +1,3 @@
+# Claim — Webhook Verifier Bundle build (hard-gated bundle)
+
+- `claude/webhook-verifier-bundle-2026-07-18` · **build candidates/webhook-verifier-bundle + launch/vetting + OWNER-QUEUE regen (hard-gated bundle)** — bundle the four webhook test kits (Stripe + GitHub + Slack + Shopify, $29 each) into one discounted SKU ($79), lands ready-pending the component publishes (GitHub D5 / Slack D14 / Shopify D13; Stripe already LIVE), mirroring the Ship-It Bundle hard-gate precedent · candidates/webhook-verifier-bundle/, docs/launch/webhook-verifier-bundle/, docs/publishing/vetting/webhook-verifier-bundle.md, docs/publishing/OWNER-QUEUE.md, .github/workflows/kit-tests.yml, .sessions/2026-07-18-webhook-verifier-bundle.md · order 016 · 2026-07-18

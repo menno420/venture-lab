@@ -584,6 +584,16 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** publish click B — De papieren sinaasappel (NL) per its packet §7 sequence, within 48 h of click A (inherits that packet's blocking native-speaker proofread gate). · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** measurement export at T0+15 — the §4 list (orders, KENP/KENPC, per-marketplace splits, no-ads confirmation) for both ASINs, handed to the seat. · **UNBLOCKS:** the next click in this sequence
 
+### Webhook Verifier Bundle (Stripe + GitHub + Slack + Shopify) — `docs/publishing/vetting/webhook-verifier-bundle.md` @ §7 checklist — **HARD-GATED** — blocking row: execute the GitHub Webhook Test Kit ($29) publish click — blocking: the GitHub k…
+
+- [ ] **WHAT:** execute the GitHub Webhook Test Kit ($29) publish click — blocking: the GitHub kit publish click must be executed first (a Gumroad bundle references existing live products; queued OWNER-QUEUE D5, packet github-webhook-test-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** execute the Slack Webhook Test Kit ($29) publish click — blocking: the Slack kit publish click must be executed first (same live-referent rule; queued OWNER-QUEUE D14, packet slack-webhook-test-kit.md §7). Nothing below proceeds. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** execute the Shopify Webhook Test Kit ($29) publish click — blocking: the Shopify kit publish click must be executed first (same live-referent rule; queued OWNER-QUEUE D13, packet shopify-webhook-test-kit.md §7). Nothing below proceeds. (Stripe is already live — DONE 2026-07-12 — so it carries no blocking row here.) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** create the Gumroad bundle of the four live kits (New product → Bundle, all four components selected, or the single reproducible zip). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** listing copy pasted from the bundle listing-copy. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($79 one-time fixed — §3; $116-separate comparison cited in the copy, never the sale price). · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + preview/test purchase delivering all four zips (sha256 spot-check against the §1 pins) + public bundle URL copied. · **UNBLOCKS:** the next click in this sequence
+
 ### Weduwenblauw — `docs/publishing/vetting/weduwenblauw.md` @ §7 checklist — **HARD-GATED** — blocking row: native-speaker proofread pass approved/commissioned (blocking quality gate for t…
 
 - [ ] **WHAT:** EN edition published first (sequencing dependency). · **UNBLOCKS:** the next click in this sequence
