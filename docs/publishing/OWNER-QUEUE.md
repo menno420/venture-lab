@@ -86,91 +86,98 @@ The seat performed NONE of the actions below — every item is an owner click or
 - **DEFAULT:** **Gumroad**
 - **UNBLOCKS:** the “Owner-Click Queue Kit” publish sequence continuing past this pick
 
-### D12 — Photo Packs (Dutch Skies + Golden Hours) — Storefront pick
+### D12 — Pagination Test Kit — Storefront pick
+
+- **WHAT:** ⚑ Storefront pick: Gumroad (default — same account as the live Stripe kit listing; the click-script's HOW is written against it) or Lemon Squeezy — owner's call; either works with the same zip + copy.
+- **WHERE:** `docs/publishing/vetting/pagination-test-kit.md` @ §7, OWNER-ACTION step 2
+- **DEFAULT:** **Gumroad**
+- **UNBLOCKS:** the “Pagination Test Kit” publish sequence continuing past this pick
+
+### D13 — Photo Packs (Dutch Skies + Golden Hours) — Storefront pick
 
 - **WHAT:** ⚑ Storefront pick: Gumroad (default — MARKET-PLAN channel (a) default; Discover gives audience-free category browse) or Ko-fi (better per-sale net ≈ $4.30 vs $3.56, no marketplace browse) — owner's call.
 - **WHERE:** `docs/publishing/vetting/photo-packs.md` @ §7, OWNER-ACTION step 4
 - **DEFAULT:** **Gumroad**
 - **UNBLOCKS:** the entire remaining “Photo Packs (Dutch Skies + Golden Hours)” click-run — hard gate, nothing below it proceeds
 
-### D13 — Photo Packs (Dutch Skies + Golden Hours) — Price
+### D14 — Photo Packs (Dutch Skies + Golden Hours) — Price
 
 - **WHAT:** ⚑ Price: $5 fixed per pack (default — §3 evidence; floor $3; ratified by ORDER 010 / V039, sim-lab afe18f3: PWYW ruled out, the $3 golden-hours anchor ruled out unmeasured; optional two-pack bundle at $9.99 inside the ruled [$9.09, $10] band).
 - **WHERE:** `docs/publishing/vetting/photo-packs.md` @ §7, OWNER-ACTION step 5
 - **DEFAULT:** **$5 fixed per pack**
 - **UNBLOCKS:** the entire remaining “Photo Packs (Dutch Skies + Golden Hours)” click-run — hard gate, nothing below it proceeds
 
-### D14 — Rate-Limit Test Kit — Storefront pick
+### D15 — Rate-Limit Test Kit — Storefront pick
 
 - **WHAT:** ⚑ Storefront pick: Gumroad (default — same account as the live Stripe kit listing; the click-script's HOW is written against it) or Lemon Squeezy — owner's call; either works with the same zip + copy.
 - **WHERE:** `docs/publishing/vetting/rate-limit-test-kit.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Gumroad**
 - **UNBLOCKS:** the “Rate-Limit Test Kit” publish sequence continuing past this pick
 
-### D15 — Shopify Webhook Test Kit — Storefront pick
+### D16 — Shopify Webhook Test Kit — Storefront pick
 
 - **WHAT:** ⚑ Storefront pick: Gumroad (default — same account as the live SWTK listing; the click-script's HOW is written against it) or Lemon Squeezy — owner's call; either works with the same zip + copy.
 - **WHERE:** `docs/publishing/vetting/shopify-webhook-test-kit.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Gumroad**
 - **UNBLOCKS:** the “Shopify Webhook Test Kit” publish sequence continuing past this pick
 
-### D16 — Slack Webhook Test Kit — Storefront pick
+### D17 — Slack Webhook Test Kit — Storefront pick
 
 - **WHAT:** ⚑ Storefront pick: Gumroad (default — same account as the live SWTK listing; the click-script's HOW is written against it) or Lemon Squeezy — owner's call; either works with the same zip + copy.
 - **WHERE:** `docs/publishing/vetting/slack-webhook-test-kit.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Gumroad**
 - **UNBLOCKS:** the “Slack Webhook Test Kit” publish sequence continuing past this pick
 
-### D17 — Agent-Workflow Template Pack — Storefront pick
+### D18 — Agent-Workflow Template Pack — Storefront pick
 
 - **WHAT:** ⚑ Storefront pick: Gumroad (default — simplest PWYW digital-product flow; the click-script's HOW is written against it) or Lemon Squeezy — owner's call; either works with the same zip + copy.
 - **WHERE:** `docs/publishing/vetting/template-packs.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Gumroad**
 - **UNBLOCKS:** the “Agent-Workflow Template Pack” publish sequence continuing past this pick
 
-### D18 — The Painted Stones — Illustration decision
+### D19 — The Painted Stones — Illustration decision
 
 - **WHAT:** ⚑ Illustration decision (the gate): choose Commission (~$1,300–$5,200, 13 spreads + cover) / AI art (near-zero cost; KDP AI-generated disclosure required at publish; unsettled image IP) / Park. Seat recommends Park (C) — see §5. All art spend is owner- authorized; brief in §6a.
 - **WHERE:** `docs/publishing/vetting/the-painted-stones.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Seat recommends Park (C)**
 - **UNBLOCKS:** the entire remaining “The Painted Stones” click-run — hard gate, nothing below it proceeds
 
-### D19 — The Puddle Museum — Illustration decision
+### D20 — The Puddle Museum — Illustration decision
 
 - **WHAT:** ⚑ Illustration decision (the gate): choose Commission (~$1,200–$5,600, 12–14 spreads + cover) / AI art (near-zero cost; KDP disclosure required; unsettled IP; reflection-rendering risk flagged in §5) / Park. Seat recommends Park (C) — see §5. All art spend is owner-authorized.
 - **WHERE:** `docs/publishing/vetting/the-puddle-museum.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Seat recommends Park (C)**
 - **UNBLOCKS:** the entire remaining “The Puddle Museum” click-run — hard gate, nothing below it proceeds
 
-### D20 — The Weigh House — Title + subtitle
+### D21 — The Weigh House — Title + subtitle
 
 - **WHAT:** Title + subtitle (⚑ the §1 owner choice): confirm The Weigh House with subtitle "An Amsterdam Crime Novel" (default; or "A Novel" / "A Novella" — owner's call), and run the KDP title-availability recheck at upload (§2 was None-but-inconclusive).
 - **WHERE:** `docs/publishing/vetting/the-weigh-house.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **"An Amsterdam Crime Novel"**
 - **UNBLOCKS:** the “The Weigh House” publish sequence continuing past this pick
 
-### D21 — The Windmill Mouse — Illustration decision
+### D22 — The Windmill Mouse — Illustration decision
 
 - **WHAT:** ⚑ Illustration decision (the gate): choose Commission (~$1,200–$5,600, 12–14 spreads + cover) / AI art (near-zero cost; KDP AI-generated disclosure required at publish; unsettled image IP) / Park. Seat recommends Park (C) — see §5. All art spend is owner-authorized.
 - **WHERE:** `docs/publishing/vetting/the-windmill-mouse.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Seat recommends Park (C)**
 - **UNBLOCKS:** the entire remaining “The Windmill Mouse” click-run — hard gate, nothing below it proceeds
 
-### D22 — Ultramarine — Title
+### D23 — Ultramarine — Title
 
 - **WHAT:** Title (⚑ the §2 owner choice — the packet's one open decision): pick The Widow's Blue — "A Novel of Delft, 1654" (recommended default; §2 evidence), or keep Ultramarine + subtitle (accepting Navarro/Lowry/Warhammer burial), or The Secret of Holland; then run the KDP title-availability recheck at upl…
 - **WHERE:** `docs/publishing/vetting/ultramarine.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **The Widow's Blue — "A Novel of Delft, 1654"**
 - **UNBLOCKS:** the “Ultramarine” publish sequence continuing past this pick
 
-### D23 — Weduwenblauw — Title coupling
+### D24 — Weduwenblauw — Title coupling
 
 - **WHAT:** Title coupling (⚑ one click, two editions): when picking the EN title (default The Widow's Blue), ratify the NL pairing Weduwenblauw (recommended default; fallback Het blauw van de weduwe; Ultramarijn is blocked by van Woerden regardless of the EN outcome). Then the KDP + bol.com title-availability …
 - **WHERE:** `docs/publishing/vetting/weduwenblauw.md` @ §7, OWNER-ACTION step 2
 - **DEFAULT:** **Weduwenblauw**
 - **UNBLOCKS:** the entire remaining “Weduwenblauw” click-run — hard gate, nothing below it proceeds
 
-### D24 — Keyword map C1 — Category Literary Fiction
+### D25 — Keyword map C1 — Category Literary Fiction
 
 - **WHAT:** Category Literary Fiction: The Slow Word vs Ultramarine (dispute) — proposed resolution: The Slow Word keeps Literary Fiction — it is that book's only non-SF node, so losing it would leave the title entirely inside genre-SF browse, which its register doesn't fit. Ultramarine swaps its second category to another Literature & Fiction node that matches a widow-grief Delft novel: proposed L…
 - **WHERE:** `docs/publishing/keyword-map.md` @ §2 C1
@@ -253,6 +260,14 @@ The seat performed NONE of the actions below — every item is an owner click or
 - [ ] **WHAT:** zip uploaded + sha256 spot-check against §1. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** listing copy pasted + refund/license lines set. · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** price set ($19 one-time (default per ideation + the merge-wall precedent)). · **DEFAULT:** **$19 one-time** · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
+
+### Pagination Test Kit — `docs/publishing/vetting/pagination-test-kit.md` @ §7 checklist
+
+- [ ] **WHAT:** storefront pick (Gumroad (default)) — or Lemon Squeezy. · **DEFAULT:** **Gumroad** (executes its D-item above) · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** zip uploaded + sha256 spot-check against §1. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** listing copy pasted + refund/license lines set. · **UNBLOCKS:** the next click in this sequence
+- [ ] **WHAT:** price set ($29 one-time (default per catalog precedent + the live Stripe kit price)). · **DEFAULT:** **$29 one-time** · **UNBLOCKS:** the next click in this sequence
 - [ ] **WHAT:** the publish click + preview/test purchase + public URL copied. · **UNBLOCKS:** the next click in this sequence
 
 ### Rate-Limit Test Kit — `docs/publishing/vetting/rate-limit-test-kit.md` @ §7 checklist

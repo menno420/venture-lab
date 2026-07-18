@@ -15,12 +15,12 @@
 
 ## What's in the catalog
 
-Sixteen self-hosted, stdlib-first products across four lanes, plus two bundles:
+Seventeen self-hosted, stdlib-first products across four lanes, plus two bundles:
 
 - **Developer tools** — webhook signature-verifier test kits (Stripe, GitHub,
   Slack, Shopify), the idempotency / safe-retry test kit, the rate-limit /
-  throttling test kit, and the membership-site
-  starter. You run them locally, no vendor account required.
+  throttling test kit, the pagination / result-set-integrity test kit, and the
+  membership-site starter. You run them locally, no vendor account required.
 - **Agent-ops tools & templates** — the session-discipline template pack, the
   owner-click queue control surface, and the multi-agent control plane.
 - **Guides & cookbooks** — the field manual and the four operating-lesson guides
@@ -39,12 +39,13 @@ Photo Packs and the KDP book catalog — see
 |---|---|---|---|---|
 | Stripe Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | **LIVE** (Gumroad, since 2026-07-12) | — (live; no pending decision) |
 | GitHub Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D5 |
-| Slack Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D16 |
-| Shopify Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D15 |
+| Slack Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D17 |
+| Shopify Webhook Test Kit | $29 one-time | Dev tool · webhook verifier | READY | D16 |
 | Idempotency Key Test Kit | $29 one-time | Dev tool · idempotency / safe-retry | READY | D6 |
-| Rate-Limit Test Kit | $29 one-time | Dev tool · rate-limit / throttling | READY | D14 |
+| Rate-Limit Test Kit | $29 one-time | Dev tool · rate-limit / throttling | READY | D15 |
+| Pagination Test Kit | $29 one-time | Dev tool · pagination / result-set integrity | READY | D12 |
 | Membership-Site Boilerplate Kit | $49 one-time | Dev tool · starter | READY | D8 |
-| Agent-Workflow Template Pack | $19 pay-what-you-want | Agent-ops · templates | READY | D17 |
+| Agent-Workflow Template Pack | $19 pay-what-you-want | Agent-ops · templates | READY | D18 |
 | Owner-Click Queue Kit | $19 one-time | Agent-ops · tool | READY | D11 |
 | Multi-Agent Control-Plane Pack | $29 one-time | Agent-ops · tool | READY | D10 |
 | Agent Fleet Field Manual | $39 one-time | Guide | READY | D1 |
@@ -53,8 +54,8 @@ Photo Packs and the KDP book catalog — see
 | The Auto-Merge Enabler Cookbook | $19 one-time | Guide | READY | D3 |
 | Kill-Rule Intake Kit | $15 one-time | Guide + templates | READY | D7 |
 | AI Novella Production Kit | $29 one-time | Writing kit | READY | D2 |
-| Ship-It Bundle | $59 one-time | Bundle | **HARD-GATED** on D8 + D17 publishes | — (derives no decision) |
-| Webhook Verifier Bundle | $79 one-time | Bundle | **HARD-GATED** on D5 + D16 + D15 publishes (Stripe already LIVE) | — (derives no decision) |
+| Ship-It Bundle | $59 one-time | Bundle | **HARD-GATED** on D8 + D18 publishes | — (derives no decision) |
+| Webhook Verifier Bundle | $79 one-time | Bundle | **HARD-GATED** on D5 + D17 + D16 publishes (Stripe already LIVE) | — (derives no decision) |
 
 Status legend: **LIVE** = published and buyable now · **READY** = built, priced,
 listing drafted, verified — one owner publish click from live · **HARD-GATED** =
@@ -63,14 +64,17 @@ created until those components are published.
 
 > Note on sourcing: [`../current-state.md`](../current-state.md) was last
 > restamped 2026-07-17 and names "10 publish-READY SKUs"; the Slack, Shopify,
-> Auto-Merge Enabler, Idempotency Key Test Kit, and Rate-Limit Test Kit packets
-> landed after that stamp, so the counts and decision numbers in this catalog
-> follow the regenerated
+> Auto-Merge Enabler, Idempotency Key Test Kit, Rate-Limit Test Kit, and
+> Pagination Test Kit packets landed after that stamp, so the counts and decision
+> numbers in this catalog follow the regenerated
 > [`../publishing/OWNER-QUEUE.md`](../publishing/OWNER-QUEUE.md), which is the
-> authoritative queue. The Rate-Limit Test Kit was added 2026-07-18 as a new
-> decision **D14**, which shifted the alphabetically-later product decisions up
-> by one (Shopify D14→D15, Slack D15→D16, Template Pack D16→D17); the numbers
-> below reflect the post-insert queue.
+> authoritative queue. The Pagination Test Kit was added 2026-07-18 as a new
+> decision **D12** (it sorts by packet filename between `owner-click-queue-kit`
+> and `photo-packs`), which shifted every alphabetically-later decision up by one
+> (Photo Packs D12/D13→D13/D14, Rate-Limit D14→D15, Shopify D15→D16, Slack
+> D16→D17, Template Pack D17→D18, and the book/keyword decisions D18–D24→D19–D25);
+> the numbers below reflect the post-insert queue. (The Rate-Limit Test Kit had
+> itself been added earlier the same day at what was then D14, now D15.)
 
 ---
 
@@ -113,7 +117,7 @@ scheme and the failing cases already written.
   and full header set.
 - **Cross-sell:** Webhook Verifier Bundle · The False-Green Test Trap.
 
-**Slack Webhook Test Kit — $29 · READY (D16)**
+**Slack Webhook Test Kit — $29 · READY (D17)**
 ([listing](slack-webhook-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/slack-webhook-test-kit.md))
 - **Who it's for:** developers building a Slack app / Events API endpoint.
@@ -126,7 +130,7 @@ scheme and the failing cases already written.
   `v0:{timestamp}:{body}` basestring locally.
 - **Cross-sell:** Webhook Verifier Bundle · The False-Green Test Trap.
 
-**Shopify Webhook Test Kit — $29 · READY (D15)**
+**Shopify Webhook Test Kit — $29 · READY (D16)**
 ([listing](shopify-webhook-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/shopify-webhook-test-kit.md))
 - **Who it's for:** developers building a Shopify app / webhook receiver.
@@ -173,7 +177,7 @@ kit's safe-retry half. Same kit shape (stdlib harness + docs-derived templates +
 a correct/broken reference pair + byte-reproducible bundle), a third problem
 class: throttling correctness, not signatures and not dedup.
 
-**Rate-Limit Test Kit — $29 · READY (D14)**
+**Rate-Limit Test Kit — $29 · READY (D15)**
 ([listing](rate-limit-test-kit/listing-copy.md) ·
 [packet](../publishing/vetting/rate-limit-test-kit.md))
 - **Who it's for:** developers who hand-rolled a rate limiter (or middleware) on
@@ -192,7 +196,41 @@ class: throttling correctness, not signatures and not dedup.
   limiter. Honest: the RateLimit-* header spec is an IETF draft (not an RFC), and
   those headers are optional; the 429 + Retry-After half rests on stable RFCs.
 - **Cross-sell:** Idempotency Key Test Kit (the safe-retry half of API
-  robustness) · any webhook kit · The False-Green Test Trap.
+  robustness) · Pagination Test Kit (the result-set-integrity half) · any webhook
+  kit · The False-Green Test Trap.
+
+### Developer tools — pagination / result-set integrity
+
+The result-set-integrity rung of API robustness — the pair to the idempotency
+kit's safe-retry half and the rate-limit kit's throttling half. Same kit shape
+(stdlib harness + docs-derived templates + a correct/broken reference pair +
+byte-reproducible bundle), a fourth problem class: pagination correctness, not
+signatures, not dedup, and not throttling.
+
+**Pagination Test Kit — $29 · READY (D12)**
+([listing](pagination-test-kit/listing-copy.md) ·
+[packet](../publishing/vetting/pagination-test-kit.md))
+- **Who it's for:** developers who hand-rolled pagination (or an offset-based
+  endpoint) over a list/collection and need to prove it doesn't drop or repeat
+  rows.
+- **The problem:** `LIMIT n OFFSET k` looks fine in every test until a row is
+  inserted/deleted between page fetches and the offset window shifts — silently
+  **skipping** or **duplicating** rows in every export, sync, and "load more"
+  scroll; the cursor a client can forge; the garbage cursor coerced to page 1
+  instead of a 400; the unbounded `?limit=100000`. None show up in a green
+  unit-test suite, which never mutates the dataset mid-traversal.
+- **Buy vs DIY:** vs. reading a keyset-pagination blog post and hoping your
+  endpoint matches. The kit points at your endpoint and proves six properties
+  (no overlap/gap, stable under mid-traversal mutation, a consistent order, a
+  clamped page size, a terminal signal, a rejected forged cursor) — including the
+  mutation and forged-cursor cases a from-memory test skips — and ships a
+  correct/naive reference pair that proves the checks catch a broken offset pager.
+  Honest: there is no single RFC for cursor pagination; the model is the
+  keyset/cursor pattern (Stripe/Slack/GitHub cursor docs + the keyset-vs-offset
+  literature), and the stability check SKIPs on a read-only endpoint (run it
+  against a seeded, mutable test dataset).
+- **Cross-sell:** Idempotency Key Test Kit (safe-retry) · Rate-Limit Test Kit
+  (throttling) · any webhook kit · The False-Green Test Trap.
 
 ### Developer tools — starter
 
@@ -215,7 +253,7 @@ class: throttling correctness, not signatures and not dedup.
 
 ### Agent-ops tools & templates
 
-**Agent-Workflow Template Pack — $19 PWYW · READY (D17)**
+**Agent-Workflow Template Pack — $19 PWYW · READY (D18)**
 ([listing](template-packs/listing-copy.md) ·
 [packet](../publishing/vetting/template-packs.md))
 - **Who it's for:** teams / solo devs running Claude Code or other agent sessions.
@@ -359,7 +397,7 @@ so it cannot be created until those components are published.
 - **Discount math:** $68 separately → **$59** = **$9 off (~13%)**.
 - **Angle:** the tested product layer plus the agent discipline that built it —
   product + process in one purchase.
-- **Gate:** the Membership (D8) and Template Pack (D17) publish clicks.
+- **Gate:** the Membership (D8) and Template Pack (D18) publish clicks.
 
 **Webhook Verifier Bundle — $79** ([listing](webhook-verifier-bundle/listing-copy.md) ·
 [packet](../publishing/vetting/webhook-verifier-bundle.md))
@@ -367,7 +405,7 @@ so it cannot be created until those components are published.
 - **Discount math:** $116 separately → **$79** = **$37 off (~32%)**.
 - **Angle:** all four verifier kits for the developer wiring more than one
   provider — one download, three fewer checkouts.
-- **Gate:** the GitHub (D5), Slack (D16), and Shopify (D15) publish clicks
+- **Gate:** the GitHub (D5), Slack (D17), and Shopify (D16) publish clicks
   (Stripe is already LIVE).
 
 **Cross-sell clusters (for storefront "you may also like"):**
@@ -390,18 +428,18 @@ so it cannot be created until those components are published.
 > Sequencing rationale: ride the one existing LIVE listing's account/precedent,
 > lead with the highest-intent developer buyers, and unlock the bundles early.
 
-1. **The three remaining webhook kits — GitHub (D5), Slack (D16), Shopify (D15).**
+1. **The three remaining webhook kits — GitHub (D5), Slack (D17), Shopify (D16).**
    Same Gumroad account and flow as the live Stripe kit, same buyer, lowest
    friction, and they unlock the Webhook Verifier Bundle. Highest leverage per
    click.
 2. **Webhook Verifier Bundle** — once step 1 is done, one extra click turns four
    singles into a $79 anchor.
-3. **Idempotency Key Test Kit (D6) + Rate-Limit Test Kit (D14)** — the same
-   dev-tool buyer and Gumroad account as the webhook kits (the two halves of API
-   robustness: safe retries + correct throttling), so publish both in the same
-   visit; neither gates the Webhook Verifier Bundle (that's the four signature
-   kits), they're just the next high-intent dev-tool clicks.
-4. **Membership-Site Boilerplate Kit (D8) + Agent-Workflow Template Pack (D17)** —
+3. **Idempotency Key Test Kit (D6) + Rate-Limit Test Kit (D15) + Pagination Test Kit (D12)** — the same
+   dev-tool buyer and Gumroad account as the webhook kits (three rungs of API
+   robustness: safe retries + correct throttling + correct pagination), so publish
+   all three in the same visit; none gates the Webhook Verifier Bundle (that's the
+   four signature kits), they're just the next high-intent dev-tool clicks.
+4. **Membership-Site Boilerplate Kit (D8) + Agent-Workflow Template Pack (D18)** —
    the highest-price single plus its natural pair; unlocks the Ship-It Bundle.
 5. **Ship-It Bundle** — once step 4 is done.
 6. **The agent-ops guides & tools** — Agent Fleet Field Manual (D1), The Agent
@@ -426,7 +464,7 @@ catalog size, is the binding constraint; see
 Derived, not invented — no fabricated metrics or testimonials. Sources as of
 `main@aee9a08`:
 
-- Prices, publish status, queue decision numbers (D1–D24) —
+- Prices, publish status, queue decision numbers (D1–D25) —
   `docs/publishing/OWNER-QUEUE.md` (generated queue; decision numbers reflect the
   2026-07-18 Idempotency Key Test Kit insert at D6, which shifted the later
   product decisions up by one — see the sourcing note under the comparison table).
