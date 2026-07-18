@@ -1,0 +1,5 @@
+{
+  "_comment": "Fixture stem -> the HTTP method, path, Content-Type, and the request_headers (the Access-Control-Request-Headers a browser would list in the preflight) the harness replays against your endpoint. A CORS test is about the ORIGIN and the preflight response headers, not the body shape, so the bundled fixtures are representative REQUEST TEMPLATES that TRIGGER a preflight (a non-simple Content-Type and/or an Authorization header). The path is the endpoint you want to test; override --fixture or edit MANIFEST to point at your own route. Bodies are docs-derived (illustrative shapes with clearly-fake demo markers), never wire-captured — see PROVENANCE.md.",
+  "api_json_post": {"method": "POST", "path": "/api/data", "content_type": "application/json", "request_headers": "content-type, authorization", "note": "primary — an authenticated JSON POST (triggers a preflight: non-simple Content-Type + Authorization)"},
+  "api_get_authed": {"method": "GET", "path": "/api/data", "content_type": "application/json", "request_headers": "authorization", "note": "a GET carrying Authorization — a non-simple header, so it also triggers a preflight"}
+}
