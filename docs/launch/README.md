@@ -4,6 +4,8 @@
 
 Zero-owner-click launch material for the sellable candidates. Everything here is committed in-repo; nothing is published externally. Publish steps are owner-only click-scripts; each script carries its own freeze state (the ⚑B/⚑D ORDER 003 freeze was lifted by PR #22, 2026-07-11, after the real-path gate landed via PR #16).
 
+**Storefront-wide view:** [CATALOG.md](CATALOG.md) — the cross-SKU positioning & comparison catalog (comparison table, per-SKU buy-vs-DIY angle, bundle discount math, and an advisory recommended publish order). Complements the per-SKU listing copy below; prices/status derive from [OWNER-QUEUE.md](../publishing/OWNER-QUEUE.md).
+
 ## Membership-Site Boilerplate Kit — $49
 - [One-pager](membership-kit/one-pager.md)
 - [Listing copy](membership-kit/listing-copy.md)
