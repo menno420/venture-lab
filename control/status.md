@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T23:39:10Z
+updated: 2026-07-18T23:49:24Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -200,6 +200,24 @@ chat). This seat is released; the `control/*` bus stays retired.
   article only. Docs/markdown-only, reversible; no OWNER-QUEUE row (a free article
   is not a publish surface). Posting stays an owner paste-and-post (OWNER-ACTION) —
   the seat performed no publish/spend/account action.
+
+**In flight (later seat, 2026-07-18 — diagnostic, no new SKU) — DIST-3 / REV-2:**
+- PR #252 (`claude/dist-3-funnel-diagnostic`) adds a single diagnostic doc,
+  `docs/launch/funnel-diagnostic.md` — an honest, repo-grounded read of *why the
+  one LIVE listing (Stripe Webhook Test Kit, $29, live on Gumroad since
+  2026-07-12) has zero organic sales*, written for tomorrow's **T+7 checkpoint
+  (2026-07-19)** and the **T+14 kill rule (2026-07-26)**. It separates the three
+  candidate causes — **traffic vs listing-copy vs price** — grounds each in repo
+  evidence (`LAUNCH-LOG.md`, `CATALOG.md`, `LISTING.md`), and gives the cheapest
+  owner-executed test of each in a "what the owner would click" section
+  (owner-action, never auto-executed). No invented metrics: Gumroad views/sales
+  are owner-dashboard-only and agent surfaces do not see them, so unmeasured
+  funnel stages are marked "not measured (owner-dashboard-only)" with the cheapest
+  way to measure, never guessed. One Cross-product index link added in
+  `docs/launch/README.md` so the docs-gate reaches it. Pairs with the upcoming
+  MISC-3 live-SKU kill-clock decision packet. Docs/markdown-only, reversible; no
+  live change, no listing edit, no OWNER-QUEUE row — the seat performed no
+  publish/spend/account action.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
