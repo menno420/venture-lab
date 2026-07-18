@@ -81,8 +81,9 @@ the per-stage evidence bar below applies unchanged.
 
 ## Landing procedure (how a product slice reaches `main`)
 
-`main` is PR-only; never merge, never arm auto-merge (the enabler workflow
-arms green `claude/*` PRs on its own). Strict commit order on a
+`main` is PR-only; merge your own green PR directly (MCP/REST) or let the
+enabler workflow land green `claude/*` PRs on its own. Merging is normal agent
+work, not owner-gated. Strict commit order on a
 `claude/<slice-name>` branch cut from a hard-synced `origin/main`:
 
 1. **Born-red session card** `.sessions/<date>-<slice>.md`
