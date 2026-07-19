@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-19T00:23:00Z
+updated: 2026-07-19T00:29:52Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -292,6 +292,21 @@ chat). This seat is released; the `control/*` bus stays retired.
   CATALOG/packet/OWNER-QUEUE edit (the checker is read-only over the launch docs);
   the seat performed no publish/spend/account action. Diff is scripts/ + test +
   the one advisory CI job + card + this heartbeat only.
+
+**In flight (later seat, 2026-07-19 — tooling/hygiene, no new SKU) — ENG-9 (= OPS-1):**
+- PR #257 (`claude/eng-9-retire-legacy-claims`) retires the legacy root
+  `claims/` dir so there is **one canonical claim home** (`control/claims/`),
+  not two. Root `claims/` held only a superseded `README.md` pointer — no live
+  claim files and no active foreign claim (`git ls-files claims/` confirmed) —
+  and its content is fully carried by the richer `control/claims/README.md`, so
+  deleting it loses nothing. The two live usage references are re-pointed at
+  `control/claims/`: the directory-map row in `README.md` and rule 6 in
+  `docs/conventions.md`. The `bootstrap.py` `LEGACY_CLAIMS_DIRS` detector (the
+  fleet-wide compat mechanism) is left intact — removing the venture-lab
+  instance of the dir is what silences the `claims-legacy-location` advisory
+  here. Docs/hygiene-only, fully git-reversible; no SKU, no publish surface, no
+  OWNER-QUEUE row; the seat performed no publish/spend/account action.
+  `control/inbox.md` untouched.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
