@@ -202,6 +202,34 @@ jobs:
       - name: owner-queue idempotence guard tests (live-tree green + hand-edit/input-drift catch-cases)
         working-directory: scripts
         run: python3 -m unittest test_check_owner_queue_idempotent -v
+  built-registered-guard:
+    # REQUIRED gate (ENG-5). Guards the storefront INVENTORY-to-REGISTRY
+    # correspondence: every packaged candidate (candidates/<sku>/dist/) must be
+    # registered for launch (docs/launch/<sku>/), carry a vetting packet
+    # (docs/publishing/vetting/<sku>.md), and appear in docs/launch/CATALOG.md;
+    # and every launch row must have its build artifacts. Machine-catches two drift
+    # classes that strand the owner's click path — a kit BUILT-BUT-UNREGISTERED (it
+    # would never surface as an owner publish step) and a launch row
+    # REGISTERED-BUT-MISSING-ARTIFACT (an owner click that dead-links). This sits one
+    # level up from catalog-dref-guard / owner-queue-idempotence-guard (which guard
+    # the generated queue's internal consistency): it guards the built ↔ registered
+    # correspondence itself. Two deliberate exemptions (bundle-starter, a
+    # compositional scaffold with no build dir; photo-packs, an owner-gated lane kept
+    # out of the storefront catalog per CATALOG.md) are allowlisted with reasons; the
+    # unittest adds built-but-unregistered + registered-but-missing catch-cases
+    # proving the guard fires. Stdlib-only, system python3. Contract + the exemption
+    # allowlists: the scripts/check_built_registered.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: built-vs-registered guard (checker on the live tree)
+        run: python3 scripts/check_built_registered.py
+      - name: built-vs-registered guard tests (live-tree green + built-unregistered/missing-artifact catch-cases)
+        working-directory: scripts
+        run: python3 -m unittest test_check_built_registered -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated
