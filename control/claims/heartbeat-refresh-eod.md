@@ -1,0 +1,1 @@
+- `claude/heartbeat-refresh-eod` · **Refresh control/status.md heartbeat to end-of-session state (9 PRs merged, backlog honestly dry)** · control/ · 2026-07-19
