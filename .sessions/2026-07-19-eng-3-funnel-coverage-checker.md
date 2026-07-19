@@ -1,8 +1,8 @@
 # Session — ENG-3: check_funnel_coverage.py — per-cluster funnel-top checker
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill: model · effort · task-class at flip]]
+- **📊 Model:** opus-4.8 · high · feature build
 - **started (date -u):** Sun Jul 19 00:19 UTC 2026
 - **branch:** `claude/eng-3-funnel-coverage-checker`
 - **base:** `main@aaa3f26`
@@ -42,14 +42,67 @@
 
 ## 💡 Session idea
 
-[[fill: one genuine 💡 idea at flip]]
+💡 **Fold ENG-3 (per-cluster) and ENG-4 (per-KIT) into one
+`check_funnel_coverage.py` with two advisories, and add a THIRD advisory that
+flags a `*-lead-magnet.md` file with NO cluster to serve — the reverse gap.**
+This checker answers "which cluster lacks a magnet"; the sibling ENG-4 idea (PR
+#243 card) answers "which shipped KIT's intake names no funnel-top". Both read
+the same launch docs and share the keyword-overlap machinery already here, so
+one module with `--per-cluster` / `--per-kit` (default: both) avoids a second
+CATALOG parser drifting out of sync with this one. The reverse gap is worth a
+line too: today the coverage relation is checked one direction only — a cluster
+without a magnet warns, but an ORPHAN magnet (a `docs/launch/foo-lead-magnet.md`
+whose keywords overlap NO cross-sell cluster — e.g. a magnet written for a
+cluster later renamed or dropped from CATALOG) is silent, so a funnel-top can
+rot pointing at nothing. Recipe: reuse `coverage_sources()` and `find_clusters()`
+and emit `orphan-magnet: foo-lead-magnet.md — no cross-sell cluster it serves`
+when a magnet file's keyword set intersects zero cluster keyword sets. Same
+advisory-only contract (exit 0, `continue-on-error`); it composes with the D-ref
+guard (#248, resolution) and the DIST-9 bundle-unlock-order 💡 (#255, ordering)
+into a launch-doc integrity family — resolution · ordering · coverage.
 
 ## previous-session review
 
-[[fill: one-line prev-session review acknowledging the #249–#255 baton at flip]]
+previous-session review: this slice mechanizes the exact coverage question the
+distribution-first #249–#255 baton answered by hand. #249's
+`DISTRIBUTION-PLAYBOOK.md` templated the funnel-top recipe; #250 (membership) and
+#251 (AI-Novella) filled the last two uncovered clusters one at a time — each PR
+had to MANUALLY read CATALOG to decide which cluster was next. #252/#253 pre-chewed
+the live-SKU T+7/T+14 call and #254/#255 refreshed the ledger and pre-EAP plan.
+ENG-3 turns "which cluster still needs a magnet" from that recurring manual read
+into a standing signal, and it CONFIRMS the baton's work landed: run on the live
+tree, all four cross-sell clusters (Webhook, API-robustness, Membership,
+Agent-ops) resolve to a linked funnel-top → zero warnings, so the membership +
+AI-Novella gaps #250/#251 closed genuinely read as closed, not just as claimed.
+The one thing I'd flag forward: this checks the cluster→magnet direction only —
+an orphan magnet is still silent (the 💡 above is the reverse-gap fix).
 
 ## Work log
 
 - 2026-07-19 — Branch `claude/eng-3-funnel-coverage-checker` from `origin/main`
   (`aaa3f26`, #255 HEAD); clean base confirmed. Born-red card committed (first
-  commit), pushed. PR opened READY. Build begins.
+  commit `aa5bcc6`), pushed. PR #256 opened READY. Build begins.
+- 2026-07-19 — Built the checker: `scripts/check_funnel_coverage.py` (stdlib-only;
+  parses CATALOG §"Cross-sell clusters" → `**<Name> cluster:**` bullets with a
+  SKU list; keyword-overlap coverage against section funnel-top rows that link a
+  magnet + the `docs/launch/*-lead-magnet.md` files; advisory — exits 0 on every
+  path) + `scripts/test_check_funnel_coverage.py` (live-tree green case +
+  uncovered-fixture catch-case + covered-via-file case, 5 tests) + an
+  advisory-only `funnel-coverage-advisory` `continue-on-error` job in
+  `.github/workflows/kit-tests.yml`. Checker on the clean tree: EXIT 0, 4/4
+  clusters (Webhook, API-robustness, Membership, Agent-ops) COVERED, 0 uncovered.
+  Committed (`0a4a455`), pushed. Diff verified to carry only scripts/ + test + the
+  one advisory CI job.
+- 2026-07-19 — Heartbeat: neutral in-flight pointer for PR #256 added to
+  `control/status.md` (other sections + `control/inbox.md` untouched). Committed
+  (`d1c87ab`), pushed.
+- 2026-07-19 — `python3 bootstrap.py check --strict` pre-flip = the born-red HOLD
+  only (in-progress Status + 3 unresolved `[[fill:]]` slots); all non-hold checks
+  pass, advisories (seat-digest, model-line payload, guard-fire telemetry) are
+  non-gating and pre-existing. `python3 -m unittest test_check_funnel_coverage -v`
+  = 5 tests OK.
+- 2026-07-19 — Flip to `complete` (this commit): Status badge, 📊 Model line
+  (family-level `opus-4.8`), one 💡 idea, previous-session review acknowledging
+  the #249–#255 baton, all `[[fill:]]` slots resolved, guard-fire ledger delta
+  committed. Re-ran `bootstrap.py check --strict` EXIT 0 (advisories only). Born-red
+  HOLD clears; last commit releases auto-merge.
