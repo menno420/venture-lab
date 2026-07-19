@@ -5,6 +5,12 @@
 > Percy-Jackson pacing: fast, funny, action-forward, a young first-person
 > narrator, each book a complete adventure carrying one series spine. Uses the
 > recommended name set (Palimpsest / Vivid / Anchoring / the Lull / the Vigil).
+>
+> **Draft state (2026-07-19):** **Book 1 drafted** (`book1/`, 12 chapters,
+> ~25.7k words) and **Book 2 drafted** (`book2/`, 12 chapters, ~23.3k words,
+> title *The Mirror City* — see `DECISIONS.md` D-003). **Book 3 outlined**
+> (below; direction in `book2/part3-direction.md`). Published series title is
+> **Lull** (D-001); DREAMLINE is the working codename.
 
 ## Working title & alternates
 **DREAMLINE** (the line between real and fake; and the timeline). Alternates for the owner: *The Fourth Hour* (the 4 a.m. wake); *Bleed*; *The Real of Dreams*; *Un-Dreamt*; *Nightside*.
@@ -26,11 +32,13 @@ A kid whose recurring nightmare turns out to be a real moment both factions need
 **Complete adventure:** Sam learns the rules the hard way (pull, shadow-step, the tells, the Lull), is courted by both Wessel (Vigil) and Lena (Palimpsest), and uncovers a small Palimpsest revision underway in Amsterdam. Self-contained win: he foils the revision in a set-piece inside a Rijksmuseum painting.
 **Series turn:** he chooses the Vigil over the Palimpsest — barely — and at the climax does something a mere Waker shouldn't be able to (makes a small change to a *moment* stick), which both factions notice. The final beat reveals his nightmare carries a *date* that hasn't arrived: the nightmare is a future, and his father is in it.
 
-## Book 2 — DREAMLINE: The Mirror City (working)
+## Book 2 — DREAMLINE: The Mirror City ✅ DRAFTED (2026-07-19)
+*Title confirmed: **The Mirror City** (D-003). Full draft in `book2/` (12 chapters, ~23.3k words); chapter map in `book2/outline.md`. All the beats below are executed on-page.*
 **Logline:** Training with the Vigil in Venice — a whole city built on mirrors, where the seam never fully closes — Sam hunts the location in his nightmare, learns to Anchor, and discovers the Vigil has buried a bleed of its own.
-**Complete adventure:** a heist-through-history across Venice's thin places; Lena returns, now half-ally; Sam learns Anchoring; a betrayal.
-**Darkening:** the Vigil isn't clean — they once forged a moment "for the greater good," the crack the Palimpsest exploits.
-**Series turn:** to save someone, Sam makes a bigger change than he should — and it sticks, confirming he is arc-level. Both factions stop recruiting him and start fighting *over* him. He identifies the nightmare's place: Pompeii.
+**Complete adventure:** a heist-through-history across Venice's thin places (a dive into the frozen plague-night of 1630); Lena returns, now half-ally; Sam learns Anchoring; a betrayal (Serafina's merciful sum — the city over the boy).
+**Darkening:** the Vigil isn't clean — four hundred years ago they forged the 1630 plague-night "for the greater good" (the Salute, the rising water), the crack the Palimpsest exploits by moving to *un-forge* it.
+**Series turn (on-page):** to save Fenna, Sam makes a bigger change than he should — forges a night and it *sticks*, confirming he is arc-level; the backwash takes his **mother's** face (escalating Book 1's father's-face cost). Both factions stop recruiting him and start fighting *over* him (a loaded gun on a table). He identifies the nightmare's place: **Pompeii** — and learns his father Joris went under diving into it, and the Lantern Man is a rescuer wading toward him (Joris, or Sam's own future self — held ambiguous, per Book 3 below).
+**Book-3 setup confirmed:** date (from Book 1) + place (Pompeii) = the battlefield; the Lantern Man's identity and the "girl who says *not yet*" carried forward as the running mysteries; the Vigil's forgery now exposed; Lena genuinely undecided which side she'll take "at the water."
 
 ## Book 3 — DREAMLINE: The Fourth Hour Comes (working)
 **Logline:** At the frozen moment of Pompeii, on the date his nightmare finally names, Sam has to choose between letting a true and terrible thing happen and rewriting it — knowing that to rewrite it makes him exactly what he has fought.

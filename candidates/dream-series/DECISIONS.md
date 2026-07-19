@@ -73,3 +73,61 @@ self-contained win and the natural, satisfying close — it foils the revision,
 forces the faction pick, and lands the Lantern fully across the line (prop-echo
 payoff), while the date reveal is the launch beat best kept with the material
 that follows it.
+
+---
+
+## D-003 · Book 2 drafted — **The Mirror City** (2026-07-19)
+
+**Decision:** Book 2's title is confirmed as **The Mirror City** (published
+form: *Lull · Book Two: The Mirror City*), and a **complete Book-2 draft** is
+written — real finished chapters, not an outline — in `book2/`, mirroring
+`book1/`'s layout.
+
+**Delegated by:** the owner's standing authorization for autonomous
+book-building (owner → coordinator, 2026-07-11; `INTAKE.md`). PUBLISHING
+remains owner-gated and untouched (no SKU, no storefront, no spend).
+
+**Facts of the draft:**
+- **Chapter count:** 12 (`book2/ch01.md`–`ch12.md`), matching Book 1's count
+  and cliff-ended, short-chapter Percy-Jackson pacing.
+- **Word count:** ~23.3k (Book 1 is ~25.7k; same register and chapter-length
+  band).
+- **POV/voice:** unchanged from Book 1 — first-person past, the older
+  confession-frame narrator (deliberately unreliable, world.md §6.4), direct
+  reader address, Dutch→Italian texture, catchable bleeds, the Lull, the tells,
+  the Lantern prop-echo.
+- **New on-page:** the ability **Anchoring** (world.md §7) taught by a Venetian
+  darner; **Venice** established as the mirror-city (the one true tell there:
+  reflections run a half-second late). New cast: **Serafina** (old Venetian
+  mirror-maker / darner who trained Joris) and **Nico** (young Venetian Waker).
+  Returning cast advanced: Sam, Wessel, Lena (now half-ally), Fenna (the
+  human-thread payoff — she refuses to be lulled again and becomes the
+  record-keeper), Anna (revealed to have always known; married a darner), the
+  girl who says *not yet*, the Lantern Man; Joris's fate deepened.
+
+**Spine (one line):** Sent to train in Venice — a drowning city of mirrors
+where the seam never closes — Sam learns to Anchor, uncovers that the Vigil
+once forged a moment "for the greater good," survives a betrayal, and to save
+his best friend makes a bigger change than he should that *sticks* — confirming
+he is arc-level, turning both factions from recruiting him to fighting over
+him, and naming the nightmare's place: Pompeii.
+
+**Hook into Book 3:** date (Book 1) + place (**Pompeii**) = the battlefield of
+*The Fourth Hour Comes*; the Lantern Man is a rescuer wading toward Sam —
+**Joris, or Sam's own older self** (held ambiguous, to resolve in Book 3 with
+the confession frame). The Vigil's forgery is now exposed; Lena is genuinely
+undecided which side she'll take "at the water." Middle-book rule honored: the
+series is deepened and complicated, NOT resolved. Direction in
+`book2/part3-direction.md`; arc updated in `series-arc.md`.
+
+**Also landed with the draft:** `book2/outline.md` (chapter map, marked
+drafted); `book2/part3-direction.md`; `book2-cover-brief.md` (establishes the
+series cover-brief format); `book2-listing.md` (blurb + back-cover + keywords +
+categories + age range — a copy asset only, no publish action; no invented
+sales/reviews).
+
+**Model:** Claude Opus (family level).
+
+**Owner veto:** the title, any beat, or the whole draft is retroactively
+owner-vetoable (flip it and the affected files follow); the draft is fully
+git-reversible.
