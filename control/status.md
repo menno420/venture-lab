@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-19T00:12:00Z
+updated: 2026-07-19T00:23:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -273,6 +273,25 @@ chat). This seat is released; the `control/*` bus stays retired.
   `docs/launch/README.md` for the docs-gate. Planning/docs-only, reversible; no
   SKU, no publish surface, no OWNER-QUEUE row; the seat performed no
   publish/spend/account action. `control/inbox.md` untouched.
+
+**In flight (later seat, 2026-07-19 — engineering advisory, no new SKU) — ENG-3:**
+- PR #256 (`claude/eng-3-funnel-coverage-checker`) adds a stdlib ADVISORY
+  checker `scripts/check_funnel_coverage.py` + `scripts/test_check_funnel_coverage.py`,
+  wired into `.github/workflows/kit-tests.yml` as a `continue-on-error`
+  `funnel-coverage-advisory` job (NEVER a required gate — the ledger-drift-advisory
+  shape; the script also exits 0 on every path). It reads `docs/launch/CATALOG.md`
+  §"Cross-sell clusters" and warns on any cluster that carries a singles/bundle
+  list but has no linked `*-lead-magnet.md` funnel-top — turning "which cluster is
+  the next magnet target" (the question LM-1/LM-2, #250/#251, answered by hand)
+  into a standing signal. Coverage is grounded in the actual CATALOG content
+  (no hardcoded clusters): a cluster is covered when its keywords overlap either a
+  section funnel-top row that links a magnet, or an existing
+  `docs/launch/*-lead-magnet.md` file. On the current tree all four clusters
+  (Webhook, API-robustness, Membership, Agent-ops) are covered → zero warnings.
+  Advisory-only by contract; it cannot exit-fail another in-flight PR's gate. No
+  CATALOG/packet/OWNER-QUEUE edit (the checker is read-only over the launch docs);
+  the seat performed no publish/spend/account action. Diff is scripts/ + test +
+  the one advisory CI job + card + this heartbeat only.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
