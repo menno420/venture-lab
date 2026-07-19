@@ -1,7 +1,8 @@
 # Session — ENG-6: owner-queue idempotence guard
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
+- **📊 Model:** Claude Opus (4.x family) · high · tooling
 - **started (date -u):** Sun Jul 19 08:28 UTC 2026
 - **branch:** `claude/eng6-owner-queue-idempotence-guard`
 - **base:** `main@8a1e728`
@@ -37,11 +38,35 @@
 
 ## 💡 Session idea
 
-[[fill: one genuine idea at close-out]]
+💡 **`OWNER-QUEUE.md` is not the only GENERATED file that can silently drift —
+promote the same idempotence invariant to a reusable guard over EVERY derived
+artifact, starting with `docs/seat-digest.md`.** While closing this slice
+`bootstrap.py check --strict` emitted a `seat-digest-stale` advisory: the
+committed `docs/seat-digest.md` "differs from a fresh render of its sources" —
+i.e. the SAME hand-edit / un-regenerated-input class this ENG-6 guard now makes
+REQUIRED for the owner queue, but for the seat digest it is only an ADVISORY
+nudge (never exit-affecting), so a stale digest ships downstream to every
+fresh-seat prompt. The generalization is small and mechanical: this guard's
+shape is exactly `committed == generator.render(current inputs)`; lift
+`regenerate()`/`check()` from a hard-coded (queue, derive_owner_queue) pair into
+a tiny REGISTRY of `(generated_path, render_callable)` entries and run each as a
+required byte-idempotence check. Guard recipe: generalize
+`scripts/check_owner_queue_idempotent.py::check` to take a registry, register
+`(docs/seat-digest.md, bootstrap.seat_digest render)` alongside the queue entry,
+and add a `test_*` catch-case per registered artifact (hand-edit the committed
+render → guard fires). That converts the seat-digest advisory — which is
+green-but-stale right now — into the same born-required gate, closing the last
+"generated file drifted and nobody's build turned red" hole in the repo.
 
 ## previous-session review
 
-[[fill: one-line review of the previous session card at close-out]]
+previous-session review: `.sessions/2026-07-19-owner-steps-refresh.md` (PR #260,
+`8a1e728`) — added the curated plain-language `OWNER-START-HERE.md` companion and
+deliberately did NOT hand-edit the GENERATED `OWNER-QUEUE.md`, linking back to it
+instead ("must not be hand-edited"). That restraint was the correct human call;
+this ENG-6 slice makes it a MACHINE call — the guard now reds any PR that edits
+the generated queue directly or lets a packet drift without a regen, so the next
+session can't accidentally do what #260 was careful to avoid by hand.
 
 ## Work log
 
@@ -50,5 +75,25 @@
   `control/claims/eng6-owner-queue-idempotence-guard` entry, no open PR covering
   ENG-6). Confirmed the committed OWNER-QUEUE.md is already idempotent under
   `derive_owner_queue.py` (regen dry-run to a temp file diffs byte-clean, 28
-  decisions, 58/58 inputs). Claim + this born-red card committed (first commit).
-  Build begins.
+  decisions, 58/58 inputs). Claim + this born-red card committed (first commit
+  `c7c3db1`). Build begins.
+- 2026-07-19T08:3xZ — **Build.** Added `scripts/check_owner_queue_idempotent.py`
+  (imports `derive_owner_queue`; drives its own `parse_packet` /
+  `parse_keyword_map` / `render` over the live tree; asserts committed queue ==
+  fresh regeneration; exit 0 clean / 1 on drift with a unified-diff summary) +
+  `scripts/test_check_owner_queue_idempotent.py` (7 tests: live-tree-green,
+  parsed-real-packets sanity, hand-edit catch, input-drift catch, no-packets
+  skip). Wired a new REQUIRED `owner-queue-idempotence-guard` job into
+  `.github/workflows/kit-tests.yml` (checker on the live tree + unittest),
+  mirroring the `catalog-dref-guard` job. Committed `208df65`, pushed.
+- 2026-07-19T08:3xZ — **Verification.** Guard EXIT 0 on the live tree
+  ("byte-identical to a fresh regeneration — idempotent"); `python3 -m unittest
+  test_check_owner_queue_idempotent -v` 7/7 OK; no real OWNER-QUEUE.md regen was
+  needed (already idempotent). `bootstrap.py check --strict` reported only the
+  born-red HOLD (by design) + pre-existing seat-digest / model-line advisories
+  (non-exit-affecting) — no new failure. Reverted the local
+  `.substrate/guard-fires.jsonl` telemetry append to keep the PR scoped.
+- 2026-07-19T08:3xZ — Flip to `complete` (this commit): Status badge, 📊 Model
+  line, one 💡 idea, previous-session review, all `[[fill:]]` slots resolved.
+  Post-flip `bootstrap.py check --strict` EXIT 0 (advisories only). Born-red HOLD
+  clears.
