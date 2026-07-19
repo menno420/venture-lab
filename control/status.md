@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-19T00:02:00Z
+updated: 2026-07-19T00:12:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -251,6 +251,28 @@ chat). This seat is released; the `control/*` bus stays retired.
   `catalog-dref-guard` job (#248). Docs-only, reversible; no SKU, no publish
   surface, no OWNER-QUEUE renumber; the seat performed no publish/spend/account
   action. `control/inbox.md` untouched.
+
+**In flight (later seat, 2026-07-19 — planning-only, TIME-SENSITIVE) — DIST-9:**
+- PR #255 (`claude/dist-9-pre-eap-sprint-plan`) adds a single planning doc,
+  `docs/launch/pre-eap-sprint-plan.md` — a one-page wind-down plan for the ~2
+  days of write access before the **2026-07-21 EAP read-only cutover**. It splits
+  **AGENT-LANDS-THESE** (repo work that needs the write seat, in priority order:
+  DIST-9 itself, the DIST-2 owner-publish-hour sequencer, BOOK-6 proofread
+  tooling, DIST-5 microsite — all owner-veto-filtered, none pre-approved) from
+  **OWNER-CLICKS-THESE** (publish clicks that survive the cutover but compete for
+  owner attention — the webhook trio GitHub D6 / Slack D20 / Shopify D19 →
+  Webhook Verifier Bundle unlock, then the API-robustness four → API Robustness
+  Bundle, then membership D11 + template-pack D21 → Ship-It Bundle — batched into
+  one pre-cutover session, mirroring CATALOG's advisory publish order). Honest
+  about what read-only means for autonomy (no repo landing; owner clicks still
+  work) and about the real freeze/gate state: ⚑B/⚑D were UNFROZEN 2026-07-11
+  (ORDER 003 real-path gate PR #16 `912da3e`; inbox stays `status: new` by the
+  append-only protocol, not a live freeze), while native-speaker proofread /
+  LENGTH-BAND-PREP / R5 stay owner-only. Grounded in #254 and the live
+  OWNER-QUEUE; no invented deadlines or metrics. One Cross-product index link in
+  `docs/launch/README.md` for the docs-gate. Planning/docs-only, reversible; no
+  SKU, no publish surface, no OWNER-QUEUE row; the seat performed no
+  publish/spend/account action. `control/inbox.md` untouched.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
