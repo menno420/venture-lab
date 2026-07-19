@@ -1,1 +1,0 @@
-- `claude/eng5-built-unregistered-checker` · **ENG-5: checker for kits built-on-disk but not registered in catalog/OWNER-QUEUE (and vice versa)** · scripts/, test · 2026-07-19

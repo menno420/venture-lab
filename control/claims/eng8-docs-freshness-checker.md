@@ -1,1 +1,0 @@
-- `claude/eng8-docs-freshness-checker` · **ENG-8: docs-freshness + link/orphan checker (internal doc links resolve; no orphaned/stale doc refs)** · scripts/, test · 2026-07-19

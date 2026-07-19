@@ -1,1 +1,0 @@
-- `claude/eng6-owner-queue-idempotence-guard` · **ENG-6: owner-queue idempotence guard (regenerate = no-diff CI check)** · scripts/, test · 2026-07-19

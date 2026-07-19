@@ -1,1 +1,0 @@
-- `claude/veto-menu-roadmap` · **Groom veto menu into prioritized execution roadmap (planning-only)** · docs/ideas/ · 2026-07-19
