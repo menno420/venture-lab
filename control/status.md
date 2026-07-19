@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-18T23:55:53Z
+updated: 2026-07-19T00:02:00Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth. The successor reads
@@ -237,6 +237,20 @@ chat). This seat is released; the `control/*` bus stays retired.
   owner-only, never auto-executed. Docs/markdown-only, reversible; no live change,
   no listing edit, no price change, no OWNER-QUEUE row — the seat performed no
   publish/spend/account action.
+
+**In flight (later seat, 2026-07-18 — docs ledger refresh, no new SKU):**
+- PR #254 (`claude/current-state-refresh`) refreshes the stale
+  `docs/current-state.md` state ledger to current HEAD. Before: stamped
+  2026-07-17 at HEAD `9edfcba` / PR #218, still citing the 38-proposal overnight
+  menu as the standing backlog — ~7 merges behind. After: restamped 2026-07-18 to
+  HEAD `7d5229f` / PR #253, with the **64-item** veto-ready menu (#247) as the
+  standing backlog and #242 + #246–#253 in Recently-shipped (one honest line
+  each). Counts re-verified against the tree: 1 LIVE + 19 READY SKUs + 3 bundles
+  (CORS Preflight Kit #242 is the new SKU), 28 OWNER-QUEUE decisions, four
+  lead-magnet funnel-tops + `DISTRIBUTION-PLAYBOOK.md` (#249), the required
+  `catalog-dref-guard` job (#248). Docs-only, reversible; no SKU, no publish
+  surface, no OWNER-QUEUE renumber; the seat performed no publish/spend/account
+  action. `control/inbox.md` untouched.
 
 **⚑ Owner-queue (paste-ready, all owner-only):**
 1. ~8 publish clicks — nothing live yet — per
