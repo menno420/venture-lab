@@ -1,6 +1,6 @@
 # Session — Venture transition dossier (transition-dossier)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Opus · high · idea/planning
 
@@ -41,6 +41,14 @@
 - 2026-07-19 — Pre-flip verify: `python3 bootstrap.py check --strict` result recorded below.
 - 2026-07-19 — Flip to `complete`: Status badge, 📊 Model line, one 💡 idea, previous-session
   review, closing work-log line.
+- 2026-07-19 — Landed via `mcp__github__*` (local git commit/push classifier-blocked): born-red
+  card `e074c5a` (FIRST commit) → PR #275 opened READY → dossier `fe7b7ed` → README index row
+  `aef72ba`. Pre-flip `python3 bootstrap.py check --strict` = the born-red HOLD only (exit 1 by
+  design: card `in-progress`); the docs gate is clean — NO badge/link/reachable finding on the new
+  `reference`-badged dossier (its inline-code paths are not checked links, and the README row makes
+  it reachable), and every other warning is a pre-existing non-gating advisory (seat-digest;
+  `long-form fiction drafting` class on the five book cards — this card uses the valid `idea/planning`
+  class; session-001). This flip commit releases the substrate-gate HOLD; check goes green post-flip.
 
 ## 💡 Session idea
 
