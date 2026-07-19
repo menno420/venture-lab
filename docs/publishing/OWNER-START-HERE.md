@@ -168,6 +168,47 @@ that product's click-script under `docs/launch/<product>/` and in
 
 ---
 
+## 4. The five new book sequels — upload-ready, pending your proofread
+
+These are not one-click Gumroad publishes like §2 — each needs a **native-speaker
+proofread** first, which is a real reading task, not a click. But the machine work
+is now done: five new sequels each have an upload-ready KDP package built and
+waiting, so the remaining path to a live listing is short and owner-only. Ordered
+**quickest win first**.
+
+### Step 7 — Proofread each ready sequel, then create its KDP listing and upload
+
+> **Recommendation: do the two Night Kiln novellas first.** They are the shortest
+> (≈15.6k words each) and slot into an already-ready matched cozy series, so each
+> proofread-hour buys the most read-through. Then the two longer literary/MG books.
+
+- **What:** For each of the five ready sequels, in this order: **(1)** commission
+  or run a **native-speaker proofread** of the manuscript; **(2)** create the KDP
+  listing by pasting the labelled fields (title, subtitle, series, description,
+  keywords, categories, price, KU) straight from that book's `KDP-METADATA.md`;
+  **(3)** upload that book's `MANUSCRIPT-KDP.md` as the manuscript. Set the
+  `⚑ Author name` field (unset across all five — your call, no pen-name is fixed).
+- **Where:** each book's paste-ready metadata block and upload-ready manuscript
+  live in its `kdp-ready/` folder —
+  1. The Winter Wheel (The Night Kiln, Bk 4): [`…/the-night-kiln/kdp-ready/book-4/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-4/KDP-METADATA.md)
+  2. The Spring Cup (The Night Kiln, Bk 5, finale): [`…/the-night-kiln/kdp-ready/book-5/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-5/KDP-METADATA.md)
+  3. The Blue and the White (Ultramarine, Bk 2): [`…/ultramarine/kdp-ready/book-2/KDP-METADATA.md`](../../candidates/adult-novels/ultramarine/kdp-ready/book-2/KDP-METADATA.md)
+  4. The Mirror City (Lull, Bk 2): [`…/dream-series/kdp-ready/book-2/KDP-METADATA.md`](../../candidates/dream-series/kdp-ready/book-2/KDP-METADATA.md)
+  5. The Fourth Hour Comes (Lull, Bk 3, trilogy finale): [`…/dream-series/kdp-ready/book-3/KDP-METADATA.md`](../../candidates/dream-series/kdp-ready/book-3/KDP-METADATA.md)
+  Full context — every book's status, the open owner decisions, and the resume
+  path — is in [`TRANSITION-DOSSIER.md`](TRANSITION-DOSSIER.md).
+- **Why / what it unblocks:** These five sequels are now **upload-ready** — each
+  `kdp-ready/` folder holds a `MANUSCRIPT-KDP.md` (upload-ready), a paste-ready
+  `KDP-METADATA.md`, and a `SELF-EDIT-PASS.md` self-edit log — **except** for three
+  owner/follow-up items before listing: the native-speaker **proofread**, a
+  **keyword-map §3 reservation** (the seven keywords per book are still provisional
+  and reserved name-level only), and a full **vetting packet**. Clearing the
+  proofread is the binding lever; the rest is paste-and-upload.
+- **How you'll know it worked:** Each book's listing is **live on KDP** at the
+  recommended price, with its metadata and manuscript uploaded.
+
+---
+
 ## Not in this sitting (still waiting on you, but not a quick click)
 
 These are genuinely owner-only too, but each needs a bigger commitment than a
@@ -176,7 +217,9 @@ one-sitting click, so they're deliberately **not** on the list above:
 - **The book catalog (KDP titles + Dutch editions)** — hard-gated on a
   **native-speaker proofread pass** you'd commission/approve; that's a real
   reading task, not a click. See [`OWNER-QUEUE.md`](OWNER-QUEUE.md) §2 (KDP rows)
-  and [`PUBLISHING-PLAN.md`](PUBLISHING-PLAN.md).
+  and [`PUBLISHING-PLAN.md`](PUBLISHING-PLAN.md). *(The five newest sequels now
+  have upload-ready KDP packages — those are written up as their own owner step in
+  §4, Step 7 above; they share the same proofread gate.)*
 - **Photo Packs (Dutch Skies + Golden Hours)** — blocked until you hand off the
   full-resolution originals (they're held off this public repo) and do a
   licensing/curation pass. See [`OWNER-QUEUE.md`](OWNER-QUEUE.md) §2 (Photo Packs).
