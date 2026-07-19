@@ -289,6 +289,35 @@ jobs:
       - name: owner-queue staleness guard tests (live-tree green + per-invariant catch-cases)
         working-directory: scripts
         run: python3 -m unittest test_check_owner_queue_staleness -v
+  docs-links-guard:
+    # REQUIRED gate (ENG-8, the final slice of the ENG-4→ENG-8 pipeline-safety lane).
+    # Internal doc LINK + ANCHOR integrity — scoped to the GAP the bootstrap docs-gate
+    # (engine/checks/check_docs.py, run by `python3 bootstrap.py check --strict`)
+    # leaves, so it NEVER duplicates it. That gate link-checks + orphan-checks `docs/`
+    # ONLY, and normalises every link target with `.split("#",1)[0]` — it throws the
+    # `#anchor` away and never verifies it. This guard adds two deterministic, OFFLINE
+    # invariants: (INV-1) every relative markdown link in the UN-GATED living-doc set —
+    # repo-root *.md + control/**/*.md, the fresh-seat boot surface — resolves to an
+    # existing file (docs/ link existence stays the bootstrap gate's job); (INV-2)
+    # every `#anchor` fragment on a link into an existing markdown file, across root +
+    # control/ AND docs/, resolves to a real heading by the GitHub-style slug
+    # convention (duplicate-heading `-N` disambiguation, fenced-code skipping) — the
+    # dimension the bootstrap gate strips everywhere. Excludes .sessions/ (immutable
+    # history), candidates/ (generated kit templates), .substrate/ (telemetry). The
+    # unittest adds a catch-case per invariant + the exclusion/skip cases. Stdlib-only,
+    # system python3, no network, no wall clock. Contract + the two invariants: the
+    # scripts/check_docs_links.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: docs link/anchor guard (checker on the live tree)
+        run: python3 scripts/check_docs_links.py
+      - name: docs link/anchor guard tests (live-tree green + per-invariant catch-cases)
+        working-directory: scripts
+        run: python3 -m unittest test_check_docs_links -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated

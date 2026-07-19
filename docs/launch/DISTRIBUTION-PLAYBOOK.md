@@ -69,7 +69,7 @@ constraint it must satisfy.
 ### Step 1 — Write the free teaching article
 
 Create `docs/launch/<cluster>-lead-magnet.md` from the skeleton in
-[§2](#2-copy-paste-skeleton-for-a-new-cluster-lead-magnetmd). The article is the
+[§2](#2-copy-paste-skeleton-for-a-new-docslaunchcluster-lead-magnetmd). The article is the
 product. Rules that make it convert *and* stay honest:
 
 - **It teaches, it doesn't sell.** Six real failure modes (both existing magnets
