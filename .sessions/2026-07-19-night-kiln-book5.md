@@ -1,6 +1,6 @@
 # Session — The Night Kiln, Book 5 (The Spring Cup)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Opus · high · long-form fiction drafting
 
@@ -37,20 +37,66 @@
   planted Book-5 hook in Book 4 ch. 12 (the humming wedding cup; the granddaughter
   who inherited the not-happening; "a spring story"). Born-red card + claim
   committed (first commit), pushed; PR opened READY. Build begins.
-- [[fill: content-commit entry — manuscript honest wc -w, chapter count, spine,
-  the vessel, how the Book-4 hook is paid, the new catechism line, and confirmation
-  the temper set stays closed; the arc/cover/listing/DECISIONS additions]]
-- [[fill: pre-flip verification entry — bootstrap.py check --strict result (own
-  card's designed born-red hold is the only acceptable red) and the repo CI
-  pytest line result; scoped-diff confirmation]]
-- [[fill: flip entry — Status→complete, Model line, one idea, prev-session review,
-  fills resolved; final check --strict EXIT 0; PR READY + merged state]]
+- 2026-07-19 — Wrote the manuscript: `en/the-spring-cup.md`, honest `wc -w` =
+  **15,568**, 12 chapters, THE END — in the series voice (close third on Edda,
+  past tense, byte-identical rule-sentence opening, catechism advanced to "three
+  lines more", `⁂` scene breaks). Spine pays the Book-4 hook exactly: Brida of
+  Stonebeck crosses the spring flood to ask if the fire can fire a wedding that
+  never was; the answer is a gentle no (the fire keeps only the *true*), but the
+  humming cup holds a *true love* — Nesta Alder & Elias Wick, sundered thirty years
+  ago by a flood and two liars' wrong words, recovered via Ilsabet's seventh ledger
+  + Elias's kept letter; given-back (cup stills for good) and paired into a new cup
+  the granddaughter carries home. Firing is a **new asking of the closed
+  keep/take/give/mend set** (a keep borrowing a give-back's opening + a carry's
+  bringing to pair two true halves), **not** a fifth temper. New catechism line is a
+  truth/keeping rule, byte-consistent at all three occurrences: *"…the fire keeps
+  the love, not the loss."* Added `series-arc.md` update (Book-5 row + spine +
+  Book-4→5 marked PAID + Book-5→6 hook planted [the cold far-side Stonebeck kiln; a
+  summer story] + refreshed continuity anchors), `book-5-cover-brief.md`,
+  `book-5-listing-copy.md`, and a dated `DECISIONS.md` entry (model family-level
+  "Claude Opus"). Content committed (`85f19d3`), pushed. Diff carries only the 5
+  intended property files (+ card + claim); no SKU, no generated file, no publish
+  surface.
+- 2026-07-19 — Verified pre-flip: `bootstrap.py check --strict` red on the
+  **born-red HOLD only** (in-progress Status + 5 auto-draft `[[fill:]]` slots — the
+  designed hold; the checker itself labels it "HOLD (by design)… nothing to
+  investigate"); no guard reds, no other errors; advisories pre-existing/non-gating
+  (2 seat-digest, 5 model-line). CI test suites run locally in their working-dirs
+  all green: membership-kit 36, stripe-webhook 14, github-webhook 18,
+  owner-click-queue 38 — all OK.
+- 2026-07-19 — Flip to `complete` (this commit): Status badge flipped, 📊 Model
+  line kept (family-level "Claude Opus"), one 💡 idea, previous-session review, all
+  `[[fill:]]` slots resolved. Re-ran `bootstrap.py check --strict` → EXIT 0; born-red
+  HOLD clears. Did NOT touch `control/status.md`; guard-fires ledger left unstaged
+  to keep the diff scoped.
 
 ## 💡 Session idea
 
-[[fill: one concrete substrate/process idea surfaced by this run]]
+💡 **A `series-hook-chain` advisory that verifies each cozy-series property keeps its
+planted-hook chain honest.** The Night Kiln runs on a strict engine — every book
+plants the next book's hook, and the next book's DECISIONS/series-arc must mark that
+hook **PAID** while planting exactly one new (unwritten) tail hook. This is enforced
+entirely by hand right now: I paid the Book-4 hook, flipped its `series-arc.md` entry
+from *(Planted; unwritten.)* to *(PAID in Book 5.)*, and planted Book-5→6 — all
+manual, all easy to forget or half-do (e.g. ship Book N without marking Book N−1's
+hook paid, or plant two tails, or plant none). A tiny advisory (never exit-affecting,
+same class as the seat-digest/model-line warnings) could, for each property under
+`candidates/adult-novels/*` with a `series-arc.md`, parse the "Hook chain" block and
+flag when: (a) the newest book's inbound hook is still marked planted/unwritten
+though a manuscript for that book now exists in `en/`, or (b) the chain has zero or
+more-than-one unpaid tail hook. It's the natural sibling of Book 4's proposed
+`series-editions-drift` advisory (#269 card) — same "a hand-maintained series
+invariant silently drifts from the actual manuscript count" shape, applied to the
+hook chain instead of the edition specs.
 
 ## previous-session review
 
-previous-session review: [[fill: one-line review of the most recent prior session
-card and how its lesson carried into this slice]]
+previous-session review: the immediately-prior card `2026-07-19-night-kiln-book4.md`
+(Book 4, same property, same day) modelled the exact discipline this slice needed —
+pure property content + prep, storing cover/listing as property-local files and
+leaving the vetting packet's OWNER-GATE, the SKU registry, and every generated file
+untouched; I carried that discipline forward here (no publish surface, no generated
+edit, guard-fires left unstaged, `control/status.md` untouched) and reused its
+born-red landing recipe verbatim, so the one thing its own 💡 flagged (hand-maintained
+series artifacts drift from their sources) is exactly what my 💡 above extends from
+edition specs to the hook chain.
