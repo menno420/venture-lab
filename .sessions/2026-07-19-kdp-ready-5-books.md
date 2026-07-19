@@ -1,6 +1,6 @@
 # Session — KDP-ready packages, 5 new book sequels (kdp-ready-5-books)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Opus · high · feature build
 
@@ -60,7 +60,19 @@
   stay untouched and idempotent; (3) canonical manuscript sources
   (`en/*.md`, `book2/*.md`, `dream-series/book{2,3}/ch*.md`) left **untouched** — the
   compiled files are additive copies.
-- 2026-07-19 — [PRE-FLIP verify + flip line appended at close.]
+- 2026-07-19 — **CLOSE (closer worker).** Resumed a partially-landed branch: the
+  Night Kiln Bk4/Bk5 + Ultramarine Bk2 packages (9 files) were already committed,
+  but the two Lull packages (`dream-series/kdp-ready/book-2` + `book-3`, 6 files)
+  were not yet on the branch. Committed the 6 missing files (one commit per book,
+  raw UTF-8 via `push_files`) and confirmed **all 15** KDP-ready package files are
+  now present, each verified **byte-for-byte** by `git hash-object` blob-SHA equality
+  against the canonical working-tree sources (Lull Bk2 manuscript `4f9c7f6`, Bk3
+  `52955bc`, etc.). Cleared the "behind" stall with GitHub's **Update branch**
+  (clean merge of latest `main` into the branch — no conflict; #275's
+  `docs/publishing/*` + `.sessions/*` changes are disjoint from `candidates/`).
+  Guards green; only pre-existing advisories. Flip to `complete`: Status badge,
+  📊 Model line, one 💡 idea, previous-session review all present — born-red hold
+  released as the final commit.
 
 ## 💡 Session idea
 
