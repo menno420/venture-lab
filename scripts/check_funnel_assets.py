@@ -63,69 +63,24 @@ Never writes the tree.
 from __future__ import annotations
 
 import argparse
-import os
 import sys
-from pathlib import Path
 
-# Resolve paths relative to the repo root (this file lives in scripts/), so the
-# guard works regardless of the current working directory. Tests override the
-# root with --root to point at a temp fixture tree.
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-# Repo-relative registry locations.
-CANDIDATES_DIR_REL = "candidates"        # candidates/<sku>/ build dirs
-LAUNCH_DIR_REL = "docs/launch"           # docs/launch/<sku>/ funnel folders
-
-# A candidate counts as SHIPPABLE (built to a packaged artifact) when it carries
-# this subdirectory — the SAME marker ENG-5 (check_built_registered.py) uses, so
-# the two guards share one definition of "shippable" and can never disagree.
-BUILD_MARKER = "dist"
-
-# The required funnel-asset SET, as (role_name, accepted_filenames) pairs. A role
-# is SATISFIED when the launch folder contains at least one of its accepted
-# filenames — this tolerates the two live naming conventions (modern majority +
-# legacy/flagship) without hard-coding a per-kit exception. Enrichment assets
-# (one-pager.md, readme-buy-snippet.md, gotcha-article.md, chapter-*.md,
-# LAUNCH-LOG.md) are intentionally NOT listed: they exist on only a subset of
-# shippable kits, so requiring them would flag reality, not a regression.
-REQUIRED_ROLES = (
-    ("landing/sales copy", ("listing-copy.md", "LISTING.md")),
-    ("owner publish action", ("owner-actions.md", "publish-owner-action.md")),
+# Single authoritative source of SKU inference. The registry constants, the
+# BUILD_MARKER (the SAME "built" signal ENG-5 uses, so the two guards can never
+# disagree about what "shippable" means), the required funnel-role set, and the
+# built-sku / launch-folder enumeration now live in scripts/sku_registry.py. The
+# names below are re-exported (kept module-local) so this guard's public surface
+# and its tests are unchanged.
+from sku_registry import (
+    REPO_ROOT,
+    CANDIDATES_DIR_REL,
+    LAUNCH_DIR_REL,
+    BUILD_MARKER,
+    REQUIRED_ROLES,
+    built_skus,
+    missing_roles,
 )
-
-
-def _subdirs(path: Path):
-    """Immediate subdirectory names under `path` (empty list if absent)."""
-    if not path.is_dir():
-        return []
-    return sorted(p.name for p in path.iterdir() if p.is_dir())
-
-
-def built_skus(root=REPO_ROOT):
-    """The set of SHIPPABLE skus — candidates carrying a `dist/` packaged artifact."""
-    cand_dir = Path(root) / CANDIDATES_DIR_REL
-    return {
-        name
-        for name in _subdirs(cand_dir)
-        if (cand_dir / name / BUILD_MARKER).is_dir()
-    }
-
-
-def _launch_files(root, sku):
-    """The set of file names present in docs/launch/<sku>/ (empty if the dir is absent)."""
-    d = Path(root) / LAUNCH_DIR_REL / sku
-    if not d.is_dir():
-        return None
-    return {p.name for p in d.iterdir() if p.is_file()}
-
-
-def missing_roles(present_files):
-    """The required roles NOT satisfied by `present_files` (a set of file names)."""
-    missing = []
-    for role_name, accepted in REQUIRED_ROLES:
-        if not any(fname in present_files for fname in accepted):
-            missing.append((role_name, accepted))
-    return missing
+from sku_registry import launch_files as _launch_files
 
 
 def check(root=REPO_ROOT):
