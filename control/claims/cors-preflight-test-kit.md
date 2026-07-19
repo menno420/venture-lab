@@ -1,1 +1,0 @@
-- `claude/cors-preflight-test-kit` · **CORS Preflight Test Kit — new sellable dev-tool kit** · candidates/cors-preflight-test-kit/, docs/publishing/vetting/cors-preflight-test-kit.md, docs/launch/cors-preflight-test-kit/, .github/workflows/kit-tests.yml · order 016 · 2026-07-18

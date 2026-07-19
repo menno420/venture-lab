@@ -1,1 +1,0 @@
-- `claude/bundle-dref-resync` · **Resync stale mispointed D-refs in api-robustness + webhook-verifier bundle docs; fix lint_owner_gates DONE marker** · docs/launch/, docs/publishing/, candidates/ · 2026-07-18

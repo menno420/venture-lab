@@ -1,1 +1,0 @@
-- `claude/agent-ops-lead-magnet` · **Agent-ops cluster free lead-magnet + distribution drafts (distribution-first, no spend)** · docs/launch/ · 2026-07-18
