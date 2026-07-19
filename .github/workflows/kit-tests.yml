@@ -230,6 +230,36 @@ jobs:
       - name: built-vs-registered guard tests (live-tree green + built-unregistered/missing-artifact catch-cases)
         working-directory: scripts
         run: python3 -m unittest test_check_built_registered -v
+  funnel-assets-guard:
+    # REQUIRED gate (ENG-4). Guards per-KIT funnel-asset COMPLETENESS: for every
+    # shippable kit (candidates/<sku>/dist/ — the SAME "built" signal ENG-5's
+    # built-registered-guard uses, so the two never disagree), its
+    # docs/launch/<sku>/ funnel folder must carry the FULL required asset set — a
+    # landing/sales-copy doc AND an owner-publish-action doc, each satisfiable by
+    # either the modern (listing-copy.md / owner-actions.md) or the legacy/flagship
+    # (LISTING.md / publish-owner-action.md) naming convention. Machine-catches the
+    # class where a kit is built and launch-registered but its owner CLICK PATH is
+    # broken — landing copy with no publish instructions, or instructions with
+    # nothing to list. This sits one level DOWN from built-registered-guard (which
+    # asserts the launch folder EXISTS) and is the per-KIT counterpart to
+    # funnel-coverage-advisory / ENG-3 (which is per-CLUSTER): it checks the
+    # folder's CONTENTS. Enrichment assets (one-pager.md, readme-buy-snippet.md,
+    # gotcha-article.md, chapters, LAUNCH-LOG.md) are optional and not required.
+    # No per-name allowlist: non-built launch rows (photo-packs, bundle-starter) are
+    # out of scope by construction. The unittest adds missing-asset + naming +
+    # scope catch-cases proving the guard fires. Stdlib-only, system python3.
+    # Contract + the required-role set: the scripts/check_funnel_assets.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: funnel-assets guard (checker on the live tree)
+        run: python3 scripts/check_funnel_assets.py
+      - name: funnel-assets guard tests (live-tree green + missing-asset/naming/scope catch-cases)
+        working-directory: scripts
+        run: python3 -m unittest test_check_funnel_assets -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated
