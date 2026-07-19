@@ -44,6 +44,17 @@ frontmatter keeps the score.
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
 
+- [Execution roadmap 2026-07-19](2026-07-19-execution-roadmap.md) — the 64-item
+  veto-ready menu **groomed into a prioritized, sequenced execution roadmap**,
+  reality-corrected against the #242–#257 wave (nine menu items marked DONE with
+  their PR#). Each entry is one line: item id/name · autonomous-safe | owner-gated
+  · single unblock condition. Autonomous-safe slices are sequenced first (Lane A,
+  five tiers), then owner-gated items grouped by the gate they wait on (Lane B,
+  five gates). Sequencing is tied to three standing constraints — distribution is
+  the binding one, the EAP read-only cutover 2026-07-21, and the SWTK kill clock
+  (T+7 2026-07-19 / T+14 2026-07-26). A new dated cohort doc rather than an edit
+  of the next-wave roadmap (different namespace: cross-area SKU/BND/LM/ENG/DIST/
+  BOOK/MISC vs R1–R10). Planning-only — nothing built. State: captured.
 - [Veto-ready planning menu 2026-07-18](2026-07-18-veto-ready-menu.md) — the
   owner-morning deliverable for the 2026-07-18 overnight directive ("plan
   excessively… my veto is the filter, don't pre-filter to a few safe picks"): a
