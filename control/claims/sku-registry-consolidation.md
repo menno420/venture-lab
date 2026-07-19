@@ -1,1 +1,0 @@
-- `claude/sku-registry-consolidation` · **Consolidate the guards' duplicated SKU/registry inference into one authoritative module (behavior-preserving)** · scripts/, test · 2026-07-19

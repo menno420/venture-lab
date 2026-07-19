@@ -1,1 +1,0 @@
-- `claude/night-kiln-book5` · **Draft The Night Kiln Book 5 (The Spring Cup) + series-arc/cover/listing** · candidates/adult-novels/the-night-kiln/ · 2026-07-19

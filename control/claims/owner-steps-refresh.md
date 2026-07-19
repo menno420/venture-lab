@@ -1,1 +1,0 @@
-- `claude/owner-steps-refresh` · **Refresh single plain-language owner-steps list (time-sensitive one-sitting)** · docs/publishing/ · 2026-07-19

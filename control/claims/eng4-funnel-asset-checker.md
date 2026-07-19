@@ -1,1 +1,0 @@
-- `claude/eng4-funnel-asset-checker` · **ENG-4: per-kit funnel-asset completeness checker (each shippable kit has its full funnel asset set)** · scripts/, test · 2026-07-19

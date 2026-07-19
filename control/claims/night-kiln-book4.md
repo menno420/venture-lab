@@ -1,1 +1,0 @@
-- `claude/night-kiln-book4` · **Draft The Night Kiln Book 4 (The Winter Wheel) + series-arc/cover/listing** · candidates/adult-novels/the-night-kiln/ · 2026-07-19
