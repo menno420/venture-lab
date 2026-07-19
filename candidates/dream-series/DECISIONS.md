@@ -131,3 +131,81 @@ sales/reviews).
 **Owner veto:** the title, any beat, or the whole draft is retroactively
 owner-vetoable (flip it and the affected files follow); the draft is fully
 git-reversible.
+
+---
+
+## D-004 · Book 3 drafted — **The Fourth Hour Comes** (trilogy finale) (2026-07-19)
+
+**Decision:** Book 3's title is confirmed as **The Fourth Hour Comes**
+(published form: *Lull · Book Three: The Fourth Hour Comes*), and a **complete
+Book-3 draft** is written — real finished chapters, not an outline — in
+`book3/`, mirroring `book1/` and `book2/`. Book 3 is the **finale**: it RESOLVES
+the trilogy, closing the confession frame and every open series thread. With it,
+the **trilogy is complete** (36 chapters, ≈71.8k words across the three books).
+
+**Delegated by:** the owner's standing authorization for autonomous
+book-building (owner → coordinator, 2026-07-11; `INTAKE.md`). PUBLISHING remains
+owner-gated and untouched (no SKU, no storefront, no spend).
+
+**Facts of the draft:**
+- **Chapter count:** 12 (`book3/ch01.md`–`ch12.md`), matching Books 1–2 and the
+  cliff-ended, short-chapter Percy-Jackson pacing.
+- **Word count:** ~22.8k (Book 1 ~25.7k, Book 2 ~23.3k; same register and
+  chapter-length band).
+- **POV/voice:** unchanged — first-person past, the older confession-frame
+  narrator (deliberately unreliable, world.md §6.4), direct reader address, the
+  tells, the Lull, the Lantern prop-echo (now completing — the lantern goes back
+  *down* with Sam), Dutch texture, catchable bleeds.
+- **New on-page:** **Pompeii** established per the bible's seam-thin rule
+  (world.md §8) — the hardest-frozen moment in history, thin all the time, not
+  just at four. New cast: **Vibia**, the girl who says *not yet* (a Pompeii child
+  and the first anchor). Returning cast landed: Sam, Fenna (the record-keeper
+  whose testimony *is* the solution), Wessel, Lena (walks out of the Palimpsest,
+  chooses the boy), Anna, Serafina (dies at peace after telling 1630 true), Nico,
+  and **Joris**, rescued alive. The **Lantern Man** is resolved.
+
+**Spine (one line):** On the fourth hour of his thirteenth birthday — the date
+the nightmare finally names — Sam dives into the frozen catastrophe of Pompeii,
+refuses both factions' edits (the Palimpsest's *crack it open* and the Vigil's
+*seal it shut with you inside forever*), and keeps the record true a third way —
+by **witnessing and telling** rather than force — rescuing his father and the
+two-thousand-year anchor-girl without rewriting one grain of the true moment,
+and paying for it with his own reach (he gives up dreaming forever).
+
+**How it resolves the arc (the finale's contract, all landed on-page):**
+- **The date** — paid to the reader at cost (ch01): Sam's own birthday, the
+  fourth hour.
+- **Pompeii / the battlefield** — both factions converge; the holy site is closed
+  for good, un-openably, because a witnessed-and-told moment has no edge to crack.
+- **The Lantern Man** — resolved as *both* Joris and future-Sam: a father and a
+  son each diving for the other look identical through fogged glass; the
+  ambiguity was the answer (love in the same brass suit).
+- **The girl who says *not yet*** — resolved: **Vibia**, arc-level, woke inside
+  her own death at Pompeii and held it true from the inside for two thousand
+  years; "not yet" meant *not this way, not until the one who can do the third
+  thing*; she is freed, not replaced.
+- **The Vigil's forgery** — resolved: proven *unnecessary*; testimony (not force)
+  keeps the record true, so Serafina tells 1630 true and Venice begins to heal.
+- **Lena's allegiance** — resolved: she leaves the Palimpsest for good and stands
+  with Sam.
+- **Sam's lost parent-memories** — resolved: restored (the true record heals what
+  forgeries stole), at the cost of his reach — he trades the magic for his family.
+- **The confession frame** — closed: the narrator is Sam, grown and no longer a
+  dreamer, confessing to the **next child who has begun waking at four** — being
+  the person no one was for him (closes hard against Book 1 ch01). It stays secret
+  because a story told too loud becomes a stealable anchor; kept soft and handed
+  on, it is un-scrapeable. The frame's unreliability is explained (he held too
+  much true and gave up the reach; Fenna's notebooks are truer). Ends on the
+  refrain resolved: *Not yet* — *now.* **THE END.**
+
+**Also landed with the draft:** `book3/outline.md` (chapter map, marked
+drafted); `book3-cover-brief.md` (completes the three-book spine system, element
+arc water → mirror → fire); `book3-listing.md` (blurb + back-cover + keywords +
+categories + age range — a copy asset only, no publish action; no invented
+sales/reviews); `series-arc.md` updated to mark the **trilogy COMPLETE**.
+
+**Model:** Claude Opus (family level).
+
+**Owner veto:** the title, any beat, or the whole draft is retroactively
+owner-vetoable (flip it and the affected files follow); the draft is fully
+git-reversible.
