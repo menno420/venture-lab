@@ -260,6 +260,35 @@ jobs:
       - name: funnel-assets guard tests (live-tree green + missing-asset/naming/scope catch-cases)
         working-directory: scripts
         run: python3 -m unittest test_check_funnel_assets -v
+  owner-queue-staleness-guard:
+    # REQUIRED gate (ENG-7). Guards the OWNER-QUEUE against STALENESS drift — the
+    # class of internal inconsistency that survives regeneration, so the ENG-6
+    # owner-queue-idempotence-guard (which pins committed == a fresh regeneration)
+    # cannot catch it. Three deterministic, OFFLINE consistency invariants over the
+    # generated docs/publishing/OWNER-QUEUE.md and its #260 curated companion
+    # docs/publishing/OWNER-START-HERE.md: (INV-1) every §N / D<n> the companion cites
+    # into the queue still resolves to a real section / decision header — the
+    # #244/#245 renumber-mispoint class one level up from catalog-dref-guard;
+    # (INV-2) each §4 kill-clock checkpoint date is a well-formed ISO calendar date
+    # and any T+<n> offsets are arithmetically consistent (T+7 → T+14 == +7 days) —
+    # a STRUCTURE/consistency check that never reads the wall clock, so it stays
+    # deterministic; (INV-3) every click-run carrying a native-speaker-proofread row
+    # is rendered HARD-GATED (the #210/#213 proofread-gate-drift class). The guard
+    # reuses derive_owner_queue's OWN parser + PROOFREAD_GATE_RE so it can never drift
+    # from the generator; the unittest adds a catch-case per invariant proving the
+    # guard fires. Stdlib-only, system python3, no network. Contract + the three
+    # invariants: the scripts/check_owner_queue_staleness.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: owner-queue staleness guard (checker on the live tree)
+        run: python3 scripts/check_owner_queue_staleness.py
+      - name: owner-queue staleness guard tests (live-tree green + per-invariant catch-cases)
+        working-directory: scripts
+        run: python3 -m unittest test_check_owner_queue_staleness -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated

@@ -1,0 +1,1 @@
+- `claude/eng7-owner-queue-staleness-checker` · **ENG-7: owner-queue staleness checker (queue reflects current catalog/live state; no stale checkpoints/rows)** · scripts/, test · 2026-07-19
