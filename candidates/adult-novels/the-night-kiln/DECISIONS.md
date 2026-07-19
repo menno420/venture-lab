@@ -1,5 +1,95 @@
 # Decisions — The Night Kiln
 
+## Book 5 — The Spring Cup (2026-07-19, day run)
+
+Book 5 of the series (`en/the-spring-cup.md`), written to pay the book-5 hook
+planted in Book 4's closing pages (the unclaimed wedding cup that hums on the
+private shelf; a granddaughter who "inherited the not-happening" of a wedding that
+never was and thinks of it every spring: *"could a fire ever fire a thing that
+never happened at all?" / "that's a spring story."*). Complete standalone novella,
+honest `wc -w` = **15,568** (includes front matter and chapter headings), 12
+chapters, THE END. Model: **Claude Opus** (family-level attribution).
+
+- **Title** — ***The Spring Cup*** (subtitle *A Cozy Fantasy Novella · The Night
+  Kiln, Book Five*). Keeps the series' object-per-book / season-marker compound
+  convention (Night Kiln / Morning Door / Harvest Rows / Winter Wheel → Spring
+  Cup): the wedding **cup** the book turns on, the **spring** thaw/flood the story
+  crosses, and the well-**spring** / source of a love beneath a loss. The season
+  progression Night → Morning → Harvest → Winter → **Spring** is honoured (a
+  different spring register from Book 2's spring→midsummer: this is early-spring
+  thaw, snowmelt, the ford in spate).
+- **Vessel** — The humming wedding cup off the private shelf (planted Book 1 ch. 7
+  museum; carried through Books 3–4; the far-end exhibit in Book 4's close), heard
+  and given-back; plus a **new pair-cup** thrown for the family (the fired vessel of
+  record, parallel to Book 4's new pot). One fired vessel per book holds: book 1 the
+  keystone, book 2 the jar, book 3 the dish, book 4 the first pot, book 5 the
+  wedding cup / its new pair. The old humming cup is heard/given-back and **stills
+  for good** (never hums again), left on the shelf as proof a kept true thing does
+  not leak; the new pair-cup goes home over the water with the granddaughter.
+- **Fulfils the planted hook, exactly** — The answer to "could a fire fire a wedding
+  that never was?" is a firm, gentle **no** (the fire keeps only the *true*; a fired
+  dream is a warm lie that poisons every real thing after — the one wall the craft
+  has never crossed). But the humming cup is not empty: it holds a *true love*, fired
+  whole by Grams Ilsabet in the betrothal of Nesta Alder (Stonebeck) and Elias Wick
+  (Wenholt orchardman), sundered thirty years ago by a spring flood at the ford plus
+  two liars' wrong words (each told the other had cried off — a not-happening that
+  was an accident, never a jilting). Reframes the series' governing craft-truth for
+  this book: *a love is not the wedding it was promised; the fire keeps the love, not
+  the loss.* The family's inheritance turns from a not-happening (shame/absence) into
+  a happening (a true love, thwarted by water). Ilsabet's kept-but-uncarried letter
+  from Elias supplies the true second half.
+- **No fifth temper** — The four firing tempers **keep/take/give/mend** stay closed
+  across the seasonal poles (Book 3's completion is NOT reopened; Book 4's flit is
+  not a pole either). Book 5's firing is again a *new asking of the old fire*: a keep
+  (Book 1) that borrows a give-back's opening (Book 2, to hear the true love out of
+  the humming cup) and a carry's bringing (to fetch Elias's yes off his kept letter),
+  pairing two true halves into one new vessel. Stated in-text: *we never learn a new
+  fire; we only learn a new thing to ask the old one.* The new catechism line —
+  ***And what never happened, the fire cannot make — but a love is not the wedding it
+  was promised, and the fire keeps the love, not the loss.*** — is a **truth/keeping
+  rule**, deliberately not a temper line; byte-consistent at all three occurrences
+  (ch. 6 canonization, ch. 10 close, ch. 12 recital), appended to the four inherited
+  lines (which are byte-exact to Book 4's recital).
+- **Structure/register** — Same POV/tense/structure as Books 1–4: close third on
+  Edda, past tense, 12 chapters, byte-identical rule-sentence opening (catechism
+  count advanced to "three lines more" — the fourth line now inherited), aphoristic
+  chapter openers, `⁂` scene breaks, cozy contract kept (no violence; low-stakes-but-
+  true conflict — a broken thirty-year engagement, a recent bereavement, a girl's
+  crossing). Series conventions honoured: a telling scene (Tally's child's first
+  steps, ch. 1); the **lesser-freight law** proved on a test tile before the true
+  firing (ch. 9); a **seam** built from the story's own substance (applewood ash off
+  Elias's orchard + Ler ford sand, ch. 7); the give-back reception (ch. 8); the
+  firing's true hour (ch. 10). Reveal built across ch. 3 (the two wrong answers / the
+  hum comes up at the name), ch. 4–5 (Ilsabet's seventh ledger — the betrothal, the
+  flood, the wrong words, the kept letter), ch. 6 (what a love is / the new asking
+  worked out).
+- **Griet border held** — No cure; the ferry-house's two lamps (porridge bowl +
+  mended dish) carried forward; Griet's one clear evening (ch. 9) is where she
+  blesses the crossing — gently narrated, no living memory-loss touched by fire.
+- **Book-6 hook planted** — The cold far-side kiln: Stonebeck once had a fire of its
+  own, fallen and dead thirty years and more, and a single pot come down in Brida's
+  family that "holds something" but has had no witch to hear it in a lifetime; *could
+  a fire on this side hear what a dead fire on that side kept — can a keeping wait
+  longer than the witch who made it?* Flagged as a *young* witch's crossing (Perrin's,
+  over the water the other way). "That's a summer story." (Planted, unwritten —
+  planted the way Book 4 planted Book 5.)
+- **⚑ Length-band note (2026-07-19)** — Book 5 is written at **Book-1/2/4 parity
+  (~15.6k)**, consistent with Book 4 and the standing owner-queued length question
+  (`LENGTH-BAND-PREP.md`; DECISIONS "OWNER — Length call"). No new owner-queue item;
+  the series now sits 15,999 / 15,995 / 23,334 / 15,580 / 15,568 pending the owner's
+  one-word ratify. Recorded as continuity with the existing flag, not a new decision.
+- **⚑ Publishing — owner-gated** — Nothing published, no accounts touched, no SKU
+  registered, no generated files edited, no Gumroad/KDP action. Cover brief
+  (`book-5-cover-brief.md`) and listing copy (`book-5-listing-copy.md`) are
+  production/marketing prep only; the publish clicks remain the owner's per vetting
+  packet §7. Keywords reserved name-level only.
+- **Files** — NEW `en/the-spring-cup.md`; UPDATE `series-arc.md` (Book-5 table row +
+  spine + hook chain [Book-4→5 marked PAID, Book-5→6 planted] + refreshed continuity
+  anchors); NEW `book-5-cover-brief.md`; NEW `book-5-listing-copy.md`; this DECISIONS
+  entry. Plus the born-red card + claim.
+- **Production/metering** — Drafted single day session, isolated clone, one writer;
+  no parallel workers on the manuscript.
+
 ## Book 4 — The Winter Wheel (2026-07-19, day run)
 
 Book 4 of the series (`en/the-winter-wheel.md`), written to pay the book-4 hook
