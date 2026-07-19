@@ -1,0 +1,1 @@
+- `claude/ultramarine-book2` · **Write Ultramarine Book 2 (bible-grounded sequel) + outline/cover/listing/DECISIONS** · candidates/adult-novels/ultramarine/ · 2026-07-19
