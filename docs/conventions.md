@@ -41,7 +41,7 @@
 
 5. **Forward-only git:** no force-push, no history rewrites, no amending
    pushed commits.
-6. **Claim before build:** one file per claim in [`../claims/`](../claims/)
+6. **Claim before build:** one file per claim in [`../control/claims/`](../control/claims/)
    (see its README). First-declared + claim-filed wins shared-surface
    conflicts (fleet R10).
 

@@ -41,7 +41,7 @@ explicit owner action** — every such step is queued click-level under
 | [`docs/research/`](docs/corpus/venture-shortlist-2026-07-09.md) | Lane-produced evaluations and venture ledgers (created by ORDER 001). |
 | [`docs/review-queue.md`](docs/review-queue.md) | Post-merge review ledger — merge-then-flag, never wait-for-review. |
 | [`docs/retro/QUESTIONS.md`](docs/retro/QUESTIONS.md) | Standing self-review questions, planted day 0. |
-| [`claims/`](claims/) | Claim-before-build files, one per claim. |
+| [`control/claims/`](control/claims/) | Claim-before-build files, one per claim (the canonical claim home). |
 
 ## First session duties (in order)
 
