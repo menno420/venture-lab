@@ -207,3 +207,27 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/check_ledger_drift.py
+  funnel-coverage-advisory:
+    # ADVISORY ONLY — never a required gate. Double-guarded against ever
+    # turning red: the script exits 0 on EVERY path (covered, uncovered,
+    # skip) AND the step is continue-on-error (same shape as
+    # ledger-drift-advisory above). It reads docs/launch/CATALOG.md
+    # §"Cross-sell clusters" and prints one line per cluster, warning
+    # UNCOVERED on any cluster that carries a singles/bundle list but has
+    # no linked *-lead-magnet.md funnel-top — the "which cluster is the
+    # next magnet target" signal. The unittest adds an uncovered-fixture
+    # catch-case proving the advisory fires. Contract + coverage model:
+    # the scripts/check_funnel_coverage.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: funnel-coverage advisory (stdlib-only, system python3)
+        continue-on-error: true
+        run: python3 scripts/check_funnel_coverage.py
+      - name: funnel-coverage advisory tests (live-tree green + uncovered catch-case)
+        continue-on-error: true
+        working-directory: scripts
+        run: python3 -m unittest test_check_funnel_coverage -v
