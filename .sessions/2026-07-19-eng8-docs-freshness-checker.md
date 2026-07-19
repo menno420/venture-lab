@@ -1,8 +1,10 @@
 # Session — ENG-8: docs-freshness + link/orphan checker
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill: model line at flip]]
+![status](https://img.shields.io/badge/status-complete-brightgreen)
+
+- **📊 Model:** Claude Opus (4.x family) · high · test writing
 - **started (date -u):** Sun Jul 19 09:15 UTC 2026
 - **branch:** `claude/eng8-docs-freshness-checker`
 - **base:** `main@82059bf` (post #261 ENG-6 / #262 ENG-5 / #263 ENG-4 / #264 ENG-7)
@@ -78,11 +80,74 @@
   repo-wide is 2 dangling refs in `.sessions/` cards, 1 in a `candidates/` template
   (both excluded with reason), and 1 genuine broken anchor in `docs/launch/`. Claim +
   this born-red card committed. Build begins.
+- 2026-07-19T09:2xZ — **Build.** Added `scripts/check_docs_links.py` (INV-1 dead-link
+  over root/`control/`; INV-2 `#anchor` resolution across root + `control/` + `docs/`
+  via a GitHub-style slug with duplicate `-N` disambiguation + fenced-code skipping;
+  exit 0 clean / 1 with an itemized finding list; `--root` for fixtures;
+  `stats` counts so the test proves non-vacuity) + `scripts/test_check_docs_links.py`
+  (20 tests: live-tree-green + non-vacuity + INV-1 catch/pass, docs/-not-relink-checked,
+  external-skipped, INV-2 same-file/cross-file catch/pass, anchor-checked-inside-docs,
+  duplicate-heading, fenced-code, exclusion of `.sessions`/`candidates`/`.substrate`,
+  skip, end-to-end nonzero, and a slugify unit). Fixed the one genuine finding —
+  `docs/launch/DISTRIBUTION-PLAYBOOK.md:72` `[§2]` anchor now points at the real
+  heading slug. Wired a new REQUIRED `docs-links-guard` job into
+  `.github/workflows/kit-tests.yml` (checker on the live tree + unittest), mirroring
+  `owner-queue-staleness-guard` (#264). YAML validated (23 jobs).
+- 2026-07-19T09:2xZ — **Verification.** Checker EXIT 0 on the live tree (200 in-scope
+  docs, 27 links + 32 anchors checked — non-vacuous). `python3 -m unittest
+  test_check_docs_links -v` 20/20 OK. `python3 bootstrap.py check --strict` EXIT 1
+  ONLY on the born-red HOLD (card in-progress) — no finding from this slice; reverted
+  the local `.substrate/guard-fires.jsonl` telemetry append. No target file/heading
+  invented; nothing deleted.
+- 2026-07-19T09:2xZ — Flip to `complete` (this commit): Status badge, 📊 Model line
+  (family-level, task-class `test writing`), one 💡 idea, previous-session review, all
+  `[[fill:]]` slots resolved. Born-red HOLD clears → `check --strict` returns EXIT 0.
+  This is the FINAL slice of the ENG-4→ENG-8 pipeline-safety lane.
 
 ## 💡 Session idea
 
-[[fill: one genuine idea at flip]]
+💡 **The ENG-4→ENG-8 pipeline-safety lane is now complete — promote the four disjoint
+per-guard SCOPE constants into ONE declared `repo-consistency manifest` so the next
+guard registers into a contract instead of hard-coding its own file set.** ENG-8 closes
+the lane (ENG-6 idempotence, ENG-5 built-vs-registered, ENG-4 funnel-assets, ENG-7
+queue-staleness, ENG-8 doc links/anchors). But each guard now owns a private,
+script-local answer to "which files am I responsible for": ENG-8 hard-codes
+`EXCLUDED_TOP = {.sessions, candidates, .substrate}` and `DOCS_GATE_ROOT = "docs"`;
+ENG-7 hard-codes `COMPANION_REL`; ENG-4/ENG-5 hard-code their SKU roots. The seams that
+divide "gated by bootstrap" from "gated by scripts/" from "deliberately un-gated" are
+invisible until a reader greps five files — and the moment a NEW top-level doc dir
+appears (say `playbooks/`), it silently falls into NO guard's scope, exactly the
+orphan-class ENG-8 exists to prevent, one level up. Guard recipe: add
+`control/repo-consistency-manifest.md` (or a `consistency:` block in the SKU-REGISTRY
+the ENG-4/5/7 💡s already propose) declaring, per guard, its in-scope roots + documented
+exclusions; have `check_docs_links.py::scope_files` read `EXCLUDED_TOP`/`DOCS_GATE_ROOT`
+from it, and add a meta-guard test asserting every tracked top-level dir is claimed by
+exactly one guard OR listed as a reasoned exclusion — so "what is unguarded" becomes a
+declared, reviewable fact rather than an emergent gap. Natural next backlog pick after
+the lane: **MISC-1 fresh-seat boot hardening** (roadmap Tier A2) — it wants the repo
+"clean enough that a fresh seat boots from the repo alone", and this manifest is the
+artifact that makes that literally checkable.
 
 ## previous-session review
 
-[[fill: previous-session review at flip]]
+previous-session review: `.sessions/2026-07-19-eng7-owner-queue-staleness-checker.md`
+(PR #264, `82059bf`) — added the REQUIRED `owner-queue-staleness-guard` asserting three
+deterministic, OFFLINE consistency invariants over the generated `OWNER-QUEUE.md` and
+its #260 companion (companion cross-ref resolution, dated-checkpoint structure/arithmetic,
+proofread-gate integrity), the internal-inconsistency class ENG-6's idempotence guard
+cannot catch. Exemplary, honestly-scoped work, and I followed its three best habits
+directly: (1) **reuse the upstream so the guard can't drift** — ENG-7 imported
+`derive_owner_queue`'s own parser + `PROOFREAD_GATE_RE`; I mirrored the bootstrap gate's
+OWN `_link_target`/`_split_target` normalisation and slug convention so my guard reasons
+about links the same way the substrate does, and I explicitly deferred `docs/`
+link-existence back to that gate rather than re-deriving it; (2) **prove non-vacuity** —
+ENG-7 added an `actually_applicable` test per invariant; I return `stats` counts and
+assert the live run checked >0 links AND >0 anchors, so a future tree that quietly stops
+exercising a dimension can't pass as a silent skip; (3) **report + fix known-current-state
+truthfully** — ENG-7 found no staleness and manufactured none; I found exactly one real
+broken anchor, FIXED it reversibly (corrected the link to the real heading), and reported
+the excluded `.sessions`/`candidates` dangling refs with reasons rather than silently
+scoping them away. ENG-7's own 💡 asked for a declared queue-consistency manifest to
+replace its script-local constants; my 💡 above is the same shape generalised across all
+five lane guards — they should converge into one repo-consistency manifest, not five
+parallel per-guard ones. That convergence is the lane's natural capstone.
