@@ -2,7 +2,7 @@
 
 > **Status:** `complete`
 
-- **📊 Model:** opus-4.8 · high · docs-only
+- **📊 Model:** Claude Opus (4.x family) · high · docs-only
 
 - **started (date -u):** Sun Jul 19 07:32 UTC 2026
 - **branch:** `claude/owner-steps-refresh`
