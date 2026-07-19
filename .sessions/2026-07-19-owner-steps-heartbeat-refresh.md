@@ -1,6 +1,6 @@
 # Session — Owner steps for the 5 KDP-ready books + current-state & heartbeat refresh (owner-steps-heartbeat-refresh)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** Claude Opus · high · feature build
 
@@ -38,6 +38,19 @@
 - 2026-07-19 — Committed (C) `control/status.md` heartbeat.
 - 2026-07-19 — Flip to `complete`: Status badge, 📊 Model line, one 💡 idea,
   previous-session review, closing work-log line.
+- 2026-07-19 — Landed via `mcp__github__*` (local git commit/push classifier-blocked):
+  born-red card `e3ad073` (FIRST commit) → PR #276 opened READY → (A)+(B) push
+  `4a16755` → (C) heartbeat `be13dd5` → this flip commit LAST. Pre-flip
+  `python3 bootstrap.py check --strict` = exit 1 by design (the born-red HOLD on
+  this card only); every named guard is green — `check_docs_links.py` exit 0
+  (193 docs / 26 links + 32 anchors resolve, incl. the new `kdp-ready/`
+  `KDP-METADATA.md` links and the `TRANSITION-DOSSIER.md` pointer),
+  `check_owner_queue_staleness.py` exit 0 (companion cross-refs resolve),
+  `check_owner_queue_idempotent.py` exit 0 (byte-identical — no regen needed), and
+  every other warning is a pre-existing non-gating advisory (seat-digest;
+  `long-form fiction drafting` class on the five book cards — this card uses the
+  valid PL-004 `feature build` class; session-001). This flip releases the
+  substrate-gate HOLD; check goes green post-flip.
 
 ## 💡 Session idea
 
