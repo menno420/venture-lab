@@ -177,6 +177,31 @@ jobs:
       - name: catalog D-ref guard tests (pass-case on the tree + mispoint catch-case)
         working-directory: scripts
         run: python3 -m unittest test_check_catalog_drefs -v
+  owner-queue-idempotence-guard:
+    # REQUIRED gate (ENG-6). Pins the IDEMPOTENCE of the generated
+    # docs/publishing/OWNER-QUEUE.md under scripts/derive_owner_queue.py: the
+    # committed queue must be byte-identical to a fresh regeneration over its
+    # current inputs (the §7 ⚑ OWNER-GATE blocks of docs/publishing/vetting/*.md
+    # plus ⚑ OWNER conflicts in keyword-map.md). Machine-catches the class that
+    # CAUSES a D-ref mispoint — a hand-edit to the generated file, or an input
+    # packet drifting without a regen — which is upstream of the catalog-dref-guard
+    # above (that one catches a mispoint AFTER a regen introduces it; this one
+    # prevents the regen/hand-edit from silently introducing it, completing the
+    # #244/#245 safety story). The guard drives derive_owner_queue's OWN parser +
+    # render so it can never drift from the generator it guards; the unittest adds
+    # hand-edit + input-drift catch-cases proving the guard fires. Stdlib-only,
+    # system python3. Contract: the scripts/check_owner_queue_idempotent.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: owner-queue idempotence guard (checker on the live tree)
+        run: python3 scripts/check_owner_queue_idempotent.py
+      - name: owner-queue idempotence guard tests (live-tree green + hand-edit/input-drift catch-cases)
+        working-directory: scripts
+        run: python3 -m unittest test_check_owner_queue_idempotent -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated
