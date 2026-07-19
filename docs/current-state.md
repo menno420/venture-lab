@@ -6,11 +6,12 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-17 for the fresh-start cleanup (main HEAD `9edfcba`, latest
-> merged PR #218 — the fresh-start cleanup itself; facts re-verified at live
-> GitHub). This restamp REPLACES the earlier EAP-era snapshots (archive/reboot
-> narratives, kill-clock console dates) — those described a timeline that no
-> longer governs.
+> Restamped 2026-07-18 to current HEAD (main HEAD `7d5229f`, latest merged
+> PR #253; facts re-verified against the tree and git log). This supersedes the
+> 2026-07-17 fresh-start restamp (which named HEAD `9edfcba` / PR #218 and the
+> 38-proposal overnight menu as the standing backlog) — that stamp was ~7 merges
+> behind by the time #242 and #246–#253 landed. Earlier EAP-era snapshots
+> (archive/reboot narratives, kill-clock console dates) remain retired.
 
 ## Platform wind-down (read first)
 
@@ -41,17 +42,27 @@
   buyer self-hosts. "Publishing" is a manual **owner** action (upload a dist zip
   to Gumroad, post the listing) — never a deploy.
 
-## What is true now (2026-07-17)
+## What is true now (2026-07-18)
 
-- **main HEAD `9edfcba`, latest merged PR #218** — the fresh-start cleanup
-  (`docs/current-state.md` ledger rewrite + `NEXT-TASKS.md`). Aside from this
-  restamp PR, no other work is in flight.
-- **main HEAD `2348575`, PR #216** — the overnight planning menu:
-  a veto-ready set of **38 proposals** at
+- **main HEAD `7d5229f`, latest merged PR #253** — MISC-3, the live-SKU
+  kill-clock decision packet. A full 2026-07-18 wave (#219–#253) landed after the
+  2026-07-17 fresh-start stamp; the merges this ledger now reflects are #242 and
+  #246–#253. Aside from this restamp PR, verify anything else in flight from the
+  live PR list rather than trusting a printed snapshot.
+- **Standing backlog — the 64-item veto-ready menu.** The current next-task
+  backlog is
+  [`ideas/2026-07-18-veto-ready-menu.md`](ideas/2026-07-18-veto-ready-menu.md)
+  (#247): a deliberately excessive, veto-ready set of **exactly 64 proposals**
+  (64 `###` blocks across seven areas — new SKUs · bundles · lead magnets ·
+  engineering leverage · distribution/ops · book path · misc), each with
+  pitch · S/M/L · risk/reversibility · what-it-unblocks · owner-gate status. The
+  owner's veto is the filter; survivors become claimed slices. It REFERENCES and
+  EXTENDS the next-wave roadmap and the older menu rather than re-deriving them.
+- **Superseded/historical — the 38-proposal overnight menu.** The earlier
   [`ideas/2026-07-17-overnight-menu.md`](ideas/2026-07-17-overnight-menu.md)
-  (Product P-1…P-12 · Publishing PUB-1…PUB-9 · Revenue REV-1…REV-8 ·
-  Ops OPS-1…OPS-9). It is the standing next-task backlog; the curated,
-  owner-actionable digest of it (plus the go-live owner steps) is
+  (38 proposals, PR #216) is **no longer the standing backlog** — it is retained
+  as history and is extended by the 64-item veto menu above. The curated,
+  owner-actionable digest (plus go-live owner steps) is still
   [`NEXT-TASKS.md`](NEXT-TASKS.md).
 - **Routines / triggers: none live, none re-armed.** The EAP-era session-bound
   triggers (grading cron, failsafe, pacemaker) died with their archived
@@ -66,30 +77,46 @@
   for that seat, or accept observe-only. (Per-seat token wall, not repo-wide — the
   coordinator seat pushed/landed normally through #216.)
 
-## Products & revenue (2026-07-17)
+## Products & revenue (2026-07-18)
 
 Every publish/spend step is **owner-gated** — the entry point is
 [`publishing/OWNER-QUEUE.md`](publishing/OWNER-QUEUE.md) (generated; re-run
 `scripts/derive_owner_queue.py` after any packet change). At the last regen it
-queues **19 decisions (D1–D19, each with a bolded default) + 45 publish
-sequences (19 hard-gated) = 268 unchecked owner clicks.** The seat performed
-none of them.
+queues **28 decisions (D1–D28, each with a bolded default), followed by the
+owner-gated publish click-run sequences.** (The prior 19-decision / "268 clicks"
+figure predated the CORS fold and the later kits — read the exact current totals
+from the generated file rather than trusting a number copied here.) The seat
+performed none of them.
 
 - **1 LIVE product — Stripe Webhook Test Kit $29** on Gumroad (launched
   2026-07-12, measurement mode). Kill clock: **T+7 funnel checkpoint 2026-07-19,
   T+14 kill-rule 2026-07-26** (≥1 organic sale OR ≥1 qualified inbound, else
-  pause/delist). 0 organic sales to date — distribution is the binding
-  constraint. Record:
+  pause/delist). 0 organic sales recorded — distribution is the binding
+  constraint (Gumroad views/sales are owner-dashboard-only; agent surfaces do not
+  see them). The T+7/T+14 call is now pre-chewed: a funnel diagnostic
+  [`launch/funnel-diagnostic.md`](launch/funnel-diagnostic.md) (#252, separating
+  traffic vs copy vs price) and a keep/iterate/delist decision packet
+  [`launch/kill-clock-decision-packet.md`](launch/kill-clock-decision-packet.md)
+  (#253, kill rule quoted verbatim). Record:
   [`launch/stripe-webhook-test-kit/LAUNCH-LOG.md`](launch/stripe-webhook-test-kit/LAUNCH-LOG.md).
-- **18 publish-READY SKUs** (built + priced + listing drafted + verified;
+- **19 publish-READY SKUs** (built + priced + listing drafted + verified;
   publish clicks owner-gated) — per [`launch/CATALOG.md`](launch/CATALOG.md), the
-  fresh authoritative storefront view (1 LIVE + 18 READY + 3 hard-gated bundles);
-  the full per-SKU list, prices, and queue-decision numbers live there. This
-  supersedes the "10 READY" this 2026-07-17 restamp named, which predated the
-  Slack/Shopify/Auto-Merge-Enabler/Idempotency-Key/Rate-Limit/Pagination/JWT-Auth
-  kits and the Idempotency & Retry Cookbook that landed after the stamp.
-- **2 hard-gated (not publish-ready):** Photo Packs (full-res originals owner-held
-  off-repo) · Ship-It Bundle $59 (gated on component clicks).
+  authoritative storefront view (comparison table = 1 LIVE + 19 READY + 3
+  hard-gated bundles); the full per-SKU list, prices, and queue-decision numbers
+  live there. The newest SKU is the **CORS Preflight Test Kit $29** (#242,
+  ORDER 016 — folded into OWNER-QUEUE as decision D4 by #244), which took the
+  READY count from 18 to 19.
+- **3 hard-gated bundles + Photo Packs (not publish-ready):** Ship-It Bundle $59,
+  Webhook Verifier Bundle $79, and API Robustness Bundle $79 — each gated on its
+  components' publish clicks — plus Photo Packs (full-res originals owner-held
+  off-repo).
+- **Distribution (the binding constraint) — free top-of-funnel discovery
+  assets, NOT sellables.** Four lead-magnet funnel-tops now exist, one per
+  cluster: api-robustness (#243), agent-ops (#246), membership (#250), and
+  AI-Novella (#251) — see `launch/*-lead-magnet.md`. They are governed by the
+  reusable [`launch/DISTRIBUTION-PLAYBOOK.md`](launch/DISTRIBUTION-PLAYBOOK.md)
+  (#249). Each is a free article; posting stays an owner paste-and-post
+  (OWNER-ACTION), never an auto-publish or spend.
 - **Go-live owner steps** for the products that need keys before real money can
   flow (Membership kit's Stripe/Supabase/Discord env, the SWTK kill-clock call,
   the publish clicks) are written as finished steps in
@@ -121,27 +148,49 @@ when a precise count is needed.)
 - **Advisory checks (never gate):** `scripts/check_ledger_drift.py` (ledger vs
   newest merged PR — [`docs/ledger-drift-checker.md`](ledger-drift-checker.md)),
   `scripts/check_kill_clocks.py`, `scripts/lint_owner_gates.py`.
+- **Required D-ref guard (does gate):** `scripts/check_catalog_drefs.py` (#248),
+  wired into `kit-tests.yml` as the `catalog-dref-guard` job — it builds the live
+  decision-ID → SKU map from `OWNER-QUEUE.md` §1 and asserts every allowlisted
+  LIVE D-ref cross-reference resolves and points at the SKU its context names,
+  machine-catching the OWNER-QUEUE renumber-mispoint class (the #244/#245 class).
 
 ## Recently shipped (newest first)
 
-(Merged work only, newest first.)
+(Merged work only, newest first. Squash SHAs verified via git log.)
 
-- Coordinator seat close-out heartbeat (PR #217, squash `16cec26`).
-- Overnight planning menu — 38 veto-ready proposals + owner-order record +
-  hygiene + heartbeat restamp (PR #216, squash `2348575`).
-- nl_NL hunspell spellcheck pass over the 4 NL manuscripts + capability
-  discovery (PR #215, squash `98f81d3`).
-- Pre-QA notes + length-band prep — shrink the owner's cold NL proofread read
-  (PR #214, squash `973fb05`).
-- OWNER-QUEUE: recognise the ⚑ native-speaker proofread gate as HARD-GATED
-  (16 → 19; PR #213, squash `9473e5f`).
-- Owner-queue / current-state fixes (#210–#212) and the seat-digest generator
-  (#209) — see git log.
-- The Salt Bell EN packet — owner-click-ready in one slice (PR #211).
-- Session ender 2026-07-15 — final heartbeat + claim release (PR #205,
-  squash `021cba9`).
-- Earlier history (#141–#204): 2026-07-13/14/15 night+day runs — see git log
-  and prior snapshots of this file.
+- MISC-3 — live-SKU kill-clock decision packet: a pre-written
+  keep/iterate/delist packet for the LIVE SWTK's T+14 call (2026-07-26), kill
+  rule quoted verbatim, consuming (not duplicating) #252's diagnostic
+  (PR #253, squash `7d5229f`).
+- DIST-3 / REV-2 — funnel diagnostic: an honest, repo-grounded read of why the
+  one LIVE listing has zero organic sales, separating traffic vs copy vs price
+  for the T+7/T+14 checkpoints (PR #252, squash `cb4ef3a`).
+- LM-2 — AI-Novella / writing-tools cluster free lead-magnet article
+  (PR #251, squash `25f1444`).
+- LM-1 — membership / boilerplate cluster free lead-magnet article
+  (PR #250, squash `f043c58`).
+- DIST-1 — reusable `DISTRIBUTION-PLAYBOOK.md` distilling the #243/#246
+  lead-magnet recipe into a fill-in-the-blank template (PR #249, squash
+  `e8d688e`).
+- `check_catalog_drefs.py` D-ref guard + test, wired as the required
+  `catalog-dref-guard` CI job — machine-catches the OWNER-QUEUE renumber-mispoint
+  class (PR #248, squash `2705da8`).
+- Veto-ready planning menu — the 64-proposal owner-morning deliverable, now the
+  standing backlog (PR #247, squash `cde8f6d`).
+- Free agent-ops / fleet cluster lead-magnet article + distribution drafts
+  (PR #246, squash `661ffce`).
+- CORS Preflight Test Kit $29 — new sellable dev-tool SKU (ORDER 016)
+  (PR #242, squash `3d295b2`).
+- Between #242 and #246: the api-robustness free lead magnet (#243), the CORS
+  OWNER-QUEUE fold to D4 (#244), and the bundle D-ref resync (#245) — see git
+  log.
+- Earlier 2026-07-18 wave (#219–#241): docs restamps, ORDER 016, Slack &
+  Shopify kits, Auto-Merge/Idempotency cookbooks, Rate-Limit / Pagination / JWT
+  Auth / Idempotency-Key kits, Webhook Verifier & API Robustness bundles,
+  storefront CATALOG, next-wave roadmap, Paper Orange & Night Kiln audio specs —
+  see git log.
+- Earlier history (#141–#218): the 2026-07-13/14/15 runs and the 2026-07-17
+  fresh-start cleanup — see git log and prior snapshots of this file.
 
 ## Review rhythm
 
