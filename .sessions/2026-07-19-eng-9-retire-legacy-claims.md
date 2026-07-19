@@ -1,8 +1,8 @@
 # Session — ENG-9: retire the legacy root `claims/` dir (= OPS-1)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill:model-line]]
+- **📊 Model:** opus-4.8 · medium · mechanical refactor
 - **started (date -u):** Sun Jul 19 00:28 UTC 2026
 - **branch:** `claude/eng-9-retire-legacy-claims`
 - **base:** `main@7ba09d6`
@@ -43,11 +43,42 @@
 
 ## 💡 Session idea
 
-[[fill:idea]]
+💡 **Add a low-severity `claims-legacy-dir-present` advisory that fires when a
+legacy claim dir EXISTS AT ALL — even empty — not only when it holds claim
+files.** Today `claims-legacy-location` fires only on `*.md` claim FILES in a
+legacy dir (`_work_claim_findings`: `if is_legacy and claim_files:`), so an
+*empty* legacy dir is completely silent — which is exactly the state root
+`claims/` was in for days (README-only, zero claim files) before this PR: the
+footgun sat there un-nudged, and the advisory would only have fired the moment
+some session dropped a claim in the wrong home — i.e. after the collision, not
+before. That silence is why a retirement like this one had to be done by hand
+rather than surfaced by the checker. Recipe: in `claim_scan_dirs`/
+`_work_claim_findings`, when a dir is `is_legacy` and simply *present* (regardless
+of file count), emit a one-line `claims-legacy-dir-present` advisory ("a
+pre-unification claim dir exists at `<rel>/` — retire it or pin it via
+`substrate.config.json` `claims_dir`"), strictly below `claims-legacy-location`
+in severity and still exit-neutral. It makes the *retirement* the checked state,
+not just the *misuse*, so a re-materialized empty `claims/` (an accidental
+`mkdir`, a bad merge) can't silently regress this cleanup. Composes cleanly with
+the existing `claims_dir` pin as the deliberate-home opt-out.
 
 ## previous-session review
 
-[[fill:prev-review]]
+previous-session review: this slice is the hygiene bookend to the #249–#256
+baton. That run was distribution-and-tooling-first: #249's DISTRIBUTION-PLAYBOOK
+templated the funnel-top recipe, #250/#251 (LM-1/LM-2) closed the last two
+uncovered lead-magnet clusters, #252/#253 pre-chewed the live-SKU T+7/T+14 call,
+#254 refreshed the current-state ledger, #255 drew the pre-EAP wind-down plan,
+and #256 turned "which cluster still needs a magnet" into a standing checker.
+Every one of those added or wired a NEW surface; ENG-9 instead *removes* one — it
+collapses the two-claim-home ambiguity the fleet already decided against at EAP
+§6.4 but never cleaned up in venture-lab. Worth flagging forward before the
+2026-07-21 read-only cutover (#255): this was safe precisely because root
+`claims/` was already empty of live claims — the same delete on a dir holding an
+active foreign claim would NOT be a solo call, and the checker gives no
+before-the-fact signal that a legacy dir even exists while empty (the 💡 above is
+that gap). Confirmed the #256 checker still reads clean post-delete: nothing in
+this diff touches the launch docs it scans.
 
 ## Work log
 
@@ -56,5 +87,24 @@
   root `claims/` = README.md only (no live claim files), `control/claims/` =
   README + 7 claim files (canonical). `claims-legacy-location` advisory does
   NOT currently fire (fires only on claim FILES in a legacy dir) but the dir
-  is a live footgun. Born-red card committed (first commit [[fill:card-sha]]),
-  pushed. PR [[fill:pr]] opened READY. Change begins.
+  is a live footgun. Born-red card committed (first commit `414dcde`),
+  pushed. PR #257 opened READY. Change begins.
+- 2026-07-19 — Change: `git rm claims/README.md` (retires the dir — it was the
+  dir's only member) + re-pointed the two live usage references at
+  `control/claims/` (`README.md` directory-map row; `docs/conventions.md`
+  rule 6). Left `bootstrap.py` `LEGACY_CLAIMS_DIRS` intact (fleet-wide legacy
+  detector, not a venture-lab pointer). Committed (`191b3e8`), pushed.
+- 2026-07-19 — Heartbeat: neutral in-flight pointer for PR #257 added to
+  `control/status.md` (`updated:` bumped; other sections + `control/inbox.md`
+  untouched). Committed (`d5c8842`), pushed.
+- 2026-07-19 — `python3 bootstrap.py check --strict` pre-flip = the born-red
+  HOLD only (in-progress Status + 5 unresolved `[[fill:]]` slots); the
+  `claims-legacy-location` advisory is GONE (grep found no match — the retired
+  dir is no longer scanned), and all non-hold checks pass (remaining advisories
+  are pre-existing model-line/seat-digest, non-gating). Re-ran post-flip = EXIT
+  0.
+- 2026-07-19 — Flip to `complete` (this commit): Status badge, 📊 Model line
+  (family-level `opus-4.8`), one 💡 idea (empty-legacy-dir advisory gap), a
+  previous-session review acknowledging the #249–#256 baton, all 5 `[[fill:]]`
+  slots resolved, guard-fire ledger delta committed. Born-red HOLD clears; this
+  last commit releases auto-merge.
