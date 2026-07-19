@@ -1,8 +1,10 @@
 # Session — ENG-7: owner-queue staleness checker
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-- **📊 Model:** [[fill: model line at close-out]]
+![status](https://img.shields.io/badge/status-complete-brightgreen)
+
+- **📊 Model:** Claude Opus (4.x family) · high · test writing
 - **started (date -u):** Sun Jul 19 08:57 UTC 2026
 - **branch:** `claude/eng7-owner-queue-staleness-checker`
 - **base:** `main@f1ab8dc` (post #261 ENG-6 / #262 ENG-5 / #263 ENG-4)
@@ -69,11 +71,66 @@
   generator), `OWNER-START-HERE.md` (the #260 companion), and the ENG-4/5/6 guards +
   their CI jobs it mirrors. Confirmed all three planned invariants hold on the live
   tree before writing the guard. Claim + this born-red card committed. Build begins.
+- 2026-07-19T09:0xZ — **Build.** Added `scripts/check_owner_queue_staleness.py` (imports
+  `derive_owner_queue`, drives its parser for INV-2/INV-3, regexes the two committed
+  docs for INV-1; exit 0 clean / 1 with an itemized per-invariant finding list;
+  `--root` for fixtures) + `scripts/test_check_owner_queue_staleness.py` (20 tests:
+  live-tree-green + each-invariant-actually-applicable (non-vacuous) + per-invariant
+  synthetic catch-cases (dangling D-ref, dangling §, range-upper-bound dangle,
+  other-doc §-ref not-false-red, contradictory T+n arithmetic, malformed date,
+  proofread-row-lost-hard-gate) + skip + end-to-end nonzero-exit). Wired a new REQUIRED
+  `owner-queue-staleness-guard` job into `.github/workflows/kit-tests.yml` (checker on
+  the live tree + unittest), mirroring `funnel-assets-guard` (#263). YAML validated.
+- 2026-07-19T09:0xZ — **Verification.** Checker EXIT 0 on the live tree (no staleness
+  finding). `python3 -m unittest test_check_owner_queue_staleness -v` 20/20 OK.
+  `python3 bootstrap.py check --strict` EXIT 0 (pre-existing seat-digest + model-line
+  advisories on OTHER cards only — none from this slice; this card's model line is the
+  taught three-field form). Reverted the local `.substrate/guard-fires.jsonl` telemetry
+  append to keep the PR scoped. No queue content invented.
+- 2026-07-19T09:0xZ — Flip to `complete` (this commit): Status badge, 📊 Model line
+  (family-level, task-class `test writing`), one 💡 idea, previous-session review, all
+  `[[fill:]]` slots resolved. Born-red HOLD clears.
 
 ## 💡 Session idea
 
-[[fill: one genuine session idea at close-out]]
+💡 **The three staleness invariants are hand-picked structural checks; promote the
+"what is a stale-able cross-ref / dated token" set to a declared queue-consistency
+MANIFEST so a fourth staleness class (or a new dated-token convention) is registered,
+not silently unguarded.** INV-1 hard-codes that the companion cites `§N`/`D<n>` into
+`OWNER-QUEUE.md`; INV-2 hard-codes the `T+<n>` day-offset convention as the only
+dated-token shape it reconciles. Both are correct for today's two artifacts, but the
+moment a THIRD owner-facing doc starts citing the queue (a launch-hour sequencer, a
+storefront hub), or a checkpoint adopts a `D+<n>`/`W+<n>` offset, the new refs/tokens
+pass unchecked — the guard silently narrows rather than reds. Guard recipe: add a
+`docs/publishing/QUEUE-CONSISTENCY-MANIFEST.md` (or a `consistency:` block in the
+SKU-REGISTRY the ENG-4/ENG-5 cards propose) declaring (a) which docs are "queue
+companions" whose `§`/`D` refs must resolve, and (b) the recognised dated-offset token
+grammars and their anchor rules; have
+`check_owner_queue_staleness.py::check_companion_crossrefs` iterate the declared
+companion list instead of the single `COMPANION_REL` constant, and
+`check_checkpoint_consistency` load the offset grammars from the manifest; add a
+`test_*` catch-case (manifest names a companion whose ref dangles → guard fires; a
+companion NOT in the manifest → advisory, not red). That converts "which cross-refs and
+dated tokens can go stale" from three script-local constants into a declared,
+scaffold-visible contract the next artifact registers into.
 
 ## previous-session review
 
-[[fill: previous-session review at close-out]]
+previous-session review: `.sessions/2026-07-19-eng4-funnel-asset-checker.md`
+(PR #263, `f1ab8dc`) — added the REQUIRED `funnel-assets-guard` asserting every
+shippable kit's `docs/launch/<sku>/` folder carries the full required funnel-asset set
+(landing/sales copy + owner publish action), one level DOWN from ENG-5's
+built-registered guard. Solid, honestly-scoped work: it inferred the required asset set
+from the live tree (two naming conventions, role-satisfied-by-any-filename) rather than
+assuming one, refused to invent launch copy to force a green (reported "no
+missing-asset finding" plainly), and mirrored #262's job shape. I followed its three
+best habits here: (1) reuse the upstream signal rather than re-derive it — ENG-4 reused
+ENG-5's `dist/` BUILD_MARKER; I reused `derive_owner_queue`'s parser + `PROOFREAD_GATE_RE`
+so this guard can never disagree with the generator it guards; (2) prove non-vacuity —
+ENG-4's `test_live_tree_actually_saw_built_skus`; I added an `actually_applicable` test
+per invariant so a future tree that quietly stops exercising one can't pass as a silent
+skip; (3) report known-current-state truthfully — no staleness was found and none was
+manufactured. One thing I'd carry forward from ENG-4's own 💡: it wanted a declared
+funnel-asset manifest to replace hand-maintained filename lists; my 💡 above is the
+same shape applied to cross-ref/dated-token conventions — the two should converge into
+one repo-consistency manifest rather than three parallel per-guard ones.
