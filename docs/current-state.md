@@ -6,12 +6,14 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-18 to current HEAD (main HEAD `7d5229f`, latest merged
-> PR #253; facts re-verified against the tree and git log). This supersedes the
-> 2026-07-17 fresh-start restamp (which named HEAD `9edfcba` / PR #218 and the
-> 38-proposal overnight menu as the standing backlog) — that stamp was ~7 merges
-> behind by the time #242 and #246–#253 landed. Earlier EAP-era snapshots
-> (archive/reboot narratives, kill-clock console dates) remain retired.
+> Restamped 2026-07-19 to current HEAD (main HEAD `d776fd7`; latest merged
+> PRs #274 — the 5 KDP-ready book packages — and #275 — the transition dossier;
+> facts re-verified against the tree and git log). This supersedes the 2026-07-18
+> restamp (which named HEAD `7d5229f` / PR #253), which was ~10 merges behind after
+> the 2026-07-19 book-sequel wave (#268–#272), the end-of-session heartbeat (#273),
+> the KDP-ready packages (#274), and the transition dossier (#275) landed. Earlier
+> EAP-era snapshots (archive/reboot narratives, kill-clock console dates) remain
+> retired.
 
 ## Platform wind-down (read first)
 
@@ -42,13 +44,14 @@
   buyer self-hosts. "Publishing" is a manual **owner** action (upload a dist zip
   to Gumroad, post the listing) — never a deploy.
 
-## What is true now (2026-07-18)
+## What is true now (2026-07-19)
 
-- **main HEAD `7d5229f`, latest merged PR #253** — MISC-3, the live-SKU
-  kill-clock decision packet. A full 2026-07-18 wave (#219–#253) landed after the
-  2026-07-17 fresh-start stamp; the merges this ledger now reflects are #242 and
-  #246–#253. Aside from this restamp PR, verify anything else in flight from the
-  live PR list rather than trusting a printed snapshot.
+- **main HEAD `d776fd7`, latest merged PRs #274 and #275** — the 5 KDP-ready book
+  packages (#274) and the transition dossier (#275), on top of the 2026-07-19
+  book-sequel wave (#268–#272) and the end-of-session heartbeat + stale-claim
+  prune (#273). The prior stamp (`7d5229f` / #253, MISC-3 kill-clock packet) was
+  ~10 merges behind. Aside from this restamp PR, verify anything else in flight
+  from the live PR list rather than trusting a printed snapshot.
 - **Standing backlog — the 64-item veto-ready menu.** The current next-task
   backlog is
   [`ideas/2026-07-18-veto-ready-menu.md`](ideas/2026-07-18-veto-ready-menu.md)
@@ -134,6 +137,23 @@ cannot clear it (19 OWNER-QUEUE rows are hard-gated on it). Vetting via
 here to avoid a recurring drift class — re-derive from the `candidates/` tree
 when a precise count is needed.)
 
+- **The Night Kiln cozy-fantasy line is now a complete 5-book series** (Books 1–5;
+  a Book 6 is planted but unwritten — do not list it as available), and **the
+  Lull / DREAMLINE middle-grade portal-fantasy trilogy is complete** (Books 1–3).
+  Both closed in the 2026-07-19 sequel wave (#268–#272), alongside *Ultramarine*
+  Book 2 *The Blue and the White* (a second Delft historical novel).
+- **KDP-ready packages (5) — a new artifact class (#274).** Each of the five new
+  sequels has an upload-ready package under `candidates/.../kdp-ready/`: a
+  `MANUSCRIPT-KDP.md` (upload-ready), a paste-ready `KDP-METADATA.md`, and a
+  `SELF-EDIT-PASS.md` self-edit log. Still owner-gated on the native-speaker
+  proofread, a `keyword-map.md` §3 reservation, and a full vetting packet before
+  any listing. The owner-facing publish steps are in
+  [`publishing/OWNER-START-HERE.md`](publishing/OWNER-START-HERE.md) §4.
+- **Cutover read (#275):** [`publishing/TRANSITION-DOSSIER.md`](publishing/TRANSITION-DOSSIER.md)
+  is the single neutral read of the whole venture state at the 2026-07-21
+  read-only cutoff — every sellable + status, every book property + next hook, the
+  open owner decisions, the asset map, and the post-cutoff resume path.
+
 ## Stability baseline
 
 - **Landing path (current):** born-red session card → READY (non-draft)
@@ -158,6 +178,19 @@ when a precise count is needed.)
 
 (Merged work only, newest first. Squash SHAs verified via git log.)
 
+- Owner steps for the 5 KDP-ready sequels + this current-state / heartbeat
+  refresh (this PR — the final PR of the 2026-07-19 consolidation pass).
+- KDP-ready packages for the 5 new sequels — `MANUSCRIPT-KDP.md` +
+  `KDP-METADATA.md` + `SELF-EDIT-PASS.md` under `candidates/.../kdp-ready/`
+  (PR #274, squash `d776fd7`).
+- Transition dossier — one neutral cutover read of the whole venture state at the
+  2026-07-21 read-only cutoff (PR #275, squash `60e9e23`).
+- End-of-session heartbeat + stale-claim prune (PR #273, squash `2be4065`).
+- 2026-07-19 book-sequel wave (#268–#272): Night Kiln Book 4 *The Winter Wheel*
+  (#269) and Book 5 *The Spring Cup* (#272, squash `c6b6310`); Lull Book 2 *The
+  Mirror City* (#268) and Book 3 *The Fourth Hour Comes* (#271); Ultramarine Book 2
+  *The Blue and the White* (#270) — completing the Night Kiln 5-book series and the
+  Lull trilogy; see git log for the remaining squash SHAs.
 - MISC-3 — live-SKU kill-clock decision packet: a pre-written
   keep/iterate/delist packet for the LIVE SWTK's T+14 call (2026-07-26), kill
   rule quoted verbatim, consuming (not duplicating) #252's diagnostic
