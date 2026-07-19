@@ -1,0 +1,1 @@
+- `claude/prune-stale-claims` · **Prune 7 stale claim files (merged branches) + refresh status heartbeat** · control/ · 2026-07-19

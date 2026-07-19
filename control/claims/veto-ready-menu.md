@@ -1,1 +1,0 @@
-- `claude/veto-ready-menu` · **Veto-ready planning menu (owner morning deliverable, planning-only)** · docs/ideas/ · 2026-07-18
