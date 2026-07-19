@@ -1,5 +1,75 @@
 # Decisions — The Night Kiln
 
+## Book 4 — The Winter Wheel (2026-07-19, day run)
+
+Book 4 of the series (`en/the-winter-wheel.md`), written to pay the book-4 hook
+planted in Book 3's closing pages (Grams Ilsabet's first pot on the private
+shelf: *"What did Grams Ilsabet keep in her own first pot?" / "Wash your hands.
+That's a winter story."*). Complete standalone novella, honest `wc -w` =
+**15,580** (includes front matter and chapter headings), 12 chapters, THE END.
+Model: **Claude Opus** (family-level attribution).
+
+- **Title** — ***The Winter Wheel*** (subtitle *A Cozy Fantasy Novella · The
+  Night Kiln, Book Four*). Keeps the series' object-per-book / season-marker
+  compound convention (Night Kiln / Morning Door / Harvest Rows → Winter Wheel):
+  the potter's *wheel* where a first pot is thrown, the *wheel* of the year turned
+  to deep winter, and the *wheel* of succession from one witch to the next. The
+  season progression Night → Morning → Harvest → Winter is honoured.
+- **Vessel** — Perrin's first pot, thrown to be the new home for the keeping in
+  Grams Ilsabet's cracked first pot. One fired vessel per book holds: book 1 the
+  keystone, book 2 the jar, book 3 the dish, book 4 the first pot. The fired
+  vessel of the book is Perrin's pot; Ilsabet's original first pot is finally
+  read/heard and then returned to the river clay (handed on, not kept).
+- **Fulfils the planted hook, exactly** — The answer to "what did Grams Ilsabet
+  keep in her own first pot?" is her dead mother's cradle-song, fired for her by
+  the witch-before (Grams Wenna, established via ledger) the Wintermark eve seven-
+  year-old Ilsabet came to Wenholt an orphan out of a snowstorm. Reframes the
+  series' governing craft-truth: *a witch's first pot is not one she fills; it is
+  one filled for her, so the first thing a keeper owns is proof she was kept* —
+  the craft is a mercy received before it is a skill given.
+- **No fifth temper** — The four firing tempers **keep/take/give/mend** stay
+  closed across the seasonal poles (Book 3's completion is NOT reopened). Book 4's
+  firing is a *flitting*: the give-back temper (Book 2) run end-to-end into a keep
+  (Book 1) to move a keeping from a dying vessel into new clay — a new *use* of
+  existing craft, not a new pole. The new catechism line — ***And what one hand
+  throws, another hand fills — for a first pot is not one you fill alone.*** — is a
+  **succession / first-pot rule**, deliberately not a temper line; byte-consistent
+  at both occurrences (ch. 11 ledger, ch. 12 close), appended to the three
+  inherited lines.
+- **Structure/register** — Same POV/tense/structure as Books 1–3: close third on
+  Edda, past tense, 12 chapters, byte-identical rule-sentence opening, aphoristic
+  chapter openers, cozy contract kept (no violence; low-stakes-but-true conflict —
+  a beloved relic cracking in a killing frost, and a boy's making). Reveal built
+  across ch. 4 (the two wrong answers), ch. 5 (Wenna's ledger entry — the
+  foundling winter, discovered not received), ch. 7 (the give-back reception — the
+  full cradle-song), ch. 9–11 (Perrin fires it as his own first pot and is made a
+  witch). Denouement returns the emptied pot to the clay-pit.
+- **Griet border held** — No cure; the ferry-house's two lamps (porridge bowl +
+  mended dish) carried forward; Griet's one clear evening at the ferry is where
+  the Book-5 hook is spoken, gently narrated, no living memory-loss touched by fire.
+- **Book-5 hook planted** — The unclaimed wedding cup that hums (planted Book 1
+  ch. 7 museum; still on the shelf per Book 3's close): a granddaughter who
+  "inherited the not-happening" of a wedding that never was, who thinks about it
+  every spring and will one brave spring cross the water to ask whether a fire can
+  fire a thing that never happened. "That's a spring story." (Planted, unwritten —
+  planted the way Book 3 planted Book 4.)
+- **⚑ Length-band note (2026-07-19)** — Book 4 is written at **Book-1/2 parity
+  (~15.6k)**, not the packet's ~20k–30k band, consistent with the standing
+  owner-queued length question (`LENGTH-BAND-PREP.md`; DECISIONS "OWNER — Length
+  call"). No new owner-queue item; the series now sits 15,999 / 15,995 / 23,334 /
+  15,580 pending the owner's one-word ratify. Recorded as continuity with the
+  existing flag, not a new decision.
+- **⚑ Publishing — owner-gated** — Nothing published, no accounts touched, no SKU
+  registered, no generated files edited, no Gumroad/KDP action. Cover brief
+  (`book-4-cover-brief.md`) and listing copy (`book-4-listing-copy.md`) are
+  production/marketing prep only; the publish clicks remain the owner's per vetting
+  packet §7. Keywords reserved name-level only.
+- **Files** — NEW `en/the-winter-wheel.md`; NEW `series-arc.md` (first series-arc
+  doc for the property — Book-4 entry + hook chain + Book-5 plant); NEW
+  `book-4-cover-brief.md`; NEW `book-4-listing-copy.md`; this DECISIONS append.
+- **Production/metering** — Drafted single day session, isolated clone, one
+  writer; no parallel workers on the manuscript.
+
 ## Book 3 NL edition — De Oogstslag (2026-07-14, night NL-final run)
 
 Dutch edition of Book 3 (`versions/nl-book-3/de-oogstslag.md`, complete, honest `wc -w` = **24,655**, +5.7% over the 23,334-word EN source, translated AS WRITTEN — the Book-2 ⚑ length-band question below stays untouched). Run under ORDER 011 (EAP final night, NL-completion remainder).
