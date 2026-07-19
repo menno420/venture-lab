@@ -318,6 +318,27 @@ jobs:
       - name: docs link/anchor guard tests (live-tree green + per-invariant catch-cases)
         working-directory: scripts
         run: python3 -m unittest test_check_docs_links -v
+  sku-registry-module-tests:
+    # REQUIRED gate. Tests scripts/sku_registry.py — the ONE authoritative source of
+    # storefront-SKU inference that the ENG-5 built-registered-guard and the ENG-4
+    # funnel-assets-guard now BOTH import (registry constants, the dist/ BUILD_MARKER,
+    # the two documented allowlists, and the built/launch/vetting/catalog/funnel
+    # enumeration). It is a shared MODULE, not a guard with a live-tree checker of its
+    # own — its verdict surfaces through the two guard jobs above, which re-run the
+    # refactored guards + their unchanged tests on the live tree. This job pins the
+    # module's own contract (enumeration, built/registered/funnel facts, allowlist
+    # values, catalog whole-token match, fixture-root isolation, live-tree
+    # non-vacuity), mirroring the guard-test step pattern. Stdlib-only, system python3.
+    # Contract: the scripts/sku_registry.py docstring.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: sku_registry module tests (enumeration + built/registered/funnel facts + allowlists + isolation)
+        working-directory: scripts
+        run: python3 -m unittest test_sku_registry -v
   owner-gate-lint-advisory:
     # ADVISORY ONLY — never a required gate. The step is
     # continue-on-error, so a red lint flags without blocking unrelated
