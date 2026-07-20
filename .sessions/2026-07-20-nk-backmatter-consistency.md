@@ -1,6 +1,6 @@
 # Session — Night Kiln back-matter consistency fix slice
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · medium · docs-only (owner-surface consistency)
 
@@ -56,12 +56,44 @@ the single canonical bio slot for true uniformity across all 7.
   prior fixes present (placeholder normalization + TRANSITION-DOSSIER restamp),
   branched `claude/nk-backmatter-consistency`. Born-red card + claim committed
   FIRST to arm the substrate-gate HOLD before any fix lands.
-  Bootstrap result: [[fill: bootstrap check --strict exit code at close]].
+  Bootstrap result: `python3 bootstrap.py check --strict` returned **EXIT 1
+  on the born-red HOLD only** while the card sat in-progress (HOLD-by-design
+  banner: "nothing to investigate"); no other guard fired on this diff. After
+  this `complete` flip the same command returns **EXIT 0** — the born-red HOLD
+  clears (all other findings are pre-existing non-gating advisories: 2
+  seat-digest, 7 model-line on OTHER cards). Docs+manuscript-only diff — no
+  code touched, so pytest skips per convention. `.substrate/guard-fires.jsonl`
+  left UNSTAGED to keep the diff scoped (matches the owner-surface-qa /
+  ultramarine-book3 sibling-card precedent).
+- 2026-07-20 — Flip to `complete` (this commit): Status badge flipped, Model
+  line kept at a valid PL-004 class (`docs-only`), 💡 idea + previous-session
+  review added, the one `[[fill:]]` slot resolved. This flip is the LAST commit
+  and releases the landing workflow — do NOT merge by hand.
 
 ## 💡 Session idea
 
-_(to be filled at close)_
+💡 **A `series-count` back-matter guard that fails (advisory first, then gating)
+when a `kdp-ready/*/MANUSCRIPT-KDP.md` back-matter asserts a series is
+_complete_/_final_ at a book count that the live `candidates/*/kdp-ready/` tree
+has already outgrown.** This slice's FIX 1 existed because Book 6 shipped (#279)
+while Book 5's "About the series" still hard-coded "the five-book cycle is
+complete / no sixth book waiting" — a claim no check could see go stale. Recipe:
+a tiny stdlib checker that, per series directory, counts the `book-N/` packages
+present and greps each book's back-matter for a "final / last / complete /
+N-book cycle" assertion; it passes only when no earlier book claims finality at
+a count below the highest `book-N/` on disk. The same signal already lives in
+`docs/current-state.md` ("now a 6-book series"), so the guard and the catalog
+agree by construction, and the next sequel that lands can't silently leave its
+predecessor's back-matter claiming the series ended.
 
 ## previous-session review
 
-_(to be filled at close)_
+previous-session review: `2026-07-20-owner-surface-qa.md` (the immediately-prior
+owner-surface slice) is the direct parent of this one — it fixed the KDP
+placeholder field-TYPES and explicitly logged BOTH of this slice's defects as
+out-of-scope follow-ups (Bk5 stale series note + About-the-author name-vs-bio
+shape). I reused its exact landing discipline (born-red card + claim first,
+content second, `complete` flip last as the single releasing commit,
+guard-fires left unstaged) and honored its own carry-forward lesson by pinning
+this card's Model line to a real PL-004 class (`docs-only`) rather than a
+free-text label, so it trips no `model-line-class` advisory.
