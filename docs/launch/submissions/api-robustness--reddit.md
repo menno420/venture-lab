@@ -2,6 +2,21 @@
 
 > **Status:** `reference`
 
+> **⚑ EDITORIAL NOTE — removal risk on r/webdev (read before posting).** r/webdev
+> enforces self-promotion limits, and moderators there routinely remove a *first*
+> text post that ends in a product/store link — even a soft, single disclosure
+> line like the one at the foot of this body — as self-promo, regardless of how
+> much the post teaches first. The teaching content here is genuinely value-first,
+> which mitigates but does **not** eliminate that risk. Honest options, safest first:
+> **(a)** post the body with the final disclosure line **removed entirely** — no
+> store link anywhere in the post (the write-up stands on its own); put any link
+> only in a **reply/comment if asked** or in your **profile**; **(b)** read the
+> subreddit's current rules/wiki and any "self-promo Saturday" or ratio rule and
+> follow it exactly; or **(c)** retarget to a **link-tolerant channel** (e.g.
+> r/webhooks, r/SaaS, r/LLMDevs, or your own blog/dev.to cross-post) where a
+> single end-of-post link is within norms. Do not add the link back into the body
+> just because a placeholder exists. This note is advisory; the file is kept intact.
+
 - **Suggested subreddit:** **r/webdev** — large, tolerant of substantive technical write-ups that teach first. (r/programming is a poor fit: it removes self-posts and self-promo; r/webdev and r/webhooks are the honest homes for this.)
 - **Where to click:** https://www.reddit.com/r/webdev/submit
 - **CTA reminder:** value-first. The teaching IS the post; the single soft product line sits at the very end. No links in the body. Replace `⟨owner: …⟩` before posting, or drop that last line entirely if the sub's rules are strict.
