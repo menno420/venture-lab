@@ -408,7 +408,7 @@ THE END
 
 ## About the author
 
-⟨owner: author name⟩
+⟨owner: author bio⟩
 
 ## A note to readers
 

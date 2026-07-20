@@ -685,7 +685,7 @@ New to Sam's story? Start at the beginning, with **Book One: The Fourth Hour**. 
 
 ## About the author
 
-⟨owner: author name⟩ *(⟨owner: author bio⟩)*
+⟨owner: author bio⟩
 
 ## A review helps
 

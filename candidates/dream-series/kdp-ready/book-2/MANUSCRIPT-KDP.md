@@ -687,8 +687,6 @@ The date has come. At the frozen instant of Pompeii — the hardest-held moment 
 
 # About the author
 
-⟨owner: author name⟩
-
 ⟨owner: author bio⟩
 
 ## A review helps
