@@ -1,5 +1,110 @@
 # Decisions — The Night Kiln
 
+## Book 6 — The Summer Ember (2026-07-20, day run)
+
+Book 6 of the series (`en/the-summer-ember.md`), written to pay the book-6 hook
+planted in Book 5's closing pages (the cold far-side Stonebeck kiln, dead thirty
+years and more; a single pot come down in Brida's family that "holds something" but
+has had no witch to hear it in a lifetime: *"could a fire on this side ever hear what
+a dead fire on that side kept — can a keeping wait longer than the witch who made
+it?" / "that's a summer story."* — flagged as a *young* witch's crossing, Perrin's,
+over the water the other way). Complete standalone novella, honest `wc -w` =
+**15,659** (includes front matter and chapter headings), 12 chapters, THE END. Model:
+**Claude Opus** (family-level attribution).
+
+- **Title** — ***The Summer Ember*** (subtitle *A Cozy Fantasy Novella · The Night
+  Kiln, Book Six*). Keeps the series' object-per-book / season-marker compound
+  convention (Night Kiln / Morning Door / Harvest Rows / Winter Wheel / Spring Cup →
+  Summer Ember): the **ember** is the far fire's last live coal, the coal carried
+  across the water to relight it, and the keeping banked unheard a lifetime like an
+  ember under ash; the **summer** completes the season progression Night → Morning →
+  Harvest → Winter → Spring → **Summer** (high summer, low water, midsummer). Distinct
+  object from the five prior vessels; the fired vessel of record is the Stonebeck pot
+  (title ≠ vessel, as in Books 1/3).
+- **Vessel** — Sabra of Stonebeck's own last-firing pot (cracked, failing) off a cold
+  far-bank cupboard, **heard** and then **flitted** into a new pot Perrin throws and
+  fires on the far bank. One fired vessel per book: keystone / jar / dish / first pot
+  / wedding cup / **the far pot**. The old cracked pot's body is ground into the new
+  one's seam (Book-3 seam mechanic); the new lantern-marked pot stays on the far bank
+  (the keeping is home, mirror-inverse of Book 5's love going *to* Stonebeck).
+- **Fulfils the planted hook, exactly** — The answer to "could a fire on this side
+  hear what a dead fire on that side kept — can a keeping wait longer than the witch
+  who made it?" is **yes**: a keeping lives in the clay, not the fire that made it, so
+  it waits, whole and unleaked, past the death of its maker's fire (Book 5's "a true
+  thing kept doesn't leak" carried one turn further — past the *fire's* death, not just
+  the keeper's). Hearing needs no fire (Perrin hears the cold pot); catching it into
+  sound clay does — so the far fire is **relit** from a living Wenholt coal carried
+  over the water. What Sabra kept turns out to be not a grief but a **map**: the
+  midsummer bridge night when young Sabra and young Ilsabet (Edda's own teacher) each
+  carried a coal out and lit one lantern from two fires, swearing the two banks one
+  craft — kept last of all so that whoever the fire finally sent would know to carry a
+  coal across and relight the cold hearth from its sister. Grounds the far side in
+  existing lore (Ilsabet's cross-water friend; the Stonebeck bridge that fell in the
+  same flood that stopped Nesta's wedding, Book 5).
+- **No fifth temper** — The four firing tempers **keep/take/give/mend** stay closed
+  across the seasonal poles. Book 6's firing is again a *new asking of the old fire*: a
+  give-back (Book 2, to hear the cold pot) and a flit (Book 4, to catch it into new
+  clay before the crack), performed for the first time in a **relit** hearth — a dead
+  far fire woken from a living near coal, which is not a fifth temper but the oldest
+  craft of all (every fire lit from another; no first flame). Stated in-text via the
+  Book-5 line, carried: *we never learn a new fire; we only learn a new thing to ask
+  the old one.* The new catechism line — ***And what one fire keeps, another can wake —
+  for a keeping waits longer than the witch who made it, and no fire is so long cold it
+  cannot be lit again from a living one across the water.*** — is a **keeping-endures /
+  fire-lineage rule**, deliberately not a temper line; byte-consistent at all three
+  occurrences (ch. 7 draft, ch. 10 firing, ch. 12 recital), appended to the five
+  inherited lines (which are **byte-copied** from `the-spring-cup.md`, not retyped).
+- **Structure/register** — Same POV/tense/structure as Books 1–5: close third on
+  Edda, past tense, 12 chapters / 3 implicit acts, byte-identical rule-sentence
+  opening (catechism gloss advanced to "four lines more"), aphoristic chapter openers,
+  `⁂` scene breaks, cozy contract kept (no violence; low-stakes-but-true conflict — a
+  cracking heirloom, a fallen village, a dead friendship, a young witch's first solo
+  crossing). **First crossing the other way**: the story is largely set in Stonebeck;
+  Edda crosses the water for the first time in her life (to witness + visit Sabra's
+  grave), but the craft is **Perrin's** — the young witch's crossing the hook flagged.
+  Series conventions honoured: a telling scene (Wynn's first wade, ch. 9); the
+  **lesser-freight law** proved on a test tile before the true firing (ch. 9); a
+  **seam** built from the story's own substance (far-pit clay + the ground old pot +
+  Sabra's own cold-fire ash + Ler ford water, ch. 7); a **give-back** reception (ch.
+  10); the firing's true hour (ch. 10); a **kiln rebuild** (the Book-1 craft, kinder
+  summer season, ch. 7–8). Reveal built across ch. 2 (Ilsabet's young-hand ledger: the
+  two fires, the friendship, the fallen bridge), ch. 5 (the cold pot heard *whole*),
+  ch. 6 (Sabra's keeping = the bridge map), ch. 7 (the asking worked out).
+- **Griet border held** — No cure; the ferry-house's two lamps (porridge bowl + mended
+  dish) carried forward; Griet's one clear-evening beat (ch. 3 + ch. 12) blesses the
+  fire's crossing and *counts the far hill's new light as the second lamp* — gently
+  narrated, no living memory-loss touched by fire.
+- **Book-7 hook planted (light/organic)** — The woken far fire wants a keeper of its
+  own; a hearth is not truly kept by a witch across a flood-prone water who comes only
+  low-water years. At the far side's first firing, a Stonebeck child (**Wynn**, ~7)
+  tips her head the wrong way and hears the hum. *Could a fire, once relit, raise a
+  keeper of its own on its own bank — the way a dying fire never sent and a warm one
+  might?* Framed as Perrin's long carry (the Ilsabet to her Sabra). Planted lightly,
+  unwritten — may or may not be taken up; Book 6 stands complete without it.
+- **⚑ Length-band note (2026-07-20)** — Book 6 is written at **Book-1/2/4/5 parity
+  (~15.6k)**, consistent with the standing owner-queued length question
+  (`LENGTH-BAND-PREP.md`; DECISIONS "OWNER — Length call"). No new owner-queue item;
+  the series now sits 15,999 / 15,995 / 23,334 / 15,580 / 15,568 / 15,659 pending the
+  owner's one-word ratify. Recorded as continuity with the existing flag, not a new
+  decision.
+- **⚑ Publishing — owner-gated** — Nothing published, no accounts touched, no SKU
+  registered, no generated files edited, no Gumroad/KDP action. Cover brief
+  (`book-6-cover-brief.md`), listing (`book-6-listing.md`), and the `kdp-ready/book-6/`
+  package are production/marketing prep only; the publish clicks remain the owner's per
+  vetting packet §7. Keywords reserved name-level only. Confirmed
+  `check_built_registered.py` (ENG-5) stays green: books are a `candidates/adult-novels/`
+  book-lane dir with **no `dist/` build marker**, so the new files are not "built"
+  inventory and never enter the built/registered correspondence — verified locally
+  (guard exit 0, 12 unit tests pass).
+- **Files** — NEW `en/the-summer-ember.md`; UPDATE `series-arc.md` (Book-6 table row +
+  spine + hook chain [Book-5→6 marked WRITTEN, Book-6→7 planted] + refreshed continuity
+  anchors + tempers paragraph); NEW `book-6-cover-brief.md`; NEW `book-6-listing.md`;
+  NEW `kdp-ready/book-6/` 3-file package (`MANUSCRIPT-KDP.md` [body byte-identical to
+  source], `KDP-METADATA.md`, `SELF-EDIT-PASS.md`); this DECISIONS entry. Plus the
+  born-red card + claim.
+- **Production/metering** — Drafted single day session, isolated worktree, one writer;
+  no parallel workers on the manuscript.
+
 ## Book 5 — The Spring Cup (2026-07-19, day run)
 
 Book 5 of the series (`en/the-spring-cup.md`), written to pay the book-5 hook
