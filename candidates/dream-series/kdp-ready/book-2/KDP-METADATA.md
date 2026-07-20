@@ -39,13 +39,13 @@ The second adventure in Lull — for readers who check whether their own reflect
 
 *Perfect for fans of Rick Riordan's* Percy Jackson*, Shannon Messenger's* Keeper of the Lost Cities*, and Jessica Townsend's* Nevermoor*.*
 
-> **⚑ Genre-scoping reconciliation (flag for the owner / keyword-map follow-up):** the source listing copy is correct for the manuscript — this is a fast, cliff-ended **middle-grade / YA portal-fantasy adventure** (Percy-Jackson register), and the description above matches the actual book. HOWEVER, the series' reservation row in `docs/publishing/keyword-map.md` §3 currently scopes "Lull" as a *"Quiet/literary novella — stillness, small-town hush,"* which is **mis-scoped** against this content. The description, categories, and keywords below follow the manuscript (MG portal-fantasy), not the §3 register. This mismatch must be reconciled (re-scope the §3 row to MG portal-fantasy, or resolve the collision) before any keyword row is claimed in §1. See `SELF-EDIT-PASS.md` §(b) and the prep source-pack §5.
+> **⚑ Genre-scoping reconciliation (flag for the owner / keyword-map follow-up):** the source listing copy is correct for the manuscript — this is a fast, cliff-ended **middle-grade / YA portal-fantasy adventure** (Percy-Jackson register), and the description above matches the actual book. The series' reservation row in `docs/publishing/keyword-map.md` §3 has been **re-scoped to MG portal-fantasy (2026-07-20)** — it previously read *"Quiet/literary novella — stillness, small-town hush,"* which mismatched this content. The description, categories, and keywords below follow the manuscript (MG portal-fantasy) and now agree with the §3 register. Claiming any of these phrases as a §1 ownership row remains an owner/vetting step. See `SELF-EDIT-PASS.md` §(b) and the prep source-pack §5.
 
 ---
 
 ## Keywords (7 slots — provisional; RESERVE / vet before publish)
 
-Drawn from `book2-listing.md`'s free-text search-term list and trimmed to seven KDP phrase slots. **All seven are provisional** — they are NOT yet reserved as ownership rows in `docs/publishing/keyword-map.md` §1, and the series' §3 reservation is mis-scoped (see the flag above). Reserve/vet these before publish.
+Drawn from `book2-listing.md`'s free-text search-term list and trimmed to seven KDP phrase slots. **All seven are provisional** — they are NOT yet reserved as ownership rows in `docs/publishing/keyword-map.md` §1, and the series' §3 reservation has been re-scoped to MG portal-fantasy (2026-07-20; see the flag above) — the §1 ownership claim is still pending. Reserve/vet these before publish.
 
 1. `middle grade fantasy adventure`
 2. `portal fantasy for kids 9-12`
@@ -57,7 +57,7 @@ Drawn from `book2-listing.md`'s free-text search-term list and trimmed to seven 
 
 *Reserve pool (long-tail to A/B test at listing time):* `mirrors and reflections magic`, `is it real or a dream`, `unreliable narrator middle grade`, `time travel adventure kids`, `magic school unconventional`, `historical fantasy Pompeii`.
 
-> **⚑ Keyword-map note:** prep flags that the §3 "Lull" reservation row may be mis-scoped (it describes a quiet literary novella, not MG portal-fantasy). Do NOT claim these phrases as §1 ownership rows until the §3 scope is corrected/reconciled. Keyword reservation is an owner/follow-up step.
+> **⚑ Keyword-map note:** the §3 "Lull" reservation row has been re-scoped to MG portal-fantasy (2026-07-20), so it now matches these phrases. Claiming them as §1 ownership rows is still an owner/follow-up step (do it at vetting time).
 
 ---
 
@@ -99,7 +99,7 @@ Verify exact browse-node paths against KDP's live category tree at listing time 
 
 - Author name / pen name — ⚑ OWNER (unset series-wide).
 - Price and KU enrollment — ⚑ OWNER (above).
-- **Keyword reservation** in `keyword-map.md` (and the §3 mis-scope reconciliation) — owner / follow-up.
+- **Keyword reservation** in `keyword-map.md` §1 — owner / follow-up (the §3 niche mis-scope was reconciled 2026-07-20).
 - **Vetting packet** (`docs/publishing/vetting/<slug>.md`, §1–§7, mirroring `the-paper-orange.md`) — **does not yet exist** for this book; a follow-up step before publish.
 - Cover — brief exists at `candidates/dream-series/book2-cover-brief.md`; production is an owner step.
 - Final publish click and all account/tax setup — owner-gated; nothing here publishes.

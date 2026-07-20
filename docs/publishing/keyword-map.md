@@ -404,7 +404,7 @@ checked against this map at that time.
 
 | Title (plan §7 name) | Reserved niche (name level only) | Notes |
 |---|---|---|
-| Lull | Quiet/literary novella — stillness, small-town hush | Bare word unsearchable; subtitle *"A Novella"* already planned (plan §7). |
+| Lull | Middle-grade portal-fantasy trilogy — dream/mirror worlds, cliff-ended adventure (Percy-Jackson register); COMPLETE, Books 1–3 | Bare word unsearchable; a genre-signalling MG-fantasy subtitle is planned (plan §7). **Re-scoped 2026-07-20** from a stale *"Quiet/literary novella — stillness, small-town hush"* label that mismatched the actual MG content (flagged in the Bk2/Bk3 `KDP-METADATA.md` §3 reconciliation notes). Actual per-title keyword drafting remains an owner/vetting step (§1). |
 | The Last Good Frequency | Post-collapse / analog-nostalgia radio DRAMA — **not** first-contact/alien-signal | **Must NOT reuse The Slow Word's radio/signal/first-contact phrases** — Slow Word owns `radio telescope alien signal story` and `first contact novella`. Reserve the human/apocalyptic radio angle instead (e.g. last-broadcast, ham-radio survival register). |
 | The Undertow | Coastal/psychological suspense | Very strong title collision (plan §7) — rename/subtitle first; niche reserved regardless of final name. |
 | Hollowtide | Seasonal/folk dark fantasy | Strong collision with an active fantasy series (plan §7); genre-signalling subtitle planned. |

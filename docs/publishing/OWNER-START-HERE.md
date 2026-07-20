@@ -229,7 +229,7 @@ waiting, so the remaining path to a live listing is short and owner-only. Ordere
   listing by pasting the labelled fields (title, subtitle, series, description,
   keywords, categories, price, KU) straight from that book's `KDP-METADATA.md`;
   **(3)** upload that book's `MANUSCRIPT-KDP.md` as the manuscript. Set the
-  `⚑ Author name` field (unset across all five — your call, no pen-name is fixed).
+  `⚑ Author name` field (unset across all seven — your call, no pen-name is fixed).
 - **Where:** each book's paste-ready metadata block and upload-ready manuscript
   live in its `kdp-ready/` folder —
   1. The Winter Wheel (The Night Kiln, Bk 4): [`…/the-night-kiln/kdp-ready/book-4/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-4/KDP-METADATA.md)
