@@ -372,9 +372,9 @@ THE END
 
 ## About the series
 
-*The Spring Cup* is the fifth and final Night Kiln novella, and it completes the five-book arc begun in *The Night Kiln*. Book by book, the fire of Wenholt is asked to do a new thing with an old craft — to *keep*, to *give back*, to *mend*, to *hand on*, and at last to keep *the love, not the loss*. With Perrin Loft made a witch and two lamps now lit at the kiln, the arc that opened with one old woman afraid she was the last of her line closes here, in the spring, with the crossing a grandmother could not make completed at last by a braver granddaughter.
+*The Spring Cup* is the fifth Night Kiln novella, and it completes the five-book arc begun in *The Night Kiln*. Book by book, the fire of Wenholt is asked to do a new thing with an old craft — to *keep*, to *give back*, to *mend*, to *hand on*, and at last to keep *the love, not the loss*. With Perrin Loft made a witch and two lamps now lit at the kiln, the arc that opened with one old woman afraid she was the last of her line closes here, in the spring, with the crossing a grandmother could not make completed at last by a braver granddaughter.
 
-There is no sixth book waiting at the end of this one: the five-book cycle is complete. If you have just closed the whole series — thank you for keeping the witch company from Night to Spring.
+But the fire of Wenholt is not done. *The Summer Ember*, Book Six, opens the ground beyond this arc — carrying the craft across the water the other way, to a fallen far bank that had a fire of its own once and lost it. If you have loved the witch's company from Night to Spring, it turns on into summer; and thank you, either way, for keeping her company this far.
 
 And if *The Spring Cup* is the first Wenholt book you have read, you can begin the arc from the beginning with **Book One, *The Night Kiln***, and watch the craft, and its catechism, grow line by line to the fifth.
 
