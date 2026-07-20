@@ -1,0 +1,1 @@
+- `claude/ultramarine-book3` · **Ultramarine Book 3 manuscript + cover/listing + KDP-ready 3-file package (candidates/adult-novels/ultramarine/**)** · candidates/adult-novels/ultramarine/book3/, book3-cover-brief.md, book3-listing.md, kdp-ready/book-3/ · 2026-07-20
