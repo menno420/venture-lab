@@ -4,26 +4,26 @@
 >
 > **Purpose:** one neutral, verifiable snapshot of every sellable, book property, open
 > owner decision, asset location, and the exact post-cutoff resume path for the venture-lab
-> venture — so nothing is lost across the read-only cutover. **State as of 2026-07-19; cutoff
-> 2026-07-21** (the Claude Code Projects EAP goes read-only that day). Live HEAD `2be4065`
-> (PR #273); `python3 bootstrap.py check --strict` green. Compiled read-only — no repo files
+> venture — so nothing is lost across the read-only cutover. **State as of 2026-07-20; cutoff
+> 2026-07-21** (the Claude Code Projects EAP goes read-only that day). Live HEAD `d2d49ec`
+> (PR #281); `python3 bootstrap.py check --strict` green. Compiled read-only — no repo files
 > edited to produce it (this doc + one index row in `docs/publishing/README.md` are the only
 > additions).
 
-## ⚑ Known drift — read this first
+## ⚑ Snapshot currency — read this first
 
-`docs/current-state.md` is **stale vs the live tree**. It is stamped at HEAD `7d5229f` /
-"latest merged PR #253" (restamped 2026-07-18). Live HEAD is `2be4065` / PR #273. Everything
-merged after #253 is **absent from current-state.md**, most importantly:
+This dossier is restamped to the live tree at HEAD `d2d49ec` / PR #281 (2026-07-20). Two book
+sequels landed after the original 2026-07-19 compile — **Ultramarine Book 3** *The Common Blue*
+(#278) and **Night Kiln Book 6** *The Summer Ember* (#279) — so the catalog is now:
 
-- The **5 new book sequels** (#268–#272) — see Section 2.
-- The ENG-pipeline CI guards (#262–#266) and the docs link-integrity checker.
-- The end-of-session heartbeats #267 and #273.
+- **7 new book sequels** (#268–#272, #278, #279) — see Section 2.
+- Night Kiln is a **6-book** cozy-fantasy series (Books 1–6); Ultramarine is a **complete 3-book**
+  Delft trilogy (Books 1–3); Lull (Dreamline) is a **complete MG trilogy** (Books 1–3).
 
-Where current-state.md and the live tree disagree, **trust this dossier and the live tree** (and
-the generated `docs/publishing/OWNER-QUEUE.md`, the authoritative owner-action queue); the drift
-is flagged inline below. `docs/current-state.md` itself states "Source code and merged work always
-win over this file."
+`docs/current-state.md` has since been refreshed to the same 2026-07-20 wave and now carries these
+counts. Where any file and the live tree ever disagree, **trust the live tree** (and the generated
+`docs/publishing/OWNER-QUEUE.md`, the authoritative owner-action queue); `docs/current-state.md`
+itself states "Source code and merged work always win over this file."
 
 ---
 
@@ -83,7 +83,7 @@ packet's §7 and in `docs/publishing/OWNER-QUEUE.md` §2.
 A bundle references its components as *existing live listings*, so it cannot be created until those
 components are published.
 
-**KDP book packages (5 new, upload-ready — arrive with PR1):** see Section 2. Each of the 5 new
+**KDP book packages (7 new, upload-ready):** see Section 2. Each of the 7 new
 sequels now has an upload-ready KDP package (compiled manuscript + KDP metadata block + self-edit
 log). These are book properties on the KDP lane, hard-gated on the owner-only native-speaker
 proofread; they are not Gumroad SKUs.
@@ -101,50 +101,54 @@ proofread; they are not Gumroad SKUs.
 
 Books live under `candidates/`. The binding lever across the whole book catalog is the **owner-only
 native-speaker proofread pass** — an AI cannot clear it; every NL edition packet is hard-gated on it,
-and it is the last human step on the 5 new EN sequels' KDP packages. KDP publishing (account, title
+and it is the last human step on the 7 new EN sequels' KDP packages. KDP publishing (account, title
 recheck, cover, publish click) is owner-gated.
 
-> **current-state.md is stale here.** Its "Book catalog" section predates the 5 sequels below and
-> still calls the Night Kiln a two-book set. The live tree has the sequels; recount from the
-> `candidates/` tree when a precise figure is needed.
+> **Recount from the `candidates/` tree when a precise figure is needed.** The live tree carries all
+> seven sequels; `docs/current-state.md` has been refreshed to the same 2026-07-20 wave and now
+> reflects the 6-book Night Kiln / 3-book Ultramarine / complete Lull catalog.
 
-### ⭐ The 5 NEW books (#268–#272, merged 2026-07-19) + their upload-ready KDP packages
+### ⭐ The 7 NEW books (#268–#272 merged 2026-07-19; #278–#279 merged 2026-07-20) + their upload-ready KDP packages
 
-| # | Series · Book | Title | Manuscript source | KDP-ready package (arrives with PR1) |
+| # | Series · Book | Title | Manuscript source | KDP-ready package |
 |---|---|---|---|---|
 | #269 | The Night Kiln · **Book 4** | *The Winter Wheel* | `candidates/adult-novels/the-night-kiln/en/the-winter-wheel.md` | `candidates/adult-novels/the-night-kiln/kdp-ready/book-4/` |
 | #272 | The Night Kiln · **Book 5** | *The Spring Cup* | `candidates/adult-novels/the-night-kiln/en/the-spring-cup.md` | `candidates/adult-novels/the-night-kiln/kdp-ready/book-5/` |
+| #279 | The Night Kiln · **Book 6** | *The Summer Ember* | `candidates/adult-novels/the-night-kiln/en/the-summer-ember.md` | `candidates/adult-novels/the-night-kiln/kdp-ready/book-6/` |
 | #270 | Ultramarine · **Book 2** | *The Blue and the White* | `candidates/adult-novels/ultramarine/book2/the-blue-and-the-white.md` | `candidates/adult-novels/ultramarine/kdp-ready/book-2/` |
+| #278 | Ultramarine · **Book 3** (finale) | *The Common Blue* | `candidates/adult-novels/ultramarine/book3/the-common-blue.md` | `candidates/adult-novels/ultramarine/kdp-ready/book-3/` |
 | #268 | Lull (Dreamline) · **Book 2** | *The Mirror City* | `candidates/dream-series/book2/` | `candidates/dream-series/kdp-ready/book-2/` |
-| #271 | Lull (Dreamline) · **Book 3** | *The Fourth Hour Comes* | `candidates/dream-series/book3/` | `candidates/dream-series/kdp-ready/book-3/` |
+| #271 | Lull (Dreamline) · **Book 3** (finale) | *The Fourth Hour Comes* | `candidates/dream-series/book3/` | `candidates/dream-series/kdp-ready/book-3/` |
 
 Each KDP-ready package folder holds three files: `MANUSCRIPT-KDP.md` (compiled single-file
 manuscript), `KDP-METADATA.md` (the KDP metadata block — title/subtitle/series/categories/keywords/
-price/KU), and `SELF-EDIT-PASS.md` (the self-edit log). **Remaining owner-gated step for all five:**
+price/KU), and `SELF-EDIT-PASS.md` (the self-edit log). **Remaining owner-gated step for all seven:**
 the owner-only **native-speaker proofread**, the **keyword-map §3 niche reservation** in
 `docs/publishing/keyword-map.md`, and a **vetting packet** under `docs/publishing/vetting/` (none of
-the five has one yet) — after which the KDP publish click is itself owner-gated.
+the seven has one yet) — after which the KDP publish click is itself owner-gated.
 
-- **Night Kiln** is now a **5-book cozy-fantasy novella series** (en/: Bk1 *The Night Kiln*,
-  Bk2 *The Morning Door*, Bk3 *The Harvest Rows*, Bk4 *The Winter Wheel*, Bk5 *The Spring Cup*),
-  with a **planted (unwritten) Book-6 hook**. Cover briefs + listing copy for Bk4/Bk5 are present
+- **Night Kiln** is now a **6-book cozy-fantasy novella series** (en/: Bk1 *The Night Kiln*,
+  Bk2 *The Morning Door*, Bk3 *The Harvest Rows*, Bk4 *The Winter Wheel*, Bk5 *The Spring Cup*,
+  Bk6 *The Summer Ember*), with Book 6's close **lightly left open** (a woken far-bank fire, no firm
+  next book committed). Cover briefs + listing copy for Bk4/Bk5 are present
   (`candidates/adult-novels/the-night-kiln/book-4-cover-brief.md`,
   `candidates/adult-novels/the-night-kiln/book-4-listing-copy.md`, and the `book-5-*` siblings).
 - **Lull / Dreamline** MG portal-fantasy trilogy is now **COMPLETE (Books 1–3)** — see
   `candidates/dream-series/series-arc.md`. Published series title **Lull**; DREAMLINE is the working
   codename. Book 2/3 listing + cover-brief assets present. **Next hook:** the trilogy is closed (all
   three series questions resolved); "next" is NL editions / a fiction funnel, not more books.
-- **Ultramarine Book 2** is a Delft historical-fiction sequel with a **Book-3 hook**; Book 1's public
-  title is still an open owner pick (see Section 3).
+- **Ultramarine** is now a **complete 3-book** Delft historical-fiction trilogy (Bk1 *Ultramarine*,
+  Bk2 *The Blue and the White*, Bk3 *The Common Blue* — Book 3 pays Book 2's East-bound blue-and-white
+  hook and closes the arc). Book 1's public title is still an open owner pick (see Section 3).
 
 ### Adult novels — `candidates/adult-novels/`
 
 EN title-lines (each has README + DECISIONS + an `en/` manuscript; most have a KDP vetting packet
 under `docs/publishing/vetting/` with listing copy + title-availability + price recommendation):
-`the-glass-rectory` · `the-marmalade-post` · `the-night-kiln` (5-book series) · `the-paper-orange` ·
+`the-glass-rectory` · `the-marmalade-post` · `the-night-kiln` (6-book series) · `the-paper-orange` ·
 `the-salvage-orchard` · `the-seed-catalogue-courtship` · `the-slow-word` · `the-twelfth-cake` ·
 `the-weigh-house` · `the-salt-bell` · `the-sweetwater-sea` · `the-wire-garden` · `ultramarine`
-(2-book series). All have KDP publish click-runs queued in OWNER-QUEUE §2 (price band $3.99–$4.99).
+(complete 3-book trilogy). All have KDP publish click-runs queued in OWNER-QUEUE §2 (price band $3.99–$4.99).
 **Next hook:** owner KDP account + publish click; several have an open **title decision** (Section 3:
 D24 Weigh House, D26 Ultramarine title).
 
@@ -167,7 +171,7 @@ edition pilot" gated on the NL proofread.
 
 ### Dream-series (Lull) — `candidates/dream-series/`
 
-Covered above (the 5-NEW list; Books 2–3). Bible, series arc, per-book outlines, DECISIONS, listing +
+Covered above (the 7-NEW list; Books 2–3). Bible, series arc, per-book outlines, DECISIONS, listing +
 cover-brief for Bk2/Bk3. Owner-directed creative project (conservative near-term revenue $0 per its
 INTAKE). **Next hook:** trilogy complete — owner creative sign-off / eventual publish path; no more
 books queued.
@@ -225,7 +229,7 @@ Sources: `docs/publishing/OWNER-START-HERE.md` (one-sitting digest), `docs/publi
 - **D28 Keyword map C1** — Literary-Fiction category dispute (The Slow Word vs Ultramarine); default
   = accept proposed resolution (`docs/publishing/keyword-map.md`).
 - **Native-speaker proofread pass** — the binding gate on all NL editions AND the last human step on
-  the 5 new EN KDP packages (an owner commission/approval, a real reading task, not a click).
+  the 7 new EN KDP packages (an owner commission/approval, a real reading task, not a click).
 
 ### D. The veto menu (planning skim, not a click)
 
@@ -263,7 +267,7 @@ Sources: `docs/publishing/OWNER-START-HERE.md` (one-sitting digest), `docs/publi
 | Vetting packets (57) — SKUs + books | `docs/publishing/vetting/<slug>.md` (each §7 = owner click-run) |
 | Keyword / category map | `docs/publishing/keyword-map.md` |
 | Book manuscripts | `candidates/adult-novels/` · `candidates/ya-novels/` · `candidates/middle-grade/` · `candidates/dream-series/` · `candidates/childrens-books/` |
-| KDP-ready book packages (5 new; arrive with PR1) | `candidates/adult-novels/the-night-kiln/kdp-ready/book-4/` · `.../book-5/` · `candidates/adult-novels/ultramarine/kdp-ready/book-2/` · `candidates/dream-series/kdp-ready/book-2/` · `.../book-3/` |
+| KDP-ready book packages (7 new) | `candidates/adult-novels/the-night-kiln/kdp-ready/book-4/` · `.../book-5/` · `.../book-6/` · `candidates/adult-novels/ultramarine/kdp-ready/book-2/` · `.../book-3/` · `candidates/dream-series/kdp-ready/book-2/` · `.../book-3/` |
 | Kill-clock / funnel diagnostics | `docs/launch/funnel-diagnostic.md` · `docs/launch/kill-clock-decision-packet.md` · `docs/launch/stripe-webhook-test-kit/LAUNCH-LOG.md` |
 | Planning menus / roadmaps | `docs/ideas/2026-07-18-veto-ready-menu.md` · `docs/ideas/2026-07-19-execution-roadmap.md` · `docs/ideas/2026-07-18-next-wave-roadmap.md` · `docs/NEXT-TASKS.md` |
 | Session cards | `.sessions/` (one card per slice) |
@@ -295,9 +299,9 @@ For the owner or a future agent seat picking this up post-2026-07-21.
    `docs/ideas/2026-07-19-execution-roadmap.md` (autonomous-safe lane first, owner-gated lane grouped
    by gate). Items already shipped are marked DONE — do not re-propose.
 
-4. **Finishing the 5 new KDP book packages (deterministic next slice):** the compiled packages land at
-   `candidates/adult-novels/the-night-kiln/kdp-ready/book-4/` & `.../book-5/`,
-   `candidates/adult-novels/ultramarine/kdp-ready/book-2/`, and
+4. **Finishing the 7 new KDP book packages (deterministic next slice):** the compiled packages land at
+   `candidates/adult-novels/the-night-kiln/kdp-ready/book-4/`, `.../book-5/` & `.../book-6/`,
+   `candidates/adult-novels/ultramarine/kdp-ready/book-2/` & `.../book-3/`, and
    `candidates/dream-series/kdp-ready/book-2/` & `.../book-3/`. Each is done through the self-edit pass;
    the three remaining steps are all owner-gated / owner-only: (a) the **native-speaker proofread**,
    (b) a **keyword-map §3 niche reservation** in `docs/publishing/keyword-map.md` for each new title,
@@ -331,6 +335,6 @@ data-provisioning decision exists, it lives in the trading repo — verify there
 
 ---
 
-*Compiled read-only from the live tree at HEAD `2be4065`. Paths cross-checked against the `candidates/`
+*Compiled read-only from the live tree at HEAD `d2d49ec`. Paths cross-checked against the `candidates/`
 tree and `docs/publishing/OWNER-QUEUE.md`; where `docs/current-state.md` lagged the live tree it is
 flagged inline. No invented metrics — all sales/traffic figures are owner-dashboard-only.*
