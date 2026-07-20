@@ -1,6 +1,6 @@
 # Session — Distribution submission pack (paste-and-post the 4 lead magnets)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · distribution submission pack
 
@@ -44,20 +44,25 @@
   subtree reachable without touching CATALOG or the launch README. Born-red card +
   claim committed FIRST; the `in-progress` Status holds the merge-on-green gate red
   by design.
-- 2026-07-20 — Built the submission pack: [[fill: N]] channel files across the four
-  clusters + the index README. Channels placed by honest fit — the three
-  dev-tooling clusters (agent-ops, api-robustness, membership) each got dev.to +
-  Hashnode + one on-topic subreddit; the AI-novella cluster got r/selfpublishing +
+- 2026-07-20 — Built the submission pack: **11** channel files across the four
+  clusters + the index README (12 files total under `docs/launch/submissions/`).
+  Channels placed by honest fit — the three dev-tooling clusters (agent-ops,
+  api-robustness, membership) each got dev.to + Hashnode + one on-topic subreddit
+  (r/LLMDevs / r/webdev / r/SaaS); the AI-novella cluster got r/selfpublishing +
   r/writing and **skipped** dev.to/Hashnode (developer platforms, off-audience for
-  a fiction-production piece). No fabricated stats/metrics/testimonials; every
-  owner-fill link marked `⟨owner: …⟩`, never an invented URL. Content committed
-  ([[fill: content commit SHA]]).
+  a fiction-production piece). r/programming deliberately avoided (self-post +
+  self-promo removals). No fabricated stats/metrics/testimonials; every owner-fill
+  link marked `⟨owner: …⟩`, never an invented URL. Content committed (`9976995`).
 - 2026-07-20 — Pre-flip `python3 bootstrap.py check --strict`: red on the born-red
-  HOLD only (no docs-links / funnel-assets / catalog-dref guard reds) — [[fill:
-  pre-flip guard scan result]]. Flip to `complete` (this commit): Status badge
-  flipped, all `[[fill:]]` slots resolved, the four byte-markers present. Re-ran
-  `check --strict` → exit [[fill: final exit code]]. PR [[fill: PR number/URL]]
-  opened READY.
+  HOLD only — the docs-gate (badge/link/reachable), `check_docs_links`,
+  `check_funnel_assets`, and `check_catalog_drefs` all green; the only remaining
+  advisories (seat-digest, model-line) are pre-existing and non-gating. Every new
+  `docs/launch/submissions/*.md` carries a `reference` badge and is reachable — the
+  `README.md` seeds a reachability root and links every file. Flip to `complete`
+  (this commit): Status badge flipped, all five auto-draft `[[fill:]]` slots
+  resolved, the four byte-markers present (`**Status:**`, `💡`,
+  `previous-session review`, `📊 Model:`). Re-ran `check --strict` → **exit 0**
+  (born-red HOLD cleared). PR opened READY immediately after this flip, base `main`.
 
 ## 💡 Session idea
 
