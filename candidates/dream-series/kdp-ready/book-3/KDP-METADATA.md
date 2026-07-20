@@ -36,7 +36,7 @@ The finale of Lull. The fourth hour comes for everyone who's still awake at ten 
 
 *Book Three of the Lull trilogy — the conclusion. Follows* The Fourth Hour *(Book One) and* The Mirror City *(Book Two). Every question the series has carried is answered here. The trilogy is complete.*
 
-> **Description note (see `SELF-EDIT-PASS.md` §b):** the source listing copy is correctly scoped to the actual manuscript — MG/YA portal fantasy. The genre-scope mismatch flagged in prep lives in the publishing **keyword-map** (§3 reserves "Lull" as a *quiet/literary novella*), NOT in this description. That reservation must be re-scoped before the keywords below are claimed.
+> **Description note (see `SELF-EDIT-PASS.md` §b):** the source listing copy is correctly scoped to the actual manuscript — MG/YA portal fantasy. The genre-scope mismatch flagged in prep lived in the publishing **keyword-map** (§3 had reserved "Lull" as a *quiet/literary novella*), NOT in this description; that §3 row has been **re-scoped to MG portal-fantasy (2026-07-20)**. Claiming the keywords below as §1 ownership rows is still an owner/vetting step.
 
 ---
 
@@ -52,7 +52,7 @@ The finale of Lull. The fourth hour comes for everyone who's still awake at ten 
 
 **Reserve list (A/B test / long-tail, from the listing draft):** secret society; two factions; lost father found; is it real or a dream; unreliable narrator middle grade; found family; the cost of power; witnessing and testimony; volcano adventure MG; sacrifice and coming of age.
 
-> ⚑ **Keyword-map flag (owner/follow-up):** the publishing keyword-map (`docs/publishing/keyword-map.md`) §3 reserves the "Lull" niche as *"Quiet/literary novella — stillness, small-town hush."* That row is **mis-scoped** for this MG portal-fantasy series and does not match any of the 7 keywords above. Re-scope the §3 row (MG portal fantasy) — and check the possible "Lull" title collision (literary-novella name vs the MG series title, `DECISIONS.md` D-001) — **before** these phrases are promoted to §1 ownership rows. See `SELF-EDIT-PASS.md` §b.
+> ⚑ **Keyword-map flag (owner/follow-up):** the publishing keyword-map (`docs/publishing/keyword-map.md`) §3 reserves the "Lull" niche as *"Quiet/literary novella — stillness, small-town hush."* That row was **mis-scoped** for this MG portal-fantasy series and matched none of the 7 keywords above; it has been **re-scoped to MG portal-fantasy (2026-07-20)**. Still owner/follow-up before these phrases are promoted to §1 ownership rows: the §1 keyword reservation itself, and a check of the possible "Lull" title collision (literary-novella name vs the MG series title, `DECISIONS.md` D-001). See `SELF-EDIT-PASS.md` §b.
 
 ---
 
@@ -90,4 +90,4 @@ The finale of Lull. The fourth hour comes for everyone who's still awake at ten 
 
 ## Closing note (owner / follow-up steps)
 
-This block is **paste-ready but not self-authorizing.** Before publishing, the owner still needs to: (1) set the author / pen name; (2) decide price and KU enrollment; (3) **reserve the 7 keywords** and re-scope the mis-scoped keyword-map §3 "Lull" row (and resolve the possible title collision) so the phrases can become §1 ownership rows; (4) create the missing **vetting packet** (`docs/publishing/vetting/<slug>.md`, mirroring the Paper Orange §1–§7 structure — none exists for this book yet) and, if it carries a §7 OWNER-GATE block, regenerate `OWNER-QUEUE.md` (never hand-edit it); (5) verify categories/browse nodes live at upload; (6) commission the cover (`book3-cover-brief.md`). Publishing remains owner-gated throughout.
+This block is **paste-ready but not self-authorizing.** Before publishing, the owner still needs to: (1) set the author / pen name; (2) decide price and KU enrollment; (3) **reserve the 7 keywords** as §1 ownership rows (the mis-scoped keyword-map §3 "Lull" row was re-scoped to MG portal-fantasy 2026-07-20; the possible "Lull" title collision, `DECISIONS.md` D-001, still needs an owner check); (4) create the missing **vetting packet** (`docs/publishing/vetting/<slug>.md`, mirroring the Paper Orange §1–§7 structure — none exists for this book yet) and, if it carries a §7 OWNER-GATE block, regenerate `OWNER-QUEUE.md` (never hand-edit it); (5) verify categories/browse nodes live at upload; (6) commission the cover (`book3-cover-brief.md`). Publishing remains owner-gated throughout.
