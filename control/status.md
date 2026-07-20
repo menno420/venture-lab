@@ -1,5 +1,5 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-19T21:50:53Z
+updated: 2026-07-20T05:00:40Z
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth or an order. The successor reads
@@ -9,22 +9,27 @@ updated: 2026-07-19T21:50:53Z
 > and [`../docs/launch/CATALOG.md`](../docs/launch/CATALOG.md).
 
 **Where the tree is (neutral facts):**
-- `main` HEAD is `d776fd7` — "KDP-ready packages for the 5 new book sequels
-  (#274)". Latest-numbered merged PR is #275 (the transition dossier).
+- `main` HEAD is `3bb962b` — "The Night Kiln — Book 6: The Summer Ember (#279)".
+  This end-of-day owner-list + heartbeat + current-state refresh rides on top of
+  it; the latest-numbered merged PR before it is #279.
 - `python3 bootstrap.py check --strict` is **green (exit 0)** at that HEAD
-  (advisories only, pre-existing).
+  (advisories only, pre-existing: seat-digest + model-line notes).
+- Kit version: `v1.17.0`.
 
-**What this consolidation pass landed (2026-07-19):**
-- **5 KDP-ready book packages (#274)** — each of the five new sequels now has an
-  upload-ready `MANUSCRIPT-KDP.md`, a paste-ready `KDP-METADATA.md`, and a
-  `SELF-EDIT-PASS.md` self-edit log under `candidates/.../kdp-ready/`.
-- **Transition dossier (#275)** — `docs/publishing/TRANSITION-DOSSIER.md`: one
-  neutral read of the whole venture state at the 2026-07-21 read-only cutoff.
-- **Owner-steps + current-state refresh (this PR)** — the five ready sequels are
-  written up as owner publish steps in `docs/publishing/OWNER-START-HERE.md` §4,
-  and `docs/current-state.md` is restamped to HEAD `d776fd7` with the complete
-  5-book Night Kiln series, the complete Lull trilogy, and the new KDP/dossier
-  artifacts.
+**What today's wave landed (2026-07-20):**
+- **Distribution submission pack (#277)** — `docs/launch/submissions/`: 11
+  paste-and-post channel files turning the four free lead magnets into one-click
+  submissions (index at `submissions/README.md`). Owner paste-and-post, no seat
+  publish or spend.
+- **Ultramarine Book 3 *The Common Blue* (#278)** — completes the Delft trilogy;
+  full manuscript + `candidates/adult-novels/ultramarine/kdp-ready/book-3/`.
+- **Night Kiln Book 6 *The Summer Ember* (#279)** — sixth book in the cozy
+  series; manuscript + `candidates/adult-novels/the-night-kiln/kdp-ready/book-6/`.
+- **This refresh** — `docs/publishing/OWNER-START-HERE.md` gains the submission
+  pack as a zero-cost owner quick-win step and the two new books in its
+  KDP-upload step; `docs/current-state.md` is restamped to HEAD `3bb962b` with the
+  complete Ultramarine trilogy, the 6-book Night Kiln series, and the submission
+  pack noted as the new distribution asset.
 
 **Read-path pointers (neutral):**
 - Living ledger: [`../docs/current-state.md`](../docs/current-state.md).
@@ -35,7 +40,8 @@ updated: 2026-07-19T21:50:53Z
 
 **Backlog (honest):**
 - Publishing stays **owner-gated**: the native-speaker proofread plus the
-  KDP/Gumroad clicks remain owner-only. No SKU, generated-file, or publish-surface
-  edits rode this pass.
+  KDP/Gumroad clicks remain owner-only, and posting the submission-pack files is
+  an owner paste-and-post. No SKU, generated-file, or publish-surface edits rode
+  this pass.
 
 kit: v1.17.0
