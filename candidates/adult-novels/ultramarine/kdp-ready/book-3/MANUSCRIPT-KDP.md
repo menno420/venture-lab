@@ -4,18 +4,18 @@
 
 **Ultramarine · Book Three**
 
-by [Author name — owner to set]
+by ⟨owner: author name⟩
 
 ---
 
-*Edition / copyright — placeholder block; owner to complete before publication.*
+*⟨owner: edition and copyright⟩*
 
-Copyright © [year] by [author / rights-holder — owner to set]. All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form without the prior written permission of the copyright holder, except brief quotations in a review.
+Copyright © ⟨owner: year⟩ by ⟨owner: author name⟩. All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form without the prior written permission of the copyright holder, except brief quotations in a review.
 
 This is a work of fiction. It is set against the long aftermath of the historical Delft Thunderclap — the explosion of the powder store nicknamed *the Secret of Holland* on 12 October 1654 — in the years 1656–1657, during the documented rise of the Delft blue-and-white pottery trade under the porcelain-starved demand of the Dutch East India Company. Clara Wijnants, her household, Willem Doncker, Coenraad Spronck, Machteld, the pottery *De Blauwe Hand*, the rival potters, the Company factor, and all other named characters are invented. Where real persons and events appear they are treated within the historical record; the young painter of the woman-by-a-window picture is left unnamed by design, and Agatha van Pruyssen, widow of the painter Carel Fabritius, is handled with respect and given no invented act. Any resemblance to actual persons living or dead, beyond the documented record, is not intended.
 
-Cover art: [credit — owner to set]. Cover design: [credit — owner to set].
-[ISBN / ASIN — owner to set] · First edition, [year].
+Cover art: ⟨owner: cover credit⟩. Cover design: ⟨owner: cover credit⟩.
+⟨owner: ISBN⟩ · First edition, ⟨owner: year⟩.
 
 ---
 
@@ -388,4 +388,8 @@ The story is closed here. It ends where the second book's forward hook promised 
 
 ## About the author
 
-[Author biography — owner to set.]
+⟨owner: author bio⟩
+
+## A note to readers
+
+*If you enjoyed this novel of Delft, a short honest review helps other readers find the Ultramarine books. Review or store link: ⟨owner: store link⟩*

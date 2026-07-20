@@ -4,18 +4,18 @@
 
 **Ultramarine · Book Two**
 
-by [Author name — owner to set]
+by ⟨owner: author name⟩
 
 ---
 
-*Edition / copyright — placeholder block; owner to complete before publication.*
+*⟨owner: edition and copyright⟩*
 
-Copyright © [year] by [author / rights-holder — owner to set]. All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form without the prior written permission of the copyright holder, except brief quotations in a review.
+Copyright © ⟨owner: year⟩ by ⟨owner: author name⟩. All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form without the prior written permission of the copyright holder, except brief quotations in a review.
 
 This is a work of fiction. It is set against the historical Delft Thunderclap — the explosion of the powder store nicknamed *the Secret of Holland* on 12 October 1654 — and its long aftermath, in the years 1655–1656. Clara Wijnants, her household, Willem Doncker, Coenraad Spronck, the pottery *De Blauwe Hand*, and all other named characters are invented. Where real persons and events appear they are treated within the historical record; the young painter of the woman-by-a-window picture is left unnamed by design. Any resemblance to actual persons living or dead, beyond the documented record, is not intended.
 
-Cover art: [credit — owner to set]. Cover design: [credit — owner to set].
-[ISBN / ASIN — owner to set] · First edition, [year].
+Cover art: ⟨owner: cover credit⟩. Cover design: ⟨owner: cover credit⟩.
+⟨owner: ISBN⟩ · First edition, ⟨owner: year⟩.
 
 ---
 
@@ -519,4 +519,8 @@ The story is not closed. It ends where the outline promises it will: a great ord
 
 ## About the author
 
-[Author biography — owner to set.]
+⟨owner: author bio⟩
+
+## A note to readers
+
+*If you enjoyed this novel of Delft, a short honest review helps other readers find the Ultramarine books. Review or store link: ⟨owner: store link⟩*

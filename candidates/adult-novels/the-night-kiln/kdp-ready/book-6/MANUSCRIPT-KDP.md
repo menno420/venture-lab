@@ -4,13 +4,13 @@
 
 **The Night Kiln · Book Six**
 
-by [Author name — owner to set]
+by ⟨owner: author name⟩
 
 ---
 
-*[Edition and copyright — owner to set before publication.]*
+*⟨owner: edition and copyright⟩*
 
-Copyright © [year] by [Author name — owner to set].
+Copyright © ⟨owner: year⟩ by ⟨owner: author name⟩.
 
 All rights reserved. No part of this book may be reproduced, distributed, or transmitted in any form without the prior written permission of the copyright holder, except for brief quotations in a review.
 
@@ -18,7 +18,7 @@ This is a work of fiction. Names, characters, places, and incidents are the prod
 
 First edition.
 
-Cover — owner to set · ISBN / ASIN — owner to set
+Cover — ⟨owner: cover credit⟩ · ISBN / ASIN — ⟨owner: ISBN⟩
 
 ---
 
@@ -351,8 +351,8 @@ If *The Summer Ember* is the first Wenholt book you have read, you can begin the
 
 ## About the author
 
-*[About the author — placeholder; owner to set before publication.]*
+*⟨owner: author bio⟩*
 
 ## A note to readers
 
-*[If you enjoyed the Night Kiln series, a short honest review helps other readers find the valley of Wenholt. Review / store link — placeholder; owner to set before publication.]*
+*If you enjoyed the Night Kiln series, a short honest review helps other readers find the valley of Wenholt. Review or store link: ⟨owner: store link⟩*

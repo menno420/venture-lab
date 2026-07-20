@@ -4,23 +4,23 @@
 
 **Lull · Book Three**
 
-by [Author name — owner to set]
+by ⟨owner: author name⟩
 
 > You can buy a ticket to the worst moment in the history of the world. Sam Vermeer has to dive into it. For seven years his 4 a.m. nightmare has counted down to a single date — and now he knows it: it's his own thirteenth birthday, and it leads to Pompeii, the hardest-frozen moment there is, where his father went under forty years ago and never surfaced. Both secret societies are already at the water. One offer will give Sam his father back and make him a god; the other will make him a hero and a prisoner. But there's a girl down there who has held a door for two thousand years, and a best friend up top with nothing but a notebook and the truth — and between them they know the one thing neither faction ever learned.
 
 ---
 
-**[Edition — placeholder; owner to finalize before publication]**
+**⟨owner: edition and copyright⟩**
 
 First edition.
 
-Copyright © [Year] [Author name — owner to set]. All rights reserved.
+Copyright © ⟨owner: year⟩ ⟨owner: author name⟩. All rights reserved.
 
 This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination or are used fictitiously; any resemblance to actual persons, living or dead, events, or locales is entirely coincidental. Pompeii, Venice, and Amsterdam appear as real, visitable places used fictitiously.
 
 No part of this book may be reproduced, stored, or transmitted in any form or by any means without the prior written permission of the author or publisher, except for brief quotations in a review.
 
-Cover: [owner to commission — see cover brief]. Published by [Publisher / imprint — owner to set]. [ISBN — owner to set.]
+Cover: ⟨owner: cover credit⟩. Published by ⟨owner: publisher⟩. ⟨owner: ISBN⟩
 
 ---
 
@@ -685,8 +685,8 @@ New to Sam's story? Start at the beginning, with **Book One: The Fourth Hour**. 
 
 ## About the author
 
-[Author name — owner to set.] *(Author bio to be supplied by the owner before publication — placeholder.)*
+⟨owner: author name⟩ *(⟨owner: author bio⟩)*
 
 ## A review helps
 
-If this book kept you up past ten to four, a short review — even a line or two — helps other readers find it. *(Placeholder — owner to finalize wording and store links at publication.)*
+If this book kept you up past ten to four, a short review — even a line or two — helps other readers find it. Review or store link: ⟨owner: store link⟩

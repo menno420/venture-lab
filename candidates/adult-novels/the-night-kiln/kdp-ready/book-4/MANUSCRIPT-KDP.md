@@ -4,7 +4,7 @@
 
 **The Night Kiln · Book Four**
 
-by [Author name — owner to set]
+by ⟨owner: author name⟩
 
 > Everyone in Wenholt knows the rule: bring Edda a memory before moonrise, and she will fire it into clay you can hold. But on the witch's private shelf, oldest of everything there, stands Grams Ilsabet's first pot — thumb-marked and honest, and never once opened — and the killing frost has just put a whisker of a crack in it. Whatever Edda's dead teacher kept in the first pot she ever made will be gone by spring unless the fire is asked, this deep midwinter, to do the last thing it has never done: carry a keeping from a dying vessel into a new one thrown by a hand that isn't yet a witch. What did Grams Ilsabet keep in her own first pot? It is a winter story, and it is time it was told.
 
@@ -12,9 +12,9 @@ by [Author name — owner to set]
 
 **The Winter Wheel** · *The Night Kiln, Book Four* · First edition.
 
-Copyright © [year] [Author name — owner to set]. All rights reserved. [Owner to set imprint / year.]
+Copyright © ⟨owner: year⟩ ⟨owner: author name⟩. All rights reserved. ⟨owner: publisher⟩.
 
-This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination. No part of this book may be reproduced or transmitted without the written permission of the publisher, except brief quotations in reviews. [Placeholder edition/copyright block — owner to finalise imprint, copyright year, and ISBN before publishing.]
+This is a work of fiction. Names, characters, places, and incidents are the product of the author's imagination. No part of this book may be reproduced or transmitted without the written permission of the publisher, except brief quotations in reviews. ⟨owner: edition and copyright⟩
 
 **Content note:** Adult cozy fantasy. Contains grief, remembered bereavement (offpage, long in the past), an orphaned child (in memory, gently handled), and a beloved character living with memory loss — all handled with warmth. No violence, no explicit content. A comfort read for adult readers. This is the fourth Night Kiln novella; it stands alone.
 
@@ -408,4 +408,8 @@ THE END
 
 ## About the author
 
-[Author name — owner to set.]
+⟨owner: author name⟩
+
+## A note to readers
+
+*If you enjoyed the Night Kiln series, a short honest review helps other readers find the valley of Wenholt. Review or store link: ⟨owner: store link⟩*

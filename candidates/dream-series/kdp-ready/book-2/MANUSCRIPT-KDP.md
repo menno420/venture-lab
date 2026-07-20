@@ -4,23 +4,23 @@
 
 **Lull · Book Two**
 
-by [Author name — owner to set]
+by ⟨owner: author name⟩
 
 > Every mirror in Venice runs a half-second late. That's how you know you're still awake. When his lifelong nightmare turns out to be a *place* — a drowned, mirror-thin city where the seam between real and fake never closes — twelve-year-old Sam Vermeer goes to Venice to learn to hold history steady, and discovers that the people sworn to keep the record true once broke it themselves.
 
 ---
 
-Copyright © [year — owner to set] by [Author name — owner to set]
+Copyright © ⟨owner: year⟩ by ⟨owner: author name⟩
 
 All rights reserved. No part of this book may be reproduced, stored, or transmitted in any form or by any means without the prior written permission of the publisher, except for brief quotations used in a review.
 
 This is a work of fiction. Names, characters, places, and incidents are either the product of the author's imagination or are used fictitiously. Venice, Amsterdam, and Pompeii appear here as imaginative settings; any resemblance to actual persons, living or dead, or to actual events is entirely coincidental.
 
 *Lull · Book Two: The Mirror City*
-Cover art and design: [owner to set]
-Published by: [publisher / imprint — owner to set]
-First edition: [date — owner to set]
-ISBN: [owner to set]
+Cover art and design: ⟨owner: cover credit⟩
+Published by: ⟨owner: publisher⟩
+First edition: ⟨owner: year⟩
+ISBN: ⟨owner: ISBN⟩
 
 ---
 
@@ -687,6 +687,10 @@ The date has come. At the frozen instant of Pompeii — the hardest-held moment 
 
 # About the author
 
-[Author name — owner to set.]
+⟨owner: author name⟩
 
-[Author bio — owner to set. A short third-person biography goes here for the KDP author page and the print edition.]
+⟨owner: author bio⟩
+
+## A review helps
+
+If this book kept you turning pages, a short review — even a line or two — helps other readers find it. Review or store link: ⟨owner: store link⟩
