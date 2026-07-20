@@ -1,8 +1,8 @@
 # Session — submissions guard fix (classify the marketing-drafts container as a non-SKU)
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
-![status](https://img.shields.io/badge/status-in--progress-orange)
+![status](https://img.shields.io/badge/status-complete-brightgreen)
 
 - **📊 Model:** opus-4.8 · high · guard fix
 - **started (date -u):** Mon Jul 20 04:51 UTC 2026
@@ -59,12 +59,15 @@
   `submissions` is no longer in `launch_skus` — the guard still enumerates and validates
   the real SKUs (so it still catches genuine missing artifacts). Tests: `test_sku_registry`
   19, `test_check_built_registered` 12, `test_check_funnel_assets` 14 — all OK.
-  `bootstrap.py check --strict` EXIT [[fill: pre-flip strict exit code]] on the born-red
-  HOLD only, no other guard red.
+  `bootstrap.py check --strict` EXIT 1 on the born-red HOLD only (no other guard red;
+  the seat-digest ×2 + model-line ×5 lines are pre-existing non-gating advisories on
+  OTHER cards). The `.substrate/guard-fires.jsonl` telemetry append reverted so the
+  diff stays scoped to the intended files.
 - 2026-07-20T04:5xZ — Flip to `complete` (this commit): Status badge flipped, 📊 Model
-  line kept, one 💡 idea, previous-session review, all `[[fill:]]` slots resolved. PR
-  #[[fill: PR number]] opened READY. Re-ran `bootstrap.py check --strict` → EXIT 0
-  (born-red HOLD clears); `check_built_registered.py` re-confirmed EXIT 0.
+  line kept, one 💡 idea, previous-session review, all `[[fill:]]` slots resolved.
+  Re-ran `bootstrap.py check --strict` → EXIT 0 (born-red HOLD clears);
+  `check_built_registered.py` re-confirmed EXIT 0. A READY PR against `main` is opened
+  immediately after this flip + push.
 
 ## 💡 Session idea
 
