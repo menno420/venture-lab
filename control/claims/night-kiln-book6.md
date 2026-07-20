@@ -1,0 +1,1 @@
+- `claude/night-kiln-book6` · **Draft The Night Kiln Book 6 (The Summer Ember) + series-arc/cover/listing/KDP** · candidates/adult-novels/the-night-kiln/ · 2026-07-20
