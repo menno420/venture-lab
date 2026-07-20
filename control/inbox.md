@@ -296,3 +296,10 @@ notes: unlocks the previously owner-gated build backlog for overnight autonomous
 why: top-precedence live owner turn (owner live in coordinator chat 2026-07-17T22:39Z) authorizing overnight autonomous build work across both repos.
 done-when: overnight autonomous build work proceeds per the order across tonight's wakes; publish/spend/external gates unchanged.
 provenance: owner live in coordinator chat 2026-07-17T22:39Z; landed on coordinator dispatch.
+
+## ORDER 017 · 2026-07-20T13:22:06Z · status: new
+priority: P1
+do: Your substrate-kit v1.20.1 upgrade PR #282 is red on its substrate-gate: the new gate flags pre-existing false-wall findings in this repo's docs (see the PR body's finding list). Fix on the PR branch with plain additive commits: rephrase each flagged standing-limitation line as a dated past-tense fact or add a dated supersession note (never delete history; owner-verbatim lines go in the checker's allowlist if supported). Reference implementation: fleet-manager PR #390 (commit d0e16e2). Gate green means the armed auto-merge lands the upgrade.
+why: the v1.20.1 kit-upgrade wave left this repo's upgrade PR red on pre-existing repo-local doc findings the new gate flags; fleet-manager fixed the same pattern (PR #390, merged 2026-07-20T12:08Z) and its gate went green.
+done-when: PR #282's substrate-gate is green and the armed auto-merge has landed the v1.20.1 upgrade on main.
+provenance: fleet-manager ORDER routing (kit-wave sweep 2026-07-20); owner nothing-stuck directive 2026-07-19.
