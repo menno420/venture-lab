@@ -44,6 +44,18 @@ frontmatter keeps the score.
 
 (Captured ideas, each with a state and a next destination — none left at `raw`.)
 
+- [Season-2 plan 2026-07-20](2026-07-20-season-2-plan.md) — a prioritized,
+  **contingency-shaped** build plan for the world *after* the 2026-07-21
+  write-cutoff, organised as ordered branches keyed to which owner action fires
+  first: IF the lead magnets are posted → next distribution slices; IF vetoes
+  arrive → the approved-queue build order; IF a book sells → the
+  series-continuation order (grounded in the actual catalog — two complete
+  trilogies + a six-book Night Kiln, Bk 7 planted-unwritten); IF trading data is
+  provisioned → round-design sketches (trading is a separate research-only repo,
+  cross-ref only — direction doc not located). Plus a standing upkeep cadence
+  (Friday grading next 2026-07-24, the SWTK T+14 call 2026-07-26, per-pass repo
+  hygiene). Decide-and-flagged, owner-gated items marked; planning-only, nothing
+  built. State: captured.
 - [Execution roadmap 2026-07-19](2026-07-19-execution-roadmap.md) — the 64-item
   veto-ready menu **groomed into a prioritized, sequenced execution roadmap**,
   reality-corrected against the #242–#257 wave (nine menu items marked DONE with

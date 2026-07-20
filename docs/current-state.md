@@ -6,13 +6,17 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-20 to current HEAD (main HEAD `3bb962b`; latest merged
-> PRs #277 — the distribution submission pack — #278 — Ultramarine Book 3 *The
+> Restamped 2026-07-20 to current HEAD (main HEAD `d2d49ec`, the end-of-day
+> owner-list + heartbeat + current-state refresh #281, which rode on top of
+> today's #277 — distribution submission pack — #278 — Ultramarine Book 3 *The
 > Common Blue* — and #279 — Night Kiln Book 6 *The Summer Ember*; facts
-> re-verified against the tree and git log). This supersedes the 2026-07-19
-> restamp (which named HEAD `d776fd7` / PRs #274–#275), which was behind after
-> today's 2026-07-20 wave (#277–#279) landed. Earlier EAP-era snapshots
-> (archive/reboot narratives, kill-clock console dates) remain retired.
+> re-verified against the tree and git log). This restamp also records that the
+> **season-2 plan** now exists —
+> [`ideas/2026-07-20-season-2-plan.md`](ideas/2026-07-20-season-2-plan.md): a
+> contingency-shaped post-cutoff build plan (planning-only). It supersedes the
+> earlier stamp that named HEAD `3bb962b` (behind by the #281 squash). Earlier
+> EAP-era snapshots (archive/reboot narratives, kill-clock console dates) remain
+> retired.
 
 ## Platform wind-down (read first)
 
@@ -45,14 +49,14 @@
 
 ## What is true now (2026-07-20)
 
-- **main HEAD `3bb962b`, latest merged PRs #277, #278 and #279** — the
-  distribution submission pack (#277), Ultramarine Book 3 *The Common Blue*
-  (#278), and Night Kiln Book 6 *The Summer Ember* (#279), on top of the
-  2026-07-19 consolidation pass (the 5 KDP-ready packages #274, the transition
-  dossier #275, and the owner-steps/current-state refresh). The prior stamp
-  (`d776fd7` / #274–#275) predated today's wave. Aside from this restamp PR,
-  verify anything else in flight from the live PR list rather than trusting a
-  printed snapshot.
+- **main HEAD `d2d49ec`, latest merged PR #281** — the end-of-day owner-list +
+  heartbeat + current-state refresh, which rode on top of today's #277 (the
+  distribution submission pack), #278 (Ultramarine Book 3 *The Common Blue*), and
+  #279 (Night Kiln Book 6 *The Summer Ember*), themselves on the 2026-07-19
+  consolidation pass (the 5 KDP-ready packages #274, the transition dossier #275,
+  and the owner-steps/current-state refresh). Aside from this restamp PR, verify
+  anything else in flight from the live PR list rather than trusting a printed
+  snapshot.
 - **Standing backlog — the 64-item veto-ready menu.** The current next-task
   backlog is
   [`ideas/2026-07-18-veto-ready-menu.md`](ideas/2026-07-18-veto-ready-menu.md)
@@ -62,6 +66,13 @@
   pitch · S/M/L · risk/reversibility · what-it-unblocks · owner-gate status. The
   owner's veto is the filter; survivors become claimed slices. It REFERENCES and
   EXTENDS the next-wave roadmap and the older menu rather than re-deriving them.
+- **Post-cutoff planning — the season-2 plan.**
+  [`ideas/2026-07-20-season-2-plan.md`](ideas/2026-07-20-season-2-plan.md) plans
+  the world *after* the 2026-07-21 write-cutoff as **contingency branches** keyed
+  to which owner action fires first (lead magnets posted · vetoes arrive · a book
+  sells · trading data provisioned) plus a standing upkeep cadence — a companion
+  to the pre-cutoff [`ideas/2026-07-19-execution-roadmap.md`](ideas/2026-07-19-execution-roadmap.md).
+  Planning-only, decide-and-flagged; nothing built.
 - **Superseded/historical — the 38-proposal overnight menu.** The earlier
   [`ideas/2026-07-17-overnight-menu.md`](ideas/2026-07-17-overnight-menu.md)
   (38 proposals, PR #216) is **no longer the standing backlog** — it is retained
