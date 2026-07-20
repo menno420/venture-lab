@@ -63,7 +63,48 @@ otherwise.
 
 ---
 
-## 2. Pre-cutover publish clicks — batch these before 2026-07-21
+## 2. Free distribution — post each free lead magnet in one paste (zero cost)
+
+The Step 1 read almost certainly shows what every prior read has: near-zero
+views = a **traffic** problem, not a copy or price problem. This is the direct,
+zero-cost fix for exactly that constraint — and it needs nothing from your wallet
+and nothing from the seat.
+
+### ✅ Step 2 — Post the four free lead magnets from the paste-and-post pack
+
+> **Recommendation: do this right after the Step 1 read.** It is the fastest,
+> lowest-cost move against the one constraint that read keeps surfacing —
+> distribution — and it survives the 2026-07-21 read-only cutover untouched (you
+> post from your own accounts; the seat neither publishes nor spends here).
+
+- **What:** Post the four free lead-magnet articles — **agent-ops**,
+  **api-robustness**, **membership**, and **AI-novella** — to the channels where
+  each one honestly fits. The work is already reduced to **one paste + one click
+  per channel**: eleven paste-ready files (dev.to + Hashnode + a fitting subreddit
+  for the three developer clusters; r/selfpublishing + r/writing for the
+  AI-novella piece), each already carrying the platform's front-matter / tags /
+  title and the exact submit URL to open.
+- **Where:** the index — every article × channel, the paste-ready file, and the
+  exact submit URL — is
+  [`../launch/submissions/README.md`](../launch/submissions/README.md). Open the
+  file for the article + channel you want, copy its fenced block, open the submit
+  URL it names, replace each `⟨owner: …⟩` marker with your real link, set the
+  canonical field per the pack's one-time rule (dev.to / Hashnode only), and post
+  as an *article*, not a sales post.
+- **Why / what it unblocks:** Distribution is the binding constraint on the whole
+  catalog — the one LIVE product has **0 organic sales** and the funnel
+  diagnostic keeps pointing at traffic, not copy or price. These posts are the
+  top-of-funnel that feeds every listing; they cost nothing but your time, each is
+  a single paste, and none of them wait on the seat's write access. This is the
+  highest-leverage zero-cost move on the page.
+- **How you'll know it worked:** Each article is live on its channel(s) with the
+  canonical rule applied (never left blank on more than one platform for the same
+  article), every `⟨owner: …⟩` link replaced with your real Gumroad URL, and the
+  soft product footer left intact.
+
+---
+
+## 3. Pre-cutover publish clicks — batch these before 2026-07-21
 
 These are your own Gumroad clicks. They survive the read-only cutover, but doing
 them now means the seat can still fix any listing wording while it has write
@@ -73,10 +114,10 @@ upload file, paste-ready listing copy, and sha256 check for each product live in
 that product's click-script under `docs/launch/<product>/` and in
 [`OWNER-QUEUE.md`](OWNER-QUEUE.md) §2.
 
-### Step 2 — Publish the webhook trio, then make the $79 bundle
+### Step 3 — Publish the webhook trio, then make the $79 bundle
 
-> **Recommendation: do this one first** — it's the single highest-leverage move
-> (four singles become one anchor product).
+> **Recommendation: do this first among the paid publishes** — it's the single
+> highest-leverage publish move (four singles become one anchor product).
 
 - **What:** Publish three **$29** kits — **GitHub Webhook Test Kit**, **Slack
   Webhook Test Kit**, **Shopify Webhook Test Kit** — then create the **Webhook
@@ -95,7 +136,7 @@ that product's click-script under `docs/launch/<product>/` and in
   page and a test purchase delivers its zip; the bundle page lists all four and a
   test purchase delivers **all four** zips.
 
-### Step 3 — Publish the API-robustness four, then the $79 bundle
+### Step 4 — Publish the API-robustness four, then the $79 bundle
 
 - **What:** Publish **Idempotency Key**, **Rate-Limit**, **Pagination**, and
   **JWT Auth** test kits (**$29** each), then create the **API Robustness Bundle
@@ -108,7 +149,7 @@ that product's click-script under `docs/launch/<product>/` and in
 - **How you'll know it worked:** Four live **$29** pages, each test-purchase-
   verified; the bundle delivers all four zips.
 
-### Step 4 — Publish the Membership Kit + Template Pack, then the $59 bundle
+### Step 5 — Publish the Membership Kit + Template Pack, then the $59 bundle
 
 > **Recommendation: these are cleared to publish** — the old freeze on them was
 > lifted on 2026-07-11.
@@ -130,7 +171,7 @@ that product's click-script under `docs/launch/<product>/` and in
 - **How you'll know it worked:** Both product pages are live, your own test
   purchase delivers each zip, and the bundle delivers both.
 
-### Step 5 — The rest of the catalog, as attention allows (no bundle gate)
+### Step 6 — The rest of the catalog, as attention allows (no bundle gate)
 
 - **What:** The remaining standalone kits and guides — **Agent Fleet Field
   Manual ($39)**, **Multi-Agent Control-Plane Pack ($29)**, **CORS Preflight Test
@@ -148,9 +189,9 @@ that product's click-script under `docs/launch/<product>/` and in
 
 ---
 
-## 3. One planning skim (not a click)
+## 4. One planning skim (not a click)
 
-### Step 6 — Skim the veto menu and cross out what you don't want
+### Step 7 — Skim the veto menu and cross out what you don't want
 
 > **Recommendation: skim it, then veto.** Your veto is the filter — the seat
 > deliberately did **not** pre-filter it down to a few safe picks.
@@ -168,21 +209,22 @@ that product's click-script under `docs/launch/<product>/` and in
 
 ---
 
-## 4. The five new book sequels — upload-ready, pending your proofread
+## 5. The seven new book sequels — upload-ready, pending your proofread
 
-These are not one-click Gumroad publishes like §2 — each needs a **native-speaker
+These are not one-click Gumroad publishes like §3 — each needs a **native-speaker
 proofread** first, which is a real reading task, not a click. But the machine work
-is now done: five new sequels each have an upload-ready KDP package built and
+is now done: seven new sequels each have an upload-ready KDP package built and
 waiting, so the remaining path to a live listing is short and owner-only. Ordered
 **quickest win first**.
 
-### Step 7 — Proofread each ready sequel, then create its KDP listing and upload
+### Step 8 — Proofread each ready sequel, then create its KDP listing and upload
 
-> **Recommendation: do the two Night Kiln novellas first.** They are the shortest
-> (≈15.6k words each) and slot into an already-ready matched cozy series, so each
-> proofread-hour buys the most read-through. Then the two longer literary/MG books.
+> **Recommendation: do the three Night Kiln novellas first.** They are the
+> shortest (≈15.6k words each) and slot into an already-ready matched cozy series,
+> so each proofread-hour buys the most read-through. Then the four longer
+> literary / MG books (the two Ultramarine Delft novels, the two Lull books).
 
-- **What:** For each of the five ready sequels, in this order: **(1)** commission
+- **What:** For each of the seven ready sequels, in this order: **(1)** commission
   or run a **native-speaker proofread** of the manuscript; **(2)** create the KDP
   listing by pasting the labelled fields (title, subtitle, series, description,
   keywords, categories, price, KU) straight from that book's `KDP-METADATA.md`;
@@ -191,13 +233,15 @@ waiting, so the remaining path to a live listing is short and owner-only. Ordere
 - **Where:** each book's paste-ready metadata block and upload-ready manuscript
   live in its `kdp-ready/` folder —
   1. The Winter Wheel (The Night Kiln, Bk 4): [`…/the-night-kiln/kdp-ready/book-4/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-4/KDP-METADATA.md)
-  2. The Spring Cup (The Night Kiln, Bk 5, finale): [`…/the-night-kiln/kdp-ready/book-5/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-5/KDP-METADATA.md)
-  3. The Blue and the White (Ultramarine, Bk 2): [`…/ultramarine/kdp-ready/book-2/KDP-METADATA.md`](../../candidates/adult-novels/ultramarine/kdp-ready/book-2/KDP-METADATA.md)
-  4. The Mirror City (Lull, Bk 2): [`…/dream-series/kdp-ready/book-2/KDP-METADATA.md`](../../candidates/dream-series/kdp-ready/book-2/KDP-METADATA.md)
-  5. The Fourth Hour Comes (Lull, Bk 3, trilogy finale): [`…/dream-series/kdp-ready/book-3/KDP-METADATA.md`](../../candidates/dream-series/kdp-ready/book-3/KDP-METADATA.md)
+  2. The Spring Cup (The Night Kiln, Bk 5): [`…/the-night-kiln/kdp-ready/book-5/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-5/KDP-METADATA.md)
+  3. The Summer Ember (The Night Kiln, Bk 6): [`…/the-night-kiln/kdp-ready/book-6/KDP-METADATA.md`](../../candidates/adult-novels/the-night-kiln/kdp-ready/book-6/KDP-METADATA.md)
+  4. The Blue and the White (Ultramarine, Bk 2): [`…/ultramarine/kdp-ready/book-2/KDP-METADATA.md`](../../candidates/adult-novels/ultramarine/kdp-ready/book-2/KDP-METADATA.md)
+  5. The Common Blue (Ultramarine, Bk 3, trilogy finale): [`…/ultramarine/kdp-ready/book-3/KDP-METADATA.md`](../../candidates/adult-novels/ultramarine/kdp-ready/book-3/KDP-METADATA.md)
+  6. The Mirror City (Lull, Bk 2): [`…/dream-series/kdp-ready/book-2/KDP-METADATA.md`](../../candidates/dream-series/kdp-ready/book-2/KDP-METADATA.md)
+  7. The Fourth Hour Comes (Lull, Bk 3, trilogy finale): [`…/dream-series/kdp-ready/book-3/KDP-METADATA.md`](../../candidates/dream-series/kdp-ready/book-3/KDP-METADATA.md)
   Full context — every book's status, the open owner decisions, and the resume
   path — is in [`TRANSITION-DOSSIER.md`](TRANSITION-DOSSIER.md).
-- **Why / what it unblocks:** These five sequels are now **upload-ready** — each
+- **Why / what it unblocks:** These seven sequels are now **upload-ready** — each
   `kdp-ready/` folder holds a `MANUSCRIPT-KDP.md` (upload-ready), a paste-ready
   `KDP-METADATA.md`, and a `SELF-EDIT-PASS.md` self-edit log — **except** for three
   owner/follow-up items before listing: the native-speaker **proofread**, a
@@ -217,9 +261,9 @@ one-sitting click, so they're deliberately **not** on the list above:
 - **The book catalog (KDP titles + Dutch editions)** — hard-gated on a
   **native-speaker proofread pass** you'd commission/approve; that's a real
   reading task, not a click. See [`OWNER-QUEUE.md`](OWNER-QUEUE.md) §2 (KDP rows)
-  and [`PUBLISHING-PLAN.md`](PUBLISHING-PLAN.md). *(The five newest sequels now
+  and [`PUBLISHING-PLAN.md`](PUBLISHING-PLAN.md). *(The seven newest sequels now
   have upload-ready KDP packages — those are written up as their own owner step in
-  §4, Step 7 above; they share the same proofread gate.)*
+  §5, Step 8 above; they share the same proofread gate.)*
 - **Photo Packs (Dutch Skies + Golden Hours)** — blocked until you hand off the
   full-resolution originals (they're held off this public repo) and do a
   licensing/curation pass. See [`OWNER-QUEUE.md`](OWNER-QUEUE.md) §2 (Photo Packs).
