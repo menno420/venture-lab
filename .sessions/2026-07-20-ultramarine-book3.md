@@ -1,6 +1,6 @@
 # Session — Ultramarine, Book 3
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · Ultramarine Book 3 manuscript
 
@@ -52,6 +52,44 @@
   left in Clara's hands; goldfinch panel held in trust, not owned; Grietje's
   five bright things; cobalt supply outside Doncker's lapis network). Born-red
   card + claim committed (first commit).
+- 2026-07-20 — Wrote the Book-3 outline first (`book3/outline.md`), derived
+  strictly from the `bible/` + Book 2's ending, then drafted to it. Wrote the
+  complete manuscript `book3/the-common-blue.md`, honest `wc -w` = **20,413**, 12
+  chapters in three parts (The Great Order / The Common Blue / Everywhere the
+  Plates Go), THE END — single combined file mirroring Book 2's
+  `book2/the-blue-and-the-white.md`, in the series voice (close third on Clara,
+  past tense, sensory/restrained, straight ASCII quotes, spaced em-dashes, motifs
+  threaded). Spine pays Book 2's ch.12 hook exactly: the great VOC order of
+  blue-and-white for the East (China's kilns shut by war, the Company filling the
+  gap), too big for one pottery; Clara sets one true fired blue across a
+  six-pottery consortium; Doncker pivots from despising the kiln-blue to trying to
+  **own** it by buying the narrow Saxon cobalt road, and is outlived (his Book-1
+  line paid off) and dies; the Company routes around his toll; Grietje comes into
+  her own, setting Fabritius's chained goldfinch **free** and multiplying it onto
+  the East-bound ware; the goldfinch trust (Agatha) resolves; the trilogy closes
+  on "the bluest hands in Delft, and everywhere the plates go." Added
+  `book3-cover-brief.md`, `book3-listing.md`, and the `kdp-ready/book-3/` 3-file
+  package (`MANUSCRIPT-KDP.md` — body compiled **byte-for-byte** from the
+  canonical manuscript, verified by zero-diff; `KDP-METADATA.md`;
+  `SELF-EDIT-PASS.md`), mirroring `kdp-ready/book-2/` structure. Appended
+  `DECISIONS.md` [D-0011…D-0014] (title, ~20.5k word count/shape, spine +
+  trilogy-close, real-persons handling; dated 2026-07-20). Self-edit caught and
+  fixed one period anachronism ("the Mauritshuis" → "a burgomaster's best wall")
+  in the canonical source before the byte-preserving KDP build. Content committed
+  (`e182d38`). Diff carries only the 8 intended property files (+ card + claim);
+  no SKU, no generated file, no publish surface, `control/status.md` untouched.
+- 2026-07-20 — Verified pre-flip: `bootstrap.py check --strict` red on the
+  **born-red HOLD only** (in-progress Status — the designed hold; the checker
+  labels it "HOLD (by design)… nothing to investigate"); confirmed **no other
+  failing guard** — no D-ref/catalog-dref/SKU/docs-links guard fired (books are
+  `candidates/` content, not registered SKUs, so no D-ref, as expected). Advisories
+  pre-existing/non-gating (2 seat-digest, 5 model-line on other cards; my card trips
+  none).
+- 2026-07-20 — Flip to `complete` (this commit): Status badge flipped, 📊 Model
+  line kept, one 💡 idea, previous-session review, zero `[[fill:]]` slots, all four
+  byte-markers present. Re-ran `bootstrap.py check --strict` → EXIT 0; born-red
+  HOLD clears. Did NOT touch `control/status.md`; `.substrate/guard-fires.jsonl`
+  left unstaged to keep the diff scoped to the deliverable.
 
 ## 💡 Session idea
 
