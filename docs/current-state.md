@@ -6,14 +6,13 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-19 to current HEAD (main HEAD `d776fd7`; latest merged
-> PRs #274 — the 5 KDP-ready book packages — and #275 — the transition dossier;
-> facts re-verified against the tree and git log). This supersedes the 2026-07-18
-> restamp (which named HEAD `7d5229f` / PR #253), which was ~10 merges behind after
-> the 2026-07-19 book-sequel wave (#268–#272), the end-of-session heartbeat (#273),
-> the KDP-ready packages (#274), and the transition dossier (#275) landed. Earlier
-> EAP-era snapshots (archive/reboot narratives, kill-clock console dates) remain
-> retired.
+> Restamped 2026-07-20 to current HEAD (main HEAD `3bb962b`; latest merged
+> PRs #277 — the distribution submission pack — #278 — Ultramarine Book 3 *The
+> Common Blue* — and #279 — Night Kiln Book 6 *The Summer Ember*; facts
+> re-verified against the tree and git log). This supersedes the 2026-07-19
+> restamp (which named HEAD `d776fd7` / PRs #274–#275), which was behind after
+> today's 2026-07-20 wave (#277–#279) landed. Earlier EAP-era snapshots
+> (archive/reboot narratives, kill-clock console dates) remain retired.
 
 ## Platform wind-down (read first)
 
@@ -44,14 +43,16 @@
   buyer self-hosts. "Publishing" is a manual **owner** action (upload a dist zip
   to Gumroad, post the listing) — never a deploy.
 
-## What is true now (2026-07-19)
+## What is true now (2026-07-20)
 
-- **main HEAD `d776fd7`, latest merged PRs #274 and #275** — the 5 KDP-ready book
-  packages (#274) and the transition dossier (#275), on top of the 2026-07-19
-  book-sequel wave (#268–#272) and the end-of-session heartbeat + stale-claim
-  prune (#273). The prior stamp (`7d5229f` / #253, MISC-3 kill-clock packet) was
-  ~10 merges behind. Aside from this restamp PR, verify anything else in flight
-  from the live PR list rather than trusting a printed snapshot.
+- **main HEAD `3bb962b`, latest merged PRs #277, #278 and #279** — the
+  distribution submission pack (#277), Ultramarine Book 3 *The Common Blue*
+  (#278), and Night Kiln Book 6 *The Summer Ember* (#279), on top of the
+  2026-07-19 consolidation pass (the 5 KDP-ready packages #274, the transition
+  dossier #275, and the owner-steps/current-state refresh). The prior stamp
+  (`d776fd7` / #274–#275) predated today's wave. Aside from this restamp PR,
+  verify anything else in flight from the live PR list rather than trusting a
+  printed snapshot.
 - **Standing backlog — the 64-item veto-ready menu.** The current next-task
   backlog is
   [`ideas/2026-07-18-veto-ready-menu.md`](ideas/2026-07-18-veto-ready-menu.md)
@@ -120,6 +121,16 @@ performed none of them.
   reusable [`launch/DISTRIBUTION-PLAYBOOK.md`](launch/DISTRIBUTION-PLAYBOOK.md)
   (#249). Each is a free article; posting stays an owner paste-and-post
   (OWNER-ACTION), never an auto-publish or spend.
+  - **New — the distribution submission pack (#277).**
+    [`launch/submissions/`](launch/submissions/README.md) turns those four free
+    lead magnets into **11 paste-and-post-ready channel files** (dev.to + Hashnode
+    + a fitting subreddit each for the three developer clusters; r/selfpublishing
+    + r/writing for AI-novella), so each external post is one owner paste + click
+    with zero reformatting — the exact submit URL, front-matter, and honesty rules
+    baked in. It is the first click-ready form of the top-of-funnel against the
+    binding distribution constraint; still owner paste-and-post, never a seat
+    publish or spend. It is written up as a zero-cost owner quick-win step in
+    [`publishing/OWNER-START-HERE.md`](publishing/OWNER-START-HERE.md) §2.
 - **Go-live owner steps** for the products that need keys before real money can
   flow (Membership kit's Stripe/Supabase/Discord env, the SWTK kill-clock call,
   the publish clicks) are written as finished steps in
@@ -137,18 +148,22 @@ cannot clear it (19 OWNER-QUEUE rows are hard-gated on it). Vetting via
 here to avoid a recurring drift class — re-derive from the `candidates/` tree
 when a precise count is needed.)
 
-- **The Night Kiln cozy-fantasy line is now a complete 5-book series** (Books 1–5;
-  a Book 6 is planted but unwritten — do not list it as available), and **the
+- **The Night Kiln cozy-fantasy line is now a 6-book series** (Books 1–6; Book 6
+  *The Summer Ember* landed 2026-07-20 as #279, paying the Book-5 cold far-kiln
+  hook — a Book 7 is planted but unwritten, do not list it as available), and **the
   Lull / DREAMLINE middle-grade portal-fantasy trilogy is complete** (Books 1–3).
-  Both closed in the 2026-07-19 sequel wave (#268–#272), alongside *Ultramarine*
-  Book 2 *The Blue and the White* (a second Delft historical novel).
-- **KDP-ready packages (5) — a new artifact class (#274).** Each of the five new
-  sequels has an upload-ready package under `candidates/.../kdp-ready/`: a
-  `MANUSCRIPT-KDP.md` (upload-ready), a paste-ready `KDP-METADATA.md`, and a
-  `SELF-EDIT-PASS.md` self-edit log. Still owner-gated on the native-speaker
-  proofread, a `keyword-map.md` §3 reservation, and a full vetting packet before
-  any listing. The owner-facing publish steps are in
-  [`publishing/OWNER-START-HERE.md`](publishing/OWNER-START-HERE.md) §4.
+  **Ultramarine is now a complete 3-book Delft trilogy** — Book 3 *The Common Blue*
+  landed 2026-07-20 as #278, paying Book 2's VOC East-bound blue-and-white hook;
+  Book 2 *The Blue and the White* and the Lull trilogy closed in the 2026-07-19
+  sequel wave (#268–#272).
+- **KDP-ready packages (7) — a growing artifact class (#274, #278, #279).** Each of
+  the seven ready sequels has an upload-ready package under
+  `candidates/.../kdp-ready/`: a `MANUSCRIPT-KDP.md` (upload-ready), a paste-ready
+  `KDP-METADATA.md`, and a `SELF-EDIT-PASS.md` self-edit log — the original five
+  (#274) plus Ultramarine Book 3 (#278) and Night Kiln Book 6 (#279). Still
+  owner-gated on the native-speaker proofread, a `keyword-map.md` §3 reservation,
+  and a full vetting packet before any listing. The owner-facing publish steps are
+  in [`publishing/OWNER-START-HERE.md`](publishing/OWNER-START-HERE.md) §5, Step 8.
 - **Cutover read (#275):** [`publishing/TRANSITION-DOSSIER.md`](publishing/TRANSITION-DOSSIER.md)
   is the single neutral read of the whole venture state at the 2026-07-21
   read-only cutoff — every sellable + status, every book property + next hook, the
@@ -178,8 +193,24 @@ when a precise count is needed.)
 
 (Merged work only, newest first. Squash SHAs verified via git log.)
 
-- Owner steps for the 5 KDP-ready sequels + this current-state / heartbeat
-  refresh (this PR — the final PR of the 2026-07-19 consolidation pass).
+- End-of-day owner-list + heartbeat + current-state refresh for the 2026-07-20
+  wave — the submission-pack quick-win and the two new books added to
+  `OWNER-START-HERE.md`, this restamp, and a neutral heartbeat (this PR).
+- Night Kiln Book 6 *The Summer Ember* (15,659 words) — completes the Book-5
+  cold far-kiln hook; manuscript + series-arc + cover brief + listing +
+  `kdp-ready/book-6/` 3-file KDP package (PR #279, squash `3bb962b`).
+- Ultramarine Book 3 *The Common Blue* (20,413 words) — completes the Delft
+  trilogy, pays Book 2's VOC East-bound blue-and-white hook; manuscript + outline
+  + cover brief + listing + `kdp-ready/book-3/` 3-file KDP package (PR #278,
+  squash `a2ab822`).
+- Distribution submission pack — 11 paste-and-post channel files under
+  `docs/launch/submissions/` turning the four free lead magnets into one-click
+  submissions (dev.to + Hashnode + a fitting subreddit each; AI-novella →
+  r/selfpublishing + r/writing), index at `submissions/README.md` (PR #277,
+  squash `c689783`).
+- Owner steps for the 5 KDP-ready sequels + the prior current-state / heartbeat
+  refresh (PR #276, squash `1fdbc4f`) — the final PR of the 2026-07-19
+  consolidation pass.
 - KDP-ready packages for the 5 new sequels — `MANUSCRIPT-KDP.md` +
   `KDP-METADATA.md` + `SELF-EDIT-PASS.md` under `candidates/.../kdp-ready/`
   (PR #274, squash `d776fd7`).
