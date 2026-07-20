@@ -68,6 +68,19 @@ BUNDLE_TEMPLATES = frozenset({"bundle-starter"})
 # requirements (they legitimately carry a launch dir + vetting packet only).
 OWNER_GATED_LANES = frozenset({"photo-packs"})
 
+# Non-SKU CONTAINER directories that live under docs/launch/ but are NOT per-SKU
+# launch rows — so they are excluded from the launch-SKU universe entirely (they are
+# not a launch row at any level, unlike BUNDLE_TEMPLATES / OWNER_GATED_LANES, which
+# ARE real SKUs merely exempt from a specific requirement). This is a CLASSIFICATION,
+# not an allowlist that hides drift: the entry named here is categorically not a
+# sellable SKU, so demanding a vetting packet / catalog row / build artifact for it
+# would invent a phantom SKU, not surface a missing one.
+#   * `submissions` — docs/launch/submissions/ holds per-channel marketing submission
+#     DRAFTS (one paste-and-post file per channel for the free lead-magnet articles),
+#     not a sellable SKU. It has no candidates/ build dir, no vetting packet, and no
+#     catalog row by design, so it is not a launch row. (Added #277.)
+NON_SKU_LAUNCH_DIRS = frozenset({"submissions"})
+
 # The required funnel-asset SET, as (role_name, accepted_filenames) pairs. A role
 # is SATISFIED when the launch folder contains at least one of its accepted
 # filenames — this tolerates the two live naming conventions (modern majority +
@@ -122,8 +135,14 @@ def built_skus(root=REPO_ROOT):
 
 
 def launch_skus(root=REPO_ROOT):
-    """The set of skus with a `docs/launch/<sku>/` launch registry directory."""
-    return set(subdirs(Path(root) / LAUNCH_DIR_REL))
+    """The set of skus with a `docs/launch/<sku>/` launch registry directory.
+
+    Non-SKU CONTAINER directories (NON_SKU_LAUNCH_DIRS — e.g. the marketing
+    submission-drafts container `docs/launch/submissions/`) are excluded: they sit
+    under docs/launch/ for locality but are not per-SKU launch rows, so they are not
+    part of the launch-SKU universe the built↔registered guard reasons about.
+    """
+    return set(subdirs(Path(root) / LAUNCH_DIR_REL)) - NON_SKU_LAUNCH_DIRS
 
 
 def vetting_skus(root=REPO_ROOT):

@@ -181,7 +181,38 @@ class AllowlistTest(unittest.TestCase):
     def test_documented_allowlists_carry_live_values(self):
         self.assertIn("bundle-starter", reg.BUNDLE_TEMPLATES)
         self.assertIn("photo-packs", reg.OWNER_GATED_LANES)
+        self.assertIn("submissions", reg.NON_SKU_LAUNCH_DIRS)
         self.assertEqual(reg.BUILD_MARKER, "dist")
+
+
+class NonSkuLaunchDirTest(unittest.TestCase):
+    """NON_SKU_LAUNCH_DIRS containers are excluded from the launch-SKU universe,
+    while real launch rows are still enumerated (the exclusion must not blind it)."""
+
+    def setUp(self):
+        self.root = tempfile.mkdtemp(prefix="skureg-nonsku-")
+
+    def tearDown(self):
+        shutil.rmtree(self.root, ignore_errors=True)
+
+    def test_container_excluded_but_real_rows_kept(self):
+        _make_launch(self.root, "real-kit", ("listing-copy.md",))
+        # A non-SKU container directory under docs/launch/ (marketing drafts).
+        container = next(iter(reg.NON_SKU_LAUNCH_DIRS))
+        _make_launch(self.root, container, ("some-channel.md",))
+        skus = reg.launch_skus(self.root)
+        self.assertIn("real-kit", skus)
+        self.assertNotIn(container, skus)
+
+    def test_live_tree_excludes_container_dir(self):
+        # The container dir really exists on the live tree, but is NOT a launch SKU.
+        container = next(iter(reg.NON_SKU_LAUNCH_DIRS))
+        launch_dir = os.path.join(reg.REPO_ROOT, reg.LAUNCH_DIR_REL, container)
+        self.assertTrue(
+            os.path.isdir(launch_dir),
+            "expected the non-SKU container {} to exist on the live tree".format(container),
+        )
+        self.assertNotIn(container, reg.launch_skus(reg.REPO_ROOT))
 
 
 class FixtureRootIsolationTest(unittest.TestCase):
