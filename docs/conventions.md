@@ -23,7 +23,7 @@
    agent actions. The `auto-merge-enabler` workflow lands `claude/*` heads on
    green automatically if you prefer to let it. If a specific merge is ever
    refused, that is venue-specific — attempt once, record the exact error, take
-   the next slice — never a standing "agents can't merge" wall. (Historical
+   the next slice — there is no standing "agents can't merge" wall. (Historical
    PR #9/#15/#55 `[Self-Approval]`/`[Merge Without Review]` denials were narrow
    relayed-authority / delegated-worker cases, now superseded — see
    [`PLATFORM-LIMITS.md`](PLATFORM-LIMITS.md) as historical record.)

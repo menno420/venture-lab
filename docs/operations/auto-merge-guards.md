@@ -5,7 +5,7 @@
 > ⚠️ **RETIRING — reference only.** The owner is winding down the autonomy
 > apparatus and the `auto-merge-enabler.yml` workflow is slated for retirement.
 > **Correction:** merging is normal agent work — agents merge their own green
-> PRs directly (MCP/REST) or via the enabler; the earlier "classifier-DENIED /
+> PRs directly (MCP/REST) or via the enabler; the old "classifier-DENIED /
 > the owner merges" framing was a false standing wall (superseded, proven by
 > direct agent merges 2026-07-18). See [`../conventions.md`](../conventions.md) §
 > "PR state and merge authority" and [`../current-state.md`](../current-state.md).

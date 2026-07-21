@@ -16,7 +16,7 @@ Your agent's PR is green and still can't land: self-merge denied, auto-merge won
 
 ## Long description
 ```
-An agent fleet that opens its own pull requests hits a wall no amount of prompting fixes: the direct self-merge is denied by policy ("[Self-Approval] … defeating two-party review"), retrying through a different API path is denied again, and GitHub-native auto-merge refuses to arm because the branch has zero required checks — so a green PR sits agent-unlandable, one human click from done.
+An agent fleet that opens its own pull requests hits a wall no amount of prompting fixes: in this repo's recorded runs the direct self-merge was denied by policy ("[Self-Approval] … defeating two-party review" · 2026-07-10/2026-07-11 ledger records, per-call transients since superseded 2026-07-18), a retry through a different API path was denied again, and GitHub-native auto-merge refused to arm because the branch had zero required checks — so a green PR sat unlanded, one human click from done.
 
 This cookbook is the landing path, taken from a public repository whose agent fleet hit every one of those walls, recorded each denial verbatim in a committed platform-limits ledger, and then landed 13 agent PRs green in a single night with the workflows this bundle ships.
 

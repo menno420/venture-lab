@@ -5,7 +5,7 @@
 > ⚠️ **RETIRING — reference only.** The auto-merge apparatus is being wound down;
 > the enabler workflow is slated for retirement at relaunch. **Correction:**
 > merging is normal agent work — agents merge their own green PRs directly
-> (MCP/REST) or via the enabler; the earlier "classifier-denied / the owner
+> (MCP/REST) or via the enabler; the old "classifier-denied / the owner
 > merges" framing was a false standing wall (superseded). The one genuine
 > owner-only step below (turning on the repo Settings — auto-merge toggle +
 > required check) remains accurate. See [`../conventions.md`](../conventions.md) /

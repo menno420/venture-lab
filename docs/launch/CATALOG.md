@@ -427,8 +427,8 @@ pagination, or token security.
 [packet](../publishing/vetting/auto-merge-enabler-cookbook.md))
 - **Who it's for:** the same operators who want the single production workflow,
   annotated.
-- **The problem:** the agent can't merge or even arm auto-merge from its own seat
-  (policy denies it) — so how does a green PR land itself, safely?
+- **The problem:** a policy layer may transiently refuse a seat-side merge or
+  auto-merge arm — so how does a green PR land itself, safely?
 - **Buy vs DIY:** vs. trial-and-error against the policy layer. The exact
   merge-on-green enabler this repo runs, annotated guard by guard, with the
   born-red HOLD that keeps it safe and **five citable `github-actions[bot]`
