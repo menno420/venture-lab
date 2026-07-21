@@ -1,7 +1,6 @@
+SEAT CLOSED — Tue Jul 21 20:04:35 UTC 2026
 # Venture Lab — status log (neutral snapshot)
 updated: 2026-07-21T20:04:35Z
-
-SEAT CLOSED — Tue Jul 21 20:04:35 UTC 2026
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
 > neutral status pointer, not a source of truth or an order. This is the final
