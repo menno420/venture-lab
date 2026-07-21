@@ -42,6 +42,7 @@ explicit owner action** — every such step is queued click-level under
 | [`docs/review-queue.md`](docs/review-queue.md) | Post-merge review ledger — merge-then-flag, never wait-for-review. |
 | [`docs/retro/QUESTIONS.md`](docs/retro/QUESTIONS.md) | Standing self-review questions, planted day 0. |
 | [`control/claims/`](control/claims/) | Claim-before-build files, one per claim (the canonical claim home). |
+| [`docs/PROJECT-CLOSEOUT.md`](docs/PROJECT-CLOSEOUT.md) | **Project closeout** — the single durable cutover read for the 2026-07-21 read-only window: everything shipped, the true current state, continuation threads, and the owner walkthrough. |
 
 ## First session duties (in order)
 
