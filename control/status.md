@@ -1,61 +1,58 @@
 # Venture Lab — status log (neutral snapshot)
-updated: 2026-07-20T07:36:15Z
+updated: 2026-07-21T20:04:35Z
+
+SEAT CLOSED — Tue Jul 21 20:04:35 UTC 2026
 
 > The `control/*` manager↔lane message-bus remains **retired**. This file is a
-> neutral status pointer, not a source of truth or an order. The successor reads
-> [`../docs/current-state.md`](../docs/current-state.md),
-> [`../docs/publishing/OWNER-START-HERE.md`](../docs/publishing/OWNER-START-HERE.md),
-> [`../docs/publishing/TRANSITION-DOSSIER.md`](../docs/publishing/TRANSITION-DOSSIER.md),
-> and [`../docs/launch/CATALOG.md`](../docs/launch/CATALOG.md).
+> neutral status pointer, not a source of truth or an order. This is the final
+> closeout heartbeat before the 2026-07-21 read-only cutoff.
 
-**Where the tree is (neutral facts):**
-- `main` HEAD is `d2d49ec` — the 2026-07-20 end-of-day owner-list + heartbeat +
-  current-state refresh (#281), which rode on top of #279 (Night Kiln Book 6).
-  This pass's two PRs ride on top of that base.
+**Cutover read (start here):**
+- Project closeout — the single durable read of what shipped, the true current
+  state, continuation threads, and the owner walkthrough:
+  [`../docs/PROJECT-CLOSEOUT.md`](../docs/PROJECT-CLOSEOUT.md).
+- Living ledger: [`../docs/current-state.md`](../docs/current-state.md).
+- Owner start page: [`../docs/publishing/OWNER-START-HERE.md`](../docs/publishing/OWNER-START-HERE.md).
+- Cutover dossier: [`../docs/publishing/TRANSITION-DOSSIER.md`](../docs/publishing/TRANSITION-DOSSIER.md).
+
+**Where the tree is (neutral facts, verified live):**
+- `main` HEAD is `83faa9c` — the substrate-kit vendored-dist upgrade
+  v1.17.0 → v1.20.1 (#282), with its follow-up substrate-gate fix #286.
 - `python3 bootstrap.py check --strict` is **green (exit 0)** at that HEAD
-  (advisories only, pre-existing: seat-digest stale/over-budget + model-line
-  notes).
-- Kit version: `v1.17.0` (an upgrade to `v1.20.1` is proposed on a separate open
-  PR, not part of this pass).
+  (advisories only, pre-existing: model-line notes on older cards).
+- Kit version: `v1.20.1` (`../substrate.config.json`).
 
-**What this pass did (2026-07-20):**
-- **QA'd the owner click-surface.** A read-only sweep of the owner-facing surface
-  (OWNER-START-HERE, the transition dossier, the 7 KDP-ready packages, the
-  submission-pack channel files, the catalog counts) — links resolve, manuscripts
-  are un-truncated, metadata is complete, no fabricated stats. The content-staleness
-  and consistency fixes it surfaced are **in flight on a companion QA PR** (branch
-  `claude/owner-surface-qa`).
-- **Added the season-2 plan.** `docs/ideas/2026-07-20-season-2-plan.md` — a
-  prioritized, contingency-shaped build plan for the world after the 2026-07-21
-  write-cutoff, organised as ordered branches keyed to which owner action fires
-  first (lead magnets posted · vetoes arrive · a book sells · trading data
-  provisioned) plus a standing upkeep cadence. Planning-only, decide-and-flagged,
-  owner-gated items marked. Linked from `docs/ideas/README.md`.
-- **This heartbeat + a current-state restamp** — `control/status.md` overwritten
-  LAST as neutral prose pointers; `docs/current-state.md` restamped to the current
-  HEAD/date noting the plan doc now exists. No SKU, no publish surface, no
-  generated file touched.
+**PR list — terminal states (recent, newest first):**
+- #287 — final project closeout (closeout doc + records true-up + this
+  heartbeat) — the PR carrying this snapshot; lands on green via the landing
+  workflow once its born-red session card flips to complete.
+- #286 `5172bd9` — substrate-gate fix for the v1.20.1 upgrade — MERGED.
+- #282 `83faa9c` — substrate-kit v1.20.1 upgrade — MERGED (current HEAD).
+- #281 `d2d49ec` — end-of-day owner-list + heartbeat + current-state refresh — MERGED.
+- #279 `3bb962b` — Night Kiln Book 6 — MERGED.
+- #278 `a2ab822` — Ultramarine Book 3 — MERGED.
+- #277 `c689783` — distribution submission pack — MERGED.
+- (Full shipped history with cites: `../docs/PROJECT-CLOSEOUT.md` §1.)
 
 **Catalog (unchanged this pass — neutral counts):**
-- Sellables: **1 LIVE SKU** (Stripe Webhook Test Kit $29) **+ 19 publish-READY +
-  3 hard-gated bundles** (`../docs/launch/CATALOG.md`).
+- Sellables: **1 LIVE SKU** (Stripe Webhook Test Kit $29, 0 organic sales;
+  T+14 keep/iterate/delist call 2026-07-26) **+ 19 publish-READY + 3 hard-gated
+  bundles** (`../docs/launch/CATALOG.md`).
 - Books: **two complete adult trilogies** (Ultramarine Bk 1–3 · Lull/DREAMLINE
   Bk 1–3) **+ a six-book Night Kiln cozy series** (Bk 1–6; Bk 7 planted but
   unwritten); **7 KDP-ready packages**, all still owner-gated on the
   native-speaker proofread.
 
-**Read-path pointers (neutral):**
-- Living ledger: [`../docs/current-state.md`](../docs/current-state.md).
-- Season-2 plan: [`../docs/ideas/2026-07-20-season-2-plan.md`](../docs/ideas/2026-07-20-season-2-plan.md).
-- Owner publish/proofread click-path:
-  [`../docs/publishing/OWNER-START-HERE.md`](../docs/publishing/OWNER-START-HERE.md).
-
-**Backlog (honest):**
-- Publishing stays **owner-gated**: the native-speaker proofread plus the
-  KDP/Gumroad clicks remain owner-only, and posting the lead magnets is an owner
+**Backlog (honest — all owner-gated):**
+- Publishing stays owner-gated: the native-speaker proofread plus the KDP/Gumroad
+  clicks remain owner-only, and posting the lead magnets is an owner
   paste-and-post. No SKU, generated-file, or publish-surface edits rode this pass.
-- **Nothing is due before Friday's grading (2026-07-24)** — the SWTK T+14
-  keep/iterate/delist read follows on **2026-07-26** with its inputs already
-  written (`../docs/launch/funnel-diagnostic.md`, `../docs/launch/kill-clock-decision-packet.md`).
+- Continuation threads in priority order are enumerated in
+  [`../docs/PROJECT-CLOSEOUT.md`](../docs/PROJECT-CLOSEOUT.md) §3.
 
-kit: v1.17.0
+**Automation:**
+- routine wipe executed by the coordinator session; see closeout. No live
+  autonomous schedules remain; re-arming is a deliberate owner action
+  post-relaunch, not an in-repo fact.
+
+kit: v1.20.1
