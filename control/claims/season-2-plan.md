@@ -1,1 +1,0 @@
-- `claude/season-2-plan` · **Season-2 contingent post-cutoff build plan (`docs/ideas/2026-07-20-season-2-plan.md`) + session heartbeat + current-state restamp** · docs/ideas/2026-07-20-season-2-plan.md + control/status.md + docs/current-state.md · 2026-07-20

@@ -303,3 +303,10 @@ do: Your substrate-kit v1.20.1 upgrade PR #282 is red on its substrate-gate: the
 why: the v1.20.1 kit-upgrade wave left this repo's upgrade PR red on pre-existing repo-local doc findings the new gate flags; fleet-manager fixed the same pattern (PR #390, merged 2026-07-20T12:08Z) and its gate went green.
 done-when: PR #282's substrate-gate is green and the armed auto-merge has landed the v1.20.1 upgrade on main.
 provenance: fleet-manager ORDER routing (kit-wave sweep 2026-07-20); owner nothing-stuck directive 2026-07-19.
+
+## ORDER 018 · 2026-07-21T19:56:45Z · status: closeout-record
+priority: P3
+do: CLOSEOUT RECORD — lane-appended true-up, NOT a manager order (kept in ORDER grammar so the append-only inbox gate accepts it). Records that ORDER 017's done-when is satisfied: the substrate-kit v1.20.1 upgrade PR #282 landed on main as HEAD `83faa9c`, and its substrate-gate fix landed as PR #286 `5172bd9`; the armed auto-merge carried the upgrade. No open work remains for ORDER 017.
+why: ORDER grammar is append-only and orders keep `status: new` in-file permanently — "done" is diffed against control/status.md, never marked in place. This append is the inbox-side provenance breadcrumb for the final project closeout; the authoritative done-signal is the closeout heartbeat in control/status.md and the cutover read docs/PROJECT-CLOSEOUT.md.
+done-when: this closeout record is on main (satisfied when the final-closeout PR lands).
+provenance: lane-appended during the final autonomous-agent-session closeout, 2026-07-21; authoritative state in docs/PROJECT-CLOSEOUT.md and control/status.md.

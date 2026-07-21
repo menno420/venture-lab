@@ -6,17 +6,21 @@
 > work always win over this file. Read it second (right after the working
 > agreement) and keep it current as the project moves.
 >
-> Restamped 2026-07-20 to current HEAD (main HEAD `d2d49ec`, the end-of-day
-> owner-list + heartbeat + current-state refresh #281, which rode on top of
-> today's #277 — distribution submission pack — #278 — Ultramarine Book 3 *The
-> Common Blue* — and #279 — Night Kiln Book 6 *The Summer Ember*; facts
-> re-verified against the tree and git log). This restamp also records that the
-> **season-2 plan** now exists —
+> Restamped 2026-07-21 to current HEAD (main HEAD `83faa9c`, the substrate-kit
+> vendored-dist **v1.17.0 → v1.20.1** upgrade #282, with its follow-up
+> substrate-gate fix #286 `5172bd9`; facts re-verified against the tree and git
+> log). This supersedes the earlier 2026-07-20 stamp that named HEAD `d2d49ec`
+> (#281, the end-of-day owner-list + heartbeat refresh), which rode on top of
+> #277 (distribution submission pack), #278 (Ultramarine Book 3 *The Common
+> Blue*), and #279 (Night Kiln Book 6 *The Summer Ember*); #281 is now behind by
+> the #282 kit-upgrade squash. The **season-2 plan** exists —
 > [`ideas/2026-07-20-season-2-plan.md`](ideas/2026-07-20-season-2-plan.md): a
-> contingency-shaped post-cutoff build plan (planning-only). It supersedes the
-> earlier stamp that named HEAD `3bb962b` (behind by the #281 squash). Earlier
-> EAP-era snapshots (archive/reboot narratives, kill-clock console dates) remain
-> retired.
+> contingency-shaped post-cutoff build plan (planning-only). Earlier EAP-era
+> snapshots (archive/reboot narratives, kill-clock console dates) remain retired.
+>
+> **Cutover read:** the single durable project closeout for the 2026-07-21
+> read-only cutoff — everything shipped, the true current state, the continuation
+> threads, and an owner walkthrough — is [`PROJECT-CLOSEOUT.md`](PROJECT-CLOSEOUT.md).
 
 ## Platform wind-down (read first)
 
@@ -47,16 +51,18 @@
   buyer self-hosts. "Publishing" is a manual **owner** action (upload a dist zip
   to Gumroad, post the listing) — never a deploy.
 
-## What is true now (2026-07-20)
+## What is true now (2026-07-21)
 
-- **main HEAD `d2d49ec`, latest merged PR #281** — the end-of-day owner-list +
-  heartbeat + current-state refresh, which rode on top of today's #277 (the
-  distribution submission pack), #278 (Ultramarine Book 3 *The Common Blue*), and
-  #279 (Night Kiln Book 6 *The Summer Ember*), themselves on the 2026-07-19
-  consolidation pass (the 5 KDP-ready packages #274, the transition dossier #275,
-  and the owner-steps/current-state refresh). Aside from this restamp PR, verify
-  anything else in flight from the live PR list rather than trusting a printed
-  snapshot.
+- **main HEAD `83faa9c`, latest merged PR #282** — the substrate-kit vendored
+  dist upgrade **v1.17.0 → v1.20.1** (with its follow-up substrate-gate fix #286
+  `5172bd9`), which rode on top of #281 (the 2026-07-20 end-of-day owner-list +
+  heartbeat + current-state refresh, `d2d49ec`), itself on #277 (distribution
+  submission pack), #278 (Ultramarine Book 3 *The Common Blue*), and #279 (Night
+  Kiln Book 6 *The Summer Ember*). Aside from the final-closeout PR carrying this
+  restamp, verify anything else in flight from the live PR list rather than
+  trusting a printed snapshot.
+- **Kit version: v1.20.1** (`substrate.config.json`) — the v1.17.0 → v1.20.1
+  upgrade landed via #282 `83faa9c`.
 - **Standing backlog — the 64-item veto-ready menu.** The current next-task
   backlog is
   [`ideas/2026-07-18-veto-ready-menu.md`](ideas/2026-07-18-veto-ready-menu.md)
