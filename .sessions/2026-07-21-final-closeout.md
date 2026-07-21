@@ -1,6 +1,6 @@
 # Session — Final project closeout
 
-> **Status:** `in-progress`
+> **Status:** `complete`
 
 - **📊 Model:** opus-4.8 · high · docs-only
 
@@ -39,6 +39,22 @@
   8 claim-file squash SHAs are ancestors of HEAD (terminal/merged). Born-red card
   committed first; PR opened READY (non-draft) so `auto-merge-enabler.yml` arms;
   the in-progress badge holds CI red until the deliberate final flip.
+- 2026-07-21 — Landed the three deliverables as scoped commits on
+  `claude/final-closeout`: (`ab77577`) `docs/PROJECT-CLOSEOUT.md` + current-state
+  restamp to HEAD `83faa9c` + README index row; (`b326c47`) records true-up —
+  TRANSITION-DOSSIER restamp, append-only ORDER-018 closeout-record in
+  `control/inbox.md` (marking ORDER 017's done-when satisfied; passes the inbox
+  append-only + ORDER-grammar gate), and the prune of this seat's 8 terminal
+  claim files (squash SHAs verified ancestors of HEAD; `control/claims/README.md`
+  kept); (`75c36a0`) the final neutral heartbeat overwriting `control/status.md`
+  (SEAT CLOSED, closeout pointer, terminal PR list, routine-wipe note). Verified
+  `OWNER-QUEUE.md` byte-identical to its generator (untouched). Docs gate clean
+  (no orphan/link/badge finding on the closeout doc); `check --strict` red on the
+  born-red HOLD ONLY.
+- 2026-07-21 — Flip to `complete` (this commit): Status badge flipped, 📊 Model
+  line kept, one 💡 idea, previous-session review, zero `[[fill:]]` slots, all
+  four byte-markers present. Re-ran `bootstrap.py check --strict` → EXIT 0; the
+  born-red HOLD clears and the landing workflow is released.
 
 ## 💡 Session idea
 
