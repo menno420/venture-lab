@@ -205,8 +205,9 @@ relaunch call so nothing load-bearing is removed unilaterally):
   takes orders directly. (Banners added this PR.)
 - **Reconsider the auto-merge apparatus** — `auto-merge-enabler.yml` + the
   born-red session-card gate (`substrate-gate.yml` + `.sessions/` cards). Note:
-  the earlier rationale ("agent seats can't arm/self-merge, so the enabler is the
-  only merger") was based on a **false standing wall** — merging own green PRs is
+  the earlier rationale (the belief, disproven 2026-07-18, that agent seats
+  could not arm/self-merge, so the enabler was the only merger) was based on a
+  **false standing wall** — merging own green PRs is
   normal agent work (proven by direct agent merges). Correcting that belief
   **dissolves the frozen-PR class** directly: agents merge their own green PRs,
   so a mergeable green PR never sits waiting. The enabler is now a convenience,
