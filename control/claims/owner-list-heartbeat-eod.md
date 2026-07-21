@@ -1,1 +1,0 @@
-- `claude/owner-list-heartbeat-eod` · **Owner list + heartbeat EOD refresh (submission-pack quick-win + 2 new books + current-state restamp + neutral heartbeat)** · docs/publishing/OWNER-START-HERE.md + docs/current-state.md + control/status.md · 2026-07-20

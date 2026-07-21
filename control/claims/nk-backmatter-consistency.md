@@ -1,1 +1,0 @@
-- `claude/nk-backmatter-consistency` · **Night Kiln back-matter consistency fix slice: FIX1 Bk5 "About the series" no longer claims the five-book cycle ends (points forward to Book 6), FIX2 About-the-author slot unified to the canonical `⟨owner: author bio⟩` bio slot across all 7 KDP manuscripts** · candidates/*/kdp-ready/*/MANUSCRIPT-KDP.md · 2026-07-20

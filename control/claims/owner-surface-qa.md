@@ -1,1 +1,0 @@
-- `claude/owner-surface-qa` · **Owner-surface QA fix slice: A1 five→seven, A2 dossier restamp, B1 placeholder normalization across 7 KDP manuscripts, B2 CTA consistency, B3 keyword-map scope, C-advisory reddit note** · docs/publishing/ + candidates/*/kdp-ready/*/ + docs/launch/submissions/ · 2026-07-20

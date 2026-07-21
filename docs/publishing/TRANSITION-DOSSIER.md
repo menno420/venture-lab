@@ -4,15 +4,15 @@
 >
 > **Purpose:** one neutral, verifiable snapshot of every sellable, book property, open
 > owner decision, asset location, and the exact post-cutoff resume path for the venture-lab
-> venture — so nothing is lost across the read-only cutover. **State as of 2026-07-20; cutoff
-> 2026-07-21** (the Claude Code Projects EAP goes read-only that day). Live HEAD `d2d49ec`
-> (PR #281); `python3 bootstrap.py check --strict` green. Compiled read-only — no repo files
+> venture — so nothing is lost across the read-only cutover. **State as of 2026-07-21; cutoff
+> 2026-07-21** (the Claude Code Projects EAP goes read-only that day). Live HEAD `83faa9c`
+> (PR #282, substrate-kit v1.20.1); `python3 bootstrap.py check --strict` green. Compiled read-only — no repo files
 > edited to produce it (this doc + one index row in `docs/publishing/README.md` are the only
 > additions).
 
 ## ⚑ Snapshot currency — read this first
 
-This dossier is restamped to the live tree at HEAD `d2d49ec` / PR #281 (2026-07-20). Two book
+This dossier is restamped to the live tree at HEAD `83faa9c` / PR #282 (2026-07-21). Two book
 sequels landed after the original 2026-07-19 compile — **Ultramarine Book 3** *The Common Blue*
 (#278) and **Night Kiln Book 6** *The Summer Ember* (#279) — so the catalog is now:
 
@@ -335,6 +335,6 @@ data-provisioning decision exists, it lives in the trading repo — verify there
 
 ---
 
-*Compiled read-only from the live tree at HEAD `d2d49ec`. Paths cross-checked against the `candidates/`
+*Compiled read-only from the live tree at HEAD `83faa9c`. Paths cross-checked against the `candidates/`
 tree and `docs/publishing/OWNER-QUEUE.md`; where `docs/current-state.md` lagged the live tree it is
 flagged inline. No invented metrics — all sales/traffic figures are owner-dashboard-only.*
